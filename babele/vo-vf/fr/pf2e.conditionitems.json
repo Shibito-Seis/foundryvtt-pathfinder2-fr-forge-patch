@@ -1,0 +1,184 @@
+{
+    "label": "États",
+    "entries": {
+        "Fascinated": {
+            "name": "Fascinated (Fasciné)",
+            "description": "<p>Vous êtes obligé de concentrer votre attention sur quelque chose, ce qui vous distrait de toute autre chose qui se déroule autour de vous. Vous subissez une pénalité de statut de -2 à la Perception et aux tests de compétence et vous ne pouvez pas utiliser d'actions ayant le trait concentration à moins qu'elles (ou leurs conséquences prévues) ne soient en rapport avec le sujet de votre fascination, à l'appréciation du MJ. Par exemple, vous pourriez être capable de @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} ou de @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Vous souvenir} à propos de ce sujet, mais vous ne pourriez probablement pas lancer un sort ciblant une créature différente. Cet état prend fin si une créature utilise des actions hostiles contre vous ou l'un quelconque de vos alliés.</p>"
+        },
+        "Controlled": {
+            "name": "Controlled (Contrôlé)",
+            "description": "<p>Vous avez été commandé, dominé magiquement ou votre volonté a été subvertie d'une autre manière. Le contrôleur vous dicte comment agir et peut vous faire utiliser n'importe quelle action, incluant des attaques, des réactions ou même vous faire utiliser @UUID[Compendium.pf2e.actionspf2e.Item.A72nHGUtNXgY5Ey9]{Retarder}. Cette créature n'a généralement pas besoin de dépenser ses propres actions lorsqu'elle vous contrôle.</p>"
+        },
+        "Quickened": {
+            "name": "Quickened (Accéléré)",
+            "description": "<p>Vous êtes capable d'agir plus rapidement. Vous obtenez 1 action supplémentaire au début de votre tour à chaque round. De nombreux effets qui vous rendent Accéléré vous imposent d'utiliser cette action supplémentaire d'une certaine manière. Si vous êtes Accéléré par plusieurs sources, vous pouvez utiliser l'action supplémentaire que vous obtenez pour entreprendre n'importe quelle action permise par toutes ces sources. Comme l'état Accéléré produit son effet au début de votre tour, vous n'obtenez pas immédiatement des actions si vous êtes Accéléré au cours de votre tour.</p>"
+        },
+        "Fleeing": {
+            "name": "Fleeing (En fuite)",
+            "description": "<p>Vous êtes forcé de prendre la fuite à cause de la peur ou d'une autre compulsion. Lors de votre tour, vous devez utiliser chacune de vos actions pour échapper à la source de votre état de fuite aussi rapidement que possible (en utilisant des actions de mouvement pour fuir ou ouvrir des portes qui vous barrent le chemin, par exemple). La source est habituellement l'effet ou l'incantateur qui vous a infligé cet état, bien que certains effets puissent désigner quelque chose d'autre comme en étant la source. Vous ne pouvez pas utiliser les actions @UUID[Compendium.pf2e.actionspf2e.Item.A72nHGUtNXgY5Ey9]{Retarder} ou @UUID[Compendium.pf2e.actionspf2e.Item.dLgAMt3TbkmLkUqE]{Préparer} lorsque vous êtes en fuite.</p>"
+        },
+        "Broken": {
+            "name": "Broken (Brisé)",
+            "description": "<p>Brisé est un état qui affecte les objets. Un objet est brisé quand des dégâts ont réduit ses Points de vie en dessous de son Seuil de rupture. Un objet brisé ne peut ni être utilisé à sa fonction ordinaire, ni accorder de bonus, à l'exception d'une armure. Une armure brisée accorde toujours son bonus d'objet à la CA, mais inflige en même temps une pénalité de statut à la CA en fonction de sa catégorie : -1 pour une armure légère, -2 pour une armure intermédiaire ou -3 pour une armure lourde.</p>\n<p>Un objet brisé impose toujours les pénalités et les limitations normalement encourues lorsqu'on le transporte, le tient ou le porte. Par exemple, une armure brisée imposera toujours son bonus de Dextérité maximal, sa pénalité aux tests, etc.</p>\n<p>Si un effet fait se briser un objet automatiquement et que celui-ci a plus de Points de vie que son Seuil de rupture, cet effet réduit également les Points de vie actuels de l'objet à son Seuil de rupture.</p>"
+        },
+        "Drained": {
+            "name": "Drained (Drainé)",
+            "description": "<p>Votre santé et votre vitalité ont été épuisées lorsque vous avez perdu du sang, votre force vitale ou une autre essence. L'état Drainé est toujours accompagné d'une valeur. Vous subissez une pénalité de statut égal à la valeur de votre état Drainé et qui s'applique à tous les jets et DD basés sur la Constitution, tels que les jets de Vigueur. Vous perdez également un nombre de Points de vie égal à votre niveau (avec un minimum de 1) multiplié par la valeur de votre état Drainé et votre maximum de Points de vie est réduit de ce montant. Par exemple, si vous devenez Drainé 3 et que vous êtes un personnage de niveau 3, vous perdez 9 Points de vie et réduisez votre maximum de Points de vie de 9. Perdre ces Points de vie n'est pas considéré comme subir des dégâts.</p>\n<p>À chaque fois que vous vous reposez une nuit complète, la valeur de votre état Drainé diminue de 1. Cela accroît votre maximum de Points de vie, mais vous ne récupérez pas immédiatement les Points de vie que vous avez perdus.</p>"
+        },
+        "Frightened": {
+            "name": "Frightened (Effrayé)",
+            "description": "<p>Vous êtes paralysé par la peur et vous luttez pour ne pas céder à la panique. L'état Effrayé est toujours accompagné d'une intensité. Vous subissez une pénalité de statut égal à cette valeur pour tous vos tests et DD. Sauf indication contraire, l'intensité de votre état effrayé décroît de 1 à la fin de chacun de vos tours.</p>"
+        },
+        "Encumbered": {
+            "name": "Encumbered (Surchargé)",
+            "description": "<p>Vous transportez plus de poids que vous ne pouvez en gérer. Tant que vous êtes surchargé, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} et vous subissez une pénalité de 3 mètres à toutes vos Vitesses. Comme pour l'ensemble des pénalités infligées à votre Vitesse, cette dernière ne peut être réduite à moins de 1,50 mètre.</p>"
+        },
+        "Petrified": {
+            "name": "Petrified (Pétrifié)",
+            "description": "<p>Vous avez été changé en pierre. Vous ne pouvez ni agir, ni percevoir quoi que ce soit. Vous devenez un objet avec un Encombrement égal au double de votre Encombrement normal (généralement 12 pour une créature Moyenne pétrifiée ou 6 pour une Petite créature pétrifiée), possédez une CA 9, une Solidité 8 et la même quantité de Points de vie que vous aviez avant d'être pétrifié. Vous n'avez pas de Seuil de rupture. Quand l'état Pétrifié se termine, vous conservez la même quantité de Points de vie que vous aviez en tant que statue. Si la statue est détruite, vous mourrez immédiatement. Tant que vous êtes pétrifié, votre corps et votre esprit sont placés en stase, de sorte que vous ne vieillissez pas ni ne remarquez le passage du temps.</p>"
+        },
+        "Undetected": {
+            "name": "Undetected (Non détecté)",
+            "description": "<p>Lorsque vous êtes non détecté par une créature, celle-ci ne peut pas vous voir du tout, n'a aucune idée de l'espace que vous occupez et elle ne peut pas vous cibler, bien que vous puissiez toujours être affecté par les capacités qui ciblent une zone. Quand vous êtes non détecté par une créature, celle-ci se trouve @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} à votre égard.</p>\n<p>Une créature face à laquelle vous êtes non détecté peut tenter de deviner quel espace vous occupez afin de vous prendre pour cible. Elle doit choisir une case et tenter une attaque. Cela fonctionne comme cibler cibler une créature @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Cachée} (nécessitant de faire un @Check[flat|dc:11]), mais le test nu et le jet d'attaque sont lancés en secret par le MJ qui ne révèle pas si l'attaque est un échec à cause du test nu, du jet d'attaque ou d'un mauvais choix de case. Une créature peut @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} pour tenter de vous trouver.</p>"
+        },
+        "Hidden": {
+            "name": "Hidden (Caché)",
+            "description": "<p>Lorsque vous êtes Caché d'une créature, celle-ci sait dans quelle espace vous vous trouvez mais ne peut pas dire précisément où vous êtes. Vous devenez généralement Caché après avoir utilisé Discrétion pour @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Vous cacher}. Quand vous @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Cherchez} une créature en utilisant seulement un sens imprécis, elle reste Cachée plutôt qu'@UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observée}. Une créature par rapport à laquelle vous êtes Caché est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} face à vous et elle doit réussir un @Check[flat|showDC:all|dc:11] quand elle vous cible avec une attaque, un sort ou un autre effet ou elle ne parvient pas à vous affecter. Les effets de zone ne sont pas sujets à ce test nu.</p>\n<p>Une créature pourrait être capable d'utiliser l'action Chercher pour tenter de vous Observer.</p>"
+        },
+        "Clumsy": {
+            "name": "Clumsy (Maladroit)",
+            "description": "<p>Vos mouvements deviennent maladroits et incertains. L'état Maladroit est toujours accompagné d'une valeur. Vous subissez une pénalité de statut égale à la valeur de l'état qui s'applique à vos tests et à vos DD basés sur la Dextérité, y compris votre CA, vos jets de Réflexes, vos jets d'attaque à distance et vos tests de compétences basés sur Acrobaties, Discrétion et Vol.</p>"
+        },
+        "Unfriendly": {
+            "name": "Unfriendly (Inamical)",
+            "description": "<p>Cet état reflète la disposition d'une créature envers un personnage donné et seul des effets surnaturels (comme un sort) peuvent imposer cet état sur un PJ. Une créature qui est inamicale envers un personnage en particulier ne l'aime pas et ne lui fait pas confiance. La créature inamicale n'acceptera pas les @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Sollicitations} de ce personnage.</p>"
+        },
+        "Immobilized": {
+            "name": "Immobilized (Immobilisé)",
+            "description": "<p>Vous êtes incapable de vous déplacer. Vous ne pouvez utiliser aucune action qui possède le trait déplacement. Si vous êtes immobilisé par quelque chose qui vous retient sur place et qu'une force extérieure tente de vous faire quitter votre espace, cette force doit réussir un test soit contre le DD de l'effet, soit la défense adaptée (généralement le DD de Vigueur) du monstre qui vous retient sur place.</p>"
+        },
+        "Hostile": {
+            "name": "Hostile",
+            "description": "<p>Cet état reflète la disposition d'une créature envers un personnage spécifique et seul un effet surnaturel (comme un sort) peut l'infliger à un PJ. Une créature hostile à un personnage souhaite activement faire du mal au personnage. Elle ne l'attaquera pas nécessairement, mais elle refusera d'accéder aux @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Sollicitations} de ce personnage.</p>"
+        },
+        "Restrained": {
+            "name": "Restrained (Entravé)",
+            "description": "<p>Vous êtes attaché et pouvez à peine bouger, ou une créature vous a coincé. Vous obtenez les états @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} et @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisé} et vous ne pouvez utiliser aucune action dotée des traits attaque ou manipulation, sauf pour tenter de @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Vous échapper} ou d'@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Ouvrir de force} vos liens. Entravé est prépondérant sur @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé}.</p>"
+        },
+        "Confused": {
+            "name": "Confused (Confus)",
+            "description": "<p>Vous n'avez pas toute votre tête et vous attaquez sauvagement. Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu}, ne traitez personne comme votre allié (bien qu'ils pourraient toujours vous considérer comme tel) et vous ne pouvez utiliser Retarder et Préparer ni utiliser de réactions.</p>\n<p>Vous utilisez toutes vos actions pour Frapper ou lancer des tours de magie offensifs, bien que le MJ puisse toujours vous permettre de faire d'autres actions facilitant vos attaques, comme dégainer une arme, mettre une cible dans votre allonge et ainsi de suite. Vos cibles sont choisies aléatoirement par le MJ. Si vous n'avez pas d'autre cible viable, vous vous prenez vous-même pour cible, vous touchant alors automatiquement, sans porter de coup critique. Si vous êtes dans l'impossibilité d'attaquer ou de lancer des sorts, vous marmonnez des choses incohérentes, gâchant vos actions.</p>\n<p>Chaque fois que vous subissez des dégâts provenant d'une attaque ou d'un sort, vous pouvez tenter un @Check[flat|dc:11] pour récupérer de votre confusion et mettre un terme à cet état.</p>"
+        },
+        "Prone": {
+            "name": "Prone (À terre)",
+            "description": "<p>Vous êtes étendu au sol. Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} et subissez une pénalité de circonstances de -2 à vos jets d'attaque. Les seules actions de mouvement que vous pouvez utiliser lorsque vous êtes à terre sont @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Ramper} et @UUID[Compendium.pf2e.actionspf2e.Item.OdIUybJ3ddfL7wzj]{Vous relever}. Se relever met un terme à l'état À terre. Vous pouvez vous @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Mettre à l'abri} lorsque vous êtes à terre pour vous accroupir et bénéficier d'un abri contre les attaques à distance, même si vous ne vous abritez pas derrière un objet, vous faisant bénéficier d'un bonus de circonstances de +4 à votre CA contre les attaques à distance (mais restez Pris au dépourvu).</p>\n<p>Si vous devriez tomber à terre alors que vous @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Escaladez} ou @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Volez}, vous chutez. Vous ne pouvez pas être À terre quand vous @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Nagez}.</p>"
+        },
+        "Stupefied": {
+            "name": "Stupefied (Stupéfié)",
+            "description": "<p>Vos pensées et vos instincts sont embrouillés. L'état Stupéfié est toujours accompagné d'une valeur. Vous subissez une pénalité de statut égal à cette valeur sur les tests et les DD basés sur l'Intelligence, la Sagesse et le Charisme, y compris vos jets de Volonté, vos modificateurs d'attaque de sort, vos DD de sorts et vos tests de compétences qui utilisent ces modificateurs d'attribut. À chaque fois que vous tentez de @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lancer un sort} alors que vous êtes Stupéfié, ce sort est interrompu à moins de réussir un @Check[flat|showDC:all|dc:resolve(5+@item.badge.value)]{test nu} dont le DD est égal à 5 + la valeur de votre état Stupéfié.</p>"
+        },
+        "Slowed": {
+            "name": "Slowed (Ralenti)",
+            "description": "<p>Vous disposez de moins d'actions. L'état Ralenti inclut une valeur. Lorsque vous regagnez des actions, réduisez la quantité d'actions que vous obtenez de la valeur de votre état Ralenti. Comme vous obtenez des actions au début de votre tour, vous ne perdez pas immédiatement des actions si vous obtenez cet état au cours de votre tour.</p>"
+        },
+        "Friendly": {
+            "name": "Friendly (Amical)",
+            "description": "<p>Cet état reflète la disposition d'une créature envers un personnage spécifique et seul les effets surnaturels (comme un sort) peuvent infliger cet état sur une PJ. Une créature qui est amicale envers un personnage apprécie ce personnage. Elle répondra probablement favorablement aux sollicitations de ce personnage tant qu'elles sont simples, dénuée de risque, et qu'il ne lui en coûte pas trop de les remplir. Si le personnage (ou l'un de ses alliés) utilise une action hostile contre la créature, la créature obtient un état d'attitude qui se dégrade en fonction de la sévérité de l'hostilité de l'action, déterminé par le MJ.</p>"
+        },
+        "Dazzled": {
+            "name": "Dazzled (Ébloui)",
+            "description": "<p>Vos yeux ont été soumis à un excès de stimuli ou votre vision est en train de se brouiller. Si la vue est votre unique sens précis, toutes les créatures et les objets vous sont @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqués}.</p>"
+        },
+        "Unconscious": {
+            "name": "Unconscious (Inconscient)",
+            "description": "<p>Vous dormez ou avez été assommé. Vous ne pouvez pas agir. Vous subissez une pénalité de -4 à votre CA, à votre Perception et à vos jets de Réflexes et vous avez les états @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveugle} et @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu}. Quand vous obtenez cet état, vous tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et lâchez les objets que vous tenez en main, à moins que l'effet ne précise le contraire ou que le MJ détermine que vous êtes dans une situation qui ne s'y prête pas.</p>\n<p>Si vous êtes inconscient parce que vous êtes @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Mourant}, vous ne pouvez pas vous réveiller tant que vous êtes réduit à 0 Point de vie. Si vous repassez à 1 Point de vie ou plus, vous perdez les états Mourant et Inconscient et pouvez agir normalement lors de votre prochain tour.</p>\n<p>Si vous êtes inconscient et avez 0 Point de vie mais n'êtes pas Mourant, vous regagnez naturellement 1 Point de vie et vous éveillez après qu'un certain temps a passé. Le MJ détermine alors combien de temps vous êtes inconscient : un intervalle allant d'un minimum de 10 minutes à plusieurs heures. Si vous êtes soigné, vous perdez l'état inconscient et pouvez agir normalement lors de votre prochain tour.</p>\n<p>Si vous êtes inconscient et avez plus de 1 Point de vie (typiquement parce que vous êtes endormi ou rendu inconscient par un effet), vous vous réveillez pour l'une des raisons suivantes.</p>\n<ul>\n<li>Vous subissez des dégâts, bien que si ces dégâts vous réduisent à 0 Point de vie, vous restez inconscient et obtenez également l'état mourant comme à l'ordinaire.</li>\n<li>Vous recevez des soins, autre que la guérison naturelle dont vous bénéficiez en vous reposant.</li>\n<li>Quelqu'un vous réveille avec une action Interagir.</li>\n<li>Un bruit fort autour de vous pourrait vous réveiller. Au début de votre tour, vous faites automatiquement un test de Perception contre le DD du bruit (ou, s'il s'agit de plusieurs bruits, le DD le moins élevé) et vous vous réveillez en cas de succès. Si des créatures se trouvent autour de vous et tentent de rester discrètes, ce test de Perception utilise leur DD de Discrétion. Certains effets vous font sombrer dans un sommeil si profond qu'ils n'autorisent pas ce test de Perception.</li>\n<li>Si vous êtes simplement endormi, le MJ peut décider que vous vous réveillez parce que vous avez assez dormi ou parce que quelque chose a troublé votre sommeil.</li>\n</ul>"
+        },
+        "Persistent Damage": {
+            "name": "Persistent Damage (Dégâts persistants)",
+            "description": "<p>Vous subissez des dégâts persistants par un effets en cours, tel qu'être en feu. Ils se présentent sous la forme « X dégâts de [type] persistants », où « X » représente la quantité de dégâts infligés et le « [type] » correspond au type de dégâts. Comme les dégâts ordinaires, ils peuvent être doublés ou divisés de moitié en fonction du résultat d'un jet d'attaque ou d'un jet de sauvegarde. Au lieu de recevoir immédiatement les dégâts persistants, vous les recevez à la fin de chacun de vos tours tant que vous avez cet état, relançant les dés de dégâts de nouveau à chaque fois. Après avoir subi des dégâts persistants, faites un @Check[flat|showDC:all|dc:15] pour voir si vous récupérez des dégâts persistants. Sur un succès, l'état se termine.</p>"
+        },
+        "Dying": {
+            "name": "Dying (Mourant)",
+            "description": "<p>Vous vous videz de votre sang ou vous trouvez aux portes de la mort. Lorsque vous avez cet état, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient}. Mourant inclut toujours une valeur et, si celle-ci atteint jamais Mourant 4, vous mourez. Si vous êtes Mourant, vous devez tenter un test de récupération au début de votre tour à chaque round pour déterminer si votre état s'améliore ou se dégrade. La valeur de votre état Mourant augmente de 1 si vous subissez des dégâts alors que vous êtes Mourant ou de 2 si vous subissez des dégâts infligés par un coup critique ou un échec critique sur votre jet de sauvegarde.</p>\n<p>Si vous perdez l'état Mourant parce que vous avez réussi un test de récupération mais que vous êtes toujours à 0 Point de vie, vous restez Inconscient, mais vous pouvez vous réveiller comme indiqué pour cet état. Chaque fois que vous quittez l'état Mourant, vous obtenez l'état @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessé 1} ou vous augmentez la valeur de votre état Blessé de 1 si vous subissez déjà cet état.</p>"
+        },
+        "Cursebound": {
+            "name": "Cursebound (Lié à la malédiction)",
+            "description": "<p>Votre malédiction oraculaire vous enserre lorsque vous recevez une punition divine après avoir puisé trop profondément sur vos pouvoirs de mystère. Lié à la malédiction est un état qui n'affecte que les créatures avec une malédiction oraculaire et Lié à la malédiction inclut toujours une valeur. Votre malédiction oraculaire spécifique impose d'uniques effets négatifs en fonction de la valeur de l'état Lié à la malédiction. Vous pouvez retirer l'état Lié à la malédiction qu'en Refocalisant.</p>"
+        },
+        "Stunned": {
+            "name": "Stunned (Étourdi)",
+            "description": "<p>Vous êtes inerte. Vous ne pouvez pas agir. L'état Étourdi s'accompagne habituellement d'une valeur qui indique la quantité d'actions que vous perdez, possiblement sur plusieurs tours, du fait d'être Étourdi. À chaque fois que vous regagnez des actions, vous déduisez la quantité d'actions regagnées de la valeur de votre état Étourdi, puis vous déduisez la valeur de votre état Étourdi par le nombre d'actions que vous avez perdues. Par exemple, si vous étiez @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 4}, vous devriez perdre la totalité de vos 3 actions au début de votre tour, réduisant la valeur de votre état Étourdi à 1. Lors de votre prochain tour, vous perdrez 1 action supplémentaire et serez capable d'utiliser vos 2 actions restantes normalement. L'état Étourdi peut aussi être assorti d'une durée à la place d'une valeur, comme « Étourdi pendant 1 minute », vous faisant perdre la totalité de vos actions pendant la durée indiquée.</p>\n<p>L'état Étourdi l'emporte sur l'état @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti}. Si la durée de votre état Étourdi se termine lorsque vous êtes Ralenti, les actions perdues du fait de l'état Étourdi sont prises en compte dans le décompte des actions perdues du fait de l'état Ralenti. Ainsi, si vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1} et Ralenti 2 au début de votre tour, vous perdez 1 action à cause de l'état Étourdi puis perdez 1 action supplémentaire car vous êtes Ralenti, de sorte que vous aurez 1 action restante à utiliser durant ce tour.</p>"
+        },
+        "Wounded": {
+            "name": "Wounded (Blessé)",
+            "description": "<p>Vous avez été gravement blessé. Si vous perdez l'état @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Mourant} et n'avez pas encore l'état Blessé, vous devenez Blessé 1. Si vous avez déjà l'état Blessé lorsque vous perdez l'état Mourant, la valeur de votre état blessé augmente de 1. Si vous obtenez l'état Mourant alors que vous êtes Blessé, augmentez la valeur de votre état Mourant de celle de votre état blessé.</p>\n<p>L'état blessé prend fin si quelqu'un réussit à vous rendre des Points de vie en utilisant @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Soigner les blessures} ou si vous récupérez l'ensemble de vos Points de vie par n'importe quel moyen et que vous vous reposez pendant 10 minutes.</p>"
+        },
+        "Off-Guard": {
+            "name": "Off-Guard (Pris au dépourvu)",
+            "description": "<p>Vous êtes distrait ou autrement incapable de consacrer votre pleine attention à votre défense. Vous subissez une pénalité de circonstances de -2 à la CA. Certains effets vous donnent l'état Pris au dépourvu seulement à l'encontre de certaines créatures ou contre certaines attaques. D'autres, plus particulièrement les états, peuvent vous rendre Pris au dépourvu contre tout. Si une règle ne spécifie pas que cet état ne s'applique que dans certaines circonstances, il s'applique à toutes les circonstances. Par exemple, nombre d'effets disent simplement : « la cible est Prise au dépourvu. »</p>"
+        },
+        "Invisible": {
+            "name": "Invisible",
+            "description": "<p>Vous ne pouvez pas être vu. Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détecté} par quiconque. Les créatures peuvent @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} pour vous détecter. Si une créature réussit son test de Perception opposé à votre DD de Discrétion, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Caché} à l'égard de cette créature jusqu'à ce que vous réussissiez à @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtif} pour devenir Non détecté de nouveau. Si vous devenez invisible alors que quelqu'un peut déjà vous voir, vous commencez dans l'état Caché à son égard (au lieu de Non détecté) jusqu'à ce que vous réussissiez à Être furtif. Vous ne pouvez pas devenir @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observé} alors que vous êtes invisible, sauf par le biais de capacités spéciales ou la magie.</p>"
+        },
+        "Sickened": {
+            "name": "Sickened (Nauséeux)"
+        },
+        "Fatigued": {
+            "name": "Fatigued (Fatigué)",
+            "description": "<p>Vous êtes épuisé et ne pouvez pas rassembler plus d'énergie. Vous subissez une pénalité de statut de -1 à votre CA et à vos jets de sauvegarde. Vous ne pouvez utiliser d'activité d'exploration accomplies en voyageant.</p>\n<p>Vous vous remettez de la fatigue après une nuit de repos complète.</p>"
+        },
+        "Grabbed": {
+            "name": "Grabbed (Agrippé)",
+            "description": "<p>Vous êtes maintenu en place par une autre créature, ce qui vous confère les états @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} et @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisé}. Si vous tentez une action de manipulation alors que vous êtes agrippé, vous devez réussir un @Check[flat|dc:5] ou elle est perdue. Faites le test après avoir dépensé l'action, mais avant que ses effets ne soient appliqués.</p>"
+        },
+        "Concealed": {
+            "name": "Concealed (Masqué)",
+            "description": "<p>Vous êtes difficile à voir pour une ou plusieurs créatures à cause d'un épais brouillard ou d'un autre élément occultant. Vous pouvez être Masqué de certaines créatures mais pas à l'égard des autres. Lorsque vous êtes masqué, vous pouvez toujours être @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observé}, mais vous êtes plus compliqué à cibler. Une créature face à laquelle vous êtes Masqué doit réussir un @Check[flat|showDC:all|dc:5] lorsqu'elle vous cible avec une attaque, un sort ou un autre effet. Si le jet est un échec, vous n'être pas affecté. Les zones d'effet ne sont pas sujettes à ce test nu.</p>"
+        },
+        "Indifferent": {
+            "name": "Indifferent (Indifférent)",
+            "description": "<p>Cet état reflète l'attitude d'une créature envers un personnage donné et n'affecte que les créatures qui ne sont pas des personnages joueurs. Une créature indifférente n'a aucun préjugé positif ou négatif envers ce personnage. Sauf indication contraire, partez du principe que l'attitude par défaut d'une créature envers un personnage est indifférente.</p>"
+        },
+        "Deafened": {
+            "name": "Deafened (Sourd)",
+            "description": "<p>Vous ne pouvez pas entendre. Vous obtenez automatiquement un échec critique aux tests de Perception qui nécessitent que vous puissiez les entendre. Vous subissez une pénalité de statut de -2 à vos tests de Perception pour déterminer l'initiative et aux tests en rapport avec le son mais comptent aussi sur d'autres sens. Si vous accomplissez une action qui possède le trait audible, vous devez réussir un @Check[flat|showDC:all|dc:5] ou perdre l'action. Vous faites ce test après avoir dépensé l'action mais avant que tout effet ne soit appliqué. Vous êtes immunisé contre les effets audibles tant que vous êtes Sourd.</p>"
+        },
+        "Unnoticed": {
+            "name": "Unnoticed (Inaperçu)",
+            "description": "<p>Si vous êtes inaperçu aux yeux d'une créature, cette créature n'a aucune idée que vous êtes présent. Lorsque vous êtes inaperçu par une créature, vous êtes également @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détecté} par elle. Cela importe pour les capacité qui ne peuvent être utilisées que contre des cibles qui ignorent totalement votre présence.</p>"
+        },
+        "Enfeebled": {
+            "name": "Enfeebled (Affaibli)",
+            "description": "<p>Vous êtes physiquement affaibli. L'état affaibli est toujours accompagné d'une intensité. Quand vous êtes affaibli, vous subissez une pénalité de statut égal à l'intensité de votre état qui s'applique à vos jets et vos DD basés sur la Force, dont les jets d'attaque basés sur la Force, les jets de dégâts basés sur la Force et les tests d'Athlétisme.</p>"
+        },
+        "Observed": {
+            "name": "Observed (Observé)",
+            "description": "<p>Tout ce qui est dans votre champ de vision est observé par vos soins. Si une créature prend des mesures pour éviter la détection, comme en utilisant sa Discrétion pour @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Se cacher}, elle peut devenir @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Cachée} ou @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détectée} au lieu d'observée. Si vous disposez d'un autre sens précis en plus de la vue, vous pourriez être capable d'observer une créature ou un objet en utilisant ce sens à la place. Vous ne pouvez observer une créature qu'à l'aide d'un sens précis. Lorsque vous @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Cherchez} une créature en utilisant seulement des sens imprécis, elle reste Cachée plutôt qu'observée.</p>"
+        },
+        "Doomed": {
+            "name": "Doomed (Condamné)",
+            "description": "<p>Votre âme a été saisie par une force puissante qui vous rapproche de la mort. Condamné est toujours accompagné d'une valeur. La valeur maximale de l'état @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Mourant} à partir de laquelle vous mourez est diminuée de la valeur de votre état Condamné. Si la valeur maximale de l'état Mourant est réduite à 0, vous mourez instantanément. Lorsque vous mourez, vous perdez l'état Condamné.</p>\n<p>La valeur de votre état Condamné est diminuée de 1 à chaque fois que vous prenez une nuit de repos complet.</p>"
+        },
+        "Paralyzed": {
+            "name": "Paralyzed (Paralysé)",
+            "description": "<p>Vous êtes figé sur place. Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} et ne pouvez agir, sauf pour @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Vous souvenir} de quelque chose et entreprendre des actions qui ne nécessitent que votre esprit (déterminées par le MJ). Vos sens fonctionnent toujours, mais seulement dans les zones que vous pouvez percevoir sans bouger, de sorte que vous ne pouvez pas @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher}.</p>"
+        },
+        "Blinded": {
+            "name": "Blinded (Aveuglé)",
+            "description": "<p>Vous ne pouvez voir. Tous les terrains normaux vous sont des terrains difficiles. Vous ne pouvez rien détecter en utilisant votre vision. Vous obtenez automatiquement un échec critique sur les tests de Perception qui nécessitent que vous soyez capable de voir et, si votre vision est votre seul sens précis, vous subissez une pénalité de statut de -4 à vos tests de Perception. Vous êtes immunisé contre les effets visuels. Aveuglé est prépondérant sur @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ébloui}.</p>"
+        },
+        "Helpful": {
+            "name": "Helpful (Serviable)",
+            "description": "<p>Cet état reflète la disposition d'une créature envers un personnage particulier et seul un effet surnaturel (comme un sort) peut infliger cet état à un PJ. Une créature qui est serviable envers un personnage souhaite activement aider ce personnage. Elle acceptera des @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Sollicitations} raisonnables de ce personnage, tant que de telles requêtes ne se font pas aux dépens des objectifs ou de la qualité de vie de la créature serviable. Si le personnage (ou l'un de ses alliés) entreprend une action hostile contre la créature, cette dernière obtient un état d'attitude dégradée en fonction de la sévérité de l'action hostile, déterminé par le MJ.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

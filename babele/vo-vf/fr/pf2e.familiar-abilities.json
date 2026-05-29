@@ -1,0 +1,477 @@
+{
+    "label": "Pouvoirs des familiers",
+    "entries": {
+        "Scent": {
+            "name": "Scent (Odorat)",
+            "description": "<p>Votre familier peut utiliser odorat comme sens imprécis dans les 9 mètres.</p>"
+        },
+        "Manual Dexterity": {
+            "name": "Manual Dexterity (Dextérité manuelle)",
+            "description": "<p>Votre familier peut utiliser jusqu'à deux de ses membres comme s'il s'agissait de mains pour accomplir des actions de manipulation.</p>"
+        },
+        "Amphibious": {
+            "name": "Amphibious (Amphibie)",
+            "description": "<p>Votre familier obtient le trait amphibie, lui permettant de respirer dans l'air comme dans l'eau et possède à la fois une Vitesse au sol et une vitesse de nage, chacune égale à la plus élevée de ses vitesses au sol ou de Nage.</p>"
+        },
+        "Luminous": {
+            "name": "Luminous (Lumineux)",
+            "description": "<p>Votre familier brille d'une lumière réconfortante. Il diffuse une lumière vive dans un rayon de 9 mètres et une lumière faible dans les 9 mètres qui suivent. Il peut supprimer ou reprendre cette lumière en utilisant une action, qui possède le trait concentration.</p>"
+        },
+        "Poison Reservoir": {
+            "name": "Poison Reservoir (Réservoir de poison)",
+            "description": "<p>Votre familier possède un réservoir pour le poison, permettant d'appliquer un poison de blessure à l'arme exposée d'un allié adjacent par une unique action Interagir. Vous devez fournir le poison et l'instiller dans le réservoir en utilisant deux actions Interagir consécutives. Vous devez posséder un familier homoncule pour choisir ce pouvoir.</p>"
+        },
+        "Spirit Touch": {
+            "name": "Spirit Touch (Contact spirituel)",
+            "description": "<p>Votre familier peut toucher les créatures intangibles. Si vous avez le pouvoir de maître transfert de sort par votre familier, tout sort que le familier délivre obtient les avantages de la rune de propriété <em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Spectrale}</em>.</p>"
+        },
+        "Touch Telepathy": {
+            "name": "Touch Telepathy (Télépathie de contact)",
+            "description": "<p>Votre familier peut communiquer télépathiquement avec vous par le contact. S'il possède également la capacité parole, il peut télépathiquement communiquer par le contact avec toute créature avec laquelle il partage une langue.</p>"
+        },
+        "Darkvision": {
+            "name": "Darkvision (Vision dans le noir)",
+            "description": "<p>Votre familier gagne vision dans le noir.</p>"
+        },
+        "Stunning Flare": {
+            "name": "Stunning Flare (Lueur éblouissante)",
+            "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<hr />\n<p><strong>Effet</strong> Votre lanterne à feux follets libère une large explosion de flammes, projetant une lumière étrangement vive. Chaque créature dans une @Template[type:emanation|distance:15]{émanation de 4,50 mètres} doit tenter un jet de @Check[fortitude|against:class-spell] contre le plus élevé entre votre DD de classe ou votre DD de sort ou être @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveugle} pendant 1 round et puis après @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} pendant 2 rounds.</p>"
+        },
+        "Item Delivery": {
+            "name": "Item Delivery (Livreur d'objet)",
+            "description": "<p>Si votre familier vous est adjacent, vous pouvez le Diriger pour livrer un objet. Au lieu de ses 2 actions ordinaires, votre familier Interagit pour prendre un objet d'Encombrement léger ou inférieur que vous tenez, puis entreprend une action de déplacement, puis Interagit finalement pour passer l'objet à une autre créature consentante.</p>\n<p>Ile peut administrer l'objet à la créature s'il peut le faire avec 1 action et possède le type approprié d'objet (comme un élixir alchimique). Si votre familier n'atteint pas la cible au cours de ce tour, il tient l'objet à moins qu'il ne reçoive un autre ordre. Votre familier doit posséder le pouvoir dextérité manuelle pour choisir celui-ci.</p>"
+        },
+        "Alchemical Gut": {
+            "name": "Alchemical Gut (Entrailles alchimiques)",
+            "description": "<p>Votre familier peut agir comme un <em>@UUID[Compendium.pf2e.equipment-srd.Item.B4wxZ7mvBDJPWPvZ]{Alambic coagulateur de bombe}</em> en avalant la bombe qui doit être affectée, ce qui lui prend deux actions Interagir et une à vous-même. Votre familier régurgite l'objet concentré 1 minute plus tard. Si votre familier essaie de distiller une bombe dont le niveau est supérieur au vôtre -1, il subit à la place des dégâts égaux à ceux qu'il aurait subi s'il avait été touché avec succès par la bombe.</p>"
+        },
+        "Elemental Familiar (Earth)": {
+            "name": "Elemental Familiar (Earth) (Familier élémentaire (terre))",
+            "description": "<p>Votre familier obtient le trait élémentaire terre.</p>\n<p>Votre familier obtient une résistance aux dégâts physiques (sauf adamantium) égale à la moitié de votre niveau.</p>"
+        },
+        "Spell Battery": {
+            "name": "Spell Battery (Accumulateur de sort)",
+            "description": "<p>Vous obtenez un emplacement de sort supplémentaire d'au moins 3 rangs inférieurs à votre emplacement de sort de plus haut rang ; vous devez être capable de lancer des sorts de rang 4 en utilisant des emplacements de sorts pour sélectionner ce pouvoir de maître.</p>"
+        },
+        "Flatten": {
+            "name": "Flatten (Applati)",
+            "description": "<p>Votre familier peut s'aplatir de lui-même à l'épaisseur d'une feuille de papier, se faufilant aisément à travers la plus petite des fentes et le moindre trou. Tant qu'une porte ou un autre obstacle possède une ouverture dans laquelle peut passer une feuille de papier, votre familier peut se déplacer sans avoir besoin de Se faufiler.</p>"
+        },
+        "Cantrip Connection": {
+            "name": "Cantrip Connection (Lien avec les tours de magie)",
+            "description": "<p>Vous pouvez préparer un tour de magie supplémentaire ou, si vous possédez un répertoire, désigner à la place un tour de magie à lui ajouter à chaque fois que vous sélectionnez ce pouvoir. Vous pouvez le réapprendre, mais vous ne pouvez pas autrement le changer. Vous devez être capable de préparer des tours de magie ou de les ajouter à votre répertoire pour pouvoir le choisir.</p>"
+        },
+        "Darkeater": {
+            "name": "Darkeater (Mangeur noir)",
+            "description": "<p>Votre familier récupère naturellement dans les ombres. Après avoir passé 10 minutes consécutives dans une zone de lumière faible ou d'obscurité, votre familier récupère un nombre de Points de vie égal à la moitié de votre niveau.</p>\n<p>Cette capacité est destinée à un familier de l'ombre. Cependant, un incantateur de l'ombre peut sélectionner cette capacité pour n'importe quel type de familier.</p>"
+        },
+        "Familiar of Overwhelming Tides": {
+            "name": "Familiar of Overwhelming Tides (Familier des marées irrésistibles)",
+            "description": "<p>Votre familier dégouline constamment d'eau de l'océan. Lorsque vous Lancez ou Maintenez un maléfice, vous pouvez faire surgir une petite vague de votre familier. Une créature située à 3 mètres de votre familier est poussée par rapport à votre familier de 1,50 mètre.</p>"
+        },
+        "Elemental Familiar (Metal)": {
+            "name": "Elemental Familiar (Metal) (Familier élémentaire (métal))",
+            "description": "<p>Votre familier obtient le trait élémentaire métal.</p>\n<p>Votre familier obtient une résistance aux dégâts des armes métalliques égale à la moitié de votre niveau.</p>"
+        },
+        "Fast Movement": {
+            "name": "Fast Movement (Déplacement rapide)",
+            "description": "<p>Augmentez l'une des Vitesses de votre familier de 7,50 à 12 mètres.</p>"
+        },
+        "Toolbearer": {
+            "name": "Toolbearer (Porte outils)",
+            "description": "<p>Votre familier peut transporter un jeu d'outils correspondant à un Encombrement léger. Tant que votre familier vous est adjacent, vous pouvez retirer et replacer les outils durant l'action au cours de laquelle vous les utilisez comme si vous les maniez. Votre familier doit avoir le pouvoir @UUID[Compendium.pf2e.familiar-abilities.Item.cT5octWchU4gjrhP]{dextérité manuelle} pour choisir ce pouvoir.</p>"
+        },
+        "Skilled": {
+            "name": "Skilled (Compétent)",
+            "description": "<p>Choisissez une compétence autre que celles d'Acrobaties ou de Discrétion. Le modificateur de votre familier dans cette compétence est égal à votre niveau auquel vous ajoutez votre modificateur d'attribut d'incantation, au lieu de votre seul niveau. Vous pouvez choisir cette capacité plusieurs fois, en choisissant une compétence différente à chaque fois.</p>"
+        },
+        "Augury": {
+            "name": "Augury (Augure)",
+            "description": "<p>Votre familier peut entrevoir les fils du destin pour vous donner un indice cryptique concernant votre avenir. Votre familier peut lancer @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augure} une fois par jour en utilisant votre tradition magique et votre DD de sort. Vous devez être au moins au niveau 8 pour choisir ce pouvoir.</p>"
+        },
+        "Erudite": {
+            "name": "Erudite (Érudit)",
+            "description": "<p>Votre familier possède d'incroyables connaissances religieuses. Bien qu'il soit un sbire, votre familier obtient 1 réaction au début de ses tours, qu'il ne peut utiliser que pour vous @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aider} sur un test de Religion (il doit toujours s'apprêter à vous Aider comme à l'ordinaire avec la réaction Aider). Il obtient automatiquement un succès sur son test pour vous Aider avec les tests de Religion ou un succès critique si vous êtes maître en Religion.</p>"
+        },
+        "Familiar of Paired Perplexity": {
+            "name": "Familiar of Paired Perplexity (Familier de perplexité dédoublée)",
+            "description": "<p>Votre familier possède le double des petits traits qu'une créature ordinaire devrait posséder, telle qu'une seconde queue ou une paire supplémentaire de moustaches. Lorsque vous Lancez ou Maintenez un maléfice, votre familier semble se dédoubler en deux endroits en même temps. Une créature que vous choisissez se trouvant à 6 mètres de lui est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1} jusqu'au début de votre prochain tour. C'est un effet visuel.</p>"
+        },
+        "Elemental Familiar (Fire)": {
+            "name": "Elemental Familiar (Fire) (Familier élémentaire (feu))",
+            "description": "<p>Votre familier obtient le trait élémentaire feu.</p>\n<p>Votre familier brille d'une lumière vive dans un rayon de 6 mètres (et d'une lumière faible dans les 6 mètres suivants) et émet de la chaleur. Les créatures qui restent dans une @Template[emanation|distance:15]{émanation de 4,50 mètres} ne subissent pas de dégâts du froid important dû à l'environnement.</p>"
+        },
+        "Seal-Bearer": {
+            "name": "Seal-Bearer (Porteur de sceau)",
+            "description": "<p>Au cours de vos préparatifs quotidiens, vous pouvez inscrire un symbole ou un sceau  sur votre shikigami qui correspond à l'élément air, bois, eau, feu, métal ou terre. Si vous utilisez le pouvoir petit bois du shikigami au cours de cette journée, il s'applique à un sort qui inflige des dégâts avec le trait adapté à l'élément choisi, au lieu de n'utiliser que le trait feu.</p>"
+        },
+        "Familiar of Flowing Script": {
+            "name": "Familiar of Flowing Script (Familier d'inscriptions fluides)",
+            "description": "<p>Votre familier est couvert d'un motif qui ressemble aux lettres d'une langue incompréhensible, qui semble attirer l'attention même si elle échappe à toute compréhension. Lorsque vous Lancez ou Maintenez un maléfice, les lettres commencent à changer rapidement, provoquant une distraction. Jusqu'au début de votre prochain tour, votre familier peut procurer la tenaille pour vous et vos alliés, comme s'il était capable d'attaquer et avait une allonge de 1,50 mètre. Il s'agit d'un effet visuel.</p>"
+        },
+        "Flier": {
+            "name": "Flier (Volant)",
+            "description": "<p>Votre familier gagne une Vitesse de vol de 7,50 mètres.</p>"
+        },
+        "Familiar of Keen Senses": {
+            "name": "Familiar of Keen Senses (Familier des sens acérés)",
+            "description": "<p>Votre familier a les yeux qui scintillent, les oreilles qui frétillent ou tout autre signe révélateurs des sens puissants d'une bête. Lorsque vous Lancez ou Maintenez un maléfice, votre familier obtient un sens imprécis au choix entre Odorat, Perception des vibrations ou Perception des ondes, avec une portée de 18 mètres jusqu'au début de votre prochain tour et il peut immédiatement @UUID[Compendium.pf2e.actionspf2e.Item.sn2hIy1iIJX9Vpgj]{Signaler} par une action gratuite.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.4wJM0OA9y2gsBAh7]{Effet : Familier des sens acérés}</p>"
+        },
+        "Lab Assistant": {
+            "name": "Lab Assistant (Assistant de laboratoire)",
+            "description": "<p>Votre familier peut utiliser votre action @UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{Alchimie rapide}. Vous devez posséder Alchimie rapide et votre familier doit se trouver dans votre espace. Il l'accomplit au même coût et selon les mêmes conditions que si vous l'utilisiez. Votre familier doit avoir le pouvoir @UUID[Compendium.pf2e.familiar-abilities.Item.cT5octWchU4gjrhP]{Dextérité manuelle} pour être capable de sélectionner ce pouvoir.</p>"
+        },
+        "Synchronize Spirit": {
+            "name": "Synchronize Spirit (Esprit synchronisé)",
+            "description": "<p>Vous pouvez synchroniser votre énergie spirituelle avec celle de votre familier pour devenir temporairement un esprit vous-même. Une fois par round, vous pouvez Maintenir pour synchroniser votre esprit avec celui de votre familier. Vous restez synchronisé avec votre esprit jusqu'au début de votre prochain tour. Lorsque vous êtes synchronisé, lorsque vous Frappez ou Lancez un sort sans durée qui inflige des dégâts, vous infligez des dégâts spirituels à la place de dégâts ordinaires.</p>"
+        },
+        "Path of the Tempest": {
+            "name": "Path of the Tempest (Chemin de la tempête)",
+            "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<hr />\n<p><strong>Effet</strong> Votre familier invoque des vents qui vous accélèrent et vous protègent. Vous obtenez un bonus de statut de +3 mètres à votre vitesse jusqu'à la fin de votre tour. Lorsque vous Marchez rapidement ce tour-ci, vous ne déclenchez pas de réactions. De plus, vous n'avez pas besoin de Marcher rapidement avant un @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Saut en longueur} ce tour-ci.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.2CJwgnCsYtk4R5sO]{Effet : Chemin de la tempête}</p>"
+        },
+        "Lifelink": {
+            "name": "Lifelink (Lien vital)",
+            "description": "<p>Si votre familier devrait être réduit à 0 PV par des dégâts, vous pouvez encaisser tous les dégâts à sa place par une réaction avec le trait concentration et votre familier n'en subit aucun. Quoi qu'il en soit, les effets spéciaux qui se produisent à cause de ces dégâts (comme le venin de serpent) continuent de s'appliquer.</p>"
+        },
+        "Spellcasting": {
+            "name": "Spellcasting (Incantateur)",
+            "description": "<p>Choisissez un sort dans votre répertoire ou que vous avez préparé aujourd'hui qui est d'au moins 5 rangs inférieur à votre emplacement de sort de rang le plus élevé. Votre familier peut Lancer ce sort une fois par jour en utilisant votre tradition magique, votre modificateur de sort et votre DD de sort. Si le sort a un inconvénient qui affecte l'incantateur, vous et votre familier êtes tous deux affectés. Vous devez être capable de lancer des sorts de rang 6 en utilisant des emplacements de sort pour choisir ce pouvoir.</p>"
+        },
+        "Greater Resistance": {
+            "name": "Greater Resistance (Résistance supérieure)",
+            "description": "<p>Votre familier augmente la résistance qu'il a obtenu grâce au pouvoir de familier résistance à 3 + la moitié de votre niveau. Votre familier doit avoir le pouvoir @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{résistance} pour sélectionner celui-ci.</p>"
+        },
+        "Kinspeech": {
+            "name": "Kinspeech (Parole des semblables)",
+            "description": "<p>Votre familier peut comprendre et communiquer avec des animaux de la même espèce que lui. Pour sélectionner ce pouvoir, votre familier doit être un animal, être doué de parole et vous devez être au moins de niveau 6.</p>"
+        },
+        "Resistance": {
+            "name": "Resistance (Résistance)",
+            "description": "<p>Choisissez deux type de dégâts parmi les suivants : acide, électricité, feu, froid, poison ou son. Votre familier obtient une résistance égale à la moitié de votre niveau contre les types de dégâts choisis (minimum 1).</p>"
+        },
+        "Focused Rejuvenation": {
+            "name": "Focused Rejuvenation (Récupération concentrée)",
+            "description": "<p>Lorsque vous Refocalisez, vous générez de l'énergie magique qui soigne votre familier. Votre familier récupère 1 Point de vie par niveau lorsque vous Refocalisez.</p>"
+        },
+        "Soul Sight": {
+            "name": "Soul Sight (Vision de l'âme)",
+            "description": "<p>Votre familier obtient @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]{Perception de la vie} avec une portée de 9 mètres.</p>"
+        },
+        "Familiar Focus": {
+            "name": "Familiar Focus (Focalisation du familier)",
+            "description": "<p>Une fois par jour, votre familier peut utiliser 2 actions avec le trait concentration pour regagner 1 point de focalisation, jusqu'à votre maximum habituel. Vous devez disposer d'une réserve de focalisation pour sélectionner ce pouvoir.</p>"
+        },
+        "Construct": {
+            "name": "Construct (Créature artificielle)",
+            "description": "<p>Votre familier possède le trait créature artificielle à la place du trait animal. Le familier est immunisé aux effets de mort, à la maladie, aux malédictions, à l'état drainé, fatigué, aux attaques non-létales, à la paralysie, au poison, à l'état nauséeux, aux dégâts spirituels, à l'inconscience, aux dégâts de vitalité et de vide. Votre familier doit avoir la capacité @UUID[Compendium.pf2e.familiar-abilities.Item.Le8UWr5BU8rV3iBf]{Robuste} pour sélectionner celui-ci.</p>"
+        },
+        "Familiar of Freezing Rime": {
+            "name": "Familiar of Freezing Rime (Familier de glace verglacée)",
+            "description": "<p>Votre familier est froid au toucher, son souffle étant toujours visible. Lorsque vous Lancez ou Maintenez un maléfice, vous pouvez provoquer la formation de la glace dans une @Template[burst|distance:5]{explosion de 1,50 mètre} centrée sur une case de l'espace de votre familier. Ces cases sont un terrain difficile jusqu'au début de votre prochain tour.</p>"
+        },
+        "Jet": {
+            "name": "Jet (Propulseur)",
+            "description": "<p>Votre familier peut utiliser des pics d'énergie élémentaire ou de magie pour @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Bondir} jusqu'à 9 mètres dans toutes les directions, même si cela devrait lui permettre la distance ordinaire maximale de saut. Le Bond doit commencer et se terminer sur une surface solide capable de supporter le familier.</p>"
+        },
+        "Snoop": {
+            "name": "Snoop (Fouineur)",
+            "description": "<p>Votre familier garde ses yeux et ses oreilles ouverts, prêt à relayer chaque bribe de ragot qu'il capte, pour vous aider à rassembler des informations.</p>\n<p>Bien qu'il soit un sbire, votre familier gagne 1 réaction au début de ses tours, qu'il ne peut utiliser que pour vous @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aider} sur un test de Diplomatie en vue de @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Recueillir des informations} (il doit toujours s'apprêter à vous aider comme à l'ordinaire avec la réaction Aider, qui nécessite sa participation tout au long de l'activité).</p>\n<p>Il obtient automatiquement un succès à son test pour vous Aider avec ces compétences ou un succès critique si vous êtes maître dans la compétence en question.</p>"
+        },
+        "Familiar of Nimble Flight": {
+            "name": "Familiar of Nimble Flight (Familier du vol agile)",
+            "description": "<p>Même si votre familier ne dispose pas d'ailes, il peut parfois se déplacer comme s'il était emporté par le vent. Lorsque vous Lancez ou Maintenez un maléfice, votre familier peut voler jusqu'à 4,50 m. Ce déplacement ne provoque pas de réaction.</p>"
+        },
+        "Lightning Needles": {
+            "name": "Lightning Needles (Aiguilles de foudre)",
+            "description": "<p><strong>Conditions</strong> Lors de ce tour, vous Lancez un sort qui possède le trait air ou électricité</p>\n<hr />\n<p><strong>Effet</strong> Votre familier absorbe l'excès de charge électrique et libère une @Template[type:emanation|distance:5]{émanation de 1,50 mètre} d'électricité statique qui circule entre les méridiens des créatures. Les créatures dans l'émanation qui obtiennent un échec sur leur jet de @Check[fortitude|options:area-effect,damaging-effect] contre votre DD de sort deviennent @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroites 1} jusqu'à la fin de leur prochain tour. Si une créature est trempée ou se trouve au-dessus ou dans l'eau à l'intérieur de l'émanation, elle subit également @Damage[1d4[persistent,electricity]|options:area-damage]{1d4 dégâts d'électricité} si elle a obtenu un échec sur son jet de sauvegarde.</p>"
+        },
+        "Radiant": {
+            "name": "Radiant (Radieux)",
+            "description": "<p>Votre familier est rempli d'un rayonnement divin qui le rend résistant aux forces du mal. Votre familier obtient une résistance aux dégâts impies et aux dégâts de vide égale à la moitié de votre niveau.</p>\n<p><em>Note : Comme les effets placés sur un acteur ne peuvent référencer des données d'un autre acteur, la résistance de la moitié du niveau du PJ n'est pas automatisable. Merci de mettre à jour les résistances des familiers en conséquence.</em></p>"
+        },
+        "Familiar of Obscuring Snowfall": {
+            "name": "Familiar of Obscuring Snowfall (Familier de chute de neige réfléchissante)",
+            "description": "<p>Votre familier est toujours couvert d'une fine couche de neige, qu'il perd au fil des besoins. Lorsque vous Lancez ou Maintenez un maléfice, vous pouvez provoquer la formation de neige collante dans une @Template[burst|distance:5]{explosion de 1,50 mètre} centrée sur une case de l'espace de votre familier. Cette neige persiste jusqu'au début de votre prochain tour et les ennemis qui pénètrent sur ces cases durant cette période sont @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouis} jusqu'au début de votre prochain tour.</p>\n<hr />\n<p><em>Note PFS :</em> Pour cette capacité, choisissez un coin de la case du familier comme centre de l'explosion.</p>"
+        },
+        "Recall Familiar": {
+            "name": "Recall Familiar (Rappel de familier)",
+            "description": "<p>Une fois par jour, vous pouvez utiliser une activité de 3 actions, qui possède le trait concentration, pour téléporter votre familier dans votre espace. Votre familier doit être à moins de 1,5 kilomètre ou la tentative de convocation échoue. Ceci est un effet de téléportation.</p>"
+        },
+        "Innate Surge": {
+            "name": "Innate Surge (Déferlante innée)",
+            "description": "<p>Une fois par jour, vous pouvez puiser dans la magie innée de votre familier pour alimenter la vôtre. Vous pouvez lancer un sort inné octroyé par un don ancestral que vous avez déjà lancé aujourd'hui. Vous devez tout de même Lancer le sort et remplir ses autres conditions.</p>"
+        },
+        "Familiar of Stalking Night": {
+            "name": "Familiar of Stalking Night (Familier de la nuit de la traque)",
+            "description": "<p>Votre familier est noir de fourrure ou de plume et il semble aspirer la lumière. Lorsque vous Lancez ou Maintenez un maléfice et que votre familier est adjacent à un ennemi vis-à-vis duquel il est @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Caché} ou Non détecté, l'ennemi est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 1}.</p>"
+        },
+        "Partner in Crime": {
+            "name": "Partner in Crime (Associés dans le crime)",
+            "description": "<p>Votre familier est votre associé criminel. En dépit d'être un sbire, votre familier obtient une réaction au début de son tour, qu'il ne peut utiliser que pour vous Aider sur un test de compétence de Duperie ou de Vol or Thievery (il doit toujours s'apprêter à vous Aider comme à l'ordinaire avec la réaction Aider). Il obtient automatiquement un succès à son test pour vous Aider avec ces compétences ou obtient un succès critique si vous êtes maître dans la compétence en question.</p>"
+        },
+        "Kindling": {
+            "name": "Kindling (Petit-bois)",
+            "description": "<p>Vous pouvez immoler le corps de votre familier pour obtenir un sursaut de puissance. Une fois par jour, par une action gratuite, lorsque vous Lancez un sort qui possède le trait feu, inflige des dégâts et ne possède pas de durée, vous pouvez sacrifier votre familier pour alimenter le sort. Votre familier est tué immédiatement et vous obtenez un bonus de statut aux dégâts du sort égal à deux fois le rang du sort.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Pe4qwrE1oU68iW4g]{Effet : Petit-bois}</p>"
+        },
+        "Threat Display": {
+            "name": "Threat Display (Démonstration menaçante)",
+            "description": "<p>Votre familier vous aide à transmettre des menaces sans parler à travers son langage corporel.</p>\n<p>Lorsque vous tentez un test d'Intimidation pour @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} une créature, si votre familier se trouve à moins de 9 mètres de votre cible et peut agir, il vous accompagne par des grognements, des sifflements ou en montrant ses crocs.</p>\n<p>S'il peut le faire, vous ne subissez pas la pénalité normale de -4 au test d'intimidation si votre cible ne comprend pas la langue que vous parlez.</p>"
+        },
+        "Plant Form": {
+            "name": "Plant Form (Forme de plante)",
+            "description": "<p>Votre familier plante peut changer de forme par une unique action, se transformant en une Très petite plante d'un type à peu près similaire à la nature du familier. Cela utilise autrement les effets de @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{Uni avec les plantes}. Vous devez avoir un familier avec le trait plante pour choisir cette capacité.</p>"
+        },
+        "Tremorsense": {
+            "name": "Tremorsense (Perception des vibrations)",
+            "description": "<p>Votre familier a une conscience aiguë de toutes les vibrations qui se propagent sur une surface. Il obtient Perception des vibrations 9 mètres (imprécis).</p>"
+        },
+        "Elemental Familiar (Water)": {
+            "name": "Elemental Familiar (Water) (Familier élémentaire (eau))",
+            "description": "<p>Votre familier obtient le trait élémentaire eau.</p>\n<p>Votre familier peut franchir une ouverture de 5 cm de diamètre sans se Faufiler et peut se Faufiler à travers un trou d'au moins 2,5 cm de largeur.</p>"
+        },
+        "Shadow Projection": {
+            "name": "Shadow Projection (Projection d'ombre)",
+            "description": "<p>Votre makhluk wayang projette son ombre en une silhouette plus grande de lui-même, lui permettant d'attraper des choses en dehors de son allonge évidente. Il augmente son allonge à 3 mètres lorsqu'il s'agit d'accomplir des actions Interagir qui ne sont pas hostiles jusqu'à la fin de votre tour.</p>"
+        },
+        "Independent": {
+            "name": "Independent (Indépendant)",
+            "description": "<p>Lors d'une rencontre, si vous ne donnez pas d'ordre à votre familier, il obtient toujours 1 action chaque round. Typiquement, vous décidez toujours comment il dépense cette action, mais le MJ peut déterminer que votre familier choisit sa propre tactique plutôt qu'accomplir l'action que vous préférez. Cela ne fonctionne pas avec @UUID[Compendium.pf2e.familiar-abilities.Item.9PsptrEoCC4QdM23]{Valet} ou des capacités similaires qui requièrent un ordre, si vous êtes capable de monter votre familier ou situations similaires.</p>"
+        },
+        "Familiar of Swarm's Heart": {
+            "name": "Familiar of Swarm's Heart (Familier du coeur de la nuée)",
+            "description": "<p>Votre familier est entouré d'un nuage d'insectes inoffensifs. Lorsque vous Lancez ou Maintenez un maléfice, la nuée d'insectes vous protège ainsi que vos alliés. Jusqu'au début de votre prochain round, votre familier vous @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masque} ou masque tout allié dont il partage le même espace.</p>"
+        },
+        "Mask Freeze": {
+            "name": "Mask Freeze (Masque figé)",
+            "description": "<p><strong>Masque figé</strong> Lorsqu'il est sous forme de masque, votre familier peut cacher ses qualités surnaturelles évidentes pour passer pour un simple masque sans prétention. Il n'a pas besoin de Se faire passer pour le masque et tromper quelqu'un qui n'y prête pas attention et il bénéficie d'un bonus de circonstances de +4 à son DD de Duperie contre un observateur actif qui Cherche ou qui l'étudie.</p>"
+        },
+        "Verdant Burst": {
+            "name": "Verdant Burst (Explosion verdoyante)",
+            "description": "<p><strong>Prérequis</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Secrets du familier léchi}</p>\n<p>Lorsque votre familier meurt, il libère son énergie primordiale pour lancer la version de @UUID[Compendium.pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Guérison} à trois actions, intensifié à un rang inférieur de 1 à votre rang de sort le plus élevé. Le sort <em>Guérison</em> obtient aussi un bonus de statut égal à deux fois le rang du sort au nombre de Points de vie qu'il redonne aux plantes. Vous devez être capable de lancer des sorts de rang 2 en utilisant des emplacements de sort pour choisir ce pouvoir de familier.</p>"
+        },
+        "Restorative Familiar": {
+            "name": "Restorative Familiar (Familier curatif)",
+            "description": "<p>Une fois par jour, votre familier peut utiliser 2 actions avec le trait concentration pour partager un peu de son énergie vitale et vous guérir. Il doit être dans votre espace pour pouvoir le faire. Vous récupérez un nombre de Points de vie égal à @Damage[(max(floor(@actor.level/2),1))d8[healing]]{1d8 fois la moitié de votre niveau} (minimum 1d8).</p>"
+        },
+        "Grasping Tendrils": {
+            "name": "Grasping Tendrils (Vrilles agrippantes)",
+            "description": "<p><strong>Prérequis</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Secrets du familier léchi}</p>\n<p>Votre familier peut faire pousser des lianes ou des vrilles similaires, passant son allonge à 4,50 mètres.</p>"
+        },
+        "Speech": {
+            "name": "Speech (Parole)",
+            "description": "<p>Votre familier comprend et parle une langue que vous connaissez.</p>"
+        },
+        "Fast Movement: Fly": {
+            "name": "Fast Movement: Fly (Déplacement rapide : Vol)",
+            "description": "<p>Augmentez la Vitesse de vol de votre familier de 7,50 à 12 mètres.</p>"
+        },
+        "Dazzling Show": {
+            "name": "Dazzling Show (Show éblouissant)",
+            "description": "<p><strong>Fréquence</strong> Une fois par minute</p>\n<hr />\n<p><strong>Effet</strong> Votre kinnara fait scintiller ses plumes brillantes. Chaque créature dans une @Template[type:emanation|distance:30]{émanation de 9 mètres} doit tenter un jet de @Check[will|against:class-spell] contre le plus élevé entre votre DD de classe ou de sort ou être @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} pendant 2 rounds.</p>"
+        },
+        "Pot of Tea": {
+            "name": "Pot of Tea (Théière)",
+            "description": "<p>Votre sage tapir est exercé dans l'art de la médecine par les plantes et peut préparer une théière de thé guérisseur. Une fois par jour, votre familier peut passer 10 minutes à faire infuser des feuilles de thé et des herbes de qualité. Le sage tapir doit se concentrer sur le thé au cours de cette période. S'il accomplit toute autre action, le thé est inefficace, bien que le sage tapir puisse recommencer de zéro de nouveau. Une fois que le thé est infusé, le sage tapir peut servir jusqu'à deux tasses de thé possédant chacune des actions ci-dessous. Chaque fois, il donne une tasse à un allié adjacent et il boit lui même une tasse. Les trois infusions doivent être versées et offertes dans l'ordre (par exemple, le sage tapir ne peut servir la deuxième infusion avant d'avoir servi la première). Le thé reste efficace pendant 1 heure après l'avoir concocté. S'il n'est pas bu à ce moment, la théière est froide et tout le thé qui reste perd sa puissance.</p>\n<ul>\n    <li><strong>Première infusion</strong> <span class=\"action-glyph\">2</span> L'infusion permet de récupérer un nombre de points de vie égal à 1d8 fois la moitié de votre niveau (minimum 1d8) et accorde un bonus de circonstances de +4 au prochain jet de sauvegarde contre toute maladie ou poison tenté au cours des 24 heures suivantes.</li>\n    <li><strong>Deuxième infusion</strong> <span class=\"action-glyph\">2</span> L'infusion permet de récupérer un nombre de points de vie égal à 1d4 fois la moitié de votre niveau (minimum 1d4) et accorde un bonus de circonstances de +2 au prochain jet de sauvegarde contre la maladie ou le poison tenté au cours des 24 heures suivantes.</li>\n    <li><p><strong>Troisième infusion</strong> <span class=\"action-glyph\">2</span> L'infusion accorde un nombre de Points de vie temporaires égal à votre niveau qui durent pendant une heure.</li>\n</ul>"
+        },
+        "Fungus": {
+            "name": "Fungus (Champignon)",
+            "description": "<p>Votre familier possède le trait champignon à la place du trait animal.</p>"
+        },
+        "Extra Vial": {
+            "name": "Extra Vial (Fioles supplémentaires)",
+            "description": "<p>Votre familier développe des liquides alchimiques à l'intérieur de son corps. Une fois par jour, vous pouvez Interagir lorsque votre familier est adjacent pour obtenir une fiole polyvalente. Vous devez posséder la capacité @UUID[Compendium.pf2e.classfeatures.Item.PBQh0amk1FlomV0r]{Fioles polyvalentes} pour sélectionner ce pouvoir.</p>"
+        },
+        "Echolocation": {
+            "name": "Echolocation (Écholocalisation)",
+            "description": "<p>Votre familier peut utiliser son ouïe en tant que sens précis dans les 6 mètres.</p>"
+        },
+        "Familiar of Balanced Luck": {
+            "name": "Familiar of Balanced Luck (Familier de la chance équilibrée)",
+            "description": "<p>Votre familier possède une tache sur son corps qui ressemble à un porte-bonheur ou à un mauvais présage, selon l'angle. Lorsque vous Lancez ou Maintenez un maléfice, une créature située à moins de 4,50 mètres de votre familier bénéficie au choix d'un bonus de statut de +1 à sa CA ou d'une pénalité de statut de -1 à sa CA jusqu'au début de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.0JvxhEv83bAD5PGv]{Effet : Familier de la chance équilibrée}</p>"
+        },
+        "Vina Song": {
+            "name": "Vina Song (Chanson vina)",
+            "description": "<p><strong>Fréquence</strong> Une fois par heure, voir ci-dessous</p>\n<hr />\n<p><strong>Effet</strong> Votre kinnari joue de son instrument avec élégance. Chaque créature dans une @Template[type:emanation|distance:30]{émanation de 9 mètres} doit tenter un jet de @Check[will|against:class-spell] contre le plus élevé entre votre DD de classe ou votre DD de sort ou être @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} pendant 1 round. Un kinnar peut utiliser ce pouvoir de nouveau lors du round suivant pour poursuivre la chanson et forcer les créatures affectées à tenter un autre jet de Volonté. En cas d'échec, une créature est Fascinée pendant un round supplémentaire. Une fois que le kinnar s'arrête de jouer, il ne peut plus utiliser ce pouvoir de nouveau avant 1 heure. Une créature qui réussit l'un des jets de sauvegarde ou qui voit sa fascination interrompue est temporairement immunisée à la chanson vina du kinnar pendant 24 heures. Les kinnars sont immunisés contre ce pouvoir.</p>"
+        },
+        "Familiar of Enticing Negotiation": {
+            "name": "Familiar of Enticing Negotiation (Familier de la négociation alléchante)",
+            "description": "<p>Votre familier murmure constamment des offres de puissance, de fortune et d'autres tentations à vos ennemis, même si votre familier ne possède pas normalement les moyens de parler. Lorsque vous Lancez ou Maintenez un maléfice et que votre familier se trouve à 3 mètres d'un ennemi, l'ennemi est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} jusqu'au début de votre prochain tour. Votre familier ne peut distraire qu'un unique ennemi par round de cette manière.</p>"
+        },
+        "Burrower": {
+            "name": "Burrower (Fouisseur)",
+            "description": "<p>Votre familier obtient une Vitesse de creusement de 1,50 mètre, qui lui permet de creuser des trous très Petits.</p>"
+        },
+        "Animated": {
+            "name": "Animated (Animé)",
+            "description": "<p>Avec une once de magie de votre patron, votre familier objet peut se déplacer par ses propres moyens. Il obtient une vitesse de 7,50 mètres. Vous ne pouvez choisir cette capacité qu'avec des familiers objet.</p>"
+        },
+        "Extra Alchemy": {
+            "name": "Extra Alchemy (Alchimie supplémentaire)",
+            "description": "<p>Votre familier vous aide à préparer des objets au début de la journée. Vous pouvez créer un objet supplémentaire avec @UUID[Compendium.pf2e.feats-srd.Item.NlEZ0piDxg9buXCL]{Alchimie avancée} lors de vos préparatifs quotidiens. Vous devez posséder la capacité Alchimie avancée pour choisir cette capacité.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.vSUyph3Z6wKl2l6Q]{Effet : Alchimie supplémentaire}</p>"
+        },
+        "Fast Movement: Climb": {
+            "name": "Fast Movement: Climb (Déplacement rapide : Escalade)",
+            "description": "<p>Augmentez la Vitesse d'escalade de votre familier de 7,50 à 12 mètres.</p>"
+        },
+        "Familiar of Restored Spirit": {
+            "name": "Familiar of Restored Spirit (Familier d'esprit récupéré)",
+            "description": "<p>Votre familier est agréablement chaud et doux, semblant dissoudre les soucis par sa simple présence. Lorsque vous Lancez ou Maintenez un maléfice, une créature consentante située à moins de 4,50 mètres de votre familier obtient temporairement un nombre de Points de vie égal à 2 + la moitié de votre niveau qui durent jusqu'au début de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.twvhTLrLEfr7dz1m]{Effet : Familier d'esprit récupéré}</p>"
+        },
+        "Soul Bond": {
+            "name": "Soul Bond (Lien de l'âme)",
+            "description": "<p>Les esprits de vos kinnars sont intrinsèquement liés. Bien qu'ils soient deux êtres distincts, ils sont toujours considérés comme une unique créature, agissent comme une unique créature, utilisent les statistiques ordinaires des familiers et sont sujets à tous les effets normaux qui se produisent avec une unique créature. Leurs esprits liés leur permettent de repousser les attaques contre leur esprit. Si vos kinnars sont sujets à un effet mental qui permet un jet de sauvegarde, ils lancent deux fois les jets et prennent le résultat le plus élevé. C'est un effet de fortune.</p>"
+        },
+        "Fast Movement: Swim": {
+            "name": "Fast Movement: Swim (Déplacement rapide : Nage)",
+            "description": "<p>Augmentez la Vitesse de nage de votre familier de 7,50 à 12 mètres.</p>"
+        },
+        "Levitator": {
+            "name": "Levitator (Léviteur)",
+            "description": "<p>En utilisant le magnétisme, la magie, ou d'autres forces, votre familier peut flotter à 90 cm au-dessus des surfaces solides et liquides lorsque vous vous déplacez à une vitesse de 7,50 mètres. Cela lui permet d'ignorer le terrain difficile et les effets néfastes en lien avec être en contact direct avec la surface. Cela permet typiquement au familier d'éviter aussi de déclencher des réactions des dangers qui nécessitent que vous marchiez sur eux ou sur une plaque de pression attachée.</p>"
+        },
+        "Tough": {
+            "name": "Tough (Robuste)",
+            "description": "<p>Le nombre maximal de Point de vie de votre familier augmente de 2 par niveau.</p>"
+        },
+        "Master's Form": {
+            "name": "Master's Form (Forme du maître)",
+            "description": "<p>Votre familier peut changer de forme par une unique action, se transformant en un humanoïde de votre ascendance avec le même âge, le même genre et la même constitution que celle de sa véritable forme, bien qu'il présente toujours un reste surnaturel évident de sa nature, comme des yeux de chat ou une langue de serpent. Cette forme est toujours la même chaque fois qu'il utilise cette capacité. Cela utilise autrement les effets de @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Forme humanoïde}, sauf que le changement est purement cosmétique. Il ne prend seulement que l'apparence humanoïde mais n'obtient aucune capacité nouvelle. Votre familier doit avoir les pouvoirs @UUID[Compendium.pf2e.familiar-abilities.Item.cT5octWchU4gjrhP]{dextérité manuelle} et @UUID[Compendium.pf2e.familiar-abilities.Item.zyMRLQnFCQVpltiR]{parole} pour pouvoir sélectionner ce pouvoir.</p>"
+        },
+        "Elemental Familiar (Wood)": {
+            "name": "Elemental Familiar (Wood) (Familier élémentaire (bois))",
+            "description": "<p>Votre familier obtient le trait élémentaire bois.</p>\n<p>Si votre familier reste dans la lumière vive pendant 1 round, il obtient une guérison accélérée égale à la moitié de votre niveau. Une fois qu'il sort de la lumière vive, cet effet se termine.</p>"
+        },
+        "Second Opinion": {
+            "name": "Second Opinion (Seconde opinion)",
+            "description": "<p>Votre familier est votre confident académique. En dépit du fait qu'il soit un sbire, votre familier obtient 1 réaction au début de ses tours, qu'il ne peut s'utiliser que pour vous @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aider} sur un test de compétence pour Vous souvenir avec une compétence dans laquelle il a le pouvoir de familier @UUID[Compendium.pf2e.familiar-abilities.Item.jevzf9JbJJibpqaI]{Compétent} (il doit toujours s'apprêter à vous Aider comme à l'ordinaire avec la réaction Aider).</p>\n<p>Il obtient automatiquement un succès sur son test pour vous Aider avec ces compétences ou obtient automatiquement un succès critique si vous êtes maître avec la compétence en question. Votre familier doit avoir le pouvoir compétent pour choisir celui-ci.</p>"
+        },
+        "Kick Up Dust": {
+            "name": "Kick Up Dust (Soulever la poussière)",
+            "description": "<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Votre lapin à poussière se secoue et gesticule pour remuer la poussière dans une @Template[type:emanation|distance:5]{émanation de 1,50 mètre}. Chaque créature dans la zone doit tenter un jet de @Check[fortitude|against:class-spell|options:area-effect] contre le plus élevé entre votre DD de classe ou votre DD de sort. Une créature qui obtient un échec sur son jet commence à éternuer de manière incontrôlable et est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} et ne peut pas utiliser de réaction pendant 1 round. En cas d'échec critique, elle est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 2}.</p>"
+        },
+        "Play Dead": {
+            "name": "Play Dead (Faire le mort)",
+            "description": "<p>Votre familier prétend être inanimé, cachant ses pouvoirs surnaturels. Il peu se Cacher sans avoir le moindre abri, ni être masqué à l'égard des créatures qui ne réalisent pas qu'il est vivant, tant qu'il se trouve dans un lieu où sa présence ne semble pas déplacée. Si le familier obtient un succès, les observateurs le voient toujours mais il le prennent pour un objet inanimé. Après avoir été trompé une fois, ils réalisent que votre familier est vivant et il ne peut plus Se cacher de la sorte de nouveau.</p>"
+        },
+        "Major Resistance": {
+            "name": "Major Resistance (Résistance majeure)",
+            "description": "<p>Votre familier augmente la résistance qu'il obtient de son pouvoir de familier @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{résistance} à une valeur égale à votre niveau. Pour choisir ce pouvoir, vous devez être au moins de niveau 8.</p>"
+        },
+        "Spell Delivery": {
+            "name": "Spell Delivery (Transfert de sort)",
+            "description": "<p>Si votre familier se trouve dans votre case, vous pouvez lancer un sort avec une portée de contact, transférer son pouvoir à votre familier et ordonner à votre familier de délivrer le sort. Si vous procédez ainsi, le familier utilise ses 2 actions pour le round afin de se déplacer vers une cible de votre choix et aller toucher cette cible. S'il n'arrive pas au contact de la cible ce tour-ci, le sort n'a aucun effet.</p>"
+        },
+        "Wavesense": {
+            "name": "Wavesense (Perception des ondes)",
+            "description": "<p>Votre familier peut sentir les vibrations dans l'eau. Il acquiert Perception des ondes 9 mètres (imprécis).</p>"
+        },
+        "Familiar of Ongoing Misery": {
+            "name": "Familiar of Ongoing Misery (Familier de misère persistante)",
+            "description": "Votre familier semble hostile envers toute créature autre que vous, crachant lorsqu'elles s'approchent trop près. Lorsque vous Lancez ou Maintenez un maléfice, votre familier peut maudire une créature située à moins de 4,50 mètres de lui, prolongeant de 1 round un état négatif de votre choix qui l'affecte. Cette prolongation ne peut être appliquée qu'une seule fois à un même cas d'état. Il s'agit d'un effet de malédiction. Cet effet ne prolonge que les états ayant une durée déterminée (comme \"1 round\" ou \"jusqu'à la fin de votre prochain tour\") et n'empêche pas ces états d'être supprimés par d'autres moyens.</p>"
+        },
+        "Mass-Produced": {
+            "name": "Mass-Produced (Produit en masse)",
+            "description": "<p>Si votre shikigami meurt, vous pouvez lier de nouveau son esprit à une autre poupée de papier au cours de votre prochains préparatifs quotidiens.</p>"
+        },
+        "Elemental Familiar (Air)": {
+            "name": "Elemental Familiar (Air) (Familier élémentaire (air))",
+            "description": "<p>Votre familier obtient le trait élémentaire air.</p>\n<p>Si votre familier reste complètement immobile pendant 1 round, il devient @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} jusqu'à ce qu'il fasse sa prochaine action. Tout déplacement, même en étant déplacé ou transporté par une autre créature, termine cet effet.</p>"
+        },
+        "Shadow Step": {
+            "name": "Shadow Step (Pas d'ombre)",
+            "description": "<p>Ce pouvoir est réservé aux familiers d'ombre. Un @UUID[Compendium.pf2e.feats-srd.Item.ncrNQcwm4gOQRAA3]{Incantateur d'ombre}, quoi qu'il en soit, peut choisir ce pouvoir pour toute espèce de familier. Votre familier obtient l'action @UUID[Compendium.pf2e.actionspf2e.Item.VQ5OxaDKE0lCj8Mr]{Pas d'ombre}.</p>\n<p>Vous devez être au moins de niveau 7 pour choisir ce pouvoir de familier pour votre familier.</p>"
+        },
+        "Versatile Form": {
+            "name": "Versatile Form (Forme polyvalente)",
+            "description": "<p>Le corps construit de votre familier vous permet de faire des ajustements lorsque c'est nécessaire. Une fois par jour, vous pouvez passer 10 minutes pour changer un pouvoir de familier ou de maître que possède votre familier. Pour choisir cette capacité, votre familier doit être une créature artificielle et vous devez au moins être qualifié en Artisanat.</p>"
+        },
+        "Accompanist": {
+            "name": "Accompanist (Accompagnateur)",
+            "description": "<p>Votre familier aide votre représentation. Lorsque vous tentez un test de Représentation, si votre familier est à proximité et peut agir, il vous accompagne avec des gazouillements, des applaudissement ou son propre instrument miniature. Cela vous donne un bonus de circonstances de +1 ou de +2 si vous êtes maître en Représentation.</p>"
+        },
+        "Ambassador": {
+            "name": "Ambassador (Ambassadeur)",
+            "description": "<p>Votre familier sait comment agir de manière mignonne ou concentrée sur demande, ce qui vous aide à faire bonne impression.</p>\n<p>Bien qu'il soit un sbire, votre familier gagne 1 réaction au début de ses tours, qu'il ne peut utiliser que pour vous Aider lors d'un test de Diplomatie pour @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Faire bonne impression} (il doit toujours s'apprêter à vous @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aider} comme à l'ordinaire avec la réaction Aider, qui exige qu'il participe à toute l'activité).</p>\n<p>Il obtient automatiquement un succès sur son test pour vous Aider avec ces compétences ou un succès critique si vous êtes maître dans la compétence en question.</p>"
+        },
+        "Purify Air": {
+            "name": "Purify Air (Purificateur d'air)",
+            "description": "<p><strong>Prérequis</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Secrets du familier léchi}</p>\n<p>Votre familier recycle l'air, fournissant assez d'oxygène à une créature de taille Moyenne dans les zones avec de l'air vicié, tel qu'une chambre scellée ou un espace extradimensionnel. Si le léchi est dans la zone d'un effet de poison inhalé ou d'un effet qui compte sur l'odorat, les créatures dans une @Template[emanation|distance:15]{émanation de 4,50 mètres} du léchi obtiennent un bonus de circonstances de +2 à leur jet de sauvegarde contre l'effet.</p>"
+        },
+        "Familiar of Bolstering Aid": {
+            "name": "Familiar of Bolstering Aid (Familier de soutien bienveillant)",
+            "description": "<p>Votre familier connaît toutes sortes d'astuces qui peuvent aider ! Lorsque vous Lancez ou Maintenez un maléfice et que votre familier est adjacent à un allié, cet allié obtient un bonus de statut de +2 à son prochain test de compétence (qui n'est pas une attaque) avant le début de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.IgLMAwovQ9roTsRN]{Effet : Familier de soutien bienveillant}</p>"
+        },
+        "Valet": {
+            "name": "Valet",
+            "description": "<p>Vous pouvez ordonner à votre familier de vous donner des objets avec une grande efficacité. Votre familier n'utilise pas ses deux actions immédiatement lorsque vous lui donnez un ordre. À la place, jusqu'à deux fois avant la fin de votre tour, votre familier peut utiliser deux actions Interagir pour récupérer un objet d'encombrement léger ou négligeable que vous êtes en train de manier et le placer dans une de vos mains libres. Le familier ne peut utiliser cette capacité pour récupérer des objets rangés. Si le familier possède un nombre d'actions différentes, il peut retirer un objet pour chaque action qu'il possède lorsque vous lui avez donné des ordres de cette manière.</p>"
+        },
+        "Gills": {
+            "name": "Gills (Branchies)",
+            "description": "<p>Votre familier développe un ensemble de branchies, ce qui lui permet de respirer de l'eau en plus de l'air.</p>"
+        },
+        "Familiar of Insightful Observation": {
+            "name": "Familiar of Insightful Observation (Familier d'observation introspective)",
+            "description": "<p>Votre familier possède un troisième œil sur la tête ou sur le corps, semblable à celui qui se trouve sur le front de Cobyslarni. Lorsque vous Lancez ou Maintenez un maléfice, votre familier peut tenter un test pour Se Souvenir par une action gratuite avec toute compétence dans laquelle vous êtes au moins qualifié, en utilisant votre bonus, et vous transmet psychiquement l'information.</p>"
+        },
+        "Lightning Armillary": {
+            "name": "Lightning Armillary (Armillaire foudroyante)",
+            "description": "<p><strong>Effet</strong> Votre familier vole en tournant tout autour de l'arme ou de la main d'un allié adjacent, se dissolvant en de multiples anneaux de foudre. Jusqu'au début de votre prochain tour, l'arme ou l'attaque à mains nues affectée inflige 1d6 points de dégâts d'électricité supplémentaires ou 1d8 points de dégâts d'électricité si vous Lancez un sort avec le trait air ou électricité durant ce tour. Votre familier reste sous la forme de cet anneau de foudre, ce qui l'empêche d'être pris pour cible ou d'entreprendre la moindre action.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.QVk0oRgc1pRwhG7U]{Effect: Lightning Armillary}</p>"
+        },
+        "Familiar of Parasitic Might": {
+            "name": "Familiar of Parasitic Might (Familier de puissance parasitaire)",
+            "description": "<p>Votre familier semble décharné, mal nourri ou à deux doigts de mourir, bien qu'il soit en bonne santé. Lorsque vous Lancez ou Maintenez un maléfice, votre familier peut puiser sur la perte de force d'un autre pour se soulager lui-même. Une créature dans les 4,50 mètres de votre familier ayant moins de la moitié de son maximum de Points de vie est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} à moins qu'elle ne réussisse un jet de @Check[fortitude] contre votre DD de sort.</p>"
+        },
+        "Dragon": {
+            "name": "Dragon",
+            "description": "<p>Votre familier possède le trait dragon à la place du trait animal.</p>"
+        },
+        "Absorb Familiar": {
+            "name": "Absorb Familiar (Familier absorbé)",
+            "description": "<p>Votre familier peut se transformer en une marque que vous portez à même la chair, ressemblant habituellement à une tache de naissance, un tatouage ou une pierre précieuse qui ressemble vaguement à sa forme initiale. Lorsqu'il est absorbé, le familier ne peut pas agir sauf pour redevenir un familier. Il n'est pas affecté par les effets de zone et doit être ciblé séparément pour l'affecter, ce qui nécessite de savoir que c'est une créature.</p>\n<p>Cela signifie que vous et vos alliés pouvez guérir ou assister le familier, alors que la plupart des ennemis sont totalement inconscients de sa vraie nature. Les créatures doivent tenter un test de @Check[perception|dc:20] pour activement @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} afin de se rendre compte que c'est en fait un familier. Votre familier peut toujours communiquer ses émotions de façon empathique. Transformer un familier entre les deux formes est une activité de 1 minute qui possède le trait concentration.</p>"
+        },
+        "Climber": {
+            "name": "Climber (Grimpeur)",
+            "description": "<p>Votre familier obtient une Vitesse d'escalade de 7,50 mètres.</p>"
+        },
+        "Elemental": {
+            "name": "Elemental (Élémentaire)",
+            "description": "<p>Votre familier possède le trait élémentaire au lieu du trait animal. Choisissez entre air, bois, eau, feu, métal ou terre. Votre familier obtient ce trait. Le familiar est immunisé contre le saignement, l'état @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzé}, le poison, le sommeil et l'élément qui correspond à son trait. Votre familier doit avoir le pouvoir de familier résistance pour sélectionner celui-ci.</p>"
+        },
+        "Damage Avoidance": {
+            "name": "Damage Avoidance (Évitement des dégâts)",
+            "description": "<p>Choisissez un type de dégâts. Votre familier ne subit aucun dégât lorsqu'il obtient un succès sur un jet de Vigueur. Cela n'empêche pas les effets autres que les dégâts.</p>",
+            "rules": {
+                "1": {
+                    "text": "{item|description}"
+                }
+            }
+        },
+        "Medic": {
+            "name": "Medic (Médecin)",
+            "description": "<p>Votre familier peut faire appel au pouvoir de votre divinité pour @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lancer un sort} une fois par jour. Le familier peut lancer la version à 1 action de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Guérison} à un rang inférieur de 2 rang à votre emplacement de sort de plus haut rang qu'il ne peut lancer que sur vous. Vous devez être capable de lancer des sorts de rang 3 à partir d'emplacements de sorts pour sélectionner ce pouvoir.</p>"
+        },
+        "Share Senses": {
+            "name": "Share Senses (Partage des sens)",
+            "description": "<p>Une fois toutes les 10 minutes, vous pouvez dépenser une action unique avec le trait concentration pour projeter vos sens à l'intérieur de votre familier. Lorsque vous le faites, vous perdez toutes les informations sensorielles de votre propre corps, mais pouvez sentir celles de votre familier durant un maximum de 1 minute. Vous pouvez Révoquer cet effet.</p>"
+        },
+        "Plant": {
+            "name": "Plant (Plante)",
+            "description": "<p>Votre familier possède le trait plante à la place du trait animal.</p>"
+        },
+        "Tattoo Transformation": {
+            "name": "Tattoo Transformation (Transformation en tatouage)",
+            "description": "<p>Votre familier peut se transformer en tatouage que vous portez sur votre peau. Lorsqu'il est transformé en tatouage, le familier est représenté sous forme de portrait stylisé et coloré et ne dispose d'aucune action sauf celle consistant à redevenir un familier. Il n'est pas affecté par les effets de zone et doit être ciblé indépendamment pour être affecté, ce qui demande de connaître le fait que le tatouage est une créature. Cela signifie que vous et vos alliés pouvez guérir et porter assistance au familier, alors que la plupart des ennemis ne connaissent pas sa vraie nature. Les créatures doivent tenter un jet de @Check[perception|dc:20|showDC:all] en utilisant l'action Chercher pour réaliser que c'est un familier (peu d'ennemis le tenteront). Votre familier peut encore communiquer ses sensations de manière empathique. Se transformer en tatouage ou revenir à sa forme de familier est une activité qui dure 1 minute et qui possède le trait concentration.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    },
+    "folders": {
+        "Specific Familiary Abilities": "Pouvoirs de familiers spécifiques"
+    }
+}

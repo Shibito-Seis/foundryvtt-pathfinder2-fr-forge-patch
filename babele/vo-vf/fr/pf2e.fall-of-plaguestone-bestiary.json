@@ -1,0 +1,652 @@
+{
+    "label": "Chute de plaguestone",
+    "entries": {
+        "Mutant Wolf": {
+            "name": "Mutant Wolf (Loup mutant)",
+            "items": {
+                "AAfX9iCUSEremClg": {
+                    "name": "Tear (Lacération)",
+                    "description": "<p><strong>Déclencheur</strong> Le loup a infligé des dégâts à une créature avec ses mâchoires lors de la précédente action.</p>\n<hr />\n<p><strong>Effet</strong> Le loup lacère la chair de la créature, lui infligeant @Damage[(1d6+2)[slashing],1[persistent,acid]]{1d6+2 dégâts tranchants et 1 dégât d'acide persistant}.</p>"
+                },
+                "DjVPq3PeaxxihodC": {
+                    "name": "Motion Sense (Precise) 30 feet (Perception du mouvement 9 mètres (précis))",
+                    "description": "<p>Un loup mutant peut sentir le déplacement à travers les vibrations et le mouvement de l'air.</p>"
+                },
+                "LRUdI4Dxl52iFGfD": {
+                    "name": "Gore Spray (Projection de bile)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature obtient un coup critique contre un loup mutant alors qu'elle est adjacente à lui.</p>\n<hr />\n<p><strong>Effet</strong> La blessure fait éclater une pustule, projetant des éclaboussures de bile. La créature déclencheuse subit @Damage[3d6[acid]]{3d6 dégâts d'acide} (@Check[reflex|dc:19|basic]). Cela se produit même si l'attaque tue le loup.</p>"
+                },
+                "Xw1S2BC5EEKdRyD5": {
+                    "name": "Jaws (Mâchoires)"
+                }
+            }
+        },
+        "Fiery Leopard": {
+            "name": "Fiery Leopard (Léopard enflammé)",
+            "items": {
+                "GuqpbUegPq8TqK1N": {
+                    "name": "Fiery Pelt (Fourrure brûlante)",
+                    "description": "<p>Les créatures qui débutent leur tour Agrippées par le léopard brûlant subissent @Damage[1d4[fire]]{1d4 dégâts de feu}. Quiconque essaie de Saisir le léopard brûlant subit @Damage[1d4[fire]]{1d4 dégâts de feu} à chaque tentative.</p>"
+                },
+                "KkLOOOl5y2bOv5Du": {
+                    "name": "Claw (Griffe)"
+                },
+                "wq9Ba6Mh6YnXVsXK": {
+                    "name": "Jaws (Mâchoires)"
+                }
+            }
+        },
+        "Giant Lightning Serpent": {
+            "name": "Giant Lightning Serpent (Serpent de foudre géant)",
+            "items": {
+                "9EZ1of6AEqFfdcOl": {
+                    "name": "Fangs (Crocs)"
+                },
+                "YFTdFcS9k9nel5jX": {
+                    "name": "Coiled Opportunity (Special) (Opportunité enroulée (Spécial))",
+                    "description": "<p>Comme Frappe réactive, mais le serpent peut utiliser sa réaction uniquement si il est enroulé.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                "lsjcV8DgDyoEiHoK": {
+                    "name": "Lightning Rattle (Cascabelle de foudre)",
+                    "description": "<p>Le serpent fait vibrer son étrange queue métallique et déchaîne un éclair sur une @Template[line|distance:60]{ligne de 18 mètres}. L'éclair inflige @Damage[2d10[electricity]|options:area-damage]{2d10 dégâts d'électricité} (@Check[reflex|dc:17|basic|options:area-effect]).</p>\n<p>Une fois que le serpent de foudre géant a utilisé cette capacité, il doit attendre [[/gmr 1d4 #Recharge Cascabelle de foudre]]{1d4 rounds} avant de pouvoir l'utiliser à nouveau.</p> </p>"
+                },
+                "zCmr3mFXGNUKM3R8": {
+                    "name": "Coil (Enrouler)",
+                    "description": "<p>Le serpent de foudre géant utilise une action pour s'enrouler. Lorsqu'il le fait, il peut augmenter son allonge de 1,50 mètre à 3 mètres de distance avec sa Frappe de crocs. Après avoir Frappé avec ses crocs, il est déroulé.</p>"
+                }
+            }
+        },
+        "Mangy Wolf": {
+            "name": "Mangy Wolf (Loup galeux)",
+            "items": {
+                "NImIftzNflSehe9o": {
+                    "name": "Fleas (Puces)",
+                    "description": "<p>Toute personne mordue par un loup galeux devient @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Malade 1} pendant 1 minute sauf si elle obtient un succès à son jet de @Check[fortitude|dc:14]. En cas d'échec, elle peut utiliser une action Interagir pour se gratter et éliminer les puces, ce qui met fin à l'état.</p>"
+                },
+                "koc2s7ltYftll9WL": {
+                    "name": "Jaws (Mâchoires)"
+                }
+            }
+        },
+        "The Sculptor": {
+            "name": "The Sculptor (Le Sculpteur)",
+            "items": {
+                "AJWjRyrAAIHiYhoC": {
+                    "name": "Orc Knuckle Dagger (Dague Coup-de-poing orque)"
+                },
+                "DBlqCyXmWFAIQkEK": {
+                    "name": "Alchemy (Alchimie)",
+                    "description": "<p>Le Sculpteur a utilisé sa capacité d'alchimie pour créer 4 @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{Feux grégeois (modérés)}, 2 @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{Élixirs de vie mineurs} et 4 @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]{Fioles de givre modérées}. Ce sont des infusions. Il peut dépenser une action pour créer une fiole supplémentaire de l'un de ces objets, une @UUID[Compendium.pf2e.equipment-srd.Item.AFR01HVd7DcZvkpP]{Foudre en bouteille inférieur} ou une @UUID[Compendium.pf2e.equipment-srd.Item.M1k5QQc1qQLxzyCK]{Fiole d'acide inférieure}.</p>"
+                },
+                "Qng0P7o12DtXwhza": {
+                    "name": "Frost Vial (Moderate, Infused) (Fiole de givre modérée, imprégnée)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> Frappe</p>\n<p>Les réactifs liquides d'un bleu brillant de cette fiole absorbent rapidement la chaleur une fois exposés à l'air. Vous obtenez un bonus d'objet au jet d'attaque de +1. La Fiole de givre modérée inflige 2d6 dégâts de froid et 2 dégâts d'éclaboussure de froid. Une cible touchée subit une pénalité de statut de -3 mètres à ses Vitesses jusqu'à la fin de son prochain tour.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effet : Fiole de givre}</p>"
+                },
+                "SRmAby5RV9B2hDc5": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> (manipulation)</p>\n<p>Cette teinture vous aide à localiser vos ennemis. Pendant les 5 minutes qui suivent, vos Frappes avec des bombes alchimiques réduisent le bonus de circonstances à la CA que vos cibles obtiennent grâce à un abri de 2.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.HmpYVsyiCq8XDlop]{Effet : Élixir d'oeil de mitrailleur}</p>"
+                },
+                "agzqqH3xx1cwPvYd": {
+                    "name": "Fist (Poing)"
+                },
+                "dCVpgXVgB9Cvbkk8": {
+                    "name": "Quick Bomber (Artificier rapide)",
+                    "description": "<p>Par une action Interagir, le Sculpteur prend une bombe alchimique et la lance en effectuant une Frappe à distance.</p>"
+                },
+                "ly7mQpnwRdZLf1Hd": {
+                    "name": "Elixir of Life (Lesser, Infused) (Élixir de vie inférieur imprégné)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> (manipulation)</p>\n<p>L'élixir de vie accélère le processus de guérison naturel du corps et son système immunitaire. En le buvant, vous récupérez @Damage[(3d6+6)[healing]]{3d6+6 Points de vie} et obtenez un bonus d'objet de +1 aux jets de sauvegarde contre la maladie et le poison pendant 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effet : Élixir de vie}</p>"
+                },
+                "nWZObmCdoI2whZKc": {
+                    "name": "Alchemist's Fire (Moderate, Infused) (Feu grégeois modéré imprégné)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> Frappe</p>\n<p>Le feu grégeois est un mélange de liquides volatils qui s'enflamment une fois exposés à l'air. Vous obtenez un bonus d'objet de +1 au jet d'attaque. Cette bombe inflige 2d8 dégâts de feu, 2 dégâts de feu persistants et 2 dégâts d'éclaboussure de feu.</p>"
+                },
+                "qy0FT7Uc1pkIw9VL": {
+                    "name": "Frost Vial (Fiole de givre)"
+                },
+                "sfP77Z49y77mmDBE": {
+                    "description": "<p>Ce solide oculaire métallique gravé de motifs carrés se pose devant un seul œil. La rotation de la loupe révèle le contour flou en trois dimensions d'un objet que vous vous apprêtez à fabriquer ou à réparer, avec des indicateurs utiles sur ses composants.</p>\n<p>Vous obtenez un bonus d'objet de +1 aux tests d'Artisanat. Lorsque vous Réparez un objet, augmentez les Points de vie récupérés de 15 par degré de maîtrise au lieu de 10.</p>"
+                },
+                "ybVy82D41OJgh19C": {
+                    "name": "Acid Flask (Fiole d'acide)"
+                }
+            }
+        },
+        "The Amalgam": {
+            "name": "The Amalgam (L'Amalgame)",
+            "items": {
+                "07qei80LxKKiWNhz": {
+                    "name": "Claw (Griffe)"
+                },
+                "JezMP2oZx98hZf5Q": {
+                    "name": "Tail (Queue)"
+                },
+                "LcZLS93hTrGELAY4": {
+                    "description": "<p><strong>Conditions</strong> Vous disposez au moins d'une main libre. Votre cible ne peut pas être de plus d'une catégorie de taille supérieure à la vôtre.</p>\n<hr />\n<p>Vous tentez de faire tomber un adversaire. Faites un test d'[[/act trip]]{Athlétisme} contre le DD de Réflexes de la cible.</p>\n<hr />\n<p><strong>Succès critique</strong> La cible chute, se retrouve @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et subit @Damage[1d6[bludgeoning]]{1d6 dégâts contondants}.</p>\n<p><strong>Succès</strong> La cible chute et se retrouve À terre.</p>\n<p><strong>Échec critique</strong> Vous perdez l'équilibre, chutez et vous retrouvez À terre.</p>"
+                },
+                "T9q5kmziWsJFwQ0c": {
+                    "name": "Too Many Limbs (Trop de bras)",
+                    "description": "<p>L'amalgame peut effectuer jusqu'à quatre Frappes, une avec chacune de ses attaques de corps-à-corps listées, mais pas plus de deux contre une même cible. Il subit une pénalité de -2 à chaque attaque, mais la pénalité d'attaques multiples n'augmente qu'après avoir effectué toutes les attaques.</p>"
+                },
+                "fr8P60Chpggm4lht": {
+                    "name": "Many Minds (Beaucoup de cerveaux)",
+                    "description": "<p>L'Amalgame abrite de multiples consciences enchevêtrées dans son esprit, qui ne sont pas également sensibles aux magies mentales. Il améliore systématiquement d'un degré tous ses jets de sauvegarde contre les effets mentaux.</p>"
+                },
+                "hAbzq1tpTvroGM7K": {
+                    "name": "Fist (Poing)"
+                },
+                "oiZuDwzyqsBfnEC8": {
+                    "name": "Jaws (Mâchoires)"
+                }
+            }
+        },
+        "Blood Ooze": {
+            "name": "Blood Ooze (Vase de sang)",
+            "description": "<p>Gonflée comme une bulle prête à éclater, cette chose suintante semble entièrement composée de sang. Sa peau lisse et cramoisie n'est marquée que par des taches semblables à des caillots formés en surface.</p>\n<p>Créé par les rituels alchimiques les plus impies, la vase de sang ne cherche qu'une chose : accroître sa masse en absorbant le sang des vivants. Elle se cache dans le corps de ses victimes, n'émergeant pour attaquer que lorsqu'un nouveau repas s'approche, ne laissant derrière elle qu'une dépouille exsangue.</p>\n<p>Le processus de création implique de drainer le sang d'au moins quatre créatures de taille Moyenne pour le faire ingérer à une cinquième, mélangé à des réactifs mortels empêchant la coagulation. Pendant ce temps, l'hôte meurt lentement tandis que la vase de sang se forme, émergeant 2 à 6 heures plus tard. Les vases de sang n'éprouvent aucune loyauté envers leurs créateurs, bien que certains aient noté qu'elles évitent souvent de s'attaquer aux membres de la famille de leur hôte.</p>\n<p>Peu savent qu'une vase de sang peut se reproduire en se scindant en deux. Cette division n'intervient que lorsqu'elle a grossi au point que la séparation produirait deux spécimens de taille normale, comme celui décrit ci-dessous.</p>",
+            "StealthVariants": {
+                "0": {
+                    "label": "si cachée dans un corps"
+                }
+            },
+            "items": {
+                "5Vi9tC7C8cYMbNL6": {
+                    "name": "Pseudopod (Pseudopode)"
+                },
+                "63gZ6gnBQpFdDSNz": {
+                    "name": "Siphon Vitality (Aspiration de la vitalité)",
+                    "description": "<p>La vase de sang extrait le sang des créatures proches, faisant éclater leur chair et répandre leur sang qui la régénère. Chaque créature vivante dans une @Template[emanation|distance:15]{émanation de 4,50 mètres} subit @Damage[3d6[slashing]|options:area-damage]{3d6 dégâts tranchants} (@Check[fortitude|dc:21|basic|options:area-effect]).</p>\n<p>La vase de sang récupère un nombre de Points de vie égal à la moitié des dégâts infligés par Aspiration de la vitalité à la créature ayant subi le plus de dégâts.</p>"
+                },
+                "HiQcVHR1RtpepohY": {
+                    "name": "Motion Sense 60 feet (Perception du mouvement 18 m)",
+                    "description": "<p>Une vase de sang peut sentir le déplacement à travers les vibrations et le mouvement de l'air.</p>"
+                },
+                "SFYGEt1kIUwWpB3A": {
+                    "name": "Clot (Caillot)",
+                    "description": "<p><strong>Déclencheur</strong> La vase de sang subit des dégâts d'une attaque perforante ou tranchante.</p>\n<p><strong>Effet</strong> La vase de sang forme un caillot autour de la blessure, réduisant les dégâts subis de 5 (au minimum 0).</p>"
+                },
+                "ZF9meCOzk6LPuLoK": {
+                    "name": "Infuse Corpse (Imprégner le cadavre)",
+                    "description": "<p>Une vase de sang peut s'infiltrer dans les blessures d'un cadavre, remplaçant son sang naturel. Elle peut jaillir du cadavre en tant qu'action gratuite.</p>"
+                },
+                "ir0EYaT4v6yUUAnh": {
+                    "name": "Blood Pool (Bain de sang)",
+                    "description": "<p>Chaque fois qu'une créature adjacente à une vase de sang subit des dégâts de saignement, la vase de sang récupère un nombre de Points de vie égal aux dégâts infligés.</p>"
+                }
+            }
+        },
+        "Alchemical Drudge": {
+            "name": "Alchemical Drudge (Esclave alchimique)",
+            "languages": "(ne peut pas parler), lien empathique",
+            "items": {
+                "ee8576IBzNlZf0VH": {
+                    "name": "Vomit Alchemy (Vomissement alchimique)",
+                    "description": "<p>Un esclave alchimique peut vomir une flaque de réactifs alchimiques corrosifs, remplissant une case adjacente. Les créatures dans cette case lors de la création subissent @Damage[2d6[acid]]{2d6 dégâts d'acide} (@Check[reflex|dc:17|basic]). Toute créature terminant son tour dans une case contenant la flaque subit @Damage[2d6[acid]]{2d6 dégâts d'acide}. La flaque persiste 1 minute avant de devenir inerte.</p>"
+                },
+                "ethAMdKZUMrMbBL0": {
+                    "name": "Fist (Poing)"
+                },
+                "lXxapm5M7WrzteiN": {
+                    "name": "Alchemical Strike (Frappe alchimique)",
+                    "description": "<p>Un esclave alchimique possède un réservoir spécial pouvant être chargé avec le contenu d'une bombe alchimique infligeant des dégâts d'acide, de froid, d'électricité ou de feu, lui permettant d'imprégner ses attaques de poing de ces dégâts. Chaque coup réussi inflige 1d6 points de dégâts du même type que la bombe chargée. Chaque bombe contient assez de substance pour 10 frappes réussies.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.yrenENpzVgBKsnNi]{Effet : Frappe alchimique}</p>"
+                },
+                "xiU6BoUEXG3kg8X3": {
+                    "name": "Empathy Link (Lien empathique)",
+                    "description": "<p>L'esclave alchimique est incapable de parler, mais son esprit est lié à celui de son créateur. Il peut partager des émotions simples avec lui, comme la peur, la joie ou la colère. Si l'esclave alchimique est détruit, son maître en est immédiatement informé. La portée de ce lien est de 450 mètres.</p>"
+                }
+            }
+        },
+        "Bee Swarm": {
+            "name": "Bee Swarm (Nuée d'abeilles)",
+            "items": {
+                "c7Nqataf1AM755gt": {
+                    "name": "Beestings (Piqûres d'abeilles)",
+                    "description": "<p>La créature doit tenter un jet de @Check[fortitude|dc:16|traits:damaging-effect]. Si elle obtient un échec, elle subit @Damage[1d4[poison]]{1d4 dégâts de poison} et devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} pendant 1 minute.</p>"
+                },
+                "iiDAJrnwPIwjETpY": {
+                    "name": "Swarming Stings (Nuée de piqûres)",
+                    "description": "<p>Chaque ennemi dans l'espace de la nuée subit @Damage[1d4[piercing]]{1d4 dégâts perforants} (@Check[reflex|dc:16|basic]). La première fois chaque round où une créature rate son jet de sauvegarde et subit des dégâts perforants, elle souffre également des effets des piqûres d'abeilles.</p>\n<p>À chaque fois que la nuée d'abeilles utilise cette capacité, elle subit 1 point de dégât.</p>"
+                }
+            }
+        },
+        "Drunken Farmer": {
+            "name": "Drunken Farmer (Fermier ivre)",
+            "items": {
+                "0TskxCnjhFaz1Io4": {
+                    "name": "Farming Lore (Connaissance agricole)"
+                },
+                "fbKIKZjIQpTae0Pq": {
+                    "name": "Fist (Poing)"
+                },
+                "o3dSxVbe4AA2OziW": {
+                    "name": "Durable Farm Clothes (Habits de ferme costauds)",
+                    "description": "<p>Cette armure est simplement formée d'une couche de tissu épais et matelassé, parfois utilisée grâce à son faible coût. Les armures matelassées sont plus faciles à endommager et à détruire que les autres types d'armures. Une armure lourde est fournie avec une sous-couche d'armure matelassée qui est incluse dans son prix mais cette armure perd son trait confort lorsqu'elle est portée sous l'armure lourde. Vous pouvez porter seulement la sous-couche de votre armure matelassée pour dormir, si votre armure lourde est détruite ou lorsque vous ne portez pas l'armure lourde complète. Cela vous permet de garder l'armure investie et de tirer parti du pouvoir de toutes les runes qui se trouvent sur l'armure lourde associée, mais personne d'autre ne peut porter votre armure lourde sans la sous-couche matelassée.</p>"
+                },
+                "q93sqksg2eIzBk9b": {
+                    "name": "Chair (Chaise)"
+                },
+                "yovNj4k8Vk5iGwAZ": {
+                    "name": "Mug (Chope)"
+                }
+            }
+        },
+        "Orc Alchemist": {
+            "name": "Orc Alchemist (Alchimiste orque)",
+            "items": {
+                "2qY5xj5MQyV3S9W4": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> Frappe</p>\n<p>La foudre en bouteille déborde de réactifs volatils qui créent une décharge électrique une fois exposés à l'air. Une foudre en bouteille inférieure inflige 1d6 dégâts d'électricité et 1 dégât d'éclaboussure d'électricité. La cible touchée est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'au début de votre prochain tour.</p>"
+                },
+                "6ysECNVXKzoWcaF2": {
+                    "name": "Fist (Poing)"
+                },
+                "EMOqcPy4SH9Nlfjf": {
+                    "name": "Acid Flask (Fiole d'acide)"
+                },
+                "FcfU2JJeDS5GyYnt": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> (manipulation)</p>\n<p>L'élixir de vie accélère le processus de guérison naturel du corps et son système immunitaire. En le buvant, vous récupérez @Damage[1d6[healing]]{1d6 Points de vie} et obtenez un bonus d'objet de +1 aux jets de sauvegarde contre la maladie et le poison pendant 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effet : Élixir de vie}</p>"
+                },
+                "bZsVYsCeMAQXrbGQ": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> Frappe</p>\n<p>Le feu grégeois est un mélange de liquides volatils qui s'enflamment une fois exposés à l'air. Cette bombe inflige 1d8 dégâts de feu, 1 dégât de feu persistant et 1 dégât d'éclaboussure de feu.</p>"
+                },
+                "fViR8itFaogs7nbf": {
+                    "name": "Alchemist's Fire (Feu grégeois)"
+                },
+                "fZrhEBe04uyvQkjR": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> Frappe</p>\n<p>Cette fiole renferme un acide corrosif qui inflige 1 dégât d'acide, 1d6 dégâts d'acide persistants et 1 dégât d'éclaboussure d'acide.</p>"
+                },
+                "hPj1DlCJj8213dpU": {
+                    "name": "Bottled Lightning (Foudre en bouteille)"
+                },
+                "uIhA0oi2q9kLAXL6": {
+                    "name": "Orc Knuckle Dagger (Dague coup-de-poing orque)"
+                }
+            }
+        },
+        "Caustic Wolf": {
+            "name": "Caustic Wolf (Loup caustique)",
+            "items": {
+                "4qqgHXd5u2hOYOxU": {
+                    "name": "Howl (Hurlement)",
+                    "description": "<p>Le loup pousse un hurlement terrifiant, lui permettant de @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} tous les ennemis dans une @Template[emanation|distance:30]{émanation de 9 mètres}. Les loups situés dans une @Template[emanation|distance:100]{émanation de 30 mètres} peuvent utiliser une réaction pour se joindre au hurlement, faisant ainsi émaner l'effet depuis leur position. Cela affecte des ennemis supplémentaires dans un rayon de 9 mètres autour d'eux en utilisant le résultat du test d'Intimidation du loup caustique avec une pénalité de circonstances de -4.</p>\n<p>Les ennemis ne peuvent pas être affectés par le hurlement plus d'une fois, même s'ils se trouvent à portée de plusieurs loups hurlants. Toutes les créatures ciblées par cet effet y sont temporairement immunisées pendant 24 heures.</p>"
+                },
+                "WJyRm55Q5UYPHJEX": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "ibMVoNbGTJRctcSf": {
+                    "name": "Acid Breath (Souffle acide)",
+                    "description": "<p>Le loup projette un jet d'acide vert brillant depuis sa gueule, couvrant toutes les créatures sur une @Template[line|distance:30]{ligne de 9 mètres}. Toutes les créatures dans la ligne subissent @Damage[3d6[acid]|options:area-damage]{3d6 dégâts d'acide} (@Check[reflex|dc:16|basic|options:area-effect]).</p>\n<p>Le loup caustique ne peut pas utiliser cette capacité à nouveau avant 1 minute.</p>"
+                }
+            }
+        },
+        "Bloodlash Bush": {
+            "name": "Bloodlash Bush (Arbuste flagellateur)",
+            "description": "<p>L'arbuste flagellateur tente de lacérer ses ennemis, utilisant ses plaies suintantes pour irriguer le sol autour de lui. Les graines d'un arbuste flagellateur ne peuvent prendre racine que dans une terre imbibée de sang.</p>\n<hr />\n<p>Souvent négligées au profit de menaces plus évidentes, certaines plantes peuvent s'avérer aussi mortelles et dangereuses que des bêtes sauvages.</p>\n<p>Ce qui semblait au premier abord n'être qu'un simple buisson s'anime soudainement.</p>",
+            "items": {
+                "Lg8lgJjsoVFNbIn9": {
+                    "name": "Vine (Vrille)"
+                },
+                "NpPubKpYdINZXyln": {
+                    "name": "Blood Siphon (Siphonner le sang)",
+                    "description": "<p>Les vrilles de l'arbuste s'étendent pour siphonner le sang d'une victime située jusqu'à 6 mètres, infligeant des dégâts de saignement. La victime subit immédiatement ces dégâts de saignement (@Check[reflex|dc:17|basic]).</p>\n<p>L'arbuste récupère un nombre de Points de vie égal au double des dégâts infligés.</p>"
+                },
+                "Q7mhjwk9bupmhykG": {
+                    "name": "Spinning Strike (Frappe tournoyante)",
+                    "description": "<p>L'arbuste pivote sur lui-même, frappant dans toutes les directions simultanément. Il effectue un seul jet d'attaque qu'il compare à la CA de chaque créature dans son allonge au corps-à-corps, ne lançant les dés de dégâts qu'une seule fois et les appliquant à chaque créature touchée.</p>"
+                },
+                "dbmjIDpE1N1vZOwC": {
+                    "name": "Tremorsense (Imprecise) 30 feet (Perception des vibrations 9 mètres (imprécis))"
+                },
+                "lkgQ9hctSS8DlLr1": {
+                    "name": "Weeping Wounds (Blessures Suintantes)",
+                    "description": "<p>Les vrilles d'un arbuste flagellateur infligent de terribles lacérations qui saignent abondamment. Une créature touchée par une attaque de vrille subit @Damage[1[bleed]] 1 dégât de saignement (@Damage[2[bleed]]{2 dégâts de saignement} sur un coup critique).</p>\n<p>Contrairement aux autres dégâts persistants, ces dégâts sont cumulatifs (jusqu'à un maximum de 5 dégâts de saignement), mais peuvent être arrêtés comme n'importe quels autres dégâts de saignement.</p>"
+                }
+            }
+        },
+        "Graytusk": {
+            "name": "Graytusk",
+            "items": {
+                "CoerEJBile8XaZEr": {
+                    "name": "Shortsword (Épée courte)"
+                },
+                "Ys1W0Ct28xcay6x9": {
+                    "name": "Fist (Poing)"
+                },
+                "jzIm0oDcLsATrw2h": {
+                    "name": "Double Shot (Double tir)",
+                    "description": "<p>Graytusk peut effectuer deux Frappes à distance contre deux cibles différentes, chacune avec une pénalité de -2. La pénalité de multiples attaques de Graytusk n'augmente qu'après avoir réalisé les deux attaques.</p>"
+                },
+                "o5S6ArjIn6h6ZhYc": {
+                    "name": "Composite Longbow (Arc long composite)"
+                }
+            }
+        },
+        "The Behemoth": {
+            "name": "The Behemoth (Le béhémoth)",
+            "languages": "(ne peut pas parler), lien empathique",
+            "items": {
+                "A1XwGa6RjEXJGJQJ": {
+                    "name": "Stomp (Écraser au pied)",
+                    "description": "<p>Le béhémoth peut frapper le sol violemment, faisant tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} toutes les créatures dans un rayon de 3 mètres (@Check[reflex|dc:19] permet d'annuler l'effet).</p>"
+                },
+                "NRhJd4TWmu6ZArpW": {
+                    "name": "Massive Strike (Frappe massive)",
+                    "description": "<p>Le béhémoth effectue une Frappe au corps-à-corps et si l'attaque touche, il peut repousser la créature de 3 mètres (6 mètres sur un coup critique). La cible doit réussir un jet de @Check[fortitude|dc:19] ou être jetée @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} par cette attaque.</p>"
+                },
+                "WtfcXfbAXXdkKtTz": {
+                    "name": "Fist (Poing)"
+                },
+                "hFW1o4do0v4GBG9f": {
+                    "name": "Empathy Link (Lien empathique)",
+                    "description": "<p>Le béhémoth est incapable de parler, mais son esprit est lié à celui de son créateur. Il peut partager des émotions simples avec lui, comme la peur, la joie ou la colère. Si le béhémoth est détruit, son maître en est immédiatement informé. La portée de ce lien est de 450 mètres.</p>"
+                }
+            }
+        },
+        "Vilree": {
+            "name": "Vilree",
+            "items": {
+                "4W7aXiF7zzSQoKTr": {
+                    "name": "Elixir of Life (Lesser, Infused) (Élixir de vie inférieur imprégné)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> (manipulation)</p>\n<p>L'élixir de vie accélère le processus de guérison naturel du corps et son système immunitaire. En le buvant, vous récupérez @Damage[(3d6+6)[healing]]{3d6+6 Points de vie} et obtenez un bonus d'objet de +1 aux jets de sauvegarde contre la maladie et le poison pendant 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effet : Élixir de vie}</p>"
+                },
+                "8rEGphd48JD2zALZ": {
+                    "name": "Alchemist's Fire (Moderate, Infused) (Feu grégeois modéré imprégné)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> Frappe</p>\n<hr />\n<p>Le feu grégeois est un mélange de liquides volatils qui s'enflamment une fois exposés à l'air. Vous obtenez un bonus d'objet de +1 au jet d'attaque. Cette bombe inflige 2d8 dégâts de feu, 2 dégâts de feu persistants et 2 dégâts d'éclaboussure de feu.</p>"
+                },
+                "CfawbSTZsSlWiCtA": {
+                    "name": "Alchemical Crossbow (Arbalète alchimique)",
+                    "description": "<p>L'arbalète de Vilree peut délivrer des carreaux alchimiquement imprégnés. Avec une action, elle peut charger une bombe alchimique dans l'arbalète, et les trois prochaines attaques qu'elle effectue en utilisant l'arbalète infligent 1d6 dégâts correspondant aux dégâts de la bombe. Ces attaques n'infligent jamais de dégâts d'éclaboussure.</p>"
+                },
+                "DHbdQT264fOaCFxa": {
+                    "name": "Key (Clé)"
+                },
+                "GUPfjrn8zA2wRtby": {
+                    "name": "Bottled Lightning (Foudre en bouteille)"
+                },
+                "SiM6qBzt7lVtOzta": {
+                    "name": "Acid Energy Mutagen (Lesser) (Mutagène d'énergie acide inférieur)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (manipulation)</p>\n<p><strong>Durée</strong> 1 minute.</p>\n<hr />\n<p>Lorsqu'il est créé, ce mutagène est accordé à l'acide. Lorsqu'il est consommé, le mutagène imprègne votre corps d'une énergie qui se déclenche à chaque attaque.</p>\n<p><strong>Avantage</strong> Vous obtenez une résistance 5 contre l'acide. Chaque fois que vous touchez avec une arme au corps-à-corps, ajoutez 1 point de dégât d'acide.</p>\n<p><strong>Inconvénient</strong> Vous subissez une faiblesse 5 contre l'électricité, le feu et le froid.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.C9Tnl6Q7Z5Sbw5EY]{Effet : Mutagène d'énergie inférieur}</p>"
+                },
+                "TUXQwzwuB2QRWdap": {
+                    "name": "Tanglefoot Bag (Lesser, Infused) (Bombe collante inférieure imprégnée)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> Frappe</p>\n<hr />\n<p>Une <em>bombe collante</em> est un mécanisme explosif inoffensif contenant des substances collantes. Lorsque vous touchez une créature avec une <em>bombe collante</em>, cette créature subit une pénalité de statut de -3 mètres à ses Vitesses pendant 1 minute. Le DD pour S'échapper est de 17 ([[/act escape dc=17]]).</p>\n<p>Sur un coup critique, une créature en contact avec une surface solide y reste collée et @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant 1 round et une créature qui vole grâce à des ailes voient ces dernières enchevêtrées et se pose au sol sans se blesser, incapable de Voler de nouveau pendant 1 round. La <em>bombe collante</em> est inefficace lorsqu'elle est utilisée sur une créature qui se trouve dans l'eau.</p>\n<p>La cible peut mettre un terme à l'effet en S'échappant ou en passant un total de 3 actions Interagir à éliminer soigneusement la substance collante. Ces actions Interagir ne sont pas obligatoirement consécutives et d'autres créatures peuvent les fournir.</p>"
+                },
+                "Tk6rmGNBuVrHBJa3": {
+                    "name": "Acid Flask (Fiole d'acide)"
+                },
+                "TlTLpPCOdUagvCNY": {
+                    "name": "Bottled Lightning (Moderate, Infused) (Foudre en bouteille modérée imprégné)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> Frappe</p>\n<p>La foudre en bouteille déborde de réactifs volatils qui créent une décharge électrique une fois exposés à l'air. Vous obtenez un bonus d'objet de +1 au jet d'attaque.</p>\n<p>Une foudre en bouteille modérée inflige 2d6 dégâts d'électricité et 2 dégâts d'éclaboussure d'électricité. La cible touchée est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'au début de votre prochain tour.</p>"
+                },
+                "UNvS4DCLAYyLk9BV": {
+                    "name": "Far Lob (Lancé à grande distance)",
+                    "description": "<p>Les bombes de Vilree ont un facteur de portée augmenté de 9 mètres (au lieu de 6 mètres).</p>"
+                },
+                "XrXyd2Jutclay3SY": {
+                    "name": "Acid Flask (Moderate, Infused) (Fiole d'acide modérée imprégnée)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> Frappe</p>\n<p>Cette fiole renferme un acide corrosif qui inflige les dégâts d'acide. Vous obtenez un bonus d'objet de +1 au jet d'attaque. La fiole inflige 1 dégât d'acide, 2d6 dégâts d'acide persistants et 2 dégâts d'éclaboussure d'acide.</p>"
+                },
+                "fiVpkhoGCMxibpae": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> manipulation</p>\n<hr />\n<p>Ce mutagène calcifie votre corps le rendant aussi dur que la pierre.</p>\n<p><strong>Avantage</strong> Vous obtenez une résistance 5 contre les dégâts physiques (sauf contondant).</p>\n<p><strong>Inconvénient</strong> Vos vitesses sont réduites de 3mètres (minimum 1,50 mètre) et vous subissez une pénalité de -2 aux jets de Réflexes.</p>\n<p><strong>Durée</strong> 10 minutes</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.PEPOd38VfVzQMKG5]{Effet : Mutagène corps-de-pierre inférieur}</p>"
+                },
+                "grCtKdzXEThkkEnh": {
+                    "name": "Alchemist's Fire (Feu grégeois)"
+                },
+                "iH1DW9SDoom5foXd": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (manipulation)</p>\n<hr />\n<p>Votre corps devient robuste et lourd.</p>\n<p><strong>Avantage</strong> Vous obtenez un bonus d'objet de +1 aux jets de Vigueur ainsi que 5 Points de vie temporaires. Lorsque vous êtes à votre maximum de Points de vie depuis 1 minute complète, vous récupérez les Points de vie temporaires.</p>\n<p><strong>Inconvénient</strong> Vous subissez une pénalité de -2 aux jets de Volonté et d'initiative et aux tests de Perception.</p>\n<p><strong>Durée</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1l139A2Qik4lBHKO]{Effet : Mutagène de juggernaut inférieur}</p>"
+                },
+                "mS0cgJYX09iGU6Dg": {
+                    "name": "Tanglefoot Bag (Bombe collante)"
+                },
+                "oiHACGBUrWebvlA7": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> (manipulation)</p>\n<hr />\n<p>En buvant cette épaisse potion fortifiante, Vous obtenez une résistance 5 contre les dégâts de feu pendant 1 heure.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.OwHOtzI31nrfYKQ9]{Effet : Potion de résistance au feu inférieure}</p>"
+                },
+                "qTFM74fJettSOvPE": {
+                    "name": "Quick Bomber (Artificier rapide)",
+                    "description": "<p>Par une action Interagir, Vilree prend une bombe alchimique et la lance en effectuant une Frappe à distance.</p>"
+                },
+                "s4Mw2UHu6wej4awv": {
+                    "name": "Alchemy (Alchimie)",
+                    "description": "<p>Vilree a utilisé sa capacité d'alchimie pour créer 4 @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]{Fioles d'acide modérées}, 6 @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{Feux grégeois modérés}, 2 @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]{Foudres en bouteille modérées}, 3 @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{Élixir de vie inférieur}, et 2 @UUID[Compendium.pf2e.equipment-srd.Item.T6Appwwl6nUl56Xj]{Bombe collante inférieure}. Ce sont des infusions. Elle peut dépenser une action pour créer une fiole supplémentaire de l'un de ces objets, ou de tout autre objet listé comme formules dans son livre.</p>"
+                },
+                "tJAcVBe69z7PlOrg": {
+                    "name": "Alchemical Crossbow (Arbalète alchimique)"
+                },
+                "u1zA8fSPZ0RdHY47": {
+                    "name": "Belt Pouch (Bourse de ceinture)"
+                },
+                "vACP18XqpwSKIwpu": {
+                    "name": "Dagger (Dague)"
+                },
+                "yMAxt5X4yKHVkmRO": {
+                    "name": "Fist (Poing)"
+                }
+            }
+        },
+        "Stone Horse": {
+            "name": "Stone Horse (Cheval de pierre)",
+            "items": {
+                "3Ope7LQxbCtQSi9I": {
+                    "name": "Shattering Hooves (Sabots fracassants)",
+                    "description": "<p>Les sabots du cheval de pierre sont durs comme du fer ; si le cheval effectue une Frappe de sabot et obtient un coup critique, l'armure de la cible est également endommagée, l'attaque infligeant autant de dégâts à l'armure qu'à la cible (la Solidité s'applique normalement). Si la cible utilise Blocage au bouclier contre un coup critique du cheval de pierre avec une attaque de sabot, considérez que la Solidité du bouclier est réduite de 5 points (minimum 0).</p>"
+                },
+                "mVLpape73XGX3YNO": {
+                    "name": "Hoof (Sabot)"
+                }
+            }
+        },
+        "Lord Nar": {
+            "name": "Lord Nar",
+            "items": {
+                "09b0IlFnSJXdgoC2": {
+                    "name": "+1 Greatclub (Massue +1)"
+                },
+                "118sQ4tVvJdGHz7X": {
+                    "name": "Bronze Key (Clé de bronze)"
+                },
+                "3QorQFU1nCUU8HJK": {
+                    "name": "Rage",
+                    "description": "<p>Seigneur Nar entre dans une rage qui dure 1 minute et lui accorde 8 Points de vie temporaires, inflige 4 dégâts supplémentaires avec ses attaques listées et subit une pénalité de statut de -1 à sa CA.</p>\n<p>Il ne peut pas utiliser d'actions avec le trait concentration pendant sa rage, sauf si elles ont également le trait rage.</p>\n<p>Une fois sa rage terminée, Nar ne peut pas entrer à nouveau en rage pendant 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Effet : Rage}</p>"
+                },
+                "AwlVudq6AfPfI2GF": {
+                    "name": "Hatchet (Hachette)"
+                },
+                "GCZ8JN24FbufHgGD": {
+                    "name": "Fist"
+                },
+                "Jx2oL3c8t1JB3fOK": {
+                    "name": "No Escape (Pas d'échappatoire)",
+                    "description": "<p><strong>Déclencheur</strong> Un adversaire adjacent tente de s'éloigner.</p>\n<hr />\n<p><strong>Effet</strong> Seigneur Nar peut se déplacer jusqu'à sa vitesse mais doit terminer son mouvement aussi près que possible de la créature déclencheuse sans entrer dans sa case.</p>"
+                }
+            }
+        },
+        "Vine Lasher": {
+            "name": "Vine Lasher (Fouetteur de liane)",
+            "description": "<p>Le fouetteur de lianes attaque en groupe, cherchant à immobiliser ses proies et à les déchiqueter lentement.</p>\n<hr />\n<p>Ce qui semble d'abord être un simple buisson s'anime soudainement.</p>",
+            "items": {
+                "HUSsHe6Sz3WV3nnH": {
+                    "name": "Tremorsense (Imprecise) 30 feet (Perception des vibrations 9 mètres (imprécis))"
+                },
+                "JWZ3MiXhWwFprWgn": {
+                    "name": "Vine (Liane)"
+                },
+                "tgEiQ20X2hPkiyPM": {
+                    "name": "Light Hold (Saisie légère)",
+                    "description": "<p>Une créature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} par un fouetteur de lianes n'est pas immobilisée, mais son espace ainsi que toutes les cases adjacentes sont considérés comme un terrain difficile. Si la créature se déplace, le fouetteur de lianes se déplace avec elle, en la maintenant toujours à 3 mètres de lui au maximum.</p>\n<p>Si deux fouetteurs de lianes ou plus agrippent une créature de cette manière, alors son espace et les cases adjacentes sont considérés comme un terrain très difficile.</p>"
+                }
+            }
+        },
+        "Falling Debris": {
+            "name": "Falling Debris (Déversement de débris)",
+            "desc (hazard)": "<p>Une planche de sol sensible à la pression est reliée à une poutre soutenant des débris dans le faux plafond du passage.</p>",
+            "disable": "<p>@Check[thievery|dc:15|name:Désamorcer le piège|traits:mechanical,trap,hazard] (qualifié) sur la planche de sol avant que les débris ne tombent.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "HY2Pfqwkwhn3BmVF": {
+                    "name": "Falling Debris (Déversement de débris)",
+                    "description": "<p><strong>Déclencheur</strong> Une pression est exercée sur la planche de sol.</p>\n<hr />\n<p><strong>Effet</strong> Le faux plafond du passage s'effondre sur la case où le couloir tourne, ainsi que sur les deux cases adjacentes. Toute créature située dans ces trois cases subit @Damage[3d6[bludgeoning]]{3d6 dégâts de contondant} et peut tenter un jet de @Check[reflex|dc:14|traits:damaging-effect] pour réduire les dégâts. Pour la créature située dans la case centrale, où le piège est déclenché, il s'agit d'un jet de sauvegarde basique. Les créatures dans les deux cases adjacentes ne subissent aucun dégât en cas de succès ou de succès critique, évitant totalement les débris en chute, mais elles subissent l'intégralité des dégâts en cas d'échec et le double en cas d'échec critique. Les créatures qui subissent des dégâts à cause des débris sont @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisées}, piégées sous le poids écrasant.</p>\n<p>Dégager une case de débris nécessite un test de compétence @Check[athletics|dc:17|name:Dégager les débris] avec les effets suivants :</p>\n<hr />\n<p><strong>Succès critique</strong> La case est dégagée en 1 minute.</p>\n<p><strong>Succès</strong> La case est dégagée en 5 minutes.</p>\n<p><strong>Échec</strong> La case est dégagée en 10 minutes.</p>\n<p><strong>Échec critique</strong> Le plafond au-dessus de la case s'effondre davantage, infligeant @Damage[2d6[bludgeoning]]{2d6 dégâts de contondant} au personnage creusant et à toute créature piégée dans cette case. Cela prend 1 minute et aucun progrès n'est fait.</p>"
+                }
+            }
+        },
+        "Icy Rat": {
+            "name": "Icy Rat (Rat glacé)",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader ou Nager"
+                }
+            },
+            "items": {
+                "cdO3prxbJedebC1E": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "gUXTztO5KPImLwMr": {
+                    "name": "Icy Death (Mort glacée)",
+                    "description": "<p>Lorsqu'un rat glacé est vaincu, son corps explose en une gerbe de fourrure et d'os gelés, infligeant @Damage[2d4[cold]]{2d4 dégâts de froid} à toutes les créatures adjacentes (@Check[reflex|dc:14|basic]).</p>"
+                }
+            }
+        },
+        "Ice Fall Trap": {
+            "name": "Ice Fall Trap (Piège de chute de glace)",
+            "desc (hazard)": "<p>Des compartiments dans le plafond sont piégés pour déverser un liquide alchimique glacial dans toute la salle si la porte est ouverte sans utiliser la clé.</p>",
+            "disable": "<p>@Check[thievery|dc:20|name:Désamorcer la chute de glace|traits:mechanical,trap] (qualifié) sur la porte permet de l'ouvrir sans déclencher le piège.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "ctDUZ8gUdfvuUQoM": {
+                    "name": "Ice Fall (Chute de glace)",
+                    "description": "<p><strong>Déclencheur</strong> La porte est attaquée ou ouverte sans utiliser la clé.</p>\n<hr />\n<p><strong>Effet</strong> Une mixture alchimique glaciale se déverse dans la pièce, infligeant @Damage[4d6[cold]]{4d6 dégâts de froid} à toutes les créatures dans la zone (@Check[reflex|dc:20|basic]).</p>"
+                }
+            }
+        },
+        "Hallod": {
+            "name": "Hallod",
+            "items": {
+                "58o7e9nxdNkBM1of": {
+                    "description": "<p>Une <em>potion de guérison</em> se présente sous forme de liquide rouge rubis contenu dans une fiole. Elle provoque de légers picotements tandis que les plaies du buveur se referment rapidement. Lorsque vous buvez une <em>potion de guérison inférieure</em>, vous récupérez @Damage[(2d8+5)[healing]]{2d8+5 Points de vie}.</p>"
+                },
+                "6gjO0zL3ldOn7rgt": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (manipulation)</p>\n<hr />\n<p>Votre corps devient robuste et lourd.</p>\n<p><strong>Avantage</strong> Vous obtenez un bonus d'objet de +1 aux jets de Vigueur ainsi que 5 Points de vie temporaires. Lorsque vous êtes à votre maximum de Points de vie depuis 1 minute complète, vous récupérez les Points de vie temporaires.</p>\n<p><strong>Inconvénient</strong> Vous subissez une pénalité de -2 aux jets de Volonté et d'initiative et aux tests de Perception.</p>\n<p><strong>Durée</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1l139A2Qik4lBHKO]{Effet : Mutagène de juggernaut inférieur}</p>"
+                },
+                "7ChbBnE9NpIFnI3W": {
+                    "name": "Key (Clé)"
+                },
+                "9oxmm9BZ3rs5s1o5": {
+                    "name": "One-Two Move (Mouvement un-deux)",
+                    "description": "<p>Hallod effectue deux Frappes, une avec chaque main ; il attaque généralement en premier avec son kukri. Si cette première attaque touche, la cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} pour la seconde attaque (qui, pour Hallod, est généralement une Frappe avec son poing). La pénalité des attaques multiples s'applique normalement à ces attaques.</p>"
+                },
+                "BxmH1fhCQ3U0b1Nz": {
+                    "name": "Kukri"
+                },
+                "bdzjSnMLtILLG0C0": {
+                    "name": "Heavy Crossbow (Arbalète lourde)"
+                },
+                "dqQBS41Yru6Mb8AN": {
+                    "name": "Fist (Poing)"
+                },
+                "pwteaSOJloInqNGa": {
+                    "description": "<p>Hallod inflige 1d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{prises au dépourvu}.</p>"
+                },
+                "xMemEoOgOymquil3": {
+                    "name": "Dirty Trick (Sale coup)",
+                    "description": "<p><strong>Déclencheur</strong> Hallod réussit un coup critique avec une attaque au corps-à-corps.</p>\n<hr />\n<p><strong>Effet</strong> Hallod peut tenter un test d'Athlétisme pour @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser} ou faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} à la cible de son attaque. Cela utilise la même pénalité que l'attaque, mais ne compte pas comme une attaque supplémentaire pour cette pénalité.</p>"
+                }
+            }
+        },
+        "Spear Launcher": {
+            "name": "Spear Launcher (Lance-épieu)",
+            "desc (hazard)": "<p>Une vieille arbalète lourde est dissimulée sous un tas de détritus, chargée avec une lance de bois et reliée à la corde maintenant la porte.</p>",
+            "disable": "<p>@Check[thievery|dc:18|traits:action:disable-a-device]{Vol (qualifié)} sur la corde permet à un PJ de fixer la corde et d'ouvrir la porte sans déclencher le piège.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "YapaAOg2pzlW9uPP": {
+                    "name": "Spear (Lance)",
+                    "description": "<p><strong>Déclencheur</strong> La corde est coupée ou détachée de la porte.</p>\n<hr />\n<p><strong>Effet</strong> Le piège propulse l'épieu et effectue une attaque contre la créature qui a touché à la corde.</p>"
+                },
+                "ZizBeGklUEvX03AL": {
+                    "name": "Spear (Épieu)"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

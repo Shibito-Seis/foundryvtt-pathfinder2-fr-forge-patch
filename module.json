@@ -1,0 +1,96 @@
+{
+  "id": "pf2-fr",
+  "title": "Français [Pathfinder 2] (fan made) - Patch Forge/Babele 2.9",
+  "description": "Ce module fournit une traduction (non officielle) du système et des compendiums Pathfinder 2e. Elle est réalisée par des fans et utilise le module Babele.<p><b>- Rejoignez la communauté Discord FR :</b><a href=\"https://discord.gg/pPSDNJk\"> https://discord.gg/pPSDNJk </a></p>",
+  "version": "7.11.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13.351",
+    "maximum": "13.999"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.6.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.9.0"
+        }
+      },
+      {
+        "id": "lib-wrapper"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Sven Werlen (codeur du module originel)"
+    },
+    {
+      "name": "Dwim (codeur principal)",
+      "discord": "Dwim#6417"
+    },
+    {
+      "name": "Rectulo (traduction & coordination)",
+      "discord": "rectulo#4697"
+    },
+    {
+      "name": "Njini (traduction)",
+      "discord": "Njini#5521"
+    },    {
+      "name": "mose (traduction depuis le PC2 et TXCG)",
+      "discord": "mose#5710"
+    },
+    {
+      "name": "BlackBiji (traduction sur RoE)",
+      "discord": "Blakckbiji#1359"
+    },
+    {
+      "name": "Shibito-Seis (Le mec qui a patché vos conneries)"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "French (Français)",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Rules Elements",
+      "path": "lang/re/fr.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Actions",
+      "path": "lang/action/fr.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Kingmaker",
+      "path": "lang/kingmaker/fr.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Compagnons",
+      "path": "lang/companions/fr.json"
+    }
+  ],
+  "esmodules": [
+    "pf2fr.js"
+  ],
+  "url": "https://github.com/Shibito-Seis/foundryvtt-pathfinder2-fr-forge-patch",
+  "manifest": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2-fr/-/raw/master/module.json",
+  "download": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2-fr/-/releases/7.11.1/downloads/pf2-fr.zip",
+  "bugs": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2-fr/-/issues",
+  "readme": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2-fr/-/blob/master/README.md"
+}

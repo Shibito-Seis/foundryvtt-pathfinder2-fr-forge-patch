@@ -1,0 +1,129 @@
+{
+    "label": "Eidolons (Animal Companions)",
+    "entries": {
+        "Beast Eidolon": {
+            "name": "Eidolon bestial (Beast Eidolon)"
+        },
+        "Undead Eidolon": {
+            "name": "Eidolon mort-vivant (Undead Eidolon)"
+        },
+        "Dragon Eidolon": {
+            "name": "Eidolon dragon (Dragon Eidolon)"
+        },
+        "Plant Eidolon": {
+            "name": "Eidolon végétal (Plant Eidolon)"
+        },
+        "Construct Eidolon": {
+            "name": "Eidolon créature artificielle (Construct Eidolon)"
+        },
+        "Anger Phantom Eidolon": {
+            "name": "Eidolon ectoplasme colérique (Anger Phantom Eidolon)"
+        },
+        "Psychopomp Eidolon": {
+            "name": "Eidolon psychopompe (Psychopomp Eidolon)"
+        },
+        "Devotion Phantom Eidolon": {
+            "name": "Eidolon ectoplasme dévoué (Devotion Phantom Eidolon)"
+        },
+        "Demon Eidolon": {
+            "name": "Eidolon démon (Demon Eidolon)"
+        },
+        "Angel Eidolon": {
+            "name": "Eidolon ange (Angel Eidolon)"
+        },
+        "Fey Eidolon": {
+            "name": "Eidolon fée (Fey Eidolon)"
+        },
+        "Swarm Eidolon": {
+            "name": "Eidolon nuée (Swarm Eidolon)"
+        },
+        "Elemental Eidolon": {
+            "name": "Eidolon élémentaire (Elemental Eidolon)"
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

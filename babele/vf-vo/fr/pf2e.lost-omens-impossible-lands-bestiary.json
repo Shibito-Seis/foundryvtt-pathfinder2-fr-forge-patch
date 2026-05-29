@@ -1,0 +1,624 @@
+{
+    "label": "Bestiaire des Royaumes impossibles",
+    "entries": {
+        "Mutant Gnoll Hulk": {
+            "name": "Mastodonte kholo mutant (Mutant Gnoll Hulk)",
+            "description": "<p>Les énergies magiques erratiques de la Désolation de Mana peuvent déformer et tordre les créatures assez folles ou malchanceuses pour y être piégées. Les effets physiologiques de cette exposition peuvent varier dans leur étendue, allant de transformations grotesques du corps entier à des changements plus subtils de la peau ou des sens et ils s'accompagnent souvent de changements de disposition, de motivation ou de tempérament.</p>\n<hr />\n<p>Séparé de sa meute durant une tempête de magie sauvage prolongée, le mastodonte kholo mutant de la Désolation de Mana s'est transformé en une créature dévastatrice gigantesque.</p>",
+            "perception": "faim magique 9 m (imprécis)",
+            "items": {
+                "5RBj47hcinDCgyle": {
+                    "name": "Morsure vengeresse (Vengeful Bite)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature obtient un coup critique contre le mutant avec une frappe au corps-à-corps à mains nues ou une Frappe au corps-à-corps sans allonge</p>\n<hr />\n<p><strong>Effet</strong> Le mutant fait une Frappe de gueule contre la créature déclencheuse.</p>"
+                },
+                "AwqJdcNInVfHDLPp": {
+                    "name": "Attaque en meute (Pack Attack)",
+                    "description": "<p>Les Frappes d'un mastodonte mutant kholo infligent 1d4 dégâts supplémentaires aux créatures dans l'allonge d'au moins deux de ses alliés.</p>"
+                },
+                "KOpvNQxJ1AQE1wtx": {
+                    "name": "Tout terrain (Rugged Travel)",
+                    "description": "<p>Un kholo ignore la première case de terrain difficile dans laquelle elle se déplace à chaque fois qu'il Fait un pas ou Marche rapidement.</p>"
+                },
+                "Q4Prh3oB51Pdb02x": {
+                    "name": "Gueule (Maw)"
+                },
+                "oT9ttfVzaax4vzvj": {
+                    "name": "Arc long composite (Composite Longbow)"
+                },
+                "sKGdXbSqhD5CT6tu": {
+                    "name": "Hache d'arme (Battle Axe)"
+                }
+            }
+        },
+        "Quantium Golem (Electricity)": {
+            "name": "Golem de Quantium (Électricité) (Quantium Golem (Electricity))",
+            "description": "<p>La longue guerre entre Nex et Geb a donné naissance à de nombreuses armes animées, mais bien qu'un citoyen de Quantium s'enfuirait en hurlant devant n'importe quel produit des forges de chair, il ne sourcillerait guère devant les deux créatures artificielles titanesques et mortelles qui déambulent rapidement à l'extérieur des murs de la ville. Conçus par le roi-sorcier Nex il y a bien longtemps, après une attaque dévastatrice des forces mortes-vivantes de Geb, dont le terrifiant castor benthique, les golems de Quantium sont destinés à protéger la capitale en cas d'absence de Nex. Ces golems jumeaux veillent sans relâche sur la ville, prêts à abattre tout envahisseur menaçant Quantium.</p>\n<p>D'une hauteur de trois mètres et fabriqués dans un matériau d'une douceur surnaturelle, les deux gardiens sont assortis, le premier étant de couleur cramoisie et le second de couleur émeraude. Brandissant des épées de la taille de géants, les gardiens détruisent sans relâche tout ce qui menace la ville, en particulier les morts-vivants qui pourraient envahir le pays en provenance du Geb. Avec le mythique Crux de Nex comme source d'énergie, les golems sont inépuisables et presque indestructibles.</p>",
+            "perception": "Lien du défenseur",
+            "items": {
+                "1HLmpNiFbeCNAiK6": {
+                    "name": "Perception de la vie 36 mètres (Lifesense 120 feet)"
+                },
+                "3P9XjG1L99lgKXLy": {
+                    "name": "Rayon oculaire (Eye Beam)"
+                },
+                "9BgaqEFmIjulirAy": {
+                    "name": "Épée bâtarde (Bastard Sword)"
+                },
+                "QLpS6QL7iaYN78dd": {
+                    "name": "Rayon lumineux (Lambent Beam)",
+                    "description": "<p>Les yeux du golem de Quantium brillent d'une lueur vive libérant un arc de destruction qui inflige @Damage[10d6[fire],10d6[electricity]]{10d6 dégâts de feu et 10d6 dégâts d'électricité} aux créatures sur une @Template[line|distance:120]{ligne de 36 mètres} (@Check[reflex|dc:42|basic]). Le golem de Quantium ne peut utiliser Rayon lumineux pendant [[/gmr 1d4 #Recharge du Rayon lumineux]]{1d4 rounds}.</p>"
+                },
+                "ZdqlTV2GE4fHp7o7": {
+                    "name": "Vulnérable à Bannissement (Vulnerable to Banishment)",
+                    "description": "<p>Lancer un sort de @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Bannissement} sur un golem de Quantium perturbe son lien avec la Crux de Nex. S'il est ciblé par un tel sort, le golem est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1} et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} pendant[[/gmr 1d4 #Slowed duration]]{1d4 rounds}.</p>"
+                },
+                "bd2Bxzbndod4WaZQ": {
+                    "description": "<p>Cette épée à large lame, parfois appelée épée à une-main-et-demie, a une prise plus longue et peut donc être tenue d'une main ou utilisée à deux mains pour fournir une puissance tranchante supplémentaire.</p>"
+                },
+                "db1nDSlbX73gPD9U": {
+                    "name": "Défenseurs jumeaux (Twin Defenders)",
+                    "description": "<p>Les golems de Quantium furent créés par Nex comme un ensemble apparié : le premier cramoisi et le second émeraude, chacun état une entité unique. Le golem cramoisi est imprégné avec un feu brûlant et des éclairs crépitants. Ses capacités Rayon oculaire et Lambent Beam infligent des dégâts d'électricité et de feu. Le golem d'émeraude est chargé de puissance corrosive et de flammes. Ses capacités Rayon oculaire et Rayon lumineux infligent des dégâts d'acide et de feu.</p>"
+                },
+                "fM5TkztLOObStHW2": {
+                    "name": "Reconstruction appariée (Paired Reconstruction)",
+                    "description": "<p>Lorsqu'il est réduit à 0 PV, le golem de Quantium est détruit. Quoi qu'il en soit, il se reforme magiquement 24 heures aprrès avec la totalité de ses Points de vie et libéré de toutes ses conditions et afflictions à moins que son golem jumeau ne soit aussi détruit.</p>"
+                },
+                "gkXa9hD1dnoSxatR": {
+                    "name": "Lien du défenseur (Defender's Link)",
+                    "description": "<p>Chaque golem de Quantium connaît automatiquement les Points de vie, les états, les afflictions et l'emplacement de l'autre.</p>"
+                },
+                "wLibJdF8sVsM43a8": {
+                    "name": "Antimagie du golem (Golem Antimagic)",
+                    "description": "<p>Un golem est immunisé contre les sorts et les pouvoirs magiques autres que les siens mais chaque type de golem est affecté d'une manière spéciale par quelques formes de magie. Ces exceptions sont expliquées ci-après. S'il est indiqué plusieurs types de sorts (comme \"froid\" et \"eau\"), ils affectent tous le golem.</p>\n<hr />\n<ul>\n<li><strong>Blessé par le son</strong> Toute magie de ce type qui cible le golem lui inflige @Damage[9d10[untyped]]{9d10 dégâts} (ces dégâts n'ont aucun type) au lieu de l'effet habituel. Si le golem commence son tour dans une zone de magie de ce type ou s'il est affecté par un effet persistant de son, il subit @Damage[3d10[untyped]]{3d10 dégâts}.</li>\n<li><strong>Ralenti par le froid</strong> Toute magie de ce type qui le cible lui confère l'état @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} pendant [[/r 2d6 #rounds]]{2d6 rounds} au lieu de l'effet normal. Si le golem commence son tour dans une zone de magie de type froid, il est Ralenti 1 pour ce round.</li>\n<li><strong>Soigné par le feu</strong> Toute magie de ce type qui cible le golem lui fait perdre son état Ralenti et lui permet de récupérer un nombre de PV égal à la moitié des dégâts qu'aurait dû infliger le sort. Si le golem commence son tour dans une zone de magie de type acide, il obtient @Damage[3d10[healing]]{3d10 Points de vie}.</li>\n</ul>"
+                }
+            }
+        },
+        "Ratajin Mastermind": {
+            "name": "Cerveau ratajin (Ratajin Mastermind)",
+            "description": "<p>Le plus souvent rencontrés au Vudra et au Jalmeray, les ratajins ne sont pas tant altérés par les malédictions qu'ils ne sont façonnés par les effets persistants des malédictions infligées aux générations passées depuis des millénaires. La différence réside dans la compréhension des caractéristiques originelles du ratajin. Aucune malédiction n'a donné au ratajin quatre yeux sur un visage mince, ni des jambes hypermobiles à triple articulation et des bras multiples. Les malédictions n'ont pas non plus donné aux ratajins des teintes de peau de toutes les couleurs possibles du spectre. Au contraire, ces malédictions résiduelles ont donné à chaque ratajin des marques géométriques distinctives sur l'ensemble de son corps. Chaque ratajin connaît également une altération maudite de ses sens, qui modifie la façon dont il perçoit le monde qui l'entoure et interagit avec lui. Certains ratajins voient le monde sous forme de spectres de couleurs décalés et indescriptibles. Pour d'autres, les sons se manifestent physiquement sous forme de sensations sur leur peau. Les mélodies obsédantes des actions passées peuvent chuchoter dans le vent derrière un ratajin, tandis qu'un autre ne peut se réveiller que pendant les heures dépourvues de lumière solaire.</p>\n<p>Bien que les malédictions particulières soient transmises le long des lignées familiales, la vision du monde de chaque ratajin peut offrir une perspective unique. Les ratajins ont tendance à être réceptifs aux idées nouvelles, ce qui les rend aptes à faire face à des situations complexes. Ils préfèrent souvent se concentrer sur des problèmes épineux, travaillant sans relâche jusqu'à ce qu'ils parviennent à une solution. Ce qui répond à la définition d'une quête digne de ce nom varie selon les ratajins, allant de la recherche de nouvelles applications technologiques à la découverte des secrets de vieux tomes de magie. Leur approche intellectuelle des problèmes peut rendre les ratajins particulièrement utiles dans les situations nécessitant des mots subtils et leur rapidité d'esprit les sert bien en tant qu'aventuriers lorsque le moment est venu de passer à l'action. Ces mêmes caractéristiques en font également des marchands et des érudits très capables.</p>\n<p>Gagner la confiance d'un ratajin peut s'avérer difficile. Leurs communautés collaborent souvent à grande échelle pour concevoir des solutions intelligentes qui garantissent un traitement équitable entre les gens, mais chaque communauté varie grandement en raison des besoins différents de ses habitants. Les étrangers qui ont besoin d'une aide trop importante et trop rapide peuvent conduire un ratajin à se retirer, estimant que son invité est incapable de s'adapter aux nombreux obstacles de la vie. Des mots de compassion mal choisis ou une fausse sympathie à l'égard de la nature de l'expérience sensorielle unique d'un ratajin peuvent également provoquer un ressentiment persistant.</p>",
+            "items": {
+                "2vjvjlmw4lJ6Kx0X": {
+                    "name": "Plus malin (Outsmart)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature attaque alors que le cerveau ratajin est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu}</p>\n<hr />\n<p><strong>Effet</strong> Grâce à la planification, le cerveau ratajin peut réagir rapidement aux situations dafavorables. Le cerveau ratajin n'est pas considéré comme Pris au dépourvu en ce qui concerne l'attaque et la créature déclencheuse est Prise au dépourvu à l'égard de la prochaine attaque réalisée par le cerveau ratajin avant la fin de son prochain tour.</p>"
+                },
+                "BfoANLA9WJBe5KCQ": {
+                    "name": "Rapière (Rapier)"
+                },
+                "DtYma4Xp1er3Tul4": {
+                    "name": "Arc court (Shortbow)"
+                }
+            }
+        },
+        "Cursed King": {
+            "name": "Roi maudit (Cursed King)",
+            "description": "<p>Un roi maudit est un simulacre grotesque d'ambition. Lorsque des conseillers traîtres, des faux prophètes et des chefs rebelles sont capturés par des dirigeants maléfiques, ils sont soumis à toutes sortes de tortures et d'humiliations avant d'être finalement exécutés. Mais le roi maudit n'a même pas droit à la dignité dans la mort : après sa décapitation, une tête d'animal desséchée est cousue sur son cou. Ces horribles momies sont ensuite habillées de linge fin et de bijoux dignes d'un roi - un avertissement permanent de ce qui arrive à ceux qui cherchent à s'élever au-dessus de leur condition.</p>\n<p>Un roi maudit est lié par la servitude au souverain contre lequel il s'est autrefois battu, contraint de servir de garde du corps. Même la mort de leur créateur ne leur donne aucun répit, car ils gardent à jamais la tombe du véritable monarque.</p>",
+            "hpdetails": "Guérison du vide",
+            "languages": "plus deux langues antiques (ne peut pas parler)",
+            "items": {
+                "DSdNdFbiF9GQYxuk": {
+                    "name": "Mâchoire (Jaws)"
+                },
+                "MgHEQlKl76Fh28UE": {
+                    "name": "Berserker (Berserk)",
+                    "description": "<p>Au début de chacun de ses tours durant le combat, un roi maudit doit faire un @Check[flat|dc:2]. En cas de succès, le DD augmente de 1. En cas d'échec, il devient immédiatement fou furieux, devenant dénué d'intelligence pendant le reste de son tour, immunisé à tous les effets mentaux et attaquant la plus proche créature qu'il peut atteindre. Tant qu'il reste fou furieux, chacune de ses attaques à mains nues obtient le trait mortel d8. À la fin de son tour au cours duquel il a obtenu un échec à ce test nu ou lorsque la rencontre de combat se termine, le DC repasse à 2.</p>"
+                },
+                "QNFAJ7JlgnNbGGWf": {
+                    "name": "Malédiction de l'usurpateur (Usurper's Curse)",
+                    "description": "<p>Lorsqu'une créature tue un roi maudit, elle doit tenter un jet de @Check[will|dc:29]. En cass d'échec, elle souffre des effets de la malédiction de l'usurpateur.</p>"
+                },
+                "T67rfyPzxmU6ckF4": {
+                    "name": "Malédiction de l'usurpateur (Usurper's Curse)",
+                    "description": "<p>@Check[will|dc:30]. En cas d'échec, la créature qui a tué le roi maudit devient @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1}. En cas d'échec critique, elle devient @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2}. Tant que cette créature reste maudite, elle ne peut mettre un terme ou réduire la valeur de son état Stupéfié de quelque manière que ce soit. Les créatures affligées doivent tenter le jet de sauvegarde de nouveau toutes les 24 heures, augmentant l'état Stupéfié de 1 en cas d'échec ou de 2 en cas d'échec critique. Si l'état dépasse un jour l'état @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 4}, il se transforme, corps et esprit, dans le même animal que celui correspondant à la tête du roi maudit, de la même manière que l'effet d'un échec critique de @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Métamorphose maudite}.</p>"
+                },
+                "fUkXWkQ67PMtMhrU": {
+                    "name": "Fausse autorité (False Authority)",
+                    "description": "<p>9 mètres. Lorsqu'une créature pénètre ou termine son tour dans l'aura du roi maudit, elle doit tenter un jet de @Check[will|dc:26]. En cas d'échec, elle est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}. En cas d'échec critique, elle est contrainte de se soumettre ; en plus d'être Effrayée 2, elle doit utiliser sa première action lors de son tour à s'incliner ou à fuir le roi maudit. Une créature qui réussit son jet de sauvegarde est immunisée à la fausse autorité du roi maudit pendant 24 heures.</p>"
+                },
+                "kQRYLLy5FQP0r7YN": {
+                    "name": "Poursuite mortelle (Deadly Pursuit)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature dans l'allonge du roi maudit tente d'en sortir</p>\n<hr />\n<p><strong>Effet</strong> Le roi maudit Marche rapidement à sa Vitesse, conservant la créature dans son allonge jusqu'à ce qu'elle s'arrête ou que le roi maudit se soit déplacé de la totalité de sa Vitesse. Si la créature est toujours dans l'allonge du roi maudit, le roi maudit lui porte une Frappe de mâchoire.</p>"
+                },
+                "oLZLlWbJDEhvDvuC": {
+                    "name": "Poing (Fist)"
+                }
+            }
+        },
+        "Fleshforged Conformer": {
+            "name": "Conformateur chairforgé (Fleshforged Conformer)",
+            "description": "<p>Les conformateurs chairforgés métamorphes se sont adaptés pour survivre à la forte magie et à la forte densité de la population d'Écanus. Ressemblant à de gros squelettes humanoïdes recouverts de couches inégales de cartilage et de muscles, les conformateurs sont capables d'attacher et de détacher la chair de leur corps, envoyant souvent des boulettes autonomes de graisse et de ligament pour observer les créatures vivantes et récolter du matériel biologique.</p>\n<p>Les conformateurs chairforgés utilisent leurs ressources pour améliorer et modifier leur corps, ce qui leur permet d'infiltrer la société Néxienne afin de mieux comprendre les principes arcaniques et les secrets occultes à l'origine de leur création. Certains prennent l'apparence d'humains ou d'animaux pour mener une vie tranquille et sédentaire au Nex, mais la plupart sont découverts et sommairement exterminés parce qu'ils sont considérés comme des rebuts et des menaces pour la sécurité publique.</p>",
+            "hpdetails": "Régénération 10 (désactivée par le fer froid)",
+            "languages": "deux autres langues",
+            "items": {
+                "0eOrNdC2RxxbKNH3": {
+                    "name": "Connaissance de la distorsion de la chair (Fleshwarp Lore)"
+                },
+                "40NDv4xTfgTjOeUn": {
+                    "name": "Sorts occultes innés (Occult Innate Spells)"
+                },
+                "ATYdz5E54DuLSoxk": {
+                    "name": "Conformation (Conformance)",
+                    "description": "<p>Le conformateur se contorsionne et remodèle son corps pour lui donner la forme souhaitée. Le conformateur prend l'apparence spécifique d'un humanoïde ou d'un animal de taille petite, moyenne ou grande qu'il a observé et dont il se souvient de l'apparence. Cela ne change pas la vitesse du conformateur ni ses bonus à l'attaque et aux dégâts avec ses Frappes, mais peut changer le type de dégâts que ses Frappes infligent.</p>"
+                },
+                "CKIVIdYktVxXXtw2": {
+                    "name": "Doigt gueule-crochue (Fanged-Maw Finger)"
+                },
+                "JfKCalt1jPXqeWKU": {
+                    "name": "Siphon de tissus (Tissue Siphon)",
+                    "description": "<p><strong>Conditions</strong> Le conformateur est dans l'allonge d'une créature @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} ou consentante ou une créature subit des dégâts de saignement.</p>\n<hr />\n<p><strong>Effet</strong> Le conformateur touche et absorbe une partie de la chair d'une créature. La cible doit tenter un jet de @Check[fortitude|dc:26]. En cas d'échec, elle est @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1} et subit des dégâts de saignement, même si ce n'est pas la fin de son tour.</p>"
+                },
+                "XlZ6tISKXPBfkK9U": {
+                    "name": "Détachement chirurgical (Surgical Detachment)",
+                    "description": "<p>Le conformateur détache une partie de son corps pour qu'elle puisse le servir en tant qu'organisme autonome. Durant les prochaines 24 heures, le conformateur gagne le service loyal d'une @UUID[Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.LVY9JAhTnBC2SeqZ]{Dermine} forgée dans sa chair. Tant qu'ils restent à moins de 1,5 kilomètres l'un de l'autre, le conformateur peut à nouveau utiliser l'action Détachement chirurgical pour diriger par empathie les actions de la dermine qui le sert et percevoir à travers ses sens. En raison de la lourdeur de ce processus, le conformateur ne peut avoir qu'une seule dermine pour le servir à la fois.</p>"
+                },
+                "cX6w047KDcTYZxse": {
+                    "name": "Régénération 10 (désactivée par le fer froid) (Regeneration 10 (Deactivated by Cold Iron))"
+                },
+                "ddDvnd23sZWFzoxt": {
+                    "name": "Porter la chair (Wear Flesh)",
+                    "description": "<p><strong>Conditions</strong> Le conformateur a utilisé Siphonner les tissus pour absorber de la chair au cours de l'heure écoulée</p>\n<hr />\n<p><strong>Effet</strong> Le conformateur dépense la chair qu'il a absorbée pour transformer leur corps, reproduisant les effets d'un des sorts suivants : @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Agrandissement}, @UUID[Compendium.pf2e.spells-srd.Item.GUnw9YXaW3YyaCAU]{Auto adaptation}, @UUID[Compendium.pf2e.spells-srd.Item.ddKBoCjmSyPSHcws]{Étrange anatomie}, @UUID[Compendium.pf2e.spells-srd.Item.SDkIFrrO1PsE02Kd]{Forme changeante} ou @UUID[Compendium.pf2e.spells-srd.Item.i8PBZsnoCrK7IWph]{Membres tentaculaires}. L'action Porter la chair obtient les traits des sorts qu'elle reproduit et le conformateur peut Maintenir un sort sur ces effets.</p>"
+                }
+            }
+        },
+        "Ugvashi": {
+            "name": "Ugvashi",
+            "description": "<p>Ces pangolins aux écailles coupantes, de la taille d'un petit poney, sont les animaux de bât traditionnels des halfelins du Casmaron, bien que les plaques en forme de dents de l'ugvashi et sa tendance à se recroqueviller sur lui-même ne lui permettent pas de servir de monture. L'ugvashi est arrivé pour la première fois dans les Royaumes Impossibles à bord des mille et un navires du maharadjah Khiben-Sald, aux côtés des paons, des écureuils géants et d'autres animaux du Vudra. De nos jours, les ugvashis sont tellement connus que beaucoup en oublient qu'il ne s'agit pas d'une espèce indigène. Bien qu'il existe quelques populations sauvages, principalement sur l'île de Jalmeray, les environnements hostiles de Nex et de la Désolation de Mana font que les ugvashis sont principalement présents dans des environnements domestiques, généralement comme bêtes de somme chez les halfelins nearics de l'ouest du Nex.</p>\n<p>Bien que les ugvashis soient pour la plupart inoffensifs, ils sont un peu plus dangereux que leurs petits cousins, ce qui provoque des remous lorsque des citoyens imprudents tentent de les caresser. Les écailles des ugvashis sont acérées comme des rasoirs et leurs griffes larges et émoussées peuvent être mortelles en raison de leur taille. Les personnes qui tentent de voler les animaux ou de les monter sans formation subissent souvent des coupures modérées pour leur peine. Cependant, les ugvashis sont généralement curieux et très amicaux, et plus d'un visiteur ou d'un explorateur des régions sauvages a découvert un bébé ugvashi qui leur courait après et tripotait leurs bottes.</p>\n<p>Les halfelins proches peignent également leurs ugvashis de motifs et de sigles de protection distinctifs, dont certains sont efficaces et constituent une surprise pour les voleurs ou les prédateurs opportunistes. Bien que la protection de la cargaison d'un ugvashi fasse l'objet d'une attention particulière, les animaux eux-mêmes se sont révélés être des cibles tentantes, en particulier pour leur viande. Les paysages dégradés rendant l'élevage impraticable et la pollution magique donnant aux fruits de mer locaux un arrière-goût particulier, un certain nombre de peuples néxiens et de la Désolation de Mana ont développé un goût pour l'ugvashi. Comme ces animaux n'ont pas un tempérament agressif, il incombe souvent à leurs gardiens de décourager ces prédations par tous les moyens nécessaires.</p>\n<p>Les ugvashis perdent leurs écailles tous les hivers, ce qui permet de récupérer leurs écailles en toute sécurité et de les transformer en armures de qualité et autres objets artisanaux. Les halfelins nearic n'échangent ou ne vendent que rarement ces objets, de peur que cela conduise d'autres personnes à vouloir leur voler leur ugvashi.</p>",
+            "items": {
+                "geTGlSERKHb2Jjiz": {
+                    "name": "Courbure défensive (Defensive Curl)",
+                    "description": "<p>L'ugvashi se roule en boule pour se défendre. Il obtient un bonus de circonstances de +2 à la CA. Toutes les créatures qui portent des attaques à mains nues contre l'ugvashi alors qu'il utilise sa Courbure défensive sont exposées à ses écailles coupantes, comme si elles avait subi des dégâts du corps de l'ugvashi. L'ugvashi ne peut se déplacer tant qu'il utilise sa Courbure défensive mais il peut se déplier en une action.</p>"
+                },
+                "mJN86SaFPTByONSb": {
+                    "name": "Griffe (Claw)"
+                },
+                "raXABiXCuDEiZOMD": {
+                    "name": "Écailles coupantes (Serrated Plates)",
+                    "description": "<p>Les créatures qui subissent des dégâts du corps d'un ugvashi doivent tenter un jet de @Check[reflex|dc:17] ou subir @Damage[1d4[bleed]]{1d4 dégâts de saignement} (@Damage[2d4[bleed]]{2d4 dégâts de saignement} en cas d'échec critique).</p>"
+                },
+                "s9VkD48pnMfkx30o": {
+                    "name": "Corps (Body)"
+                }
+            }
+        },
+        "Clockwork Cannoneer": {
+            "name": "Canonnier mécanique (Clockwork Cannoneer)",
+            "description": "<p>Les canonniers mécaniques sont des créatures artificielles armées de canons créées pour défendre le Grand Duché d'Alkenastre. Les habitants d'Alkenastre considèrent généralement que les armes conventionnelles sont suffisantes pour combattre les créatures qui errent dans la Désolation de Mana, mais l'augmentation récente de l'activité des forges de chair du Nex et des chambres nécromantiques du Geb a poussé les habitants de la ville à innover en matière de défense. Créé par la collaboration expérimentale entre les armuriers de la ville et les inventeurs de créatures artificielles, le canonnier mécanique offre une puissance de feu mobile exceptionnelle. Deux bras armés de canon se balancent sur les côtés de la créature mécanique de 4,50 mètres de haut et son corps contient une réserve de boulets de canon qui est réapprovisionnée par les ingénieurs lorsque la créature est remontée pour être utilisée. Le renforcement à triple paroi des réservoirs de poudre noire du canonnier offre une protection suffisante contre les explosions accidentelles et les ratés qui ont souvent affecté les premiers prototypes de cette machine sophistiquée. La conception actuelle combine les capacités de longue portée de l'artillerie de campagne avec la puissance d'arrêt d'un canon contre des ennemis engagés et son assemblage trempé à chaud minimise les déformations qui pourraient causer des glissements, des grincements ou des tremblements.</p>\n<p>Alors que les rapports des membres de l'artillerie servant aux côtés des canonniers mécaniques se plaignent d'ampoules, d'inhalation de fumée et de sourcils brûlés, le machinistes mécanique en chef du Grand-Duché a assuré aux dirigeants de la ville que les créatures artificielles fonctionnaient bien dans les limites des paramètres de sécurité. La construction autosuffisante du canonnier mécanique permet aux équipes de se consacrer aux tâches du champ de bataille qui ne peuvent, pour l'instant, être effectuées que par des êtres intelligents.</p>",
+            "items": {
+                "BzXwrTvCBxJHT9u6": {
+                    "name": "Remonter un dispositif (Wind-Up)",
+                    "description": "<p>24 heures, Test de @Check[thievery|traits:action:disable-a-device|dc:33], standby</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend 1 minute. Une fois remonté, il reste opérationnel pendant 24 heures, après quoi il ne perçoit plus son environnement et ne peut plus agir jusqu'à ce qu'il soit remonté. Certaines capacités de créature mécanique exigent qu'ils dépensent une partie de leur temps de fonctionnement restant. Ils ne peuvent pas en dépenser plus qu'ils n'en ont et s'arrêtent immédiatement lorsqu'il ne leur reste plus de temps. Si l'on ne sait pas quand une créature mécanique a été remonté pour la dernière fois, la plupart des gardiens de créatures mécaniques les remontent à une heure fixe, généralement 8 heures du matin.</p>\n<p>Une créature mécanique peut passer en mode veille en dépensant 3 actions. Son temps de fonctionnement ne diminue pas en mode veille, mais il peut percevoir son environnement (avec une pénalité de -2 à la Perception). Il ne peut pas agir, à une exception près : lorsqu'il perçoit une créature, il peut sortir de son mode veille avec une réaction (en faisant un jet d'initiative si nécessaire).</p>\n<p>Une créature peut tenter un jet pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD listé dessus, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être fait même si le mécanisme est en mode veille.</p>"
+                },
+                "FkfXWMpE0nsQUZOW": {
+                    "name": "Bombarde (Bombard)",
+                    "description": "<p>La canonnier mécanique lance un tir explosive en l'air jusqu'à une portée de 60 mètres qui explose dans une @Template[burst|distance:20]{explosion de 6 mètres}. Les créatures dans l'explosion subissent @Damage[5d10[bludgeoning]]{5d10 dégâts contondants} (@Check[reflex|dc:36|basic]).</p>"
+                },
+                "JxWJ79KAoE1u5yxK": {
+                    "name": "Tube de canon (Bore)"
+                },
+                "UDGHzHklMiuitqjk": {
+                    "name": "Brûlure de la gueule (Muzzleburn)",
+                    "description": "<p>La chaleur d'un canon déchargé brûle ceux qui touchent sa coque métallique. La frappe du canonnier mécanique inflige 2d6 dégâts de feu supplémentaires jusqu'à la fin de son prochain tour après avoir effectué une frappe de boulet de canon ou utilisé ses capacités Bombarde ou Explosion de poudre.</p>"
+                },
+                "fnpZ6rdjZO4giOMG": {
+                    "name": "Explosion de poudre (Powder Blast)",
+                    "description": "<p>Le canonnier mécanique crache des flammes de l'un de ses canons, infligeant @Damage[8d6[fire]]{8d6 dégâts de feu} dans un @Template[cone|distance:30]{cône de 9 mètres} (@Check[reflex|dc:36|basic]). Ceux qui échouent subissent aussi @Damage[2d6[persistent,fire]]{2d6 dégâts du feu}.</p>"
+                },
+                "kiwfN8nqWl1wDvoB": {
+                    "name": "Boulet de canon (Cannonball)"
+                }
+            }
+        },
+        "Fleshforged Dreadnought": {
+            "name": "Cuirassé chairforgé (Fleshforged Dreadnought)",
+            "description": "<p>Créée dans les forges de chair arcaniques du Nex, cette créature a été conçue comme l'ultime outil de force brute pour les assauts urbains contre les cités du Geb. Avec ses neuf mètres de hauteur, le cuirassé dépasse facilement les murs de la plupart des villes, et les forces d'infanterie Néxiennes grimpent sur les pointes fixées sur le dos de la créature pour pénétrer dans les défenses fortifiées. Chaque détail de la physiologie de la créature a été conçu pour le champ de bataille, de la baliste d'os et de tendons intégrée à son torse au volumineux bélier qui orne la crête de sa tête. Le sang acide chairforgé remplit non seulement une fonction hydraulique importante mais il dissuade également les défenseurs de la ville qui tenteraient d'abattre la créature.</p>\n<p>Au cours de la guerre entre le Nex et le Geb, les cuirassés chairforgés ont été aperçus le plus souvent lors de leur emploi dans le cadre d'un assaut coordonné et remplaçaient ou complétaient généralement l'arsenal de siège d'une armée. Les tactiques couramment employées par les généraux de Nex consistaient à ordonner au cuirassé d'écraser toute opposition devant la porte d'une ville, puis de la franchir. Si les défenses de la ville s'avéraient résistantes, les troupes d'invasion escaladaient la créature pour franchir les murs de la ville, comptant sur les propriétés régénératrices du cuirassé pour s'assurer qu'il ne serait pas détruit tout en les aidant à contourner les barrières défensives.</p>\n<p>Les cuirassés chairforgés ont à peu près tous disparus après la disparition de l'archimage Nex, mais les histoires à propos de leur puissance de destruction ont été conservés.</p>",
+            "hpdetails": "Régénération 20 (désactivée par le fer froid)",
+            "items": {
+                "5NIXdaMyiuggG6gU": {
+                    "name": "Pitons d'escalade (Scaling Spikes)",
+                    "description": "<p>Un cuirassé chairforgé est couvert de prises de pieds et de mains qui le rendent facile à escalader. Les créatures de taille Moyenne ou plus petite peut Escalader le cuirassé, partageant un de ses espaces lorsqu'elle le font. Le DD pour Escalader un cuirassé chairforgé est de 15 et les créatures se déplacent de 1,50 mètre de plus en cas de succès et de 3 mètres de plus en en cas de succès critique jusqu'au maximum de leur Vitesse lorsqu'elles escaladent la créature artificielle.</p>"
+                },
+                "8oCLJUItWspU84SL": {
+                    "name": "Noyé dans l'ichor (Drown in Ichor)",
+                    "description": "<p>Le cuirassé chairforgé libère une vague de fluide caustique des évents à ses côtés. Les créatures dans une @Template[emanation|distance:20]{émanation de 6 mètres} subissent @Damage[8d6[acid]]{8d6 dégâts d'acide} (@Check[reflex|dc:40|basic]). Les créatures qui obtiennent un échec sur leur jet de sauvegarde subissent aussi @Damage[3d6[persistent,acid]]{3d6 dégâts d'acide persistants}.</p>"
+                },
+                "B3WrLCJIWAcuAeYs": {
+                    "name": "Griffe (Claw)"
+                },
+                "DlQCtMdmZTTVAxRv": {
+                    "name": "Charge destructrice (Destructive Charge)",
+                    "description": "<p>Le cuirassé chairforgé Marche rapidement de deux fois sa vitesse et fait une Frappe de bélier contre une structure ou un objet non tenu. La Frappe ignore 20 points de la Solidité de la cible.</p>"
+                },
+                "EpEyfv8OLfwd06J6": {
+                    "description": "<p>Très grande ou plus petite, bélier, @Check[reflex|dc:44|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+                },
+                "HuJO5QXhMlFOavak": {
+                    "name": "Régénération 20 (désactivée par le fer froid) (Regeneration 20 (Deactivated by Cold Iron))"
+                },
+                "OjPUqmgDC3LTm57H": {
+                    "name": "Balliste (Ballista)"
+                },
+                "SX8d2G4CzdvaLK5t": {
+                    "name": "Bélier (Battering Ram)"
+                },
+                "WF36bi2QkqysgEuy": {
+                    "name": "Fuite caustique (Caustic Leak)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par tour</p>\n<p><strong>Déclencheur</strong> Le cuirassé chairforgé est blessé par une Frappe au corps-à-corps perforante ou tranchante sans allonge</p>\n<hr />\n<p><strong>Effet</strong> Un fluide corrosif asperge l'attaquant, infligeant @Damage[8d6[acid]]{8d6 dégâts d'acide} (@Check[reflex|dc:40|basic]).</p>"
+                },
+                "cJRISKgZ5VsnHdhi": {
+                    "name": "Bousculade améliorée 4,50 mètres (Improved Push 15 feet)"
+                }
+            }
+        },
+        "Kasesh (Stone)": {
+            "name": "Kasesh (pierre) (Kasesh (Stone))",
+            "description": "<p>Dans les temps anciens, avant que l'humanité ne colonise Golarion, les Constructeurs des profondeurs ont eu besoin de quelque chose de plus petit que leurs graines de chambre forte de manière à pouvoir achever leurs mondes comme ils le désiraient. Ils ont pris une petite gemme et y ont inscrit un mot de puissance. Ils lui ont donné des yeux pour qu'elle puisse voir et des jambes pour qu'elle puisse marcher et l'ont rendu sage. Ces créatures sont connues comme des kaseshi par les érudits qui les ont rencontrées, bien que leur véritable nom — celui qui les a menés à la vie — soit probablement bien plus puissant.</p>\n<p>Chaque kasesh porte un unique mot de puissance inscrit sur son corps d'émeraude, duquel il tire son esprit et sa magie. Un kasesh avec le mot \"Acier\" ou \"Flammes\" est une créature qui n'a qu'un objectif, bien qu'il englobe toutes les permutations possibles de sens que le mot possède. Un kasesh nommé \"Foyer\" ou \"Chagrin\" possèdera une psyché bien plus complexe et la rumeur prétend qu'Oblox de Nex, le Premier architecte porte le mot \"Mémoire.\" De manière peu surprenante, contrairement à la magie runique thassilonienne, personne n'a encore réussi à décoder ou à utiliser la langue des Bâtisseurs des profondeurs.</p>\n<p>Le kasesh dans le bloc de statistique porte le mot \"Pierre\", mais d'autres kaseshi porteront leur propre magie. Certaines exemples alternatifs, \"Obscurité\" et \"Intrication\" sont mentionnés ci-dessous.</p>\n<p><strong>Pbscurité</strong> Ce kasesh construit les lieux cachés des mondes des Bâtisseurs de grotte. Le kasesh est de niveau 7, accorde @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{Explosion d'ombre} et @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{Voyage ombral} à tout gestalt qu'il rejoint et possède les sorts innés suivants.</p>\n<p><strong>Sorts innés primordiaux</strong> <strong>4e</strong> @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Obscurité} (x2), @UUID[Compendium.pf2e.spells-srd.Item.eexkxcqnkXazsGfK]{Asthénie} ; <strong>3e</strong> @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Cécité} (×2), @UUID[Compendium.pf2e.spells-srd.Item.nXmC2Xx9WmS5NsAo]{Connaissance partagée} ; <strong>1er</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Lien mental} ; <strong>Tours de magie (4e)</strong> @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Détection de la magie}, @UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Projectile télékinétique}</p>\n<p><strong>Intrication</strong> Ce kasesh était un décorateur et un concepteur. Il est de niveau 11, accorde @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]{Mirage} et @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Scène illusoire} à tout gestalt qu'il rejoint et possède les sorts innés suivants.</p>\n<p><strong>Sorts innés primordiaux</strong> <strong>6e</strong> @UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]{Calamité imaginaire}, @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{Assassin imaginaire} (×2) ; <strong>5e</strong> @UUID[Compendium.pf2e.spells-srd.Item.TCk2MDwf5L5OYjFC]{Cape colorée}, @UUID[Compendium.pf2e.spells-srd.Item.U58aQWJ47VrI36yP]{Hallucination}, @UUID[Compendium.pf2e.spells-srd.Item.nXmC2Xx9WmS5NsAo]{Connaissance partagée} ; <strong>1er</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Lien mental}; <strong>Tours de magie (6e)</strong> @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Détection de la magie}, @UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Projectile télékinétique}</p>",
+            "speeds": "glissement de terrain",
+            "items": {
+                "ByG35Mm0ihKQR578": {
+                    "name": "Connaissance de l'architecture (Architectural Lore)"
+                },
+                "VwsS4RJG0PTpcKyP": {
+                    "name": "Perception des vibrations 18 m (imprécis) (Tremorsense (Imprecise) 60 feet)"
+                },
+                "gvmQpjy5T16FCqIV": {
+                    "name": "Gestalt",
+                    "description": "<p>Deux kaseshi ou plus peuvent combiner chacun de leurs mots pour créer quelque chose de supérieur à ce que l'un pourrait faire seul. Cela a les effets de la capacité Cercle, sauf qu'aucun rituel n'est nécessaire, simplement une grande proximité pendant 8 heures. Tous les gestalts accordent les sorts suivants, que le gestalt peut lancer à tous les rangs jusqu'au rang 5 : @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]{Création}, @UUID[Compendium.pf2e.spells-srd.Item.m4Mc5XbdML92BKOE]{Géométrie étrange}, et @UUID[Compendium.pf2e.spells-srd.Item.tpLTLbJUrYcMWGld]{Transport télékinésique}. Chacun des kaseshi apporte des sorts supplémentaires au gestalt qu'il rejoint. Celui-ci lui accorde @UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{Uni à la pierre} et @UUID[Compendium.pf2e.spells-srd.Item.McnPlLFvKtQVXNcG]{Façonnage de la pierre}.</p>"
+                },
+                "k0DnGvKuOa0mXrCC": {
+                    "name": "Blocage de la pierre (Earth Block)",
+                    "description": "<p><strong>Déclencheur</strong> Le kasesh subit des dégâts physiques lorsqu'il est adjacent à la pierre ou à la terre</p>\n<hr />\n<p><strong>Effet</strong> Un rempart de pierre ou de cristal émerge d'une surface proche, bloquant l'attaque. Le kasesh obtient une résistance de 5 contre les dégâts physiques de l'attaque.</p>"
+                },
+                "tXoMMmsGRgIihcEf": {
+                    "name": "Écharde de terre (Earthen Shard)"
+                }
+            }
+        },
+        "Stone Sister": {
+            "name": "Soeur de pierre (Stone Sister)",
+            "hpdetails": "Guérison du vide, reconstitution, peau en pierre",
+            "languages": "(Ne peut pas parler)",
+            "items": {
+                "5qo8PwcNs0JaqVRw": {
+                    "name": "Statue",
+                    "description": "<p>Jusqu'à sa prochaine action, la sœur de pierre semble être une statue. Elle obtient automatiquement un résultat de 34 aux tests de Duperie et aux DD pour se faire passer pour une statue. Comme le Champ des vierges est rempli de milliers de statues qui lui ressemblent, dont la plupart ne sont pas des sœurs de pierre, il est incroyablement difficile de reconnaître sa véritabl nature.</p>"
+                },
+                "AMVEezVAREcQ80cq": {
+                    "name": "Cimeterre (Scimitar)"
+                },
+                "D5B2HG8wJ5TtWu8c": {
+                    "name": "Malédiction de pierre (Curse of Stone)",
+                    "description": "<p>La créature doit réussir un jet de @Check[fortitude|dc:21] ou être @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 3} sur un échec critique) et obtient un bonus de statut à la CA de +1 lorsque sa peau se durcit en pierre. L'état Maladroit peut être temporairement soulagé pendant 24 heures en lançant <em>Pierre en chair</em> sur la créature maudite mais ne peut être réduite ou retirée par aucun moyen autre que retirer la malédiction. Au cours de cette période, la créature maudite ne reçoit plus non plus le bonus de statut à la CA.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.UgoM6FBiZfc7KqCV]{Effet : Malédiction de pierre}</p>"
+                },
+                "Ikt60gtNubl8Dw5F": {
+                    "name": "Poing (Fist)"
+                },
+                "e1fm0dEDzFsOAiME": {
+                    "name": "Peau en pierre (Stone Flesh)",
+                    "description": "<p>Une soeur de pierre est faite d'une matière pierreuse bizarre qui n'arrête pas de saigner par de nombreuses fissures sur la surface de sa peau. Elle réagit à certains sorts de manière unique, comme indiqué ci-dessous.</p>\n<ul>\n<li>Les sorts qui altèrent la pierre, comme <em>Façonnage de la pierre</em>, infligent soit @Damage[3d10]{3d10 dégâts} ou soignent @Damage[3d10[healing]]{3d10 Points de vie} selon la décision de l'inccantateur. Si le sort est spécifiquement conçu pour blesser ou être bénéfique à la terre ou la pierre, le MJ pourrait décider qu'il ne peut que blesser la soeur de pierre ou seulement la soigner.</li>\n<li><em>Pierre en chair</em> ne permet pas de rendre sa chair et son sang à une soeur de pierre mais la réveille. Elle perd sa résistance aux dégâts physiques pendant 1 minute. Si elle est réduite à 0 Point de vie durant ce temps, elle est détruite de manière permanente et ne peut plus se reformer.</li>\n</ul>"
+                },
+                "r9mk3iMPZnVsYyaH": {
+                    "name": "Reconstitution",
+                    "description": "<p>Jusqu'à ce que la Malédiction de Geb se brise, toute soeur de pierre qui est détruite se reforme graduellement sous sa forme originelle. Une soeur de pierre qui est réduite à 0 Point de vie se reforme après 24 heures, alors que si elle est réduite à des débris ou de la poussière, cela pourrait lui prendre une année ou davatange pour se reformer. Les soeurs de pierre qui sont retirées du Champ des vierges tentent toujours d'y revenir lorsqu'elles se reconstituent.</p>"
+                }
+            }
+        },
+        "Spellscar Fext": {
+            "name": "Fexte de la Cicatrice magique (Spellscar Fext)",
+            "description": "<p>Les fextes de la Cicatrice magique sont des incantateurs qui furent détruit par la magie sauvage ou un afflux de la source qu'ils ont tenté mais échoué à contrôler. La rétroaction magique a mis fin à leur vie et a déformé et animé leur chair, les transformant en morts-vivants titubant. Les fextes mesurent 1,80 mètre de haut et possèdent des bras démesurément longs qui se terminent par des volutes magiques ondulantes.</p>\n<p>Presque tous ceux qui sont devenus des fextes ont pénétré la Désolation de Mana pour exploiter la puissance de la magie sauvage de la région. Une fois transformé, le désir de puissance magique devient la seule motivation du fexte de la Cicatrice magique. Ces créatures concentrent leurs attaques sur les utilisateurs de magie qu'elles rencontrent, tentant de les tuer et de les dépouiller de leur magie. Malheureusement pour le fexte, sa transformation rend tout son être imperméable à la magie. Ils sont incapables de lancer le moindre sort. Ils s'accrochent de manière destructrice à une magie qu'ils ne pourront jamais retenir.</p>\n<p>Difficiles à détruire définitivement pour les gens qui n'y sont pas préparées, les fextes harcèlent les voies commerciales connues pour l'expédition de marchandises magiques et attaquent régulièrement les ateliers arcaniques situés aux frontières de la Désolation de Mana. Ils sont particulièrement dangereux pour les incantateurs voyageant seuls car le fait de combattre ces créatures peut déclencher un afflux de la source qui pourrait détruire l'incantateur solitaire.</p>\n<p>Comme la vulnérabilité des fextes aux armes en verre est devenue mieux connue, les armuriers entreprenant d'Alkenastre ont commencé la fabrication de munition de verre, un objet peu courant qui a le même prix qu'une munition en fer froid.</p>",
+            "hpdetails": "Régénération 10 (désactivée par le verre)",
+            "perception": "perception de la magie 9 m (imprécis)",
+            "saves": "Bonus de statut de +1 contre la magie",
+            "items": {
+                "20sqDR0ZVwbHaDQH": {
+                    "name": "Rétroaction instable (Unstable Feedback)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature Lance un sort sur le fexte de la Cicatrice magique : soit le fexte réussit son jet de sauvegarde, soit l'incantateur obtient un échec sur son attaque de sort contre le fexte.</p>\n<hr />\n<p><strong>Effet</strong> Le lanceur du sort déclencheur est soumis à un @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Afflux de la source}. Même si plusieurs fextes utilisent cette réaction après avoir réussi un jet de sauvegarde contre le même sort, l'incantateur n'est soumis qu'à un seul afflux de la source.</p>"
+                },
+                "8JQu5UduC3IHlSsZ": {
+                    "name": "Régénération 10 (désactivée par le verre) (Regeneration 10 (Deactivated by Glass))"
+                },
+                "L6SWQmnHWcKt4MuR": {
+                    "name": "Poigne de puissance (Grasp Power)",
+                    "description": "<p><strong>Conditions</strong> La dernière action du fexte de la Cicatrice a été une Frappe de poing réussie</p>\n<hr />\n<p><strong>Effet</strong> Le fexte tente de contrer un unique sort qui affecte la créature (rang de contre 4, modificateur de contre [[/r 1d20+17 #contre]]{+17}). Si le test est un succès, la créature subit également @Damage[6d6[mental]]{6d6 dégâts mentaux} (@Check[will|dc:25|basic]).</p>"
+                },
+                "TZfUr6m0adsvTIF5": {
+                    "name": "Perception de la magie 9 m (imprécis) (Magic Sense (Imprecise) 30 feet)"
+                },
+                "w9OrnS3uV2PXrJDn": {
+                    "name": "Poing (Fist)"
+                }
+            }
+        },
+        "Spell Pitchers": {
+            "name": "Sarracénies à sort (Spell Pitchers)",
+            "desc (hazard)": "<p>Une grande sarracénie occupe un espace d'une case et semble dormantes avec des pétales ternes ouverts.</p>",
+            "disable": "<p>@Check[arcana|dc:15] (qualifié) pour déclencher de manière inoffensive les réflexes de la plante, ce qui la ferme et la fait devenir dormante pendantun jour ou @Check[nature|dc:17] (qualifié) pour soigneusement amadouer la sarracénie pour qu'elle se mette au repos.</p>",
+            "reset": "<p>Une fois que la sarracénie a mangé un sort, ses pétales deviennent rose sombre et vert avant qu'elle ne se ferme. Elle est alors en état de dormance pendant un jour par rang du sort qu'elle a consommé. Une fois que la sarracénie finit de digérer, elle s'ouvre de nouveau et se flétrit lentement. Une seconde branche de sarracénie dans une case adjacente à celle de la première sarracénie s'ouvre de nouveau.</p>",
+            "stealth": "<p>(qualifié) pour reconnaître la plante parmi les autres</p>",
+            "items": {
+                "4uC31fyAfkDL1eku": {
+                    "name": "Dévorer la magie (Devour Magic)",
+                    "description": "<p><strong>Déclencheur</strong> Une ligne d'effet directe d'un sort passe dans un rayon de 1,50 mètre de la plante</p>\n<hr />\n<p><strong>Effet</strong> La sarracénie tente de contrer le sort (rang de contre 1, modificateur de contre [[/r 1d20+10 #contre]]{+10}). En cas de succès, la sarracénie consomme immédiatement le sort lorsqu'il passe au-dessus de la plante.</p>"
+                }
+            }
+        },
+        "Kashrishi Evaluator": {
+            "name": "Évaluateur Kashrishi (Kashrishi Evaluator)",
+            "description": "<p>Pour certains, les kashrishis semblent être des êtres calmes et passifs. Ceux qui ont une meilleure compréhension savent qu'il y a beaucoup plus de nuances dans l'interaction avec les kashrishis, qui possèdent des capacités psychiques innées qui modifient grandement la façon dont ils communiquent avec le reste du monde. Incapables de désactiver leurs pouvoirs, ces capacités ajoutent une dimension complexe à l'interprétation de leur environnement. Sans une connaissance approfondie de la personne, les kashrishis ne sont capables que de percevoir les sentiments les plus flous et les plus généraux des gens qui les entourent. Cela s'affine au fur et à mesure que leurs relations évoluent. La famille et les amis sont souvent les plus faciles à engager dans une communication psychique, tandis que les étrangers ne font qu'ajouter à la quantité de bruit mental qu'un kashrishi doit traiter.</p>\n<p>Les kashrishis ressemblent à des rhinocéros, avec une peau douce et texturée dont la couleur peut varier du sable clair à l'obsidienne plus sombre, en passant par des teintes plus rares de saphir ou de rubis intenses. La taille et le nombre de leurs cornes varient. Les communautés kashrishies sont généralement très accueillantes, appréciant les conversations et les auras uniques de chaque nouvel arrivant. Cependant, les environnements chaotiques peuvent submerger et surstimuler les kashrishis qui ne sont pas encore aptes à filtrer les énergies psychiques, laissant certains d'entre eux avec une tolérance limitée pour les interactions sociales approfondies avec des étrangers et exigeant qu'ils se recentrent pendant un certain temps après avoir participé à une activité sociale. Malgré cet inconvénient, les kashrishis sont généralement de bons communicanats, excellant dans les rôles qui requièrent une attention particulière aux détails.</p>",
+            "items": {
+                "2zlQ8fhc8QeehktC": {
+                    "name": "Évaluer la discordance (Evaluate Discordance)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> L'évaluateur kashrishi évalue la discordance entre lui et une créature dans un rayon de 9 mètres, puis déclenche la discordance en envoyant de l'énergie psychique pour submerger les sentiments de la cible. Cela inflige @Damage[6d6[mental]]{6d6 dégâts mentaux} (@Check[will|dc:21|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>"
+                },
+                "7O3MqjVdjnwqKnTI": {
+                    "name": "Dague (Dagger)"
+                },
+                "IwBguu4yMR2YlPne": {
+                    "name": "Sorts occultes spontanés (Occult Spontaneous Spells)"
+                },
+                "Wi73J9y2ljudFu0i": {
+                    "name": "Perception empathique (Empathic Sense)",
+                    "description": "<p>Les évaluateurs kashrishis peuvent avoir une vague idée de l'état émotionnel actuel de toutes les autres créatures situées à moins de 4,50 mètres d'eux, à condition que l'évaluateur kashrishi soit conscient de la présence de ces créatures. Cela se manifeste par un sentiment général de bonheur, de colère ou de peur, sans aucun détail précis. De plus, toute créature qui réussit à masquer ou à feindre ses émotions en utilisant la Duperie projette les émotions trompeuses à la place de ses véritables sentiments. Pour ceux avec qui les kashrishis ont un lien émotionnel, le contact physique peut accroître cette perception à des niveaux de détail et de compréhension plus élevés, en fonction de la force de leur lien.</p>"
+                },
+                "uODhFRwEIqgGp76e": {
+                    "name": "Dague (Dagger)"
+                },
+                "yDVGTF5QCpQFq2Rn": {
+                    "name": "Apaisement (Calm Emotions)"
+                }
+            }
+        },
+        "Skinskitter": {
+            "name": "Dermine (Skinskitter)",
+            "description": "<p>Ces bizarreries insaisissables ressemblent à des peaux d'animaux dépecés et à des expériences de modelage de la chair, flottant comme autant de détritus charnus dans la crasse sanglante des égouts d'Écanus saturés par les charniers. Les skinkitters, ainsi nommés en raison de leurs mouvements fluides et erratiques, fouillent la ville à la recherche de déchets charnels. Ils préfèrent les méthodes discrètes et non violentes pour se procurer ces matériaux biologiques et évitent le combat, semblant dotés d'un tempérament nerveux. Les forgeurs de chair néxiens rétorquent que c'est tout à fait raisonnable, car les skinskitters ne sont guère plus que des systèmes nerveux enveloppés dans une peau moribonde. Les gardes néxiens qui doivent réellement chasser ces nuisibles en chair et en os ne sont pas aussi enthousiastes. Face aux appels étrangement enfantins de ces flaques de chair, de poils et d'yeux, de nombreuses recrues choisissent tout simplement de quitter la garde de la ville.</p>\n<p>Il est arrivé que des érudits ou des soldats curieux se demandent pourquoi les skinskitters recherchent des tissus organiques et s'il s'agit simplement d'instinct ou d'un objectif supérieur. La plupart des forgeurs de chair supposent que les skinskitters consomment de la matière organique pour se réparer dans un processus similaire à celui de l'alimentation et ne s'intéressent pas plus à ces créatures qu'un forgeron à une coulée de scories fondues. Les néxiens les plus paranoïaques prétendent que les skinskitters tentent de construire quelque chose à partir de leurs collections de peaux de rebut, peut-être même de se reconstruire en conformateurs forgé de chair. Cependant, il n'y a pas de preuve que cela se soit jamais produit - si les créatures sont un tant soit peu conscientes, il est plus probable que les skinskitters soient poussés par les plus bas instincts à s'améliorer par les mêmes méthodes que celles qui ont été utilisées pour leur création, mais qu'ils manquent de la compréhension et de la maîtrise nécessaires pour y parvenir.</p>",
+            "perception": "Un goût pour la peau 18 m (imprécis)",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans le sang ou l'eau"
+                }
+            },
+            "items": {
+                "9O0kaWa3O5uUYJX1": {
+                    "name": "Un goût pour la peau (A Taste for Skin)",
+                    "description": "<p>Une dermine sent la peau (incluant le cuir), les cheveux, les griffes et les ongles dans un rayon de 18 mètres.</p>"
+                },
+                "Vpcaqhg3BJT4qyTu": {
+                    "name": "Ongle (Nail)"
+                },
+                "YzH31yZdhxR2eUCh": {
+                    "name": "Partager la peau (Share the Skin)",
+                    "description": "<p><strong>Conditions</strong> Une créature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} ou consentante esst dans l'allonge de la dermine.</p>\n<hr />\n<p><strong>Effet</strong> La dermine gratte et cisaille de grandes surfaces de peau de la victime. Cela nécessite un test d'Athlétisme contre le DD de Vigueur de la victime si elle est Agrippée et est automatique avec tous les autres états. La douleur massive rend la victime @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} pendant 1 minute et la dermine se drape dans les lambeaux de peau, ce qui lui confère 10 Points de vie temporaires pendant 1 minute.</p>"
+                },
+                "sXjGsScjLQ7DuSAO": {
+                    "name": "Frisson de la dermine (Shuddering Skitter)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Déclencheur</strong> La dermine est réduite à 0 Point de vie</p>\n<hr />\n<p><strong>Effet</strong> La peur de la mort agite la dermine, précipitant un éveil soudain de la conscience existentielle. La dermine est réduite à 1 PV, perd le trait dénué d'intelligence et son immunité aux effets mentaux pendant les 24 prochaines heures, obtient la capacité de parler une langue (typiquement en osirianais ou en vudrain) et obtient deux actions parmi les suivantes dans n'importe quel ordre : Se cacher, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtif}, Faire un pas, Marcher rapidement ou se @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Mettre à l'abri}. De plus, l'espace occupé par la dermine avant d'utiliser Frisson de la dermine devient un terrain difficile au moment où elle dégueule une véritable douche des callosités à moitié digérées, des ongles rongés et des cheveux enchevêtrés dans son sillage.</p>"
+                }
+            }
+        },
+        "Mana Whorl": {
+            "name": "Spire de mana (Mana Whorl)",
+            "desc (hazard)": "<p>Cette étendue de sable déstabilisé de 4,50 mètres de large tente de submerger les créatures qui manient la magie. Un arbre du désert au feuillage dense et vert vif et aux fleurs rose pâle ainsi qu'au moins une pie carnivore à poitrine rouge se trouve toujours à proximité.</p>",
+            "disable": "<p>@Check[arcana|dc:26] (expert) pour envoyer de la magie dans la spire et la stabiliser temporairement pendant quelques minutes. Envoyer dans la spire un certain nombre d'incantateurs et d'objets magiques d'un niveau combiné de 10 (par exemple, un prêtre de niveau 4 et deux objets magiques de niveau 3) permet de la stabiliser pendant 1 semaine. Envoyer dans la spire des incantateurs ou des objets magiques d'un niveau combiné de 20 la stabilise de manière permanente. Les incantateurs et les objets magiques qui alimentent ainsi la spire sont complètements dévorés.</p>",
+            "reset": "<p>Le danger continue à aspirer quiconque avec de la magie jusqu'à ce qu'i soit rassasié (voir Désactivation ci-dessus). Les pies quittent toute spire parvenant à satiété.</p>",
+            "routine": "<p>(1 action) À son initiative, la spire attire toute créature en son sein vers le bas qui peut lancer des sorts ou qui porte un objet magique. Une créature submergée à la taille devient submergée jusqu'au cou et une créature submergée jusqu'au cou est attirée sous le sable et doit retenir sa respiration pour éviter la suffocation. Si une créature n'a pas de sorts ou d'objets magiques, la spire de mana est simplement un terrain difficile. Une créature prise dans une spire de manapeute tenter un test d'@Check[athletics|dc:23] pour Nager soit pour parvenir à s'élever d'un cran si elle est submergée jusqu'au cou ou de se déplacer de 1,50 mètre si elle est submergée simplement jusqu'à ma taille. En cas d'échec critique, la créature s'enfonce d'un cran supplémentaire. Une créature qui Nage en dehors de la spire échappe au danger et est @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} dans un espace adjacent à la spire. Les autres créatures peuvent Aider la créature, en utilisant typiquement une corde ou une aide similaire ou tenter de tirer la créature en dehors avec leur propre test d'@Check[athletics|dc:23], avec les mêmes résultats que si c'était la créature qui avait effectué le test. Si une créature ne possède que des objets magiques et aucune capacité à lancer des sorts, abandonner tous les objets libère cette créature et elle peut se déplacer à travers la spire de mana comme sur un terrain difficile normal.</p>",
+            "stealth": "<p>(qualifié) pour identifier comme des sables mouvants dangereux ; +20 (expert) pour reconnaître ses propriétés magiques</p>",
+            "items": {
+                "v4xYC7vsctLsaX3u": {
+                    "name": "Submerger (Submerge)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature qui peut lancer des sorts ou qui porte un objet magique marche dans la spire de mana</p>\n<hr />\n<p><strong>Effet</strong> La créature déclencheuse s'enfonce dans la spire jusqu'à la taille. La spire lance l'initiative si ce n'était pas déjà fait.</p>"
+                }
+            }
+        },
+        "Cracked Earth": {
+            "name": "Terre craquelée (Cracked Earth)",
+            "desc (hazard)": "<p>Cette parcelle de 6 mètres sur 6 mètres est parsemée de fissures et de craquelures qui s'effritent lorsqu'une créature marche dessus.</p>",
+            "disable": "<p>@Check[survival|dc:16] (inexpérimenté) pour la faire s'effondrer en toute sécurité, @Check[crafting|dc:20] (qualifié) pour la consolider suffisamment pour passer sans l'effondrer.</p>",
+            "stealth": "<p>(qualifié)</p>",
+            "items": {
+                "ILVa5flFK0IqIEJx": {
+                    "name": "Longue chute (Long Fall)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur la terre craquelée</p>\n<hr />\n<p><strong>Effet</strong> La créature fracture la fin croûte de terre et passe au travers. Cette créature peut utiliser la réaction @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis} pour éviter la chute, tant qu'elle est adjacente à un bord. Autrement elle subit des dégâts de chute (typiquement@Damage[25[bludgeoning]|options:fall-damage]{25 dégâts contondants} pour une chute de 15 mètres). Certaines de ses failles peuvent aussi les conduire en Ombreterre.</p>"
+                }
+            }
+        },
+        "Benthic Reaver": {
+            "name": "Castor benthique (Benthic Reaver)",
+            "description": "<p>Le castor benthique est une monstruosité mort-vivante de 15 mètres de haut, dont les côtes s'élèvent comme des arcs géants et dont la colonne vertébrale se divise en trois queues.</p>",
+            "cadetails": "Vision panoramique",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "DVThmJrdhHWi62Yw": {
+                    "name": "Balayage avec la queue (Tail Sweep)",
+                    "description": "<p>Le castor benthique fait une Frappe de queue contre chaque ennemi dans son allonge. Ces attaques sont comptées dans la pénalité d'attaques multiples du castor benthique mais la pénalité d'attaques multiples n'augmente pas avant d'avoir fait toutes les attaques du castor benthique.</p>"
+                },
+                "JRVNlfIPlDWOJtj4": {
+                    "name": "Chant du perdu (Song of the Lost)",
+                    "description": "<p>La castor benthique pousse un cri de deuil. Toutes les créatures dans un rayon de 18 mètres doivent tenter un jet de @Check[will|dc:41] pour y résister. Le castor benthic ne peut plus utiliser Chant du perdu pendant [[/gmr 1d4 #Recharge de chant du perdu]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais la créature est aussi @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1} par la compassion.</p>"
+                },
+                "Xe2GOMh7IIFQD8Uu": {
+                    "name": "Balayage avec la queue (Tail Sweep)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature qui était hors d'allonge du castor benthique se déplace dans l'allonge de la queue de ce dernier</p>\n<hr />\n<p><strong>Effet</strong> Le castor benthique effectue une Frappe de queue contre la créature déclencheuse et peut utiliser Renversement amélioré si l'attaque touche, même si ce n'est pas durant le tour du castor benthique. Si le castor benthique met la cible @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}, il interrompt l'action de déplacement déclencheur.</p>"
+                },
+                "ampKTxuQeRMnCDFC": {
+                    "name": "Queue (Tail)"
+                },
+                "eFDHvwqwltjwqJlQ": {
+                    "name": "Vision véritable (constant) (True Seeing (Constant))"
+                },
+                "eZro5U6mdKafCnrR": {
+                    "name": "Rayon oculaire (Eye Beam)"
+                },
+                "hOLCYiLG6vCZSfXj": {
+                    "name": "Nageoire (Fin)"
+                },
+                "j26Lepuho7qRRsJ8": {
+                    "name": "Sorts arcaniques innés (Arcane Innate Spells)"
+                },
+                "s1hc2hOjKqwxRlnL": {
+                    "name": "Mâchoire (Jaws)"
+                },
+                "uCiVp2qb8CNPeikX": {
+                    "name": "Froid intense (Intense Chill)",
+                    "description": "<p>9 mètres. @Damage[5d6[cold]]{5d6 dégâts de froid} (@Check[reflex|dc:41|basic]). En cas d'échec, la créature subit une pénalité de statut de -4,50 mètres à ses Vitesses pendant 1 round.</p>"
+                },
+                "vvjOTuOMXpAw3Ixd": {
+                    "name": "Froid engourdissant (Numbing Ice)",
+                    "description": "<p>Une créature qui subit des dégâts de la Frappe de Rayon oculaire du castor benthique doit réussir un jet de @Check[fortitude|dc:41] ou devenir @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 2} lorsque le froid rigidifie ses membres. Une créature volante qui obtient un échec se retrouve à descendre sur le sol situé en dessous. C'est un déplacement forcé.</p>"
+                }
+            }
+        },
+        "Quantium Golem (Acid)": {
+            "name": "Golem de Quantium (acide) (Quantium Golem (Acid))",
+            "description": "<p>La longue guerre entre Nex et Geb a donné naissance à de nombreuses armes animées, mais bien qu'un citoyen de Quantium s'enfuirait en hurlant devant n'importe quel produit des forges de chair, il ne sourcillerait guère devant les deux créatures artificielles titanesques et mortelles qui déambulent rapidement à l'extérieur des murs de la ville. Conçus par le roi-sorcier Nex il y a bien longtemps, après une attaque dévastatrice des forces mortes-vivantes de Geb, dont le terrifiant castor benthique, les golems de Quantium sont destinés à protéger la capitale en cas d'absence de Nex. Ces golems jumeaux veillent sans relâche sur la ville, prêts à abattre tout envahisseur menaçant Quantium.</p>\n<p>D'une hauteur de trois mètres et fabriqués dans un matériau d'une douceur surnaturelle, les deux gardiens sont assortis, le premier étant de couleur cramoisie et le second de couleur émeraude. Brandissant des épées de la taille de géants, les gardiens détruisent sans relâche tout ce qui menace la ville, en particulier les morts-vivants qui pourraient envahir le pays en provenance du Geb. Avec le mythique Crux de Nex comme source d'énergie, les golems sont inépuisables et presque indestructibles.</p>",
+            "perception": "Lien du défenseur",
+            "items": {
+                "1HLmpNiFbeCNAiK6": {
+                    "name": "Perception de la vie 36 mètres (Lifesense 120 feet)"
+                },
+                "3P9XjG1L99lgKXLy": {
+                    "name": "Rayon oculaire (Eye Beam)"
+                },
+                "9BgaqEFmIjulirAy": {
+                    "name": "Épée bâtarde (Bastard Sword)"
+                },
+                "QLpS6QL7iaYN78dd": {
+                    "name": "Rayon lumineux (Lambent Beam)",
+                    "description": "<p>Les yeux du golem de Quantium brillent d'une lueur vive libérant un arc de destruction qui inflige @Damage[10d6[fire],10d6[acid]]{10d6 dégâts de feu et 10d6 dégâts d'électricité} aux créatures sur une @Template[line|distance:120]{ligne de 36 mètres} (@Check[reflex|dc:42|basic]). Le golem de Quantium ne peut utiliser Rayon lumineux pendant [[/gmr 1d4 #Recharge du Rayon lumineux]]{1d4 rounds}.</p>"
+                },
+                "ZdqlTV2GE4fHp7o7": {
+                    "name": "Vulnérable à Bannissement (Vulnerable to Banishment)",
+                    "description": "<p>Lancer un sort de @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Bannissement} sur un golem de Quantium perturbe son lien avec la Crux de Nex. S'il est ciblé par un tel sort, le golem est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1} et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} pendant [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+                },
+                "bd2Bxzbndod4WaZQ": {
+                    "description": "<p>Cette épée à large lame, parfois appelée épée à une-main-et-demie, a une prise plus longue et peut donc être tenue d'une main ou utilisée à deux mains pour fournir une puissance tranchante supplémentaire.</p>"
+                },
+                "db1nDSlbX73gPD9U": {
+                    "name": "Défenseurs jumeaux (Twin Defenders)",
+                    "description": "<p>Les golems de Quantium furent créés par Nex comme un ensemble apparié : le premier cramoisi et le second émeraude, chacun étant une entité unique. Le golem cramoisi est imprégné avec un feu brûlant et des éclairs crépitants. Ses capacités Rayon oculaire et Rayon lumineux infligent des dégâts d'électricité et de feu. Le golem d'émeraude est chargé de puissance corrosive et de flammes. Ses capacités Rayon oculaire et Rayon lumineux infligent des dégâts d'acide et de feu.</p>"
+                },
+                "fM5TkztLOObStHW2": {
+                    "name": "Reconstruction appariée (Paired Reconstruction)",
+                    "description": "<p>Lorsqu'il est réduit à 0 PV, le golem de Quantium est détruit. Quoi qu'il en soit, il se reforme magiquement 24 heures après avec la totalité de ses Points de vie et libéré de toutes ses conditions et afflictions à moins que son golem jumeau ne soit aussi détruit.</p>"
+                },
+                "gkXa9hD1dnoSxatR": {
+                    "name": "Lien du défenseur (Defender's Link)",
+                    "description": "<p>Chaque golem de Quantium connaît automatiquement les Points de vie, les états, les afflictions et l'emplacement de l'autre.</p>"
+                },
+                "wLibJdF8sVsM43a8": {
+                    "name": "Antimagie du golem (Golem Antimagic)",
+                    "description": "<p>Un golem est immunisé contre les sorts et les pouvoirs magiques autres que les siens mais chaque type de golem est affecté d'une manière spéciale par quelques formes de magie. Ces exceptions sont expliquées ci-après. S'il est indiqué plusieurs types de sorts (comme \"froid\" et \"eau\"), ils affectent tous le golem.</p>\n<hr />\n<ul>\n<li><strong>Blessé par le son</strong> Toute magie de ce type qui cible le golem lui inflige @Damage[9d10[untyped]]{9d10 dégâts} (ces dégâts n'ont aucun type) au lieu de l'effet habituel. Si le golem commence son tour dans une zone de magie de ce type ou s'il est affecté par un effet persistant de son, il subit @Damage[3d10[untyped]]{3d10 dégâts}.</li>\n<li><strong>Ralenti par le froid</strong> Toute magie de ce type qui le cible lui confère l'état @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} pendant [[/r 2d6 #rounds]]{2d6 rounds} au lieu de l'effet normal. Si le golem commence son tour dans une zone de magie de type froid, il est Ralenti 1 pour ce round.</li>\n<li><strong>Soigné par le feu</strong> Toute magie de ce type qui cible le golem lui fait perdre son état Ralenti et lui permet de récupérer un nombre de PV égal à la moitié des dégâts qu'aurait dû infliger le sort. Si le golem commence son tour dans une zone de magie de type acide, il obtient @Damage[3d10[healing]]{3d10 Points de vie}.</li>\n</ul>"
+                }
+            }
+        },
+        "Gunpowder Ooze": {
+            "name": "Vase poudrière (Gunpowder Ooze)",
+            "description": "<p>Les vases poudrières sont de la poudre explosive qui prend vie. Par nécessité, les fabricants d'explosifs et d'armes à feu sont très prudents, mais même les meilleures habitudes de sécurité peuvent être contrecarrées par l'avidité, la distraction ou la négligence. Le rejet de sous-produits toxiques provenant de la fabrication d'armes à feu serait un problème environnemental n'importe où, mais lorsque des écoulements volatils s'infiltrent dans la Désolation de Mana, ils peuvent interagir avec la magie sauvage, provoquant un cauchemar vivant et explosif.</p>\n<p>La vase poudrière est une masse gris anthracite constellée de taches qui se faufile dans la zone sinistrée entre l'Alkenastre et la Désolation de Mana, dans un bruit de crépitements et de brusques détonations. Elle poursuit et consomme toute sorte de matière organique, projetant des projectiles semblables à des balles pour abattre ses proies. La vase évite instinctivement le feu, si bien que les voyageurs contraints de camper dans le territoire connu de la vase poudrière allument souvent des feux de joie malgré le risque de signaler leur présence aux autres habitants de la Désolation de Mana. Les suggestions visant à transformer en armes les populations locales de vases, périodiquement avancées par des tacticiens imprudents d'Alkenastre comme de la Désolation de Mana, sont unanimement rejetées par les plus raisonnables. Ceux qui tentent quand même de le faire connaissent généralement des fins explosives.</p>",
+            "items": {
+                "5MRsa1cMu7G30ZW2": {
+                    "name": "Combustion (Combust)",
+                    "description": "<p>En raison de la nature volatile de sa composition, la vase poudrière réagit de manière explosive lorsqu'elle est exposée à une flamme nue. Chaque fois que la vase poudrière subit des dégâts de feu provenant d'une source autre que la combustion d'une vase poudrière ou d'un résidu de poudre à canon, elle explose, infligeant @Damage[15d6[fire]]{15d6 dégâts de feu} aux créatures dans une @Template[emanation|distance:15]{émanation de 4,50 mètres} y compris elle-même (@Check[reflex|dc:34|basic]). Lorsque la vase poudrière entre en combustion, elle se divise automatiquement tant qu'elle possède au moins 10 Points de vie.</p>"
+                },
+                "Ajb9KHStcuJ2ENqg": {
+                    "name": "Scission (Split)",
+                    "description": "<p>Quand une vase poudrière qui possède au moins 10 PV est touchée par une attaque qui lui infligerait des dégâts tranchants ou perforants, elle se scinde en deux vases identiques, chacune avec la moitié de ses Points de vie d'origine. Une vase reste dans le même espace et l'autre apparaît dans un espace inoccupé adjacent. S'il n'y a aucun espace adjacent inoccupé, elle pousse automatiquement les créatures et les objets en dehors de son passage afin d'occuper cet espace (le MJ décide si une créature ou un objet est trop grand ou trop lourd pour être poussé).</p>"
+                },
+                "PtehHqk7jrGM6pXO": {
+                    "name": "Pseudopode (Pseudopod)"
+                },
+                "fkcwHO1dnyPLc1x0": {
+                    "name": "Perception du mouvement (Motion Sense)",
+                    "description": "<p>Une vase poudrière peut sentir le déplacement à travers les vibrations et le mouvement de l'air ou de l'eau.</p>"
+                },
+                "l21tZ86jrnLJdnHQ": {
+                    "name": "Déflagration (Blast)"
+                },
+                "o86qm3Mg0q1yymC7": {
+                    "name": "Résidu de poudrière (Gunpowder Residue)",
+                    "description": "<p>Une créature touchée par le pseudopode ou la déflagration de la vase poudrière est couverte de matériau explosif à moins de réussir un jet de @Check[reflex|dc:34]. Si une créature fait une attaque avec une arme à feu, subit des dégâts de feu ou utilise une action, une activité ou un objet avec le trait feu alors qu'elle est enduite de résidus, ces derniers explosent, infligeant @Damage[7d6[fire]]{7d6 dégâts de feu} à la créature et à toutes les créatures adjacentes (@Check[reflex|dc:34|basic]). Le résidu reste actif pendant 24 heures, jusqu'à ce qu'il y soit mis feu ou qu'elle soit grattée (une activité qui prend au moins 10 minutes et nécessite du savon et de l'eau). Une créature ne peut seulement être couverte que d'une couche de résidu de poudrière au même moment.</p>"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

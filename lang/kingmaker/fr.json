@@ -1,0 +1,445 @@
+{
+    "PF2E.Kingmaker": {
+        "Abilities": {
+            "culture": "Culture",
+            "economy": "Économie",
+            "loyalty": "Loyauté",
+            "stability": "Stabilité"
+        },
+        "AbilityScores": "Scores de caractéristique",
+        "Army": {
+            "Adjustment": "Ajustement",
+            "Alliance": {
+                "Enemy": "Ennemi",
+                "Kingdom": "Royaume",
+                "Info": "L'alliance actuelle de l'armée. Ceci est contrôlé si l'armée possède un propriétaire joueur.",
+                "Linked": "Les jetons de cette armée sont actuellement liés et les mises à jour devraient persister correctement",
+                "LinkError": "Cette armée ne peut pas être liée à partir d'un jeton. Faites-le depuis la barre latérale de l'acteur, puis faites glisser une nouvelle copie.",
+                "UnlinkedError": "Les armées du Royaume devraient avoir des données d'acteur liées pour fonctionner correctement. Cliquez ici pour l'activer."
+            },
+            "Ammunition": "Munition",
+            "Armor": "Armure",
+            "BasicWarActions": "Actions de guerre basiques",
+            "Condition": {
+                "concealed": {
+                    "name": "Masquée"
+                }
+            },
+            "Description": "Description",
+            "Error": {
+                "InvalidTacticType": "La tactique {name} n'est pas supportée par les armées de type {type}"
+            },
+            "Gear": {
+                "GearInfo": "Afficher les infos de l'équipement",
+                "ItemLevel": "Objet {level}",
+                "Label": "Matériel",
+                "LevelLabel": "Niveau {level}",
+                "AdditionalWeapon": {
+                    "Name": "Arme supplémentaire",
+                    "Description": "La plupart des armées n'ont qu'une seule arme : une arme de corps-à-corps ou une arme à distance. Cet équipement convient à une armée avec une arme supplémentaire de l'autre type. L'armée obtient une Frappe au corps-à-corps ou à distance (selon le cas) au modificateur de base de son niveau."
+                },
+                "MagicWeapons": {
+                    "Name": "Armes Magiques ({type})",
+                    "Description": "Les armes de l'armée sont magiques. Si l'armée possède des armes de corps-à-corps et à distance, choisissez celle qui est rendue magique lorsque cet équipement est acheté. Vous pouvez acheter cet équipement deux fois, une fois pour les armes au corps-à-corps et une fois pour les armes à distance. Si vous achetez une version plus puissante, elle remplace la version précédente et le coût en PR de la version la plus puissante est réduit par le coût en PR des armes remplacées.",
+                    "rank1": {
+                        "Name": "Armes magiques",
+                        "Description": "Ces armes augmentent la Frappe de l'armée avec cette arme de 1."
+                    },
+                    "rank2": {
+                        "Name": "Armes magiques supérieures",
+                        "Description": "Ces armes augmentent la Frappe de l'armée avec cette arme de 2."
+                    },
+                    "rank3": {
+                        "Name": "Armes magiques majeures",
+                        "Description": "Ces armes augmentent la Frappe de l'armée avec cette arme de 3."
+                    }
+                },
+                "Potions": {
+                    "Name": "Potions de soins",
+                    "Description": "Une armée équipée de potions de soins (ces règles sont les mêmes si vous fournissez à l'armée des élixirs de vie alchimique) peut utiliser une seule dose dans le cadre de toute action Manœuvre. Quand une armée utilise une dose de potions de soins, elle récupère 1 PV. Une armée peut être équipée avec 3 doses de potions de soins maximum à la fois ; Contrairement aux tirs de Frappe à distance, les doses de potion ne se remplissent pas automatiquement après une rencontre de guerre. De nouvelles doses doivent être achetées."
+                },
+                "Armor": {
+                    "Name": "Armure magique",
+                    "Description": "L'armure magique est enchantée par magie pour renforcer la protection qu'elle offre aux soldats.",
+                    "rank1": {
+                        "Name": "Armure magique",
+                        "Description": "Cette armure augmente la CA de l'armée de 1 point."
+                    },
+                    "rank2": {
+                        "Name": "Armure magique supérieure",
+                        "Description": "Cette armure augmente la CA de l'armée de 2 points."
+                    },
+                    "rank3": {
+                        "Name": "Armure magique majeure",
+                        "Description": "Cette armure augmente la CA de l'armée de 3 points."
+                    }
+                }
+            },
+            "Label": "Armée",
+            "NamePlaceholder": "Nom de l'armée",
+            "Potency": "Puissance",
+            "Potions": {
+                "FullHP": "Les PV de l'Armée sont déjà pleins",
+                "Label": "Potions",
+                "OutOfPotions": "Plus de potion disponible",
+                "UsePotion": "Utiliser une Potion (+1 PV)",
+                "UsedPotionHeader": "Potion Consommée",
+                "UsedPotionContent": "L'Armée a gagné +1 PV. Peut être utilisé pendant les actions de manœuvre."
+            },
+            "RecruitmentDC": "DD de Recrutement",
+            "RoutedDescription": "Les PV de l'Armée sont en dessous du seuil de Déroute !",
+            "RoutThreshold": "Seuil de déroute",
+            "Save": {
+                "maneuver": "Manœuvre",
+                "morale": "Moral"
+            },
+            "Scouting": "Éclaireur",
+            "SendToChat": "Envoyer dans la conversation",
+            "Stats": "Stats",
+            "Strikes": {
+                "CurrentAmmo": "{current} / {max} Tirs<br/>Récupérés à la fin d'une rencontre de guerre",
+                "None": "Cette armée n'a pas d'armes : ajoutez en une dans la section équipement.",
+                "Label": "Frappes",
+                "OutOfAmmo": "Plus de tirs restants dans cette rencontre de guerre",
+                "RestoreAmmunition": "Restaurer les munitions",
+                "proficiency": "Maîtrise",
+                "melee": "Corps-à-corps",
+                "ranged": "À distance"
+            },
+            "Tactics": "Tactiques",
+            "TacticsFree": "Tactiques (Gratuit)",
+            "Toggles": {
+                "LiveOffTheLand": "Dans les hexagones sans communauté",
+                "KeepUpThePressure": "En attaquant la même cible"
+            },
+            "TacticalWarActions": "Actions de guerre tactiques"
+        },
+        "Confirm": "Confirmer",
+        "Consumption": {
+            "Base": "Base",
+            "Label": "Consommation",
+            "Reduction": "Réduction"
+        },
+        "Event": {
+            "Details": "Détails des évènements en cours",
+            "Random": "Évènement aléatoire"
+        },
+        "GrantedBy": "Ce trait a été accordé par {granter} et ne peut pas être supprimé",
+        "KingdomBuilder": {
+            "ActivationMessage": "Commencer le processus de création du Royaume ? Soyez certains que vos joueurs sont prêts avant de poursuivre.",
+            "Aspiration": "Aspiration",
+            "AssignBoostsHeader": "Assigner vos primes",
+            "Boost": "Prime",
+            "BoostsLabel": "Primes de caractéristique",
+            "Builder": "Constructeur",
+            "CancelCreation": "Annuler la création",
+            "Complete": "Terminé",
+            "Feat": "Don de Royaume",
+            "FinalizeHeader": "Finaliser le Royaume",
+            "Flaw": "Défaut",
+            "FlawLabel": "Faiblesse de caractéristique",
+            "Free": "Gratuit",
+            "Skills": "Compétences du Royaume",
+            "ManualToggle": "Utiliser les modificateurs manuels",
+            "Missing": {
+                "Charter": "Choisir une charte pour sélectionner les primes.",
+                "Heartland": "Choisir le coeur de votre nation pour sélectionner les primes.",
+                "Government": "Choisir un gouvernement pour sélectionner les primes."
+            },
+            "None": "Aucun",
+            "NotSelected": "Pas sélectionné",
+            "SaveAndContinue": "Sauvegarder & poursuivre",
+            "Tabs": {
+                "Charter": "Charte",
+                "Heartland": "Coeur de la nation",
+                "Government": "Gouvernement",
+                "AbilityScores": "Scores de caractéristiques"
+            },
+            "Title": "Commencer à construire un Royaume"
+        },
+        "Kingdom": {
+            "Activities": "Activités de Royaume",
+            "ArmyConsumption": "Consommation d'armée",
+            "Aspiration": {
+                "fame": "Notoriété",
+                "infamy": "Infamie"
+            },
+            "BuildHeader": "Construction du Royaume",
+            "BuildElement": {
+                "Charter": "Charte",
+                "Heartland": "Cœur de la nation",
+                "Government": "Gouvernement"
+            },
+            "Capital": "Capitale",
+            "CapitalPlaceholder": "Nom de la ville",
+            "CollectDialog": {
+                "Title": "Collecter les ressources",
+                "Header": "Maintenance : Collecter les ressources",
+                "Description": "Lancer {dice} dé(s) de ressources et générer aussi ce qui suit ?",
+                "Disclaimer": "Cela remplacera vos points de ressources actuels (qui auraient dû être convertis en points d'expérience). Les marchandises excédentaires seront perdues. Seul le MJ peut collecter les ressources.",
+                "NewResourcePoints": "Nouveaux Points de ressources"
+            },
+            "Commodity": {
+                "food": "Nourriture",
+                "lumber": "Bois",
+                "luxuries": "Luxe",
+                "ore": "Minerai",
+                "stone": "Pierre"
+            },
+            "ControlDC": "DD de contrôle",
+            "Invested": "Investi",
+            "InvestedBonus": "Bonus de statut à {ability}",
+            "ImportDialog": {
+                "Title": "Activités d'importation",
+                "Content": "{added} activités seront ajoutées et {updated} activités seront mises à jour : est-ce correct ?"
+            },
+            "FeatSlot": {
+                "Features": "Caractéristiques du Royaume",
+                "Feats": "Dons du Royaume",
+                "Bonus": "Dons bonus"
+            },
+            "Leaders": "Dirigeants",
+            "LeaderMissing": "Aucun (Glisser un nouvel acteur)",
+            "LeadershipRole": {
+                "ruler": "Dirigeant",
+                "counselor": "Conseiller",
+                "general": "Général",
+                "emissary": "Émissaire",
+                "magister": "Magistère",
+                "treasurer": "Trésorier",
+                "viceroy": "Vice-roi",
+                "warden": "Gardien"
+            },
+            "NamePlaceholder": "Nom du Royaume",
+            "NationType": {
+                "territory": "Territoire",
+                "province": "Région",
+                "state": "État",
+                "country": "Pays",
+                "dominion": "Province"
+            },
+            "Phases": {
+                "commerce": {
+                    "Header": "Phase de commerce",
+                    "Description": "Lorsque le royaume génère des revenus ou conclut des accords commerciaux.",
+                    "Step1": "<strong>Collecter les impôts</strong> Peut être effectué une fois par tour de Royaume. Si vous ne tentez pas de collecter des impôts, vous pouvez à la place faire un test nu DD 11. En cas de succès, vous réduisez l'Agitation de 1",
+                    "Step2": "<strong>Approuver les dépenses</strong> Vous pouvez prélever des fonds pour tenter l'activité Améliorer le style de vie ou vous pouvez tenter un retrait en utilisant l'activité Ponctionner la trésorerie.",
+                    "Step3": "<strong>Ponctionner les marchandises</strong> Si votre royaume a des stocks de marchandises, vous pouvez tenter l'activité Échanger des marchandises pour augmenter votre PR lors de ce tour.",
+                    "Step4": "<strong>Gérer les accords commerciaux</strong> Si vous avez établi des accords commerciaux, vous pouvez essayer de Gérer les accords commerciaux."
+                },
+                "leadership": {
+                    "Header": "Phase d'activité : Activités de gouvernance",
+                    "Description": "Si la capitale de votre royaume dispose d'un Château, d'un Palais ou d'un Hôtel de ville, chaque PJ ayant un rôle de Leadership peut tenter jusqu'à trois activités de Leadership. Si votre capitale n'a aucune de ces structures, chaque PJ ne peut pas tenter plus de deux activités de Leadership au cours de cette étape. Sauf indication contraire, un dirigeant ne peut pas tenter la même activité de Leadership plus d'une fois par tour de Royaume."
+                },
+                "region": {
+                    "Header": "Phase d'activité : Activités régionales",
+                    "Description": "Les PJ dirigeants peuvent tenter collectivement jusqu'à trois activités Régionales."
+                },
+                "civic": {
+                    "Header": "Phase d'activité : Activités civiques",
+                    "Description": "Le groupe peut tenter une activité Civique pour chacune des colonies du royaume."
+                },
+                "army": {
+                    "Header": "Activités de guerre",
+                    "Description": "Après avoir terminé l'étape des activités civiques du tour de Royaume, les PJ peuvent effectuer une étape d'Activités de guerre, au cours de laquelle chaque armée actuellement maintenue par le royaume peut effectuer une seule Activité de guerre."
+                }
+            },
+            "Resources": {
+                "Collect": "Collecter",
+                "Dice": "Dés de ressources",
+                "Header": "Ressources et produits de base",
+                "Points": "Points de ressources",
+                "RP": "PR"
+            },
+            "Ruin": {
+                "corruption": "Corruption",
+                "crime": "Criminalité",
+                "decay": "Déclin",
+                "strife": "Conflit"
+            },
+            "Size": "Taille",
+            "Storage": "Stockage",
+            "Tabs": {
+                "Main": "Principal",
+                "Activities": "Activités",
+                "World": "Monde",
+                "Features": "Caractéristiques",
+                "Ongoing": "En cours"
+            },
+            "Unrest": "Agitation",
+            "VacancyPenalty": {
+                "ruler": "-1 à tous les tests (ceci se cumule avec toute autre pénalité liée à une vacance de poste). Obtient 1d4 Agitation au début du tour de Royaume. Le DD de contrôle augmente de 2",
+                "counselor": "-1 à tous les tests basés sur la Culture",
+                "general": "-4 à toutes les activités de Guerre",
+                "emissary": "-1 à tous les tests basés sur la Loyauté",
+                "magister": "-4 aux activités de Guerre",
+                "treasurer": "-1 à tous les tests basés sur l'Économie",
+                "viceroy": "-1 à tous les tests basés sur la Stabilité",
+                "warden": "-4 aux activités de la Région"
+            },
+            "Vacant": "Vacant",
+            "VacantRole": "Vacance ({role})"
+        },
+        "Feature": {
+            "Categories": {
+                "army-tactic": "Tactique d'armée",
+                "army-war-action": "Action de guerre d'armée",
+                "kingdom-activity": "Activité du Royaume",
+                "kingdom-feat": "Don du Royaume",
+                "kingdom-feature": "Capacité du Royaume"
+            },
+            "Tactic": "Tactique"
+        },
+        "Penalty": "Pénalité",
+        "Settlement": {
+            "Blocks": "Blocs",
+            "Details": "Détails de l'agglomération",
+            "Header": "Colonies du royaume",
+            "Label": "Implantation",
+            "LevelRange": "Plage de niveaux",
+            "Name": "Nom de la colonie",
+            "Overcrowded": "Surpeuplé",
+            "Population": "Population",
+            "Type": {
+                "village": "Village",
+                "town": "Ville",
+                "city": "Cité",
+                "metropolis": "Métropole"
+            },
+            "TypeLabel": "Type"
+        },
+        "Skills": {
+            "agriculture": "Agriculture",
+            "arts": "Arts",
+            "boating": "Batellerie",
+            "defense": "Défense",
+            "engineering": "Ingénierie",
+            "exploration": "Exploration",
+            "folklore": "Folklore",
+            "industry": "Industrie",
+            "intrigue": "Intrigue",
+            "magic": "Magie",
+            "politics": "Politique",
+            "scholarship": "Érudition",
+            "statecraft": "Habileté politique",
+            "trade": "Échange",
+            "warfare": "Conflit armé",
+            "wilderness": "Nature sauvage"
+        },
+        "WorkSites": {
+            "food": {
+                "Name": "Terres agricoles",
+                "Description": "Réduit la Consommation pendant la phase d'entretien. La nourriture doit être récoltée pendant la phase régionale en utilisant Récolter les cultures, Aller à la pêche ou Rassembler du bétail. Créé en utilisant Établir des terres agricoles."
+            },
+            "lumber": {
+                "Name": "Camps de bûcherons",
+                "Description": "Augmente le Bois obtenu pendant la phase d'entretien. Créé en utilisant Établir un chantier."
+            },
+            "luxuries": {
+                "Name": "Mines (Gemmes)",
+                "Description": "Chantier très rare. Octroie des produits de luxe durant la phase d'entretien."
+            },
+            "ore": {
+                "Name": "Mines",
+                "Description": "Augmente le Minerai obtenu au cours de la phase d'entretien. Créé en utilisant Établir un chantier."
+            },
+            "stone": {
+                "Name": "Carrières",
+                "Description": "Augmente la Pierre obtenue au cours de la phase d'entretien. Créé en utilisant Établir un chantier."
+            },
+            "Label": "Chantiers",
+            "Resource": "Si un chantier a été construit sur une source dense ou lucrative de ce matériau, indiquez-le ici à la place. Ils produisent le double de la quantité habituelle."
+        },
+        "Charter": {
+            "conquest": {
+                "Name": "Conquête",
+                "Description": "Vos protecteurs ont conquis une région et ses anciens chefs ont été mis en déroute ou même tués. Cette charte vous confie la responsabilité d'une partie de ce territoire conquis (ou abandonné par l'ennemi vaincu) et vous ordonne de le tenir et de le pacifier au nom de votre protecteur. Les habitants sont particulièrement dévoués et soutiennent votre autorité (même si c'est en partie par crainte), mais la menace constante d'une guerre potentielle entrave les arts et empêche les citoyens de se détendre vraiment. Si vous optez pour cette charte, il vous est demandé d'établir votre royaume contre le Pitax."
+            },
+            "expansion": {
+                "Name": "Expansion",
+                "Description": "Votre protecteur vous confie la responsabilité d'un domaine adjacent à des terres déjà colonisées, en espérant que votre nation restera un allié solide. Le soutien accru de la nation de votre protecteur contribue à renforcer la société de votre propre royaume, mais cette dépendance accrue signifie que les fluctuations de la fortune de votre allié peuvent nuire à la sécurité de votre propre royaume. Si vous choisissez cette charte, Lady Jamandi attend de vous que vous restiez un allié solide de Restov."
+            },
+            "exploration": {
+                "Name": "Exploration",
+                "Description": "Votre protecteur souhaite que vous exploriez, défrichiez et colonisiez une région encore sauvage située à la frontière de son propre territoire. Votre charte vous aide à obtenir les structures initiales (ou les fournitures pour les créer), mais au prix de la création d'une dette à rembourser."
+            },
+            "grant": {
+                "Name": "Accordée",
+                "Description": "Votre protecteur vous accorde une grande quantité de fonds et d'autres ressources sans restriction sur la nature du développement de votre royaume, mais il vous demande d'employer un grand nombre de ses citoyens et de ses alliés. Les richesses et les approvisionnements de votre nation sont assurés, mais l'allégeance d'une partie des habitants de votre royaume est partagée entre votre nation et celle de votre protecteur."
+            },
+            "open": {
+                "Name": "Ouverte",
+                "Description": "Si vous préférez être de véritables agents libres et des pionniers qui posent leurs propres jalons, vous pouvez simplement choisir une charte ouverte, sans restrictions ni soutien direct. Dans ce cas, Lady Jamandi vous félicite pour votre courage et votre confiance en vous, mais vous avertit que l'établissement d'un royaume n'est pas une mince affaire. Une charte ouverte accorde une seule prime à n'importe quel score de caractéristique mais la nouvelle nation n'a pas de défaut de caractéristique."
+            }
+        },
+        "Heartland": {
+            "forestOrSwamp": {
+                "Name": "Forêt ou marais",
+                "Description": "Votre nation commence dans une forêt ou des marécages et ne manque donc pas de ressources naturelles ou de merveilles pour stimuler l'imagination et l'humeur de vos citoyens."
+            },
+            "hillOrPlain": {
+                "Name": "Colline ou plaine",
+                "Description": "Votre nation commence dans une région facile à traverser. Cela se reflète dans le tempérament de vos citoyens. Ils apprécient que vos choix leur rendent la vie un peu plus aisée."
+            },
+            "lakeOrRiver": {
+                "Name": "Lac ou rivière",
+                "Description": "En établissant votre nation sur les rives d'un lac ou d'une rivière, vous vous assurez d'un moyen intégré facilitant le commerce. Avant même la construction d'une route, les marchands et les voyageurs peuvent atteindre votre colonie par bateau avec une relative facilité."
+            },
+            "mountainOrRuins": {
+                "Name": "Montagne ou ruines",
+                "Description": "Votre nation est fondée dans les montagnes ou comprend un important site en ruine et elle utilise ces caractéristiques naturelles ou artificielles pour renforcer ses défenses. Vos citoyens ont tendance à être robustes et résistants, voire extrêmement entêtés."
+            }
+        },
+        "Government": {
+            "despotism": {
+                "Name": "Despotisme",
+                "Description": "Le pouvoir de votre nation est centré sur une seule personne qui s'est emparée ou a hérité du commandement et dont l'autorité est absolue. Le dirigeant de ce royaume a encore des conseillers et des assistants, mais seulement tant qu'ils obéissent à ses caprices."
+            },
+            "feudalism": {
+                "Name": "Féodalisme",
+                "Description": "Votre nation est gouvernée par une famille royale dynastique, mais le pouvoir réel est en grande partie réparti parmi ses vassaux et ses féodalités."
+            },
+            "oligarchy": {
+                "Name": "Oligarchie",
+                "Description": "Le gouvernement de votre nation est déterminé par un conseil de dirigeants influents qui prennent des décisions pour tous les autres."
+            },
+            "republic": {
+                "Name": "République",
+                "Description": "Votre pays est dirigé par ses propres citoyens. Les représentants élus se réunissent au sein d'organes parlementaires pour guider la nation."
+            },
+            "thaumocracy": {
+                "Name": "Thaumocratie",
+                "Description": "Votre nation est gouvernée par les plus talentueux en magie qui utilisent leurs connaissances et leur pouvoir pour déterminer les meilleurs moyens de gouverner. Le type de magie exercé par les dirigeants de la nation peut modifier ses thèmes (ou même son nom - une thaumocratie dirigée par des incantateurs divins serait une théocratie, par exemple), mais les détails ci-dessous restent les mêmes, qu'il s'agisse de magie arcanique, divine, occulte, primordiale ou d'une combinaison des quatre."
+            },
+            "yeomanry": {
+                "Name": "Hommes libres",
+                "Description": "Votre pays est décentralisé et compte sur des dirigeants locaux et les citoyens pour gérer les questions gouvernementales, en envoyant des représentants les uns aux autres si nécessaire pour traiter les questions qui concernent plus d'une localité."
+            }
+        },
+        "SIDEBAR": {
+            "CreateKingdom": "Créer un Royaume",
+            "OpenSheet": "Ouvrir la feuille de Royaume"
+        },
+        "Trait": {
+            "army": "Armée",
+            "cavalry": "Cavalerie",
+            "civic": "Civique",
+            "commerce": "Commerce",
+            "infantry": "Infanterie",
+            "kingdom": "Royaume",
+            "leadership": "Leadership",
+            "maneuver": "Manœuvre",
+            "morale": "Moral",
+            "region": "Région",
+            "siege": "Siège",
+            "skirmisher": "Tirailleur",
+            "upkeep": "Entretien"
+        },
+        "TraitDescription": {
+            "cavalry": "La cavalerie est composée d'unités montées.",
+            "infantry": "L'infanterie est composée de soldats ou de créatures qui se déplacent à pieds.",
+            "siege": "Les armées de siège se concentrent sur le déploiement d'engins de siège plutôt que sur le combat personnel.",
+            "skirmisher": "Les tirailleurs se composent d'un petit nombre d'unités très mobiles."
+        }
+    }
+}

@@ -1,0 +1,1590 @@
+{
+    "label": "Boîte d'initiation",
+    "entries": {
+        "Drow Sneak (BB)": {
+            "name": "Drow Sneak (BB)",
+            "description": "<p>Solitaires, les fureteurs drows ne font confiance à personne et encore moins aux autres drows. Pour survivre à la nature impitoyable de leur société, ils se fient à leurs capacités d'adaptation et à leurs connaissances de leur environnement.</p>",
+            "items": {
+                "9nfzrmPzAAStRjAe": {
+                    "name": "Quick Draw",
+                    "description": "<p>Le fureteur drow tire son arme avec une action Interagir puis Frappe avec.</p>"
+                },
+                "EajnVKV3NKyICaQ8": {
+                    "name": "Hand Crossbow"
+                },
+                "NS7yHszQCqQS0Bfj": {
+                    "description": "<p>Le drow fureteur inflige 1d6 dégâts supplémentaires aux créatures qui sont @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{prises au dépourvu}.</p>"
+                },
+                "jvZUoPLS8OA1SQTw": {
+                    "name": "Shortsword"
+                },
+                "ufap97U4FyUOrJZF": {
+                    "description": "<p>Quand il se trouve exposé à une lumière vive, le drow est @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Aveuglé} jusqu'à la fin de son prochain tour. Toutes les cases deviennent un terrain difficile pour lui et il subit une pénalité de statut de –4 à sa Perception. S'il essaie d'attaquer une créature, l'attaque échoue sauf s'il réussit un @Check[flat|dc:11]. La lumière ne l'aveugle plus pendant 1 h.</p>"
+                }
+            }
+        },
+        "Giant Ant (BB)": {
+            "name": "Giant Ant (BB)",
+            "description": "<p>Les fourmis géantes formes de vastes colonies souterraines, creusant des terriers profonds ou infestant des cavernes existantes. Les fourmis géantes semblent identiques à leur espèce plus petite, mais leur taille en fait une menace mortelle pour les fermes comme pour les voyageurs.</p>",
+            "perception": "Vision dans le noir",
+            "items": {
+                "IZMJ1l1EsTmncB5c": {
+                    "name": "Haul Away",
+                    "description": "<p>Si la fourmi géante a agrippé ou Entravé une créature avec ses mandibules, elle peut passer cette action pour Marcher rapidement jusqu'à sa Vitesse, transportant la créature avec elle. À la fin de ce déplacement, placez la créature dans n'importe quel espace adjacent à la fourmi géante.</p>"
+                },
+                "ka7JvClSTu3JXPDU": {
+                    "name": "Stinger"
+                },
+                "lkSRJHjjBXYoXr0e": {
+                    "name": "Mandible"
+                },
+                "vf62uHn3Bh74svnk": {
+                    "name": "Giant Ant Venom",
+                    "description": "<p>Une cible qui subit des dégâts perforants du Frappe du dard de la fourmi géante doit réussir un jet de @Check[fortitude|dc:18|traits:damaging-effect] ou subir @Damage[1d10[poison]]{1d10 dégâts de poison}.</p>"
+                }
+            }
+        },
+        "Skeleton Guard (BB)": {
+            "name": "Skeleton Guard (BB)",
+            "description": "<p>Les squelettes, assemblage d'os animés par une ignoble nécromancie, sont souvent rencontrés dans les vieux donjons hantés ou les cimetières oubliés. De nombreux génies du mal préfèrent utiliser des morts-vivants car ce sont des sbires qui ne baissent jamais leur garde et n'ont aucun des besoins psychologiques et alimentaires des êtres vivants.</p>\n<p>Les simples gardes squelettes sont les sbires squelettiques les plus communs. Ils sont dénués d'intelligence, ce qui signifie qu'ils ne réfléchissent pas véritablement, mais peuvent exécuter des tâches de base comme monter la garde et attaquer les intrus. Un groupe de squelettes défendant un même lieu est généralement constitué de guerriers pour le combat au corps-à-corps et d'archers tirant des flèches à distance.</p>",
+            "items": {
+                "7ODNVUAaNraSivsT": {
+                    "name": "Shortbow"
+                },
+                "EzSKWtWM2tSTtZwA": {
+                    "name": "Claw"
+                },
+                "jL9PDQ27Dz6UAMOH": {
+                    "name": "Scimitar"
+                }
+            }
+        },
+        "Kobold Scout (BB)": {
+            "name": "Kobold Scout (BB)",
+            "description": "<p>La plupart des kobolds rencontrés à l'extérieur de leurs terriers ou tanières bien défendus sont des éclaireurs entraînés à la traque et à la chasse. Ils ont pour mission de ramener de la nourriture et des objets de valeur. Par nécessité, les kobolds ont appris à travailler ensemble, et ils dressent souvent des embuscades ou organisent des attaques éclair qui leur permettent d'infliger le plus de dégâts possibles sans prendre trop de risques.</p>",
+            "items": {
+                "38uEEYKxUvG8TDFw": {
+                    "name": "Crossbow"
+                },
+                "BRVL1ixeyP9uFjWm": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "MO9W8NpBALoHHtTS": {
+                    "description": "<p>Le kobold inflige 1d6 dégâts supplémentaires aux créatures qui sont @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "vTjkwNzpCJmsbg6R": {
+                    "name": "Shortsword"
+                }
+            }
+        },
+        "Zombie Shambler (BB)": {
+            "name": "Zombie Shambler (BB)",
+            "description": "<p>Un zombie n'a qu'une seule envie : dévorer les vivants. Le seul moyen d'arrêter ces porteurs de mort acéphales, qui avancent inéluctablement d'un pas traînant, est de les détruire. Un titubeur zombie est une créature immonde et lente qui se révèle dangereuse en groupe. Ces morts-vivants sont généralement utilisés comme chair à canon afin d'affaiblir les défenses des ennemis avant que des morts-vivants plus puissants n'arrivent pour infliger le coup de grâce. Les zombies peuvent être dirigés par des morts-vivants intelligents et de puissants nécromanciens.</p>",
+            "items": {
+                "Qknp3UNQSMjNTUmL": {
+                    "description": "<p>Lorsque le zombie touche avec sa Frappe de poing, il peut utiliser cette action immédiatement après pour tenter de @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} la cible jusqu'à la fin de son prochain tour. Cette action Saisir n'applique pas et ne compte pas dans le calcul de la pénalité d'attaque du zombie.</p>"
+                },
+                "eulyI60JHNUYs39w": {
+                    "name": "Slow",
+                    "description": "<p>Un zombie n'a que deux actions par tour et ne peut pas réagir.</p>"
+                },
+                "v90WRjELLiKF57vr": {
+                    "name": "Jaws",
+                    "description": "<p><strong>Conditions</strong> Le zombie a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravé} une créature.</p>"
+                },
+                "wOkHQN8ELSDh7T1f": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Animated Armor (BB)": {
+            "name": "Animated Armor (BB)",
+            "description": "<p>Les objets peuvent être dotés d'une apparence de vie grâce à des rituels ou d'autres magies étranges, se transformant ainsi en objets animés. Ces objets se déplacent, travaillent et combattent en fonction des ordres donnés par leurs créateurs, qui les assignent généralement à des tâches de garde ou à des travaux subalternes.</p>\n<p>Les armures animées peuvent servir de gardiens, mais parfois, des académies martiales de haut niveau les utilisent comme partenaires d'entraînement. On les trouve le plus souvent dans les laboratoires de sorciers et les anciens donjons.</p>",
+            "cadetails": "(13 si Brisé) ; Armure de créature artificielle",
+            "items": {
+                "GhnXpFtWM1vyvu8V": {
+                    "name": "Construct Armor",
+                    "description": "<p>L'armure animée réduit tous les dégâts qu'elle subit de 9. Cependant, après un coup critique infligeant des dégâts ou lorsque ses points de vie tombent en dessous de 10, son armure de créature artificielle se brise. Sa CA chute à 13 et elle ne réduit plus les dégâts de 9.</p>"
+                },
+                "MCgl5uKpwtTh48E4": {
+                    "name": "Longsword"
+                },
+                "jAZY8WC1BtImPyEF": {
+                    "name": "Armored Fist"
+                }
+            }
+        },
+        "Caligni Hunter (BB)": {
+            "name": "Caligni Hunter (BB)",
+            "description": "<p>Les calignis rôdent dans les cités souterraines, aimant particulièrement saisir l'opportunité pour se glisser vers la surface afin d'y voler des ressources, épier ses habitants, ou tout simplement commettre des méfaits.</p>",
+            "items": {
+                "2ZXR9nvXchUSCH8z": {
+                    "name": "See the Unseen (At Will)"
+                },
+                "IWIaEJancn3UsMLH": {
+                    "name": "Occult Innate Spells"
+                },
+                "Q9wVJovove8AZYR8": {
+                    "name": "Sneak Attack",
+                    "description": "<p>Un chasseur caligni inflige 1d6 dégâts de précision supplémentaires à toutes les créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "WmxT51qlRDtAKJVg": {
+                    "name": "Darkening Poison",
+                    "description": "<p>La prochaine fois que le chasseur inflige des dégâts avec une Frappe d'épée courte, la cible doit réussir un jet de @Check[fortitude|dc:16|traits:damaging-effect] ou subir @Damage[1d8[poison]]{1d8 dégâts de poison} et considérer que toutes les créatures sont @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} pendant 1 round.</p>"
+                },
+                "ehU3hdJiZTLT1KBc": {
+                    "name": "Light Blindness",
+                    "description": "<p>Lorsqu'il est exposé pour la première fois à la lumière vive, le caligni est aveuglé jusqu'à la fin de son prochain tour. Toutes les cases sont terrain difficile pour lui, et il subit une pénalité de status de -4 à ses tests de Perception. S'il tente une attaque sur une créature, l'attaque rate sauf s'il réussit un @Check[flat|dc:11]. La lumière ne l'aveugle plus pendant 1 heure.</p>"
+                },
+                "ffRFGEKgA5iV2ufz": {
+                    "name": "Final Fate",
+                    "description": "<p>Lorsqu'un chasseur caligni meurt, son âme quitte son corps en une explosion d'énergie spirituelle. Toutes les créatures dans un @Template[burst|distance:20]{rayon de 6 mètres} subissent @Damage[5d6[spirit]]{5d6 dégâts spirituels} (@Check[reflex|dc:19|basic]).</p>"
+                },
+                "uUiu9Qj74wCa27mM": {
+                    "name": "Shortsword"
+                }
+            }
+        },
+        "Ghost Commoner (BB)": {
+            "name": "Ghost Commoner (BB)",
+            "hpdetails": "Reconstruction",
+            "items": {
+                "CfzB5r8CSHETuXfA": {
+                    "name": "Site Bound",
+                    "description": "<p>Un fantôme ne peut pas s'éloigner de plus de 36 mètres de l'endroit où il a été tué ou du site qu'il hante. Certains sont liés à quelque chose qui était spécial pour eux, comme un objet ou une créature, plutôt qu'un site.</p>"
+                },
+                "HvOzFzF3j47WTzIv": {
+                    "name": "Rejuvenation",
+                    "description": "<p>C'est en réparant l'injustice qui a provoqué la mort du fantôme que celui-ci pourra partir pour l'après-vie. Autrement, même s'il est détruit, le fantôme peut reprendre forme, avec tous ses Points de vie, au bout de [[/r 2d4 #jours]]{2d4 jours} dans le lieu auquel il est lié.</p>"
+                },
+                "nWtiD4ASp2FFsobD": {
+                    "name": "Ghostly Hand"
+                },
+                "soQbbQbVd6xMuJl6": {
+                    "name": "Incorporeal",
+                    "description": "<p>Un fantôme n'a pas de corps et peut traverser les objets physiques mais il ne peut pas finir son tour à l'intérieur de l'un d'eux. La plupart des tests qui utilisent la Force et requièrent un corps, comme @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} et @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser}, ne fonctionnent pas sur un fantôme, et ce dernier ne peut pas les faire non plus.</p>"
+                },
+                "uYQrEbjjw3XIQ1cO": {
+                    "name": "Frightful Moan",
+                    "description": "<p>Chaque créature vivante à moins de @Template[emanation|distance:30]{9 m} pouvant entendre le fantôme doit faire un jet de @Check[will|dc:21|options:area-effect,inflicts:frightened]. En cas d'échec, la créature devient @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2} (ou @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 3} en cas d'échec critique).</p>\n<p>En cas de réussite, elle est temporairement immunisée contre la lamentation d'épouvante de ce fantôme pendant 1 minute.</p>"
+                }
+            }
+        },
+        "Horned Dragon (Juvenile, BB)": {
+            "name": "Horned Dragon (Juvenile, BB)",
+            "items": {
+                "4736AvChlsLG9HVa": {
+                    "name": "Horn"
+                },
+                "94P2S8OyxiovGujz": {
+                    "name": "Twisting Tail",
+                    "description": "<p>Lorsqu'une créature à moins de 3 mètres utilise une action de déplacement ou quitte une case lors d'une action de déplacement, le dragon peut utiliser sa réaction pour faire une Frappe de queue avec une pénalité de -2. S'il touche, la créature cesse son déplacement sur la case sur laquelle elle était lors de la réaction.</p>"
+                },
+                "DW4EvhApIul7gVaU": {
+                    "name": "Tail"
+                },
+                "HAaABYYDbsq8LbrU": {
+                    "name": "Jaws"
+                },
+                "d5UuF56WuHzskPO4": {
+                    "name": "Draconic Frenzy",
+                    "description": "<p>Le dragon porte deux Frappes de griffe et une Frappe de queue dans l'ordre qu'il veut.</p>"
+                },
+                "gEfOwadNLpPfyfQ8": {
+                    "name": "Claw"
+                },
+                "j90G6J5zvaIVNb1q": {
+                    "name": "Poison Breath",
+                    "description": "<p>Le dragon souffle un nuage toxique qui inflige @Damage[5d6[poison]|options:area-damage]{5d6 dégâts de poison} dans un @Template[cone|distance:30]{cône de 9 mètres}. Chaque créature de la zone doit faire un jet de @Check[reflex|dc:21|basic|options:area-effect].</p>\n<p>Le dragon ne peut utiliser cette capacité pendant [[/gmr 1d4 #Recharger Souffle de poison]]{1d4 rounds}.</p>"
+                },
+                "kkKlT3cO51Wj2tz5": {
+                    "name": "Draconic Momentum",
+                    "description": "<p>Le dragon recharge son Souffle à chaque fois qu'il inflige un coup critique avec une Frappe.</p>"
+                }
+            }
+        },
+        "Gargoyle (BB)": {
+            "name": "Gargoyle (BB)",
+            "description": "<p>Les gargouilles sont des prédateurs monstrueux constitués entièrement de pierre. Elles ressemblent à des statues décoratives et utilisent ce camouflage pour se cacher en pleine lumière dans les villes et attaquer les passants la nuit. Leur forme la plus commune est celle d'un humanoïde cornu avec des ailes de chauve-souris. Cependant, chaque gargouille est très différente et certaines ont un aspect plus ou moins humanoïde tandis que d'autres ne ressemblent à aucune créature connue.</p>\n<p>Bien que la plupart chassent en solitaire, elles forment parfois des groupes appelés « alaires » non seulement pour se protéger mais aussi par sport.</p>",
+            "items": {
+                "9bomxaBEHSLvRrkq": {
+                    "name": "Statue",
+                    "description": "<p>Jusqu'à la prochaine fois qu'elle agit, la gargouille semble être une statue. Une créature doit réussir un test de @Check[perception|dc:32] pour se rendre compte que cette statue est en fait une créature.</p>"
+                },
+                "DsvyLX53TeuZHMQ3": {
+                    "name": "Clawed Feet",
+                    "description": "<p>Si la gargouille vole et qu'une créature se déplace sur une case adjacente sous elle, la gargouille peut utiliser sa réaction pour faire une Frappe de griffe contre la créature.</p>"
+                },
+                "cprgu1LyMWRqzI0w": {
+                    "name": "Claw"
+                },
+                "qhS5ZEJcqNFytqWd": {
+                    "name": "Jaws"
+                }
+            }
+        },
+        "Kobold Boss Zolgran (BB)": {
+            "name": "Kobold Boss Zolgran (BB)",
+            "items": {
+                "0j2Oa8lKuFbrPVH4": {
+                    "name": "Wizard Spells"
+                },
+                "FRce1Q7000LFf9Gs": {
+                    "name": "Iron Key"
+                },
+                "QpOsIDOXtvTTXsS8": {
+                    "name": "Staff"
+                },
+                "SKxww784aC4E2gzW": {
+                    "description": "<p>Zolgran inflige [[/r {1d6}]]{1d6 dégâts} supplémentaires aux créatures qui sont @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "Zdg1lW7CYLRDYorG": {
+                    "name": "Claw"
+                },
+                "eU0KcVkea4Q9goDX": {
+                    "name": "Dragon Lore"
+                },
+                "eh06w4tCybKWTx8g": {
+                    "name": "Eggshell Necklace"
+                }
+            }
+        },
+        "Kobold Mage (Red, BB)": {
+            "name": "Kobold Mage (Red, BB)",
+            "description": "<p>Les kobolds sont de petits humanoïdes reptiliens souvent vus au service de créatures plus puissantes. Ils se cachent dans des endroits sombres, généralement des tunnels et des mines. Les magiciens kobolds utilisent la magie pour mener à bien leurs projets, souvent au service d'un dragon ou d'autres créatures puissantes.</p>",
+            "items": {
+                "8LYUZymM9ZN8WDw9": {
+                    "name": "Claw"
+                },
+                "90eQFUneXcsHeKSK": {
+                    "name": "Staff"
+                },
+                "KQueYD9OGjRs0G5n": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "KYeYaMrxJZuncqJp": {
+                    "name": "Dragon Lore"
+                },
+                "tC9lSVhNyxDRwaml": {
+                    "name": "Wizard Spells"
+                }
+            }
+        },
+        "Slamming Door (BB)": {
+            "name": "Slamming Door (BB)",
+            "desc (hazard)": "<p>Des plaques de pression dans le sol sont reliées à un bloc de pierre dissimulé dans le plafond d'un couloir.</p>",
+            "disable": "<p>@Check[thievery|dc:15|traits:hazard|name:Désactiver les plaques] sur les plaques au sol avant que le bloc ne tombe.</p>",
+            "items": {
+                "WpW23oqzbYlPDDuP": {
+                    "name": "Slam Shut",
+                    "description": "<p>Lorsqu'une pression est exercée sur une dalle du sol, la porte tombe et condamne le couloir. Le bloc de pierre tombe en infligeant @Damage[3d8[bludgeoning]]{3d8 dégâts contondants} aux créatures adjacentes ou situées en-dessous. Les créatures concernées sont repoussées hors de l'espace occupé par le bloc dans une direction aléatoire. Une créature qui réussit un jet de @Check[reflex|dc:17|traits:damaging-effect,hazard] ne subit aucun dégât et évite le bloc en faisant une roulade dans une direction aléatoire. Sur un succès critique, elle peut choisir dans quelle direction elle effectue sa roulade.</p>\n<p>Lever le bloc nécessite la réussite d'un test d'@Check[athletics|dc:25|traits:hazard]. Frapper les panneaux au sol déclenche le piège. Le bloc utilise la même CA et les mêmes jets de sauvegarde que le piège, mais il possède une Solidité de 12 et 48 PV (SR 24).></p>"
+                }
+            }
+        },
+        "Wolf (BB)": {
+            "name": "Wolf (BB)",
+            "description": "<p>Les loups vivent et chassent en meute. Contrairement à la croyance populaire, ces meutes ne sont pas sous l'autorité du plus fort et se composent généralement d'un couple, de ses louveteaux et des jeunes nés les saisons précédentes. Les jeunes quittent souvent leurs parents une fois adultes et cherchent un partenaire pour fonder leurs propres meutes ailleurs. Les loups ne considèrent normalement pas les humanoïdes comme des proies, mais ils peuvent s'attaquer à eux dans des circonstances exceptionnelles, en particulier en hiver et dans les autres situations où leurs proies habituelles (comme les daims et les élans) se font rares.</p>",
+            "items": {
+                "GhRRqxvK6T21zheo": {
+                    "name": "Pack Attack",
+                    "description": "<p>La Frappe de mâchoire du loup inflige 1d4 dégâts supplémentaires aux créatures qui sont dans l'allonge de deux des alliés du loup.</p>"
+                },
+                "NX0owCPUZbsVJ4az": {
+                    "name": "Jaws"
+                },
+                "dB4Pr3yiNKH32fE8": {
+                    "description": "<p>Lorsque le loup obtient un succès à la Frappe de mâchoire, il peut utiliser cette action pour tenter de faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} à la cible. Le Croc-en-jambe n'entre pas en compte dans le calcul des pénalités d'attaques multiples du loup.</p>"
+                }
+            }
+        },
+        "Zephyr Hawk (BB)": {
+            "name": "Zephyr Hawk (BB)",
+            "description": "<p>Les élémentaires d'air, tels que le faucon zéphyr, peuvent avoir différentes formes et tailles. Les faucons zéphyrs proviennent du plan de l'air et sont souvent convoqués pour servir de messagers volants. Les élémentaires de l'air peuvent également venir spontanément lors de puissantes tempêtes et tornades où des vortex élémentaires se forment.</p>\n<p>Les faucons zéphyr semblent être faits de nuages de diverses formes qui leur confèrent des ailes et des becs semblables à ceux des oiseaux. Lorsque quelqu'un aperçoit des nuages ressemblant à des animaux, il observe souvent sans le savoir des élémentaires d'air. Les faucons zéphyrs suivent parfois les courants aériens en nuées appelées plumaires.</p>",
+            "items": {
+                "ANrh02werSO57j4X": {
+                    "name": "Wing"
+                },
+                "x8uwJOVGskq8pjOH": {
+                    "name": "Circling Attack",
+                    "description": "<p>Le faucon zéphyr Vole sur la moitié de sa Vitesse, effectue deux Frappes avec ses ailes, puis utilise l'autre moitié de sa Vitesse pour revenir à sa position d'origine. La deuxième partie de son déplacement ne déclenche pas de réactions telles qu'@UUID[Compendium.pf2e.feats-srd.Item.NMWXHGWUcZGoLDKb]{Frappe réactive}. La deuxième attaque utilise le même pénalité d'attaques multiples que la première mais les attaques suivantes subissent une pénalité d'attaques multiples de -8.</p>"
+                }
+            }
+        },
+        "Brine Shark (BB)": {
+            "name": "Brine Shark (BB)",
+            "description": "<p>Les élémentaires d'eau rôdent dans les océans sans fin du plan de l'eau. Ils peuvent être amenés dans notre monde par magie de convocation ou lors de désastres naturels tels que des inondations ou des tornades. Bien qu'ils puissent être extrêmement destructeurs, ils ne sont pas toujours malveillants. Tout comme l'eau peut offrir la vie à ceux dans le besoin, les vagues peuvent frapper les littoraux et les pluies inonder des villes. Les élémentaires d'eau sont tout aussi imprévisibles.</p>\n<p>Les requins de saumure sont féroces mais font partie des plus faibles des élémentaires d'eau et ressemblent à des requins constitués entièrement d'eau. Ce requin se rencontre généralement seul ou sous le commandement d'un incantateur l'ayant convoqué dans ce plan. Ils se glissent souvent dans les océans mortels, où ils entrent en compétition avec des prédateurs naturels, voire rejoignent des bancs de requins en chair et en os.</p>",
+            "items": {
+                "2d3ZGRIXERcjqnmJ": {
+                    "description": "<p>Lorsque le requin de saumure touche avec sa Frappe de mâchoires, il peut automatiquement @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} la cible jusqu'à la fin de son prochain tour. Cette action Saisir n'applique pas et ne compte pas dans le calcul de la pénalité d'attaque du requin de saumure.</p>"
+                },
+                "B9C716BDIWeqDrLI": {
+                    "name": "Jaws"
+                }
+            }
+        },
+        "Boar (BB)": {
+            "name": "Boar (BB)",
+            "description": "<p>Irascibles et robustes, les sangliers sont bien plus dangereux que les cochons domestiques. Ces mammifères omnivores sont chassés intensivement car leur viande est considérée comme un mets délicat. Les sangliers sont les plus susceptibles d'attaquer les humanoïdes en légitime défense ou durant leur saison de reproduction en hiver, lorsque les mâles développent un centimètre supplémentaire de tissu pour protéger leurs organes pendant les combats contre leurs rivaux. Dans certaines cultures, les sangliers sont dressés pour devenir beaucoup plus agressifs et utilisés comme bêtes de guerre et gardiens. Lorsque de tels sangliers s'échappent et retournent à l'état sauvage, ils peuvent devenir de véritables terreurs dans la région.</p>",
+            "items": {
+                "Onifi8y9OVLqK3Ea": {
+                    "name": "Ferocity",
+                    "description": "<p>Lorsque le sanglier est réduit à 0 Point de vie, il peut utiliser sa réaction pour rester conscient avec 1 Point de vie, mais il gagne l'état @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessé 1} (ou augmente sa valeur de Blessé de 1 s'il était déjà Blessé). Il ne peut pas utiliser cette capacité s'il est déjà Blessé 3.</p>"
+                },
+                "jmPDVPebOQ3XVOwA": {
+                    "name": "Boar Charge",
+                    "description": "<p>Le sanglier Marche rapidement deux fois puis effectue une Frappe de défenses. S'il s'est déplacé d'au moins 6 mètres, il obtient un bonus de circonstances de +2 à son jet d'attaque.</p>"
+                },
+                "yfZjkf1LqlK3U7HM": {
+                    "name": "Tusk"
+                }
+            }
+        },
+        "Spear Launcher (BB)": {
+            "name": "Spear Launcher (BB)",
+            "desc (hazard)": "<p>Un compartiment dans un mur contient un épieu monté sur ressort relié à une dalle du sol dans une case de 1,50 mètre de côté.</p>",
+            "disable": "<p>@Check[thievery|dc:18|traits:hazard|name:Désactiver le mécanisme] sur la dalle au sol ou le compartiment dans le mur.</p>",
+            "items": {
+                "dKlUXGzoOpojAKGv": {
+                    "name": "Spear",
+                    "description": "<p>Lorsqu'une pression est exercée sur la dalle, le piège propulse l'épieu et effectue une attaque contre la créature ou l'objet sur la dalle. Le piège fait une attaque à distance d'Épieu.</p>"
+                },
+                "p27dLxTbXpewe8ZR": {
+                    "name": "Spear"
+                }
+            }
+        },
+        "Caligni Skulker (BB)": {
+            "name": "Caligni Skulker (BB)",
+            "description": "<p>Les calignis rôdent dans les cités souterraines, aimant particulièrement saisir l'opportunité pour se glisser vers la surface afin d'y voler des ressources, épier ses habitants, ou tout simplement commettre des méfaits.</p>",
+            "items": {
+                "7VcqKq1kJG1lIikf": {
+                    "name": "Light Blindness",
+                    "description": "<p>Lorsqu'il est exposé pour la première fois à la lumière vive, le caligni est aveuglé jusqu'à la fin de son prochain tour. Toutes les cases sont terrain difficile pour lui, et il subit une pénalité de statue de -4 à ses tests de Perception. S'il tente une attaque sur une créature, l'attaque rate sauf s'il réussit un @Check[flat|dc:11]. La lumière ne l'aveugle plus pendant 1 heure.</p>"
+                },
+                "QjnLmzeg0j3A55TJ": {
+                    "name": "Dagger"
+                },
+                "ZbD9TnQEJRZkJH2M": {
+                    "name": "Darkening Poison",
+                    "description": "<p>La prochaine fois que le chasseur inflige des dégâts avec une Frappe d'épée courte, la cible doit réussir un jet de @Check[fortitude|dc:16|traits:damaging-effect] ou subir @Damage[1d8[poison]]{1d8 dégâts de poison} et considérer que toutes les créatures sont @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} pendant 1 round.</p>"
+                },
+                "crSYz5UU8mC8VObz": {
+                    "name": "Sneak Attack",
+                    "description": "<p>Le rôdeur caligni inflige 1d6 dégâts de précision supplémentaires à toutes les créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}</p>"
+                },
+                "tnrpIta4aIaPM8BC": {
+                    "name": "Final Night",
+                    "description": "<p>Lorsqu'un rôdeur caligni meurt, ses restes se dissolvent en une brume d'une noirceur d'encre qui éteint toutes les sources de lumière dans une @Template[emanation|distance:20]{émanation de 6 mètres}. Tous les sorts de lumière s'éteignent pendant 1 round.</p>"
+                },
+                "vEjDAh49iO9W59cV": {
+                    "name": "Dagger"
+                }
+            }
+        },
+        "Wight (BB)": {
+            "name": "Wight (BB)",
+            "description": "<p>Les nécrophages sont des humanoïdes morts-vivants qui rôdent dans les cimetières, les catacombes et autres lieux consacrés aux morts.</p>",
+            "items": {
+                "BINqxIzSWT2GuH4w": {
+                    "name": "Dagger"
+                },
+                "Kpl3lLjfHM0hWhT5": {
+                    "name": "Final Spite",
+                    "description": "<p>Quand Le nécrophage des tertres est réduit à 0 PV il peut utiliser sa réaction pour porter une dernière Frappe avant d'être détruit. Il ne récupère aucun Point de vie de son pouvoir Drain de vie sur cette Frappe.</p>"
+                },
+                "u9tY2pkbZxNzmxoe": {
+                    "name": "Claw"
+                },
+                "v2Ifd6tb1IDRFqFO": {
+                    "name": "Corrupting Spite",
+                    "description": "<p>Quand un nécrophage inflige des dégâts avec sa Frappe de griffe ou de dague à une créature vivante, il récupère @Damage[2[void,healing]|shortLabel]{2 Points de vie} et la cible doit effectuer un jet de @Check[fortitude|dc:17]. En cas d'échec, la créature subit 2 dégâts qui ne peuvent pas être guéris. Le nécrophage ne peut utiliser Méchanceté corruptrice plusieurs fois, mais une seule créature ne peut pas subir plus de 8 dégâts inguérissables.</p>\n<p>Chaque nuit complète de repos guérit 2 des dégâts inguérissables, et une journée complète de repos complet augmente la guérison des dégâts inguérissables à 4.</p>"
+                }
+            }
+        },
+        "Falling Ceiling (BB)": {
+            "name": "Falling Ceiling (BB)",
+            "disable": "<p>Un héros doit réussir un test de @Check[thievery|dc:18|traits:hazard|name:Empêcher les blocs de tomber] sur la case déclencheuse ou sur le plafond pour empêcher les blocs de pierre de tomber.</p>",
+            "items": {
+                "0c1Yjs4t9BKCpjmr": {
+                    "name": "Falling Stones",
+                    "description": "<p>Lorsqu'une créature marche sur la case la plus proche de la porte nord, le piège lâche des blocs de pierre sur tout le passage. Il fait une Frappe à distance contre chaque créature entre les deux portes.</p>"
+                },
+                "qG3VBB7HAWZksxvT": {
+                    "name": "Falling Block"
+                }
+            }
+        },
+        "Goblin Igniter (BB)": {
+            "name": "Goblin Igniter (BB)",
+            "description": "<p>Le gobelins trouvent le feu extrêmement fascinant. Il produit de la lumière. Il permet de cuisiner. Et on peut même s'amuser avec ! Certains gobelins poussent cette admiration du feu à l'extrême et plongent dans une obsession meurtrière.</p>\n<p>Les gobelins qui se concentrent sur la magie pour créer du feu à partir de rien sont appelés des pyromanes gobelins. Ces fanatiques des flammes peuvent être une véritable bénédiction pour une bande de pillards gobelins appréciant de mettre le feu à leurs ennemis et de semer le chaos. Cependant, leur présence est une arme à double tranchant. Dans le feu de l'action, les pyromanes gobelins perdent parfois de vue leurs objectifs et mettent le feu à tout ce qu'ils trouvent, y compris leurs propres alliés !</p>",
+            "items": {
+                "jzku4qcmz6H3dk9C": {
+                    "name": "Torch"
+                },
+                "otqsXx9gjh7rnOpU": {
+                    "name": "Goblin Scuttle",
+                    "description": "<p>Si un allié du gobelin finit son action de déplacement sur une case adjacente au pyromane gobelin, ce dernier peut utiliser sa réaction pour @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Faire un pas}.</p>"
+                },
+                "pY7DRATVeNfGLzvD": {
+                    "name": "Fire Lore"
+                },
+                "xa524Pmx1LWbJGLL": {
+                    "name": "Wizard Spells"
+                }
+            }
+        },
+        "Shadow (BB)": {
+            "name": "Shadow (BB)",
+            "description": "<p>Les ombres mortes-vivantes se nourrissent de ceux qui quittent la lumière.</p>",
+            "items": {
+                "0QWVJ7Of8cQNKp0N": {
+                    "name": "Slink in Shadows",
+                    "description": "<p>L'ombre peut @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Se cacher} ou arrêter d'@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtive} dans l'ombre d'une créature ou d'un objet.</p>"
+                },
+                "0Qt9ULbGzJV8ZG3W": {
+                    "name": "Shadow Spawn",
+                    "description": "<p>Quand l'ombre d'une créature lui est arrachée grâce au pouvoir Vol d'ombre, celle-ci devient un @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.clzHAfegb9Rn6DOe]{Rejeton d'ombre} qui sert l'ombre qui l'a créé. Ce rejeton d'ombre ne possède pas la capacité de Vol d'ombre. Si la créature dont le rejeton d'ombre est issu meurt, ce dernier devient une véritable ombre en pleine possession de ses capacités et autonome. Par contre, si la créature se remet de son @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblissement}, elle récupère son ombre et le rejeton d'ombre n'est plus.</p>"
+                },
+                "ACHlnYzXVxizzqPw": {
+                    "name": "Light Vulnerability",
+                    "description": "<p>L'attaque contre l'ombre est traitée comme magique si l'ombre ou l'arme utilisé sont dans la lumière.</p>"
+                },
+                "Kjifw1jgDvfmrEGU": {
+                    "name": "Steal Shadow",
+                    "description": "<p>Si l'ombre a touché une créature vivante avec une Frappe lors de son action précédente, elle peut utiliser cette action pour tirer sur l'ombre de la cible et imposer une pénalité de statut de -1 à ses tests d'Athlétisme ainsi que ses jets d'attaque et de dégâts qui utilisent la Force. La pénalité augmente à chaque fois qu'une ombre utilise cette capacité mais ne peut dépasser -4. La pénalité diminue de 1 par heure.</p>"
+                },
+                "tS9Kv6K4kwYFjHCT": {
+                    "name": "Incorporeal",
+                    "description": "<p>Une ombre n'a pas de corps et peut traverser les objets physiques mais elle ne peut pas finir son tour à l'intérieur de l'un d'eux. La plupart des tests qui utilisent la Force et requièrent un corps, comme @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} et @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser}, ne fonctionnent pas sur une ombre, et cette dernière ne peut pas les faire non plus.</p>"
+                },
+                "x47iDfIE9albveGl": {
+                    "name": "Shadow Hand"
+                }
+            }
+        },
+        "Basilisk (BB)": {
+            "name": "Basilisk (BB)",
+            "description": "<p>Un basilic est un reptile à huit pattes qui peut transformer des créatures en pierre d'un simple regard.</p>",
+            "items": {
+                "L4dKqPtdmyspmZtd": {
+                    "name": "Jaws"
+                },
+                "Nl15bkRTLq869IPi": {
+                    "name": "Petrifying Glance",
+                    "description": "<p>Lorsqu'une créature, que le basilic peut voir à moins de 9 mètres, débute son tour, le basilic peut utiliser sa réaction pour la fixer du regard.</p>\n<p>La créature ciblée doit faire un jet de @Check[fortitude|dc:20]. Si elle obtient un échec, elle est @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{ralentie 1} pendant 1 minute tandis que son corps se raidit lentement.</p>"
+                },
+                "tOCS9mkYR5K1LuOZ": {
+                    "name": "Petrifying Gaze",
+                    "description": "<p>Le basilic fixe une créature qu'il peut voir à moins de 9 mètres. Si la créature peut voir le basilic, elle doit faire un jet de @Check[fortitude|dc:22|options:inflicts:slowed,inflicts:petrified].</p>\n<p>Si elle échoue et n'a pas encore reçu l'état ralenti par Coup d'œil pétrifiant ou ce pouvoir, elle est @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Ralentie 1}. Si elle échoue en étant déjà ralentie à cause de ce pouvoir ou de Coup d'œil pétrifiant, elle est transformée en @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Pierre} de façon permanente.</p>\n<p>Si une créature ainsi pétrifiée est recouverte de sang de basilic frais, elle redevient de chair et de sang. Un seul basilic a assez de sang pour enduire jusqu'à 2 créatures de cette façon.</p>"
+                }
+            }
+        },
+        "Warg (BB)": {
+            "name": "Warg (BB)",
+            "description": "<p>Les wargs, sont souvent confondus avec les loups, mais il ont une intelligence sournoise et une capacité de parler. Ils chassent souvent en meute en compagnie des orcs et des gobelins. La plupart des wargs apprécient cet arrangement, mais si la nourriture vient à manquer, ils sont ravis d'ajouter de la viande de gobelinoïde à leur menu.</p>",
+            "perception": "Vision dans le noir",
+            "items": {
+                "0gOGUlxb9h78zefM": {
+                    "description": "<p>Si le warg réussit une Frappe de mâchoire, il peut utiliser cette action pour tenter de @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} sa proie immédiatement. Cette action ne compte pas dans le calcul des pénalités multiples d'attaques du warg.</p>"
+                },
+                "Db24UdpGiWsgWITM": {
+                    "name": "Shred",
+                    "description": "<p>Si le warg a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature, il peut dépenser une action pour la déchiqueter avec ses dents. La créature subit @Damage[1d6[slashing]]{1d6 dégâts tranchants} et peut effectuer un jet de @Check[fortitude|dc:18|basic]</p>"
+                },
+                "KapyaNm62BvUi1J6": {
+                    "name": "Pack Attack",
+                    "description": "<p>La Frappe de mâchoire du warg inflige 1d4 dégâts supplémentaires à toute créature dans l'allonge d'au moins deux de ses alliés.</p>"
+                },
+                "VLWCAVOCAqcO4PEB": {
+                    "name": "Avenging Bite",
+                    "description": "<p><strong>Déclencheur</strong> Une créature dans l'allonge des mâchoires du warg attaque un allié de celui-ci.</p>\n<hr />\n<p><strong>Effet</strong> Le warg effectue une Frappe de mâchoires contre la créature déclencheuse.</p>"
+                },
+                "YADLbQreiFz2uJ0E": {
+                    "name": "Jaws"
+                }
+            }
+        },
+        "Reefclaw (BB)": {
+            "name": "Reefclaw (BB)",
+            "description": "<p>Les pinces des récifs sont des monstres aquatiques qui ressemblent à d'énormes crevettes ou homards. Si les pinces des récifs ne peuvent pas parler, elles sont assez intelligentes pour comprendre la langue des humanoïdes qui vivent à proximité de leur terrain de chasse.</p>",
+            "perception": "Vision dans le noir",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour nager"
+                }
+            },
+            "items": {
+                "P3ldoLqhsH29iK6i": {
+                    "name": "Claw"
+                },
+                "QC6Qfhm9C414P0oL": {
+                    "name": "Constrict",
+                    "description": "<p>Si la pince des récifs a une créature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée}, il peut dépenser une action pour l'écraser entre ses pinces. La créature subit @Damage[1d6[bludgeoning]]{1d6 dégâts contondants} selon son jet de @Check[fortitude|dc:17|basic].</p>"
+                },
+                "RkZmlmhuBgERLtp0": {
+                    "name": "Death Frenzy",
+                    "description": "<p>Quand la pince des récifs est réduit a 0 Point de vie il peut utilise cette réaction pour effectuer une Frappe de pince avant de mourir.</p>"
+                },
+                "kExVKNRglkSawA2u": {
+                    "name": "Reefclaw Venom",
+                    "description": "<p>Une cible qui subit des dégâts tranchants sur une Frappe de la pince des récifs doit réussir un jet de @Check[fortitude|dc:17|traits:damaging-effect] ou subir @Damage[1d6[poison]]{1d6 dégâts de poison}.</p>"
+                },
+                "mge8vQkbMqv0OxCE": {
+                    "name": "Grab",
+                    "description": "<p>Quand la pince des récifs réussit une Frappe de pince, il peut utiliser cette action immédiatement après pour @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} sa cible. Cet Agrippement n'applique ni ne compte dans le calcul des pénalités d'attaques multiples.</p>"
+                }
+            }
+        },
+        "Xulgath Warrior (BB)": {
+            "name": "Xulgath Warrior (BB)",
+            "description": "<p>Les xulgaths (également appelés troglodytes par de nombreux habitants de la surface) sont des humanoïdes reptiliens qui vivent sous terre et attaquent à vue les intrus qui pénètrent sur leur territoire. Ils sont organisés en communautés familiales qui, pour survivre, doivent régulièrement affronter des groupes rivaux et d'autres créatures agressives vivant sous terre. Ils attaquent parfois les communautés de la surface, généralement sur l'ordre de chefs cruels et assoiffés de sang. Un xulgath possède généralement des écailles gris terne, gris foncé ou couleur cendre, avec une longue queue et des excroissances osseuses courant le long de son échine.</p>",
+            "items": {
+                "4NqTHQqAkLmiUovi": {
+                    "name": "Stench",
+                    "description": "<p>Une créature venant à moins de @Template[emanation|distance:30]{9 m} d'un xulgath et pouvant sentir son odeur doit faire un jet de @Check[fortitude|dc:16]. En cas d'échec, elle subit une pénalité de statut de -1 à tous ses tests et DD jusqu'à ce qu'elle utilise une action pour vomir. Une créature qui réussit son jet de sauvegarde n'est pas affectée par la puanteur des xulgaths pendant 1 minute <em>(Utilisez @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1})</em>.</p>"
+                },
+                "C77jgOGQyRA9OepX": {
+                    "name": "Claw"
+                },
+                "MfBsuZaAMldux4Xb": {
+                    "name": "Javelin"
+                },
+                "b2WLYPv43nso3X3U": {
+                    "name": "Jaws"
+                },
+                "puh52kwYDM4gZi1Z": {
+                    "name": "Club"
+                }
+            }
+        },
+        "Xulgath Leader (BB)": {
+            "name": "Xulgath Leader (BB)",
+            "description": "<p>Les chefs xulgaths montrent plus de force et une plus grande attirance pour la violence que les autres membres de la communauté xulgath.</p>",
+            "items": {
+                "JWlYLXxlI4IRYbeF": {
+                    "name": "Greataxe"
+                },
+                "RX6HAClLi39MgLLI": {
+                    "name": "Swipe",
+                    "description": "<p>Le chef xulgath porte deux Frappes avec sa grande hache contre deux adversaires adjacents qui se trouvent à sa portée, et ce avec un bonus de circonstances de +1. La deuxième attaque utilise la même pénalité d'attaques multiples que la première, mais les attaques suivantes subissent une pénalité d'attaques multiples de -10 (ou -8 pour les griffes).</p>"
+                },
+                "VcMwjaxqor5ucwyE": {
+                    "name": "Javelin"
+                },
+                "Vebk6mvEAQ2umwd9": {
+                    "description": "<p>Bien qu'il soit appelé cuirasse, ce type d'armure est constitué de plusieurs éléments de harnois ou d'armure de plates qui protègent le torse, la poitrine, le cou et parfois les hanches et le bas des jambes. Elle accorde une partie de la protection du harnois stratégiquement tout en permettant plus de souplesse et de rapidité.</p>"
+                },
+                "gV8plzH46OeVvlNG": {
+                    "name": "Stench",
+                    "description": "<p>Une créature venant à moins de @Template[emanation|distance:30]{9 mètres} d'un xulgath et pouvant sentir son odeur doit faire un jet de @Check[fortitude|dc:19]. En cas d'échec, elle subit une pénalité de statut de -1 à tous ses tests et DD jusqu'à ce qu'elle utilise une action pour vomir. Une créature qui réussit son jet de sauvegarde n'est pas affectée par la puanteur des xulgaths pendant 1 minute <em>(Utilisez @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1})</em>.</p>"
+                },
+                "p1OayYNJswICCP7g": {
+                    "name": "Jaws"
+                },
+                "wEVWlNgGdVwq51Y9": {
+                    "name": "Claw"
+                },
+                "yW3k0nAo6sWO1GvX": {
+                    "description": "<p>Cette grande hache d'armes est trop lourde pour être maniée à une seule main. Beaucoup de grandes haches comprennent deux lames et sont souvent « barbues », avec un crochet à leur base pour augmenter la force de leur pouvoir tranchant.</p>"
+                }
+            }
+        },
+        "Giant Viper (BB)": {
+            "name": "Giant Viper (BB)",
+            "description": "<p>Il existe toutes sortes de serpents, depuis les grands constricteurs vivant dans la jungle et qui viennent s'enrouler autour de leurs proies, jusqu'aux vipères dont la morsure délivre un venin mortel. Cela étant, tous consomment leur proie d'une seule bouchée en se décrochant la mâchoire et en utilisant leurs muscles puissants pour faire glisser leur nourriture dans leur gorge et jusque dans leur estomac.</p>\n<p>Les crochets de la vipère géante sont presque aussi gros que des dagues et terrifient ses proies. Son venin peut créer de graves caillots sanguins et infliger d'énormes dégâts.</p>",
+            "items": {
+                "1fzwu2J1jldVzBPc": {
+                    "name": "Coil",
+                    "description": "<p>La vipère géante utilise une action pour s'enrouler. Lorsqu'elle est enroulée, elle peut cibler une créature jusqu'à 3 mètres de distance avec sa Frappe de crochets. Après avoir Frappé avec ses crochets, la vipère géante est déroulée.</p>"
+                },
+                "3g9yO52wil4VC4Dz": {
+                    "name": "Fangs"
+                },
+                "MEjtnkYdPhtWGyzF": {
+                    "name": "Coiled Opportunity",
+                    "description": "<p>Si la vipère géante est enroulée et qu'une créature vient sur ou traverse une case qui lui est adjacente, la vipère peut utiliser sa réaction pour faire une Frappe de crochets contre cette créature.</p>"
+                },
+                "lqMgsu5wZAOsEwK2": {
+                    "name": "Giant Viper Venom",
+                    "description": "<p>Une cible ayant subit des dégâts de la Frappe de crochets de la vipère doit réussir un jet de @Check[fortitude|dc:17] ou subir @Damage[1d8[poison]]{1d8 dégâts de poison}.</p>"
+                }
+            }
+        },
+        "Caligni Dancer (BB)": {
+            "name": "Caligni Dancer (BB)",
+            "description": "<p>Les calignis rôdent dans les cités souterraines, aimant particulièrement saisir l'opportunité pour se glisser vers la surface afin d'y voler des ressources, épier ses habitants, ou tout simplement commettre des méfaits.</p>",
+            "perception": "Vision dans le noir",
+            "items": {
+                "2pO6VcGfPiv4rlTn": {
+                    "name": "Final Dance",
+                    "description": "<p>Lorsque le danseur meurt, son corps se dissout en une masse tourbillonnante d'ombres et de lumières. Toutes les créatures dans une @Template[emanation|distance:10]{émanation de 3 mètres} doivent effectuer un jet de @Check[will|dc:17]. En cas d'échec, elles sont @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouies} pendant [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+                },
+                "AwAca1cY9Y1Fj5kZ": {
+                    "name": "Light Blindness",
+                    "description": "<p>Lorsqu'il est exposé pour la première fois à la lumière vive, le caligni est aveuglé jusqu'à la fin de son prochain tour. Toutes les cases sont terrain difficile pour lui, et il subit une pénalité de status de -4 à ses tests de Perception. S'il tente une attaque sur une créature, l'attaque rate sauf s'il réussit un @Check[flat|dc:11]. La lumière ne l'aveugle plus pendant 1 heure.</p>"
+                },
+                "K5O9T8NTHScc6cH0": {
+                    "name": "Dagger"
+                },
+                "UEVsHBxxT1scFldv": {
+                    "description": "<p>Le danseur caligni inflige 1d6 dégâts de précision supplémentaires à toutes les créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "b7pvCa0efEab1eaa": {
+                    "name": "Mace"
+                }
+            }
+        },
+        "Kobold Mage (Blue, BB)": {
+            "name": "Kobold Mage (Blue, BB)",
+            "description": "<p>Les kobolds sont de petits humanoïdes reptiliens souvent vus au service de créatures plus puissantes. Ils se cachent dans des endroits sombres, généralement des tunnels et des mines. Les magiciens kobolds utilisent la magie pour mener à bien leurs projets, souvent au service d'un dragon ou d'autres créatures puissantes.</p>",
+            "items": {
+                "8LYUZymM9ZN8WDw9": {
+                    "name": "Claw"
+                },
+                "90eQFUneXcsHeKSK": {
+                    "name": "Staff"
+                },
+                "Cw6X0IHLwQFUP0s6": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "KYeYaMrxJZuncqJp": {
+                    "name": "Dragon Lore"
+                },
+                "tC9lSVhNyxDRwaml": {
+                    "name": "Wizard Spells"
+                }
+            }
+        },
+        "Pugwampi (BB)": {
+            "name": "Pugwampi (BB)",
+            "description": "<p>Les gremlins sont des cruels farceurs féeriques et des saboteurs qui adorent semer la pagaille de façon inventive. Les pugwampis aux visages de chiens sont des lâches et prennent un malin plaisir à admirer les accidents et erreurs causés par la malchance surnaturelle qu'ils projettent.</p>",
+            "perception": "(-2 pour entendre des choses)",
+            "items": {
+                "AGjtcz0cAWzBXlEx": {
+                    "name": "Unluck Aura",
+                    "description": "<p>Les créatures autres que les animaux, les gremlins et les kholos à moins de @Template[emanation|distance:20]{6 mètres} deviennent extrêmement malchanceuses. Elles doivent faire deux jets de @Check[will|dc:16] et garder le résultat le moins bon.</p>\n<p>Si le jet de sauvegarde est réussi, la créature ne peut être affectée par une aura de malchance de pugwampi pendant 24 heures. En cas d'échec, la créature lance deux fois tous ses tests et prend le moins bon résultat tant qu'elle reste à moins de 6 mètres du pugwampi.</p>\n<p>Plusieurs pugwampis ne créent pas d'effet augmenté.</p>"
+                },
+                "EJQ6j0rq9FWVsYiO": {
+                    "name": "-2 Penalty on Perception to Hear things"
+                },
+                "IgVFPfZjnGqYSVAI": {
+                    "name": "Animal Talker",
+                    "description": "<p>Les pugwampis peuvent parler aux animaux et les comprendre.</p>"
+                },
+                "a4I77q6CzdLCZCG6": {
+                    "name": "Shortbow"
+                },
+                "kFgfAbXaJbI8otfZ": {
+                    "name": "Shortsword"
+                }
+            }
+        },
+        "Hell Hound (BB)": {
+            "name": "Hell Hound (BB)",
+            "description": "<p>Caractériels et prompts à l'agressivité, les molosses infernaux sont des canidés maléfiques originaires du plan des Enfers. Ces prédateurs redoutables sont capables de projeter des flammes surnaturelles depuis leur gueule. L'apparence d'un molosse infernal ne laisse aucun doute sur ses origines maléfiques : leur peau évoque la poix brûlante, leurs crocs sont aussi aiguisés que les fourches des fiélons, et ils dégagent en permanence une aura de feu infernal. Bien qu'ils soient incapables de parler, ils comprennent parfaitement la langue infernale des Enfers.</p>",
+            "languages": "(Ne peut pas parler)",
+            "SurvivalVariants": {
+                "0": {
+                    "label": "pour Pister"
+                }
+            },
+            "items": {
+                "GsQeeSV97T6FPvoY": {
+                    "name": "Hellfire Breath",
+                    "description": "<p>Le molosse infernal exhale des flammes qui infligent @Damage[4d6[fire]|options:area-damage]{4d6 dégâts de feu} à toutes les créatures dans un @Template[cone|distance:15]{cône de 4,50 mètres}. Chaque créature affectée doit effectuer un jet de @Check[reflex|dc:19|basic|options:area-effect].</p>\n<p>Le molosse infernal ne peut utiliser son pouvoir pendant [[/gmr 1d4 #Recharger Souffle de feu infernal]]{1d4 rounds}. Cependant, si le molosse subit des dégâts de feu ou est ciblé par un effet de feu, son Souffle est immédiatement rechargé.</p>"
+                },
+                "IvEp0FjtG1bxA4Xw": {
+                    "name": "Jaws"
+                },
+                "gHFLr2q5cyBdthRD": {
+                    "name": "Pack Attack",
+                    "description": "<p>Les Frappes d'un molosse infernal infligent 1d4 dégâts supplémentaires aux créatures dans l'allonge d'au moins deux de ses alliés.</p>"
+                }
+            }
+        },
+        "Kobold Warrior (BB)": {
+            "name": "Kobold Warrior (BB)",
+            "description": "<p>Un kobold moyen s'entraîne généralement au maniement d'armes simples. Les kobolds sont capables de porter des frappes sournoises contre des adversaires qui ne se méfient pas, mais ils sont prompts à décamper afin de se mettre à l'abri s'ils ne sont pas au moins à deux contre un.</p>\n<p>Les kobolds croient au pragmatisme et préfèrent se rendre que risquer la mort. Ils sont même capables d'abandonner leur peuple pour servir le vainqueur si cela peut leur éviter cette triste fin.</p>",
+            "CraftingVariants": {
+                "0": {
+                    "label": "pièges"
+                }
+            },
+            "items": {
+                "8tPur0BcpKXkeGRe": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "D0BJOT03V2FE7mKT": {
+                    "description": "<p>Le guerrier kobold inflige 1d4 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "DyABhSgZNJ3ICo85": {
+                    "name": "Spear"
+                },
+                "yDIuApGqKF4695Oq": {
+                    "name": "Spear"
+                }
+            }
+        },
+        "Giant Centipede (BB)": {
+            "name": "Giant Centipede (BB)",
+            "description": "<p>Les mille-pattes sont des arthropodes relativement communs qui vivent, chassent et fouillent dans le fumier et les détritus. Se faufilant à une vitesse surprenante grâce à ses nombreuses pattes attachées à son long corps segmenté, le mille-pattes attaque avec ses mandibules empoisonnées.</p>\n<p>La plupart des mille-pattes géants (connus sous le nom de millepattes des égouts dans les villes) vivent en petits groupes mais chassent seuls. Les tentatives de dressage des mille-pattes pour en faire des gardiens ou des animaux de compagnie ne donnent généralement pas de bons résultats, mais certaines tribus de gobelins et de kobolds ont mis au point des méthodes efficaces pour en faire des gardiens. Certaines sociétés font griller et mangent les mille-pattes, un mets prisé souvent accommodé avec un poivre très fort ; cependant, il faut faire attention lors de la préparation à ne pas contaminer la chair avec le venin de la créature.</p>",
+            "items": {
+                "1U37Lsr3NMgzLqLM": {
+                    "name": "Mandibles"
+                },
+                "PIjZTZsbQlriq5X3": {
+                    "name": "Giant Centipede Venom",
+                    "description": "<p>Une cible subissant des dégâts perforants de la Frappe de mandibules du mille-pattes doit réussir un jet de @Check[fortitude|dc:14] ou subir @Damage[1d6[poison]]{1d6 dégâts de poison}.</p>"
+                }
+            }
+        },
+        "Harpy (BB)": {
+            "name": "Harpy (BB)",
+            "description": "<p>Les harpies sont des amalgames répugnants entre des humains et des oiseaux, utilisant leur maîtrise du vent pour attirer leur proie pour leur prochain repas. Les harpies mangent la plupart des créatures mais elles préfèrent nettement les humains et les elfes étant leurs mets favoris. Ces créatures vivent en groupes familiaux ou au sein de clans plus importants mais aiment chasser en solitaire, se réservant le repas capturé.</p>",
+            "PerformanceVariants": {
+                "0": {
+                    "label": "en chantant"
+                }
+            },
+            "items": {
+                "4ylRBejfjiE0ygZX": {
+                    "name": "Jaws"
+                },
+                "BmhB6hl9Ivt5pnw6": {
+                    "name": "Talon"
+                },
+                "IqOAXLLKjSYmNd2w": {
+                    "name": "Hungry Winds",
+                    "description": "<p>Une harpie utilise le vent pour tirer sa proie à elle. Une cible dans les 6 mètres doit effectuer un jet de @Check[fortitude|dc:21]. Si elle obtient un échec elle est tirée sur une case adjacente à la harpie qui effectue une Frappe de mâchoires contre sa cible. Si la cible était tirée à partir du sol et n'a pas de capacité de vol, elle tombe comme à l'ordinaire.</p>"
+                },
+                "X36hKYEWL0S6irBU": {
+                    "name": "Stench",
+                    "description": "<p>Une créature qui se tient dans les 9 mètres de la harpie et qui a un odorat, doit effectuer un jet de @Check[fortitude|dc:21]. En cas d'échec, la créature subit une pénalité de statut de -1 à tous des jets et DD, jusqu'à ce qu'elle utilise une action pour vomir. Une créature qui obtient une réussite n'est pas affectée par la puanteur de la harpie pendant 1 minute.</p>"
+                }
+            }
+        },
+        "Hobgoblin Soldier (BB)": {
+            "name": "Hobgoblin Soldier (BB)",
+            "description": "<p>Les hobgobelins se consacrent entièrement à la guerre et toute leur culture est centrée sur l'incitation et la prolongation des conflits tout en cherchant à démontrer leur supériorité au combat. Ils sont extrêmement organisés et travaillent efficacement en groupe, qu'il s'agisse d'une petite escouade de pillage, d'un groupe de combat nomade ou d'une véritable armée. Physiquement, les hobgobelins sont à peu près aussi grands que des humains et ils ont une peau gris cendre.</p>",
+            "cadetails": "(20 avec le bouclier levé)",
+            "items": {
+                "CHS0DAe3ekrw8ve1": {
+                    "name": "Shortbow"
+                },
+                "HKe6thyQBV2VB7mx": {
+                    "description": "<p>Les épées longues, également appelées épées d'armement, peuvent avoir un ou deux tranchants. Leurs lames sont lourdes et mesurent entre 1 et 1,20 mètre de long.</p>"
+                },
+                "OgkLVLhW0uOMdbGj": {
+                    "name": "Formation",
+                    "description": "<p>Quand il est adjacent à au moins deux autres alliés, le soldat hobgobelin obtient un bonus de circonstances de +1 à sa CA et à ses jets de sauvegarde.</p>"
+                },
+                "PzpzmSnCSWrwxzDO": {
+                    "name": "Longsword"
+                },
+                "pwxZNOfMOm5horoq": {
+                    "name": "Shield",
+                    "description": "<p>Un bouclier a 20 Points de vie. Il est brisé s'il subit au moins 10 dégâts. Un bouclier @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisé} n'est plus utilisable pour @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Lever un bouclier} ou @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Blocage au bouclier}, mais vous pouvez toujours le @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Réparer}. Un bouclier est définitivement détruit s'il perd la totalité de ses 20 Points de vie.</p>"
+                },
+                "xolLzAgsgpzS6Nvn": {
+                    "description": "<p>S'il a @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Levé un bouclier} depuis son dernier tour, l'hobgobelin peut dépenser sa réaction pour bloquer une Frappe. Réduisez de 5 le montant de dégâts, mais l'hobgobelin et le bouclier subissent chacun les dégâts restants, ce qui peut éventuellement @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Briser} ou détruire le bouclier.</p>"
+                }
+            }
+        },
+        "Orc Commander (BB)": {
+            "name": "Orc Commander (BB)",
+            "description": "<p>Lorsque les orcs organisent des raids, le plus puissant d'entre eux est choisi comme chef. Les liens du sang sont particulièrement importants chez les orcs et les groupes les plus puissants sont généralement constitués de frères et soeurs ayant choisi un puissant commandant pour protéger les leurs.</p>",
+            "items": {
+                "dvuK2slsg05eHdpZ": {
+                    "name": "Fist"
+                },
+                "fI8bsqTQlNTlSpdF": {
+                    "name": "Maul"
+                },
+                "v9Xt73Wj9wclc3ef": {
+                    "name": "Javelin"
+                },
+                "xDUpwWQaZevQOkYQ": {
+                    "description": "<p>Lorsque l'orc est réduit à 0 PV, il peut utiliser sa réaction pour rester conscient avec 1 PV, mais il prend l'état blessé 1 (ou augmente la valeur de l'état blessé de 1 s'il est déjà dans cet état). Il ne peut utiliser une nouvelle fois ce pouvoir s'il est blessé 3.</p>"
+                },
+                "yeHohyJSYfiTwghO": {
+                    "name": "Battle Cry",
+                    "description": "<p>En beuglant puissamment, le commandant se confère, ainsi qu'à tous les orcs pouvant l'entendre dans une @Template[emanation|distance:60]{émanation de 18 mètres}, un bonus de statut de +1 à leurs jets d'attaque et de dégâts jusqu'au du prochain tour du commandant orc.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Yqq4AkZ9lrm4CcID]{Effect: Cri de guerre}</p>"
+                }
+            }
+        },
+        "Scythe Blades (BB)": {
+            "name": "Scythe Blades (BB)",
+            "desc (hazard)": "<p>Deux lames, chacune cachée dans une rainure de 4,50 mètres de long au plafond, sont reliées à un fil de détente.</p>",
+            "disable": "<p>@Check[thievery|dc:21|traits:hazard|name:Désamorcer une lame] pour désamorcer chaque lame</p>",
+            "items": {
+                "LPBpvhfnfUxz7nWz": {
+                    "name": "Scythe"
+                },
+                "MrC7xvsyL1EpWyqb": {
+                    "name": "Falling Scythes",
+                    "description": "<p>Lorsque le fil de détente est tiré ou coupé, les deux lames tombent, chacune attaquant toutes les créatures sous les rainures du plafond. Le piège fait une attaque de corps-à-corps avec chaque lame. Il n'y a pas de pénalité d'attaques multiples sur ces attaques.</p>"
+                },
+                "haWc7Vo7IDgvIPU9": {
+                    "name": "No MAP",
+                    "description": "<p>Les attaques de faux n'appliquent pas de PAM.</p>"
+                }
+            }
+        },
+        "Goblin Commando (BB)": {
+            "name": "Goblin Commando (BB)",
+            "description": "<p>La plupart des communautés gobelines sombrent dans un chaos à peine maîtrisé : un groupe de créatures fonctionnant à l'instinct suit rarement une direction précise. Même les chefs gobelins ont tendance à être impulsifs, irresponsables et généralement peu aptes à mener qui que ce soit.</p>\n<p>En théorie, les commandos gobelins dirigent les raids gobelins. Dans la pratique, il est rare qu'ils continuent à commander leurs camarades une fois que la bataille a commencé. La plupart se soustraient à leur responsabilité pour aller se jeter dans la mêlée afin de revendiquer un plus grand prestige auprès de leurs congénères.</p>",
+            "items": {
+                "7swXlOjSl2oHLuDv": {
+                    "name": "Greatsword"
+                },
+                "YdD2kpKW2TNfcupL": {
+                    "name": "Goblin Scuttle",
+                    "description": "<p>Si un allié du gobelin finit son action de déplacement sur une case adjacente au commando gobelin, ce dernier peut utiliser sa réaction pour @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Faire un pas}.</p>"
+                },
+                "wBppFKxjdSadJQj2": {
+                    "name": "Shortbow"
+                }
+            }
+        },
+        "Hidden Pit (BB)": {
+            "name": "Hidden Pit (BB)",
+            "desc (hazard)": "<p>Une trappe en bois cache une fosse qui couvre un carré de 3 mètres de côté et fait 6 mètres de profondeur.</p>",
+            "disable": "<p>@Check[thievery|dc:12|traits:hazard|name:Retirer la trappe] pour retirer la trappe</p>",
+            "stealth": "<p>(ou @Check[perception|dc:0|traits:hazard] si la trappe a été désamorcée ou brisée).</p>",
+            "items": {
+                "ZY8Teu6y1ruEGOAn": {
+                    "name": "Pitfall",
+                    "description": "<p>Si une créature marche sur la trappe, elle tombe dans la fosse, sauf si elle réussit un jet de @Check[reflex|dc:16] pour agripper le bord. Cette fosse fait 6 mètres de profondeur et inflige @Damage[10[bludgeoning]|options:fall-damage]{10 dégâts contondants} à toute personne tombant au fond.</p>"
+                }
+            }
+        },
+        "Bugbear Prowler (BB)": {
+            "name": "Bugbear Prowler (BB)",
+            "items": {
+                "KMCE5lQxOdNEPkvf": {
+                    "description": "<p>Les épées longues, également appelées épées d'armement, peuvent avoir un ou deux tranchants. Leurs lames sont lourdes et mesurent entre 1 et 1,20 mètre de long.</p>"
+                },
+                "KlVVVsJad72RahoI": {
+                    "name": "Javelin"
+                },
+                "LUPkzJMY0W8x0Vsd": {
+                    "name": "Fist"
+                },
+                "e8BUlHLevzRJnHEc": {
+                    "name": "Bushwhack",
+                    "description": "<p>Le maraudeur gobelours Marche rapidement sur une distance maximale de 3 mètres et tente de @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Saisir} une créature qui ne l'a pas détecté. S'il réussit, il inflige également les dégâts de sa Frappe de poing à cette créature.</p>"
+                },
+                "naotn6A029XPnJc1": {
+                    "name": "Mauler",
+                    "description": "<p>Le maraudeur gobelours obtient un bonus de circonstances de +3 à ses jets de dégâts contre les créatures qu'il a @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agrippées}.</p>"
+                },
+                "zyYihJ8eYGtYRh9u": {
+                    "name": "Longsword"
+                }
+            }
+        },
+        "Forest Troll (BB)": {
+            "name": "Forest Troll (BB)",
+            "description": "<p>Les troll des forêts sont des géants dégingandés qui rôdent à la périphérie de la civilisation. Ils comptent sur leur force incroyable, leurs griffes acérées et leur gueule garnie de crocs pour vaincre leurs adversaires. Ils mesurent entre 3,60 mètres et 4,80 mètres de haut, mais ils préfèrent marcher le dos voûté, par commodité et pour procurer à leurs adversaires une fausse impression de sécurité.</p>",
+            "hpdetails": "Régénération 20 (désactivée par l'acide ou le feu)",
+            "items": {
+                "50Meu5uWTOPYtMu6": {
+                    "name": "Regeneration 20 (Deactivated by Electricity or Fire)",
+                    "description": "<p>Le troll récupère 20 Points de vie au début de son tour, à moins qu'il n'ait subit des dégâts d'électricité ou de feu lors de son dernier tour. Un troll ne peut pas mourir à moins que sa régénération ne soit désactivée lorsqu'il atteint les 0 PV.</p>"
+                },
+                "bA2QzO0CkyheAgub": {
+                    "name": "Claw"
+                },
+                "f4rcDncEwu2OdC1a": {
+                    "name": "Jaws"
+                },
+                "scw9HnbCVwAyFzok": {
+                    "description": "<p>Si le troll réussit deux Frappes de griffe sur une même créature au même tour, il peut utiliser ce pouvoir pour lui infliger automatiquement les dégâts de Frappe de griffe.</p>"
+                },
+                "zWd0ku7gg194xCer": {
+                    "name": "Easily Misled",
+                    "description": "<p>Le troll des forêts subit une pénalité de circonstances de -4 à son DD de Perception contre les tests de Duperie.</p>"
+                }
+            }
+        },
+        "Leopard (BB)": {
+            "name": "Leopard (BB)",
+            "description": "<p>Les léopards peuvent avoir la célèbre fourrure fauve tachetée de noir, mais incluent aussi les panthères noires et les léopards des neiges blancs et tachetés de noir.</p>",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans les hautes herbes"
+                }
+            },
+            "items": {
+                "5o4Qh26axxAvJeUp": {
+                    "description": "<p>Lorsque le léopard touche avec sa Frappe de mâchoires, il peut utiliser cette action immédiatement pour @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} sa cible jusqu'à la fin de son prochain tour. Cette action Saisir n'applique pas et ne compte pas dans le calcul de la pénalité d'attaque du léopard.</p>"
+                },
+                "8Hc25NUrYBwSHQuO": {
+                    "description": "<p>Le léopard inflige 1d4 dégâts supplémentaires aux créatures qui sont @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{prises au dépourvu}.</p>"
+                },
+                "YZxhBg9R5m8ydWm1": {
+                    "name": "Claw"
+                },
+                "iuFRjKw2PLJl3E3F": {
+                    "name": "Pounce",
+                    "description": "<p>Le léopard Marche rapidement et effectue une Frappe à la fin de son déplacement. Si le léopard réussit à @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Se cacher} avant cette action, la cible a l'état @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{prise au dépourvu} contre cette Frappe.</p>"
+                },
+                "lOUQcokkfOtGgPNG": {
+                    "name": "Jaws"
+                },
+                "uEjliLhQWBsVYCsE": {
+                    "name": "Maul",
+                    "description": "<p>Le léopard effectue deux Frappes de griffe contre une créature qu'il a @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agrippée}. La deuxième attaque utilise le même pénalité d'attaques multiples que la première, mais les attaques suivantes subissent une pénalité d'attaques multiples de -10 (ou -8 pour les griffes).</p>"
+                }
+            }
+        },
+        "Drow Warrior (BB)": {
+            "name": "Drow Warrior (BB)",
+            "description": "<p>Les drows sont les descendants d'elfes corrompus par un grand mal lorsqu'ils ont fui dans les profondeurs de la terre, il y a bien longtemps.</p>",
+            "items": {
+                "7ogTgoQe4WAvtdJ7": {
+                    "description": "<p>Quand il se trouve exposé à une lumière vive, le drow est @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Aveuglé} jusqu'à la fin de son prochain tour. Toutes les cases deviennent un terrain difficile pour lui et il subit une pénalité de statut de –4 à sa Perception. S'il essaie d'attaquer une créature, l'attaque échoue sauf s'il réussit un @Check[flat|dc:11]. La lumière ne l'aveugle plus pendant 1 h.</p>"
+                },
+                "RZBxog3E2iCbQY5r": {
+                    "name": "Dagger"
+                },
+                "XDq62TH6LQA4rgny": {
+                    "name": "Hand Crossbow"
+                },
+                "iTaObjgnXpF66Sz5": {
+                    "name": "Rapier"
+                },
+                "ix1KQX8Ji2g1e9ID": {
+                    "name": "Skewer",
+                    "description": "<p>Le guerrier drow Frappe avec sa rapière et obtient un bonus de circonstances de +1 à son jet d'attaque. S'il réussit, la cible subit @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p>"
+                },
+                "uznmLfSkP5j9qOEA": {
+                    "name": "Quick Draw",
+                    "description": "<p>Le guerrier drow tire son arme avec une action Interagir puis Frappe avec.</p>"
+                }
+            }
+        },
+        "Sod Hound (BB)": {
+            "name": "Sod Hound (BB)",
+            "description": "<p>Les élémentaires de la terre tels que les molosses de tourbe font d'excellents gardes du corps pour les spéléologues aventureux et sont les protecteurs idéaux des sites souterrains importants comme les chambres fortes et les salles des trésors. Ils viennent du plan de la terre et peuvent apparaître dans des grottes enfouies profondément dans la terre ou d'autres environnements rocheux.</p>\n<p>Les molosses de tourbe sont des canidés couverts de mousse et principalement constitués de terre tassée et de cailloux. Ils forment parfois des meutes de molosses de tourbe. Ils sont très loyaux et suivent les ordres de leurs invocateurs avec ferveur.</p>",
+            "perception": "Perception des cristaux 18 m",
+            "SurvivalVariants": {
+                "0": {
+                    "label": "pour Pister"
+                }
+            },
+            "items": {
+                "3USivzG0qztGd1dK": {
+                    "description": "<p>Lorsque le molosse de tourbe réussit sa Frappe de mâchoires, il peut immédiatement utiliser cette action pour renverser automatiquement sa cible @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+                },
+                "59wy5xK7MEQmYRxg": {
+                    "name": "Earth Glide",
+                    "description": "<p>Le molosse de tourbe creuse à travers toute matière à base de terre, y compris la roche. Il se déplace jusqu'à 6 mètres sans laisser de tunnel ou de traces de son passage.</p>"
+                },
+                "dp1n1eKrdXWBGI47": {
+                    "name": "Jaws"
+                },
+                "hDYxH5VuENin7Q0I": {
+                    "name": "Crystal Sense 60 feet",
+                    "description": "<p>Un molosse de tourbe peut percevoir les cristaux et les gemmes dans un rayon de 18 mètres.</p>"
+                }
+            }
+        },
+        "Kobold Mage (White, BB)": {
+            "name": "Kobold Mage (White, BB)",
+            "description": "<p>Les kobolds sont de petits humanoïdes reptiliens souvent vus au service de créatures plus puissantes. Ils se cachent dans des endroits sombres, généralement des tunnels et des mines. Les magiciens kobolds utilisent la magie pour mener à bien leurs projets, souvent au service d'un dragon ou d'autres créatures puissantes.</p>",
+            "items": {
+                "8LYUZymM9ZN8WDw9": {
+                    "name": "Claw"
+                },
+                "90eQFUneXcsHeKSK": {
+                    "name": "Staff"
+                },
+                "KYeYaMrxJZuncqJp": {
+                    "name": "Dragon Lore"
+                },
+                "rjagZN22fOCrVrUz": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "tC9lSVhNyxDRwaml": {
+                    "name": "Wizard Spells"
+                }
+            }
+        },
+        "Cinder Rat (BB)": {
+            "name": "Cinder Rat (BB)",
+            "description": "<p>Les élémentaires de feu sont des manifestations destructrices du plan du feu. Ils naissent parfois dans des lieux à la chaleur et aux flammes extrêmement puissantes où des vortex élémentaires se forment, par exemple dans les volcans.</p>\n<p>Les rats des braises sont des rongeurs surdimensionnés faits de charbons ardents et de feu élémentaire. Des vapeurs nocives émanent continuellement de leur chair enflammée. Tout comme les rats terrestres, les rats des braises s'installent dans des lieux isolés et peuvent rapidement se multiplier si rien n'est fait.</p>",
+            "perception": "Vision malgré la fumée",
+            "items": {
+                "SNb64KWDBMrTorTI": {
+                    "name": "Jaws"
+                },
+                "vhcrEIRKkfTwrwDs": {
+                    "name": "Fetid Fumes",
+                    "description": "<p>Un nuage de fumée entoure le rat des braises. Toutes les créatures dans une @Template[emanation|distance:5]{émanation de 1,50 mètre}, y compris le rat des braises, obtiennent l'état @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Masqué} à cause de la fumée. Une créature s'approchant à moins de 1,50 mètre du rat des braises ou commençant son tour à moins de 1,50 mètre doit effectuer un jet de @Check[fortitude|dc:22]. En cas d'échec, la créature subit une pénalité de statut de -1 à tous ses tests et DD pendant 1 round <em> (Utilisez @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1})</em>.</p>"
+                },
+                "wqhHoIIgE3jfAgCx": {
+                    "name": "Smoke Vision",
+                    "description": "<p>Le rat des braises ignore l'état @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} provoqué par la fumée.</p>"
+                }
+            }
+        },
+        "Envenomed Lock (BB)": {
+            "name": "Envenomed Lock (BB)",
+            "desc (hazard)": "<p>Une pointe empoisonnée montée sur ressort est cachée près du trou d'une serrure. @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer} ou briser le piège ne déverrouille pas et ne brise pas la serrure.</p>",
+            "disable": "<p>@Check[thievery|dc:17|traits:hazard|name:Désamorcer le mécanisme du ressort] sur le mécanisme du ressort</p>",
+            "items": {
+                "3w5kvSRp3MF3snpw": {
+                    "name": "Spring",
+                    "description": "<p>Lorsqu'une créature tente de déverrouiller ou de @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Crocheter} la serrure, le ressort se détend pour l'attaquer avec une attaque d'Aiguille.</p>"
+                },
+                "VDL4WflLI1gxDylZ": {
+                    "name": "Spine"
+                }
+            }
+        },
+        "Skeletal Giant (BB)": {
+            "name": "Skeletal Giant (BB)",
+            "description": "<p>Les os réanimés des géants font d'excellents serviteurs nécromantiques et les squelettes massifs des minotaures ne font pas exception. Les squelettes dénués d'intelligence utilisent des stratégies similaires. Utiliser un squelette plus gros et plus résistant est donc la seule façon pour un nécromancien d'obtenir un serviteur plus puissant.</p>",
+            "items": {
+                "4gkC6A8D27Jzv7nH": {
+                    "name": "Broad Swipe",
+                    "description": "<p>Le géant squelettique porte deux Frappes d'épée à deux mains contre deux adversaires adjacents qui se trouvent dans son allonge. La deuxième attaque utilise le même pénalité d'attaques multiples que la première mais les attaques suivantes subissent une pénalité d'attaques multiples de -10 (ou -8 pour les cornes).</p>"
+                },
+                "4uWQE7ermpG8oEr3": {
+                    "name": "Greataxe"
+                },
+                "J4YIWviUaTHDEl3b": {
+                    "description": "<p>L'armure de plates est constituée pour l'essentiel de la partie des platues qui composent le haut du harnois, avec une protection de plaques en acier plus légère ou plus clairsemée au niveau des bras et des jambes. Cela procure une partie de la protection du harnois avec davantage de souplesse et de rapidité. Une telle armure comporte également une sous-couche d'@UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]{armure matelassée} et une paire de @UUID[Compendium.pf2e.equipment-srd.Item.Ix2vicchE79d6Cl3]{gantelets}.</p>"
+                },
+                "emPcqeSFXdyr6CgV": {
+                    "name": "Terrifying Charge",
+                    "description": "<p>Le géant Marche rapidement et porte une Frappe de cornes avec un bonus de circonstances de +4 aux dégâts.</p>\n<p>Si le coup porte, le géant tente de [[/act demoralize]]{Démoraliser} sa cible.</p>"
+                },
+                "l4eldMZrkZle4K3Y": {
+                    "name": "Horns"
+                }
+            }
+        },
+        "Kobold Mage (Black, BB)": {
+            "name": "Kobold Mage (Black, BB)",
+            "description": "<p>Les kobolds sont de petits humanoïdes reptiliens souvent vus au service de créatures plus puissantes. Ils se cachent dans des endroits sombres, généralement des tunnels et des mines. Les magiciens kobolds utilisent la magie pour mener à bien leurs projets, souvent au service d'un dragon ou d'autres créatures puissantes.</p>",
+            "items": {
+                "8LYUZymM9ZN8WDw9": {
+                    "name": "Claw"
+                },
+                "90eQFUneXcsHeKSK": {
+                    "name": "Staff"
+                },
+                "KYeYaMrxJZuncqJp": {
+                    "name": "Dragon Lore"
+                },
+                "SMaOHeglwFS3CxB8": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "tC9lSVhNyxDRwaml": {
+                    "name": "Wizard Spells"
+                }
+            }
+        },
+        "Orc Veteran (BB)": {
+            "name": "Orc Veteran (BB)",
+            "description": "<p>Le soldat orc typique est un combattant violent bien connu de la plupart des aventuriers. Il combat pour son clan, pour des richesses et peut-être avant tout pour sa gloire personnelle. Prouver leur puissance peut les faire monter en grade, le combat est donc une partie extrêmement importante de la vie de tout orc qui espère un jour mener les siens ou marquer l'histoire.</p>",
+            "items": {
+                "4D2PeMPJfrwdbJ3e": {
+                    "description": "<p>Bien qu'il soit appelé cuirasse, ce type d'armure est constitué de plusieurs éléments de harnois ou d'armure de plates qui protègent le torse, la poitrine, le cou et parfois les hanches et le bas des jambes. Elle accorde une partie de la protection du harnois stratégiquement tout en permettant plus de souplesse et de rapidité.</p>"
+                },
+                "54j0gybWlIAueFkZ": {
+                    "name": "Shortsword"
+                },
+                "AtTvfif8mNvTl8HD": {
+                    "description": "<p>Lorsque l'orc est réduit à 0 PV, il peut utiliser sa réaction pour rester conscient avec 1 PV, mais il prend l'état blessé 1 (ou augmente la valeur de l'état blessé de 1 s'il est déjà dans cet état). Il ne peut utiliser une nouvelle fois ce pouvoir s'il est blessé 3.</p>"
+                },
+                "U7gmP0tQ6eQor3xT": {
+                    "name": "Fist"
+                },
+                "freYXZtmDhD5zIrA": {
+                    "name": "Javelin"
+                },
+                "mHS7Uj0GKGKhQiNo": {
+                    "name": "Battle Axe"
+                }
+            }
+        },
+        "Minotaur Hunter (BB)": {
+            "name": "Minotaur Hunter (BB)",
+            "description": "<p>Le minotaure est un humanoïde de grande taille qui présente des caractéristiques bovines telles que des cornes, des sabots et une couche de poils qui recouvre l'ensemble de son corps. Bien qu'on les prenne souvent pour des brutes agressives, de nombreux minotaures sont d'habiles artisans. Les minotaures solitaires ont tendance à établir leur repaire dans un dédale ou une vieille ruine, chassant quiconque ose envahir leur demeure labyrinthique</p>",
+            "perception": "Vision dans le noir",
+            "items": {
+                "3STgLL5iZEI8pSTn": {
+                    "name": "Axe Swipe",
+                    "description": "<p>Le minotaure effectue deux Frappes avec sa grande hache contre deux ennemis près à lui, les deux se tenant dans son allonge. La seconde attaque utilise la même pénalité d'attaque que la première, mais toutes les attaques qu'il effectue après ceci subissent une pénalité d'attaques multiples de -10.</p>"
+                },
+                "XeNTu8WZ9m4UcS8c": {
+                    "name": "Horn"
+                },
+                "ZbGvfggdVHs60uHl": {
+                    "name": "Greataxe"
+                },
+                "bQRnxgh1VHMUoffw": {
+                    "name": "Powerful Charge",
+                    "description": "<p>Le minotaure Marche rapidement deux fois puis effectue une Frappe de corne. S'il s'est déplacé d'au moins 6 mètres de son point de départ, les dégâts de la Frappe passent à @Damage[(2d8+10)[piercing]]{2d8+10 dégâts perforants}.</p>"
+                },
+                "fOwVEwaZPmB4enaL": {
+                    "name": "Perfect Orienteering",
+                    "description": "<p>Un minotaure obtient automatiquement un succès critique sur ses tests de Survie pour @UUID[Compendium.pf2e.actionspf2e.Item.fJImDBQfqfjKJOhk]{S'orienter} ou @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Pister}</p>"
+                }
+            }
+        },
+        "Drow Priestess (BB)": {
+            "name": "Drow Priestess (BB)",
+            "cadetails": "22 avec le bouclier levé",
+            "items": {
+                "3e0Plg5FPCRQWPt1": {
+                    "name": "Magic Weapon"
+                },
+                "6ii2IeWpDJ46u3xM": {
+                    "name": "Rapier"
+                },
+                "9IuPTxCvRCR7HHp2": {
+                    "description": "<p>Quand elle se trouve exposée à une lumière vive, elle est @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Aveuglée} jusqu'à la fin de son prochain tour. Toutes les cases deviennent un terrain difficile pour elle et elle subit une pénalité de statut de –4 à sa Perception. Si elle essaie d'attaquer une créature, l'attaque échoue sauf si elle réussit un @Check[flat|dc:11]. La lumière ne l'aveugle plus pendant 1 h.</p>"
+                },
+                "EdyRu3QJ0QBWzLr9": {
+                    "description": "<p>Parfois appelé haubert, cette longue chemise est constituée des mêmes anneaux en métal que la cotte de mailles. Cependant, elle est beaucoup plus légère que cette dernière et ne protège que le torse, les bras et les cuisses de son porteur.</p>"
+                },
+                "Eejxi0k01WzbvUUh": {
+                    "description": "<p>Si elle a @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Levé un bouclier} depuis son dernier tour, la prêtresse peut dépenser sa réaction pour bloquer une Frappe. Réduisez de 5 le montant de dégâts, mais la prêtresse et le bouclier subissent chacun les dégâts restants, ce qui peut éventuellement @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Briser} ou détruire le bouclier.</p>"
+                },
+                "TdQYYWwQZNdBaUt2": {
+                    "name": "Shield",
+                    "description": "<p>Un bouclier a 20 Points de vie. Il est brisé s'il subit au moins 10 dégâts. Un bouclier @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisé} n'est plus utilisable pour @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Lever un bouclier} ou @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Blocage au bouclier}, mais vous pouvez toujours le @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Réparer}. Un bouclier est définitivement détruit s'il perd la totalité de ses 20 Points de vie.</p>"
+                },
+                "XPgz4pQn9aYVvddX": {
+                    "name": "Hand Crossbow"
+                },
+                "hnjL5DfkOGkcdjPb": {
+                    "name": "Cleric Spells"
+                },
+                "lEQuECrdJMRfyRIL": {
+                    "description": "<p>Ce morceau en bois ou en argent est décoré d'une représentation de divinité. Certains lanceurs de sorts divins tels les prêtres, peuvent utiliser le symbole religieux de leur divinité pour lancer des sorts divins et disposer des capacités divines. Un symbole religieux peut être porté sur le corps, au bout d'une chaîne, épinglé en une broche ou être tenu en main.</p>"
+                }
+            }
+        },
+        "Goblin Warrior (BB)": {
+            "name": "Goblin Warrior (BB)",
+            "description": "<p>Les combattants de première ligne des tribus de gobelins préfèrent se battre au sein de larges groupes, surtout quand ils peuvent attaquer à au moins trois contre un. Un entraînement intense ou une grande robustesse ne sont pas nécessaires pour devenir un guerrier gobelin. N'importe quel gobelin peut choisir d'en devenir un ou y être forcé en cas de force majeure.</p>\n<p>Les guerriers gobelins adorent semer le chaos. Ils ne pensent qu'à massacrer le bétail, voler des nouveau-nés ou brûler des bâtiments simplement pour le plaisir que cela leur procure sur le moment. Ils adorent faire de mauvaises farces aux humanoïdes de plus grande taille qu'ils appellent les « longues-jambes ». Ils compensent leur manque de cohésion, de planification à long terme et de bon sens en pure audace et en détermination.</p>",
+            "items": {
+                "4EXgRMqNIRLXxB1c": {
+                    "name": "Shortbow"
+                },
+                "CnmgzGmi2Avq67QA": {
+                    "name": "Shortsword"
+                },
+                "czwGWW73rkPW7vBg": {
+                    "name": "Goblin Scuttle",
+                    "description": "<p>Si un allié du gobelin finit son action de déplacement sur une case adjacente au guerrier gobelin, ce dernier peut utiliser sa réaction pour @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Faire un pas}.</p>"
+                }
+            }
+        },
+        "Viper (BB)": {
+            "name": "Viper (BB)",
+            "description": "<p>Tous les membres de cette famille de serpents venimeux possèdent de longs crochets mobiles capables d'injecter un puissant venin dans le corps de leur proie. Selon l'espèce, les vipères injectent différents types de venins et ceux-ci peuvent causer alternativement : une paralysie, des gonflements et une douleur atroce, des caillots de sang, voire l'arrêt soudain du coeur de la victime.</p>\n<p>Bien qu'elle soit une menace beaucoup moins imposante qu'une vipère géante, la vipère ordinaire est bien plus dangereuse que ce que sa taille pourrait faire croire. Une vipère chasse surtout les petits mammifères ou les lézards, mais attaquera tout humanoïde qu'elle perçoit comme une menace.</p>",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader"
+                }
+            },
+            "items": {
+                "TnaXi3v3iBDjotwd": {
+                    "name": "Viper Venom",
+                    "description": "<p>Une cible ayant reçu des dégâts de la Frappe de crochets de la vipère doit réussir un jet de @Check[fortitude|dc:16] ou subir @Damage[1d10[poison]]{1d10 dégâts de poison}.</p>"
+                },
+                "YIHoSZN2nTp139Dg": {
+                    "name": "Slink",
+                    "description": "<p>Si une créature termine son mouvement adjacente à la vipère ou dans l'espace de la vipère, celle-ci peut utiliser sa réaction pour Marcher rapidement, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Escalader}, ou @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Nager} jusqu'à 3 mètres. Elle doit terminer son mouvement dans un endroit qui n'est pas à moins de 1,50 mètre d'un ennemi. Ce mouvement ne déclenche pas de réactions.</p>"
+                },
+                "iHa81hIBKMF5eXxi": {
+                    "name": "Fangs"
+                }
+            }
+        },
+        "Kobold Trapmaster (BB)": {
+            "name": "Kobold Trapmaster (BB)",
+            "description": "<p>Les kobolds maîtres-des-pièges sont les têtes pensantes inventant et mettant en œuvre des pièges astucieux dans les antres de leur peuple, qui les respecte grandement.</p>",
+            "items": {
+                "CHJtUAFotmtE0vu1": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "Mcbgf9KdTTBPuio6": {
+                    "name": "Quick Trap",
+                    "description": "<p>Le kobold maître-des-pièges déploie un de ses piège à pointes dans une case adjacente.</p>\n<hr />\n<p>Dès que ce piège est déployé dans sa case, il inflige @Damage[2d8[piercing]|name:Piège élcair]{2d8 dégâts perforants} à toute créature qui entre dans cette case (@Check[reflex|dc:17|basic]). La créature ne subit aucun dégât si elle obtient un succès critique, la moitié des dégâts si elle obtient un succès, tous les dégâts si elle obtient un échec, et le double des dégâts si elle obtient un échec critique. Ce piège peut être désamorcé avec un test réussi de @Check[thievery|dc:15|traits:action:disable-a-device].</p>"
+                },
+                "OmVVuah2jgqtqVVo": {
+                    "name": "Shortsword"
+                },
+                "SL9owkerqt7KHiAD": {
+                    "name": "Spear"
+                },
+                "fx6MEhp40JvDajQh": {
+                    "name": "Spike Trap",
+                    "description": "<p>Ce piège artisanal basique consiste en des pointes cachées qui dépendent de l'élan d'une créature pour la lacérer et potentiellement l'empaler lorsqu'elle pénètre dans la case du piège, lui infligeant 2d8 dégâts perforants. La créature doit tenter un jet de [reflex|dc:17|basic].</p>"
+                },
+                "yDzPXpPBRfYG5UfY": {
+                    "description": "<p>Le kobold maître-des-pièges inflige [[/r {1d6}]]{1d6 dégâts} supplémentaires aux créatures qui sont @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                }
+            }
+        },
+        "Kobold Mage (Green, BB)": {
+            "name": "Kobold Mage (Green, BB)",
+            "description": "<p>Les kobolds sont de petits humanoïdes reptiliens souvent vus au service de créatures plus puissantes. Ils se cachent dans des endroits sombres, généralement des tunnels et des mines. Les magiciens kobolds utilisent la magie pour mener à bien leurs projets, souvent au service d'un dragon ou d'autres créatures puissantes.</p>",
+            "items": {
+                "8LYUZymM9ZN8WDw9": {
+                    "name": "Claw"
+                },
+                "90eQFUneXcsHeKSK": {
+                    "name": "Staff"
+                },
+                "KYeYaMrxJZuncqJp": {
+                    "name": "Dragon Lore"
+                },
+                "Y5pZ1lg8o21ONX8u": {
+                    "name": "Scamper",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il peut Marcher rapidement jusqu'à 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre toute réaction déclenchée par son déplacement. Le kobold doit terminer son déplacement sur une case qui n'est pas adjacente à un ennemi.</p>"
+                },
+                "tC9lSVhNyxDRwaml": {
+                    "name": "Wizard Spells"
+                }
+            }
+        },
+        "Owlbear (BB)": {
+            "name": "Owlbear (BB)",
+            "description": "<p>Le hibours est un prédateur très protecteur de son territoire. Son corps ressemble à celui d'un ours brun, mais sa tête, et donc ses sens aiguisés, sont ceux d'un hibou.</p>",
+            "items": {
+                "LIdmD7VqztundfTh": {
+                    "name": "Beak"
+                },
+                "TyHmjC5wvxo29J5L": {
+                    "description": "<p>Lorsque le hibours réussit une Frappe de serre, il peut utiliser cette action pour automatiquement @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agripper} la créature jusqu'à la fin de son prochaine tour.</p>"
+                },
+                "qCmKPruRObzVL1Dr": {
+                    "name": "Screeching Advance",
+                    "description": "<p>Le hibours pousse un Hurlement à glacer le sang et Marche rapidement deux fois. Toutes les créatures situées dans une @Template[emanation|distance:80]{émanation de 24 mètres} du hibours à n'importe moment de son déplacement sont sujettes aux effets du Hurlement à glacer le sang.</p>"
+                },
+                "sqceAJWlpdKGnHvx": {
+                    "name": "Talon"
+                },
+                "vTXaShzYmcNbRjzk": {
+                    "name": "Bloodcurdling Screech",
+                    "description": "<p>Le hibours pousse un puissant cri strident qui terrifie sa proie. Chaque créature dans une @Template[emanation|distance:80]{émanation de 24 mètres} doit faire un jet de @Check[will|dc:20]. Quel que soit le résultat, les créatures sont temporairement immunisées pendant 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fuit} pendant 1 round et elle est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3}.</p>"
+                }
+            }
+        },
+        "Ogre Warrior (BB)": {
+            "name": "Ogre Warrior (BB)",
+            "description": "<p>Les ogres sont l'incarnation de la brutalité et de la violence immorale. Avec une taille de 3 mètres et une puissante musculature, les ogres sont aussi forts que vicieux. Ils apprécient généralement la violence impitoyable sous toutes ses formes. Bien qu'ils préfèrent déchaîner leurs pulsions violentes sur les humanoïdes plus petits (plus ils sont petits, mieux c'est), les ogres promettent un horrible destin à tous ceux qui ont la malchance de tomber entre leurs grosses pattes.</p>\n<p>Toujours prêts à semer le chaos et à massacrer tout ce qui bouge, ils peuvent rapidement se retourner contre les leurs quand ils sont à court de petits humanoïdes à tourmenter. Aussi, ceux qui dirigent des groupes d'ogres font de leur mieux pour les occuper constamment en trouvant de nouvelles occasions de pillages et de raids. Leur manque de patience et d'intelligence les rend faciles à piéger, ce qui offre à leurs victimes les plus rusées de nombreuses façons de prendre le dessus.</p>",
+            "items": {
+                "GHc2nhxovHIDiS0W": {
+                    "description": "<p>Cette grande hache d'armes est trop lourde pour être maniée à une seule main. Beaucoup de grandes haches comprennent deux lames et sont souvent « barbues », avec un crochet à leur base pour augmenter la force de leur pouvoir tranchant.</p>"
+                },
+                "kN3B1jnfTS7LsbUS": {
+                    "name": "Javelin"
+                },
+                "qjYI8SCJrXWZopn6": {
+                    "name": "Greataxe"
+                }
+            }
+        },
+        "Mimic (BB)": {
+            "name": "Mimic (BB)",
+            "description": "<p>Les mimiques sont des créatures voraces qui prennent leur proie par surprise grâce à leur incroyable pouvoir leur permettant de prendre la forme d'objets ordinaires.</p>",
+            "items": {
+                "91iOrkVbzeP7cK2M": {
+                    "name": "Adhesive",
+                    "description": "<p>Toute créature qui touche la mimique (généralement par une Frappe de poing, par le pseudopode de la mimique, en @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisissant} ou en @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Poussant}) doit réussir un jet de @Check[reflex|dc:23] ou être @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agrippée}. Le DD pour @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{S'Échapper} est de 23. Une arme de corps-à-corps ou de jet qui touche la mimique y reste collée. Un personnage peut utiliser une action pour faire un test d'@Check[athletics|dc:23] et dégager son arme sur un succès. Le pouvoir adhésif prend fin 1 minute après la mort de la mimique.</p>"
+                },
+                "Af1bf54ub8OEzyPl": {
+                    "name": "Pseudopod"
+                },
+                "M3QwWIU2rzRHWndo": {
+                    "name": "Mimic Object",
+                    "description": "<p>La mimique prend la forme d'un objet de taille Moyenne. Cela altère son apparence visuelle mais pas sa taille. Il faut réussir un test de @Check[perception|dc:28] pour comprendre que c'est une créature.</p>"
+                },
+                "Ns2pok7e6UtuKUd6": {
+                    "name": "Object Lesson",
+                    "description": "<p>Si une créature touche la mimique alors qu'elle est transformée en objet, celle-ci peut utiliser sa réaction pour utiliser son adhésif sans jet de sauvegarde. La mimique fait ensuite une Frappe de pseudopode. La mimique ne peut plus utiliser Démonstration pratique tant qu'elle ne s'est pas échappée et n'a pas revêtu un nouveau déguisement.</p>"
+                }
+            }
+        },
+        "Ghoul Stalker (BB)": {
+            "name": "Ghoul Stalker (BB)",
+            "description": "<p>Les goules sont des morts-vivants se nourrissant de chair qui hantent les lieux tels que les cimetières désertés et les cryptes en ruine, où elles trouvent facilement des cadavres. Les légendes racontent que même les personnes ayant survécu à l'attaque d'une goule risquent de souffrir d'une fièvre pouvant les transformer elles-mêmes en goules.</p>",
+            "items": {
+                "538plQkKJgvoI49U": {
+                    "name": "Sneak Attack",
+                    "description": "<p>La goule rôdeuse inflige 1d4 dégâts supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}</p>"
+                },
+                "7RTjFlVzsxhjtwX4": {
+                    "name": "Consume Flesh",
+                    "description": "<p>La goule dévore une partie du cadavre d'une créature morte il y a moins d'une heure et regagne @Damage[1d6[healing]]{1d6 Points de vie}.</p>\n<p>La goule peut récupérer des Points de vie une seule fois par cadavre.</p>"
+                },
+                "A97t9GcQF8k7V7By": {
+                    "name": "Claw"
+                },
+                "XJHXZOImLOORwInT": {
+                    "name": "Jaws"
+                },
+                "iqkfB1nliXSkUpU4": {
+                    "name": "Stench",
+                    "description": "<p>Une créature qui s'approche dans les 3 mètres de la goule et qui possède un odorat, doit tenter un jet de @Check[fortitude|dc:14]. En cas d'échec, la créature subit une pénalité de statut de -1 à tous ses jets et ses DDs jusqu'à ce qu'elle utilise une action pour vomir (tel @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1}) Une créature qui réussit le jet de sauvegarde est temporairement immunisée contre cet effet pendant 1 minute.</p>"
+                },
+                "rvraBop9oOSwcjkq": {
+                    "name": "Swift Leap",
+                    "description": "<p>La goule se déplace d'une distance égale ou inférieure à la moitié de sa Vitesse en bondissant. Ce déplacement ne déclenche pas de réactions.</p>"
+                }
+            }
+        },
+        "Giant Spider (BB)": {
+            "name": "Giant Spider (BB)",
+            "description": "<p>Rares sont les vermines ordinaires aussi craintes que l'infâme araignée. Les araignées géantes varient en taille. Celles de taille humaine, parfois appelées araignées chasseuses, sont les plus courantes des araignées géantes, mais pas les plus grosses.</p>",
+            "items": {
+                "C4dwFfQQc0M5gZBd": {
+                    "name": "Fangs"
+                },
+                "ELWu5zIODys6k1lo": {
+                    "name": "Web"
+                },
+                "KlwGH9hdWl3XpMYw": {
+                    "name": "Web Trap",
+                    "description": "<p>Une créature touchée par l'attaque de toile de l'araignée géante est @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} et collée à la surface la plus proche. Elle ne peut se déplacer avant de réussir à @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{S'Échapper} (DD 17).</p>"
+                },
+                "Odl9UZ1OKOYG044E": {
+                    "name": "Descend on a Web",
+                    "description": "<p>L'araignée géante descend à la verticale d'une distance maximale de 12 mètres, suspendue à un fil de toile. Elle peut rester accrochée au fil ou s'en détacher. La distance descendue avec cette action ne compte pas dans le calcul des dégâts de chute. Une créature peut Frapper la toile qui possède une CA de 20 et 8 PV. Si la toile est réduite à 0 PV, l'araignée tombe.</p>"
+                },
+                "vnaySgTDfC0slaHW": {
+                    "name": "Giant Spider Venom",
+                    "description": "<p>Une cible blessée par les crochets de l'araignée doit réussir un jet de @Check[fortitude|dc:16] ou subir @Damage[1d10[poison]]{1d10 dégâts de poison} et être @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} pendant 1 round.</p>"
+                }
+            }
+        },
+        "Doppelganger (BB)": {
+            "name": "Doppelganger (BB)",
+            "description": "<p>Les doppelgangers peuvent prendre la forme exacte d'autres créatures mais ont des formes naturelles indéterminées.</p>",
+            "items": {
+                "0lvwb1cNAaOUc6Be": {
+                    "name": "End the Charade",
+                    "description": "<p>Lorsque le doppelganger est transformé par Changement de forme et qu'une autre créature se place à côté de lui ou utilise Frappe ou une autre action hostile contre lui, le doppelganger peut utiliser sa réaction pour reprendre sa véritable forme et faire une Frappe contre cette créature.</p>\n<p>Si la créature ignorait que le doppelganger était transformé, elle est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{prise au dépourvu} contre cette attaque.</p>"
+                },
+                "4tRvd9W1xA0JvgPJ": {
+                    "name": "Claw"
+                },
+                "LJKNy957UOv4LqE5": {
+                    "description": "<p>Le doppelganger peut prendre l'apparence exacte d'un humanoïde de taille Moyenne ou Petite qu'il a déjà vu. Cela ne change pas sa vitesse pour Marcher rapidement ni ses bonus d'attaque et de dégâts sur ses Frappes, mais peut changer le type de dégâts de ses Frappes (généralement vers contondant).</p>"
+                },
+                "fIAhNhYo8hJML5xU": {
+                    "name": "Mind Reading",
+                    "description": "<p>Le doppelganger tente de lire les pensées de surface d'une créature à moins de 9 mètres. La cible résiste si elle réussit un jet de @Check[will|dc:21].</p>"
+                }
+            }
+        },
+        "Sewer Ooze (BB)": {
+            "name": "Sewer Ooze (BB)",
+            "description": "<p>Ces masses amorphes constituées de l'immonde limon des égouts et d'autres détritus rôdent dans les conduits dégoûtants qui courent sous les villes. Certaines atteignent des tailles monstrueuses et sont dotées d'un appétit insatiable.</p>",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans les égouts"
+                }
+            },
+            "items": {
+                "VwrlDdZczBGO5Ps4": {
+                    "name": "Motion Sense 60 feet",
+                    "description": "<p>Une vase des égouts peut percevoir les mouvement proches grâce aux vibrations et au mouvement de l'air, ce qui lui permet de se battre aussi bien que si elle pouvait voir. Cependant, une vase des égouts reste aveugle et les effets dépendant de la vision ne fonctionnent pas sur elle.</p>"
+                },
+                "YXsM6AcguDWAwVIt": {
+                    "name": "Pseudopod"
+                },
+                "mdqK7RuSjtezVyS8": {
+                    "name": "Filth Wave",
+                    "description": "<p>La vase des égouts projette une vague de fange qui couvre toutes les créatures dans une @Template[emanation|distance:20]{émanation de 6 mètres}. Chaque créature dans la zone d'effet doit réussir un jet de @Check[reflex|dc:17|options:area-effect,damaging-effect] ou subir @Damage[1d4[acid]|options:area-damage{1d4 dégâts d'acide} et une pénalité de -3 mètres à ses Vitesses pendant 1 minute (la cible tombe également @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} en cas d'échec critique). Une créature peut Interagir pour en nettoyer une autre. Cela réduit la pénalité de Vitesse à -1,50 mètre après une action et retire la pénalité après deux actions. Après avoir utilisé Vague de fange, la vase ne peut plus la réutiliser avant 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Effet : Vague de fange}</p>"
+                }
+            }
+        },
+        "Web Lurker (BB)": {
+            "name": "Web Lurker (BB)",
+            "description": "<p>Les rôdeurs des toiles, aussi appelés ettercaps, sont des monstres arachnéens qui résident dans le nid des araignées ainsi que leurs nuées et élèvent soigneusement ces vermines. Ils chassent dans les forêts, les marais ou les collines broussailleuses. Ils construisent des structures de toile haut dans les arbres ou dans les failles rocheuses de gorges en altitude et entourent leur territoire de pièges eux aussi faits de toiles et de matériaux naturels.</p>",
+            "languages": "Langage des araignées",
+            "items": {
+                "5HpQse2MIBQbs10B": {
+                    "name": "Web"
+                },
+                "Kj1uqisygxPxuaC9": {
+                    "name": "Spider Speak",
+                    "description": "<p>Le rôdeur des toiles peut comprendre et parler avec les araignées.</p>"
+                },
+                "P7JMDrm2HB1QPV3N": {
+                    "name": "Web Lurker Venom",
+                    "description": "<p>Une cible blessée par les crochets du rôdeur des toiles doit réussir un jet de @Check[fortitude|dc:19] ou subir @Damage[1d12[poison]]{1d12 dégâts de poison} et être @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{prise au dépourvu} pendant 1 round.</p>"
+                },
+                "Re5HgCWQJTyzGewL": {
+                    "name": "Web Trap",
+                    "description": "<p>Une créature touchée par l'attaque de toile du rôdeur des toiles est collée à la surface la plus proche. Elle ne peut se déplacer avant d'avoir réussi à [[/act escape dc=20]]{S'Échapper}.</p>"
+                },
+                "aoyjyhv7Dw4gIwd3": {
+                    "name": "Claw"
+                },
+                "pChhLSd048EpUiL0": {
+                    "name": "Fangs"
+                }
+            }
+        },
+        "Giant Rat (BB)": {
+            "name": "Giant Rat (BB)",
+            "description": "<p>Les rats géants sont d'énormes cousins des rats communs. On les trouve généralement en grand nombre, mais ils ne peuvent pas se cacher dans les recoins utilisés par les rats communs et sont donc plus faciles à repérer et exterminer. D'ailleurs, trouver et tuer un rat géant est un rite d'initiation pour de nombreux aventuriers. Cette tâche devient rapidement pénible et de nombreux vétérans envoient donc les nouveaux aventuriers s'occuper de leur extermination.</p>\n<p>Les rats géants vivent généralement dans les égouts d'où ils peuvent récupérer les déchets des rues qui les surplombent. Cependant, certaines familles vivent dans des endroits plus isolés, comme des cavernes humides, dans des forêts ou des collines. Les rats ont une capacité de survie incroyable et on en rencontre donc aux quatre coins du monde. Ils préfèrent cependant les climats tempérés ou chauds aux climats froids.</p>\n<p>Si leur morsure seule ne représente pas de danger mortel, sauf peut-être pour les plus faibles, les rats géants sont cependant porteurs d'une dangereuse maladie répandue chez les rongeurs du monde entier, une pestilence qui peut sans mal venir à bout de communautés rurales. Les rats sont seulement porteurs et ne risquent pas de mourir eux-mêmes de la maladie.</p>",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader ou Nager"
+                }
+            },
+            "items": {
+                "yLnwKltbJHYpn8qC": {
+                    "name": "Jaws"
+                }
+            }
+        },
+        "Mermaid Fountain (BB)": {
+            "name": "Mermaid Fountain (BB)",
+            "disable": "<p>@Check[thievery|dc:20|traits:complex,hazard|name:Désactiver un mécanisme] pour chaque coin du mécanisme (il faut désamorcer les trois pour désamorcer le piège)</p>\n<p>Chaque mécanisme de coin a Solidité 8 et 15 PV.</p>",
+            "routine": "<p>À chaque tour, la fontaine utilise 1 action. Lancez [[/gmr 1d10]]{1d10} et regardez à quoi correspond le résultat sur la liste ci-dessous pour déterminer quelle action la fontaine utilise à ce round.</p>\n<ul>\n<li><strong>1-4</strong> Une seule cible. La statue tourne et lance de l'eau sur une seule cible au hasard dans la pièce. Lancez [[/gmr 1d4]]{1d4}, le résultat indique le héros attaqué en partant du joueur à votre gauche. Le jet d'eau est une Frappe à distance.</li>\n<li><strong>5-7 Jet d'angle.</strong> La statue tourne et lance de l'eau à chaque coin de la pièce où le mécanisme d'angle fonctionne encore. Cela touche toute créature adjacente au mécanisme d'angle et inflige @Damage[2d6[bludgeoning]|options:area-damage]{2d6 dégâts contondants}. Chaque héros doit tenter un jet de @Check[reflex|dc:15|basic|options:area-effect|traits:hazard] : il ne subit aucun dégât sur un succès critique, la moitié sur un succès, tous les dégâts sur un échec et le double sur un échec critique.</li>\n<li><strong>8-9 La moitié de la pièce.</strong> La statue tourne et asperge la moitié de la pièce. Lancez un dé. Si le résultat est pair, il s'agit de la moitié ouest ; impair la moitié est. Cela inflige @Damage[2d6[bludgeoning]|options:area-damage]{2d6 dégâts contondants} à chaque créature dans cette moitié de la pièce et chaque héros doit faire un jet de @Check[reflex|dc:15|basic|options:area-effect|traits:hazard].</li>\n<li><strong>10 Toute la pièce.</strong> Cela fonctionne comme l'attaque qui vise la moitié de la pièce, mais cible tout le monde dans la pièce.</li>\n</ul>",
+            "stealth": "<p><strong>Remarquer.</strong> Test de @Check[perception|dc:20|traits:complex,hazard]</p>",
+            "items": {
+                "YfiKyZzHH0XtfjFx": {
+                    "name": "Spray"
+                }
+            }
+        },
+        "Central Spears (BB)": {
+            "name": "Central Spears (BB)",
+            "disable": "<p>Un héros doit réussir un test de @Check[thievery|dc:18|traits:hazard|name:Désamorcer le mécanisme] sur la case déclencheuse ou sur les trous dans le mur ouest.</p>",
+            "reset": "<p>Les lances centrales se réinitialisent au bout d'1 minute.</p>",
+            "items": {
+                "9yktjCbx8rbvpSZe": {
+                    "name": "Spear Barrage",
+                    "description": "<p>Lorsqu'une créature se déplace sur l'une des cases de la zone contourée, le piège projette trois lances depuis le mur ouest. Il fait une Frappe à distance contre la créature le plus à l'ouest de chaque rangée.</p>"
+                },
+                "Ae0gibnuQy3PwVCV": {
+                    "name": "Spear"
+                }
+            }
+        },
+        "Orc Scrapper (BB)": {
+            "name": "Orc Scrapper (BB)",
+            "description": "<p>Les orcs sont des humanoïdes puissants et fiers qui vivent selon la loi du plus fort. Ils se regroupent en hordes, petites et grandes, pour conquérir des terres et dépouiller ceux qui ont la malchance de croiser leur route. D'innombrables petites communautés, avant-postes et fortins sont tombés sous les assauts des pillards orcs dont le penchant destructeur laisse une marque indélébile sur les terres qu'ils conquièrent. Les bagarreurs orcs de troupe, déchaînés et indisciplinés, forment la majeure partie d'une horde orque.</p>",
+            "items": {
+                "8jwjSmQRQW8Nk5NY": {
+                    "name": "Fist"
+                },
+                "CellesdPVQW5Dk8g": {
+                    "description": "<p>Lorsque l'orc est réduit à 0 PV, il peut utiliser sa réaction pour rester conscient avec 1 PV, mais il prend l'état blessé 1 (ou augmente la valeur de l'état blessé de 1 s'il est déjà dans cet état). Il ne peut utiliser une nouvelle fois ce pouvoir s'il est blessé 3.</p>"
+                },
+                "DmNGJHLmXcMGdmUS": {
+                    "name": "Battle Axe"
+                },
+                "TS7iVUZNmP0Szdfh": {
+                    "name": "Javelin"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "label": "Constructs Breakthroughs (Animal Companions)",
+    "entries": {
+        "Projectile Launcher": {
+            "name": "Projectile Launcher",
+            "description": "<p>Votre créature artificielle possède un lance fléchette monté, un canon intégré ou autre armement similaire. Votre innovation obtient une attaque à mains nues à distance qui inflige 1d4 dégâts contondants ou perforants (vous choisissez lorsque vous prenez cette modification). L'attaque possède le trait propulsif et un facteur de portée de 9 mètres.</p>"
+        },
+        "Wonder Gears": {
+            "name": "Wonder Gears",
+            "description": "<p>Vous intégrez des compétences spécialisées dans l'intelligence rudimentaire de votre créature artificielle. Votre innovation devient qualifiée en Intimidation, Discrétion et Survie.</p>"
+        },
+        "Sensory Array": {
+            "name": "Sensory Array",
+            "description": "<p>Des outils sensoriels supplémentaires procurent à votre innovation la vision nocturne et la vision dans le noir, ainsi que Perception des vibrations 9 mètres (imprécis).</p>"
+        },
+        "Miracle Gears": {
+            "name": "Miracle Gears",
+            "description": "<p>Lorsque vous perfectionnez le cortex de votre innovation, celle-ci devient beaucoup plus intelligente. Son modificateur d'Intelligence augmente de +2, et elle apprend une langue de votre choix parmi les langues que vous connaissez. Votre créature artificielle gagne la capacité d'utiliser des actions qui demandent une plus grande Intelligence, comme Contraindre et Déchiffrer un texte. Enfin, votre créature artificielle devient légendaire dans deux compétences basées sur l'Intelligence ou le Charisme de votre choix. Vous devez avoir la modification <em>Engrenages merveilleux</em> pour choisir cette modification.</p>"
+        },
+        "Accelerated Mobility": {
+            "name": "Accelerated Mobility",
+            "description": "<p>Des pieds motorisés, des engrenages efficaces dans les roues ou les chenilles ou des accélérateurs supplémentaires rendent votre créature artificielle plus rapide. La Vitesse de votre innovation passe à 12 mètres.</p>"
+        },
+        "Advanced Weaponry": {
+            "name": "Advanced Weaponry",
+            "description": "<p>Vous avez renforcé l'arsenal de votre créature artificielle. Choisissez l'une des attaques à mains nues de votre créature artificielle pour bénéficier d'une modification d'arme initiale, choisie dans la liste des modifications initiales ou parmi d'autres modifications d'armes initiales auxquelles vous avez accès. L'attaque à mains nues doit remplir toutes les conditions pour les traits choisis (comme être une attaque au corps-à-corps pour une forme d'enchevêtrement), et comme il s'agit d'une attaque à mains nues, elle ne peut jamais remplir certaines conditions, comme être une arme simple pour Simplicité complexe.</p>\n<p><em>Note : Les modifications d'armes ne sont pas dans ce module ou dans le système actuellement, Les éléments de règles de la frappe pour obtenir la capacité appropriée peuvent être modifiés pour appliquer les modifications.</em></p>"
+        },
+        "Climbing Limbs": {
+            "name": "Climbing Limbs",
+            "description": "<p>Avec des appendices qui peuvent s'accrocher ou créer une succion, votre ccréature artificielle devient un grimpeur compétent. Votre innovation gagne une Vitesse d'escalade égale à la moitié de sa Vitesse au sol.</p>"
+        },
+        "Durable Construction": {
+            "name": "Durable Construction",
+            "description": "<p>Votre innovation est solidement construite ; elle peut subir de sacrés coups avant d'être détruite. Augmentez son maximum de PV par votre niveau.</p>"
+        },
+        "Wall Configuration": {
+            "name": "Wall Configuration",
+            "description": "<p>Votre innovation peut passer d'une créature artificielle mobile à un emplacement stationnaire sur le champ de bataille. Elle peut se déployer par une activité à 2 actions ayant le trait manipulation, en changeant sa forme habituelle pour devenir un mur fin et droit formé de métal et d'engrenages de 3 mètres de haut et 9 mètres de long. Le mur doit s'étendre en passant à travers la case d'origine de votre innovation. Tant que votre créature artificielle est un mur, elle ne peut entreprendre aucune action, sauf celle qui consiste à utiliser la même activité pour se retransformer, et elle ne peut pas se défendre facilement, ce qui la rend @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} et lui donne une pénalité de statut supplémentaire de -2 à sa CA. Le mur bloque la ligne de vue et l'effet à moins que votre innovation soit réduite à au moins la moitié de ses PV maximum, auquel cas des trous dans le mur permettent aux créatures de voir à travers et d'attaquer avec un abri et aux créatures Très petites de passer au travers.</p>"
+        },
+        "Increased Size": {
+            "name": "Increased Size",
+            "description": "<p>Vous avez construit en plus grand votre innovation créature artificielle par rapport à la plupart. Votre créature artificielle est Grande.</p>\n<p>Si vous avez cette modification et que votre innovation créature artificielle devient un compagnon créature artificielle avancé ou si elle acquiert autrement la capacité de devenir Grand, vous pouvez immédiatement échanger <em>Taille augmentée</em> contre une modification de créature artificielle initiale différente.</p>"
+        },
+        "Turret Configuration": {
+            "name": "Turret Configuration",
+            "description": "<p><strong>Configuration de tourelle</strong> Votre innovation peut se transformer en passant d'une créature artificielle mobile en une tourelle stationnaire. Votre compagnon créature artificielle peut se transformer par une unique action, qui possède le trait manipulation, se transformant en tourelle dans sa case (ou pour revenir à sa configuration normale). Tant qu'elle est sous forme de tourelle, votre innovation est @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée}, mais le dé de dégâts de son lanceur de projectiles passe à 1d6 et son facteur de portée passe à 18 mètres. Vous devez avoir la modification <em>Lance-projectiles</em> pour choisir cette modification.</p>\n<p><em>Note : si vous avez renommé Lance-projectiles vous aurez besoin de modifier le sélecteur de l'élément de règle sur celui-ci pour lui donner le nouveau nom. En vf, c'est sûrement le cas.</em></p>"
+        },
+        "Resistant Coating": {
+            "name": "Resistant Coating",
+            "description": "<p>Votre innovation est difficile à endommager, quel que soit le moyen employé. Elle obtient une résistance 5 contre tous les dégâts (sauf l'adamantium).</p>"
+        },
+        "Marvelous Gears": {
+            "name": "Marvelous Gears",
+            "description": "<p>Votre innovation obtient la maîtrise experte en Discrétion, en Intimidation et en Survie. Pour toutes les compétences dans lesquelles elle était déjà experte (parce qu'elle est un compagnon créature artificielle avancé, par exemple), elle devient maître à la place. Si vous possédez la capacité de classe <em>Innovation révolutionnaire</em>, la maîtrise de ces compétences passe à maître ou à légendaire si votre innovation créature artificielle était déjà experte. Vous devez avoir la modification <em>Engrenages merveilleux</em> pour choisir cette modification.</p>"
+        },
+        "Runic Keystone": {
+            "name": "Runic Keystone",
+            "description": "<p>Vous avez intégré un dispositif similaire à une pierre runique dans votre innovation, lui permettant de contenir une rune de propriété, même si ce n'est pas une arme ou une armure. Une rune de propriété d'armure affecte votre innovation elle-même si elle affecte le porteur de l'armure. Une rune de propriété d'arme accorde aux attaques à mains nues de votre innovation les propriétés qu'elle accorderait normalement à une arme, en respectant toutes les conditions ordinaires (par exemple, une rune vorpale ne s'appliquerait qu'aux attaques au corps-à-corps à mains nues tranchantes). Si la rune n'affecte que les attaques à distance, elle n'a aucun effet, sauf si votre innovation possède une attaque à distance intégrée (grâce à la modification initiale lanceur de projectiles, par exemple). Si la rune affecte la forme physique ou l'apparence de l'arme ou de l'armure elle-même, comme habillement, la rune n'a aucun effet lorsqu'elle est gravée sur votre créature artificielle.</p>\n<p><em>Note : Ceci est laissé sans automatisation jusqu'à ce que les améliorations du système de rune soit terminé.</em></p>"
+        },
+        "Manual Dexterity": {
+            "name": "Manual Dexterity",
+            "description": "<p>Votre innovation créature artificielle possède des mains articulées ou des appendices similaires avec une dextérité manuelle significative. Elle peut accomplir des actions de manipulation avec jusqu'à deux de ses membres. Comme à l'ordinaire pour un compagnon, elle ne peut pas manier des armes ou tenir des objets qui ne possèdent pas le trait compagnon et elle ne peut activer des objets.</p>"
+        },
+        "Antimagic Construction": {
+            "name": "Antimagic Construction",
+            "description": "<p>Que vous ayez utilisé une adaptation astucieuse du métal céleste annulant la magie connu sous le nom de noqual ou créé des protections magiques de votre propre conception, vous avez renforcé votre armure contre la magie. Lorsque vous portez l'armure, vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde contre les sorts et à la CA contre les sorts. Contre les sorts qui ciblent directement l'armure (comme <em>Métal brûlant</em>), vous obtenez un bonus de circonstances de +4 aux jets de sauvegarde et à la CA.</p>"
+        },
+        "Amphibious Construct": {
+            "name": "Amphibious Construct",
+            "description": "<p>Une flottabilité accrue, des gouvernes et un moyen de propulsion tel qu'une nageoire caudale ou une puissante hélice rendent votre créature artificielle capable de se déplacer dans l'eau. Votre innovation gagne une Vitesse de nage de 7,50 mètres.</p>"
+        },
+        "Flight Chassis": {
+            "name": "Flight Chassis",
+            "description": "<p>Vous équipez votre construction d'un moyen de voler, par exemple en ajoutant des rotors ou en la reconstruisant avec des ailes et en allégeant la structure. Votre innovation gagne une Vitesse de vol de 7,50 mètres.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

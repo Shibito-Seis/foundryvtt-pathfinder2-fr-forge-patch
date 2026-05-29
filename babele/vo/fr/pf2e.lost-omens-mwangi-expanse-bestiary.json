@@ -1,0 +1,841 @@
+{
+    "label": "Bestiaire du Mwangi",
+    "entries": {
+        "Anadi Elder": {
+            "name": "Anadi Elder",
+            "description": "<p>Les anadis sont des humanoïdes pacifiques et reclus qui vivent dans les profondeurs des forêts, des jungles et des autres zones des milieux sauvages indomptées. Leurs formes naturelles ressemblent à ds araignées humanoïdes couvertes de magnifiques marques distinctives de couleurs variées. Ces motifs sont aussi uniques que les traits du visage, les taches de naissance et les divers éléments d'identification des autres humanoïdes.</p>\n<p>Les anadis possèdent un talent inné pour l'illusion et la transmutation. Ils ont appris il y a longtemps à quel point leurs formes naturelles peuvent rebuter les autres humanoïdes, c'est pourquoi ils utilisent fréquemment leurs talents innés pour prendre des formes humaines. Lorsqu'ils le font, seuls les reflets étranges et charmants de leurs yeux sombres et les mouvements délibérés et saccadés de leurs gestes peuvent indiquer qu'un anadi n'est pas tout à fait ce qu'il semble être. Conscients de la sensibilité délicate des autres humanoïdes à l'égard des arachnides, beaucoup d'anadis considèrent qu'il est impoli de montrer leurs formes naturelles à un étranger. Au lieu de cela, la plupart d'entre eux ne montrent leur forme arachnéenne que comme tactique d'intimidation lorsqu'ils sont menacés, ou dans l'intimité, avec les personnes en qui ils ont confiance.</p>\n<p>La plupart des anadis sont timides et cherchent à mener une vie tranquille en récoltant des champignons et en tissant de magnifiques étoffes de soie à motifs. Lorsqu'ils sont contraints de combattre - une éventualité que la plupart des anadis méprisent - ils prennent leur forme hybride dès que possible, ce qui leur permet d'infliger leur venin naturel dévastateur à leurs ennemis.</p>\n<hr />\n<p>Les anciens anadis doivent prendre la difficile décision de savoir s'il faut poursuivre les négociations ou d'escalader le désaccord vers un conflit ouvert.</p>",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader sous forme hybride ou d'araignée"
+                }
+            },
+            "CraftingVariants": {
+                "0": {
+                    "label": "pour tisser"
+                }
+            },
+            "items": {
+                "0jVMpFdmLptitEg2": {
+                    "name": "Shortsword"
+                },
+                "2hwlETciGbSsXUuA": {
+                    "name": "Hypnotic Pattern"
+                },
+                "9tibEwYfjEhP0iu2": {
+                    "name": "Color Spray"
+                },
+                "NhEfmIq6aHHuARfT": {
+                    "name": "Spin Silk",
+                    "description": "<p>En passant plusieurs minutes, un anadi peut produire de la soie pour Fabriquer des objets faits en tissu. Un unique anadi peut produire assez de soie en une journée pour fabriquer un unique vêtement.</p>"
+                },
+                "RCJltuaZMaBLOV1s": {
+                    "name": "Fangs"
+                },
+                "erpI2F3ndjp1a0Nz": {
+                    "name": "Mage Hand"
+                },
+                "fxQVtzxLK32xSoAF": {
+                    "description": "<p>L'anadi adopte sa forme hybride, sa forme d'araignée ou sa forme humaine. Les statistiques ci-dessus partent du principe que l'anadi est sous sa forme hybride. Lorsqu'il est sous sa forme humaine, l'ancien anadi ne peut utiliser son attaque de crocs et perd sa Vitesse d'escalade. Sous sa forme d'araignée, il ne peut utiliser d'armes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                "iNrdCRoNJNLvtTuA": {
+                    "name": "Composite Longbow"
+                },
+                "pdnQW8Ct65O3JJGY": {
+                    "name": "Anadi Venom",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Durée maximale</strong> 4 rounds</p>\n<p><strong>Stade 1</strong> @Damage[2d6[poison]]{2d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[1d6[poison]]{1d6 dégâts de poison}, Pris au dépourvu et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} (1 round)</p>"
+                },
+                "q43Zr9WI9C73JqZq": {
+                    "name": "Arcane Innate Spells"
+                },
+                "wdUOhUops5zx6J2p": {
+                    "name": "Invisibility Sphere"
+                }
+            }
+        },
+        "Solar Ibis": {
+            "name": "Solar Ibis",
+            "description": "<p>Les ibis solaires sont des êtres de lumière parfois appelés oiseaux du soleil ou \"luminaires ailés\" par les plus érudits. Ils sont chargés de garder les lieux ou les objets sacrés, bien qu'ils protègent aussi parfois les vivants des endroits les plus dangereux. Leur apparition est toujours précédée par celle de nombreux petits oiseaux aux ailes violettes et à la couronne jaune, avatars de l'ibis qui nichent et se rassemblent dans les zones qu'il protège. La présence de ces avatars est souvent le seul moyen de suivre ces créatures recluses et solitaires. Si l'ibis solaire choisit d'apparaître, ces petits oiseaux se dispersent comme des animaux sauvages. L'oiseau solaire se manifeste alors et baigne la zone dans une brillante pluie de lumière qui peut aveugler et faire sursauter les créatures imprudentes et non préparées à sa présence.</p>\n<p>L'ibis solaire apparaît comme un grand oiseau magnifique entouré d'un halo de lumière brillante. Ses plumes noires brillent de toutes les couleurs du spectre, projetant des arcs-en-ciel étincelants sur son plumage. Il est doté d'un sens aigu de la perspicacité, qu'il utilise pour juger dans son ensemble si ceux qui le précèdent sont dignes d'accéder à ce qu'il garde. Il punit ceux qu'il juge indignes de sa puissance purificatrice.</p>\n<p>Bien qu'ils soient considérés comme sacrés par la plupart des habitants des Étendues du Mwangi, certains chassent encore ces glorieuses créatures. Certains recherchent les trésors que les ibis conservent, tandis que d'autres recherchent les ibis eux-mêmes, morts ou vivants. Certains croient que les plumes d'un ibis solaire, lorsqu'elles sont brûlées, créent un encens qui peut conférer un pouvoir sacré à ceux qui l'inhalent. D'autres croient que ses os et ses pattes peuvent être broyés en une poudre capable de détruire les démons et de purifier les morts-vivants.</p>",
+            "languages": "ne peut parler aucune langue",
+            "items": {
+                "8cKp6lKT5oL6dOn4": {
+                    "name": "Ibis Dive",
+                    "description": "<p>L'ibis solaire Vole au double de sa Vitesse de vol en ligne droite, descendant d'au moins 3 mètres puis porte une Frappe de serre.</p>"
+                },
+                "PBICMyxMv3Mp6NsM": {
+                    "name": "Evasion",
+                    "description": "<p>Lorsqu'un ibis solaire obtient un succès sur un jet de Réflexes, il considère qu'il s'agit d'un succès critique.</p>"
+                },
+                "PwKGsTUERVGvk8dr": {
+                    "name": "Light Shatter",
+                    "description": "<p>L'ibis solaire fait exploser son halo, projetant dans toutes les directions des éclats de lumière brûlante qui infligent @Damage[6d8[fire]]{6d8 dégâts de feu} à toutes les créatures dans une @Template[emanation|distance:20]{émanation de 6 mètres} (@Check[reflex|dc:22|basic]). Ces éclats infligent @Damage[6d8[spirit]]{6d8 dégâts spirituels} supplémentaires contre les fiélons et les morts-vivants.</p>\n<p>L'ibis solaire ne peut utiliser de nouveau Fracassement de lumière pendant [[/gmr 1d4 #Recharge de Fracassement de lumière]]{1d4 rounds} et son Halo aveuglant s'éteint pendant cette période. Le halo est restauré automatiquement une fois que les 1d4 rounds se sont déroulés.</p>"
+                },
+                "Wh9drGchO0qrVs4U": {
+                    "name": "Talon"
+                },
+                "qg6EYfhHr4O83rA9": {
+                    "name": "Blinding Halo",
+                    "description": "<p>9 mètres. L'ibis solaire émet de la lumière vive. Les créatures qui débutent leur tour dans l'aura doivent réussir un jet de @Check[fortitude|dc:22] ou être @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouies} pendant 1 minute. Une créature qui obtient un échec critique sur son jet est @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveuglée} pendant 1 minute à la place.</p>\n<p>Les créatures qui obtiennent un succès sont temporairement immunisées à cet effet pendant 24 heures.</p>\n<p>L'ibis solaire peut éteindre ou rallumer la lumière du halo par une unique action, qui possède le trait concentration.</p>"
+                },
+                "uDVantmuNb4lHPSt": {
+                    "name": "Beak"
+                }
+            }
+        },
+        "Biloko Veteran": {
+            "name": "Biloko Veteran",
+            "description": "<p>Un biloko qui a dirigé un nombre suffisant de chasse avec succès attire le respect (et la peur) se des compagnons.</p>\n<hr />\n<p>Les bilokos sont des fées au museau de crocodile qui rôdent dans la jungle du Mwangi et se régalent de la chair des humanoïdes. Aussi rusés que vicieux, les bilokos utilisent des pièges mortels et des tactiques de guérilla pour capturer leurs proies, généralement des explorateurs malchanceux ou, à l'occasion, des villageois égarés, dont beaucoup croient que les bilokos sont des esprits ancestraux cruels. Les plus puissantes de ces créatures, connues sous le nom d'elokos, exercent une puissante magie de transformation.</p>\n<p>Les bilokos ont un penchant pour les clochettes, dont le son signale souvent la présence. En plus de les porter et de les faire sonner lorsqu'ils chassent, les bilokos enchantent parfois les clochettes avec une magie puissante ou les accrochent à des cordes pour servir d'alarmes autour de leurs campements.</p>\n<p>Les Bilokos ressemblent à des humanoïdes sveltes mais râblés, avec des têtes de crocodile, une peau couleur rouille et des yeux rouge sang. Ils ne mangent que de la viande d'humanoïdes, mais ils peuvent survivre pendant de longues périodes avec un unique repas grâce à leur capacité, semblable à celle d'un serpent, de consommer entièrement une créature humanoïde de taille moyenne. Pour ce faire, ils ouvrent leurs mâchoires et avalent lentement leur victime de la tête aux pieds. Grâce à sa salive acide et à ses dents acérées, le biloko peut réduire sa nourriture en une pulpe facile à digérer, broyant la chair et les os en une bouillie compacte, même lorsqu'il avale. Il ne bronche donc pas lorsqu'il dévore des repas deux ou trois fois plus gros que lui.</p>\n<p>Un biloko fraichement nourri est facilement reconnaissable à son ventre affaissé et distendu. Cependant, malgré son apparence alourdie, la fée n'en est pas moins dangereuse car elle prend plaisir à tuer et pourrait avoir des camarades affamés qui se cachent à proximité, attendant de se nourrir.</p>",
+            "items": {
+                "2IlYOWVCX2TfmEcN": {
+                    "name": "Jaws"
+                },
+                "6mxWk9oM7RspRKLc": {
+                    "name": "Swipe",
+                    "description": "<p>Le vétéran biloko effectue une Frappe au corps-à-corps et compare le résultat de son jet d'attaque à la CA de deux adversaires (au maximum), qui doivent se trouver tous les deux dans l'allonge de son attaque au corps-à-corps et l'un adjacent à l'autre. Ne lancez qu'une seule fois les dégâts et appliquez-les à chaque créature touchée.</p>\n<p>Une Frappe transversale compte comme deux attaques pour la pénalité d'attaques multiples du vétéran biloko.</p>"
+                },
+                "MFbGTQDbPN1fqij6": {
+                    "name": "Shortbow"
+                },
+                "bXgRimCzt5v6iBye": {
+                    "name": "Primal Innate Spells"
+                },
+                "sPkpudP9OSY9jDE7": {
+                    "name": "Longspear"
+                },
+                "u74JAOvwMJtUTYIo": {
+                    "name": "Inspired Feast",
+                    "description": "<p>Si un biloko festoie d'un cadavre humain pendant 1 minute ou plus, il obtient un bonus de statut de +1 à ses jets d'attaque et un bonus de statut de +2 à ses jets de dégâts pendant 1 heure.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.EM0VP31B8CyjFD15]{Effet : Festin inspirant}</p>"
+                }
+            }
+        },
+        "Maliadi": {
+            "name": "Maliadi",
+            "description": "<p>Un maliadi ressemble à un hippopotame massif entouré d'un collier de flammes. Les maliadis sont arrogants et tyranniques et exigent un tribut de tous ceux qu'ils rencontrent, qu'il s'agisse de voyageurs solitaires ou de villages entiers, pour éviter leur destruction. Nombreux sont ceux qui les payent, car les maliadis peuvent projeter des morceaux de leur collier de flammes pour former des geysers de flammes ou des murs enflammés et ils sont également de puissants métamorphes.</p>",
+            "items": {
+                "B5JZXq3ugCwVNY5I": {
+                    "name": "Jaws"
+                },
+                "GCzfafuOop1VOwxg": {
+                    "name": "Counterspelling Wall",
+                    "description": "<p><strong>Déclencheur</strong> Une créature dans les 30 mètres du maliadi que le maliadi peut voir Lance un sort qui cible le maliadi</p>\n<hr />\n<p><strong>Effet</strong> Le maliadi lance un de ces sorts innés @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Mur de feu}, avec une durée de 1 round.</p>\n<p>Si le sort qui a déclenché cette réaction franchit le mur de feu, le mur tenter de le contrer, avec un modificateur de contre de [[/r 1d20+28]]{+28}.</p>"
+                },
+                "Ias9P7r19TNysvO6": {
+                    "description": "<p>Très grande, @Damage[(3d10+17)[bludgeoning]]{3d10+17 dégâts contondants}, Rupture 35</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                "JmuzVgN41rKZWAEP": {
+                    "name": "Collar of Fire",
+                    "description": "<p>Le maliadi possède une résistance 20 contre les attaques physiques à distance, tels que les flèches, les carreaux, les javelots et les roches lancés car de telles attaques sont magiquement déviées à travers son collier de feu.</p>\n<p>Les armes non magiques et les munitions affectées par cette capacité sont incinérées et détruites.</p>"
+                },
+                "RI9tmh42fk5iU0FW": {
+                    "name": "Innate Primal Spells"
+                },
+                "fkAJ3wwmp65qoaGo": {
+                    "name": "River Form",
+                    "description": "<p>Le maliadi prend la forme d'un bras de rivière, avec des effets de @UUID[Compendium.pf2e.spells-srd.Item.U0hL0LLaprcnAyzC]{Migration}, sauf que le maliadi ne peut s'affecter que lui-même, apparaissant comme un bras de rivière qui occupe le même espace que le maliadi et qui ne peut quitter le sol.</p>"
+                },
+                "hfEkTv3mZ19jWXz5": {
+                    "name": "Gaseous Form"
+                },
+                "kPYpreLipQjheZzj": {
+                    "name": "Deep Breath",
+                    "description": "<p>Le maliadi peut retenir sa respiration pendant 1 journée.</p>"
+                },
+                "kvJNya3qy945t3jp": {
+                    "description": "<p>Le maliadi peut prendre l'apparence de tout animal de taille Grande, Très grande ou gigantesque. Cela ne change ni sa Vitese, ni ses Frappes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                "lzXJgjHA96IOH3zF": {
+                    "name": "Capsize",
+                    "description": "<p>Le maliadi tente de faire chavirer un navire aquatique adjacent de sa taille ou plus petit.</p>\n<p>Le maliadi doit réussir r un test d'@Check[athletics|dc:35] (réduit de 5 par tranche de taille inférieure du vaisseau par rapport à celle du maliadi) ou le DD de connaissance de la navigation maritime du pilote, s'il est plus élevé.</p>"
+                },
+                "tyMNSMyHuAJTj3oz": {
+                    "name": "Foot"
+                },
+                "vZ5bxxJbi92Cs7s3": {
+                    "name": "Freedom of Movement (Constant)"
+                },
+                "zWEFdMq1oFwMEbBD": {
+                    "name": "True Seeing (Constant)"
+                },
+                "zltKri0RdONGiYzp": {
+                    "description": "<p>Très grande ou plus petite, patte, @Check[reflex|dc:38|traits:damaging-effect]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+                }
+            }
+        },
+        "Charau-ka Warrior": {
+            "name": "Charau-ka Warrior",
+            "description": "<p>La légende raconte que les charau-ka ont pour ancêtre le seigneur démon Angazhan, qui a transformé les cadavres des humains qui ont fait la guerre à son culte, les faisant renaître sous la forme des premiers humanoïdes ressemblant à des mandrilles. Bien que cela n'ait pas été prouvé depuis longtemps, des rumeurs persistent selon lesquelles les prêtres charau-ka ont mis au point un rituel hideux qui force les morts à se réincarner en nouveaux charau-ka en l'honneur de cette ancienne histoire. D'autres récits affirment que de puissants autels consacrés à Angazhan renferment ce pouvoir et que les sacrifices rituels devant ces artefacts magiques ramènent les esprits des morts à la vie sous la forme de violents dévots d'Angazhan, le maître de ceux qui se délectent de la sauvagerie et de la destruction.</p>\n<p>La plus grande forteresse charau-ka de l'Étendue de Mwangi est la ville d'Usaro, située sur les rives du lac Ocota. Bien que la mort de leur roi gorille ait provoqué des troubles politiques, les charau-ka s'unissent volontiers pour kidnapper ou assassiner tout étranger à la région.</p>\n<hr />\n<p>Un combattant charau-ka porte des hachettes, des dagues et un arsenal similaire sur sur leur personne. Ils ne se préoccupent habituellement pas d'être à court d'armes de jet, les pierres arrachées au sol étant tout aussi mortelles dans leurs mains.</p>",
+            "items": {
+                "FmJqPlmnFyGUsuhR": {
+                    "name": "Dagger"
+                },
+                "SW82ptRgUxB88231": {
+                    "name": "Shrieking Frenzy",
+                    "description": "<p><strong>Déclencheur</strong> Le tour du charau-ka commence</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Le charau-ka est @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accéléré} jusqu'à la fin de son tour et il peut utiliser l'action supplémentaire pour Marcher rapidement ou Frapper. Tant qu'il est sous l'effet de sa Frénésie, le charau-ka ne peut parler et obtient automatiquement un échec critique à tous ses tests de Discrétion, à cause de ses plaintes bruyantes.</p>"
+                },
+                "Y8WPnqV6kzFd4ZsF": {
+                    "name": "Thrown Debris"
+                },
+                "YfMTAuZV4ybrtDyc": {
+                    "name": "Hatchet"
+                },
+                "ls0qwCu7iDzfposG": {
+                    "name": "Fist"
+                },
+                "sGDr2h4N12CW3LTU": {
+                    "name": "Thrown Weapon Mastery",
+                    "description": "<p>Lorsqu'un charau-ka lance une arme de jet, l'arme obtient le trait mortel d6. De plus, quand un charau-ka lance une arme improvisée, il ne subit pas la pénalité de -2 pour l'utilisation d'une telle arme et ne subit pas la pénalité en utilisant une arme de jet improvisée avec le trait non-létal pour porter une attaque létale.</p>"
+                },
+                "wvCvk6evB2QuiIxb": {
+                    "name": "Hatchet"
+                },
+                "zLBKa8fDq0OWU1hl": {
+                    "name": "Dagger"
+                }
+            }
+        },
+        "Anadi Sage": {
+            "name": "Anadi Sage",
+            "description": "<p>Les anadis sont des humanoïdes pacifiques et reclus qui vivent dans les profondeurs des forêts, des jungles et des autres zones des milieux sauvages indomptées. Leurs formes naturelles ressemblent à ds araignées humanoïdes couvertes de magnifiques marques distinctives de couleurs variées. Ces motifs sont aussi uniques que les traits du visage, les taches de naissance et les divers éléments d'identification des autres humanoïdes.</p>\n<p>Les anadis possèdent un talent inné pour l'illusion et la transmutation. Ils ont appris il y a longtemps à quel point leurs formes naturelles peuvent rebuter les autres humanoïdes, c'est pourquoi ils utilisent fréquemment leurs talents innés pour prendre des formes humaines. Lorsqu'ils le font, seuls les reflets étranges et charmants de leurs yeux sombres et les mouvements délibérés et saccadés de leurs gestes peuvent indiquer qu'un anadi n'est pas tout à fait ce qu'il semble être. Conscients de la sensibilité délicate des autres humanoïdes à l'égard des arachnides, beaucoup d'anadis considèrent qu'il est impoli de montrer leurs formes naturelles à un étranger. Au lieu de cela, la plupart d'entre eux ne montrent leur forme arachnéenne que comme tactique d'intimidation lorsqu'ils sont menacés, ou dans l'intimité, avec les personnes en qui ils ont confiance.</p>\n<p>La plupart des anadis sont timides et cherchent à mener une vie tranquille en récoltant des champignons et en tissant de magnifiques étoffes de soie à motifs. Lorsqu'ils sont contraints de combattre - une éventualité que la plupart des anadis méprisent - ils prennent leur forme hybride dès que possible, ce qui leur permet d'infliger leur venin naturel dévastateur à leurs ennemis.</p>\n<hr />\n<p>Les sages anadis communient avec la nature et perfectionnent la magie par la pratique.</p>",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader dans sa forme hybride ou sa forme d'araignée"
+                }
+            },
+            "CraftingVariants": {
+                "0": {
+                    "label": "pour tisser"
+                }
+            },
+            "items": {
+                "KojSvVZ5dHJmdSbp": {
+                    "name": "Mage Hand"
+                },
+                "XhoGkdNs2eBgo5bM": {
+                    "name": "Anadi Venom",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Durée maximale</strong> 4 rounds</p>\n<p><strong>Stade 1</strong> @Damage[1d6[poison]]{1d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[1d6[poison]]{1d6 dégâts de poison}, Pris au dépourvu et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} (1 round)</p>"
+                },
+                "eyepymQeLB62rP72": {
+                    "name": "Arcane Innate Spells"
+                },
+                "gBLSXznhLW43fqlS": {
+                    "name": "Spin Silk",
+                    "description": "<p>En passant plusieurs minutes, un anadi peut produire de la soie pour Fabriquer des objets faits en tissu. Un unique anadi peut produire assez de soie en une journée pour fabriquer un unique vêtement.</p>"
+                },
+                "gETps6KlWUO9BOyL": {
+                    "description": "<p>L'anadi adopte sa forme hybride, sa forme d'araignée ou sa forme humaine. Les statistiques ci-dessus partent du principe que l'anadi est sous sa forme hybride. Lorsqu'il est sous sa forme humaine, le sage anadi ne peut utiliser son attaque de crocs et perd sa Vitesse d'escalade. Sous sa forme d'araignée, il ne peut utiliser d'armes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                "gKhylYG9Kf6mCVUE": {
+                    "name": "Fangs"
+                },
+                "ln0iflmlLphhU2dF": {
+                    "name": "Shortsword"
+                },
+                "vb58RyBSVKSbVa7D": {
+                    "name": "Color Spray"
+                }
+            }
+        },
+        "Eloko": {
+            "name": "Eloko",
+            "description": "<p>Si un biloko est suffisamment chanceux pour absorber plusieurs incacntateurs ou d'autres créatures qui possèdent des capacités magique innées, il se produit une subtile transformation en l'espace s'une semaine. Une telle fée est connue sous le nom d'eloko et, en plus de son appétit incroyable (même selon les standards bilokos ), possède la capacité surnaturelle de grandir pour atteindre une taille immense.</p>\n<hr />\n<p>Les bilokos sont des fées au museau de crocodile qui rôdent dans la jungle du Mwangi et se régalent de la chair des humanoïdes. Aussi rusés que vicieux, les bilokos utilisent des pièges mortels et des tactiques de guérilla pour capturer leurs proies, généralement des explorateurs malchanceux ou, à l'occasion, des villageois égarés, dont beaucoup croient que les bilokos sont des esprits ancestraux cruels. Les plus puissantes de ces créatures, connues sous le nom d'elokos, exercent une puissante magie de transformation.</p>\n<p>Les bilokos ont un penchant pour les clochettes, dont le son signale souvent la présence. En plus de les porter et de les faire sonner lorsqu'ils chassent, les bilokos enchantent parfois les clochettes avec une magie puissante ou les accrochent à des cordes pour servir d'alarmes autour de leurs campements.</p>\n<p>Les Bilokos ressemblent à des humanoïdes sveltes mais râblés, avec des têtes de crocodile, une peau couleur rouille et des yeux rouge sang. Ils ne mangent que de la viande d'humanoïdes, mais ils peuvent survivre pendant de longues périodes avec un unique repas grâce à leur capacité, semblable à celle d'un serpent, de consommer entièrement une créature humanoïde de taille moyenne. Pour ce faire, ils ouvrent leurs mâchoires et avalent lentement leur victime de la tête aux pieds. Grâce à sa salive acide et à ses dents acérées, le biloko peut réduire sa nourriture en une pulpe facile à digérer, broyant la chair et les os en une bouillie compacte, même lorsqu'il avale. Il ne bronche donc pas lorsqu'il dévore des repas deux ou trois fois plus gros que lui.</p>\n<p>Un biloko fraichement nourri est facilement reconnaissable à son ventre affaissé et distendu. Cependant, malgré son apparence alourdie, la fée n'en est pas moins dangereuse car elle prend plaisir à tuer et pourrait avoir des camarades affamés qui se cachent à proximité, attendant de se nourrir.</p>",
+            "items": {
+                "B4L5rrixuMmIF0Mn": {
+                    "name": "Primal Innate Spells"
+                },
+                "HS2K7FagxIukdgY0": {
+                    "name": "Jaws"
+                },
+                "HaiCjx3LddeWTUTo": {
+                    "name": "Blowgun"
+                },
+                "Qm04XnmcECPmSr9k": {
+                    "name": "Size Alteration",
+                    "description": "<p>L'éloko est affecté par un sort d'@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Agrandissement} au rang 4. Cela dure pendant 1 minute et l'eloko peut Révoquer le sort.</p>"
+                },
+                "R8eOc6d3csgtd2S1": {
+                    "name": "Dagger"
+                },
+                "ZJ4VXfHFBFSDQBu3": {
+                    "name": "Dagger"
+                },
+                "aCFzrVFHI5hMNIww": {
+                    "description": "<p>L'éloko inflige 2d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "nGSh87HW3Cnx9gsR": {
+                    "name": "Blowgun Darts (Poisoned)"
+                },
+                "paoFQRpD7yc48lgn": {
+                    "name": "Inspired Feast",
+                    "description": "<p>Si un biloko festoie d'un cadavre humain pendant 1 minute ou plus, il obtient un bonus de statut de +1 à ses jets d'attaque et un bonus de statut de +2 à ses jets de dégâts pendant 1 heure.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.EM0VP31B8CyjFD15]{Effet : Festin inspirant}</p>"
+                }
+            }
+        },
+        "K'nonna": {
+            "name": "K'nonna",
+            "description": "<p>Un k'nonna est une moitié d'humain - et seulement une moitié, au sens le plus littéral du terme. Ils ressemblent le plus souvent à la moitié droite d'un humain, plus rarement à la moitié gauche, parfaitement fendue en son milieu à partir du sommet de la tête. Ils ont donc un œil, une oreille, un bras, une jambe, la moitié d'un nez et la moitié d'une bouche pleine de dents aiguisées comme des rasoirs. Un léger scintillement dans l'air, comme les vagues sur une pierre chaude, laisse entrevoir l'emplacement de l'autre moitié.</p>\n<p>Malgré leur apparence bizarre, les k'nonnas n'ont aucune difficulté à tenir en équilibre ou à effectuer des tâches quotidiennes qui pourraient être entravées par l'absence de la moitié de leur corps. Ils sont extrêmement adroits, capables d'effectuer des tâches complexes avec une seule main. La nature de leur moitié manquante a jusqu'à présent défié toute explication. Elle n'est pas invisible et n'existe pas sur un autre plan, mais elle semble exercer suffisamment de force pour qu'un k'nonna puisse marcher comme un être humain.</p>\n<p>Personne n'est certain des origines des k'nonnas, si ce n'est qu'ils ne sont pas de ce monde et ne descendent d'aucune créature mortelle connue. La magie de bannissement n'a aucun effet sur eux, ce qui implique qu'ils ne viennent pas d'un autre plan. Ils sont intelligents, mais il est difficile de communiquer avec eux : ils ne parlent qu'à demi-mot et n'entendent qu'à moitié ce qu'on leur dit. Les k'nonnas s'intéressent beaucoup moins à la conversation qu'à la nourriture, et les humanoïdes sont leur repas préféré. Les restes de la victime d'un k'nonna sont reconnaissables, car ils ne consomment que la moitié du corps.</p>\n<p>Les histoires racontent que ces demi-hommes aiment les cadeaux, en particulier les bijoux. Les offrandes de bagues et de colliers distraient facilement un k'nonna suffisamment longtemps pour permettre à la proie de s'échapper. Les victimes les plus audacieuses peuvent essayer de tromper un k'nonna en lui faisant porter un bracelet qui lie leur seul poignet ou cheville visible afin de les immobiliser, bien que cette tactique ne soit pas infaillible, car un k'nonna mécontent de ses cadeaux chassera la personne qui lui a déplu jusqu'à la fin de ses jours.</p>",
+            "languages": "voir demi-parleur",
+            "items": {
+                "6C2GqTT5fDsCyi7g": {
+                    "name": "Jaws"
+                },
+                "TQfSl3IbFAv26t8Q": {
+                    "name": "Fist"
+                },
+                "qqYEHc1PVdtmltg3": {
+                    "name": "Gilded Fascination",
+                    "description": "<p>Lorsqu'il se fait offrir un don d'une valeur d'au moins 50 po, le k'nonna doit faire un jet de @Check[will|dc:20]. Si le don est d'une valeur d'au moins 100 po, le DD est de @Check[will|dc:25|name:Fascination doré supérieur].</p>\n<p>En cas d'échec au jet de sauvegarde, le k'nonna accepte le don, devient @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fasciné} jusqu'à la fin de leur prochain tour et ne peut attaque tant qu'il est fasciné. En cas d'échec critique, la fascination dure pendant 1 minute.</p>\n<p>Offrir un don est une action Interagir et offrir plusieurs dons au cours du même round n'a pas d'effet supplémentaire.</p>"
+                },
+                "tFpAHyH73IXBqT5F": {
+                    "name": "Pounce",
+                    "description": "<p>Le k'nonna Marche rapidement et porte une Frappe à la fin de son déplacement. Si le k'nonna a commencé cette action en étant caché, il reste caché jusqu'à ce qu'il ait porté la Frappe de cette capacité.</p>"
+                },
+                "tYIw3txzXdYOMvO4": {
+                    "name": "Half Steps",
+                    "description": "<p>Même si le k'nonna est coupé en deux, il se déplace et Marche rapidement comme s'il avait deux bras et deux jambes. Cependant, si on lui lie un seul poignet ou une seule cheville, il est incapable d'utiliser ce membre, comme s'il était lié à un autre.</p>"
+                },
+                "uFV9awWQUUTLzpt8": {
+                    "name": "Half-Speaker",
+                    "description": "<p>Une k'nonna peut communiquer facilement avec d'autres k'nonnas, mais lorsqu'il communique avec d'autres créatures, seule la moitié des mots prononcés ont un sens.</p>\n<p>Pour transmettre des informations à un k'nonna ou comprendre ce qu'elle dit, un non-k'nonna doit réussir un test de @Check[perception|dc:20].</p>"
+                }
+            }
+        },
+        "Kaava Stalker": {
+            "name": "Kaava Stalker",
+            "description": "<p>Les kaavas sont des humanoïdes furtifs vivant dans la jungle et dotés de courtes plumes de duvet qui, de loin, peuvent facilement être confondues avec de la fourrure. Sous ces plumes, les kaava possèdent des écailles résistantes. Les écailles et les plumes ont une pigmentation changeante qui permet au kaava de se fondre dans le feuillage environnant comme un caméléon.</p>\n<hr />\n<p>Les groupes de chasseurs kaavas peuvent se compter par dizaines, bien qu'ils se fondent facilement dans la forêt et dissimulent toute trace de leur passage. Les anciens de la communauté assignent diverses tâches aux groupes de chasseurs, comme la récupération de nourriture ou la dissuasion des intrus, mais ces groupes sont censés accomplir ces tâches comme ils l'entendent.</p>",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans les forêts ou les jungles"
+                }
+            },
+            "items": {
+                "9G5eprAsQmphgOR0": {
+                    "name": "Jaws"
+                },
+                "Hqdc4UqMK8WH8lpj": {
+                    "name": "Obsidian Sickle"
+                },
+                "aj4svCLsqg6Kl49n": {
+                    "name": "Skulking Attack",
+                    "description": "<p>Si un traqueur kaava commence son tour en étant @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Cachée} ou @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détectée} par une créature, cette créature est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} contre les attaques du kaava jusqu'à la fin du tour.</p>"
+                },
+                "bTQcoDwvxBEcR9n7": {
+                    "name": "Spear"
+                },
+                "cJG6eTtw6fybvkU1": {
+                    "name": "Sickle"
+                },
+                "y8uixHmSwKHiGGut": {
+                    "name": "Trackless",
+                    "description": "<p>Un kaava se déplaçant à la moitié de sa vitesse ou moins marche si légèrement qu'il ne laisse virtuellement aucune trace. Les DD des tests pour @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Pister} un kaava sont augmentés de 10.</p>"
+                }
+            }
+        },
+        "Mamlambo": {
+            "name": "Mamlambo",
+            "description": "<p>Les mamlambos sont des prédateurs fluviaux à la peau hypnotique et bioluminescente. Ils ressemblent à des crocodiles, mais la tête étroite au bout de leur long cou ressemble à un crâne de cheval et leurs quatre pattes sont trapues et inefficaces pour se déplacer sur la terre ferme. L'éclat vert de leur peau est à peine visible à la lumière du jour ou sous l'eau, mais il est difficile d'y résister. C'est pourquoi ils sont souvent suivis par des poissons, des oiseaux ou d'autres créatures fluviales attirés par leur éclat séduisant.</p>\n<p>Les humanoïdes sont les proies préférées des mamlambos, en particulier les humains, bien qu'ils préfèrent étrangement ne manger que le visage et le cerveau de leurs victimes. Les mamlambos sont peu intelligents mais rusés et cachent parfois leurs victimes sous des rochers ou des troncs d'arbre submergés afin d'éviter qu'elles ne soient découvertes. Un mamlambo peut être actif dans une région pendant des jours, voire des semaines, avant que sa présence ne soit découverte.</p>",
+            "SurvivalVariants": {
+                "0": {
+                    "label": "pour Pister"
+                }
+            },
+            "items": {
+                "2oevhXnu1QOT55BQ": {
+                    "name": "Face Eater",
+                    "description": "<p><strong>Conditions</strong> Le mamlambo a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravé} une créature ou il y a une créature @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Mourante}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} ou @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} dans l'allonge du mamlambo</p>\n<hr />\n<p><strong>Effet</strong> Le mamlambo inflige @Damage[(2d8+11)[piercing]]{2d8+11 dégâts perforants} à la créature (@Check[fortitude|dc:28|basic]).</p>\n<p>En cas d'échec, la créature subit aussi @Damage[2d6[bleed]]{2d6 dégâts de saignement} supplémentaires ou @Damage[4d6[bleed]]{4d6 dégâts de saignement} sur un échec critique.</p>"
+                },
+                "A93SkvxMG74AEH1p": {
+                    "description": "<p>15 mètres</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
+                },
+                "IpvCxCkYJzPHJu0M": {
+                    "name": "Luminous Lure",
+                    "description": "<p>9 mètres. Le mamlambo émet une lumière faible à partir de sa peau. Une créature qui pénètre ou commence son tour dans l'aura doit réussir un jet de @Check[will|dc:23]. Les humanoïdes subissent une pénalité de -2 à ce jet de sauvegarde.</p>\n<p>Quel que soit le résultat du jet, la créature est temporairement immunisée pendant 10 minutes.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} et tant qu'elle se trouve dans l'aura, elle doit passer au moins 1 se ses actions à chacun de ses tours pour se rapprocher plus près du mamlambo aussi rapidement que possible, tout en évitant les dangers évidents. Si la créature termine son déplacement ou son tour adjacent au mamlambo, elle est Ralentie 1 jusqu'à ce qu'elle sorte de l'aura ou jusqu'à ce que le mamlambo lui porte une Frappe.</p>\n<p>La cible peut tenter un nouveau jet de Volonté au ddébut de chacun de ses tourssuivants et, en cas de succès, l'effet se termine.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, sauf que la créature doit passer chacune de ses actions à se déplacer pour se rapprocher du mamlambo et, si la créature termine son déplacement ou son tour adjacent au mamlambo, elle est @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée} jusqu'à ce qu'elle sorte de l'aura ou jusqu'à ce que le mamlambo lui porte une Frappe.</p>"
+                },
+                "cv6PTXyDI2kYqY3l": {
+                    "name": "Attack of Opportunity (Tail Only)",
+                    "description": "<p>Queue seulement</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                "f3pNQPzw0uoQMQm2": {
+                    "name": "Tail"
+                },
+                "zIIyPgt8WGCYilod": {
+                    "name": "Jaws"
+                }
+            }
+        },
+        "Grootslang": {
+            "name": "Grootslang",
+            "description": "<p>Bien qu'il soit facile de confondre un grootslang et un éléphant au premier regard, une fois que le reste de son corps devient visible, la créature ressemble à une poupée grotesque manipulée comme une marionnette de l'intérieure par un serpent assez grand pour avaler un bâtiment. Un grootslang mesure environ 6 m de haut avec une peau ressemblant à une armure de plaques et une paire de passtes avant massives. Il possède six défenses mortelles capables de percer la chair et les os facilement. Le reste de son corps s'étend jusuq'à 18 mètres de long. La tête du grootslang ressemble à celle d'un éléphant, mais comme la plupart de ses cousins serpents, ul peut démantibulter sa mâchoire inférieure pour gober ses proies.</p>\n<p>Une personne qui rencontre un grootslang a une infime chance de raisonner ou de corrompre la bête, s'échappant possiblement d'un destin mortel. Un bution composé de gemmes n'est toutefois pas une garantie de sécurité et un grootslang particulièrement cruel est susceptible de revenir sur la parole donnée juste après avoir reçu l'offrande.</p>",
+            "items": {
+                "CJSHuwoLNcLj6iWJ": {
+                    "name": "Defensive Coil",
+                    "description": "<p>Le grootslang enroule son corps. Il obtient une résistance 20 contre les attaques physiques jusqu'au début de son prochain tour.</p>"
+                },
+                "EqiCFPbBB1kojE3q": {
+                    "description": "<p>Mâchoire uniquement, Très grande, @Damage[(3d12+10)[bludgeoning]]{3d12+10 contondants}, Rupture 37</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                "NYKLnAalhc45FLgf": {
+                    "name": "Thunderous Slam",
+                    "description": "<p>Le grootslang fait une Frappe de patte contre une créature dans son allonge.</p>\n<p>Que la Frappe touche ou pas, toutes les créatures dans les 3 mètres du grootslang doivent tenter un jet de @Check[reflex|dc:37|traits:damaging-effect].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son tour.</p>\n<p><strong>Échec</strong> La créature est mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et subit @Damage[2d8[bludgeoning]]{2d8 dégâts contondants}.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec sauf que la créature subit @Damage[4d8[bludgeoning]]{4d8 dégâts contondants}.</p>"
+                },
+                "NvzyHxVeGqojn5EK": {
+                    "name": "Foot"
+                },
+                "VMcwUvR4wlGflpeU": {
+                    "description": "<p>Queue seulement, @Damage[(2d12+12)[bludgeoning]]{2d12 dégâts contondants}, @Check[fortitude|dc:34|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+                },
+                "hhn6WCOoaWnJvopl": {
+                    "name": "Jaws"
+                },
+                "igxLTKJFu59021Eh": {
+                    "name": "Tail"
+                },
+                "jAQWygxVNJjiKzIK": {
+                    "name": "Deep Breath",
+                    "description": "<p>Un grootslang peut retenir sa respiration pendant 1 heure.</p>"
+                },
+                "sCqDHZfsQ6odPwEq": {
+                    "name": "Aquatic Elusion",
+                    "description": "<p><strong>Conditions</strong> Le grootslang est totalement immergé dans l'eau</p>\n<hr />\n<p><strong>Effet</strong> Le grootslang se téléporte vers une autre étendue d'eau dans les 1,5 km qui est suffisamment important pour accueillir le grootslang.</p>"
+                },
+                "vLKTy929m3lP4HBw": {
+                    "name": "Tusk"
+                }
+            }
+        },
+        "Asanbosam": {
+            "name": "Asanbosam",
+            "description": "<p>Les asanbosams sont des humanoïdes monstrueux et poilus avec des crocs en fer froid et des membres musculeux qui se terminent par des griffes puissantes et crochues. Ils se pendant dans la canopée à partir de leurs pieds crochues en attendant patiemment qu'une créature passe en dessous. Les asanbosams attrapent leur proie par au dessus, s'accrochant au cou de leur victime pour boire leur sang. Ils réagissent à ce qu'ils perçoivent comme des intrusions de manière belliqueuse, en traquant les intrus à partir des branches hautes. Les peuples autochtones racontent des histoires horrribles sur ce \"peuple arboricole suceur de sang\" et les explorateurs expérimentés gardent un œil vigilant sur les canopées dans les territoires des asanbosams. Les visiteurs des Étendues comparent souvent les asanbosams aux vampires, mais ces horreurs ne sont pas des morts-vivants et n'ont aucune cousinage.</p>\n<p>Le régime alimentaire de l'asanbosam nécessite une grande quantité de fer (généralement sous forme de sang) pour maintenir l'intégrité de ses dents surdimensionnées en fer froid. Lorsqu'il ne chasse pas ou ne s'accouple pas, l'asanbosam passe ses heures de veille à mâcher certains types de roches pour aiguiser ses dents.</p>\n<p>Certaines légendes populaires prétendent que les asanbosams sont aussi vieux que le monde et qu'ils constituent la source originelle du fer froid et que les veines de métal trouvées dans le sol seraient en fait les cimetières d'anciens asanbosams. Des braconniers courageux (ou stupides) s'infiltrent souvent dans le territoire des asanbosams pour chasser ces monstres dans l'espoir de récolter des sacs de leurs précieuses dents.</p>",
+            "items": {
+                "LGocfA4bhbnXFwea": {
+                    "name": "Drink Blood",
+                    "description": "<p><strong>Conditions</strong> Une victime @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} ou consentante est dans l'allonge des mâchoires de l'asanbosam</p>\n<hr />\n<p><strong>Effet</strong> L'asanbosam plonge ses dentes dans la créature pour boire son sang. Si la victime est Agrippée, c'est automatique. Autrement, l'asanbosam doit réussir un test d'@Check[athletics|defense:fortitude] contre le DD de Vigueur de la victime. La victime est @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1} et l'asanbosam récupère @Damage[10[healing]]{10 PV}, tout excès de Points de vie au-delà de son maximum se transforme en Points de vie temporaires. Ces Points de vie temporaires persistent pendant 1 minute.</p>\n<p>Boire du sang d'une créature qui est déjà Drainée augmente la valeur de l'état Drainé de la victime de 1 jusqu'à un maximum de Drainé 3, mais ne permet pas à l'asanbosam de récupérer des PV.</p>\n<p>L'état Drainé d'une victime décroît de 1 chaque semaine. Une transfusion sanguine, qui nécessite la réussite d'un test de @Check[medicine|dc:20|name:Traitement de Boire le sang] et un donneur de sang ou suffisamment de sang, réduit la valeur de l'état Drainé de 1 après 10 minutes.</p>"
+                },
+                "Ow5XxjlhLQfaOHU4": {
+                    "name": "Attack from Above",
+                    "description": "<p><strong>Conditions</strong> L'asanbosam est positionné au dessus d'une créature</p>\n<hr />\n<p><strong>Effet</strong> L'asanbosam porte une Frappe de griffe avec son allonge augmentée à 4,50 mètres. S'il touche, la Frappe inflige @Damage[1d6[slashing]]{1d6 dégâts tranchants supplémentaires} et l'asanbosam Agrippe immédiatement la cible et la tire vers un espace adjacent à l'asanbosam.</p>\n<p>Cela compte comme deux attaques pour le calcul de la pénalité d'attaques multiples de l'asanbosam.</p>"
+                },
+                "aMonCZ2HbKmRMGa4": {
+                    "name": "Cold Iron Jaws"
+                },
+                "zK0CLdcqjHeldCOi": {
+                    "name": "Claw"
+                }
+            }
+        },
+        "Charau-ka Acolyte of Angazhan": {
+            "name": "Charau-ka Acolyte of Angazhan",
+            "description": "<p>La légende raconte que les charau-ka ont pour ancêtre le seigneur démon Angazhan, qui a transformé les cadavres des humains qui ont fait la guerre à son culte, les faisant renaître sous la forme des premiers humanoïdes ressemblant à des mandrilles. Bien que cela n'ait pas été prouvé depuis longtemps, des rumeurs persistent selon lesquelles les prêtres charau-ka ont mis au point un rituel hideux qui force les morts à se réincarner en nouveaux charau-ka en l'honneur de cette ancienne histoire. D'autres récits affirment que de puissants autels consacrés à Angazhan renferment ce pouvoir et que les sacrifices rituels devant ces artefacts magiques ramènent les esprits des morts à la vie sous la forme de violents dévots d'Angazhan, le maître de ceux qui se délectent de la sauvagerie et de la destruction.</p>\n<p>La plus grande forteresse charau-ka de l'Étendue de Mwangi est la ville d'Usaro, située sur les rives du lac Ocota. Bien que la mort de leur roi gorille ait provoqué des troubles politiques, les charau-ka s'unissent volontiers pour kidnapper ou assassiner tout étranger à la région.</p>\n<hr />\n<p>Même après la chute du roi gorille, de nombreux charau-ka continuent de vénérer la terrible puissance du dieu Angazhan. Les plus forts de ces acolytes gardent les marches du Haut Trône à Usaro, s'assurant que personne ne disposant pas des faveurs d'Angazhan ou capables des prouesses physiques adéquates ne puisse s'approcher du sommet de l'imposante pyramide de pierre.</p>",
+            "items": {
+                "460N6IY9mz7Q5PMC": {
+                    "name": "Shrieking Frenzy",
+                    "description": "<p><strong>Déclencheur</strong> Le tour du charau-ka commence</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Le charau-ka est @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accéléré} jusqu'à la fin de son tour et il peut utiliser l'action supplémentaire pour Marcher rapidement ou Frapper. Tant qu'il est sous l'effet de sa Frénésie, le charau-ka ne peut parler et obtient automatiquement un échec critique à tous ses tests de Discrétion, à cause de ses plaintes bruyantes.</p>"
+                },
+                "Aiel3i6qUCQzsBGi": {
+                    "name": "Thrown Debris"
+                },
+                "GnPGkfl05VUeslvu": {
+                    "name": "Fist"
+                },
+                "HnOpZWLguL9MUBSI": {
+                    "name": "Entangle"
+                },
+                "INMmtWy9d8wwwQE9": {
+                    "name": "Divine Prepared Spells"
+                },
+                "X52vV6cMtvVUfWAc": {
+                    "name": "Thrown Weapon Mastery",
+                    "description": "<p>Lorsqu'un charau-ka lance une arme de jet, l'arme obtient le trait mortel d6. De plus, quand un charau-ka lance une arme improvisée, il ne subit pas la pénalité de -2 pour l'utilisation d'une telle arme et ne subit pas la pénalité en utilisant une arme de jet improvisée avec le trait non-létal pour porter une attaque létale.</p>"
+                },
+                "Zu1uFSiGUIpH95Dk": {
+                    "name": "Sound Burst"
+                },
+                "kqycfEusjoOTWAFi": {
+                    "name": "Ray of Enfeeblement"
+                },
+                "lADE1ey6PWQIbwr9": {
+                    "name": "Spear"
+                },
+                "pkpGTujeKMf8YVxr": {
+                    "name": "Spear"
+                }
+            }
+        },
+        "Charau-ka Butcher": {
+            "name": "Charau-ka Butcher",
+            "description": "<p>La légende raconte que les charau-ka ont pour ancêtre le seigneur démon Angazhan, qui a transformé les cadavres des humains qui ont fait la guerre à son culte, les faisant renaître sous la forme des premiers humanoïdes ressemblant à des mandrilles. Bien que cela n'ait pas été prouvé depuis longtemps, des rumeurs persistent selon lesquelles les prêtres charau-ka ont mis au point un rituel hideux qui force les morts à se réincarner en nouveaux charau-ka en l'honneur de cette ancienne histoire. D'autres récits affirment que de puissants autels consacrés à Angazhan renferment ce pouvoir et que les sacrifices rituels devant ces artefacts magiques ramènent les esprits des morts à la vie sous la forme de violents dévots d'Angazhan, le maître de ceux qui se délectent de la sauvagerie et de la destruction.</p>\n<p>La plus grande forteresse charau-ka de l'Étendue de Mwangi est la ville d'Usaro, située sur les rives du lac Ocota. Bien que la mort de leur roi gorille ait provoqué des troubles politiques, les charau-ka s'unissent volontiers pour kidnapper ou assassiner tout étranger à la région.</p>\n<hr />\n<p>Bien que les charau-ka soient réputés pour leur brutalité, certains d'entre eux effraient même leur propre peuple à cause de leur obsession pour la violence. Ces bouchers mortels sont passés maîtres dans l'art d'infliger des blessures vicieuses et sanglantes à leurs ennemis et ils considèrent toute personne qui n'est pas charau-ka comme un ennemi. Le simple goût du sang d'un ennemi peut lui conférer une force terrifiante, comme si le boucher charau-ka tirait littéralement son pouvoir de la douleur infligée à ses victimes.</p>",
+            "items": {
+                "1wSANkYbvhM6Z2R2": {
+                    "name": "Thrown Weapon Mastery",
+                    "description": "<p>Lorsqu'un charau-ka lance une arme de jet, l'arme obtient le trait mortel d6. De plus, quand un charau-ka lance une arme improvisée, il ne subit pas la pénalité de -2 pour l'utilisation d'une telle arme et ne subit pas la pénalité en utilisant une arme de jet improvisée avec le trait non-létal pour porter une attaque létale.</p>"
+                },
+                "C733S6U2bTn8YXmm": {
+                    "name": "Mauler",
+                    "description": "<p>Tant que le boucher charau-ka est en rage, ses Frappes au corps-à-corps infligent @Damage[1d4[bleed]]{1d4 dégâts de saignement}.</p>"
+                },
+                "MxjCTwDFZ03c5jVc": {
+                    "name": "Fist"
+                },
+                "ODrCaowNXEHvNgn5": {
+                    "name": "Rage",
+                    "description": "<p><strong>Conditions</strong> Le boucher charau-ka n'est pas @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué} ou en rage</p>\n<hr />\n<p>Le boucher charau-ka puise dans sa fureur intérieure et commence à se déchaîner. Le boucher charau-ka obtient un nombre de Points de vie temporaires égal à son niveau plus son modificateur de Constitution. Cette frénésie dure 1 minute, jusqu'à ce qu'il n'y ait plus d'ennemis qu'il puisse percevoir ou jusqu'à ce qu'il soit inconscient, selon ce qui se produit en premier. Il ne peut pas mettre un terme volontairement à son déchainement. Pendant qu'il est enragé :</p>\n<ul>\n<li>Il inflige 2 dégâts supplémentaires sur les Frappes au corps-à-corps. Ces dégâts supplémentaires est divisé par deux si leur attaque d'arme ou à mains nues est agile.</li>\n<li>Il subit une pénalité de -1 à la CA.</li>\n<li>Il ne peut utiliser d'actions avec le trait concentration à moins qu'elle ne possède aussi le trait rage. Ils peuvent chercher durant leur rage.</li>\n</ul>\n<p>Après avoir achevé leur rage, il perd tous Points de vie temporaires liés à la rage et ile ne peut de nouveau entrer en rage avant 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Effet : Rage}</p>"
+                },
+                "Uioct4jDb676vZCb": {
+                    "name": "Shrieking Frenzy",
+                    "description": "<p><strong>Déclencheur</strong> Le tour du charau-ka commence</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Le charau-ka est @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accéléré} jusqu'à la fin de son tour et il peut utiliser l'action supplémentaire pour Marcher rapidement ou Frapper. Tant qu'il est sous l'effet de sa Frénésie, le charau-ka ne peut parler et obtient automatiquement un échec critique à tous ses tests de Discrétion, à cause de ses plaintes bruyantes.</p>"
+                },
+                "avyGW2UfQRziPWNZ": {
+                    "name": "Trident"
+                },
+                "fGO6kbxeB5SJHFpV": {
+                    "name": "Blood Fury",
+                    "description": "<p><strong>Déclencheur</strong> Le boucher charau-ka inflige des dégâts de saignement à une créature.</p>\n<hr />\n<p><strong>Effet</strong> Le charau-ka lèche le sang sur son arme, devenant furieux. Il regagne @Damage[5[healing]]{5 PV} et obtient un bonus de statut de +1 aux jets d'attaques jusqu'à la fin de son tour.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.LOLoQpaAp5cC0hbm]{Effet : Furie du sang}</p>"
+                },
+                "lNpwy4Rk5IKOxvvy": {
+                    "name": "Thrown Debris"
+                },
+                "uRYGVQ4dqfB4MbNY": {
+                    "name": "Trident"
+                }
+            }
+        },
+        "Aigamuxa": {
+            "name": "Aigamuxa",
+            "description": "<p>Les aigamuxas sont des humanoïdes imposants qui parcourent les déserts arides à la recherche de proies. Carnivores et voraces, ils chassent tout ce qui bouge, mais se délectent surtout des créatures intelligentes. De nombreux mwangis qualifient à tort les aigamuxas de démons, tandis que d'autres les décrivent plus précisément comme les descendants de géants. Les aigamuxas ressemblent à de grands humains avec des creux lisses à l'endroit où devraient se trouver leurs yeux, mais ces derniers sont en fait enfoncés dans la plante de leurs pieds. Ils portent de longues griffes et des dents acérées qu'ils utilisent pour déchiqueter leurs proies une fois qu'ils les ont attrapées. La démarche étrange d'un aigamuxa en mouvement ressemble plus à une danse qu'à une marche ou une course typique, mais sa vitesse est alarmante, même si elle est difficile à estimer correctement à distance.</p>\n<p>La physiologie unique de l'aigamuxa rend la capture des proies difficile et la plupart des aigamuxas ont constamment faim. Lorsqu'il poursuit une proie, l'aigamuxa doit de temps en temps s'arrêter pour soulever ses pattes afin de retrouver ses repères. La plupart se tiennent sur les mains tout en regardant autour d'eux, ce qui leur permet de revenir immédiatement en arrière pour courir. Les yeux de l'aigamuxa résistent généralement au sable de leur habitat désertique d'origine, mais des irritants tels que des piments ou des chausse-trappes peuvent sérieusement altérer leur capacité à chasser et les voyageurs du désert en emportent souvent un sac au cas où ils auraient affaire à un aigamuxa.</p>\n<p>Rusés, les aigamuxas savent qu'il est très dangereux d'attaquer des proies errantes et préfèrent utiliser leurs mains puissantes pour creuser profondément dans les dunes de sable ou la terre et attendre pour tendre une embuscade aux passants. Les aigamuxas sont particulièrement doués pour se cacher dans leur environnement et les voyageurs malchanceux ne remarquent souvent les yeux à peine visibles d'un aigamuxa que lorsqu'il est trop tard.</p>",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans les déserts"
+                }
+            },
+            "items": {
+                "2rc7rftQQ1MLECXG": {
+                    "description": "<p>Petite, @Damage[(2d12+4)[bludgeoning]]{2d12+4 dégâts contondants}, Rupture 22</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                "5ptRIaj3SWZbrDDO": {
+                    "name": "Weak Feet",
+                    "description": "<p>Si un aigamuxa tsubit des dégâts lorsqu'il Marche rapidement ou Fais un pas sur un terrain dangereux ou une case avec des pièges au sol similaires (comme des chausse-trappes), ils ne peuvent plus Chercher jusqu'à la fin de leur prochain tour.</p>"
+                },
+                "AAqmK3Yvg7ChGpRl": {
+                    "name": "Limited Vision",
+                    "description": "<p>Les yeux d'un aigamuxa sont situés sur la plante de ses pieds, ce qui leur rend difficile de voir. Un aigamuxa est typiquement @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveugle}. S'il @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Cherche}, ils peuvent voir normalement jusqu'à la fin de leur tour.</p>"
+                },
+                "FH4V8Xw43HQPNctv": {
+                    "name": "Burrowing Concealment",
+                    "description": "<p><strong>Conditions</strong> L'aigamuxa se tient sur de la terre, du sable ou une autre surface molle</p>\n<hr />\n<p><strong>Effet</strong> L'aigamuxa creuse rapidement dans la surface et @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Se cache}. Il laisse ses pieds partiellement exposés, lui permettant de voir à la surface. L'aigamuxa peut retenir sa respiration pendant 10 minutes lorsqu'il se cache de cette manière.</p>"
+                },
+                "kPGbuie2boUJmwwM": {
+                    "name": "Jaws"
+                },
+                "mBWCH69hMveboorN": {
+                    "name": "Burrowed Ambush",
+                    "description": "<p><strong>Conditions</strong> L'aigamuxa @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Se cache} dans la terre meuble, le sable ou une autre surface molle</p>\n<hr />\n<p><strong>Effet</strong> L'aigamuxa effectue une Frappe de griffe contre une créature dans son allonge. S'il touche, l'aigamuxa Agrippe automatiquement la créature. Qu'il ait touché ou non, l'aigamuxa Marche rapidement. Si la créature est Agrippée, elle se déplace avec l'aigamuxa.</p>"
+                },
+                "qCRYzxalKMvt2eOZ": {
+                    "name": "Claw"
+                }
+            }
+        },
+        "Rompo": {
+            "name": "Rompo",
+            "description": "<p>Les rompos sont des créatures inhabituelles qui se nourrissent de cadavres. Leur corps est mince, presque squelettique, avec des pattes arrière puissantes qui ressemblent à celles d'un ours, des pattes avant comme celles d'un blaireau et une tête comme celle d'un lièvre avec des oreilles humanoïdes. Le rompo a tendance à être timide. Il évite les autres créatures et s'enfuit généralement en présence d'animaux plus grands. Bien qu'il ne soit pas plus intelligent qu'une autre bête, il agit généralement avec une extrême paranoïa, déjouant les pièges et les embuscades avec une étonnante perspicacité. En cas de danger, le rompo pousse un grand cri pour se ménager un espace de fuite et se cache en utilisant sa fourrure aux couleurs fluctuantes comme moyen de camouflage.</p>\n<p>Bien que les rompos possèdent les caractéristiques physiques parfaites pour agir en tant que prédateurs, ils ont tendance à vivre leur vie de charognards solitaires en utilisant les restes de cadavres. Les rompos préfèrent éviter de chasser pour eux-mêmes car ils risquent de se blesser. Il n'est pas rare que les rompos suivent d'autres prédateurs pendant des heures, attendant l'occasion de se régaler des restes d'une chasse.</p>\n<p>Lorsqu'un rompo a accès à un repas, il passe plusieurs minutes à tourner autour du cadavre pour s'assurer que la zone est dégagée. Lorsqu'il commence à se régaler, il pousse un cri plaintif qui fascine et oblige les autres créatures à se tenir à l'écart pour que le rompo puisse se nourrir en toute tranquillité. Comme il se nourrit constamment de chair en décomposition, la bouche du rompo est remplie de pourriture, de parasites et d'agents pathogènes mortels. Sa morsure peut transmettre ces infections combinées sous la forme d'une maladie dangereuse connue sous le nom de <em>Frissons du rompo</em>. Cette maladie provoque chez la victime des tremblements incontrôlables, légers au début, puis violents et qui se terminent par la mort de la victime. Malgré leur tempérament précautionneux, les rompos semblent toujours s'attarder près des créatures qu'ils infectent des <em>Frissons du rompo</em>. Bien qu'ils restent invisibles tant que la victime est en vie, ils émergent lorsqu'elle succombe enfin, afin de se nourrir de son cadavre.</p>",
+            "items": {
+                "1miPsRSIcintuJOE": {
+                    "name": "Crooning Cry",
+                    "description": "<p>18 mètres. Le rompo fredonne à voix basse. Chaque créature au sein de l'émanation doit réussir un jet de @Check[will|dc:19] ou être @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} et se sentir obligée de s'éloigner du rompo, se déplaçant au bord de l'émanation. Les créatures fascinées sont aussi @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>\n<p>L'effet dure pendant 1 round, mais si le rompo dépense une action unique lors des rounds suivants, il peut étendre la durée d'1 round pour toutes les créatures affectées. Si le rompo attaque, l'état fasciné ne s'interrompt que pour la créature qui est attaquée.</p>\n<p>En cas de succès sur le jet de sauvegarde, une créature est temporairement immunisée à la Plainte chantonnée pendant 24 heures.</p>"
+                },
+                "5ijBHOJkiKaEC6s2": {
+                    "name": "Camouflage",
+                    "description": "<p>Le rompo peut changer sa coloration pour pourvoir se fondre dans l'environnement. Il n'a pas besoin d'abri pour tenter de se Cacher avec un test de Discrétion.</p>"
+                },
+                "IHVmUejGVzUcWtIG": {
+                    "name": "Claws"
+                },
+                "tJTwWiHQordmLTR4": {
+                    "name": "Jaws"
+                },
+                "xBis9ZRZVsgcF0Ns": {
+                    "name": "Rompo Chills",
+                    "description": "<p>La cible ne peut réduire son état Nauséeux tant qu'elle est affectée par les frissons du rompo</p>\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Délai</strong> 1 jour</p>\n<hr />\n<p><strong>Stade 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} (1 jour)</p>\n<p><strong>Stade 2</strong> Maladroit 1 et @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (1 jour)</p>\n<p><strong>Stade 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2} et @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 2} (1 jour)</p>\n<p><strong>Stade 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient} (1 jour)</p>\n<p><strong>Stade 5</strong> mort</p>"
+                }
+            }
+        },
+        "Karina": {
+            "name": "Karina",
+            "description": "<p>Les karinas, également appelés oiseaux de la peste, sont de grandes créatures ressemblant à des hiboux, dotées de plumes rouge foncé, de serres puissantes et d'yeux inquiétants. Leurs larges ailes cachent une paire de bras humanoïdes qui se terminent par des doigts griffus, qu'ils utilisent pour fouiller les sites funéraires à la recherche de cadavres. L'objectif de ces fouilles reste un mystère, mais la plupart des gens pensent que les karinas s'emparent de ces cadavres pour les consommer à l'abri dans leur repaire. La difficulté de traquer ces bêtes, ainsi que le danger, font qu'il est difficile d'en avoir le cœur net.</p>\n<p>L'apparence terrifiante d'un karina suggère qu'il ne s'agit pas d'une créature naturelle. De nombreuses légendes affirment que les karinas se sont d'abord envolés d'Abaddon vers l'Univers pour consommer les cadavres des premiers mortels, tandis que d'autres affirment que le premier karina est né de l'âme du premier mortel qui s'est adonné au cannibalisme. Le pouvoir du bien repousse les karinas, ce qui suggère une origine maléfique ou fiélonne.</p>\n<p>Les karinas sont des porteurs de maladie et attaquent intentionnellement des créatures pour répandre leur propre peste. La maladie surnaturelle dont ils sont porteurs, connue sous le nom de <em>fléau des tombes</em>, provoque de la fièvre, de la désorientation et (à un stade plus avancé) un désir irrépréssible d'attaquer les autres et de propager la maladie. Les karinas se délectent de l'effondrement lent des villages, se cachant dans la jungle environnante pour observer chaque moment de misère. Lorsque les habitants enterrent leurs morts, les karinas s'approchent pour voler les cadavres.</p>\n<p>En plus d'être le vecteur d'une terrible maladie, les karinas ont aussi la faculté d'imiter les voix. Elle répètent typiquement des phrases qu'elles ont entendu, mais transforment la voix en une version corrompue de l'originelle. Assez intelligentes pour reconnaître les amis et les membres de la famille d'une cible possible, un karina utilisera la voix imité d'un être cher pour les effrayer. Lorsqu'ils terrorisent un village, ils travaillent ensemble en groupes de deux ou trois.</p>",
+            "languages": "ne peut parler aucune langue",
+            "items": {
+                "0lzu6bfck0YarxR5": {
+                    "name": "Claws"
+                },
+                "GYJ6GHWDxvwvbLki": {
+                    "name": "Sound Imitation",
+                    "description": "<p>Un karina qui réussit un test de Duperie pour Mentir peut imiter n'importe quelle voix qu'il a entendu. Il bénéficie d'un bonus de circonstances de +4 à ce test.</p>"
+                },
+                "H1PGojvxkIsvrHqR": {
+                    "name": "Grave Blight",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Stade 1</strong> porteur sans symptômes (1 jour)</p>\n<p><strong>Stade 2</strong> @Damage[1d6[poison]]{1d6 dégâts de poison}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (1 jour)</p>\n<p><strong>Stade 3</strong> @Damage[1d8[poison]]{1d8 dégâts de poison}, chaque heure la victime doit réussir un jet de Vigueur ou être @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 minute, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2} (1 jour)</p>"
+                },
+                "NWjkzN3dNcZGRrg7": {
+                    "name": "Beak"
+                },
+                "efUGr9NzEDDkHLgh": {
+                    "name": "Mocking Cry",
+                    "description": "<p>Le karina imite une voix et se moque d'une créature dans un rayon de 9 mètres. Il tente un test de Duperie pour Démoraliser la créature.</p>\n<p>Que le test soit ou non un succès, la créature ciblée est temporairement immunisée contre le Cri railleur du karina pendant 1 heure.</p>"
+                },
+                "tOyviMr7BziJqKBH": {
+                    "name": "Talons"
+                }
+            }
+        },
+        "Anadi Hunter": {
+            "name": "Anadi Hunter",
+            "description": "<p>Les anadis sont des humanoïdes pacifiques et reclus qui vivent dans les profondeurs des forêts, des jungles et des autres zones des milieux sauvages indomptées. Leurs formes naturelles ressemblent à ds araignées humanoïdes couvertes de magnifiques marques distinctives de couleurs variées. Ces motifs sont aussi uniques que les traits du visage, les taches de naissance et les divers éléments d'identification des autres humanoïdes.</p>\n<p>Les anadis possèdent un talent inné pour l'illusion et la transmutation. Ils ont appris il y a longtemps à quel point leurs formes naturelles peuvent rebuter les autres humanoïdes, c'est pourquoi ils utilisent fréquemment leurs talents innés pour prendre des formes humaines. Lorsqu'ils le font, seuls les reflets étranges et charmants de leurs yeux sombres et les mouvements délibérés et saccadés de leurs gestes peuvent indiquer qu'un anadi n'est pas tout à fait ce qu'il semble être. Conscients de la sensibilité délicate des autres humanoïdes à l'égard des arachnides, beaucoup d'anadis considèrent qu'il est impoli de montrer leurs formes naturelles à un étranger. Au lieu de cela, la plupart d'entre eux ne montrent leur forme arachnéenne que comme tactique d'intimidation lorsqu'ils sont menacés, ou dans l'intimité, avec les personnes en qui ils ont confiance.</p>\n<p>La plupart des anadis sont timides et cherchent à mener une vie tranquille en récoltant des champignons et en tissant de magnifiques étoffes de soie à motifs. Lorsqu'ils sont contraints de combattre - une éventualité que la plupart des anadis méprisent - ils prennent leur forme hybride dès que possible, ce qui leur permet d'infliger leur venin naturel dévastateur à leurs ennemis.</p>\n<hr />\n<p>Les chasseurs anadis agissent comme les yeux et les oreilles de leurs clans, epxlorant la zone environnante pour des envahisseurs potentiels.</p>",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader sous forme hybride ou d'araignée"
+                }
+            },
+            "CraftingVariants": {
+                "0": {
+                    "label": "pour tisser"
+                }
+            },
+            "items": {
+                "KPDIlbvK82mxxlkp": {
+                    "description": "<p>L'anadi adopte sa forme hybride, sa forme d'araignée ou sa forme humaine. Les statistiques ci-dessus partent du principe que l'anadi est sous sa forme hybride. Lorsqu'il est sous sa forme humaine, le chasseur anadi ne peut utiliser son attaque de crocs et perd sa Vitesse d'escalade. Sous sa forme d'araignée, il ne peut utiliser d'armes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                "OdUVWVv4ABHnNbsY": {
+                    "name": "Fangs"
+                },
+                "X4o2Nohic2HhrQYb": {
+                    "name": "Composite Shortbow"
+                },
+                "ou1yl6f4qh1BkRPI": {
+                    "name": "Anadi Venom",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:16]</p>\n<p><strong>Durée maximale</strong> 4 rounds</p>\n<p><strong>Stade 1</strong> @Damage[1d6[poison]]{1d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[1d6[poison]]{1d6 dégâts de poison}, Pris au dépourvu et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} (1 round)</p>"
+                },
+                "s36n7hPAaYABVc0p": {
+                    "name": "Shortsword"
+                },
+                "vvXU4PalVWLPjnDg": {
+                    "name": "Spin Silk",
+                    "description": "<p>En passant plusieurs minutes, un anadi peut produire de la soie pour Fabriquer des objets faits en tissu. Un unique anadi peut produire assez de soie en une journée pour fabriquer un unique vêtement.</p>"
+                }
+            }
+        },
+        "Biloko Warrior": {
+            "name": "Biloko Warrior",
+            "description": "<p>Les bilokos préfèrent se déplacer en petites meutes furtives dans les parties sombres et isolées de la forêt. Lorsqu'une bande de bilokos trouve un terrain de chasse propice, elle en revendique l'exclusivité, creusant des fosses à pieux, fabriquant des pièges artisanaux à partir de lianes et construisant des caches en haut des arbres où ses membres peuvent préparer une embuscade.</p>\n<hr />\n<p>Les bilokos sont des fées au museau de crocodile qui rôdent dans la jungle du Mwangi et se régalent de la chair des humanoïdes. Aussi rusés que vicieux, les bilokos utilisent des pièges mortels et des tactiques de guérilla pour capturer leurs proies, généralement des explorateurs malchanceux ou, à l'occasion, des villageois égarés, dont beaucoup croient que les bilokos sont des esprits ancestraux cruels. Les plus puissantes de ces créatures, connues sous le nom d'elokos, exercent une puissante magie de transformation.</p>\n<p>Les bilokos ont un penchant pour les clochettes, dont le son signale souvent la présence. En plus de les porter et de les faire sonner lorsqu'ils chassent, les bilokos enchantent parfois les clochettes avec une magie puissante ou les accrochent à des cordes pour servir d'alarmes autour de leurs campements.</p>\n<p>Les Bilokos ressemblent à des humanoïdes sveltes mais râblés, avec des têtes de crocodile, une peau couleur rouille et des yeux rouge sang. Ils ne mangent que de la viande d'humanoïdes, mais ils peuvent survivre pendant de longues périodes avec un unique repas grâce à leur capacité, semblable à celle d'un serpent, de consommer entièrement une créature humanoïde de taille moyenne. Pour ce faire, ils ouvrent leurs mâchoires et avalent lentement leur victime de la tête aux pieds. Grâce à sa salive acide et à ses dents acérées, le biloko peut réduire sa nourriture en une pulpe facile à digérer, broyant la chair et les os en une bouillie compacte, même lorsqu'il avale. Il ne bronche donc pas lorsqu'il dévore des repas deux ou trois fois plus gros que lui.</p>\n<p>Un biloko fraichement nourri est facilement reconnaissable à son ventre affaissé et distendu. Cependant, malgré son apparence alourdie, la fée n'en est pas moins dangereuse car elle prend plaisir à tuer et pourrait avoir des camarades affamés qui se cachent à proximité, attendant de se nourrir.</p>",
+            "cadetails": "(18 avec le bouclier levé)",
+            "items": {
+                "IDeS7HR5rJH6G6Dn": {
+                    "name": "Spear"
+                },
+                "JbwMg2BBvURlzLdX": {
+                    "name": "Jaws"
+                },
+                "XDCJ3PGz2z4zo3Fo": {
+                    "name": "Inspired Feast",
+                    "description": "<p>Si un biloko festoie d'un cadavre humain pendant 1 minute ou plus, il obtient un bonus de statut de +1 à ses jets d'attaque et un bonus de statut de +2 à ses jets de dégâts pendant 1 heure.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.EM0VP31B8CyjFD15]{Effet : Festin inspirant}</p>"
+                },
+                "cByTJu0osoRovlGC": {
+                    "description": "<p>Même s'ils se présentent sous toute une variété de formes et de tailles, la protection offerte par les boucliers en bois vient de la robustesse de leurs matériaux. Le bouclier en bois est moins cher que le bouclier en acier mais il se brise plus facilement.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr><th>Solidité</th><th>PV</th><th>SR</th></tr>\n</thead>\n<tbody>\n<tr>\n    <td>3</td>\n    <td>12</td>\n    <td>6</td>\n</tr></tbody></table>"
+                },
+                "cey14Luo1DtXz0rN": {
+                    "name": "Primal Innate Spells"
+                },
+                "rQUeALtgRWTTwU1P": {
+                    "name": "Spear"
+                }
+            }
+        },
+        "Zinba": {
+            "name": "Zinba",
+            "description": "<p>Communément appelés serpents fantômes, les zinbas sont des serpents amphibies rares dotés de capacités de guérison. Ils sont de la même taille que d'autres grands serpents, tels que les pythons, mais ils sont d'un bleu vif distinct, avec des rayures rouges et noires le long du dos. Cette coloration distincte est facile à repérer, mais les zinbas peuvent nager dans la boue humide et la terre molle qui constitue leur habitat pour éviter d'être repérés par tous les poursuivants, à l'exception des plus habiles. C'est ce caractère insaisissable qui lui vaut son surnom de \"serpent fantôme\".</p>\n<p>Un zinba peut métaboliser un additif unique pour son venin qui, d'un poison mortel, le transforme en un agent curatif, ce qui rend les zinbas particulièrement précieux aux yeux des guérisseurs et des braconniers. La demande de zinbas est élevée sur de nombreux marchés. Les serpents vivants atteignent des sommes considérables, mais les œufs de zinbas sont particulièrement précieux, car les zinbas élevés en captivité sont moins obstinés et plus susceptibles de se nourrir en milieu d'élevage. Toutefois, leur caractère insaisissable incite de nombreuses personnes à rechercher leurs tanières qui sont de grandes mares d'eau situées dans des zones humides éloignées ou des creux souterrains à proximité de plans d'eau. L'eau de la marre d'un zinba possède également des vertus curatives mineures mais précieuses, mais si l'on retire l'eau de la tanière, elle perd ses propriétés curatives au bout de quelques heures, si bien que la plupart de ceux qui trouvent une tanière tentent de l'utiliser immédiatement.</p>\n<p>Même la recherche des repaires est une tâche difficile, car les zinbas sont particulièrement intelligents pour des animaux et peuvent reconnaître les signes de voyageurs à proximité de leurs cachettes préférées. Lorsqu'il y a des signes de danger, un zinba détruit sa tanière et s'enfuit pour en créer une autre ailleurs.</p>",
+            "languages": "ne peut parler aucune langue",
+            "items": {
+                "8C3dwNbdW7Ck8njn": {
+                    "description": "<p>@Damage[(2d10+6)[bludgeoning]]{2d10+6 dégâts contondants}, @Check[fortitude|dc:29|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+                },
+                "BibTvmqNq8t4WsxM": {
+                    "name": "Zinba Restoration",
+                    "description": "<p>Le zinba mord une créature dans son allonge et lui délivre un remède restaurateur aux effets de soins immédiats au lieu de son venin. La créature subit @Damage[1[piercing]]{1 dégât perforant} mais obtient alors Guérison accélérée 5 pendant 1 minute.</p>\n<p>De plus, cette restauration tente de contrer tout poison ou maladie affectant la créature avec un modificateur de contre de [[/r 1d20+22]]{+22}.</p>\n<p>Une créature qui reçoit cette restauration est temporairement immunisé à la restauration du zinba pendant 24 heures.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dslTaCkliOH5lZ6k]{Effet : Restauration zinba}</p>"
+                },
+                "J32aRTXCa9FxIRIH": {
+                    "description": "<p>Moyenne, @Damage[(2d10+6)[bludgeoning]]{2d10+6 contondants}, Rupture 23</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                "Pcwj9EhvjUW2YzwX": {
+                    "name": "Zinba Venom",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Durée</strong> 6 rounds</p>\n<p><strong>Stade 1</strong> @Damage[3d6[poison]]{3d6 dégâts de poison} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[4d6[poison]]{4d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainé 1}</p>"
+                },
+                "Pdcp2VD4aE0psFww": {
+                    "name": "Tighten Coils",
+                    "description": "<p><strong>Déclencheur</strong> Une créature agrippée ou entravée par les tentatives du zinba tente de S'échapper</p>\n<hr />\n<p><strong>Effet</strong> Le DD du test pour S'échapper et augmenté de 2.</p>"
+                },
+                "QSi2DdjTxOroNGWQ": {
+                    "name": "Jaws"
+                },
+                "SlxxoCfG3DRyP0Ay": {
+                    "name": "Tail"
+                },
+                "Vxy96kPKk88gz9Qe": {
+                    "name": "Slither",
+                    "description": "<p>Le zinba Marche rapidement, Escalade ou Nage sur une distance maximale égale à la moitié de sa Vitesse et emporte avec lui toute créature qu'il a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}.</p>"
+                },
+                "Y6s9VOKh7c0ctUPT": {
+                    "name": "Push 10 feet"
+                }
+            }
+        },
+        "Sié Goluo": {
+            "name": "Sié Goluo",
+            "description": "<p>Sié Goluo, parfois appelé simplement Grand-père, est un esprit ancien qui veille sur les peuples des Étendues du Mwangi depuis des générations. La plupart des gens croient qu'il est apparu pour la première fois à l'âge des ténèbres pour protéger le peuple du Mwangi des pires dangers de la nuit éternelle. Les conteurs bekyars affirment qu'il est encore plus ancien, qu'il date d'une époque antérieure à celle où les premiers hommes ont foulé le sol de Golarion. Cet esprit immortel s'est incarné sous de multiples formes au fil des millénaires. Dans les contes les plus anciens, on raconte que Sié Goluo ressemblait à un bœuf ordinaire, bien que surdimensionné, à l'exception de ses yeux d'apparence presque humaine. Plus récemment, les gens disent qu'il a l'apparence de plusieurs animaux différents, mais les récits varient sur les animaux qui composent sa forme.</p>\n<p>Lorsqu'un fermier itinérant est assailli par une bête mortelle ou qu'un petit village fait face à la colère d'une armée en marche, Sié Goluo se manifeste sous la forme qui lui permettra de les défendre au mieux. Il ne semble pas y avoir de limites géographiques à sa capacité à se manifester, puisqu'on raconte qu'il a sauvé des aventuriers mwangi aussi loin qu'au Tian Xia et en Arcadie.</p>",
+            "hpdetails": "Reconstruction",
+            "languages": "ne peut parler aucune langue",
+            "items": {
+                "1ViB3OaOGYOfKB3P": {
+                    "name": "Humanoid Form (At Will)"
+                },
+                "LpZh0be8ST6pqnTF": {
+                    "name": "Horn"
+                },
+                "PUxSdqWVxgPtP44y": {
+                    "name": "Innate Primal Spells"
+                },
+                "VxWzZiuP7fPGDfrw": {
+                    "name": "Spirit Steps",
+                    "description": "<p>Sié Goluo ignore le terrain difficile et ne déclenche pas les pièges lors de son déplacement.</p>"
+                },
+                "d4Is7XIdxwsvrjo1": {
+                    "name": "Ancestral Response",
+                    "description": "<p><strong>Déclencheur</strong> Une créature dans l'Univers fait appel à Sié Goluo</p>\n<hr />\n<p><strong>Effet</strong> Sié Goluo apparaît instantanément dans un espace occupé dans les 9 mètres de la créature déclencheuse et soigne  @Damage[8d8[healing]]{8d8 Points de vie} à tous les alliés qui peut le voir dans les 18 mètres. Les alliés soignés de cette manière obtiennent un bonus de circonstances de +2 aux jets de sauvegarde pendant 1 minute.</p>\n<p>Les créatures qui reçoivent ses avantages y deviennent temporairement immunisées pendant 1 an.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.gxBjyPaYDdhjAImf]{Effet : Réponse ancestrale}</p>"
+                },
+                "dPhm6gvjQdG41ksM": {
+                    "name": "Pass Without Trace (Constant)"
+                },
+                "rDWiy412rhlSZyK8": {
+                    "name": "Spirit Charge",
+                    "description": "<p>Sié Goluo Marche rapidement deux fois, puis porte une Frappe de corne. S'il touche, Sié Goluo crée une onde de choc qui inflige @Damage[4d12[force]]{4d12 dégâts de force} dans un @Template[cone|distance:30]{cône de 9 mètres} (@Check[reflex|dc:34|basic]).</p>\n<p>Les créatures qui obtiennent un échec sur leur jet de sauvegarde sont repoussées de 1,50 mètre (3 mètres sur un échec critique).</p>"
+                },
+                "tL03vFbxhAvCc4lU": {
+                    "name": "Rejuvenation",
+                    "description": "<p>Lorsque Sié Goluo est détruit, il se reforme, totalement soigné, à un endroit de son choix n'importe où dans l'Univers après [[/gmr 2d4 #jours]]{2d4 jours}. Si chaque personne d'origine Mwangi rejette la croyance en Sié Goluo, l'esprit est définitivement détruit.</p>"
+                }
+            }
+        },
+        "Pygmy Kaava": {
+            "name": "Pygmy Kaava",
+            "description": "<p>Les kaavas sont des humanoïdes furtifs vivant dans la jungle et dotés de courtes plumes de duvet qui, de loin, peuvent facilement être confondues avec de la fourrure. Sous ces plumes, les kaava possèdent des écailles résistantes. Les écailles et les plumes ont une pigmentation changeante qui permet au kaava de se fondre dans le feuillage environnant comme un caméléon.</p>\n<hr />\n<p>Un nombre inhabituellement élevé de kaava vivant dans les Terres des kaavas sont relativement petits, mesurant environ 1 mètre et pesant à peu près 15 kilos. Les pygmées kaavas affichent ouvertement leur mépris pour les kaavas plus grands et les deux groupes s'entendent rarement. Les kaava pygmées chassent souvent aux côtés de vipères des buissons ou de serpents mamba noirs dressés.</p>",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans les forêts ou les jungles"
+                }
+            },
+            "items": {
+                "7yIPG39mqoZpedtr": {
+                    "name": "Sickle"
+                },
+                "MLiG1Vy1bvBLQC2p": {
+                    "name": "Spear"
+                },
+                "bNWcouqx6SH8uAxF": {
+                    "name": "Woodland Stride",
+                    "description": "<p>Un kaava ignore le terrain difficile et le terrain très difficile lié à une végétation non magique.</p>"
+                },
+                "daC4rWyDfi9sD0eo": {
+                    "name": "Jaws"
+                },
+                "pVcoUSO9BTdrR2o1": {
+                    "name": "Trackless",
+                    "description": "<p>Un kaava se déplaçant à la moitié de sa vitesse ou moins marche si légèrement qu'il ne laisse virtuellement aucune trace. Les DD des tests pour @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Pister} un kaava sont augmentés de 10.</p>"
+                },
+                "qB2p1JMiuWWRGdTA": {
+                    "name": "Obsidian Sickle"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "label": "Bestiaire du Carnet de voyage",
+    "entries": {
+        "Sarkorian Wolf": {
+            "name": "Sarkorian Wolf",
+            "description": "<p>Pour survivre dans la Plaie du monde, les loups sarkoriens ont développé des défenses spécifiques contre les Failles extérieures. Ils sont devenus le symbole pour les croisés Mendéviens qui avaient du mal à s'adapter au monde après la fin de la guerre.</p>\n<hr />\n<p>Les loups parcourent les forêts, les collines et d'autres terres sauvages, où ils chassent en meute pour assiéger et encercler leurs proies avant d'aller les tuer. Comme la plupart des animaux prédateurs, les loups préfèrent s'attaquer à la proie la plus faible ou la plus vulnérable qu'ils puissent trouver.</p>",
+            "blurb": "Variante de loup",
+            "items": {
+                "GhRRqxvK6T21zheo": {
+                    "name": "Pack Attack",
+                    "description": "<p>Les Frappes du loup infligent 1d4 dégâts supplémentaires aux créatures qui sont dans l'allonge d'au moins deux alliés du loup.</p>"
+                },
+                "NX0owCPUZbsVJ4az": {
+                    "name": "Jaws"
+                }
+            }
+        },
+        "Vulture Rat": {
+            "name": "Vulture Rat",
+            "description": "<p>Ces rats charognards vivent à Geb, où ils se régalent des restes des morts-vivants. Ils sont adaptés à de longues périodes sans nourriture, mais ils s'attaquent vicieusement à toute source de nourriture possible</p>\n<hr />\n<p>Les rats géants sont d'énormes cousins des rats communs. On les trouve généralement en grand nombre, mais ils ne peuvent pas se cacher dans les recoins utilisés par les rats communs et sont donc plus faciles à repérer et exterminer. Ils vivent généralement dans les égouts d'où ils peuvent récupérer les déchets des rues qui les surplombent. Cependant, certaines familles de rats géants vivent dans des endroits plus isolés, comme des cavernes humides, dans des forêts ou sur des collines. Les rats ont une capacité de survie incroyable et l'on en rencontre donc aux quatre coins du monde. Ils préfèrent cependant les climats tempérés ou chauds aux climats froids. Si leur morsure seule ne représente pas de danger mortel, sauf peut-être pour les très jeunes ou très vieilles personnes, les rats géants sont cependant porteurs de la fièvre de la fange répandue chez les rongeurs du monde entier, une pestilence qui peut sans mal venir à bout de communautés rurales.</p>",
+            "blurb": "Variante d'un rat géant",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader ou Nager"
+                }
+            },
+            "items": {
+                "Mjlek9OZ25Tga7Cg": {
+                    "name": "Filth Fever",
+                    "description": "<p>Les états @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux} et @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient} de la fièvre de la fange ne s'améliorent pas naturellement tant que la maladie n'est pas guérie.</p>\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:14]</p>\n<hr />\n<p><strong>Stade 1</strong> porteur sans symptômes ([[/gmr 1d4 #heures]]{1d4 heures})</p>\n<p><strong>Stade 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (1 jour)</p>\n<p><strong>Stade 3</strong> Nauséeux 1 et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} (1 jour)</p>\n<p><strong>Stade 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient} (1 jour)</p>\n<p><strong>Stade 5</strong> mort</p>"
+                },
+                "yLnwKltbJHYpn8qC": {
+                    "name": "Jaws"
+                }
+            }
+        },
+        "Baccali Alpaca": {
+            "name": "Baccali Alpaca",
+            "description": "<p>Race d'alpaga du Druma, ces créatures sont précieuses pour leur laine d'une douceur exceptionnelle.</p>",
+            "blurb": "Variante de poney de selle",
+            "items": {
+                "CyJqBVfPXX4Fp283": {
+                    "name": "Gallop",
+                    "description": "<p>L'alpaga baccali Marche rapidement deux fois avec un bonus de circonstances de +3 mètres à sa Vitesse.</p>"
+                },
+                "HNM58d8JH28lGstw": {
+                    "name": "Hoof"
+                },
+                "HuxqXHbNPMVfb98R": {
+                    "description": "<p>@Check[reflex|dc:15] @Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+                },
+                "x5GWeyJ3dSDa0npJ": {
+                    "name": "Spit"
+                }
+            }
+        },
+        "Whalesteed": {
+            "name": "Whalesteed",
+            "description": "<p>Les dauphins de selle furent domptés pour la première fois dans les Chaînes, faisant partie d'une embuscade entre des pirates rivaux. Les chevaucheurs de dauphins de selle sont encore un spectacle inhabituel car des années de formations sont nécessaires pour arriver à maîtriser ce genre de compétences.</p>",
+            "blurb": "Variante de grand dauphin",
+            "items": {
+                "5lPaA6GKal2YHAjj": {
+                    "name": "Jaws"
+                },
+                "TBp1tYUPtYoOEonO": {
+                    "name": "Aquatic Echolocation",
+                    "description": "<p>Un dauphin de selle peut utiliser son ouïe comme un sens précis à la portée indiquée mais uniquement sous l'eau</p>"
+                },
+                "cpSC9RcShIFK28EU": {
+                    "name": "Snout"
+                },
+                "jN9qLXiQfaOBlFfC": {
+                    "name": "Ramming Speed",
+                    "description": "<p>Le dauphin de selle @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Nage} deux fois puis effectue une Frappe de rostre. S'il s'est déplacé d'au moins 6 mètres, il obtient un bonus de circonstances de +1 à son jet d'attaque. Une créature de Grande taille ou plus petite touchée par cette attaque doit réussir un jet de @Check[fortitude|dc:16] ou être @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie} pendant 1 round.</p>"
+                },
+                "khgGPSxgTQcgev3o": {
+                    "name": "Deep Breath",
+                    "description": "<p>Le dauphin de selle peut retenir sa respiration pendant 2 heures.</p>"
+                }
+            }
+        },
+        "Irriseni Owlbear": {
+            "name": "Irriseni Owlbear",
+            "description": "<p>Symbole culturel d'Irrisen, l'hibours irriseni est particulièrement bien adapté aux conditions glaciales de la région. Ces hibours sont plus grand que leur cousins des régions tempérées.</p>\n<hr />\n<p>Avec le corps d'un puissant ours brun et les sens aiguisés d'un hibou, un hibours est un dangereux prédateur territorial qui ne craint pas d'attaquer toute créature qui s'aventure sur son domaine. Ceux qui échappent aux prises d'un hibours entendent son terrifiant cri strident quelques secondes avant que la créature massive ne s'abatte sur eux pour les écharper avec ses redoutables serres et son puissant bec.</p>\n<p>Bien que leur origine soit perdue dans la nuit des temps, on estime que les hibours sont le produit d'une expérience magique visant à engendrer un prédateur plus rusé. Selon la légende, le magicien a trop bien réussi et est devenu la première victime de la bête. De nos jours, on peut trouver des hibours un peu partout dans le monde avec différentes caractéristiques. Tandis que les sous-espèces les plus communes ressemblent à un ours brun avec les traits d'un Grand-duc, les hibours des terres gelées du nord peuvent ressembler à un ours blanc mélangé à un harfang des neiges et dans les forêts humides tempérées, ils peuvent ressembler à un ours noir avec la tête d'une chouette effraie.</p>\n<p>La plupart des hibours sont solitaires. Ils ne se rassemblent que pour se reproduire et élever leurs petits qui éclosent dans des œufs. Le territoire d'un hibours s'étend généralement dans un rayon de 8 km autour de sa tanière avec des signes évidents de sa présence dans un rayon de 2 kilomètres (des traces de griffes sur les arbres, des plumes gigantesques et des carcasses déchiquetées). La tanière d'un hibours contient rarement quoi que ce soit ayant une quelconque valeur mais certains aventuriers ont pu y trouver des babioles, des pièces et même des bijoux dans les régurgitations massives d'ossements non digérés que ces monstres laissent derrière eux.</p>",
+            "blurb": "Variante d'hibours élite",
+            "items": {
+                "LIdmD7VqztundfTh": {
+                    "name": "Beak"
+                },
+                "qCmKPruRObzVL1Dr": {
+                    "name": "Screeching Advance",
+                    "description": "<p>Le hibours pousse un Hurlement à glacer le sang et Marche rapidement deux fois. Toutes les créatures situées dans une @Template[emanation|distance:80]{émanation de 24 mètres} du hibours à n'importe moment de son déplacement sont sujettes aux effets du Hurlement à glacer le sang.</p>"
+                },
+                "sqceAJWlpdKGnHvx": {
+                    "name": "Talon"
+                },
+                "vTXaShzYmcNbRjzk": {
+                    "name": "Bloodcurdling Screech",
+                    "description": "<p>Le hibours pousse un puissant cri strident qui terrifie sa proie. Chaque créature dans une @Template[emanation|distance:80]{émanation de 24 mètres} doit faire un jet de @Check[will|dc:22]. Quel que soit le résultat, les créatures sont temporairement immunisées pendant 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fuit} pendant 1 round et elle est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3}.</p>"
+                },
+                "vudcfpUT9un2pDOP": {
+                    "name": "Gnaw",
+                    "description": "<p><strong>Conditions</strong> Le hibours a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature avec ses serres.</p>\n<hr />\n<p><strong>Effet</strong> Le hibours tente d'éviscérer sa proie avec une Frappe de bec. Si la Frappe touche, la cible doit tenter un jet de @Check[will|dc:24].</p>\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1}.</p>\n<p><strong>Échec</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} tant qu'elle est Nauséeuse.</p>"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

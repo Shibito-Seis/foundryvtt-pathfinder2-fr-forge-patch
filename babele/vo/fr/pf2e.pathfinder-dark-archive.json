@@ -1,0 +1,692 @@
+{
+    "label": "Archives sombres",
+    "entries": {
+        "Shrouded Assailant": {
+            "name": "Shrouded Assailant",
+            "hpdetails": "esprit",
+            "desc (hazard)": "<p>Un esprit sort d'un miroir recouvert, retire le drap et se retrouve enveloppé dans le drap, ce qui révèle le miroir. La figure enveloppée attaque les vivants jusqu'à ce que le drap soit arraché, ce qui bannit la silhouette informe.</p>",
+            "disable": "<p>@Check[thievery|dc:43|name:Voler le drap|traits:action:disable-a-device] (maître) pour voler le drap avant que l'esprit ne se manifeste ou test d'@Check[athletics|dc:47|name:Arracher le drap] pour arracher le drap après que l'esprit soit manifesté</p>",
+            "reset": "<p>La hantise se reforme si le miroir est de nouveau recouvert.</p>",
+            "routine": "<p>(3 actions) L'esprit utilise trois actions pour Marcher rapidement, Voler 18 mètres, ou Frapper dans n'importe quel odre. Sur une Frappe réussie, la cible de l'esprit est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1} et sur une Frappe critique la cible est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}</p>",
+            "items": {
+                "HOnJVrqXXtc3EGEu": {
+                    "name": "Shrouded Touch"
+                },
+                "ljtEKeEjWZpLfCLL": {
+                    "name": "Don Shroud",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans la zone</p>\n<hr />\n<p><strong>Effet</strong> L'esprit sort du miroir portant le drap comme un suaire et révélant le miroir. La créature déclencheuse est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3} à moins qu'elle ne réussisse un jet de @Check[will|dc:38]. Puis le piège lance l'initiative.</p>"
+                }
+            }
+        },
+        "Sigil of Deepest Fears": {
+            "name": "Sigil of Deepest Fears",
+            "desc (hazard)": "<p>Un symbole arcanique force la créature de confronter ses plus grandes angoisses</p>",
+            "disable": "<p>@Check[thievery|dc:43|name:Drainer l'énergie du symbole|traits:action:disable-a-device] (maître) pour drainer l'énergie du symbole de façon sécurisée ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 9 ; DD 42) pour contrer le symbole magique</p>",
+            "reset": "<p>Le piège se réinitialise après 1 jour</p>",
+            "stealth": "Maître",
+            "items": {
+                "mF3Y5psHWHrkB81u": {
+                    "name": "Face Your Fear",
+                    "description": "<p><strong>Déclencheur</strong> Une créature se déplace dans les 3 mètres du symbole magique</p>\n<hr />\n<p><strong>Effet</strong> Toutes les créatures dans les 36 mètres du symbole magique sont affectée par le sort @UUID[Compendium.pf2e.spells-srd.Item.MJx7DmjsWYzDZ3a4]{Fantasmagorie} (@Check[will|dc:40|options:area-effect,damaging-effect]) </p>"
+                }
+            }
+        },
+        "Reflected Desires": {
+            "name": "Reflected Desires",
+            "desc (hazard)": "<p>Ce miroir réfléchit les désirs les plus profonds de celui qui regarde</p>",
+            "disable": "<p>@Check[thievery|dc:18|name:Occulter le miroir|traits:action:disable-a-device] (qualifié) pour occulter le miroir sans regarder dedans, ou test d'@Check[occultism|dc:17|name:Ériger des barrières mentales] (qualifié) pour ériger des barrières mentales.</p>",
+            "reset": "<p>Le piège se réinitialise après 1 round.</p>",
+            "stealth": "<p>0 pour remarquer le miroir</p>",
+            "items": {
+                "1MnFDLD3UqAsLnmn": {
+                    "name": "Tempt",
+                    "description": "<p><strong>Déclencheur</strong> Une créature regarde dans le miroir.</p>\n<hr />\n<p><strong>Effet</strong> La créature déclencheuse se voit dans la réflexion du miroir en train de s'adonner à ses désirs les plus profonds, ce qui la rend @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} (@Check[will|dc:20|options:inflicts:fascinated] pour interrompre). La fascination s'arrête automatiquement lorsque le miroir est brisé ou occulté.</p>"
+                }
+            }
+        },
+        "Thalassophobia Pool": {
+            "name": "Thalassophobia Pool",
+            "desc (hazard)": "<p>Le bassin aspire les créatures qui y tombent et les fait sombrer dans ses profondeurs infinies.</p>",
+            "disable": "<p>@Check[diplomacy|dc:32|name:Calmer le bassin] (maître) pour faire taire la peur et calmer le bassin ou test d'@Check[intimidation|dc:35|name:Effrayer le bassin] pour flanquer la frousse au bassin ; trois succès sont requis.</p>",
+            "reset": "<p>Le piège se réinitialise lorsqu'il n'y a plus de créatures qui se déplacent dedans</p>",
+            "routine": "<p>(3 actions) De l'eau du calice augmente la profondeur du bassin de 3 mètres par action. Chaque fois que cela arrive, les créatures dans le bassin sont poussés de 3 mètres sous l'eau et subissent @Damage[1d6[bludgeoning]]{1d6 dégâts contondants}. Comme le bassin n'a pas de fond, les créatures qui s'y trouvent peuvent tomber indifiniment. Les créatures doivent @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Nager} pour ne pas se noyer, mais l'eau est particulièrement mouvante, ce qui augmente le DD d'Athlétisme à @Check[athletics|dc:25|traits:action:swim]. Le bassin ne déborde jamais. Chaque test réussi pour le désactiver le bassin réduit le nombre d'actions du bassin de 1 et dès que le bassin est totalement désactivé, l'eau devient calme et le DD d'Athlétisme pour Nager est de @Check[athletics|dc:10|traits:action:swim].</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "GReYolkvohIlgdbM": {
+                    "name": "Downpour",
+                    "description": "<p><strong>Déclencheur</strong> Une créature tombe dans le bassin</p>\n<hr />\n<p><strong>Effet</strong> Davantage d'eau se déverse du calice. Les créatures dans le bassin sont @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroites 1} et elles ne peuvent réduire leur état Maladroit tant qu'elles restent dans le bassin. Puis le piège lance l'initiative.</p>"
+                }
+            }
+        },
+        "Constricting Hall": {
+            "name": "Constricting Hall",
+            "desc (hazard)": "<p>Les quatre murs d'un hall deviennent fluides et élastiques lorsqu'une créature atteint le milieu du hall.</p>",
+            "disable": "<p>@Check[thievery|dc:28|name:Stabilisation d'un mur|traits:action:disable-a-device] (qualifié) pour stabiliser chaque mur ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 4 ; DD 26) pour contrer chaque mur.</p>",
+            "reset": "<p>Le piège se réinitialise après 1 heure</p>",
+            "routine": "<p>(4 actions) Ce piège perd 1 action par round pour chaque mur désactivé. Chaque mur utilise 1 action pour claquer d'avant en arrière rapidement, frappant une créature dans le hall avec une Frappe de mur. Sur un succès la cible est également mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. Les murs distribuent les attaques de manière aussi égale que possible entre les créatures dans le couloir et les Frappes n'appliquent pas la pénalité d'attaques multiples.</p>",
+            "items": {
+                "Q0howoIf0TfR9YuR": {
+                    "name": "Lose Form",
+                    "description": "<p><strong>Déclencheur</strong> Une créature atteint le milieu du hall</p>\n<hr />\n<p><strong>Effet</strong> Le hall perd sa rigidité, devenant élastique et fluide. Le hall devient un terrain difficile et chaque créature dans le hall est mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} à moins qu'elle ne réussisse un jet de @Check[reflex|dc:26]. Puis le piège lance l'initiative.</p>"
+                },
+                "URApeqv0vXz0Usnr": {
+                    "name": "Wall"
+                }
+            }
+        },
+        "The Morrowkin": {
+            "name": "The Morrowkin",
+            "items": {
+                "41MourwRyz9uDnd8": {
+                    "name": "Claw"
+                },
+                "C5zKC61h7GcivnD5": {
+                    "name": "Disgusted by Food",
+                    "description": "<p>Le morrowkin mange les rêves et les possibilités et non de la nourriture. Une créature qui dépense une action pour brandir de la nourriture face au morrowkin le rend automatiquement @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (ou augmente la valeur de son état Nauséeux de 1, jusqu'à un maximum de 6). Cet état décroît la CA du morrowkin, ainsi que ses jets d'attaque, de sauvegarde et les DD de ses capacités, comme à l'ordinaire pour l'état Nauséeux. Le morrowkin ne peut pas vomir pour réduire son état Nauséeux.</p>"
+                },
+                "GufPL7fXAz1R4tFA": {
+                    "name": "Endless",
+                    "description": "<p>Si il est réduit à 0 Point de vie ou mis hors de combat pendant plus de quelques rounds, le morrowkin disparaît. Au bout d'une minute, il réapparaît complètement rafraîchi, comme si le combat précédent n'avait jamais eu lieu, avec tous ses Points de vie, tous les effets sur lui étant effacés et sa capacité Avaler le futur prête à être utilisée à nouveau.</p>"
+                },
+                "Vcb2fzxMkjOhWNPz": {
+                    "name": "Drain Potential",
+                    "description": "<p>Le morrowkin essaie de drainer la motivation de sa cible, qui doit tenter un jet de @Check[fortitude|dc:31]. Si la cible rate son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnée 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnée 2} en cas d'échec critique) et doit lancer le dé deux fois et utiliser le plus mauvais résultat sur tous ses jets pendant 1 minute. Les créatures qui portent un <em>talisman d'espoir</em> ne sont pas affectées.</p>"
+                },
+                "pAa1q5ts9oP6qdky": {
+                    "name": "Tomorrow's Fury",
+                    "description": "<p>Le morrowkin effectue des attaques de Griffes contre n'importe quel nombre de cibles dans son allonge. Les attaques de Griffes comptent dans les pénalités d'attaques multiples du morrowkin, mais cette pénalité ne s'applique qu'après que toutes les attaques aient été effectuées.</p>"
+                },
+                "sxD01nPswudJsjzS": {
+                    "name": "Swallow Future",
+                    "description": "<p><strong>Fréquence</strong> une fois par minute</p>\n<hr />\n<p><strong>Effet</strong> Le morrowkin inspire profondément puis ramène les actions futures de toutes les créatures autour de lui. Toutes les créatures dans une @Template[type:emanation|distance:30]{émanation de 9 mètres} autour du morrowkin subissent @Damage[(6d8+18)[mental]|options:area-damage]{6d8+18 dégâts mentaux} en fonction de leur jet de @Check[will|dc:39].</p>\n<p>Les créatures qui portent des talismans d'espoir peuvent choisir de les laisser se briser afin d'ignorer les effets après avoir constaté les résultats de leur jets de Volonté.</p>\n<hr />\n<p><strong>Succès critique</strong> Les créatures ne subissent aucun dégâts.</p>\n<p><strong>Succès</strong> Les créatures subissent la moitié des dégâts et sont @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnées 1}.</p>\n<p><strong>Échec</strong> Les créatures subissent tous les dégâts et sont @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnées 2}.</p>\n<p><strong>Échec critique</strong> Les créatures subissent le double des dégâts et sont @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnées 4} (causant fort probablement leur mort immédiate).</p>"
+                }
+            }
+        },
+        "Shuffling Hall": {
+            "name": "Shuffling Hall",
+            "desc (hazard)": "<p>Quatre plaques de pression situées le long de ce hall en miroir tournent verticalement lorsqu'on marche dessus, ce qui fait basculer la créature qui se trouve sur la plaque de pression dans une pièce adjacente dépourvue de caractéristiques, tout en remplaçant simultanément la plaque de pression et les murs dans le hall. Chaque plaque de pression fait basculer les créatures dans une pièce différente</p>",
+            "disable": "<p>@Check[thievery|dc:12|name:Désactiver la plaque de pression|traits:action:disable-a-device] pour désactiver la plaque de pression</p>",
+            "reset": "<p>Le piège se réinitialise après 1 round.</p>",
+            "items": {
+                "mLNLTTi0YhxCWKWq": {
+                    "name": "Flip",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur la plaque de pression</p>\n<hr />\n<p><strong>Effet</strong> Le sol et le mur adjacent tournent sur un axe central, faisant basculer la créature déclencheuse dans une pièce adjacente dépourvue de caractéristiques et remplaçant simultanément la plaque de pression et le mur par un autre ensemble sur le même axe. La créature déclencheuse qui est poussée dans une pièce adjacente subit @Damage[1d8[bludgeoning]]{1d8 dégâts contondants}, et tombe @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. Une créature qui réussit un jet de @Check[reflex|dc:19|traits:damaging-effect] ne subit aucun dégât et ne fait que glisser hors du piège, retournant dans l'espace qu'elle était avant de marcher sur la plaque de pression.</p>"
+                }
+            }
+        },
+        "Mirror Door": {
+            "name": "Mirror Door",
+            "desc (hazard)": "<p>Le reflet d'un mur dans le miroir montre une porte ectoplasmique, là où il n'y en a pas. Cette porte ne peut être manipulée que lorsqu'elle est vue dans le reflet du miroir.</p>",
+            "disable": "<p>@Check[thievery|dc:18|name:Ouvrir la porte|traits:action:disable-a-device] pour ouvrir la porte vue dans le reflet.</p>",
+            "reset": "<p>Le piège se réinitialise dès que la porte est fermée.</p>",
+            "items": {
+                "dXHZxCKOYXB0IsAL": {
+                    "name": "Appear",
+                    "description": "<p><strong>Déclencheur</strong> Une créature voit une porte dans le mur au travers d'un reflet de miroir</p>\n<hr />\n<p><strong>Effet</strong> Une porte apparaît dans le reflet du miroir sur le mur. La créature qui déclenche le sort peut ouvrir et manipuler cette porte tant qu'elle la voit à travers le miroir et en réussissant un test de @Check[thievery|dc:18|name:Désactiver le piège|traits:action:disable-a-device] pour désactiver le piège.</p>"
+                }
+            }
+        },
+        "False Floor": {
+            "name": "False Floor",
+            "desc (hazard)": "<p>Le sol de cette chambre est une illusion qui dissimule un trou de 12 mètres de profondeur jusqu'au véritable sol situé en dessous. De plus, la zone située sous le plancher est magiquement réduite au silence : aucun son n'est audible à l'intérieur et aucun son ne sort de cet espace.</p>",
+            "disable": "<p>Réussir un test de @Check[perception|dc:21]{Perception} contre le DD de Discrétion de 21 (incluant le test pour trouver le piège) perce à jour le sol illusoire ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 2 ; DD 18) permet de dissiper l'illusion ; <em>Dissipation de la magie</em> (Rang 2 ; DD 20) permet de dissiper le silence magique.</p>",
+            "reset": "<p>Le piège se réinitialise après 1 round.</p>",
+            "stealth": "<p>Qualifié ou 0 si le sol illusoire a été dissipé</p>",
+            "items": {
+                "0bSHLXIeRbwxpKtv": {
+                    "name": "Drop",
+                    "description": "<p><strong>Déclencheur</strong> La créature s'avance sur le sol illusoire.</p>\n<hr />\n<p><strong>Effet</strong> La créature déclencheuse tombe au travers de l'illusion et subit des dégâts de chute (typiquement @Damage[20[bludgeoning]|options:fall-damage]{20 dégâts contondants}). Cette créature peut utiliser la réaction @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis} pour ne pas tomber. Le DD pour [[/act climb dc=20]]{Escalader} les murs ou pour [[/act grab-an-edge dc=20]]{Se raccrocher in extremis} est de 20.</p>"
+                }
+            }
+        },
+        "Entrapping Chair": {
+            "name": "Entrapping Chair",
+            "desc (hazard)": "<p>Une chaise dissimulée dans les rails s'avance brusquement, poussant une créature dans le siège et l'emprisonnant avec des accoudoirs bloquants.</p>",
+            "disable": "<p>@Check[thievery|dc:23|name:Désactiver les rails|traits:action:disable-a-device] (expert) pour désactiver les rails</p>",
+            "reset": "<p>Le piège se réinitialise automatiquement sur deux rounds, si la chaise est inoccupée.</p>",
+            "stealth": "<p>0 pour remarquer la chaise</p>",
+            "items": {
+                "V4xSx1Z7pl5RTlY8": {
+                    "name": "Take a Seat!",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur le rail</p>\n<hr />\n<p><strong>Effet</strong> La chaise s'avance rapidement sur les rails et cogne la créature déclencheuse, infligeant @Damage[(3d8 + 15)[bludgeoning]]{3d8+15 dégâts contondants}. Une créature qui réussit un jet @Check[reflex|dc:22|traits:damaging-effect] ne subit aucun dégâts alors qu'elle s'écarte du chemin de la chaise dans une case aléatoire adjacente qui ne contient pas de rail. Une créature qui rate son jet de sauvegarde est projetée dans le siège et capturée par la accoudoirs, devenant @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} (@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} sur un échec critique ; [[/act escape dc=26]]{S'Échapper} DD 26).</p>"
+                }
+            }
+        },
+        "Confounding Portal": {
+            "name": "Confounding Portal",
+            "desc (hazard)": "<p>De minuscules runes gravées autour d'un cadre de porte ou sur les murs d'un hall d'entrée déconcertent subrepticement les créatures à tourner autour de la pièce ou du couloir qu'elles tentent de quitter ou de traverser.</p>",
+            "disable": "<p>@Check[thievery|dc:17|name:Gratter les runes|traits:action:disable-a-device] pour faire disparaître les runes en les grattant, ou d'@Check[arcana|dc:16|name:Détruire les runes] pour détruire les runes</p>",
+            "reset": "<p>Le piège se réinitialise après 1 round.</p>",
+            "items": {
+                "K7zv6GnWMFnvcN2z": {
+                    "name": "Confounding Misdirection",
+                    "description": "<p><strong>Déclencheur</strong> Une créature traverse la porte ou le couloir sculpté de runes.</p>\n<hr />\n<p><strong>Effet</strong> La créature est The creature is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} par les illusions et est redirigée une nouvelle fois vers la pièce qu'elle tentait de quitter en passant par la porte ou le couloir où elle était. Pour la créature déclencheuse, cela ne semble pas différent d'un passage dans une porte ou un couloir, et les spectateurs sont tout aussi déroutés. Une créature qui réussit un jet de @Check[will|dc:19] résiste à l'illusion et quitte la pièce ou continue le couloir sans être détournée.</p>"
+                }
+            }
+        },
+        "False Step Floor": {
+            "name": "False Step Floor",
+            "desc (hazard)": "<p>Chaque fois qu'une créature entre dans la pièce, elle glisse à travers le sol, bascule dans un vide interdimensionnel et retombe dans la pièce à travers le plafond, atterrissant sur le sol</p>",
+            "disable": "<p>@Check[thievery|dc:28|name:Interrompre l'énergie magique|traits:action:disable-a-device] (qualifié) pour interrompre l'énergie de la magie, ou test d'@Check[arcana|dc:27|name:Réaligner la magie] ou @Check[occultism|dc:27|name:Réaligner la magie] (qualifié) pour réaligner l'énergie magique</p>",
+            "reset": "<p>Le piège se réinitialise après 1 round.</p>",
+            "items": {
+                "WYeWa4hUK5Lu9dLb": {
+                    "name": "False Step",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans la pièce et marche sur le sol</p>\n<p><strong>Effet</strong> La créature glisse à travers le sol ; elle bascule dans un vide interdimensionnel avant de retomber dans la pièce à travers le plafond et d'atterrir sur le sol. La créature déclencheuse subit @Damage[40[bludgeoning]|options:fall-damage]{40 dégâts contondants} de la chute. La créature peut tenter de [[/act grab-an-edge dc=24]]{Se raccrocher in extremis} (DD 24) pour s'empêcher de tomber.</p>"
+                }
+            }
+        },
+        "Amalgamite": {
+            "name": "Amalgamite",
+            "description": "<p>La magie de téléportation peut s'avérer une entreprise difficile, même pour les lanceurs de sorts expérimentés. Elle nécessite des calculs et un timing précis, une connaissance de la destination souhaitée et un contrôle méticuleux des puissantes magies de conjuration qui se déchaînent. Une erreur, même dans l'élément le plus infime d'un tel sort, peut avoir des conséquences désastreuses pour les personnes impliquées. Lorsqu'un lanceur de sorts particulièrement puissant commet une erreur de ce genre, que ce soit par arrogance ou par simple erreur de jugement, il peut se transformer en amalgamite.</p>\n<p>Masse de chair et de membres désalignés, l'amalgamite est le corps déformé d'un ancien lanceur de sorts, parfois fusionné avec une autre version de lui-même pour incorporer des membres supplémentaires ou d'autres irrégularités. Ils sont toujours vivants, mais ils sont devenus des aberrants mentalement et physiquement, n'ayant que de vagues souvenirs de leur existence antérieure, ce qui en fait un ennemi dangereux et déroutant. Leur anatomie étrange et déformée ne cesse de bouger et de repousser, permettant à ces créatures d'ignorer les coups physiques, sauf ceux qui transpercent leur chair pour atteindre leur être central.</p>\n<p>Le résidu magique de la création d'une amalgamite émane de lui, s'infiltrant dans tous les êtres vivants qui s'approchent trop près et les déstabilisant. Les créatures infectées propagent alors davantage l'aura de l'amalgamite parmi de plus grands groupes, aussi bien alliés qu'ennemis. L'amalgamite utilise ce pouvoir pour manipuler et semer la confusion chez ses ennemis. Il peut les téléporter dans des pièges, les forcer à affronter d'autres ennemis ou les attirer à sa portée pour les frapper de ses propres appendices étranges.</p>",
+            "hpdetails": "Régénération 10 (désactivée par perforants)",
+            "items": {
+                "4oz5vNIBQ0PmHw6p": {
+                    "name": "Relocate",
+                    "description": "<p>L'amalgamite se téléporte dans un espace inoccupé qu'il peut voir dans un rayon de 15 mètres.</p>"
+                },
+                "6Jhrih75LDb7Tovl": {
+                    "name": "Warping Ray"
+                },
+                "NCoWkgKyY8nUdbrO": {
+                    "name": "Occult Innate Spells"
+                },
+                "REbcJzGp6sT7jOuZ": {
+                    "name": "Limb"
+                },
+                "XBz2toYQ5LlpBAkp": {
+                    "name": "Transpose",
+                    "description": "<p>L'amalgamite choisit jusqu'à deux créatures déstabilisées qu'il peut voir dans un rayon de 15 mètres et échange leurs positions, ou déplace une seule de ces créatures dans un espace inoccupé qu'il peut voir à portée. Si l'amalgamite choisit deux créatures, il peut se choisir lui-même comme l'une de ces créatures, mais les deux cibles doivent avoir la même taille.</p>\n<p>Une créature non consentante peut tenter un jet de @Check[will|dc:33]. Si l'une de ces cibles réussit son jet de sauvegarde, les deux ne seront pas affectées.</p>"
+                },
+                "bpvnWZi8sukcfy9H": {
+                    "name": "Displace",
+                    "description": "<p><strong>Déclencheur</strong> L'amalgamite est touché par une Frappe.</p>\n<hr />\n<p><strong>Effet</strong> L'amalgamite se Relocalise ou se Transpose avec une autre créature. Si l'amalgamite réussi à changer sa localisation, lui et toute créature Transposée ne subissent que la moitié des dégâts de l'attaque déclencheuse.</p>"
+                },
+                "rGx3BT8mbRKRUpA2": {
+                    "name": "Destabilizing Field",
+                    "description": "<p>12 mètres. Une créature qui débute son tour dans l'aura, ressent un étirement de son corps et doit réussir un jet de @Check[fortitude|dc:33] ou être déstabilisée.</p>\n<p>Une créature déstabilisée émet une aura de Champ déstabilisant de 3 mètres et en devient @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1}. La déstabilisation se termine lorsque la créature n'est plus Nauséeuse.</p>"
+                },
+                "rU17t3NM7TJ3u03o": {
+                    "name": "Regeneration 10 (Deactivated by Piercing)"
+                },
+                "xFzHJGL72aPpRLgB": {
+                    "name": "Lore (Any One Subcategory)"
+                }
+            }
+        },
+        "Clone Mirrors": {
+            "name": "Clone Mirrors",
+            "hpdetails": "par miroir",
+            "desc (hazard)": "<p>Deux miroirs opposés engendrent une marée incessante de doubles illusoires des créatures dans le hall.</p>",
+            "disable": "<p>@Check[thievery|dc:28|name:Repositionner les miroirs|traits:action:disable-a-device] (expert) pour replacer chaque miroir ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 3 ; DD 25) pour contrer chaque miroir</p>",
+            "reset": "<p>Le piège se réinitialise après 1 jour.</p>",
+            "routine": "<p>(2 actions) Ce piège perd 1 action pour chaque miroir désactivé. Chaque miroir utilise 1 action pour engendrer un @UUID[Compendium.pf2e.pathfinder-dark-archive.Actor.ICdVjs6JEs0YAefl]{Reflet} d'une créature reflétée dans le miroir. Le piège peut engendrer un maximum de quatre reflets à la fois.</p>",
+            "items": {
+                "M6pVTXxAJ26CuNx5": {
+                    "name": "Spawn Reflection",
+                    "description": "<p><strong>Déclencheur</strong> La créature est réfléchie dans le miroir</p>\n<hr />\n<p><strong>Effet</strong> Le miroir crée un @UUID[Compendium.pf2e.pathfinder-dark-archive.Actor.ICdVjs6JEs0YAefl]{Reflet} de la créature déclencheuse, qui Fait un pas hors du miroir dans le couloir. Puis le piège lance l'initiative.</p>"
+                }
+            }
+        },
+        "Mother Mitera": {
+            "name": "Mother Mitera",
+            "hpdetails": "Lien cristal de vitalité",
+            "items": {
+                "5n8EB4Rkx3GH7H9F": {
+                    "name": "Ascension is Near",
+                    "description": "<p><strong>Fréquence</strong> Une fois par rituel d'ascension</p>\n<hr />\n<p><strong>Effet</strong> Mitéra active le lien de la fleur de lune avec ses fidèles. Tout fidèle dans une @Template[emanation|distance:30]{émanation de 9 mètres} qui a raté son jet de sauvegarde contre le thé de fleur de lune devient @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1}. Tout fidèle qui a raté de façon critique son jet de sauvegarde et qui n'a pas reçu l'antidote explose (ceci constitue environ la moitié de la congrégation si les PJ n'ont pas réussi à donner l'antidote). Si quelqu'un explose, Mitéra obtient 30 PV temporaires et devient @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accélérée} pendant 3 rounds. Elle ne peut utiliser son action supplémentaire chaque round que pour Marcher rapidement ou pour Frapper.</p>"
+                },
+                "GTidGY6vXi9cj9yz": {
+                    "name": "Crystal Vitality Link",
+                    "description": "<p>Le pouvoir de l'île lie la vitalité de Mitéra à ses disciples. Tant que l'une des trois formations de quartz est intacte, chaque fois que Mitéra subit des dégâts, tous ses disciples situés dans un rayon de 3 kilomètres perdent le même nombre de PV.</p>"
+                },
+                "IWLtNJgGKZE4sql1": {
+                    "name": "Dagger"
+                },
+                "SzPTvuxOEAOJsUZN": {
+                    "name": "Crystal Flower Crown"
+                },
+                "cOno50AugBRsfxaZ": {
+                    "name": "Ceremonial Robes"
+                },
+                "nvyRpGOfcTh5qgcI": {
+                    "name": "Primal Prepared Spells"
+                },
+                "spFa0equ7phkEcc9": {
+                    "name": "Ludovica Lore"
+                },
+                "wOS1PPw34UfnTuPS": {
+                    "name": "Dagger"
+                }
+            }
+        },
+        "Shrinking Hall": {
+            "name": "Shrinking Hall",
+            "desc (hazard)": "<p>Ce couloir est conçu pour rétrécir au fur et à mesure que les créatures le traversent, rendant impossible l'accès à la porte située au bout du couloir.</p>",
+            "disable": "<p>@Check[thievery|dc:21|name:Bloquer les poids|traits:action:disable-a-device] (qualifié) pour bloquer les poids qui sont dans le mur.</p>",
+            "reset": "<p>Après 10 minutes sans qu'aucun poids n'ait été placé sur le sol de cette salle, ce piège se réinitialise, ramenant la salle à sa taille d'origine.</p>",
+            "items": {
+                "jGLOByWSFpkvum9N": {
+                    "name": "Shrink",
+                    "description": "<p><strong>Déclencheur</strong> Au moins 50 kg sont placés sur le sol du couloir</p>\n<hr />\n<p><strong>Effet</strong> Les derniers 12 mètres du couloir s'inclinent vers l'intérieur, provoquant le rétrécissement et la contraction du couloir, jusqu'à atteindre 15 centimètres de hauteur et de largeur à son extrémité, bloquant complètement l'accès à la porte pour sortir du couloir à toute créature à l'exception d'une créature Très Petite qui peut Se faufiler.</p>"
+                }
+            }
+        },
+        "Reflection": {
+            "name": "Reflection",
+            "items": {
+                "TpYNcJKE1v9ktu1H": {
+                    "name": "Reflected Weapon"
+                },
+                "qTHgALlk6FGnqd7W": {
+                    "name": "Reflection Routine",
+                    "description": "<p>Chaque reflet possède 2 actions qu'il peut utiliser pour Faire un pas, Marcher rapidement ou Frapper (la combinaison au choix). Les reflets ne peuvent pas agir au tour où ils ont été crées.</p>"
+                }
+            }
+        },
+        "Quartz-Spawned Shadow": {
+            "name": "Quartz-Spawned Shadow",
+            "description": "<p>Les mystérieux morts-vivants connus sous le nom d'ombres rôdent dans les lieux sombres et se nourrissent de ceux qui s'éloignent trop de la lumière. Ceux qui arrivent à parlementer avec les ombres, généralement en réussissant à les tenir à distance avec une arme lumineuse, peuvent apprendre de grands secrets car elles sont de parfaits espions.</p>",
+            "items": {
+                "0QWVJ7Of8cQNKp0N": {
+                    "name": "Slink in Shadows",
+                    "description": "<p>L'ombre peut @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Se cacher} ou terminer son déplacement en @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Étant furtive} dans l'ombre d'une créature ou d'un objet.</p>"
+                },
+                "ACHlnYzXVxizzqPw": {
+                    "name": "Light Vulnerability",
+                    "description": "<p>Un objet qui projette une lumière magique (comme celle créée par le sort @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Lumière}) est considéré comme magique s'il est utilisé pour attaquer une ombre.</p>"
+                },
+                "LkqCkG3YFw362zdS": {
+                    "name": "Crystal Siphon",
+                    "description": "<p><strong>Conditions</strong> L'ombre et la cible sont tous deux dans les 12 mètres qu cristal dont est issue l'ombre et le cristal n'est pas recouvert ou obstrué</p>\n<hr />\n<p><strong>Effet</strong> Des ombres en forme de volutes s'enroulent autour de la cible, puisant une partie de sa vitalité pour la siphonner au sein du cristal. La cible subit @Damage[4d6[void]]{4d6 dégâts de vide} (@Check[fortitude|dc:21|basic]). En cas d'échec, elle est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1}. Cet état Affaibli se cumule avec les autres états Affaibli des ombres engendrées par le quartz, jusqu'à atteindre Affaibli 4. Si le Siphon de cristal augmente la valeur de l'état Affaibli à 3 ou plus, l'ombre de la cible est entièrement aspirée dans le cristal de l'ombre.</p>\n<p>Tant que l'ombre de la cible est piégée, elle sent un lien invisible qui la relie au cristal et elle devient @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} lorsqu'elle se tient à plus de 12 mètres de ce dernier. L'état Affaibli du Siphon de cristal ne peut être réduit avant que le cristal ne soit Brisé. Si le cristal est brisé, l'effet est immédiatement interrompu.</p>"
+                },
+                "x47iDfIE9albveGl": {
+                    "name": "Shadow Hand"
+                }
+            }
+        },
+        "Verdure's Moonflower": {
+            "name": "Verdure's Moonflower",
+            "description": "<p>Ces énormes plantes possèdent de larges troncs noueux et leurs fleurs sont garnies de crocs. Une bouche grande ouverte se situe au sommet de leurs troncs, capable d'avaler la plupart des créatures plus petites que la fleur de lune elle-même. Les fleurs de lune peuvent se déplacer lentement sur leurs puissantes racines ou les utiliser pour attaquer, mais en général, elles les enterrent profondément dans le terrain et se tiennent immobiles afin de guetter leurs proies.</p>\n<p>Bien que les fleurs de lune ne s'expriment pas de façon conventionnelle, elles communiquent par télépathie avec leurs semblables. C'est pourquoi les explorateurs qui croisent une fleur de lune peuvent être sûrs que toutes celles se trouvant aux alentours seront prêtes à les accueillir. Ceux qui parviennent à intercepter les communications télépathiques des fleurs de lune sont assaillis par des visions de terribles jungles primitives sur lesquelles règnent des plantes gigantesques. On ignore s'il s'agit d'une vision du passé ou d'un rêve du futur partagé par toutes les fleurs de lune.</p>\n<p>Les fleurs de lune sont des formes de vie qui viennent d'une planète morte depuis longtemps, mais leur prolifération à travers la galaxie a été assurée par les machinations du Sombre Domaine, une sinistre organisation qui vient de l'obscurité entre les étoiles.</p>",
+            "hpdetails": "Guérison accélérée 10",
+            "languages": "Télépathie 1,5 km (autres fleurs de lune seulement)",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans la végétation épaisse"
+                }
+            },
+            "items": {
+                "6Psn5RSYm8UGDpwM": {
+                    "name": "Pod Prison",
+                    "description": "<p><strong>Conditions</strong> Une créature a été gobée par la fleur de lune</p>\n<hr />\n<p><strong>Effet</strong> La fleur de lune créature enveloppe la créature gobée dans un cocon étroit et l'expulse sur une case adjacente. La créature continue à être Gobée et subit la moitié des dégâts infligés au cocon. Une fois Rompu, le cocon se dégonfle et se décompose.</p>"
+                },
+                "7pxsxbazh1PpK8A4": {
+                    "name": "Fast Healing 10"
+                },
+                "MvwGFLtsnf8ZFqhG": {
+                    "name": "Root"
+                },
+                "SDF2zWv6zGkmcQH9": {
+                    "name": "Bite"
+                },
+                "Uoxf8sSuS6pG7QQF": {
+                    "name": "Pod Spawn",
+                    "description": "<p>Si une créature de taille Petite ou supérieure meurt dans une cosse prison, celle-ci se transforme en une fleur de lune adulte avec tous ses Points de vie. Après [[/gmr 1d4 #hours]]{1d4 heures} de croissance.</p>\n<p>L'équipement de la créature morte reste à l'intérieur de la nouvelle fleur de lune et peut être récupéré si la fleur de lune est tuée.</p>"
+                },
+                "kjaeBRLTBCSOl9cS": {
+                    "description": "<p>Grande, @Damage[(2d10+10)[bludgeoning],2d6[acid]]{2d10+10 dégâts contondants et 2d6 dégâts d'acide}, Rupture 21</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                "uOpDNZG0ysnNMkxM": {
+                    "name": "Spray Blossoms",
+                    "description": "<p>La fleur de lune expulse des pétales capables de distordre l'esprit dans un @Template[type:cone|distance:30]{cône de 9 mètres}. Les créatures dans la zone subissent @Damage[4d6[mental]|options:area-damage]{4d6 dégâts mentaux} et @Damage[4d6[poison]|options:area-damage]{4d6 dégâts de poison} (@Check[will|dc:26|basic]). Une créature qui obtient un échec est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2} pendant 1 minute et en cas de coup critique, elle est aussi @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 round.</p>\n<p>La fleur de lune ne peut Diffuser des fleurs pendant [[/gmr 1d4 #Recharge Diffuser des fleurs]]{1d4 rounds}.</p>"
+                }
+            }
+        },
+        "Cocoon of Lucid Potential": {
+            "name": "Cocoon of Lucid Potential",
+            "languages": "(Ne peut parler aucune langue)",
+            "items": {
+                "EC0YgI9NRxD1ISHc": {
+                    "name": "Occult Spontaneous Spells"
+                },
+                "H5No3yLHugKzgNQr": {
+                    "name": "Anchored in Silk",
+                    "description": "<p>Le cocon est incapable de se déplacer autrement qu'en se tortillant légèrement sur place. Il n'a pas de Vitesse et ne peut ni se déplacer ni être déplacé, même par des moyens tels que la Téléportation, car les fils du Tisseur le retiennent en place physiquement et astralement. Le cocon lance ses sorts psychiquement, remplaçant les composantes verbales et somatiques par des expressions de pure volonté débridée et retirant le trait de manipulation de son action Lancer un sort.</p>"
+                },
+                "HHFw3W3cOgIJv8xE": {
+                    "name": "Give of Oneself",
+                    "description": "<p><strong>Déclencheur</strong> Le Tisseur serait réduit à 0 PV</p>\n<hr />\n<p><strong>Effet</strong> La vitalité du cocon est lié à celle du Tisseur. Le cocon perd @Damage[30[untyped]]{30 Points de vie}, restituant @Damage[15[healing]]{15 Points de vie} au Tisseur. Il peut utiliser cette capacité même s'il n'est pas en mesure d'agir autrement.</p>"
+                },
+                "Hc9RMNJy8VQgbgt8": {
+                    "name": "In There Somewhere",
+                    "description": "<p>L'individualité de Killia repose toujours dans le cocon, tout en essayant de résister à l'assimilation. Si un PJ réussit un test de @Check[diplomacy|dc:32] sur le cocon, ce dernier subit @Damage[5d6[mental]]{5d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1} puisque la conscience de Killia se bat contre le Tisseur. Le cocon ne peut pas être affecté de cette manière plus d'une fois par tour.</p>"
+                },
+                "jHHE5GG2biaCiVYC": {
+                    "name": "Psychic Scream"
+                },
+                "pqQB2JJ1Z8S2K9ay": {
+                    "name": "Of Same Essence",
+                    "description": "<p>Le cocon et le Tisseur partagent la même essence. Les sorts du cocon n'affectent jamais le Tisseur et le Tisseur peut ignorer tout effet de sorts actif du cocon si il le désire (comme par exemple @UUID[Compendium.pf2e.spells-srd.Item.tSosbMsftXcRaQgT]{Océan de pensées})</p>"
+                }
+            }
+        },
+        "Disorienting Illusions": {
+            "name": "Disorienting Illusions",
+            "desc (hazard)": "<p>Les illusions qui entourent cette chambre font apparaître ses murs et tout son contenu comme étant inclinés, irréguliers et en mouvement.</p>",
+            "disable": "<p>@Check[crafting|dc:17|name:Calculer les dimensions de la pièce] (qualifié) pour calculer les dimensions de la pièce malgré les illusions ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 1 ; DD 17) pour contrer les illusions</p>",
+            "reset": "<p>Le piège se réinitialise après 1 minute</p>",
+            "items": {
+                "ZJEa0ERwBrbsozjF": {
+                    "name": "Disorient",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans la pièce</p>\n<hr />\n<p><strong>Effet</strong> Les illusions font que l'apparence de la pièce et des objets qui s'y trouvent se déforment, se déplacent, se plient et se distordent constamment pendant 1 minute. Chaque créature présente dans la pièce alors qu'elle se distrod doit tenter un test de @Check[perception|dc:17|action:seek].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature perce l'illusion et n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature perce l'illusion mais la voittoujours. Elle considère la zone comme étant du terrain difficile.</p>\n<p><strong>Échec</strong> La créature croit en l'illusion. Elle considère la zone comme étant du terrain difficile et devient @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1}. tant qu'elle reste dans la pièce, elle ne peut pas réduire son état Nauséeux en dessous de 1.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais chaque fois que le créature tente une action de déplacement, elle doit réussir un test @Check[flat|dc:5] ou perdre son action. En cas d'échec critique, elle est également @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+                }
+            }
+        },
+        "Exhaling Portal": {
+            "name": "Exhaling Portal",
+            "desc (hazard)": "<p>Des runes magiques gravées dans le cadre d'une porte relient celle-ci au plan de l'air lorsqu'on l'ouvre, soufflant les créatures dans le couloir qui la relie.</p>",
+            "disable": "<p>@Check[thievery|dc:30|name:Gratter les runes|traits:action:disable-a-device] (expert) deux fois pour gratter les runes ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 5 ; DD 30) pour contrer les runes planaires ; @Check[athletics|dc:32|name:Fermer la porte] pour refermer la porte si elle est ouverte (Utiliser Athlétisme arrête le piège, mais ne le désactive pas)</p>",
+            "reset": "<p>Le piège se réinitialise une fois que la porte est fermée.</p>",
+            "routine": "<p>(1 action) Le piège utilise 1 action pour souffler des vents violents dans le couloir. Chaque créature dans le couloir doit tenter un jet de @Check[fortitude|dc:32] avec les mêmes résultats que pour Bourrasque. Si ce déplacement forcé a pour conséquence qu'une créature se heurte à un objet solide ou tombe dans les escaliers ou passe par une fenêtre, cette créature subira @Damage[(2d10+11)[bludgeoning]]{2d10+11 dégâts contondants} supplémentaires (ou @Damage[20[bludgeoning]|options:fall-damage]{20 dégâts contondants} en cas de chute).</p>",
+            "items": {
+                "0l35fQJcnzJb7vMi": {
+                    "name": "Gust",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ouvre la porte.</p>\n<hr />\n<p><strong>Effet</strong> Le couloir est secoué par des vents violents pour aussi longtemps que la porte dans le couloir reste ouverte. Il faut réussir un jet de @Check[athletics|dc:32] pour se déplacer vers la porte. Une créature qui rate son jet de sauvegarde est repoussé de 1,50 mètre et tombe @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n<p>De plus la créature déclencheuse est visée d'une violente bourrasque et doit tenter un jet de @Check[fortitude|dc:32]. Puis le piège lance l'initiative.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est repoussée de 1,50 mètre.</p>\n<p><strong>Échec</strong> La créature est repoussée de 3 mètres.</p>\n<p><strong>Échec critique</strong> La créature est repoussée de 3 mètres et est poussée @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+                }
+            }
+        },
+        "Kuchisake-Onna": {
+            "name": "Kuchisake-Onna",
+            "description": "<p>Une kuchisake-onna, ou femme à la bouche fendue, est un grand personnage masqué qui se déplace avec une grâce étrange. Ces horreurs sont tristement célèbres pour piéger d'infortunés mortels en leur demandant : \"Suis-je jolie ?\". Un \"non\" entraîne une mort atroce causée par les ciseaux d'argent que porte la kuchisake-onna. Un \"oui\" l'incite à retirer son masque, révélant les cicatrices et les coupures d'une oreille à l'autre, donnant l'impression d'un terrible sourire omniprésent. Elle ouvre ensuite la bouche pour révéler des dents pointues, semblables à des aiguilles, et pose une autre question : \"Même maintenant ?\" Un \"non\" entraîne la même mort atroce, tandis qu'un \"oui\" les incite à utiliser leurs ciseaux d'argent et à faire les mêmes coupures sur le visage de la cible en répétant : \"Ensuite, je ferai en sorte que tu m'aimes bien.\"</p>\n<p>Il existe une poignée de méthodes pour se sortir de ce scénario sans issue. Répondre sans s'engager, dire que le kuchisake-onna a l'air \"ok\" ou lancer plusieurs petits objets dénombrables comme du riz ou des bonbons donne souvent assez de temps pour s'enfuir pendant que le monstre est distrait. Peu sont assez fous pour attaquer la kuchisake-onna et ceux qui vivent pour raconter l'histoire parlent d'une rafale de reflets des lames de ciseaux qui rivalisent avec les prouesses d'un maître d'armes avec des épées.</p>",
+            "items": {
+                "3zY8sXqA8CTtAm4D": {
+                    "name": "Lingering Enmity",
+                    "description": "<p>La Frappe des ciseaux d'argent de la kuchisake-onna est une manifestation de la malice toxique qui l'a créée. Les ciseaux disparaissent dès que la kuchisake-onna est détruite.</p>\n<p>Lorsque la kuchisake-onna possède moins que la moitié de ses Points de vie, cette rancune persistante commence à se manifester sous forme d'attaques vicieuses. La Frappe de Leurs ciseaux infligent @Damage[6d6[bleed]]{6d6 dégâts de saignement}.</p>\n<hr />\n<p><em>Note : Du fait d'un errata publié par la suite, ces dégâts persistants sont doublés sur un coup critique. Du fait du haut potentiel de dégâts pour ce niveau de créature, cette interaction peut ne pas avoir été recherchée.</em></p>"
+                },
+                "9FHqdE5S2AJGokrP": {
+                    "name": "Am I Pretty?",
+                    "description": "<p>La kuchisake-onna demande à une seule créature adjacente : \"Suis-je jolie ?\". La cible doit tenter un jet de @Check[will|dc:35|traits:mental]. Si la créature rate son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant 1 round et si la créature obtient un échec critique à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée} pendant 1 round, mais elle peut encore répondre à la question. Ceci est un effet mental.</p>\n<p>Si la cible répond \"non\", la kuchisake-onna effectue deux Frappes de ciseaux contre la créature ciblée. Si la cible répond \"oui\", la kuchisake-onna n'effectue aucune Frappe et doit utiliser \"Et maintenant ?\" pour sa prochaine action (si son tour est terminé elle le fait lors de sa première action à son prochain tour). Si la cible répond de manière confuse ou sans réponse claire et déterminée, la kuchisake-onna est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} à l'égard de toutes les créatures pendant 1 round mais peut effectuer ses actions comme à l'ordinaire.</p>"
+                },
+                "BX7sT7k5GNZuI9hc": {
+                    "name": "Silver Scissors"
+                },
+                "V3rzyrOOf8B6y3I2": {
+                    "name": "Silver Scissors"
+                },
+                "d7MLmQG9ZkBIstUb": {
+                    "name": "Compulsive Counting",
+                    "description": "<p>Lorsqu'il y a un certain nombre de petits objets éparpillée devant la kuchisake-onna, elle commence à compter de façon compulsive et est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} à l'égard de toutes les créatures pendant [[/gmr 1d4 #Durée de la Prise au dépourvu]]{1d4 rounds}.</p>"
+                },
+                "nRcZT1xJaPAlURaU": {
+                    "name": "Even Now?",
+                    "description": "<p><strong>Conditions</strong> Une créature adjacente ciblée par la capacité \"Suis-je jolie ?\" a répondu \"Oui\".</p>\n<hr />\n<p><strong>Effet</strong> Le kuchisake-onna enlève son masque, révélant son visage tailladé et demande \"Et maintenant ?\". La cible doit tenter un jet de @Check[will|dc:35|traits:mental].</p>\n<p>Sur un échec, elle est @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant 1 round, et si elle obtient un échec critique, elle est @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée} pendant 1 round, mais peut toujours répondre à la question. Ceci est un effet mental.</p>\n<p>Indépendamment du \"oui\" ou du \"non\" de la cible, la kuchisake-onna effectue deux Frappes de ciseaux contre la cible.</p>"
+                },
+                "nTIiE8RjvvPcUYEK": {
+                    "name": "Rend",
+                    "description": "<p>Ciseaux en argent</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+                }
+            }
+        },
+        "Spirit Window": {
+            "name": "Spirit Window",
+            "hpdetails": "Solidité 35 (fenêtre)",
+            "desc (hazard)": "<p>Des esprits sont emprisonnés dans la fenêtre hantée. Ils blessent ceux qui touchent la fenêtre.</p>",
+            "disable": "<p>@Check[occultism|dc:48|name:Libérer les esprits] (légendaire) pour libérer les esprits du miroir ou de @Check[religion|dc:48|name:Bannir les esprits] (légendaire) pour bannir les esprits.</p>",
+            "reset": "<p>Le piège se réinitialise après 1 round</p>",
+            "items": {
+                "2WfGqYcBTEQfIJje": {
+                    "name": "Siphon Soul",
+                    "description": "<p><strong>Déclencheur</strong> Une créature touche la fenêtre</p>\n<hr />\n<p><strong>Effet</strong> La créature déclencheuse subit @Damage[(8d10+44)[void]]{8d10+44 dégâts de vide} avec un jet de @Check[will|dc:42|basic] alors que la fenêtre hantée tente de voler son âme. Si les dégâts conduisent la créature à la mort, l'âme de la créature sera emprisonnée dans la fenêtre avec les effets d'@UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Appropriation de l'âme}.</p>"
+                }
+            }
+        },
+        "Distortion Mirror": {
+            "name": "Distortion Mirror",
+            "desc (hazard)": "<p>Les miroirs grossissants déforment le reflet de l'observateur, remodelant douloureusement son corps pour qu'il corresponde à ce qui apparaît dans les images reflétées.</p>",
+            "disable": "<p>@Check[thievery|dc:38|name:Dégrader le miroir|traits:action:disable-a-device] (master) pour dégrader la vitre du miroir ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 7 ; DD 36) pour dissiper la magie du miroir ou contrer la transformation.</p>",
+            "reset": "<p>Le piège se réinitialise après 1 jour.</p>",
+            "stealth": "<p>0 pour remarquer le miroir</p>",
+            "items": {
+                "rKdbdgqCvS4u8s4L": {
+                    "name": "Painful Transformation",
+                    "description": "<p><strong>Déclencheur</strong> Une créature est réfléchie dans un miroir.</p>\n<hr />\n<p><strong>Effet</strong> Le corps de la créature est écrasé, étiré et déformé pour correspondre à son reflet. La créature subit @Damage[(6d10+30)[force]]{6d10+30 dégâts de force} et doit tenter un jet de @Check[fortitude|dc:39|traits:damaging-effect].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible subit la moitié de dégâts et est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1} pendant 1 round.</p>\n<p><strong>Échec</strong> La cible subit la totalité des dégâts et est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2} pendant 4 rounds.</p>\n<p><strong>Échec critique</strong> La cible subir le double des dégâts et est Maladroite 2 et Affaiblie 2 pendant 1 minute. Pour aussi longtemps que la créature est Affaiblie ou Maladroite, elle subit également une pénalité de -3 mètres à ses Vitesses.</p>\n<p>Lorsque les effets de ce piège s'arrêtent, la transformation de la créature déclencheuse s'arrête, et son corps revient à sa forme normale.</p>"
+                }
+            }
+        },
+        "The Weaver in Dreams": {
+            "name": "The Weaver in Dreams",
+            "speeds": "Harceleur dans les Rêves",
+            "items": {
+                "4A7cNLcKMBz6WJiy": {
+                    "name": "String Astral Body",
+                    "description": "<p>Le tisseur attache des cordes au corps astral d'une créature pour la déplacer. Il force le déplacement le corps astral à sa portée de Frappe de soie soit jusqu'à 6 mètres, sans jet de sauvegarde.</p>"
+                },
+                "5ziv4KKVkKAcChTU": {
+                    "name": "Stalker in Dreams",
+                    "description": "<p><strong>Déclencheur</strong> Le Tisseur devient @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} à toutes les créatures dans les 18 mètres ou il n'est pas observe par les créatures dans les 18 mètres</p>\n<hr />\n<p><strong>Effet</strong> La présence du Tisseur dans l'Univers est liée à la perception que les autres ont de lui, et lorsque cette perception faiblit, il peut se déplacer vers un nouvel endroit. Le Tisseur se téléporte dans un espace inoccupé dans un rayon de 18 mètres, hors de la ligne de vue de toute créature se trouvant dans un rayon de 18 mètres. Si le Tisseur est devenu Masqué ou n'est pas observé dans le cadre d'une action de déplacement qu'il a entreprise, il peut reprendre son déplacement après s'être téléporté. Une créature qui Détourne son regard du Tisseur n'est pas en train de l'observer.</p>"
+                },
+                "G4i0tp7lYajN7KwD": {
+                    "name": "Dreams Unraveling",
+                    "description": "<p>Lorsque le Tisseur a moins de 155 Points de vie, sa forme s'effiloche partiellement, révélant des plaques d'horreur pure suffisamment aiguës pour laisser des blessures physiques. Ceci crée une @Template[emanation|distance:10]{émanation de 3 mètres} qui inflige @Damage[3d6[mental],3d6[slashing]|options:area-damage]{3d6 dégâts mentaux et 3d6 dégâts tranchants}, avec un jet de @Check[will|dc:36|basic|options:area-effect]. Une créature qui @UUID[Compendium.pf2e.actionspf2e.Item.UWdRX1VelipCzrCg]{Détourne le regard} est immunisée contre cette aura.</p>"
+                },
+                "GGttpO7eWtif6ZON": {
+                    "name": "Nameless Nightmare",
+                    "description": "<p>Le TIsseur a arraché son propre nom pour devenir un être de terreur. Il est immunisé à tout effet de langue et tout effet qui pourrait imposer l'état de @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé}. Sans nom, c'est difficile d'être affecté par un phénomène. Le Tisseur se remet des états @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysé}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti} et @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi} à la fin de son tour, et ses test nu pour combattre les effets persistants est ramené à @Check[flat|dc:5]{5}. Quiconque qui prononce, écrit ou tente d'enregistrer son nom, subit [[/r 10[mental]]]{10 dégâts mentaux} et la tentative échoue automatiquement.</p>"
+                },
+                "PFLlpNCLFoMvvzjF": {
+                    "name": "Separate Astral Body",
+                    "description": "<p>Le Tisseur creuse dans le psyché de la cible insérant un fil de soie et tire, séparant la forme astrale de la cible hors de son corps. A moins que la cible ne réussisse un jet de @Check[will|dc:36], sa forme astrale est tirée hors de son corps, causant l'apparition de sa forme fantomatique sur une case adjacente au choix du Tisseur.</p>\n<p>Un corps astral est immunisé contre les dégâts physiques mais affecté normalement par les effets mentaux, les effets de force et les effets qui ciblent directement l'esprit. La cible reste reliée à son corps physique par une corde d'argent, qui est toujours visible et peut déjouer les tentatives de se Cacher. La séparation d'avec son corps astral a des effets néfastes sur la psyché, imposant une pénalité de statut aux jets de sauvegarde de -1 et infligeant @Damage[1d6[persistent,mental]]{1d6 dégâts mentaux persistants} pour aussi longtemps que le corps astral et le corps sont séparés. Ces dégâts persistants augmentent à 3d6 si le corps de la cible est à plus de 9 mètres de sa forme astrale.</p>\n<p>La cible peut utiliser une unique action, avec le trait concentration, pour déplacer son corps astral d'une quantité égale à sa Vitesse. Lorsque la cible cesse de subir des dégâts mentaux persistants, le corps astral se rattache au corps physique, ce qui met fin à l'effet. Si la cible porte de l'argent, la première fois que cette capacité est utilisée sur elle, elle échoue et tout l'argent qu'elle porte et qui est plus grand qu'une pièce de monnaie se ternit. Bien que cela ne détruise pas complètement les objets comme les armes ou les instruments de thaumaturge, cela les empêche de se protéger contre cette capacité plus d'une fois.</p>"
+                },
+                "UPEC8mJThmuoRkKJ": {
+                    "name": "Astral Silk"
+                },
+                "XcNlseVC4Ik7ETIX": {
+                    "name": "Sever Astral Threads",
+                    "description": "<p>Le Tisseur utilise une griffe pour couper la corde d'argent reliant les corps astral et physique d'une créature. Ceci inflige @Damage[16d6[mental]]{16d6 dégâts mentaux} à n'importe quelle cible affectée par Séparation du corps astral et dont le corps astral ou le corps physique est situé dans les 3 mètres du Tisseur (@Check[will|dc:37|basic]). Après avoir été ciblé par cette capacité, le corps astral revient violemment dans le corps physique de la cible, provoquant une perte de vision et @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{l'aveuglant} jusqu'au début de son prochain tour, à moins qu'elle n'ait réussi son jet de sauvegarde.</p>"
+                },
+                "lMprNG8h8WUaezg1": {
+                    "name": "Claw"
+                },
+                "s0uQRVp56Th5lEsd": {
+                    "name": "Stitch Into the Web",
+                    "description": "<p><strong>Déclencheur</strong> Le Tisseur est déplacé contre sa volonté ou une créature tente de quitter une case dans les 6 mètres de lui par n'importe quel moyen, téléportation inclus.</p>\n<hr />\n<p><strong>Effet</strong> La soie du Tisseur suture un corps en place pour empêcher tout mouvement. La créature cesse de bouger et l'action est interrompue. La perturbation n'affecte pas les corps astraux.</p>"
+                }
+            }
+        },
+        "Bounding Hounds": {
+            "name": "Bounding Hounds",
+            "hpdetails": "60 PV par molosse",
+            "desc (hazard)": "<p>Trois molosses ectoplasmiques chassent les intrus, infligeant des dégâts aux créatures qu'ils traversent.</p>",
+            "disable": "<p>@Check[nature|dc:36|name:Calmer le molosse] (expert) pour calmer chaque molosse ou test d'@Check[occultism|dc:38|name:Bannir les molosses] (maître) pour bannir chaque molosse.</p>",
+            "reset": "<p>1 heure</p>",
+            "routine": "<p>(9 actions) Le piège perd 3 actions par round à chaque molosse neutralisé. Chaque molosse utilise trois actions pour Marcher rapidement sur une distance de 12 mètres poursuivant les créatures dans la pièce, en passant à travers les créatures tangibles pendant ce déplacement si possible. Chaque créature que le molosse traverse subit @Damage[(2d8 + 7)[void]]{2d8+7 dégâts de vide} (@Check[reflex|dc:37|traits:damaging-effect] annule les dégâts). Une créature ne peut subir des dégâts qu'une seule fois par molosse et par round, quel que soit le nombre de fois où le molosse se déplace dans son espace.</p>",
+            "items": {
+                "lY8P3VlUAyOoBnVJ": {
+                    "name": "Bay",
+                    "description": "<p><strong>Déclencheur</strong> Une créature pénètre dans la zone.</p>\n<hr />\n<p><strong>Effet</strong> Le molosse se manifeste en aboyant bruyamment, infligeant @Damage[(3d10 + 16)[sonic]]{3d10+16 dégâts de son} à toutes les créatures dans les 9 mètres du molosse (@Check[fortitude|dc:33|basic]). Sur un échec au jet de sauvegarde, la créature est également @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}. Le piège lance ensuite l'initiative.</p>"
+                }
+            }
+        },
+        "Darkside Mirror": {
+            "name": "Darkside Mirror",
+            "hpdetails": "Le miroir ne peut pas être endommagé tant qu'un double malveillant est en vie.",
+            "desc (hazard)": "<p>Un miroir magique remplace les personnages par des doubles malveillants issus d'une autre dimension.</p>",
+            "disable": "<p>@Check[thievery|dc:34] (légendaire) pour récupérer une créature depuis l'autre dimension dans les 10 minutes suivant l'échange (possible uniquement si son double malveillant est mort), @Check[thievery|dc:39] (maître) pour désactiver le miroir de manière permanente dès que tous les doubles malveillants sont morts, ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (rang 7 ; DD de contre 32) pour contrer le miroir pendant 1 minute et empêcher tout remplacement supplémentaire pendant cette durée.</p>",
+            "reset": "<p>Le miroir est toujours prêt à absorber les créatures dans l'autre dimension. Dix minutes après qu'une créature a été aspirée dans le miroir, si un allié ne la sauve pas, elle atteint l'autre dimension. Dans la dimension miroir, elle est considérée comme un double malveillant. Ces dimensions sont des réalités alternatives, pas des plans, donc même des sorts comme <em>@UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Téléportation interplanaire}</em> ne peuvent pas les atteindre.</p>",
+            "routine": "<p><strong>(1 action)</strong> Le miroir absorbe une autre créature réfléchie et la remplace par un double malveillant. Le double malveillant attaque avec sa propre initiative, en utilisant les mêmes statistiques que la créature d'origine, mais il hait toutes les autres créatures non-doublés. Un double malveillant peut dépenser 3 actions au contact du miroir pour retourner dans sa dimension d'origine et libérer la créature dupliquée.</p>",
+            "stealth": "<p>(Maître) pour remarquer qu'il ne s'agit pas d'un miroir ordinaire</p>",
+            "items": {
+                "JEXj6WkaqB0iscnL": {
+                    "name": "Reflection of Malice",
+                    "description": "<p><strong>Déclencheur</strong> Une créature est réfléchie dans le miroir</p>\n<hr />\n<p><strong>Effet</strong> Le miroir absorbe la créature, la remplaçant par un double malveillant (@Check[reflex|dc:34] pour ne pas être absorbé dans le miroir), et détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Call of the Void": {
+            "name": "Call of the Void",
+            "desc (hazard)": "<p>Une compulsion surnaturelle à sauter dans l'inconnu s'exerce sur tous ceux qui s'approchent de la corniche</p>",
+            "disable": "<p>@Check[occultism|dc:34|name:Repousser cette compulsion magique] ou d'@Check[arcana|dc:36|name:Repousser cette compulsion magique] pour repousser la compulsion magique de l'île en question et de toutes les cordes rouges qui y sont directement attachées, en assombrissant la couleur de la corde. L'Écho désactive aussi automatiquement le danger de toute île sur laquelle il se trouve, et de toute corde rouge qui y est directement attachée, lorsqu'il se reconstitue à partir de la Pensée sur cette île.</p>",
+            "reset": "<p>L'appel du néant persiste pour aussi longtemps que l'Écho existe, quoique l'appel ne s'active que lorsque l'Écho ait lancé l'initiative. Le piège se réinitialise chaque jour.</p>",
+            "routine": "<p>(1 action) L'appel cible toutes les créatures adjacentes à une corniche ou sur l'une des cordes rouges et exerce une pression sur leur esprit. Une créature qui est déjà tombée ce round est immunisée.</p>",
+            "stealth": "<p>Expert pour remarquer cette sensation d'attraction</p>",
+            "items": {
+                "eA8cwxuJWpDq8jgk": {
+                    "name": "Leap into the Unknown",
+                    "description": "<p><strong>Déclencheur</strong> Une créature pénètre dans une case adjacente du rebord d'une île ou s'engage sur l'une des cordes rouges</p>\n<hr />\n<p><strong>Effet</strong> L'appel du néant attire l'attention des intrus, les poussant à sauter de la corniche. La créature doit réussir un jet de @Check[will|dc:34] ou un test d'@Check[acrobatics|dc:32|traits:action:balance] pour @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Garder l'équilibre} ou sauter de la corniche. Si la créature tombe, elle chute de 30 mètres, traverse l'espace clos du paysage mental et atterrit sur la case d'où elle est tombée, subissant les dégâts de chute comme à l'ordinaire (habituellement @Damage[50[bludgeoning]|options:fall-damage]{50 dégâts contondants}). Puis, l'appel du néant lance l'initiative.</p>"
+                }
+            }
+        },
+        "K. H. W.'s Echo": {
+            "name": "K. H. W.'s Echo",
+            "hpdetails": "Forme déstabilisée",
+            "items": {
+                "6LPHouUKdhwChveQ": {
+                    "name": "Rope Dart"
+                },
+                "9AePbujsZky8xUjK": {
+                    "name": "Astral Spindel Implement",
+                    "description": "<p>L'écho transporte un fuseau qui tisse constamment un fil astral rouge. Ce fuseau est à la fois un implément thaumaturgique et une arme. Si sa <em>@UUID[Compendium.pf2e.equipment-srd.Item.djSCel13i1p8JeXv]{corde fléchette}</em> est perdue ou cassée, il peut la reformer par une action Interagir. S'il obtient un coup critique sur une Frappe de <em>corde fléchette</em>, des pensées envahissantes et des chimères transitent par le fil jusque dans les pensées de la cible. La cible devient @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 round.</p>"
+                },
+                "PSN0OsnaXCyM9qu3": {
+                    "name": "Astral Thread Control",
+                    "description": "<p><strong>Fréquence</strong> Une fois par round</p>\n<p><strong>Conditions</strong> la dernière action de l'Écho était une Frappe réussie de corde fléchette.</p>\n<hr />\n<p><strong>Effet</strong> L'Écho fait un mouvement de poignet et effectue une nouvelle Frappe de corde fléchette vers une cible différente qui se situe dans les 9 mètres de la première cible, utilisant la même pénalité d'attaque que la première cible. Que l'attaque réussisse ou pas, il peut ensuite récupérer l'arme.</p>"
+                },
+                "VdAYDEzY4gulPTVL": {
+                    "name": "Esoteric Lore"
+                },
+                "crjSzGgHUw6zPIVX": {
+                    "name": "Reconstitute from Thought",
+                    "description": "<p><strong>Conditions</strong> L'Écho est situé sur une des huit grandes îles sur la carte et l'île n'a pas été assombrie.</p>\n<hr />\n<p><strong>Effet</strong> L'écho projette sa corde fléchette dans l'île et l'utilise pour absorber l'essence mentale du paysage mental, afin de se réparer. Il regagne @Damage[45[healing]]{45 Points de vie} et l'île prend une couleur grise désaturée pendant 1 jour, empêchant toute future absorption et en désactivant le piège @UUID[Compendium.pf2e.pathfinder-dark-archive.Actor.0AdtolhMWrPlzVZY]{Appel du néant} sur cette île.</p>"
+                },
+                "g86YWdXagoWqk0OQ": {
+                    "name": "Destabilized Form",
+                    "description": "<p>Lorsque l'Écho a moins de 140 Points de vie, sa forme se déstabilise, des gros morceaux se désintégrant sur son visage, son torse et ses membres. Des phalènes blanches sortent en flots continus des espaces manquants, créant une @Template[emanation|distance:10]{émanation de 3 mètres} qui inflige @Damage[6d6[mental]|options:area-damage]{6d6 dégâts mentaux} (@Check[will|dc:34|basic|options:area-effect]).</p>\n<p>Tant que l'aura persiste, il peut se dissoudre en phalènes et se reformer dans un autre lieu dans les 4,50 mètres par une action gratuite au début de chacun de ses tours. Cette capacité possède les traits occulte et téléportation.</p>"
+                },
+                "gjGhslPt9ZQSI0yX": {
+                    "name": "Contingency Oathday-Nine-Rova",
+                    "description": "<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Déclencheur</strong> Le tour de l'Écho commence et il est Étourdi, Ralenti, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confus}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Contrôlé}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisé}, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysé}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravé} ou est empêché autrement d'agir.</p>\n<hr />\n<p><strong>Effet</strong> L'Écho a prévu un nombre de cas dans le cas où il pourrait se trouver compromis. Les talismans sur son corps éclatent, contrant l'effet déclencheur. L'Écho peut utiliser cette action gratuite, même s'il ne pourrait pas normalement agir.</p>"
+                },
+                "hwQM6l4pirYi7vuV": {
+                    "name": "Rope Dart"
+                },
+                "p8vS3GT8MXVMDs8P": {
+                    "name": "Reactive Strike (Special)",
+                    "description": "<p>L'Écho a une allonge 4,50 mètres pour déterminer les déclencheurs de Frappe réactive et le moment où elle s'effectue.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]<</p>"
+                },
+                "vt810lsvoNHLaCNF": {
+                    "name": "Spindle's Web",
+                    "description": "<p>Le fuseau de l'Écho tourne de plus en plus vite jusqu'à ce qu'elle devienne floue, projetant des fils rouges dans toutes les directions. Les fils infligent @Damage[7d6[slashing],7d6[mental]|options:area-damage]{7d6 dégâts tranchants et 7d6 dégâts mentaux} à toutes les créatures dans une @Template[emanation|distance:30]{émanation de 9 mètres} (@Check[reflex|dc:34|basic|options:area-effect]). Si une créature obtient un échec sur son jet de sauvegarde, les fils réveillent un ancrage de paysage mental qui est contenu à l'intérieur, l'affectant différemment, en fonction de l'ancrage que la créature utilise pour obtenir l'accès au centre du paysage mental. (S'il y a un PJ qui n'a pas absorbé l'ancrage du paysage mental, par exemple parce qu'il y a plus de 4 joueurs, utilisez l'ancrage du PJ le plus proche de lui)</p>\n<p>L'Écho ne peut pas utiliser ce pouvoir pendant [[/gmr 1d4 #Recharge Toile de fuseau]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Calice</strong> Le calice draine la force vitale, donnant à l'Écho des Points de vie temporaires d'un montant équivalent à la moitié des dégâts infligés.</li>\n<li><strong>Lanterne</strong> La lanterne délimite la créature avec des @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Lumière révélatrice} flamboyantes qui infligent @Damage[2d6[persistent,fire]]{2d6 dégâts de feu persistants}.</li>\n<li><strong>Livre</strong> Le livre envahit les pensées de la créature d'informations. La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round.</li>\n<li><strong>Miroir</strong> Le miroir réfléchit la créature dans un autre lieu, la téléportant dans un espace inoccupé dans les 7,50 mètres de sa position actuelle.</li>\n</ul>"
+                }
+            }
+        },
+        "Spectral Fang Paleohemoth": {
+            "name": "Spectral Fang Paleohemoth",
+            "description": "<p>Les paléohémoths sont généralement fabriqués à partir d'os fossilisés de dinosaures et d'autres mégafaunes anciennes, bien que certains artisans utilisent plutôt des os magiquement pétrifiés de dragons ou même de géants en étendant le concept. N'étant pas liés à un modèle spécifique, les paléohémoths sont fabriqués pour être aussi terrifiants que possible plutôt que comme des modèles de précision anatomique. Ainsi, la plupart des paléohémoths sont des amalgames sauriens cauchemardesques dont les bras massifs se terminent par les crânes complets de prédateurs alpha tels que les tyrannosaures, leur morsure étant améliorée pour pétrifier la chair.</p>\n<p>Il est difficile de trouver des os fossilisés intacts et plus encore des squelettes entiers. Une voie alternative pour les obtenir est d'engager les services de chasseurs experts ou d'aventuriers, afin de trouver des dinosaures vivants, ramener leurs os et utiliser la magie pour les transformer en pierre. Quelques puristes préfèrent néanmoins des os fossilisés véritables et sont tout à fait prêts à payer le prix pour cette acquisition. D'une façon ou d'une autre, des opportunités attendent ceux qui veulent tenter l'aventure, s'armant d'outils appropriés et de <em>sacs spacieux</em>.</p>\n<p>La magie qui anime les paléohémoths leur confèrent une forme de flexibilité modulaire, leur permettant de troquer leur mobilité contre une allonge étendue grâce à la réorganisation rapide de leurs membres. Cela implique souvent de déplacer les os des jambes afin d'étendre les bras. Bien que cette méthode conduise à leur donner une anatomie quelque peu ridicule, elle n'en est pas moins efficace. Cela leur permet également de ressembler à une masse d'os enchevêtrés au repos, ce qui les rend susceptibles d'être confondus avec le décor plutôt qu'en gardiens.</p>\n<p>Les raisons de construire ce genre de créatures artificielles sont variables. Bien qu'ils soient souvent associés aux gardiens créés par des génies maléfiques pour peupler des donjons profonds et sombres, ils peuvent être utilisés à d'autres fins. Des versions plus élégantes peuvent être utilisées pour protéger les collections privées des collectionneurs de la classe supérieure. La Thuvie fait grand usage des paléohémoths dans ses arènes de combat de créatures artificielles. Bien qu'ils n'étaient pas autorisés à se battre à l'origine, une faille légale en a fait un ajout populaire dans les arènes depuis lors.</p>",
+            "items": {
+                "H67N9DPRmJmNMDeZ": {
+                    "name": "Spectral Flame"
+                },
+                "OVl3aNgu2GTWV5wM": {
+                    "name": "Incomplete",
+                    "description": "<p>Le paléohémoth spectral à crocs a perdu une partie de son corps, ce qui le rend de taille Grande au lieu de Très Grande et réduit l'allonge de sa Frappe de mâchoires à 3 mètres.</p>"
+                },
+                "TTotdT50Y6eFIsHY": {
+                    "name": "Jaws"
+                },
+                "nXUfkwitBNWhIe8d": {
+                    "name": "Fossilization",
+                    "description": "<p>À chaque round, la première fois qu'une créature subit des dégâts de la Frappe de mâchoire d'un paléohémoth, la cible doit effectuer un jet de @Check[fortitude|dc:32]. Si la créature obtient un échec et n'a pas déjà été Ralentie par cette capacité, elle est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 minute. </p>\n<p>Si la créature ciblée était déjà Ralentie par cette capacité, un jet de Vigueur raté la @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Pétrifie} de façon permanente.</p>"
+                },
+                "sMOW7L2I7HwP3CtJ": {
+                    "name": "Reassemble",
+                    "description": "<p>Le paléohémoth réorganise ses os, son allonge passant à 7,50 mètres tout en réduisant sa Vitesse à 4,50 mètres. Il peut reprendre sa forme normale en utilisant une nouvelle fois cette action.</p>"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

@@ -1,0 +1,1212 @@
+{
+    "label": "La Tombe du Roi du ciel",
+    "entries": {
+        "Krohan (Possessed)": {
+            "name": "Krohan (Possessed)",
+            "cadetails": "(19 avec le bouclier levé)",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "1rVmqmTAmfeHCM0Q": {
+                    "name": "Phantom Hand Crossbow"
+                },
+                "2wC7nw4ErOLVBL0a": {
+                    "name": "Sound Burst"
+                },
+                "3XUSRBlH9TPsU5xs": {
+                    "description": "<p>Ce très petit bouclier est le favori des duellistes et des guerriers rapides dotés d'armures légères. Il est généralement fabriqué en acier et attaché à votre avant-bras. Vous pouvez @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Lever un bouclier} avec votre targe tant que vous avez cette main libre ou que vous tenez dans cette main un objet léger qui ne soit pas une arme.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Solidité</th>\n<th>PV</th>\n<th>SR</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>6</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>"
+                },
+                "6Xg9DFVfVXtAYfC1": {
+                    "name": "Occult Innate Spells"
+                },
+                "IkDEDbRDvwyghpU3": {
+                    "name": "Unwitting Rivethun",
+                    "description": "<p>Krohan a un accès très limité à la magie de Rivethun, ne pouvant lancer des sorts que lorsqu'il éprouve de la douleur ou de la détresse.</p>"
+                },
+                "KULtvYYxoWXmXjHC": {
+                    "name": "Phantom Pick"
+                },
+                "MkxO6tFxywUV9ORO": {
+                    "name": "Chill Touch"
+                },
+                "UQRmewJYY6D5GNIB": {
+                    "name": "Magic Weapon"
+                },
+                "VQ2GcuucZjOHTUyZ": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> (manipulation)</p>\n<p>Un antidote vous protège contre les toxines. Lorsque vous le buvez, vous obtenez un bonus d'objet de +2 aux jets de Vigueur contre les poisons pendant 6 heures.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Effet : Antidote}</p>"
+                },
+                "bsEfrREmlwPU2BPz": {
+                    "name": "Righthand Man",
+                    "description": "<p>Krohan bénéficie d'un bonus de circonstances de +2 aux jets d'attaque et aux tests de compétence effectués pour aider autrui. Il peut effectuer un test de Connaissance des nains à la place de tout autre jet d'attaque ou test de compétence pour aider un nain.</p>"
+                },
+                "g1CM0g4DmY71SWuw": {
+                    "name": "Dwarf Lore"
+                },
+                "hjDdVa8DpVckgS9Z": {
+                    "name": "Possessed"
+                },
+                "kfwJTn7184dWRStW": {
+                    "description": "<p>Une potion de guérison se présente sous forme de liquide rouge rubis contenu dans une fiole. Elle provoque de légers picotements tandis que les plaies du buveur se referment rapidement. Lorsque vous buvez une potion de guérison inférieure, vous récupérez @Damage[(2d8+5)[healing]]{2d8+5 Points de vie}.</p>"
+                },
+                "lWiglyBB5umJWwHM": {
+                    "name": "Spirits Drawn to Suffering",
+                    "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<p><strong>Déclencheur</strong> Krohan obtient un échec critique sur un jet de sauvegarde, subit les dégâts mentaux, subit des dégâts d'une Frappe critique, ou obtient un état préjudiciable avec une valeur numérique (tel que effrayé ou nauséeux). Cet effet ne se déclenche pas en cas d'attaque sur soi-même ou autres circonstances similaires provoquées intentionnellement.</p>\n<hr />\n<p><strong>Effet</strong> Krohan obtient la capacité de lancer ses sorts innés occultes pendant 1 minute.</p>"
+                },
+                "tXvqgLqBrimXP4fE": {
+                    "name": "Occult Catharsis",
+                    "description": "<p>La magie de Krohan transforme sa douleur en puissance magique. Après avoir lancé un sort occulte inné, il effectue un @Check[flat|dc:5], en augmentant le DD du double du rang du sort si ce n'était pas un tour de magie. En cas de réussite, l'effet Esprits attirés par la souffrance de Krohan prend fin, peut réduire de 1 la valeur d'une condition qui l'affecte et récupère @Damage[2d6[healing]]{2d6 Points de vie}.</p>"
+                }
+            }
+        },
+        "Coal Residue": {
+            "name": "Coal Residue",
+            "desc (hazard)": "<p>Les matériaux combustibles peuvent s'enflammer et brûler intensément.</p>",
+            "disable": "<p>@Check[mining-lore|dc:15] (qualifié) pour répandre un constituant inerte sur la zone ou @Check[survival|dc:18] pour enlever suffisamment de matériau afin d'éviter une réaction en chaîne.</p>",
+            "items": {
+                "HCmxSDRBNz58bq57": {
+                    "name": "Ignite",
+                    "description": "<p><strong>Déclencheur</strong> Un effet dans la zone inflige au moins @Damage[8[electricity]]{8 dégâts d'électricité} ou @Damage[4[fire]]{4 dégâts de feu}</p>\n<hr />\n<p><strong>Effet</strong> Le résidu de charbon s'enflamme rapidement, infligeant @Damage[4d6[fire]]{4d6 dégâts de feu} à toutes les créatures dans la zone (@Check[reflex|dc:18|basic]). La zone brûle pendant 1 minute, durant cette période toutes les créatures au sein de cette zone sont @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} et toutes les autres créatures leur sont Masquées. De plus, les créatures qui terminent leur tour dans la zone subissent @Damage[1d6[fire]]{1d6 dégâts de feu}.</p>"
+                }
+            }
+        },
+        "Soulbound Mauler (Lawful Neutral)": {
+            "name": "Soulbound Mauler (Lawful Neutral)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Soulbound Mauler (Chaotic Neutral)": {
+            "name": "Soulbound Mauler (Chaotic Neutral)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Zivzeb": {
+            "name": "Zivzeb",
+            "description": "<p>On dit que les mimiques sont le fruit d'une expérience d'animation d'objet ratée ou une sinistre création des Alghollthus. Ce sont des monstres rusés capables de prendre la forme d'objets ordinaires manufacturés. Ce sont des prédateurs voraces qui chassent à l'affût et surprennent leurs proies grâce à leur capacité surnaturelle à prendre la forme de meubles ou d'objets ordinaires. La Mimique conserve son déguisement jusqu'à ce que des aventuriers sans méfiance passent près d'elle et se jette alors sur eux.</p>\n<p>Les mimiques possèdent un esprit complexe étranger et, bien qu'elles soient cruelles et égoïstes, elles aiment discuter avec leurs proies de temps à autre. Pour des raisons inconnues, elles s'intéressent tout particulièrement aux humanoïdes. Elles n'apprécient pas du tout les autres membres de leur espèce et préfèrent vivre seules. Une mimique peut rester sous une forme alternative pendant très longtemps et reste parfois déguisée dans une pièce pendant des dizaines d'années. Quelle que soit la durée de son affût, elle reste alerte et vigilante, prête à frapper à tout moment.</p>",
+            "blurb": "Mimique",
+            "items": {
+                "2X6OMr1DNXIsS8XD": {
+                    "description": "<p>Le pourtour de cet élégant anneau de cuivre est gravé de minuscules images d'oiseaux chanteurs. Vous obtenez un bonus d'objet de +1 aux tests de Duperie.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Vous faites tourner l'anneau sur votre doigt pour projeter votre voix par magie en produisant les effets du sort @UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]{Ventriloquie} (@Check[perception|dc:19]).</p>"
+                },
+                "91iOrkVbzeP7cK2M": {
+                    "name": "Adhesive",
+                    "description": "<p>La mimique est enduite d'un mucus adhésif. Toute créature qui touche la mimique, que touche la mimique ou qui entre en contact avec elle d'une manière ou d'une autre doit réussir un jet de @Check[reflex|dc:23] ou être @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} ([[/act escape dc=23]]). Une arme qui touche la mimique est collée sur elle. Il faut réussir un test d'@Check[athletics|dc:23] (par une action unique) pour la décoller.</p>\n<p>Il n'y a pas de limite au nombre d'objets ou de créatures collés en même temps sur une mimique. La mimique peut libérer une créature ou un objet collé par une action unique. L'adhésif se dissout au bout d'une minute après la mort de la mimique et libère tout ce qui était collé sur elle.</p>"
+                },
+                "Af1bf54ub8OEzyPl": {
+                    "name": "Pseudopod"
+                },
+                "M3QwWIU2rzRHWndo": {
+                    "name": "Mimic Object",
+                    "description": "<p>La mimique prend la forme d'un objet de taille Moyenne. Cela ne change pas sa texture ni sa taille globale, mais cela modifie sa coloration et son apparence visuelle. Elle obtient automatiquement 28 aux tests de Duperie et aux DD pour se faire passer pour l'objet qu'elle imite.</p>"
+                },
+                "Ns2pok7e6UtuKUd6": {
+                    "name": "Object Lesson",
+                    "description": "<p><strong>Déclencheur</strong> Une créature touche ou interagit physiquement avec la mimique alors qu'elle est transformée grâce à Imitation d'objet.</p>\n<hr />\n<p><strong>Effet</strong> La créature qui a déclenché ce pouvoir est automatiquement collée par l'adhésif de la mimique (sans jet de sauvegarde). La mimique fait ensuite une Frappe de pseudopode contre toute créature adjacente à elle.</p>\n<p>La mimique ne peut plus utiliser Démonstration pratique tant qu'elle ne s'est pas échappée et n'a pas revêtu un nouveau déguisement.</p>"
+                },
+                "qGVF829Lwi4ZemA9": {
+                    "name": "Guldrege Lore"
+                }
+            }
+        },
+        "Soulbound Mauler (Neutral Good)": {
+            "name": "Soulbound Mauler (Neutral Good)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Soulbound Mauler (Chaotic Evil)": {
+            "name": "Soulbound Mauler (Chaotic Evil)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Alchemist Ivy": {
+            "name": "Alchemist Ivy",
+            "description": "<p>La liane meurtrière est une plante carnivore à l'appétit vorace. Plutôt que de consommer directement une créature, elle enchevêtre sa proie et en extrait la vitalité, la transformant en engrais. Une fois que la plante a tué sa victime, elle en transfère la carcasse vers ses racines pour se nourrir de sa chair pourrissante. Bien que dépourvue d'yeux, la liane meurtrière peut repérer ses proies grâce à la combinaison de ses racines lui permettant de percevoir les vibrations du sol, et de ses feuilles détectant les variations de chaleur environnante. Son absence d'intelligence n'empêche pas cette créature d'imiter le comportement d'un prédateur embusqué et ingénieux.</p>\n<p>Se déplaçant très lentement, elle se contente de s'enraciner quelque part jusqu'à ce qu'elle n'ait plus assez de proies. Bien qu'on les rencontre le plus souvent le long des voies forestières ou dans les marais, elles peuvent également se trouver dans des petits hameaux, des champs mal entretenus et des vignobles. S'il est impossible de dresser une liane meurtrière au sens propre du terme, on peut s'en servir de moyen de défense, et les créatures forestières comme les fées et les gobelins sont connues pour cultiver de telles gardiennes dans les passages les moins fréquentés de leurs repaires. Leurs éleveurs prennent dans ce cas bien soin de rendre ce chemin plus évident que son manque d'usage ne le laisserait normalement supposer tout en s'assurant de faire disparaître les os des victimes pour garder la présence de la liane meurtrière secrète, transformant ce qui semble être un accès facile en une véritable embuscade végétale.</p>\n<p>Une liane meurtrière adulte s'étend jusqu'à 6 mètres et présente des lianes plus petites sur sa tige principale pouvant atteindre 1,50 à 3 mètres. Ces dernières poussent tous les 15 centimètres environ ; elles portent souvent des amas de feuilles et parfois de petites baies. Une liane meurtrière qui s'est nourrie récemment peut porter des grappes de baies charnues rouge sang, juteuses et aigres laissant un arrière-goût métallique déplaisant en bouche, rappelant le léger goût du sang quand on se mord la lèvre.</p>",
+            "blurb": "Variante de Liane Meurtrière",
+            "StealthVariants": {
+                "0": {
+                    "label": "en forêt et dans les prairies"
+                }
+            },
+            "items": {
+                "4PzaUrxeMAHuGzyH": {
+                    "name": "Chemical Fertilizer",
+                    "description": "<p><strong>Déclencheur</strong> Une créature dans un rayon de 3 mètres autour de la vigne alchimiste Active ou est touchée par un objet avec le trait alchimique</p>\n<hr />\n<p><strong>Effet</strong> La vigne alchimiste étend brièvement ses vrilles vers la créature et absorbe une partie des résidus alchimiques, récupérant @Damage[2d8[healing]]{2d8 Points de vie} et bénéficie d'un bonus de statut de +4,50 mètres à sa Vitesse jusqu'à la fin de son prochain tour.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s4XFUgK8UgKnpKrX]{Effet: Fertilisant chimique}</p>"
+                },
+                "Fh3XDSCEKM7MvqRc": {
+                    "name": "Sap"
+                },
+                "NjYmwDw0WLMimFe6": {
+                    "name": "Alchemical Resistance",
+                    "description": "<p>Une vigne alchimiste subit 5 dégâts en moins provenant des attaques avec le trait alchimique.</p>"
+                },
+                "RRuGVF2WBzHvPAD4": {
+                    "name": "Vine"
+                },
+                "imFNV40cUextfevX": {
+                    "name": "Grasping Foliage",
+                    "description": "<p><strong>Déclencheur</strong> La liane meurtrière détecte une créature dans un rayon de 6 mètres grâce à sa @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Perception des vibrations}</p>\n<hr />\n<p><strong>Effet</strong> La liane meurtrière fait s'animer la végétation dans une @Template[emanation|distance:20]{émanation de 6 mètres}, transformant la zone en terrain difficile. Quand une créature débute son tour dans cette zone, elle doit faire un jet de @Check[reflex|dc:20]. En cas d'échec, elle subit une pénalité de circonstances de -3 mètres à ses Vitesses jusqu'à ce qu'elle quitte la zone. En cas d'échec critique, elle est aussi @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant 1 round. Une créature peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{S'Échapper} pour se débarrasser de ces effets. Les lianes meurtrières sont immunisées au Feuillage agrippant.</p>"
+                },
+                "jQ0BoxOUmGdOkGIf": {
+                    "description": "<p>@Damage[(1d8+4)[bludgeoning]]{1d8+4 dégâts contondants}, @Check[fortitude|dc:20|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                "ljlBgsFIBKMNCZPZ": {
+                    "name": "Camouflage",
+                    "description": "<p>La liane meurtrière peut @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Se cacher} dans un environnement naturel même si elle n'a pas d'abri.</p>"
+                },
+                "nvEMR0N4HLFwMTMQ": {
+                    "name": "Tremorsense 30 feet"
+                }
+            }
+        },
+        "Ulki": {
+            "name": "Ulki",
+            "blurb": "Écho ancestral",
+            "hpdetails": "Reconstruction, Guérison du vide",
+            "items": {
+                "Utzr3zXk1yzlV2Ib": {
+                    "name": "Rejuvenation",
+                    "description": "<p>Restaurer les inscriptions vandalisées et réciter leurs histoires corrigées ramène ces esprits vers l'au-delà.</p>\n<hr />\n<p>Lorsqu'un fantôme est détruit, il se reforme après [[/gmr 2d4 #jours]]{2d4 jours} dans le lieu auquel il est lié. Il se reforme totalement guéri. Un fantôme ne peut être définitivement détruit que si quelqu'un détermine la raison de son apparition et répare ce qui empêche l'esprit de se reposer.</p>"
+                },
+                "WSi9Jm7FdWkRzfa9": {
+                    "name": "Dwarf Lore"
+                },
+                "f8bhWcJ9A08i86JJ": {
+                    "name": "Ghostly Greataxe"
+                },
+                "fD4aYO6nmRPomp9L": {
+                    "name": "Site Bound",
+                    "description": "<p>L'écho ancestral ne peut pas quitter la crypte supérieure.</p>\n<hr />\n<p>Un fantôme typique ne peut s'éloigner que d'une courte distance de l'endroit où il a été tué ou de l'endroit qu'il hante. Une limite typique est de 36 mètres. Certains fantômes sont plutôt liés à une pièce, un bâtiment, un objet ou une créature qui leur était spécial, plutôt qu'à un lieu.</p>"
+                },
+                "vkBV3kjtxkjrpwy3": {
+                    "name": "Riled by Disrespect",
+                    "description": "<p>un écho ancestral obtient un bonus de statut de +1 aux jets d'attaque et aux DD des jets de sauvegarde contre toute créature qui n'a pas effectué au moins tâche pour embellir le site auquel l'écho est lié. Ceci s'applique à tout PJ qui n'aurait pas obtenu un succès sur un ou plusieurs tests de compétence pour nettoyer la zone <strong>D2</strong>.</p>"
+                }
+            }
+        },
+        "Lady Shimmersnip": {
+            "name": "Lady Shimmersnip",
+            "description": "<p>Les crabes sont des crustacés nécrophages réputés pour leur solide carapace et leur emblématique démarche latérale. Leurs pinces leur servent à chasser, à se défendre et à s'emparer de territoires défendus par leurs semblables. Lorsqu'ils se retrouvent confrontés à une espèce différente, la plupart des crabes privilégient la fuite. Cependant, s'ils ne trouvent aucune issue, ces créatures pinceront leurs ennemis de toute leur force.</p>\n<p>Les statistiques ci-dessous concernent les crabes géants qui vivent proches de la surface de l'eau. Les crabes qui ont élu domicile dans les profondeurs sont souvent propices à s'adapter aux situations extrêmes liées à leur environnement. Comme la lumière y est rare, ils ont acquis la faculté de vision dans le noir et une résistance au froid. Une fois adaptés aux zones les plus hostiles des abysses, ils peuvent également détecter les créatures à proximité grâce à de subtils changements dans les courants océaniques.</p>\n<p>Ces créatures scintillantes sont appréciées pour leur chair délicieuse, mais leur taille en fait des cibles dangereuses pour la récolte.</p>",
+            "blurb": "Variante de crabe géant",
+            "items": {
+                "68hstcNYAfYsk65j": {
+                    "name": "Claw"
+                },
+                "V5h82KFJ1lnz9DOR": {
+                    "description": "<p>Vos mouvements deviennent maladroits et incertains. L'état Maladroit est toujours accompagné d'une valeur. Vous subissez une pénalité de statut égale à la valeur de l'état qui s'applique à vos tests et à vos DD basés sur la Dextérité, y compris votre CA, vos jets de Réflexes, vos jets d'attaque à distance et vos tests de compétences basés sur Acrobaties, Discrétion et Vol.</p>"
+                },
+                "WXEuGWzgAk5JMfEE": {
+                    "name": "Vulnerable to Prone",
+                    "description": "<p>En cas de succès critique sur un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} contre le crabe géant, ce dernier se retourne sur le dos en plus d'appliquer les effets habituels. Un crabe géant dans cette position aura énormément de mal à se défendre : il subit une pénalité de circonstances de -4 à sa CA au lieu du -2 habituel pour être pris au dépourvu.</p>"
+                },
+                "ez4TlFP9ir8diYv7": {
+                    "name": "Scuttle",
+                    "description": "<p><strong>Déclencheur</strong> Le crabe géant est ciblé par l'attaque d'une créature qu'il peut voir</p>\n<hr />\n<p><strong>Effet</strong> Le crabe géant se décale sur le côté et obtient un bonus de circonstances de +2 à sa CA contre l'attaque déclencheuse. Après la résolution de l'attaque et dans le cadre de la réaction, le crabe peut Marcher rapidement sur une distance maximale égale à sa Vitesse en ligne droite.</p>"
+                },
+                "iHR7yRqYeZST3uB5": {
+                    "description": "<p>@Damage[(1d6+4)[bludgeoning]]{1d6+4 dégâts contondants}, @Check[fortitude|dc:18|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                "vHAnfWC23o0LOVJW": {
+                    "name": "Parasitized",
+                    "description": "<p>Dame Coupemirouate a 2 sangsues géantes partiellement enfouies dans son corps, ce qui la rend @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1} et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2}. Les modificateurs de ses états peuvent changer et ne sont pas représentés dans son bloc de statistiques</p>"
+                }
+            }
+        },
+        "Heldin Ulgincamp": {
+            "name": "Heldin Ulgincamp",
+            "items": {
+                "CEfswh5tNUyZKkgV": {
+                    "name": "Anchor the Unliving",
+                    "description": "<p>Heldin montre son symbole religieux à une créature morte-vivante dans un rayon de 9 mètres. La créature doit tenter un jet de @Check[fortitude|dc:17].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> Réduisez les résistances de la créature de 1 pour [[/r 1d4]]{1d4 rounds}, après quoi elle est immunisée contre cette capacité pendant 1 round.</p>\n<p><strong>Échec</strong> Comme en cas de succès, mais les résistances sont réduites de 3.</p>\n<p><strong>Échec critique</strong> Comme en cas de succès, mais les résistances sont réduites de 5.</p>"
+                },
+                "DH0ivdNxXjLCzKkw": {
+                    "name": "Warhammer"
+                },
+                "Fpdd2O2OQqWVMbdk": {
+                    "name": "Chill Touch"
+                },
+                "NbENvH5RcSazDrUG": {
+                    "description": "<p>Parfois appelé haubert, cette longue chemise est constituée des mêmes anneaux en métal que la cotte de mailles. Cependant, elle est beaucoup plus légère que cette dernière et ne protège que le torse, les bras et les cuisses de son porteur.</p>"
+                },
+                "O01tkGK9bScQt2sk": {
+                    "name": "Divine Prepared Spells"
+                },
+                "Qf4NDhttKQz2nVGP": {
+                    "name": "Magic Weapon"
+                },
+                "UTLANcqk2v61JdXh": {
+                    "name": "Repair Kit",
+                    "description": "<p>Le matériel de réparation vous permet d'effectuer des réparations simples lorsque vous voyagez. Dans les outils vous trouverez une enclume portable, des pinces, des outils de menuiserie, une pierre à aiguiser et des huiles pour le conditionnement du cuir et du bois. Vous pouvez utiliser du matériel de réparation pour Réparer des objets à l'aide de la compétence Artisanat. Si vous portez votre matériel de réparation, vous pouvez le sortir et le ranger au cours de l'action nécessaire pour l'utiliser.</p>"
+                },
+                "eQXfKU4h4ctNnoK8": {
+                    "description": "<p>Ce morceau en bois ou en argent est décoré d'une représentation de divinité. Certains lanceurs de sorts divins tels les prêtres, peuvent utiliser le symbole religieux de leur divinité pour lancer des sorts divins et disposer des capacités divines. Un symbole religieux peut être porté sur le corps, au bout d'une chaîne, épinglé en une broche ou être tenu en main.</p>"
+                }
+            }
+        },
+        "Avernal Flashback": {
+            "name": "Avernal Flashback",
+            "desc (hazard)": "<p>Un ver de magma fantasmatique semble se déchaîner à l'extérieur de l'atelier, frappant la zone de secousses fantômes, de chaleur brûlante et d'effondrements.</p>",
+            "disable": "<p>@Check[athletics|dc:22], @Check[occultism|dc:22], ou @Check[religion|dc:22]. Trois tests réussis sont nécessaires pour affaiblir la hantise ou ériger des supports pour soutenir le plafond. Un PJ parlant le nanique peut tenter un jet de @Check[diplomacy|dc:22] (qualifié) pour calmer le ver des cavernes fantasmatique.</p>",
+            "routine": "<p>(2 actions) Zogototaru utilise 1 action pour créer une Secousse. Elle utilise son autre action soit pour Suinter de la chaleur, soit pour créer un Effondrement, alternant entre les deux à chaque round.</p>",
+            "stealth": "<p>(qualifié)</p>",
+            "items": {
+                "YIAdUnjafDuwAbnI": {
+                    "name": "Rocks Fall",
+                    "description": "<p>Les mouvements violents de Zogototaru semble fissurer le toit, faisant tomber des débris sur une créature au hasard dans la zone. Ceci inflige [4d6[bludgeoning]]{4d6 dégâts contondants} (@Check[reflex|dc:22|basic]).</p>"
+                },
+                "bGN3P5283TRr1blS": {
+                    "name": "Exude Heat",
+                    "description": "<p>Zogototaru crache du feu sur Guldrege. Même à distance, cela rend la zone brûlante, infligeant @Damage[3d6[fire]]{3d6 dégâts de feu} à toutes les créatures (@Check[fortitude|dc:22|basic]).</p>"
+                },
+                "yL3wlDL0mcZgPZW7": {
+                    "description": "<p>Les mouvements violents de Zogototaru ébranlent le sol, renversant les créatures dans la zone @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} sauf si elles réussissent un jet de @Check[reflex|dc:20].</p>"
+                }
+            }
+        },
+        "Soulbound Doll (Sky King's Tomb)": {
+            "name": "Soulbound Doll (Sky King's Tomb)",
+            "description": "<p>Les poupées des âmes sont des jouets ou des mannequins étranges dans lesquels a été injectée une toute petite partie de l'âme d'un mortel décédé. Ces petites créatures artificielles sont créées pour diverses raisons. Elles peuvent ainsi servir de compagnons ou de serviteurs, mais elles conservent leur libre arbitre, ce qui signifie qu'elles ne sont pas obligées d'obéir à leur créateur. Les fidèles de Pharasma détestent généralement les poupées des âmes qu'ils considèrent comme une perversion du cycle naturel des âmes et ceux qui vénèrent la Dame des tombes voient la destruction des poupées des âmes, quel que soit leur alignement, comme un grand service rendu au Grand Au-Delà.</p>\n<p>Les poupées des âmes sont les plus simples de ces créatures parmi lesquelles existent également des pantins des âmes de taille humaine, de puissants réceptacles des âmes et des soldats sentinelles de terre cuite des âmes. Leur création à partir de créatures vivantes non consentantes est un acte maléfique et une telle créature peut résister au processus en réussissant un jet de Volonté contre le DD d'Artisanat du créateur, ce qui détruit la poupée, même si cela n'empêche pas la mort. Une poupée non mauvaise peut être créée avec l'âme d'une personne qui a donné son consentement avant de mourir.</p>\n<p>Les poupées des âmes que rencontrent les aventuriers sont le plus souvent des sortes de gardiennes. Malgré leur petite taille, la puissance du fragment d'âme accroît bien plus la dangerosité de son coup de poing que ce à quoi on pourrait s'attendre. De plus, elle lui confère un unique sort d'une puissance bien supérieure à sa taille. Grâce à leur autonomie et leur intelligence remarquable, les poupées des âmes sont souvent chargées par leurs créateurs de s'occuper de créatures artificielles bien plus puissantes mais dénuées d'intelligence, telles que des golems, ce qui leur permet de contrôler un réseau défensif bien plus efficace que ce que leur permettent leurs seules capacités.</p>\n<p>Même si une poupée des âmes abrite un petit fragment d'une âme prélevée pendant ou peu après la mort d'une personne, ceci n'affecte pas la résurrection ou la progression vers l'après-vie du défunt. Le processus est létal pour les créatures vivantes dont l'âme est prélevée. On a toutefois déjà entendu des rumeurs parlant de procédés plus coûteux qui permettent à quelqu'un de céder un fragment de son âme sans conséquence néfaste.</p>\n<p>Le fragment d'âme est logé dans une gemme de focalisation d'âme (Solidité 10) généralement incrustée dans le cou ou la poitrine de la poupée. Le fragment d'âme n'est pas immuable et la poupée continue d'apprendre après sa création, ce qui signifie que sa personnalité et ses pouvoirs peuvent évoluer de façon à imiter ceux de la personne à qui appartenait l'âme ou qu'elle peut développer sa propre personnalité. La gemme de focalisation conserve les souvenirs d'une poupée des âmes, même si celle-ci est détruite. La gemme de focalisation d'âme d'une poupée détruite peut même être insérée dans le corps d'une nouvelle poupée par quelqu'un de versé dans la création de créatures des âmes, ce qui permet effectivement de reconstruire la poupée des âmes d'origine.</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "3FCM0xWeQN4yDHPb": {
+                    "name": "Mage Hand"
+                },
+                "AAFWcmRlGxb76Pps": {
+                    "name": "Occult Innate Spells"
+                },
+                "iaTfEZ50lrTlV5Ku": {
+                    "name": "Personality Fragments",
+                    "description": "<p>Une poupée des âmes partage des fragments de personnalité de la personne à qui appartenait l'âme mais aucun de ses souvenirs. Par conséquent, une poupée des âmes a le même alignement que la personne à qui appartenait l'âme et obtient les traits d'alignement correspondants.</p>"
+                },
+                "jG0R8rvY0cpJadHK": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Ancestral Echo": {
+            "name": "Ancestral Echo",
+            "hpdetails": "Reconstruction, Guérison du vide",
+            "items": {
+                "Utzr3zXk1yzlV2Ib": {
+                    "name": "Rejuvenation",
+                    "description": "<p>Restaurer les inscriptions vandalisées et réciter leurs histoires corrigées ramène ces esprits vers l'au-delà.</p>\n<hr />\n<p>Lorsqu'un fantôme est détruit, il se reforme après [[/gmr 2d4 #jours]]{2d4 jours} dans le lieu auquel il est lié. Il se reforme totalement guéri. Un fantôme ne peut être définitivement détruit que si quelqu'un détermine la raison de son apparition et répare ce qui empêche l'esprit de se reposer.</p>"
+                },
+                "WSi9Jm7FdWkRzfa9": {
+                    "name": "Dwarf Lore"
+                },
+                "fD4aYO6nmRPomp9L": {
+                    "name": "Site Bound",
+                    "description": "<p>L'écho ancestral ne peut pas quitter la crypte supérieure.</p>\n<hr />\n<p>Un fantôme typique ne peut s'éloigner que d'une courte distance de l'endroit où il a été tué ou de l'endroit qu'il hante. Une limite typique est de 36 mètres. Certains fantômes sont plutôt liés à une pièce, un bâtiment, un objet ou une créature qui leur était spécial, plutôt qu'à un lieu.</p>"
+                },
+                "vkBV3kjtxkjrpwy3": {
+                    "name": "Riled by Disrespect",
+                    "description": "<p>un écho ancestral obtient un bonus de statut de +1 aux jets d'attaque et aux DD des jets de sauvegarde contre toute créature qui n'a pas effectué au moins tâche pour embellir le site auquel l'écho est lié. Ceci s'applique à tout PJ qui n'aurait pas obtenu un succès sur un ou plusieurs tests de compétence pour nettoyer la zone <strong>D2</strong>.</p>"
+                }
+            }
+        },
+        "Algerschmick": {
+            "name": "Algerschmick",
+            "description": "<p>Traditionnellement, le dvorovoï est considéré comme le petit frère du domovoï et prend en charge le jardin et la cour d'un paysan et de tous les animaux et outils qui s'y trouvent. Les animaux soignés par le dvorovoï deviennent sains, forts et obéissants, tandis que le bétail moins aimé est épuisé et misérable. Les paysans qui ont un dvorovoï en résidence veillent à présenter officiellement le nouveau bétail à l'esprit du foyer et à apaiser l'esprit en laissant des repas dans la remise. Les dvorovoï détestent les animaux à fourrure blanche et chassent toute vache ou cheval tout blanc, bien qu'ils n'aient pas de préjugé similaire envers les poulets.</p>\n<hr />\n<p>Les esprits du foyer sont timides, souvent serviables, parfois courroucés habitent aux côtés des paysans et des fermiers. Ils résident dans la maison, dans la cour, dans le grenier, dans la salle de bain - partout où les gens construisent et vivent. En raison de cette proximité, les esprits du foyer adoptent souvent les manières ou l'apparence des mortels du voisinage. Leur nature recluse et leur tendance à passer inaperçus leur ont valu le surnom \"d'esprits\", bien qu'en vérité, il s'agisse de fées en tout points.</p>\n<p>Les esprits du foyer portent un intérêt presque parental vis-à-vis de \"leurs\" mortels. Lorsqu'on leur accorde le respect approprié, ces créatures travaillent sans relâche pour leurs protégés - elles coupent le bois, s'occupent du bétail, raccommodent les vêtements, balaient le sol et s'occupent du poêle. Cependant, s'il est offensé, l'esprit du foyer devient une menace, effrayant les animaux ou les enfants et détruisant les biens.</p>",
+            "blurb": "Dvorovoï",
+            "perception": "Perception des vibrations à l'intérieur de leur espace lié (imprécis)",
+            "items": {
+                "9jiKLswJEKTZnpYW": {
+                    "name": "Charm (Animals Only)"
+                },
+                "D4ExwJPbq9vP2fZU": {
+                    "name": "Shy",
+                    "description": "<p>Un dvorovoï est naturellement @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} lorsqu'il est en vue de la maison à laquelle il est lié. Le dvorovoï peut se rendre visible ou décider de manière sélective qui les verra.</p>"
+                },
+                "Hr6tT6rCEgL0bZVy": {
+                    "name": "Speak with Animals (At Will)"
+                },
+                "PT2KDcRdXC4aga1g": {
+                    "name": "Entangle"
+                },
+                "UeMKUFMnWNbhRbEj": {
+                    "name": "Primal Innate Spells"
+                },
+                "cKc30rN0MdOPS48L": {
+                    "name": "Rile Augdunars",
+                    "description": "<p><span class=\"action-glyph\">1</span> ou <span class=\"action-glyph\">2</span></p>\n<hr />\n<p><strong>Fréquence</strong> Une fois par round</p>\n<hr />\n<p><strong>Effet</strong> Algerschmick provoque les animaux et attise leur colère. Elle tente un @Check[flat|dc:11] (@Check[flat|dc:6] si elle a utilisé deux actions). En cas de réussite, elle annule un test réussi que les PJ ont effectué pour neutraliser le danger. Cette action fait suffisamment de bruit pour que les tentatives pour @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} Algerschmick la détecte, même si elle ne se trouve pas dans la zone qu'un PJ est en train de fouiller.</p>"
+                },
+                "eMLzHgxK6gQ67wx6": {
+                    "name": "Household Lore"
+                },
+                "hCBIDqLoaomtVumJ": {
+                    "name": "Tremorsense (Imprecise) within their entire bound yard"
+                },
+                "k1fBI6krs8NLi3AR": {
+                    "name": "Hoof Knife"
+                },
+                "mfOLPlYRccrLuV3B": {
+                    "name": "Mage Hand"
+                },
+                "pwWN3Mp741VnQ6Lx": {
+                    "name": "Command (Animals Only)"
+                },
+                "xNumFo6zFMddKGAf": {
+                    "name": "Master of the Yard",
+                    "description": "<p>Le dvorovoi aide ou cause des désagréments dans la cour, en trayant ou en effrayant les vaches, en protégeant ou en dispersant les outils, etc. En ordonnant à leur maison d'attaquer, le dvorovoï peut utiliser Faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe}, @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser} et @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} avec sa Frappe de Maison enragée.</p>\n<p>Un dvorovoï utilise sa compétence Connaissance Domestique au lieu de sa compétence d'Athlétisme pour effectuer ces tests.</p>"
+                }
+            }
+        },
+        "Stonemaker": {
+            "name": "Stonemaker",
+            "description": "<p>Le basilic est un reptile à huit pattes avec une attitude particulièrement hostile et le pouvoir de pétrifier les créatures d'un simple regard. Selon les légendes, à l'instar de la cockatrice, les premiers basilics ont éclos d'œufs de serpents couvés par des coqs. Cependant, rien dans leur physiologie ne permet de prêter fois à cette croyance.</p>\n<p>Un basilic préfère se nourrir de chair pétrifiée. Une fois une victime transformée en pierre, la créature croque le corps fossilisé avec sa puissante mâchoire et laisse le puissant acide de son estomac faire le reste. La digestion est extrêmement lente et inefficace, provoquant chez le basilic une sorte de léthargie qui laisse à penser que lui-même est en train de se pétrifier. Ce fait est à l'origine du dicton : « être aussi lent qu'un basilic bien nourri.</p>\n<p>Mais si les basilics sont réputés pour leur allure lente et leur attitude paresseuse, un prédateur qui peut pétrifier ses proies d'un simple regard n'a pas vraiment besoin d'être rapide. Un basilic adulte mesure 3,90 mètres de la tête au bout de la queue et pèse environ 150 kilos. Ces reptiles émettent des sifflements quand ils se déplacent, qui se transforment en gargouillements gutturaux quand ils s'agitent. Bien que ce soient généralement des créatures solitaires qui ne se rassemblent que pour s'accoupler et pondre des œufs, régulièrement, on rapporte des régions infestées par un nombre inhabituel de basilics. On ignore ce qui provoque ces rassemblements.</p>\n<p>Pour des raisons inconnues, les belettes et les furets sont immunisés contre le regard de pétrification et ces animaux s'introduisent parfois dans la tanière d'un basilic parti chasser afin de se nourrir de ses œufs ou de ses petits récemment éclos. D'après certaines légendes, le sang du basilic pourrait transformer la pierre en un autre matériau mais c'est probablement dû à des témoins qui ont mal interprété la restauration magique de créatures ou de membres précédemment pétrifiés.</p>",
+            "blurb": "Variante du basilic",
+            "saves": "Bonus de statut de +2 aux jets de sauvegarde contre Puanteur xulgath",
+            "items": {
+                "0xN6hYd13eGJMdQm": {
+                    "name": "Ferret Fear",
+                    "description": "<p>Pétrificateur a une peur instinctive des mustélidés, comme les belettes, les furets et même les furets de feu. Il réagit à ces créatures comme si elles avaient @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]{Présence terrifiante} (@Check[will|dc:20|options:area-effect,inflicts:frightened|traits:emotion,fear,mental,action:frightful-presence]).</p>"
+                },
+                "L4dKqPtdmyspmZtd": {
+                    "name": "Jaws"
+                },
+                "Nl15bkRTLq869IPi": {
+                    "name": "Petrifying Glance",
+                    "description": "<p>9 mètres.</p>\n<p><strong>Déclencheur</strong> Une créature que le basilic peut voir débute son tour à une distance maximale de 9 mètres de lui.</p>\n<hr />\n<p><strong>Effet</strong> La cible doit effectuer un jet de @Check[fortitude|dc:20]. Si elle obtient un échec, elle est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 minute tandis que son corps se raidit lentement.</p>"
+                },
+                "UNpV42ZhhiYfyhME": {
+                    "name": "+2 Status to Saves Vs. Xulgath Stench"
+                },
+                "tOCS9mkYR5K1LuOZ": {
+                    "name": "Petrifying Gaze",
+                    "description": "<p>Le basilic regarde une créature qu'il peut voir à une distance maximale de 9 mètres. La créature doit faire un jet de @Check[fortitude|dc:22|options:inflicts:slowed,inflicts:petrified]. Si elle échoue et qu'elle n'a pas déjà été ralentie par Coup d'œil pétrifiant ou par cette capacité, elle est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1}. Si la créature était déjà Ralentie par cette capacité ou par Coup d'œil pétrifiant, si elle rate le jet de sauvegarde elle est @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Pétrifiée} de manière permanente.</p>\n<p>Une créature pétrifiée de cette manière qui est enduite (pas juste aspergée) avec du sang de basilic frais (provenant d'un basilic qui n'est pas mort depuis plus d'une heure) est instantanément dépétrifiée.</p>\n<p>Un unique basilic a assez de sang pour enduire [[/gmr 1d3 #Créatures de taille moyenne]] de cette manière.</p>"
+                }
+            }
+        },
+        "Sporeborn Skull": {
+            "name": "Sporeborn Skull",
+            "description": "<p>Plus dangereux que de simples têtes décapitées, ces crânes sont nimbés de spores surnaturels.</p>\n<hr />\n<p>Les décapités sont les têtes réanimées des victimes de décapitation. Ces morts-vivants dénués d'intelligence volent dans les airs ou roulent pour attaquer leur proie.</p>",
+            "blurb": "Variante du Crâne enflammé",
+            "hpdetails": "Guérison du vide",
+            "AcrobaticsVariants": {
+                "0": {
+                    "label": "pour Manœuvrer en Vol"
+                }
+            },
+            "items": {
+                "AmUgwUNSujKkZSco": {
+                    "name": "Forehead"
+                },
+                "IzAYt0TOGDn03Iuj": {
+                    "name": "Spore Explosion",
+                    "description": "<p>Lorsqu'il est détruit, le crâne sporoïde explose en un souffle de spore toxique et de morceaux d'os, qui inflige @Damage[1d6[piercing],1d6[poison]]{1d6 dégâts perforants plus 1d6 dégâts de poison} à toute créature adjacente (@Check[reflex|dc:18|basic]).</p>"
+                },
+                "gDBk1Q1oftHpXGM2": {
+                    "name": "Stir the Spores",
+                    "description": "<p><strong>Fréquence</strong> Une fois par [[/gmr 1d4 #Recharge Remuer les spores]] rounds</p>\n<p><strong>Déclencheur</strong> La crâne sporoïde subit des dégâts contondants, perforants ou tranchants.</p>\n<hr />\n<p><strong>Effet</strong> L'impact disperse des spores sur toutes les créatures dans les 1,50 mètre, les rendant @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} (@Check[fortitude|dc:18] pour annuler cet état).</p>"
+                },
+                "pmhHWb3PBr7rQpE5": {
+                    "name": "Spittle"
+                }
+            }
+        },
+        "Fazil": {
+            "name": "Fazil",
+            "description": "<p>La plupart des kobolds rencontrés à l'extérieur de leurs terriers ou de leurs tanières bien défendus sont des éclaireurs entraînés à la traque et à la chasse.</p>\n<hr />\n<p>Les kobolds sont de petits humanoïdes reptiliens qui présentent des similitudes physiques avec les vrais dragons. Ils se tapissent dans des lieux sombres, généralement des tunnels et des mines dans les profondeurs de la terre, soit dans des terriers qu'ils ont eux-mêmes aménagés, soit dans des complexes qu'ils ont découverts et colonisés après le départ de ceux qui les ont bâtis. Bien que les kobolds soient beaucoup plus pragmatiques que courageux, ils mettent à profit leur ruse pour équilibrer leurs chances contre les autres créatures plus fortes. Ils attaquent à distance à partir des ténèbres et leurs artificiers et leurs ingénieurs maîtrisent l'art des pièges simples mais efficaces qu'ils utilisent pour protéger leurs tanières. Par nécessité, les kobolds ont appris à travailler ensemble et ils dressent souvent des embuscades ou organisent des attaques éclairs qui leur permettent d'infliger le plus de dégâts possible sans être blessés en retour.</p>\n<p>Ce sont des créatures appliquées et travaillant dur, bien qu'elles mettent souvent ces qualités au service de leurs propres objectifs égoïstes. Si certains kobolds vivent dans des communautés qui entretiennent des relations neutres avec les créatures qui les entourent, ils peuvent facilement être amenés à servir des puissances malveillantes ou des chefs mégalomanes. Cela est dû au pragmatisme inné des kobolds, qui préfèrent se soumettre à la servitude plutôt que de risquer d'être tués, mais aussi à une révérence pour le pouvoir dont les kobolds sont généralement dépourvus. </p>\n<p>Les dragons en particulier sont considérés avec une admiration et une crainte respectueuse et, quand ils le peuvent, les kobolds proposent volontiers leurs services à de telles créatures aussi puissantes et glorieuses. Bien que les kobolds puissent conspirer contre des chefs, particulièrement ceux qui les ont assujettis, les dragons sont généralement vénérés quelle que soit la brutalité dont ils peuvent faire preuve envers leurs sbires kobolds.</p>",
+            "blurb": "Variante d'éclaireur kobold",
+            "CraftingVariants": {
+                "0": {
+                    "label": "pour les pièges"
+                }
+            },
+            "items": {
+                "0qvSsLdTulsncbsi": {
+                    "name": "Hurried Retreat",
+                    "description": "<p><strong>Conditions</strong> L'éclaireur kobold est adjacent à au moins un ennemi.</p>\n<hr />\n<p><strong>Effet</strong> L'éclaireur kobold Marche rapidement au maximum de sa Vitesse plus 1,50 mètre et obtient un bonus de circonstances de +2 à la CA contre les réactions déclenchées par ce déplacement. Il doit mettre un terme à son déplacement dans une case qui n'est adjacente à aucun ennemi.</p>"
+                },
+                "38uEEYKxUvG8TDFw": {
+                    "name": "Crossbow"
+                },
+                "MO9W8NpBALoHHtTS": {
+                    "description": "<p>L'éclaireur kobold inflige 1d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu} .</p>"
+                },
+                "S8GCm7k7WeFJ7VPZ": {
+                    "name": "Snare Kit",
+                    "description": "<p>Ce kit contient les outils et les matériaux pour fabriquer des pièges artisanaux. Un nécessaire de fabrication de pièges artisanaux vous permet de Fabriquer des pièges artisanaux en utilisant la compétence Artisanat.</p>"
+                },
+                "vTjkwNzpCJmsbg6R": {
+                    "name": "Shortsword"
+                }
+            }
+        },
+        "Offended Epitaphs": {
+            "name": "Offended Epitaphs",
+            "desc (hazard)": "<p>Les inscriptions funéraires scintillent et affichent différents messages, ce qui fait apparaître brièvement des ancêtres fantomatiques qui se plaignent que leurs descendants les ont oubliés.</p>",
+            "disable": "<p>trois tests de @Check[diplomacy|dc:20], d'@Check[occultism|dc:20] ou de @Check[religion|dc:20] pour réprimander les esprits acariâtres</p>",
+            "routine": "<p>(2 actions) Les esprits ancestraux apparaissent dans les zones <strong>D1</strong> et <strong>D2</strong>, chacun s'estompant après plusieurs rounds pour être remplacés par un esprit différent.</p>",
+            "stealth": "<p>(qualifié)</p>",
+            "items": {
+                "22Ohdl0fgqNIs2mn": {
+                    "name": "Lambast",
+                    "description": "<p>Un esprit crie sur une créature vivante, Celle-ci doit faire un jet de @Check[will|dc:18].</p>\n<p><strong>Succès</strong> La créature n'est pas affectée.</p>\n<p><strong>Échec</strong> La créature subit @Damage[2[persistent,mental]]{2 dégâts mentaux persistants}. Jusqu'à ce que qu'il soit mis un terme aux dégâts persistants, la créature peut percevoir des inscriptions fantomatiques en nanique qui flottent à quelques centimètres en face d'inscriptions variées à travers le parc.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec mais la créature subit @Damage[4[persistent,mental]]{4 dégâts mentaux persistants} et est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1} jusqu'à ce qu'il soit mis un terme aux dégâts persistants.</p>"
+                },
+                "t5jEwuFAgw8aDkpA": {
+                    "name": "Growing Grumbles",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à 3 mètres ou moins de la zone <strong>D2</strong></p>\n<hr />\n<p><strong>Effet</strong> La hantise fait un jet d'initiative alors que les esprits ancestraux commencent à se manifester.</p>"
+                }
+            }
+        },
+        "Sporeborn Myceloid": {
+            "name": "Sporeborn Myceloid",
+            "items": {
+                "NRF64BOIB1YULXYz": {
+                    "name": "Purple Pox",
+                    "description": "<p>Les mycéloïdes sont immunisés.</p>\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:20]</p>\n<p><strong>Délai</strong> 1 minute</p>\n<p><strong>Stade 1</strong> @Damage[2d6[poison]]{2d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 1} (1 jour)</p>\n<p><strong>Stade 2</strong> @Damage[6d6[poison]]{6d6 dégâts de poison}, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 3}, et la créature se sent obligée de chercher la colonie la plus proche de mycéloïdes. Cette compulsion est un effet émotionnel mental (1 jour)</p>\n<p><strong>Stade 3</strong> La créature meurt. Pendant 24 heures, son corps commence à se gonfler et explose, libérant un mycéloïde parfaitement formé.</p>"
+                },
+                "PvOU0sjeBm4bZvBa": {
+                    "name": "Rancid Spore Pods",
+                    "description": "<p>Le sporoïde est recouvert de cosse de spores qui se rompent lorsqu'il subit des dégâts perforants ou un coup critique. Dans les deux cas, les créatures adjacentes sont touchées avec les spores, les rendant @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} à moins qu'ils ne réussissent un jet de @Check[fortitude|dc:18].</p>"
+                },
+                "SD8sEsvN3l80NkHQ": {
+                    "name": "Emit Spores",
+                    "description": "<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Le mycéloïde sporoïde rejette des spores en une @Template[burst|distance:10]{explosion de 3 mètres} centré sur le coin de son espace. Ce nuage de spores persiste jusqu'au début du prochain tour du mycéloïde sporoïde. Chaque créature qui se trouve ou qui entre dans le nuage de spores est exposé à la Vérole pourpre.</p>"
+                },
+                "XVu0gS7iARTX5oWF": {
+                    "name": "Spore Pop",
+                    "description": "<p>Si un mycéloïde sporoïde est réduit à 0 PV par un coup critique, il éclate, ce qui le pousse à Émettre des spores immédiatement, même s'il a déjà utilisé cette capacité ce jour-là.</p>"
+                },
+                "lTJbWBQBv5EcbRCb": {
+                    "name": "Spore Domination",
+                    "description": "<p>Le mycéloïde sporoïde cible une créature affectée par la vérole pourpre dans les 18 mètres. La créature ciblée doit tenter un jet de @Check[will|dc:24]. Elle est ensuite temporairement immunisée à Domination des spores pendant 10 minutes.</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> Jusqu'à la fin de son prochain tour, la cible est @UUID[Compendium.pf2e.conditionitems.Item.v44P3WUcU1j0115l]{Serviable} aux mycéloïdes sporoïdes et ne peut pas prendre d'actions hostiles envers eux.</p>\n<p><strong>Échec</strong> Comme en cas de succès, mais pendant 1 minute.</p>\n<p><strong>Échec critique</strong> Comme en cas de succès, mais jusqu'à ce que la créature guérisse de la Vérole pourpre.</p>"
+                },
+                "yQLwQWRJtZBc1Xu6": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Xulgath Ravening": {
+            "name": "Xulgath Ravening",
+            "description": "<p>La force et la faim motivent la plupart des sociétés xulgaths, renforcées par les préceptes de leur patron abyssal Zevgavizeb. Un chef puissant peut s'emparer du contrôle d'une communauté xulgath et diriger ses partisans pour qu'ils combattent comme une unité, mais le combat en formation n'est pas une pratique courante chez la plupart des xulgaths. Cette mentalité de meute conduit souvent à des guerriers trop zélés qui trébuchent les uns sur les autres ou vont jusqu'à se mordre entre eux. En conséquence, ces meutes ont gagné le nom de « nuée vorace », terme également employé pour décrire les carnages carnivores de Zevgavizeb et pour désigner les millénaires de conflits internes et de déclin social des xulgaths.</p>\n<h2>Le pouvoir de la suggestion</h2>\n<p>Les nuée vorace xulgaths sont les plus courantes dans les groupes contrôlées par des chefs spirituels utilisant une combinaison de comportement sectaire, de rituel collectif et même d'un peu de magie d'enchantement. En convainquant les participants qu'ils sont possédés par Zevgavizeb ou une force similaire, le chef désigne ensuite une cible et espère le meilleur. Instiller un doute profane ou neutraliser le chef peut briser la concentration d'une nuée vorace, poussant ses membres à se disperser ou même à se retourner contre leur chef.</p>",
+            "hpdetails": "Seuils de cohésion 48 (3 sections), 24 (2 sections)",
+            "speeds": "Mouvement de troupes",
+            "items": {
+                "0XhvwdSYaWFgbC0W": {
+                    "name": "Sharpened Advance",
+                    "description": "<p>La troupe effectue une attaque à distance sous la forme d'un @Template[burst|distance:5] dans un rayon de 15 mètres, infligeant @Damage[3d6[piercing]|options:area-damage]{3d6 dégâts perforants} (@Check[reflex|dc:18|basic|options:area-effect]), puis la troupe Fait un pas ou Marche rapidement jusqu'à 4,5 mètres vers la zone attaquée.</p>"
+                },
+                "OUgLOyckJibmSB3z": {
+                    "name": "Fang and Claw",
+                    "description": "<p><span class=\"action-glyph\">1</span> à <span class=\"action-glyph\">3</span></p>\n<p><strong>Fréquence</strong> Une fois par round</p>\n<hr />\n<p><strong>Effet</strong> La nuée vorace xulgath se déchaîne sur les ennemis situés à moins de 1,5 mètre (@Check[reflex|dc:21|basic|options:area-effect]). Les dégâts dépendent du nombre d'actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing]|options:area-damage]{1d6 dégâts tranchants}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(1d6+5)[slashing]|options:area-damage]{1d6+5 dégâts tranchants}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+5)[slashing]|options:area-damage]{2d6+5 dégâts tranchants}</p>"
+                },
+                "Ti6ZgfTICnbG2Uj6": {
+                    "name": "Troop Defenses",
+                    "description": "<p><strong>Seuils de cohésion</strong> 48 (3 sections), 24 (2 sections)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+                },
+                "WPsfFE6ciEnN5Swk": {
+                    "name": "Troop Movement",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopMovement]</p>"
+                },
+                "sXbsdhvyWSPKHCCv": {
+                    "name": "Stench",
+                    "description": "<p>9 mètres. Une créature qui pénètre dans la zone affectée doit faire un jet de @Check[fortitude|dc:21|options:area-effect,inflicts:sickened]. En cas d'échec, elle se trouve dans l'état @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} et, sur un échec critique, elle subit également une pénalité de -1,50 mètre à ses Vitesses pendant 1 round. Tant qu'elle reste dans l'aura, la créature subit une pénalité de circonstances de -2 à ses jets de sauvegarde pour se remettre de l'état Malade. Une créature qui réussit son jet de sauvegarde est temporairement immunisée contre la Puanteur de tous les xulgaths pendant 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Effet : Puanteur xulgath}</p>"
+                },
+                "ywFzJWLjJrvmGSpS": {
+                    "name": "Infected Wounds",
+                    "description": "<p>La capacité Crocs et griffes des xulgaths inflige @Damage[1d6[poison]]{1d6 dégâts de poison} supplémentaires à toute créature Nauséeuse à cause de la Puanteur xulgath.</p>"
+                }
+            }
+        },
+        "Alkepsur": {
+            "name": "Alkepsur",
+            "blurb": "Écho ancestral",
+            "hpdetails": "Reconstruction, Guérison du vide",
+            "items": {
+                "52vktDQQT5rvw3Ge": {
+                    "name": "Ghostly Clan Dagger"
+                },
+                "B3OhqznfxqK82KvZ": {
+                    "name": "Ancient Anecdote",
+                    "description": "<p><strong>Fréquence</strong> Une fois par round</p>\n<hr />\n<p><strong>Effet</strong> Alkepsur taquine une créature dans les 18 mètres tout en évoquant une anecdote oubliée. La créature doit soit tenter un test de @Check[will|dc:18] soit de @Check[dwarf-lore|dc:15].</p>\n<p><strong>Succès</strong> La cible n'est pas affectée.</p>\n<p><strong>Échec</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1} pendant qu'elle tente de déchiffrer la référence.</p>\n<p><strong>Échec critique</strong> L'anecdote rend la cible @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Étourdie 2} pendant 1 round.</p>"
+                },
+                "Utzr3zXk1yzlV2Ib": {
+                    "name": "Rejuvenation",
+                    "description": "<p>Restaurer les inscriptions vandalisées et réciter leurs histoires corrigées ramène ces esprits vers l'au-delà.</p>\n<hr />\n<p>Lorsqu'un fantôme est détruit, il se reforme après [[/gmr 2d4 #jours]]{2d4 jours} dans le lieu auquel il est lié. Il se reforme totalement guéri. Un fantôme ne peut être définitivement détruit que si quelqu'un détermine la raison de son apparition et répare ce qui empêche l'esprit de se reposer.</p>"
+                },
+                "WSi9Jm7FdWkRzfa9": {
+                    "name": "Dwarf Lore"
+                },
+                "fD4aYO6nmRPomp9L": {
+                    "name": "Site Bound",
+                    "description": "<p>L'écho ancestral ne peut pas quitter la crypte supérieure.</p>\n<hr />\n<p>Un fantôme typique ne peut s'éloigner que d'une courte distance de l'endroit où il a été tué ou de l'endroit qu'il hante. Une limite typique est de 36 mètres. Certains fantômes sont plutôt liés à une pièce, un bâtiment, un objet ou une créature qui leur était spécial, plutôt qu'à un lieu.</p>"
+                },
+                "vkBV3kjtxkjrpwy3": {
+                    "name": "Riled by Disrespect",
+                    "description": "<p>un écho ancestral obtient un bonus de statut de +1 aux jets d'attaque et aux DD des jets de sauvegarde contre toute créature qui n'a pas effectué au moins une tâche pour embellir le site auquel l'écho est lié. Ceci s'applique à tout PJ qui n'aurait pas obtenu un succès sur un ou plusieurs tests de compétence pour nettoyer la zone <strong>D2</strong>.</p>"
+                }
+            }
+        },
+        "Inexorable Door": {
+            "name": "Inexorable Door",
+            "hpdetails": "SR 27",
+            "desc (hazard)": "<p>Un mécanisme encastré pousse lentement deux portes en fer pour les fermer et les maintient en place pendant vingt-quatre heures.</p>",
+            "disable": "<p>@Check[thievery|dc:21] (expert)</p>"
+        },
+        "Soulbound Mauler (Lawful Good)": {
+            "name": "Soulbound Mauler (Lawful Good)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Skibrellon": {
+            "name": "Skibrellon",
+            "description": "<p>Les créations des léchis tombent parfois victimes des herbivores et des cueilleurs. Alors que la plupart acceptent cette perte avec philosophie, les léchis fongiques deviennent parfois amers et explorent les aspects les plus sombres des champignons : la décomposition et la possession. En combinant des expériences contraires à l'éthique, des spores de cordyceps altérant l'esprit et une magie occulte nourrie par leur propre récit de victime, un léchi fongique peut se transformer en tyran des hyphes, lequel à son tour transforme les cadavres en marionnettes sporoïdes pour tourmenter la faune locale. La plus grande tragédie de ces léchis est peut-être leur caractère éphémère. À mesure que leurs ambitions glorifient la décomposition, la rancune et le récit occulte d'un tyran des hyphes épuisent lentement sa force vitale, menant finalement à une dernière explosion d'énergie destructrice.</p>\n<h2>Réincarnation tourmentée</h2>\n<p>En temps normal, l'esprit d'un léchi erre dans le monde naturel après sa mort, finissant par habiter un nouveau corps de léchi. On ignore si l'esprit d'un tyran des hyphes peut un jour redevenir un nouveau léchi. On suppose qu'ils finissent par devenir des hantises naturelles, se transformer en oni, voire disparaître à jamais à moins d'être retrouvés et rachetés.</p>",
+            "blurb": "Tyrant Hyphe",
+            "languages": "Communication avec les plantes (champignons uniquement)",
+            "perception": "Sens des spores 18 mètres (imprécis)",
+            "items": {
+                "4Sjc6p9rknUl46L7": {
+                    "name": "Spore Burst",
+                    "description": "<p>Quand un Tyran des hyphes meurt, une explosion d'énergie primordiale jaillit de son corps et toutes les créatures avec le trait champignons dans une @Template[emanation|distance:30]{émanation de 9 mètres} récupèrent @Damage[1d8[healing]]{1d8 Points de vie}. La zone est immédiatement couverte de champignons et devient un terrain difficile.</p>"
+                },
+                "4rUyfoRxZeSvhm77": {
+                    "name": "Sporesense (Imprecise) 60 feet"
+                },
+                "5sjGnxbYVEdHc945": {
+                    "name": "Dancing Lights"
+                },
+                "8oNze8UsvdvZmjkC": {
+                    "name": "Spore Cloud",
+                    "description": "<p>Un tyran des hyphes projette un nuage de spores dans une @Template[emanation|distance:20]{émanation de 6 mètres}. Toutes les créatures qui ne sont pas des champignons situées dans la zone doivent effectuer un jet de @Check[fortitude|dc:20|options:area-effect,damaging-effect]. Si la créature obtient un échec, elle subit @Damage[2[persistent,poison]|options:area-damage]{2 dégâts de poison persistants}.</p>\n<p>Tant qu'elle subit ces dégâts persistants, la créature voit sa vision réduite et ne peut voir que jusqu'à 6 mètres (ou 3 mètres sur un échec critique).</p>"
+                },
+                "BEkfOgRlDXfcqJC8": {
+                    "name": "Primal Innate Spells"
+                },
+                "DpUWQTGXbdm69gaN": {
+                    "name": "Fist"
+                },
+                "H1tvaoANNCnEx3eA": {
+                    "name": "Ray of Enfeeblement"
+                },
+                "JGPy8DBBDbluZtmm": {
+                    "name": "Spore Pod"
+                },
+                "JOosFxabMqzZIqR1": {
+                    "name": "Occult Prepared Spells"
+                },
+                "WFceuxyZfTZWYL3A": {
+                    "name": "Protector Tree (Creates Fungus)"
+                },
+                "bpgOyxowR8mwKmhU": {
+                    "description": "<p>Le tyran des hyphes se transforme en un Petit champignon. Pour le reste, ce pouvoir utilise les effets de @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{Uni avec les plantes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                "gbTdrNJaeTVQO3BL": {
+                    "name": "Spores",
+                    "description": "<p>Une créature qui subit des dégâts à cause de la Frappe Cosse de spores du tyran des hyphes doit effectuer un jet de sauvegarde avec le même DD et effet que sa capacité Nuage de spores.</p>"
+                },
+                "wBsrod0foM2xdo0B": {
+                    "name": "Spore Shephard's Staff"
+                }
+            }
+        },
+        "Hyphae Tyrant": {
+            "name": "Hyphae Tyrant",
+            "description": "<p>Les créations des léchis tombent parfois victimes des herbivores et des cueilleurs. Alors que la plupart acceptent cette perte avec philosophie, les léchis fongiques deviennent parfois amers et explorent les aspects les plus sombres des champignons : la décomposition et la possession. En combinant des expériences contraires à l'éthique, des spores de cordyceps altérant l'esprit et une magie occulte nourrie par leur propre récit de victime, un léchi fongique peut se transformer en tyran des hyphes, lequel à son tour transforme les cadavres en marionnettes sporoïdes pour tourmenter la faune locale. La plus grande tragédie de ces léchis est peut-être leur caractère éphémère. À mesure que leurs ambitions glorifient la décomposition, la rancune et le récit occulte d'un tyran des hyphes épuisent lentement sa force vitale, menant finalement à une dernière explosion d'énergie destructrice.</p>\n<h2>Réincarnation tourmentée</h2>\n<p>En temps normal, l'esprit d'un léchi erre dans le monde naturel après sa mort, finissant par habiter un nouveau corps de léchi. On ignore si l'esprit d'un tyran des hyphes peut un jour redevenir un nouveau léchi. On suppose qu'ils finissent par devenir des hantises naturelles, se transformer en oni, voire disparaître à jamais à moins d'être retrouvés et rachetés.</p>",
+            "languages": "Communication avec les plantes (champignons uniquement)",
+            "perception": "Sens des spores 18 mètres (imprécis)",
+            "items": {
+                "4Sjc6p9rknUl46L7": {
+                    "name": "Spore Burst",
+                    "description": "<p>Quand un Tyran des hyphes meurt, une explosion d'énergie primordiale jaillit de son corps et toutes les créatures avec le trait champignons dans une @Template[emanation|distance:30]{émanation de 9 mètres} récupèrent @Damage[1d8[healing]]{1d8 Points de vie}. La zone est immédiatement couverte de champignons et devient un terrain difficile.</p>"
+                },
+                "4rUyfoRxZeSvhm77": {
+                    "name": "Sporesense (Imprecise) 60 feet",
+                    "description": "<p>Un tyran des hyphes perçoit et tient compte intuitivement tous les champignons à proximité. Ce sens lui permet de distinguer entre les créatures fongiques, les éléments constitués de champignons et les créatures couvertes de spores.</p>"
+                },
+                "5sjGnxbYVEdHc945": {
+                    "name": "Dancing Lights"
+                },
+                "8oNze8UsvdvZmjkC": {
+                    "name": "Spore Cloud",
+                    "description": "<p>Un tyran des hyphes projette un nuage de spores dans une @Template[emanation|distance:20]{émanation de 6 mètres}. Toutes les créatures qui ne sont pas des champignons situées dans la zone doivent effectuer un jet de @Check[fortitude|dc:20|options:area-effect,damaging-effect]. Si la créature obtient un échec, elle subit @Damage[2[persistent,poison]|options:area-damage]{2 dégâts de poison persistants}.</p>\n<p>Tant qu'elle subit ces dégâts persistants, la créature voit sa vision réduite et ne peut voir que jusqu'à 6 mètres (ou 3 mètres sur un échec critique).</p>"
+                },
+                "BEkfOgRlDXfcqJC8": {
+                    "name": "Primal Innate Spells"
+                },
+                "DpUWQTGXbdm69gaN": {
+                    "name": "Fist"
+                },
+                "H1tvaoANNCnEx3eA": {
+                    "name": "Ray of Enfeeblement"
+                },
+                "JGPy8DBBDbluZtmm": {
+                    "name": "Spore Pod"
+                },
+                "JOosFxabMqzZIqR1": {
+                    "name": "Occult Prepared Spells"
+                },
+                "WFceuxyZfTZWYL3A": {
+                    "name": "Protector Tree (Creates Fungus)"
+                },
+                "bpgOyxowR8mwKmhU": {
+                    "description": "<p>Le tyran des hyphes se transforme en un Petit champignon. Pour le reste, ce pouvoir utilise les effets de @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{Uni avec les plantes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                "gbTdrNJaeTVQO3BL": {
+                    "name": "Spores",
+                    "description": "<p>Une créature qui subit des dégâts à cause de la Frappe Cosse de spores du tyran des hyphes doit effectuer un jet de sauvegarde avec le même DD et effet que sa capacité Nuage de spores.</p>"
+                }
+            }
+        },
+        "Hhrulkaz": {
+            "name": "Hhrulkaz",
+            "saves": "Bonus de statut de +2 aux jets de sauvegarde contre Regard pétrifiant",
+            "items": {
+                "3CYHFpoLrjZ81c7d": {
+                    "name": "Sacrificial Takedown",
+                    "description": "<p>Hhrulkaz fait un test d'Athlétisme pour faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} à une créature. Si elle réussit, elle porte une Frappe au corps-à-corps contre la cible, faisant bénéficier à son arme du trait fatal d10 jusqu'à la fin de son tour. Les deux attaques sont prises en compte pour le calcul de sa pénalité d'attaques multiples, mais la pénalité n'augmente qu'après qu'elle ait effectué les deux attaques.</p>"
+                },
+                "6G1CiUHpmIKlQc71": {
+                    "name": "Scroll of Create Food (2nd-level)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.Mt6ZzkVX8Q4xigFq]{Création de nourriture}</p>\n<hr />\n<p>Pour lancer un sort à partir d'un parchemin, vous devez le tenir d'une main et l'activer avec l'activité @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lancer un sort} en effectuant le nombre normal d'actions pour le sort.</p>\n<p>Ce sort doit figurer dans votre liste de sorts. Étant donné que vous êtes celui qui Lance le sort, utilisez votre jet d'attaque de sort et votre DD des sorts. Le sort obtient le trait approprié à votre tradition (arcanique, divin, occulte ou primordial).</p>\n<p>Tous les coûts physiques sont fournis lors de la création du parchemin, vous n'avez donc pas à les fournir lorsque vous Lancez un sort à l'aide du parchemin. Si le sort exige un locus, vous devez en disposer pour Lancer le sort avec le parchemin.</p>\n<hr />\n<p><em>Note : Pour créer un parchemin ou une baguette d'un sort spécifique, faites glisser le sort du compendium ou du navigateur de compendium dans l'inventaire d'un PJ, PNJ ou d'un acteur de butin.</em></p>"
+                },
+                "8su10iQbGBMQ8V4s": {
+                    "name": "Shattering Chant"
+                },
+                "CITZi6HKFgJCaKzQ": {
+                    "name": "Predator's Decree",
+                    "description": "<p><strong>Conditions</strong> Hhrulkaz est dans les 18 mètres d'une créature Effrayée ou d'une créature qu'elle a touchée avec un chant fracassant pendant ce tour.</p>\n<hr />\n<p><strong>Effet</strong> Hhrulkaz condamne la créature à être dévorée. La cible doit réussir un jet de @Check[will|dc:20].</p>\n<p><strong>Succès</strong> La cible n'est pas affectée.</p>\n<p><strong>Échec</strong> La cible obtient une faiblesse 2 contre tous les dégâts pendant 3 rounds. À la fin de chacun des tours, la cible peut tenter un nouveau jet de Volonté pour réduire la durée restante de 1 round, y mettant un terme immédiatement en cas de succès critique.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais la cible une faiblesse 4 contre tous les dégâts.</p>"
+                },
+                "Dw7I6KE6oVtzaX0I": {
+                    "name": "+2 Status To Saves Vs. Petrifying Gaze"
+                },
+                "U6EpdKFcKcXvH1ZP": {
+                    "name": "Jaws"
+                },
+                "Uh6MrOOuDNSd86zP": {
+                    "name": "Far-Reaching Fear",
+                    "description": "<p>La portée à laquelle Hhrulkaz peut @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} des créatures passe à 18 mètres, et elle ne subit pas de pénalité même lorsque la cible ne comprend pas sa langue.</p>"
+                },
+                "XFVtWZA9GM79NYS9": {
+                    "name": "Clan Dagger"
+                },
+                "dFa7prCbIKjDHNyQ": {
+                    "name": "Claw"
+                },
+                "lIwXM8xeF96q3UbL": {
+                    "name": "Skysunder",
+                    "description": "<p>Cette <em>Dague de clan de frappe +1</em> porte le visage d'un dieu nain austère, sa barbe et ses traits formant une partie de la lame.</p>"
+                },
+                "wzqHVKr5hbItJ7l9": {
+                    "name": "Stench",
+                    "description": "<p>9 mètres. Une créature qui pénètre dans la zone affectée doit faire un jet de @Check[fortitude|dc:21|options:area-effect,inflicts:sickened]. En cas d'échec, elle se trouve dans l'état @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} et, sur un échec critique, elle subit également une pénalité de -1,50 mètre à ses Vitesses pendant 1 round. Tant qu'elle reste dans l'aura, la créature subit une pénalité de circonstances de -2 à ses jets de sauvegarde pour se remettre de l'état Malade. Une créature qui réussit son jet de sauvegarde est temporairement immunisée contre la Puanteur de tous les xulgaths pendant 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Effet : Puanteur xulgath}</p>"
+                }
+            }
+        },
+        "Dart Launcher": {
+            "name": "Dart Launcher",
+            "hpdetails": "SR 12",
+            "desc (hazard)": "<p>Une série de tubes de lancement dissimulés tirent des fléchettes toxiques dans une case de 1,50 mètre.</p>",
+            "disable": "<p>@Check[thievery|dc:16] (qualifié)</p>",
+            "items": {
+                "5H042P4g8Dnegd3A": {
+                    "name": "Dart Volley",
+                    "description": "<p><strong>Déclencheur</strong> Une pression est exercée sur la dalle au sol</p>\n<hr />\n<p><strong>Effet</strong> Le piège tire 4 fléchettes en une seule attaque.</p>"
+                },
+                "OPEitvcQJZ3nk9an": {
+                    "name": "Darts",
+                    "description": "<p>Plus @Damage[1d10[poison]]{1d10 dégâts de poison} (@Check[fortitude|dc:16] pour annuler les dégâts de poison)</p>"
+                }
+            }
+        },
+        "Soulbound Mauler (Neutral)": {
+            "name": "Soulbound Mauler (Neutral)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Buried Shock Glyph": {
+            "name": "Buried Shock Glyph",
+            "hpdetails": "SR 16",
+            "desc (hazard)": "<p>Un glyphe magique déclenche une décharge électrique lorsqu'on le manipule.</p>",
+            "disable": "<p>@Check[athletics|dc:20] (qualifié) pour lancer la pierre à une distance sûre avant qu'elle ne s'active, ou @Check[thievery|dc:21] pour déplacer délicatement la pierre sans déclencher le glyphe.</p>",
+            "items": {
+                "paTq4z0llwteVtuA": {
+                    "name": "Electrocution",
+                    "description": "<p><strong>Déclencheur</strong> Une créature bouscule ou voit le glyphe.</p>\n<hr />\n<p><strong>Effet</strong> Une décharge électrique frappe la créature déclencheuse ainsi que toutes les créatures situées dans un rayon de 3 mètres, infligeant @Damage[3d8[electricity]]{3d8 dégâts d'électricité} à quiconque dans la zone (@Check[reflex|dc:46|basic]).</p>"
+                }
+            }
+        },
+        "Spitter Pods": {
+            "name": "Spitter Pods",
+            "desc (hazard)": "<p>Des cosses de spores spécialisées éclatent, expulsent des gouttelettes toxiques et se rechargent à partir de réservoirs alchimiques.</p>",
+            "disable": "<p>@Check[crafting|dc:18] pour ajouter des produits chimiques perturbateurs au réservoir du champignon, @Check[nature|dc:18] (qualifié) pour comprendre comment restreindre l'écoulement des produits chimiques, ou @Check[deception|dc:20] (qualifié) pour disperser des spores qui rendent confus le champignon. Trois succès au total sont requis pour désamorcer ce piège.</p>",
+            "routine": "<p>(3 actions) Les cosses cracheuses alternent entre effectuez des Frappes et Recharger. Les cosses perdent 1 action pour chaque test réussie visant à désamorcer le piège.</p>",
+            "stealth": "<p>(qualifié)</p>",
+            "items": {
+                "BggoA8vK9V47eeoy": {
+                    "name": "Globule"
+                },
+                "X959m6TD1OgEGkIO": {
+                    "name": "Unfurl",
+                    "description": "<p> Une créature qui n'est pas un champignon entre dans la zone <strong>E4</strong></p>\n<hr />\n<p><strong>Effet</strong> La cosse cracheuse fait un jet d'initiative.</p>"
+                }
+            }
+        },
+        "Sporeborn Sheep": {
+            "name": "Sporeborn Sheep",
+            "description": "<p>Les zombies pestiférés sont infestés d'horribles contaminations.</p>\n<hr />\n<p>Le seul désir d'un zombie est de consommer les vivants. Dépourvus d'intelligence et annonciateurs de mort titubants, les zombies ne s'arrêtent que lorsqu'ils sont détruits.</p>",
+            "blurb": "Variante de zombie pestiféré",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "LQKnZF3cyrC7NBCh": {
+                    "name": "Headless",
+                    "description": "<p>Un mouton sporoïde sans tête ne peux pas faire d'attaque de mâchoire.</p>"
+                },
+                "RhGXKyPEo0bWS5D1": {
+                    "name": "Zombie Rot",
+                    "description": "<p>Une créature infectée ne peut pas soigner les dégâts infligés par la putréfaction de zombie tant qu'elle n'a pas été guérie de cette affliction.</p>\n<hr />\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Stade 1</strong> Porteur sans symptômes (1 jour)</p>\n<p><strong>Stade 2</strong> @Damage[1d6[void]]{1d6 dégâts de vide} (1 jour)</p>\n<p><strong>Stade 3</strong> @Damage[1d6[void]]{1d6 dégâts de vide} (1 jour)</p>\n<p><strong>Stade 4</strong> @Damage[1d6[void]]{1d6 dégâts de vide} (1 jour)</p>\n<p><strong>Stade 5</strong> Mort, se relevant comme un zombie pestiféré immédiatement</p>"
+                },
+                "a2pZeef5wn9y5xAA": {
+                    "name": "Slow",
+                    "description": "<p>Un zombie est constamment @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} et ne peut pas utiliser de réaction.</p>"
+                },
+                "nmDPHHCkZ2hUiKOg": {
+                    "name": "Wasting Wheeze",
+                    "description": "<p><strong>Fréquence</strong> une fois par [[/gmr 1d4 #Recharge Expiration dégénérescente]] rounds</p>\n<p><strong>Déclencheur</strong> Le mouton sporoïde sans tête subit un coup critique ou est réduit à 0 Point de vie</p>\n<hr />\n<p><strong>Effet</strong> Le mouton sporoïde sans tête exhale un nuage de spores à travers son cou. Les créatures vivantes adjacentes subissent @Damage[1d6[poison]]{1d6 dégâts de poison} et sont @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuses 1} à moins de réussir un jet de @Check[fortitude|dc:18].</p>"
+                },
+                "tvnn3d6VCprLkoQ2": {
+                    "name": "Fist"
+                },
+                "xe58zyk07wl19azb": {
+                    "description": "<p>Vous disposez de moins d'actions. L'état Ralenti inclut une valeur. Lorsque vous regagnez des actions, réduisez la quantité d'actions que vous obtenez de la valeur de votre état Ralenti. Comme vous obtenez des actions au début de votre tour, vous ne perdez pas immédiatement des actions si vous obtenez cet état au cours de votre tour.</p>"
+                }
+            }
+        },
+        "Ornery Augdunars": {
+            "name": "Ornery Augdunars",
+            "desc (hazard)": "<p>Les augdunars effrayés galopent frénétiquement dans leur enclos, mordant et ruant au passage.</p>",
+            "disable": "<p>Réussir quatre des tests suivants dans n'importe quelle combinaison : @Check[nature|dc:14] (qualifié) pour calmer les animaux, @Check[intimidation|dc:16] (inexpérimenté) pour faire fuir les augdunars, @Check[will|dc:18] (qualifié) pour éviter de reculer et paraître confiant, en incitant les augdunars à dévier de leur course. Pour chaque succès, le danger subit une pénalité cumulative de -1 à ses jets d'attaque.</p>",
+            "routine": "<p>(2 actions) Les augdunars utilisent une action pour Frapper une cible avec leurs mâchoires et utilisent une autre action pour faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} sur une cible différente (Athlétisme [[/r 1d20+9 #Athlétisme]]{+9}). Si les augdunars ont subit des dégâts depuis leur dernier tour, ils utilisent, à la place, leurs Sabots fouettant avec leur première action et font ensuite, avec leur seconde action, soit une Frappe avec leurs mâchoires soit un test de Croc-en-jambe.</p>",
+            "stealth": "<p>(qualifié)</p>",
+            "items": {
+                "CN9bLFgfBNP8UHyP": {
+                    "name": "Rile",
+                    "description": "<p><strong>Déclencheur</strong> Algerschmick fait un jet d'initiative.</p>\n<hr />\n<p><strong>Effet</strong> Les augdunars font un jet d'initiative.</p>"
+                },
+                "NJoCt3W4N4FJHKJh": {
+                    "name": "Lashing Hooves",
+                    "description": "<p>Un augdunar fait une Frappe de sabot et compare le résultat de son jet d'attaque à la CA de deux ennemis (au maximum) qui doivent être adjacents l'un de l'autre.</p>"
+                },
+                "n3eyoHmllZSDiy0S": {
+                    "name": "Jaws"
+                },
+                "wVpCTVG2l70Z7r4O": {
+                    "name": "Hoof"
+                }
+            }
+        },
+        "Giant Leech": {
+            "name": "Giant Leech",
+            "description": "<p>Les sangsues géantes peuvent atteindre jusqu'à 1,50 mètre et ont des gueules circulaires remplies de dents semblables à des crochets. Elles préfèrent vivre dans des eaux stagnantes ou peu profondes ou encore dans les sous-bois humides. Les chevaux et les animaux plus grands sont leurs proies favorites mais elles n'hésitent pas à s'accrocher à des créatures de taille humaine ou halfeline.</p>",
+            "blurb": "Variante de sangsue géante",
+            "items": {
+                "0FwbXedAmkMCm8OR": {
+                    "name": "Tremorsense 30 feet"
+                },
+                "NzMuO5EzlGKw4nGq": {
+                    "name": "Mouth"
+                },
+                "OQMwQiE7vGLPMasL": {
+                    "name": "Blood Drain",
+                    "description": "<p><strong>Conditions</strong> La sangsue géante a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> La sangsue géante absorbe le sang de la créature qu'elle a Agrippée ou Entravée. Elle lui inflige @Damage[2d4[untyped]]{2d4 dégâts}. Une créature qui subit des dégâts du fait d'avoir son sang drainé par une sangsue géante est @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1} jusqu'à ce qu'elle reçoive n'importe quel type ou quantité de guérison.</p>"
+                },
+                "TNltV4bTz6yb4Gx9": {
+                    "name": "Parasitizing",
+                    "description": "<p>Tant qu'elle est enfouie dans Dame Coupemirouate, une sangsue géante une Mise à l'abri, ne peut attaquer, et peut Se tortiller. Si une sangsue géante est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée}, ou @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie}, une créature peut essayer de retirer la sangsue en dépensant une unique action, qui les traits attaque et manipulation et tenter un test d'@Check[athletics|against:fortitude|rollerRole:target] ou de @Check[medicine|against:fortitude|rollerRole:target] contre le DD de Vigueur de la sangsue géante. En cas de succès, la créature extrait la sangsue, réduisant de 1 l'état @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit} de Dame Coupemirouate, et dépose la sangsue dans un espace adjacent à la créature et Dame Coupemirouate.</p>"
+                },
+                "urI99ymZVDz2hbH4": {
+                    "name": "Gnash",
+                    "description": "<p><strong>Fréquence</strong> Une fois par round</p>\n<p><strong>Conditions</strong> La sangsue géante est en train de parasiter Dame Coupemirouate</p>\n<hr />\n<p><strong>Effet</strong> Dame Coupemirouate subit @Damage[1[slashing]]{1 dégât tranchant} qui ignorent ses résistances.</p>"
+                }
+            }
+        },
+        "Krohan Veldollow": {
+            "name": "Krohan Veldollow",
+            "cadetails": "(19 avec le bouclier levé)",
+            "items": {
+                "1rVmqmTAmfeHCM0Q": {
+                    "name": "Composite Shortbow"
+                },
+                "3XUSRBlH9TPsU5xs": {
+                    "description": "<p>Ce très petit bouclier est le favori des duellistes et des guerriers rapides dotés d'armures légères. Il est généralement fabriqué en acier et attaché à votre avant-bras. Vous pouvez @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Lever un bouclier} avec votre targe tant que vous avez cette main libre ou que vous tenez dans cette main un objet léger qui ne soit pas une arme.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Solidité</th>\n<th>PV</th>\n<th>SR</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3</td>\n<td>6</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>"
+                },
+                "6Xg9DFVfVXtAYfC1": {
+                    "name": "Occult Innate Spells"
+                },
+                "IkDEDbRDvwyghpU3": {
+                    "name": "Unwitting Rivethun",
+                    "description": "<p>Krohan a un accès très limité à la magie de Rivethun, ne pouvant lancer des sorts que lorsqu'il éprouve de la douleur ou de la détresse.</p>"
+                },
+                "KULtvYYxoWXmXjHC": {
+                    "name": "Pick"
+                },
+                "MkxO6tFxywUV9ORO": {
+                    "name": "Chill Touch"
+                },
+                "UQRmewJYY6D5GNIB": {
+                    "name": "Magic Weapon"
+                },
+                "VQ2GcuucZjOHTUyZ": {
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">A</span> (manipulation)</p>\n<p>Un antidote vous protège contre les toxines. Lorsque vous le buvez, vous obtenez un bonus d'objet de +2 aux jets de Vigueur contre les poisons pendant 6 heures.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Effet : Antidote}</p>"
+                },
+                "bsEfrREmlwPU2BPz": {
+                    "name": "Righthand Man",
+                    "description": "<p>Krohan bénéficie d'un bonus de circonstances de +2 aux jets d'attaque et aux tests de compétence effectués pour aider autrui. Il peut effectuer un test de Connaissance des nains à la place de tout autre jet d'attaque ou test de compétence pour aider un nain.</p>"
+                },
+                "g1CM0g4DmY71SWuw": {
+                    "name": "Dwarf Lore"
+                },
+                "kfwJTn7184dWRStW": {
+                    "description": "<p>Une potion de guérison se présente sous forme de liquide rouge rubis contenu dans une fiole. Elle provoque de légers picotements tandis que les plaies du buveur se referment rapidement. Lorsque vous buvez une potion de guérison inférieure, vous récupérez @Damage[(2d8+5)[healing]]{2d8+5 Points de vie}.</p>"
+                },
+                "lWiglyBB5umJWwHM": {
+                    "name": "Spirits Drawn to Suffering",
+                    "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<p><strong>Déclencheur</strong> Krohan obtient un échec critique sur un jet de sauvegarde, subit les dégâts mentaux, subit des dégâts d'une Frappe critique, ou obtient un état préjudiciable avec une valeur numérique (tel que effrayé ou nauséeux). Cet effet ne se déclenche pas en cas d'attaque sur soi-même ou autres circonstances similaires provoquées intentionnellement.</p>\n<hr />\n<p><strong>Effet</strong> Krohan obtient la capacité de lancer ses sorts innés occultes pendant 1 minute.</p>"
+                },
+                "tXvqgLqBrimXP4fE": {
+                    "name": "Occult Catharsis",
+                    "description": "<p>La magie de Krohan transforme sa douleur en puissance magique. Après avoir lancé un sort occulte inné, il effectue un @Check[flat|dc:5], en augmentant le DD du double du rang du sort si ce n'était pas un tour de magie. En cas de réussite, l'effet Esprits attirés par la souffrance de Krohan prend fin, peut réduire de 1 la valeur d'une condition qui l'affecte et récupère @Damage[2d6[healing]]{2d6 Points de vie}.</p>"
+                }
+            }
+        },
+        "Ferghaz": {
+            "name": "Ferghaz",
+            "blurb": "Écho ancestral",
+            "hpdetails": "Reconstruction, Guérison du vide",
+            "languages": "empyréen",
+            "items": {
+                "UFNC8x1IN5SrVRzn": {
+                    "name": "Chiding Rebuke"
+                },
+                "Utzr3zXk1yzlV2Ib": {
+                    "name": "Rejuvenation",
+                    "description": "<p>Restaurer les inscriptions vandalisées et réciter leurs histoires corrigées ramène ces esprits vers l'au-delà.</p>\n<hr />\n<p>Lorsqu'un fantôme est détruit, il se reforme après [[/gmr 2d4 #jours]]{2d4 jours} dans le lieu auquel il est lié. Il se reforme totalement guéri. Un fantôme ne peut être définitivement détruit que si quelqu'un détermine la raison de son apparition et répare ce qui empêche l'esprit de se reposer.</p>"
+                },
+                "WSi9Jm7FdWkRzfa9": {
+                    "name": "Dwarf Lore"
+                },
+                "b4rXWNB2IjE6aj89": {
+                    "name": "Oh, If Your Ancestors Could See You!",
+                    "description": "<p>Ferghaz impose aux autres nains des normes impossibles à respecter et ses attaques ont le poids du jugement de cent générations. Ses Frappes infligent @Damage[1d4[mental]]{1d4 dégâts mentaux} supplémentaires aux nains.</p>"
+                },
+                "fD4aYO6nmRPomp9L": {
+                    "name": "Site Bound",
+                    "description": "<p>L'écho ancestral ne peut pas quitter la crypte supérieure.</p>\n<hr />\n<p>Un fantôme typique ne peut s'éloigner que d'une courte distance de l'endroit où il a été tué ou de l'endroit qu'il hante. Une limite typique est de 36 mètres. Certains fantômes sont plutôt liés à une pièce, un bâtiment, un objet ou une créature qui leur était spécial, plutôt qu'à un lieu.</p>"
+                },
+                "pEKBAcqYjXMevztj": {
+                    "name": "Ghostly Hammer"
+                },
+                "vkBV3kjtxkjrpwy3": {
+                    "name": "Riled by Disrespect",
+                    "description": "<p>un écho ancestral obtient un bonus de statut de +1 aux jets d'attaque et aux DD des jets de sauvegarde contre toute créature qui n'a pas effectué au moins tâche pour embellir le site auquel l'écho est lié. Ceci s'applique à tout PJ qui n'aurait pas obtenu un succès sur un ou plusieurs tests de compétence pour nettoyer la zone <strong>D2</strong>.</p>"
+                }
+            }
+        },
+        "Soulbound Mauler (Neutral Evil)": {
+            "name": "Soulbound Mauler (Neutral Evil)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Soulbound Mauler (Lawful Evil)": {
+            "name": "Soulbound Mauler (Lawful Evil)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        },
+        "Soulbound Mauler (Chaotic Good)": {
+            "name": "Soulbound Mauler (Chaotic Good)",
+            "description": "<p>Si une poupée des âmes n'est pas assez grande ou assez robuste pour répondre aux besoins de son créateur, il existe  une version surdimensionnée de ces dernières appelée le cogneur des âmes. Amélioration de la poupée des âmes, ce mannequin est animé par l'âme entière d'une créature pensante. Nombre de nécromanciens ont tenté d'utiliser ces créations comme moyen de vivre éternellement, probablement pour contourner la voie compliquée et finalement morbide menant à la condition de liche. Cependant, l'âme enfermée dans le mannequin peine à s'exprimer correctement et ne possède qu'un contrôle rudimentaire sur l'hôte, ce qui se traduit souvent par un comportement enfantin allant de la curiosité au sadisme.</p>\n<p>Plutôt que d'incruster la gemme de focalisation d'âme dans le cou ou la poitrine du construct, celle-ci est reliée par des bandes d'ectoplasme à l'intérieur d'une chambre ouverte sur la poitrine du mannequin. Tant que le cogneur des âmes n'est pas détruit, la gemme de focalisation ne peut être retirée de la cavité vide de sa poitrine. Cependant, la gemme peut être déplacée, ce qui provoque une douleur intense au cogneur des âmes, endommageant non seulement la connexion entre la gemme et le corps artificiel, mais aussi nuisant à la capacité du construct à fonctionner.</p>\n<h2>Sorts innés</h2>\n<p>Comme une poupée des âmes, un cogneur des âmes gagne un sort inné supplémentaire de rang 3 en fonction de son alignement, comme indiqué ci-dessous.</p>\n<p>Loyal bon : @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>\n<p>Neutre bon : @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump}</p>\n<p>Chaotique bon : @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste}</p>\n<p>Loyal neutre : @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p>Neutre : @UUID[Compendium.pf2e.spells-srd.Item.I0j56TNRmGcTyoqJ]{Shared Invisibility}</p>\n<p>Chaotique Neutre : @UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}</p>\n<p>Loyal mauvais : @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{Slow}</p>\n<p>Neutre mauvais : @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Stinking Cloud}</p>\n<p>Chaotique mauvais : @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}</p>",
+            "languages": "une langue parlée par son créateur (généralement commune)",
+            "items": {
+                "0Ds5JX81UDK1RJAR": {
+                    "name": "Eager Rend",
+                    "description": "<p>Le Cogneur des âmes a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature vivante.</p>\n<hr />\n<p><strong>Effet</strong> Le Cogneur des âmes maintient la créature qu'il a agrippé et tente de la déchirer en deux. Cette créature subit @Damage[5d6[bludgeoning]]{5d6 dégâts contondants} (@Check[fortitude|dc:18|basic]). En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>"
+                },
+                "HzOz51fQqR3fYL8l": {
+                    "name": "Occult Innate Spells"
+                },
+                "PxnDZR0jQ0T2Oidb": {
+                    "name": "Tethered Soul",
+                    "description": "<p>La gemme de focalisation d'âme qui alimente un cogneur des âmes est attachée par huit laisses ectoplasmiques à l'intérieur d'une cavité ouverte dans la poitrine de la créature. Elles peuvent être visées directement avec l'action @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}, ou @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler}. À la place du résultat habituel de ces actions, sur une réussite le cogneur des âmes subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Sur un succès critique, il subit @Damage[8d6[mental]]{4d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>"
+                },
+                "U6YdbccBFkX83dyj": {
+                    "name": "Ray of Enfeeblement (At Will)"
+                },
+                "ZCeY1xMWxqUyTAEW": {
+                    "name": "Personality Cage",
+                    "description": "<p>Un cogneur des âmes enferme une âme entière dans sa gemme de focalisation, la personnalité et le passé de cette âme transparaissant aux côtés d'un mélange déroutant de souvenirs fragmentés et d'instincts. Cela amène un cogneur des âmes à correspondre à l'alignement de l'âme donneuse et à acquérir les traits d'alignement correspondants. Lorsqu'il n'a pas d'âme liée, il est inanimé.</p>"
+                },
+                "h5MPSpTOWyPFlyet": {
+                    "name": "Fist"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    },
+    "folders": {}
+}

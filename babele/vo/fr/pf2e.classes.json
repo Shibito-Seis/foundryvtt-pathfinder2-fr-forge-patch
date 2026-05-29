@@ -1,0 +1,121 @@
+{
+    "label": "Classes",
+    "entries": {
+        "Inventor": {
+            "name": "Inventor",
+            "description": "<p><em>N'importe quel bricoleur peut suivre un diagramme pour fabriquer une machine mais vous, vous inventez l'impossible ! Chaque engin étrange dont vous rêvez est une expérience unique qui repousse les limites du possible, une machine mystérieuse qui semble ne fonctionner que pour vous. Vous êtes toujours sur le point de réaliser la prochaine grande percée et chaque épreuve et tribulation est une nouvelle occasion de la tester et de l'ajuster. Si vous pouvez le rêver, vous pouvez le construire.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gcRmL4Id1ggKDhvg]{Inventeur}</em></p>"
+        },
+        "Gunslinger": {
+            "name": "Gunslinger",
+            "description": "<p><em>Alors que certains craignent les armes à projectiles, vous savourez l'éclair brûlant, le recul soudain et la fumée étouffante qui accompagnent un coup de feu ou le claquement du câble et le bruit sourd de votre arbalète juste avant que votre carreau ne trouve sa place. Prêt à mettre en joue un ennemi à tout moment, vous vous fiez à vos réflexes, à votre main sûre et à votre connaissance des armes pour cribler vos ennemis de trous.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.88K0xjShkhkckbhv]{Franc-tireur}</em></p>"
+        },
+        "Exemplar": {
+            "name": "Exemplar",
+            "description": "<p><em>À la mort du dieu de la guerre, son pouvoir s'est déversé à travers tous les plans de la création, provoquant de nombreux conflits et imprégnant certains êtres d'une énergie divine dont ils étaient dépourvus jusqu'alors. Que vous ayez été directement touché par cette puissance, que vous l'ayez arraché à un être ancien ou un artefact ou qu'il ait éveillé un pouvoir resté longtemps en sommeil dans votre lignée, un éclat de divinité brille à présent au sein de votre âme, vous offrant des capacités, des armes sacrées ainsi que d'autres symboles qui touchent à un domaine jusque là réservé aux dieux et aux légendes. La façon dont vous déciderez d'utiliser ces outils et d'augmenter votre puissance vous revient entièrement - vous pouvez devenir un héros ou vous tourner vers des buts plus égoïstes. Cependant, une chose est sûre : vous avez bien l'intention de graver votre épithète dans l'histoire, immortalisée dans la mémoire des mortels au même titre que celle des dieux.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.CIQggvnSfmuLa7eH]{Exalté}</p>"
+        },
+        "Sorcerer": {
+            "name": "Sorcerer",
+            "description": "<p><em>Vous n'avez pas choisi de devenir un lanceur de sorts — vous êtes né ainsi. La magie coule dans vos veines, peut-être parce qu'une divinité a béni l'un de vos ancêtres, parce qu'un ancien membre de votre famille a communié avec une créature primordiale ou parce qu'un puissant rituel occulte a influencé votre lignée. L'introspection et l'étude vous permettent d'affiner vos compétences magiques inhérentes et de développer de nouveaux pouvoirs plus puissants. Le pouvoir qui imprègne votre sang comporte pourtant un risque et vous devez constamment faire des choix dont les conséquences vous élèveront au rang de lanceur de sorts émérite ou causeront votre destruction.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.ixBx2wZpnf4qUoEv]{Ensorceleur}</em></p>"
+        },
+        "Fighter": {
+            "name": "Fighter",
+            "description": "<p><em>Vous êtes un maître incontesté des armes et des techniques martiales qui se bat pour l'honneur, l'argent, la loyauté ou simplement pour le frisson du combat. Vous combinez judicieusement mouvements d'ouverture, frappes de finition et contre-attaques dès que vos adversaires ont la mauvaise idée de baisser leur garde. Que vous soyez chevalier, mercenaire, tireur d'élite ou épéiste, vous avez parfait vos compétences martiales en élevant le combat au rang d'art et portez des attaques critiques dévastatrices sur vos ennemis.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.HZbrRRVzW7w17L2W]{Guerrier}</em></p>"
+        },
+        "Psychic": {
+            "name": "Psychic",
+            "description": "<p><em>L'esprit peut percevoir des vérités cachées aux instruments les plus fins, abriter plus de secrets que n'importe quel livre et déplacer des objets et des cœurs plus habilement qu'un levier. En vous plongeant dans les aspects conscients et subconscients de votre être intérieur, vous vous êtes éveillé à la puissance de la magie psychique qui vous permet de lancer des sorts non pas par des incantations ou des gestes, mais par la seule force de votre volonté. Bien que la frontière entre votre esprit et la réalité soit mince et qu'une seule pensée errante puisse avoir des conséquences inattendues pour vous et vos compagnons, vous savez que tout est possible, si vous pouvez l'imaginer.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVoEUJBAbAFUJTqw]{Psychiste}</em></p>"
+        },
+        "Swashbuckler": {
+            "name": "Swashbuckler",
+            "description": "<p><em>De nombreux combattants se reposent principalement sur la force brute, les armures lourdes ou les armes encombrantes. Pour vous, le combat est une danse au cours de laquelle vous vous déplacez parmi vos adversaires avec style et grâce. Vous glissez entre les combattants avec élégance et portez de puissantes bottes précises d'un geste du poignet et d'un bref éclair de votre lame, tout en parant les attaques avec des ripostes élégantes qui déstabilisent vos ennemis. Harceler et déjouer vos ennemis vous permet de charmer le destin et de tromper la mort à maintes reprises, avec brio et une touche de flamboyance.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.rsDTKu4HUuKft7fk]{Bretteur}</em></p>"
+        },
+        "Summoner": {
+            "name": "Summoner",
+            "description": "<p><em>Vous pouvez appeler magiquement une puissante entité appelé eidolon à vos côtés, en servant de conduit mortel qui l'ancre au monde. Que votre eidolon soit un ami, un serviteur ou même un dieu personnel, votre connexion avec lui vous distingue comme étant hors du commun, influençant profondément le cours de votre vie.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gA4Ud8oSUGkkLwAi]{Conjurateur}</em></p>"
+        },
+        "Kineticist": {
+            "name": "Kineticist",
+            "description": "<p><em>La puissance des éléments coule en vous : Le feu rugissant, l'eau pure, l'air fugace, la terre résolue, le bois souple, le métal tranchant. Un portail kinétique inextricablement lié à votre corps canalise cette puissance provenant directement des plans élémentaire, en provoquant l'apparition des éléments entre vos mains, tourbillonnant autour de votre corps et pulvérisant vos ennemis à votre guise. Au fur et à mesure que votre lien avec les plans se renforce, vous atteignez une véritable maîtrise des éléments que vous avez choisis.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.lNWQPwgT4vhYCOT7]{Kinétiste}</em></p>"
+        },
+        "Barbarian": {
+            "name": "Barbarian",
+            "description": "<p><em>Au combat, vous êtes submergé par la rage. Vous adorez semer le chaos et utiliser des armes puissantes pour vous tailler un chemin au travers de vos ennemis, en vous reposant sur votre endurance extraordinaire plutôt que sur des techniques compliquées ou un entraînement rigoureux. Votre rage est alimentée par un instinct sauvage, que vous pouvez associer à un animal, à un esprit ou à une part de vous-même. Pour de nombreux barbares, la force brute est un marteau et tous les problèmes auxquels ils font face ressemblent à des clous. D'autres tentent de contenir la tempête d'émotions qui les habite et de ne laisser libre cours à leur rage qu'au seul moment où cela compte.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.lvuutBI9BSCU6cWe]{Barbare}</p>"
+        },
+        "Bard": {
+            "name": "Bard",
+            "description": "<p><em>Vous êtes un individu qui maîtrise son art, qui étudie les secrets bien gardés et qui sait comment captiver et convaincre. Grâce à vos représentations percutantes, vous influencez les esprits et incitez les âmes à se montrer toujours plus héroïques. Peut-être utiliserez-vous vos pouvoirs pour devenir un chef charismatique ? Mais vous pourriez aussi décider de devenir un conseiller, un manipulateur, un érudit, un scélérat ou un virtuose. Votre faculté d'adaptation en pousse certains à vous considérer comme un simple touche-à-tout irresponsable et charmant, mais vous prendre pour un bon à rien peut s'avérer dangereux.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Tz0NWVqhZyt8EyUV]{Barde}</em></p>"
+        },
+        "Monk": {
+            "name": "Monk",
+            "description": "<p><em>La force dans vos poings provient de votre âme et de votre esprit. Vous recherchez la perfection en sculptant votre corps pour en faire un instrument sans faille et votre esprit pour en faire un bastion de discipline et de sagesse. Vous êtes un farouche combattant réputé pour sa maîtrise des arts martiaux et ses postures martiales qui lui permettent de réaliser des manœuvres de combat uniques en leur genre. Vos exercices physiques vous permettent de maîtriser de nombreux styles de combat, mais vous aimez également méditer sur des questions philosophiques et sur la recherche de nouvelles méthodes pour être en paix et atteindre l'illumination.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.hGKd722Kn4ZxIOJs]{Moine}</em></p>"
+        },
+        "Rogue": {
+            "name": "Rogue",
+            "description": "<p><em>Vous êtes talentueux et opportuniste. Grâce à la vivacité de votre esprit et de vos réactions, vous profitez des faux pas de vos adversaires pour frapper leurs points faibles. Vous jouez à un jeu dangereux et cherchez constamment à mettre vos compétences à l'épreuve et à ressentir le frisson de l'adrénaline. Vous vous souciez probablement comme d'une guigne des lois qui se mettent en travers de votre chemin. Si chaque roublard suit une voie aussi unique que dangereuse, ils ont tous en commun un grand éventail de compétences approfondies.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.u4qPrDRBagxG9wj8]{Roublard}</em></p>"
+        },
+        "Ranger": {
+            "name": "Ranger",
+            "description": "<p><em>Certains rôdeurs pensent que la civilisation abîme l'âme mais qu'il est quand même nécessaire de la protéger des créatures sauvages. D'autres prétendent qu'il faut protéger la nature de l'avidité des individus qui souhaitent s'accaparer ses beautés et piller ses trésors. Vous pouvez soutenir l'une ou l'autre de ces causes, voire les deux. Peut-être êtes-vous un éclaireur, un pisteur ou un chasseur de fugitifs ou de bêtes qui rôde à la périphérie de la civilisation ou explore les contrées sauvages. Vous savez comment vivre de la terre et vous êtes particulièrement talentueux pour repérer et abattre des proies opportunes et des ennemis jurés.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gdEmPPRYhRai7I1N]{Rôdeur}</em></p>"
+        },
+        "Animist": {
+            "name": "Animist",
+            "description": "<p><em>Vous êtes l'interlocuteur entre le visible et l'invisible, la voix qui relie le mortel et le spirituel. Vous vous liez aux esprits, manifestant leur magie distincte et permettant à leur savoir de circuler à travers vous. Vous pouvez privilégier les apparitions qui vous accordent une magie de guérison, d'autres qui vous accordent des sorts au pouvoir destructeur ou vouloir choisir entre différentes apparitions en fonction de votre environnement et des circonstances. Vous pouvez considérer vos pouvoirs comme faisant partie d'une mission sacrée ou considérer vos capacités uniques comme le signe que vous avez été choisi comme champion de deux mondes. Que vous défendiez les mortels dans les plans de l'au-delà ou que vous représentiez les intérêts des esprits, vous constituez un pont entre les royaumes.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.ThFPVuxGiZ2Asgyr]{Animiste}</p>"
+        },
+        "Commander": {
+            "name": "Commander",
+            "description": "<p><em>Vous abordez le combat avec la certitude que la tactique et la stratégie sont tout aussi cruciales que la force brute ou le nombre. Vous avez peut-être suivi une formation aux théories classiques de la guerre et de la stratégie dans une académie militaire à moins que vous n'ayez raffiné vos techniques grâce à une expérience durement acquise au sein d'une armée ou d'une compagnie de mercenaires. Quelle que soit la manière dont vous avez acquis vos connaissances, vous avez un don pour envoyer des signes à vos alliés à travers le champ de bataille et pour donner des ordres pour, même dans les conflits les plus désespérés, permettre à votre escouade de dépasser ses limites, de mettre en déroute l'adversaire et de remporter la victoire.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.BhnMSPWXfCshRvR0]{Commandant}</p>"
+        },
+        "Guardian": {
+            "name": "Guardian",
+            "description": "<p><em>La mort et le danger venant de toutes sortes d'ennemis menacent tout ce qui vous est cher, à vous comme à vos compagnons. Mais vous êtes le bouclier, le mur d'acier qui contient la marée de vos adversaires. Vous êtes vêtu d'une armure que vous portez comme une seconde peau et que vous pouvez orienter pour vous protéger, vous et vos alliés, des dégâts et tenir les ennemis à distance. Vos alliés comptent sur vous pour les protéger, qu'ils soient à vos côtés sur le champ de bataille ou à l'arrière-garde et vos opposants vous perçoivent comme la menace imposante que vous représentez. Que ce soit pour vos amis ou vos ennemis, votre présence est difficile à ignorer.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.SUwUvef7khs2ZlrK]{Gardien}</p>"
+        },
+        "Witch": {
+            "name": "Witch",
+            "description": "<p><em>Vous possédez de puissants pouvoirs magiques. Ce n'est ni grâce à vos études ni à votre dévotion à un idéal, mais parce que vous êtes un agent ou un vecteur au service d'un patron mystérieux venant d'ailleurs que même vous ne comprenez pas entièrement. Il pourrait s'agir d'une divinité dissimulée, d'une fée puissante, d'une manifestation d'énergie naturelle, d'un esprit ancien ou de n'importe quelle autre entité surnaturelle puissante… mais sa nature est sans doute autant un mystère pour vous que pour tous les autres. Grâce à un familier très particulier, votre patron vous octroie des sorts diversifiés et des maléfices puissants que vous pouvez utiliser à votre guise, sans jamais vraiment être certain que cela contribuera ou non aux objectifs plus vastes de votre patron.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.fYJruhQfzs4dj0mp]{Sorcier}</em></p>"
+        },
+        "Cleric": {
+            "name": "Cleric",
+            "description": "<p><em>Les divinités ont de nombreux moyens d'appliquer leur volonté sur le monde et vous êtes l'un de leurs plus fidèles serviteurs mortels. Béni par la magie divine que vous pratiquez, vous vivez en respectant les idéaux de votre foi, en vous ornant des symboles de votre église et en vous entraînant assidûment à manier l'arme de prédilection de votre divinité. Vos sorts peuvent protéger et soigner vos alliés mais ils peuvent aussi châtier vos ennemis et ceux de votre religion, selon la volonté de votre divinité. Votre vie est celle d'un individu engagé qui transmet par oral les enseignements de sa foi mais aussi en montrant l'exemple par ses actes.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.N4ABcd6CcCbqmw3x]{Prêtre}</em></p>"
+        },
+        "Druid": {
+            "name": "Druid",
+            "description": "<p><em>Il est impossible de résister au pouvoir de la nature. Elle peut détruire la plus solide des forteresses en quelques minutes, en réduisant à l'état de gravats ou en cendres les édifices les plus robustes, en les ensevelissant sous une avalanche de neige ou en les noyant sous les vagues. Elle peut se montrer infiniment généreuse et incroyablement faste avec ceux qui la respectent - et définitivement mortelle envers ceux qui la négligent. Vous êtes l'un de ces individus qui perçoivent l'appel de la nature. Vous êtes en admiration devant la majesté de sa puissance et consacrez votre vie à son service.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.8ElntNAGahQka70r]{Druide}</em></p>"
+        },
+        "Champion": {
+            "name": "Champion",
+            "description": "<p><em>Vous êtes un émissaire d'une divinité, un serviteur dévoué qui a endossé de lourdes responsabilités et vous poursuivez avec ferveur une cause qui vous sépare de ceux qui vous entourent. Vous disposez de puissantes défenses que vous partagez avec vos alliés et les spectateurs innocents, ainsi que des pouvoirs divins que vous utilisez pour mettre un terme aux menaces auxquelles votre divinité s'oppose.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.rebppVgBVi8J6TT2]{Champion}</em></p>"
+        },
+        "Alchemist": {
+            "name": "Alchemist",
+            "description": "<p><em>Il n'y a rien de plus beau à vos yeux qu'un étrange breuvage en train de bouillonner dans un bécher et vous consommez vos ingénieux élixirs sans modération. Vous êtes fasciné par la découverte des secrets de la science et du monde naturel et, pour faire face à toutes éventualités, vous expérimentez constamment des concoctions inventives dans votre laboratoire ou à la volée. Vous faites preuve d'une audace sans faille face au risque, lançant des créations explosives ou toxiques sur vos ennemis. Votre chemin unique vers la gloire est jalonné de breuvages alchimiques qui repoussent les limites de votre esprit et de votre corps.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Om4e4tsgNWrComie]{Alchimiste}</p>"
+        },
+        "Magus": {
+            "name": "Magus",
+            "description": "<p><em>En combinant le physique et la technique d'un combattant avec la capacité de lancer de la magie arcanique, vous cherchez à perfectionner l'art de fusionner sort et frappe. Bien que le lourd tome que vous transportez reflète les heures passées à mener des recherches arcaniques, vos ennemis n'ont aucun mal à se souvenir de votre entraînement. Ils le reconnaissent lorsque vous les abattez.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.YVoyzV9v4QyP2UIC]{Magus}</em></p>"
+        },
+        "Investigator": {
+            "name": "Investigator",
+            "description": "<p><em>Vous cherchez à découvrir la vérité et vous remontez des pistes sans lâcher prise pour dévoiler des complots de méchants sournois, découvrir d'anciens secrets ou percer des mystères. Votre esprit analytique formule rapidement des solutions aux problèmes les plus complexes et vos sens affûtés donnent un sens même aux indices les plus obscurs. Armé de vos connaissances, vous étudiez les créatures et les dangers que vous rencontrez afin d'exploiter leurs points faibles.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.omDi7otL3UWLVgct]{Enquêteur}</em></p>"
+        },
+        "Oracle": {
+            "name": "Oracle",
+            "description": "<p><em>Votre lien avec les puissances divines ne se conforme pas aux voies traditionnelles telles que les prières et la servitude ; au lieu de cela, vous entrevoyez des vérités sacrées et les grands mystères de l'univers incarnés sous la forme de concepts, soit parce que vous percevez les aspects communs à plusieurs divinités ou parce que vous contournez leur pouvoir complètement.</em></p>\n<p><em>Vous explorez l'un de ces mystères et puisez dans son pouvoir pour lancer des sorts miraculeux, mais ce pouvoir a un prix terrible : une malédiction qui se renforce au fur et à mesure que vous y recourez, que vous pouvez considérer comme un instrument du divin ou comme une punition des dieux.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.bqaqOx3naiwTozBX]{Oracle}</em></p>"
+        },
+        "Thaumaturge": {
+            "name": "Thaumaturge",
+            "description": "<p><em>Le monde est rempli de choses inexplicables : magie ancienne, dieux défunts et d'autres plus étranges encore. En réponse, vous avez réuni les meilleurs éléments de chaque tradition magique et vous avez constitué une collection d'objets ésotériques - une relique sacrée brisée par-ci, une branche de gui par-là - que vous pouvez utiliser pour vaincre n'importe quelle créature en exploitant ses faiblesses et ses vulnérabilités. L'outil mystique que vous portez est à la fois un insigne et une arme, son poids symbolique vous aidant à négocier et à vaincre le surnaturel. Chaque chemin vers le pouvoir possède ses restrictions et ses coûts mais vous les utilisez tous à votre avantage. Vous êtes un thaumaturge et vous accomplissez des merveilles.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.qigU4oNH2KDVvhjX]{Thaumaturge}</em></p>"
+        },
+        "Wizard": {
+            "name": "Wizard",
+            "description": "<p><em>Vous êtes un éternel étudiant des secrets de l'univers, utilisant votre maîtrise de la magie pour lancer de puissants sorts. Vous traitez la magie comme une science, recoupant les derniers textes sur la pratique de la pratique de l'incantation des sorts avec des tomes anciens pour découvrir et comprendre les arcanes de la magie. Cependant, la théorie magique est vaste et il est impossible de tout étudier. La plupart des magiciens apprennent dans le cadre d'une scolarité formelle, leur programme d'études s'inscrivant dans une catégorie spécifique, même si certains chercheurs particulièrement motivés élaborent parfois leurs propres théories.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.wDukeO3euLEGn6FA]{Magicien}</em></p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

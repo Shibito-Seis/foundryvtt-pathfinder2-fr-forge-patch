@@ -1,0 +1,233 @@
+{
+    "label": "Capacités des ascendances",
+    "entries": {
+        "Robust": {
+            "name": "Robust",
+            "description": "<p>Vous augmentez les limites maximum d'Encombrement et de surcharge de 2.</p>"
+        },
+        "Photosynthesis": {
+            "name": "Photosynthesis",
+            "description": "<p>Vous vous nourrissez grâce à la photosynthèse. En général, vous n'avez pas besoin de payer pour vous nourrir. Si vous restez sans soleil pendant une semaine, vous commencez à mourir de faim. Vous pouvez vous nourrir à partir de bouteilles de lumière solaire alchimique spécialement conçues à la place de la lumière solaire naturelle, mais ces bouteilles coûtent 10 fois plus cher que les rations habituelles (40 pa).</p>"
+        },
+        "Cryptomnesia": {
+            "name": "Cryptomnesia",
+            "description": "<p>Vous retenez des parcelles de connaissances de vos vies précédentes. Vous obtenez un bonus de circonstances de +1 à vos tests de compétences pour lesquelles vous êtes inexpérimenté.</p>"
+        },
+        "Wings": {
+            "name": "Wings",
+            "description": "<p>Tous les strix possèdent de puissantes ailes. Bien que tous les strix ne se consacrent pas à exercer leurs capacités de vol, un puissant claquement d'ailes permet aux strix de parcourir de plus longues distances lorsqu'ils sautent.</p>\n<p>Lorsque vous @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Bondissez} horizontalement, vous vous déplacez de 1,50 mètre supplémentaire. Vous n'obtenez pas automatiquement un échec aux @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{Sauts en hauteur} ou aux @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Sauts en longueur} si vous ne Marchez pas rapidement d'au moins 3 mètres d'abord. De plus, lorsque vous faites un Saut en longueur, vous pouvez parcourir une distance de 3 mètres de plus que votre résultat au test d'Athlétisme, bien que vous ne puissiez toujours pas dépasser la distance maximale égale à votre Vitesse. De plus, vous ne subissez pas de dégâts lorsque vous chutez, quelle que soit la distance de la chute.</p>"
+        },
+        "Animal Attack": {
+            "name": "Animal Attack",
+            "description": "<p>Votre héritage vous accorde une attaque à mains nues spéciale à la place de l'attaque à mains nues de poing des humanoïdes typiques. Cette attaque est dans le groupe pugilat. Définissez avec votre MJ celle que vous possédez, en utilisant le type d'animal que vous avez choisi et les suggestions de votre héritage comme indicateurs. Par exemple, Vous pourriez choisir une attaque de bec, de serre ou d'aile pour un aigle, de poing ou de queue pour un singe ou de langue ou de mâchoire pour une grenouille.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>Attaque à mains nues</th>\n<th>Dégâts</th>\n<th>Traits</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Aile</strong></td>\n<td>1d4 B</td>\n<td>Agile, finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Bec</strong></td>\n<td>1d6 P</td>\n<td>Finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Bois</strong></td>\n<td>1d6 P</td>\n<td>Finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Corne</strong></td>\n<td>1d6 P</td>\n<td>Finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Crocs</strong></td>\n<td>1d6 P</td>\n<td>Finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Griffe</strong></td>\n<td>1d4 T</td>\n<td>Agile, finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Langue</strong></td>\n<td>1d6 C</td>\n<td>Finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Machoîre</strong></td>\n<td>1d6 P</td>\n<td>Finesse, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Poing</strong></td>\n<td>1d4 C</td>\n<td>Agile, finesse, non-létal, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Queue</strong></td>\n<td>1d6 C</td>\n<td>Finesse, croc-en-jambe, à mains nues</td>\n</tr>\n<tr>\n<td><strong>Serre</strong></td>\n<td>1d4 P</td>\n<td>Agile, finesse, à mains nues</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "Greater Darkvision": {
+            "name": "Greater Darkvision",
+            "description": "<p>Une créature qui jouit de la vision dans le noir supérieure peut voir parfaitement bien dans les zones de ténèbres et de lumière faible, bien qu'une telle vision ne soit qu'en noir et blanc. Une créature avec vision dans le noir supérieure peut voir même au travers des ténèbres magiques.</p>"
+        },
+        "Automaton Core": {
+            "name": "Automaton Core",
+            "description": "<p>Votre corps contient un noyau d'automate imprégné de quintessence planaire qui vous donne le pouvoir d'effectuer diverses tâches et abrite votre âme et votre énergie vitale. Cette énergie vitale circule en vous comme le sang des humanoïdes. Par conséquent, vous êtes une créature vivante. Vous n'avez pas les immunités typiques des créatures artificielles. Vous pouvez être affecté par des effets qui ciblent une créature vivante et vous pouvez récupérer des Points de vie normalement grâce à l'énergie de vitalité.</p>\n<p>De plus, vous n'êtes pas détruit lorsque vous êtes réduit à 0 Point de vie. Au lieu de cela, votre énergie vitale tente de vous maintenir actif, même dans des conditions difficiles ; vous êtes mis hors d'usage et commencez à mourir lorsque vous êtes réduit à 0 Point de vie.</p>"
+        },
+        "Swim": {
+            "name": "Swim",
+            "description": "<p>Les azarketi ont une Vitesse de nage de 9 mètres.</p>"
+        },
+        "Constructed Body": {
+            "name": "Constructed Body",
+            "description": "<p>Vos besoins physiologiques sont différents de ceux des créatures vivantes. Vous n'avez pas besoin de manger ou de boire. Vous n'avez pas besoin de dormir mais vous avez quand même besoin d'une période de repos quotidienne. Durant cette période de repos, vous devez entrer dans un état de veille pour récupérer pendant 2 heures, ce qui est similaire au sommeil sauf que vous restez conscient de votre environnement et que vous ne subissez aucune pénalité du fait d'être @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient}. Un peu comme avec le sommeil, si vous restez trop longtemps sans entrer dans votre état de veille, vous devenez @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué} et ne pouvez récupérer jusqu'à ce que vous entriez en veille pendant 2 heures.</p>"
+        },
+        "Head Gem": {
+            "name": "Head Gem",
+            "description": "<p>Sur votre front se trouve une pierre précieuse qui abrite votre âme. Lorsque vous lancez un sort ou un rituel pour vous ramener à la vie, votre @UUID[Compendium.pf2e.equipment-srd.Item.FA1mAc7rEyC9vzZa]{Gemme de tête} intacte peut être substituée à votre corps. Bien que vous puissiez librement retirer votre gemme de tête, il est habituellement impossible pour une autre créature d'enlever de force ou de détruire votre gemme de tête à moins que vous ne soyez d'abord tué ou mis hors de combat de manière permanente. À la discrétion du MJ, une magie ou des capacités puissante pourraient circonvenir cette restriction. Si votre gemme de tête est retirée ou détruite, elle peut repousser en utilisant un rituel qui prend 1 journée. Lorsque ceci survient, tous les restes de la gemme précédente tombent en poussière.</p>"
+        },
+        "Sharp Beak": {
+            "name": "Sharp Beak",
+            "description": "<p>Avec votre bec aiguisé, vous n'êtes jamais dépourvu d'une arme. Vous disposez d'une attaque à mains nues de bec qui inflige 1d6 dégâts perforants. Votre bec est dans le groupe d'arme pugilat et possède les traits finesse et à mains nues.</p>"
+        },
+        "Aquatic Adaptation": {
+            "name": "Aquatic Adaptation",
+            "description": "<p>Votre biologie reptilienne vous permet de retenir votre souffle pendant très longtemps. Vous obtenez le don général @UUID[Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa]{Contrôle de la respiration} comme don supplémentaire.</p>"
+        },
+        "Sunlight Healing": {
+            "name": "Sunlight Healing",
+            "description": "<p>Un conrasu peut entrer dans un état méditatif et de guérison en y consacrant une activité de 10 minutes lorsqu'il est exposé à la lumière directe du soleil, auquel cas il récupère @Damage[(max(1,(ceil(@actor.level/2))))d8[healing]]{1d8 Points de vie}.</p>\n<p>Au niveau 3, et tous les 2 niveaux par la suite, cette guérison augmente de 1d8.</p>\n<p>Une fois qu'un conrasu a récupéré des Points de vie de cette façon, il est temporairement immunisé contre d'autres utilisations de Guérison par le soleil pendant 1 jour.</p>"
+        },
+        "Horns (Minotaur)": {
+            "name": "Horns (Minotaur)",
+            "description": "<p>Vos cornes pointues sont aussi mortelles que des épieux. Vous disposez d'une attaque à mains nues de cornes qui infligent 1d8 dégâts perforants. Vos cornes appartiennent au groupe pugilat et possèdent le trait à mains nues.</p>"
+        },
+        "Natural Climber": {
+            "name": "Natural Climber",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 aux tests d'Athlétisme pour Escalader.</p>"
+        },
+        "Awakened Form": {
+            "name": "Awakened Form",
+            "description": "<p>L'éveil a altéré votre forme, vous permettant de parler et de vous tenir sur deux jambes. Vous pouvez manier, porter, tenir et utiliser les objets. La nature et le nombre de membres que vous utilisez pour manipuler les objets sont déterminés avec votre MJ, mais vis-à-vis des règles, vous fonctionnez comme un humanoïde avec deux mains.</p>"
+        },
+        "Magical Strikes": {
+            "name": "Magical Strikes",
+            "description": "<p>Votre magie intrinsèque se répand dans votre être tout entier. Toutes vos Frappes sont magiques, qu'il s'agisse des Frappes à mains nues ou avec armes.</p>"
+        },
+        "Plant Nourishment": {
+            "name": "Plant Nourishment",
+            "description": "<p>Vous obtenez de quoi vous alimenter de la même manière que le font les plantes ou les champignons qui correspondent à votre type de corps, au travers d'une combinaison de photosynthèse, d'absorption des minéraux avec vos racines ou de récupération de matière en décomposition. Vous n'avez pas besoin de payer pour votre nourriture. Si vous dépendez normalement de la photosynthèse et que vous ne voyez pas la lumière du soleil pendant une semaine, vous commencez à dépérir. Vous pouvez obtenir une alimentation à partir de bouteilles spécialement formulées à base de lumière du soleil en remplacement de la lumière du soleil naturelle mais ces bouteilles coûtent 10 fois plus que des rations ordinaires (40 pa).</p>"
+        },
+        "Eyes in Back": {
+            "name": "Eyes in Back",
+            "description": "<p>Vous avez des yeux qui pointent dans plusieurs directions à la fois et vous remarquez instinctivement les mouvements à la périphérie de votre vision. Lorsque vous utilisez l'action basique Chercher, vous pouvez chercher des créatures dans deux zones au lieu d'une. Si la précision est nécessaire, vous pouvez sélectionner deux @Template[cone|distance:30]{cônes de 9 m} ou deux @Template[burst|distance:15]{explosions de 4,50 m} dans votre ligne de mire au lieu d'une seule.</p>"
+        },
+        "Land on Your Feet": {
+            "name": "Land on Your Feet",
+            "description": "<p>Lorsque vous chutez, vous ne subissez que la moitié des dégâts normaux et vous ne vous retrouvez pas @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+        },
+        "Sharp Teeth": {
+            "name": "Sharp Teeth",
+            "description": "<p>Vos incisives proéminentes offrent une alternative aux poings que les autres humanoïdes utilisent dans un combat. Vous disposez d'une attaque à mains nues qui inflige 1d4 points de dégâts perforants, fait partie du groupe pugilat et possède les traits agile et finesse.</p>"
+        },
+        "Constructed (Poppet)": {
+            "name": "Constructed (Poppet)",
+            "description": "<p>Les matériaux de votre corps résistent aux maux qui assaillent la chair. Vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde contre les effets de mort, les maladies et le poison ainsi qu'aux jets de sauvegarde contre les effets qui vous donneraient les états Drainé, Paralysé ou Nauséeux. Votre étincelle de vie signifie que vous êtes une créature vivante et que vous pouvez être guéri par l'énergie de vitalité et blessé par l'énergie de vide comme à l'ordinaire.</p>"
+        },
+        "Draconic Benefactor": {
+            "name": "Draconic Benefactor",
+            "description": "<p>Certaines capacités se réfèrent à votre bienfaiteur draconique, votre modèle draconique ou à un instinct draconique, qui est un type spécifique de dragon dont vous tirez vos pouvoirs draconiques, typiquement le type de dragon que vous servez ou dont le sang coule dans vos veines. Vous pouvez choisir votre modèle lorsque vous créez votre personnage, mais êtes contraint d'en choisir un uniquement lorsque vous prenez un don ou une autre option qui nécessite que vous en ayez un (tel que Souffle de dragon). Cela signifie que votre pouvoir draconique pourrait vous demeurer mystérieux pendant un certain temps, avant de vous révéler sa véritable nature au fur et à mesure que vous gagnez en expérience.</p>\n<p>La table ci-dessous peut être utilisée pour déterminer les avantages de votre relation draconique ou les avantages que vous obtenez lorsque vous utilisez `@UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{Forme de dragon} et des effets similaires. Si vous choisissez un dragon d'une source différente, collaborez avec votre MJ pour déterminer si vous y obtenez accès et quelles options ce dragon vous accorde.</p>\n<h2>Bienfaiteurs draconiques</h2>\n<table border=\"1\" class=\"pf2e lost-omens\">\n    <thead>\n        <tr style=\"text-align:right\">\n            <th>Dragon</th>\n            <th>Tradition</th>\n            <th>Vitesses</th>\n            <th>Souffle de dragon</th>\n            <th>Jet de sauvegarde</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>Adamantium</td>\n            <td>Primordial</td>\n            <td>Creuser</td>\n            <td>Cône contondant</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Barrage</td>\n            <td>Arcanique</td>\n            <td>—</td>\n            <td>Cône de force</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Tourbière</td>\n            <td>Primordial</td>\n            <td>Nager</td>\n            <td>Cône d'acide</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Saumure</td>\n            <td>Primordial</td>\n            <td>Nager</td>\n            <td>Ligne contondante</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Braise</td>\n            <td>Primordial</td>\n            <td>—</td>\n            <td>Cône de feu</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Nuage</td>\n            <td>Primordial</td>\n            <td>—</td>\n            <td>Cône d'électricité</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Comploteur</td>\n            <td>Occulte</td>\n            <td>Escalade</td>\n            <td>Cône de poison</td>\n            <td>Vigueur</td>\n        </tr>\n        <tr>\n            <td>Corail</td>\n            <td>Primordial</td>\n            <td>Nager</td>\n            <td>Ligne contondante</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Cristal</td>\n            <td>Primordial</td>\n            <td>—</td>\n            <td>Cône perforant</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Délice</td>\n            <td>Divine</td>\n            <td>—</td>\n            <td>Cône spirituel</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Désespoir</td>\n            <td>Occulte</td>\n            <td>—</td>\n            <td>Cône de son</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Diabolique</td>\n            <td>Divine</td>\n            <td>—</td>\n            <td>Cône de feu</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Empyréen</td>\n            <td>Divine</td>\n            <td>—</td>\n            <td>Cône spirituel</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Châtiment</td>\n            <td>Divine</td>\n            <td>—</td>\n            <td>Cône de son</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Forêts</td>\n            <td>Primordial</td>\n            <td>—</td>\n            <td>Cône perforant</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Fortuné</td>\n            <td>Arcanique</td>\n            <td>—</td>\n            <td>Cône de force</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Cornu</td>\n            <td>Primordial</td>\n            <td>Nager</td>\n            <td>Cône de poison</td>\n            <td>Vigueur</td>\n        </tr>\n        <tr>\n            <td>Magmatique</td>\n            <td>Primordial</td>\n            <td>Creuser</td>\n            <td>Cône de feu</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Mirage</td>\n            <td>Arcanique</td>\n            <td>Escalade</td>\n            <td>Cône mental</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Moqueur</td>\n            <td>Occulte</td>\n            <td>—</td>\n            <td>Cône contondant</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Serment</td>\n            <td>Divine</td>\n            <td>—</td>\n            <td>Cône spirituel</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Présage</td>\n            <td>Occulte</td>\n            <td>—</td>\n            <td>Cône mental</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Phase</td>\n            <td>Arcanique</td>\n            <td>—</td>\n            <td>Cône de force</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Requiem</td>\n            <td>Divine</td>\n            <td>Nager</td>\n            <td>Ligne spirituelle</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Résurrection</td>\n            <td>Divine</td>\n            <td>—</td>\n            <td>Cône de vide</td>\n            <td>Vigueur</td>\n        </tr>\n        <tr>\n            <td>Givre</td>\n            <td>Primordial</td>\n            <td>Nager</td>\n            <td>Cône de froid</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Rune</td>\n            <td>Arcanique</td>\n            <td>—</td>\n            <td>Cône de feu</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Sage</td>\n            <td>Occulte</td>\n            <td>—</td>\n            <td>Cône mental</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Océans</td>\n            <td>Arcanique</td>\n            <td>Nager</td>\n            <td>Cône contondant</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Céleste</td>\n            <td>Divine</td>\n            <td>—</td>\n            <td>Cône d'électricité</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Souverain</td>\n            <td>Occulte</td>\n            <td>—</td>\n            <td>Cône mental</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Couronne d'orage</td>\n            <td>Primordial</td>\n            <td>—</td>\n            <td>Ligne d'électricité</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Temps</td>\n            <td>Arcanique</td>\n            <td>—</td>\n            <td>Cône de force</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Ombral</td>\n            <td>Occulte</td>\n            <td>—</td>\n            <td>Cône de vide</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Souterrain</td>\n            <td>Arcanique</td>\n            <td>Creuser</td>\n            <td>Cône de feu</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Vizir</td>\n            <td>Occulte</td>\n            <td>Nager</td>\n            <td>Cône de feu</td>\n            <td>Réflexes</td>\n        </tr>\n        <tr>\n            <td>Vorpal</td>\n            <td>Arcanique</td>\n            <td>—</td>\n            <td>Cône de vide</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Hurlant</td>\n            <td>Arcanique</td>\n            <td>—</td>\n            <td>Cône de son</td>\n            <td>Vigueur</td>\n        </tr>\n        <tr>\n            <td>Chuchoteur</td>\n            <td>Occulte</td>\n            <td>—</td>\n            <td>Cône mental</td>\n            <td>Volonté</td>\n        </tr>\n        <tr>\n            <td>Souhaits</td>\n            <td>Arcanique</td>\n            <td>Escalade</td>\n            <td>Cône mental</td>\n            <td>Volonté</td>\n        </tr>\n    </tbody>\n</table>\n<p><span style=\"float:right\"><em>Source : Pathfinder Lost Omens Draconic Codex pg. 206-207</em></span></p>"
+        },
+        "Bite": {
+            "name": "Bite",
+            "description": "<p>Vos dents acérées et vos puissantes mâchoires sont des armes redoutables. Vous disposez d'une attaque à mains nues de mâchoires qui inflige 1d6 dégâts perforants. Vos mâchoires font partie du groupe pugilat.</p>"
+        },
+        "Aquatic Grace": {
+            "name": "Aquatic Grace",
+            "description": "<p>Lorsque vous obtenez un succès sur un jet de sauvegarde contre un effet d'eau, il devient un succès critique.</p>"
+        },
+        "Hydration (Merfolk)": {
+            "name": "Hydration (Merfolk)",
+            "description": "<p>Votre corps nécessite que vous retourniez dans un environnement aquatique au moins une fois au cours d'une période de 24 heures. Après les 24 premières heures hors de l'eau, vous subissez une pénalité de statut de -1 aux jets de Vigueur. Après 48 heures, vous avez du mal à respirer de l'air et commencez à suffoquer jusqu'à ce que vous retourniez à l'eau.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Q5FUu7yhWPJlcXei]{Effet : Déshydraté}</p>"
+        },
+        "Draconic Exemplar": {
+            "name": "Draconic Exemplar",
+            "description": "<p>Vous tirez de votre modèle draconique des pouvoirs mineurs. Choisissez un type de dragon chromatique ou métallique comme étant votre modèle. Cela détermine la couleur de vos écailles et votre apparence. Les dragons voient parfois plus favorablement ceux des kobolds qui leur ressemblent à la discrétion du MJ. Votre modèle peut aussi déterminer les détails d'autres capacités que vous possédez, en utilisant la table des modèles draconiques ci-après.</p>\n<h3><strong>Table des Modèles draconiques</strong></h3>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>Dragon</th>\n<th>Forme du Souffle</th>\n<th>Type de Dégâts</th>\n<th>Jet de sauvegarde</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Airain</td>\n<td>Ligne</td>\n<td>Feu</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Argent</td>\n<td>Cône</td>\n<td>Froid</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Blanc</td>\n<td>Cône</td>\n<td>Froid</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Bleu</td>\n<td>Ligne</td>\n<td>Électricité</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Bronze</td>\n<td>Ligne</td>\n<td>Électricité</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Cuivre</td>\n<td>Ligne</td>\n<td>Acide</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Noir</td>\n<td>Ligne</td>\n<td>Acide</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Or</td>\n<td>Cône</td>\n<td>Feu</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Rouge</td>\n<td>Cône</td>\n<td>Feu</td>\n<td>Réflexes</td>\n</tr>\n<tr>\n<td>Vert</td>\n<td>Cône</td>\n<td>Poison</td>\n<td>Vigueur</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "Claws": {
+            "name": "Claws",
+            "description": "<p>Vos griffes aiguisées vous offrent une alternative aux poings que d'autres humanoïdes utilisent pour se battre. Vous disposez d'une attaque à mains nues de griffe qui inflige 1d4 dégâts tranchants et possède les traits agile et finesse.</p>"
+        },
+        "Unusual Anatomy": {
+            "name": "Unusual Anatomy",
+            "description": "<p>Votre corps non orthodoxe résiste aux agressions physiques conçues pour d'autres créatures. Vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde contre les maladies et les poisons.</p>"
+        },
+        "Empathic Sense": {
+            "name": "Empathic Sense",
+            "description": "<p>Les kashrishis sont capables d'avoir une vague idée de l'état émotionnel actuel des autres dans un rayon de 4,50 mètres autour d'eux. Cela se manifeste par un sentiment général de bonheur, de colère ou de peur, sans aucun détail précis. Pour ceux avec qui les kashrishis éprouvent un lien émotionnel, le contact physique peut améliorer ce sens à des degrés plus élevés de détail et de compréhension, augmentant avec la force de leur lien. Ce sens fonctionne également comme un sens imprécis qui vous avertit de la présence, mais pas de l'emplacement précis, des créatures qui ne sont pas dénuées d'intelligence dans la zone. Vous bénéficiez d'un bonus de circonstances de +2 aux tests de Perception pour @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Deviner les intentions} des créatures qui ne sont pas dénuées d'intelligence dans la zone de votre sens empathique.</p>"
+        },
+        "Big Sharp Teeth": {
+            "name": "Big Sharp Teeth",
+            "description": "<p>Votre bouche est pleine de dents tranchantes comme des rasoirs. Vous obtenez une attaque à mains nues de mâchoires qui inflige 1d4 dégâts perforants. Vos mâchoires sont dans le groupe pugilat et possèdent les traits finesse et à mains nues.</p>"
+        },
+        "Magiphage": {
+            "name": "Magiphage",
+            "description": "<p>Les nodules variés à travers votre corps aspirent la magie latente du monde qui vous entoure. Vous n'avez pas besoin de manger et de boire à moins d'être dans un environnement spécialement pauvre en magie (comme dans la Désolation de mana). Choisissez quelle est la tradition magique que vous avez le plus consommé sous votre forme larvaire. Ce type de magie est devenu si enraciné dans votre corps qu'il change la tradition de tous les sorts et les actions magiques de surki qui appartiennent à cette tradition.</p>"
+        },
+        "Awakened Mind": {
+            "name": "Awakened Mind",
+            "description": "<p>L'éveil a altéré votre esprit. Vous n'êtes plus un animal, mais vous pouvez toujours poser des questions, recevoir des réponses et utiliser Diplomatie avec les animaux de votre espèce. En vous remémorant vos instincts, vous pouvez vous permettre d'être affecté par des sorts et d'autres effets comme si vous étiez un animal.</p>"
+        },
+        "Wanderer's Soul": {
+            "name": "Wanderer's Soul",
+            "description": "<p>Votre âme est particulièrement capable de revenir dans le cycle de la réincarnation. Lorsque vous êtes sujet de @UUID[Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG]{Rappel à la vie}, @UUID[Compendium.pf2e.spells-srd.Item.gIVaSCrLhhBzGHQY]{Réincarnation} ou d'un rituel similaire qui devrait vous ramener à la vie, l'incantateur primaire utilise le résultat d'un degré de succès supérieur à ce qu'il obtenu sur son jet. Vous revenez toujours à la vie en tant que samsaran, même si le rituel devrait vous réincarner au sein d'un corps d'une ascendance différente.</p>"
+        },
+        "Flammable": {
+            "name": "Flammable",
+            "description": "<p>Vous avez une faiblesse contre les dégâts de feu égal à un tiers de votre niveau (minimum 1).</p>"
+        },
+        "Blunt Snout": {
+            "name": "Blunt Snout",
+            "description": "<p>Votre museau court et le système labyrinthique de vos sinus vous rendent résistant aux phénomènes qui assaillent vos narines. Lorsque vous lancez un jet de sauvegarde contre les menaces inhalées (comme les poisons inhalés) et les effets olfactifs (comme la puanteur des xulgaths), vous obtenez le résultat d'un degré supérieur à celui obtenu sur votre jet.</p>"
+        },
+        "Emotionally Unaware": {
+            "name": "Emotionally Unaware",
+            "description": "<p>Vous trouvez qu'il est difficile de comprendre et d'exprimer des émotions complexes. Vous subissez une pénalité de circonstances de -1 aux tests de Diplomatie et de Représentation et aux tests de Perception pour @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Deviner les intentions}.</p>"
+        },
+        "Fangs": {
+            "name": "Fangs",
+            "description": "<p>Vous êtes né avec un moyen naturel de chasser et de vous défendre. Vous obtenez une attaque de crocs à mains nues qui inflige 1d6 dégâts perforants. Vos crocs sont dans le groupe pugilat et possèdent le trait finesse et à mains nues.</p>"
+        },
+        "Iivlar Weaving": {
+            "name": "Iivlar Weaving",
+            "description": "<p>Des fils planaires produits par les créatures appelées des iivlars sont tissés dans votre peau. Ce fil émet une lumière faible dans une émanation de 3 mètres. Vous pouvez Maintenir pour éteindre, réactiver ou ajuster la couleur de cette lumière.</p>"
+        },
+        "Change Shape": {
+            "name": "Change Shape",
+            "description": "<p>En tant que kitsune, vous obtenez la capacité @UUID[Compendium.pf2e.actionspf2e.Item.34E7k2YRcsOU5uyl]{Changement de forme}.</p>"
+        },
+        "Mount": {
+            "name": "Mount",
+            "description": "<p>Votre corps d'équidé est parfaitement adapté pour transporter vos alliés de confiance. Un PJ peut vous chevaucher s'il est d'au moins une catégorie de taille inférieure à la vôtre (de taille Moyenne pour la plupart des centaures), au lieu d'avoir besoin d'être de deux catégories inférieures.</p>"
+        },
+        "Sunlight": {
+            "name": "Sunlight",
+            "description": "<p>Si vous êtes exposé directement à la lumière du soleil, vous devenez immédiatement @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1}. La valeur de l'état Ralenti augmente de 1 chaque fois que vous terminée votre tour sous la lumière directe du soleil. Si vous perdez toutes vos actions de cette manière, vous êtes détruit. Du fait de votre aversion surnaturelle au soleil, vous ne projetez aucune ombre et ne vous reflétez pas dans les miroirs.</p>"
+        },
+        "Keen Eyes": {
+            "name": "Keen Eyes",
+            "description": "<p>Votre vue est perçante, vous permettant de distinguer des détails sur les créatures @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} ou même @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisibles} que d'autres pourraient manquer. Vous obtenez un bonus de circonstances de +2 quand vous utilisez l'action @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} pour trouver des créatures @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Cachées} ou @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détectées} dans un rayon de 9 mètres autour de vous. Quand vous prenez pour cible un adversaire qui vous est @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} ou Caché, réduisez le DD du test nu à 3 pour une cible Masquée et à 9 pour une cible Cachée.</p>"
+        },
+        "Hydration": {
+            "name": "Hydration",
+            "description": "<p>Bien que vous soyez amphibie et autant à l'aise sur terre que dans l'eau, votre corps nécessite que vous retourniez dans les environnements aquatiques au moins une fois par 24 heures. Vous devez vous immerger totalement dans l'eau en vue de réhydrater votre peau acclimatée à l'eau.</p>\n<p>Si vous ne parvenez pas à le faire, votre peau commence à se craqueler et vos ouïes deviennent douloureuses. Après les premières 24 heures hors de l'eau, vous subissez une pénalité de statut de -1 aux jets de Vigueur. Après 48 heures, vous luttez pour respirer de l'air et commencez à suffoquer jusqu'à ce que vous retourniez dans l'eau.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Q5FUu7yhWPJlcXei]{Effet : Déshydraté}</p>"
+        },
+        "Fangs (Nagaji)": {
+            "name": "Fangs (Nagaji)",
+            "description": "<p>Votre bouche contient soit des rangées de dents crochues et aiguisées, soit une paire de crocs de serpent vicieux. Vous obtenez une attaque à mains nues de crocs qui inflige 1d6 dégâts perforants. Vos crocs font partie du groupe pugilat et possèdent les traits finesse et à mains nues.</p>"
+        },
+        "Constructed": {
+            "name": "Constructed",
+            "description": "<p>Votre corps synthétique résiste aux affections mieux que les organismes purement biologiques. Vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde contre les maladies, les poisons et les radiations.</p>"
+        },
+        "Innate Venom": {
+            "name": "Innate Venom",
+            "description": "<p>Votre sang charrie des toxines mortelles pour tous les autres sauf vous-même. Vous obtenez l'action @UUID[Compendium.pf2e.actionspf2e.Item.s4V7JWSMF9JPJAeX]{Envenimer} qui peut délivrer le venin vishkanyen mineur. Le DD du jet de sauvegarde de votre venin est égal au plus élevé entre votre DD de classe ou votre DD de sort.</p>"
+        },
+        "Basic Undead Benefits": {
+            "name": "Basic Undead Benefits",
+            "description": "<p><strong>Nécril</strong> Vous connaissez le nécril.</p>\n<p><strong>Vision de mort-vivant</strong> Vous obtenez la vision nocturne ou la vision dans le noir si votre ascendance possédait déjà la vision nocturne.</p>\n<p><strong>Guérison du vide</strong> Vous êtes blessé par les dégâts de vitalité et n'êtes pas soigné par les effets de guérison de vitalité. Vous ne subissez pas les dégâts de vide et vous êtes soigné par les effets de vide qui soignent les morts-vivants.</p>\n<p><strong>Survie négative</strong> Contrairement aux morts-vivants normaux, vous n'êtes pas détruit lorsque vous êtes réduit à 0 Point de vie. À la place, une puissante énergie du vide tente de vous éviter d'être détruit même dans des situations désespérées. Vous êtes assommé et commencez à mourir lorsque vous êtes réduit à 0 Point de vie. Parce que vous êtes un mort-vivant, de nombreuses méthodes pour ramener quelqu'un à la vie, comme @UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]{Stabilisation}, ne vous profitent pas. Lorsque vous mourrez, vous êtes détruit plutôt que mort, tout comme les autres morts-vivants.</p>\n<p><strong>Immunité contre les effets de mort</strong> Vous êtes immunisé contre les effets de mort. Cela vous permet d'éviter d'être automatiquement tué ou de voir la valeur de votre état mourant augmenter automatiquement mais cela ne vous immunise pas contre les autres aspects du sort ou de l'effet. Par exemple, vous pouvez toujours subir des dégâts mentaux et être Effrayé par un @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{Assassin imaginaire} mais vous n'en mourrez pas instantanément.</p>\n<p><strong>Protection contre la maladie et le poison</strong> Vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde (ou à tout autre type de défense) contre la maladie et le poison.</p>\n<p><strong>Faim de mort-vivant</strong> Bien que vous ne mangiez ou ne buviez pas la même nourriture que les humanoïdes, vous avez généralement une soif et une faim liée à votre état de mort-vivant, comme la faim de chair humanoïde d'une goule, la soif de cervelle d'un zombie ou le désir de sang d'un vampire. De plus, bien que vous ne dormiez pas, vous entrez dans un état de ralentissement pendant au moins 4 heures par jour pour récupérer, ce qui permet à votre chair de mort-vivant de se recoudre et de récupérer naturellement. De nombreux morts-vivants choisissent de se reposer lorsque le soleil est à son zénith.</p>"
+        },
+        "Prehensile Tail": {
+            "name": "Prehensile Tail",
+            "description": "<p>Vous pouvez utiliser votre longue queue flexible pour accomplir des actions Interagir nécessitant une main libre, même si vos deux mains sont occupées par ailleurs. Votre queue ne peut pas effectuer d'actions qui nécessitent des doigts ou une dextérité manuelle importante, y compris une action qui nécessiterait un test pour être accomplie et vous ne pouvez pas l'utiliser pour tenir des objets.</p>"
+        },
+        "Revulsion": {
+            "name": "Revulsion",
+            "description": "<p>Vous ne pouvez pas vous approcher volontairement à moins de 3 mètres de l'ail brandi ou d'un symbole religieux d'une divinité non maléfique. Une créature doit Interagir pour brandir de l'ail ou un symbole religieux pendant 1 round (comme pour Lever un bouclier). Si vous vous trouvez involontairement à moins de 3 mètres d'un des objets de votre répulsion, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{En fuite} et vous vous éloignez de l'objet de votre répulsion jusqu'à ce que vous terminiez une action à plus de 3 mètres de ce dernier. Après 1 round d'exposition au sujet de votre répulsion, vous pouvez tenter un jet de @Check[will|dc:25] par une unique action, qui possède le trait concentration. En cas de succès, vous surmontez votre répulsion pendant [[/r 1d6 #Surmonter la répulsion]]{1d6 rounds} ou pendant 1 heure en cas de succès critique.</p>"
+        },
+        "Wings (Dragonet)": {
+            "name": "Wings (Dragonet)",
+            "description": "<p>Vos ailes ne sont peut-être pas aussi puissantes que celles des autres dragonnets, mais elles peuvent tout de même vous éviter de chuter de façon incontrôlée. Vous ne subissez aucun dégât de chute, quelle que soit la distance dont vous chutez.</p>"
+        },
+        "Clan Dagger": {
+            "name": "Clan Dagger",
+            "description": "<p>Vous obtenez gratuitement une @UUID[Compendium.pf2e.equipment-srd.Item.kJJvKm80KwWXPukV]{Dague de clan} de votre clan qui vous a été donnée à votre naissance. Vendre cette dague est un tabou terrible et vous vaudrait le dédain des autres nains.</p>"
+        },
+        "Advanced Undead Benefits": {
+            "name": "Advanced Undead Benefits",
+            "description": "<p><strong>Vision dans le noir</strong> Vous obtenez vision dans le noir si vous ne l'aviez pas déjà.</p>\n<p><strong>Protection supérieure contre la maladie et le poison</strong> Votre bonus contre la maladie et le poison passe à +2. Vous obtenez une résistance au poison égale à la moitié de votre niveau.</p>\n<p><strong>Protection contre la paralysie et le sommeil</strong> Vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde (ou à toute autre défense) contre les effets qui vous donneraient l'état @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysé} ou qui possède le trait sommeil.</p>"
+        },
+        "Horns (Sarangay)": {
+            "name": "Horns (Sarangay)",
+            "description": "<p>Vos puissantes cornes sont des armes formidables. Vous disposez d'une attaque à mains nues de cornes qui inflige 1d6 dégâts perforants et possède le trait pousser. Vos cornes appartiennent au groupe pugilat.</p>"
+        },
+        "Glowing Horn": {
+            "name": "Glowing Horn",
+            "description": "<p>Votre corne réagit à l'énergie psychique en s'illuminant doucement. La corne émet une faible lumière dans une @Template[emanation|distance:10]{émanation de 3 mètres} jusqu'au début de votre prochain tour chaque fois que vous utilisez une action occulte acquise grâce à un don d'ascendance, que vous lancez un sort occulte inné ou que vous lancez un sort possédant le trait mental.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

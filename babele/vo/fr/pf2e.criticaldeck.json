@@ -1,0 +1,962 @@
+{
+    "label": "Cartes critiques",
+    "entries": {
+        "Critical Hit Deck #27": {
+            "name": "Critical Hit Deck #27",
+            "pages": {
+                "Critical Hit Deck #27": {
+                    "name": "Critical Hit Deck #27",
+                    "text": "<section class=\"critical-deck\">\n<h1>Trachée écrasée</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible Suffocque jusqu'à ce qu'elle soit sujette à des soins magiques. Elle ne peut parler tant qu'elle suffoque.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Coude percé</h1>\n<blockquote>\n<p>La cible lâche un objet qu'elle tient (déterminé aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Estafilade longue</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible subit @Damage[1d4[bleed]]{1d4 dégâts de saignement}. Le DD du test nu pour mettre fin aux dégâts de saignement est plus élevé de 5 par rapport à la normale.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Vulnérabilité</h1>\n<blockquote>\n<p>La cible obtient une faiblesse 5 contre tous dégâts infligés par la bombe ou le sort pendant 1 minute.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #42": {
+            "name": "Critical Hit Deck #42",
+            "pages": {
+                "Critical Hit Deck #42": {
+                    "name": "Critical Hit Deck #42",
+                    "text": "<section class=\"critical-deck\">\n<h1>Bouclier percuté</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible doit réussir un jet de @Check[reflex] ou lâcher le bouclier qu'elle tient.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure pénétrante</h1>\n<blockquote>\n<p>L'attaque ignore toutes les résistances.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Blessure musculaire</h1>\n<blockquote>\n<p><strong>Effet critique : </strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Frappe intense</h1>\n<blockquote>\n<p>L'attaque ignore toutes les résistances.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #5": {
+            "name": "Critical Fumble Deck #5",
+            "pages": {
+                "Critical Fumble Deck #5": {
+                    "name": "Critical Fumble Deck #5",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Mauvaise prise</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.UZabiyynJWuUblMk]{pénalité de circonstances de -2 aux jets d'attaque avec cette arme} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Quoi ?</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confus}</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Fatigue oculaire</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ébloui} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Soufflé</h1>\n<blockquote>\n<p>Vous devez réussir une jet de @Check[will] ou être envoyé [[/r 1d6*5]]{1d6 x 1,50 mètre} dans les airs (ou dans une direction aléatoire déterminée par le MJ si vous étiez en train de voler).</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #49": {
+            "name": "Critical Fumble Deck #49",
+            "pages": {
+                "Critical Fumble Deck #49": {
+                    "name": "Critical Fumble Deck #49",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Le bout pointu va ici</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessé 1} ou votre état Blessé augmente de 1.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Vision en tunnel</h1>\n<blockquote>\n<p>Pendant 3 rounds, vous obtenez un @UUID[Compendium.pf2e.other-effects.Item.IUvO6CatanKAgmNr]{Bonus de circonstances de +1 aux jets d'attaque} mais vous êtes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Tête la première !</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient} jusqu'à ce que l'on vous réveille ou jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Magie imprévisible</h1>\n<blockquote>\n<p>Lancez deux fois sur la table du @UUID[Compendium.pf2e.rollable-tables.RollTable.uYDzWM5ji52r4mSD]. Vous êtes la cible de ces effets.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #28": {
+            "name": "Critical Fumble Deck #28",
+            "pages": {
+                "Critical Fumble Deck #28": {
+                    "name": "Critical Fumble Deck #28",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Armure fracassée</h1>\n<blockquote>\n<p>Vous infligez les dégâts normaux de l'attaque à votre armure, en appliquant la solidité.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Prise perdue</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 2} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Battu</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous subissez une @UUID[Compendium.pf2e.other-effects.Item.c6cwOc4Zri6QiqsR]{pénalité de circonstances de -2aux tests et aux jets de sauvegarde}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Explosion inattendue</h1>\n<blockquote>\n<p>Votre sort affecte toutes les cibles à moins de 9 mètres de vous. Vous êtes immunisé contre cet effet.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #17": {
+            "name": "Critical Hit Deck #17",
+            "pages": {
+                "Critical Hit Deck #17": {
+                    "name": "Critical Hit Deck #17",
+                    "text": "<section class=\"critical-deck\">\n<h1>Et reste à terre</h1>\n<blockquote>\n<p>Dégâts nourmaux.<strong> Effet critique :</strong> La cible est knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Ventilé</h1>\n<blockquote>\n<p>Triple dégâts.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Repousser</h1>\n<blockquote>\n<p>Pousser la cible de 3 mètres.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Gelé</h1>\n<blockquote>\n<p>S'il s'agit d'un sort ou d'une bombe de froid, la cible subit triple dégâts et est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 2} pendant 1 round. Tout autre bombe ou sort inflige le double des dégâts.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #40": {
+            "name": "Critical Fumble Deck #40",
+            "pages": {
+                "Critical Fumble Deck #40": {
+                    "name": "Critical Fumble Deck #40",
+                    "text": "<section class=\"fumble-deck\"><h1>Hésitation persistante</h1><blockquote><p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.y1GwyXv7iOf8DhBg]{Pris au dépourvu} jusqu'à la fin de votre prochain tour.</p></blockquote><p><code>Corps-à-corps</code></p><h1>Précaire</h1><blockquote><p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.fqk0ESqJACXqz21k]{pénalité de circonstances de -1 aux jets d'attaque} jusqu'à ce que obteniez un coup critique.</p></blockquote><p><code>À distance</code></p><h1>Grand rugissement</h1><blockquote><p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourd}.</p></blockquote><p><code>À mains nues</code></p><h1>Erreur !</h1><blockquote><p>Vous vous infligez les dégâts normaux du sort au lieu de les infliger à la cible.</p></blockquote><p><code>Sort</code></p></section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #46": {
+            "name": "Critical Fumble Deck #46",
+            "pages": {
+                "Critical Fumble Deck #46": {
+                    "name": "Critical Fumble Deck #46",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Coupure à la main</h1>\n<blockquote>\n<p>Vous subissez @Damage[1d8[bleed]]{1d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Oups !</h1>\n<blockquote>\n<p>Vous vous touchez au lieu de toucher la cible.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Ongle incarné</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.fqk0ESqJACXqz21k]{pénalité de circonstances de -1 aux jets d'attaque jusqu'à ce que vous obteniez un coup critique}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Clatto Verata Necktie</h1>\n<blockquote>\n<p>Vous touchez votre plus proche allié de manière critique.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #20": {
+            "name": "Critical Hit Deck #20",
+            "pages": {
+                "Critical Hit Deck #20": {
+                    "name": "Critical Hit Deck #20",
+                    "text": "<section class=\"critical-deck\">\n<h1>Sonnée</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Foie perforé</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Bouts des doigts</h1>\n<blockquote>\n<p>Dégâts normaux. Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et ne peut utiliser une de ses mains (choisi aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Brûlure à l'oeil</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveuglée} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #31": {
+            "name": "Critical Hit Deck #31",
+            "pages": {
+                "Critical Hit Deck #31": {
+                    "name": "Critical Hit Deck #31",
+                    "text": "<section class=\"critical-deck\">\n<h1>Bruit étourdissant</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Joue perforée</h1>\n<blockquote>\n<p>La cible doit réussir un @Check[flat|dc:5] pour lancer des sorts avec une composante verbale jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Dans les yeux</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveuglée} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Ralentie</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 2} pendant 1 round.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #3": {
+            "name": "Critical Hit Deck #3",
+            "pages": {
+                "Critical Hit Deck #3": {
+                    "name": "Critical Hit Deck #3",
+                    "text": "<section class=\"critical-deck\">\n<h1>Ouverture surprise</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Vous obtenez 1 action que vous pouvez utiliser avant la fin de votre tour ou utiliser une action d'attaque contre la cible.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Langue perforée</h1>\n<blockquote>\n<p>La cible doit réussir un @Check[flat|dc:5] pour lancer des sorts avec la composante verbale jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Sourcil à la joue au menton</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible subit une pénalité de statut à la Perception et aux jets d'attaques jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Slashing</code></p>\n<h1>Surcharge olfactive</h1>\n<blockquote>\n<p>La cible perd son sens de l'odorat et toute capacité odorat ou sens olfactif jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #26": {
+            "name": "Critical Hit Deck #26",
+            "pages": {
+                "Critical Hit Deck #26": {
+                    "name": "Critical Hit Deck #26",
+                    "text": "<section class=\"critical-deck\">\n<h1>Intestins écrasés</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessée 2} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2} jusqu'à ce qu'elle ne soit plus Blessée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Logé dans l'os</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible subit @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Colonne coupée</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible doit réussir un jet de @Check[fortitude] ou être @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Débordement psychique</h1>\n<blockquote>\n<p>La cible subit @Damage[1d8[mental]]{1d8 dégâts mentaux}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #13": {
+            "name": "Critical Hit Deck #13",
+            "pages": {
+                "Critical Hit Deck #13": {
+                    "name": "Critical Hit Deck #13",
+                    "text": "<section class=\"critical-deck\">\n<h1>Effondrement</h1>\n<blockquote>\n<p>La cible est mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Percé</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Gorge coupée</h1>\n<blockquote>\n<p>Dégâts normaux. <strong>Effet critique</strong> La cible subit @Damage[1d8[bleed]]{1d8 dégâts de saignement}. La cible ne peut parler, lancer des sorts avec une composante verbale ou utiliser une arme de souffle tant qu'elle est sujette à ses dégâts de saignement.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Aspire la vie</h1>\n<blockquote>\n<p>Si c'est un sort, la cible est @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnée 1} et vous regagnez [[/r 1d8 #Points de vie]]{1d8 Points de vie}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #45": {
+            "name": "Critical Fumble Deck #45",
+            "pages": {
+                "Critical Fumble Deck #45": {
+                    "name": "Critical Fumble Deck #45",
+                    "text": "<section class=\"fumble-deck\">\n<h1>C'est mauvais</h1>\n<blockquote>\n<p>Vous subissez @Damage[1d10[bleed]]{1d10 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Quelles sont les chances ?</h1>\n<blockquote>\n<p>Si c'est une attaque d'arme de jet et que la cible peut tenir l'arme, la cible attrape l'arme dans les airs et la manie.</p>\n</blockquote>\n<p><code>Ranged</code></p>\n<h1>Tourbillon de honte</h1>\n<blockquote>\n<p>Vous touchez chaque créature adjacente à vous sauf la cible.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Composantes en désordre</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 2} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #41": {
+            "name": "Critical Hit Deck #41",
+            "pages": {
+                "Critical Hit Deck #41": {
+                    "name": "Critical Hit Deck #41",
+                    "text": "<section class=\"critical-deck\">\n<h1>Jambe brisée</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible subit une @UUID[Compendium.pf2e.other-effects.Item.0r8MznJe5UugViee]{pénalité de circonstances de -4,50 mètres à votre Vitesse au sol} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Éraflure</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 3}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Balancé à travers</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Faites une attaque supplémentaire contre un ennemi adjacent à la cible originelle, en utilisant le même modificateur d'attaque originel.</p>\n</blockquote>\n<p><code>tranchant</code></p>\n<h1>Effet maximum</h1>\n<blockquote>\n<p>Ne lancez pas les dégâts. Vous infligez les dégâts critiques maximum possibles avec cette attaque.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #52": {
+            "name": "Critical Hit Deck #52",
+            "pages": {
+                "Critical Hit Deck #52": {
+                    "name": "Critical Hit Deck #52",
+                    "text": "<section class=\"critical-deck\">\n<h1>Lumière éteinte</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveuglée} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure au biceps</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Spectacle déconcertant</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Explosion rugissante</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourde} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #37": {
+            "name": "Critical Fumble Deck #37",
+            "pages": {
+                "Critical Fumble Deck #37": {
+                    "name": "Critical Fumble Deck #37",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Mieux vaut donner</h1>\n<blockquote>\n<p>Vous vous touchez à la place de la cible.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Problème d'arme</h1>\n<blockquote>\n<p>Si l'attaque utilisé était une arme lançant un projectile, quelque chose sur l'arme a mal fonctionné, vous obligeant à utiliser 2 actions Interagir pour y remédier.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Atchoum</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Ruée de sort</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 1} jusqu'à être soigné.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #15": {
+            "name": "Critical Hit Deck #15",
+            "pages": {
+                "Critical Hit Deck #15": {
+                    "name": "Critical Hit Deck #15",
+                    "text": "<section class=\"critical-deck\">\n<h1>Coup ankylosant</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} pendant 1 minute et doit réussir un jet de @Check[reflex] ou lâcher un objet qu'elle tient de manière aléatoire.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure au torse qui pompe</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Piercing</code></p>\n<h1>Coup par dessus</h1>\n<blockquote>\n<p><strong>Effet critique</strong> @Damage[1d8[bleed]]{1d8 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Contretemps</h1>\n<blockquote>\n<p>Pousse la cible jusqu'à 3 mètres.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #7": {
+            "name": "Critical Hit Deck #7",
+            "pages": {
+                "Critical Hit Deck #7": {
+                    "name": "Critical Hit Deck #7",
+                    "text": "<section class=\"critical-deck\">\n<h1>Sonneur de cloche</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2} et elle est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2} jusqu'à ce qu'elle ne soit plus Nauséeuse.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Embroché</h1>\n<blockquote>\n<p>Triple dégâts.<strong> Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Élan</h1>\n<blockquote>\n<p>Vous obtenez un @UUID[Compendium.pf2e.other-effects.Item.HLBhINtyRcHk6d7h]{bonus de circonstances de +2 aux jets d'attaque} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Pétrifiée</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Pétrifiée} pendant 10 minutes.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #49": {
+            "name": "Critical Hit Deck #49",
+            "pages": {
+                "Critical Hit Deck #49": {
+                    "name": "Critical Hit Deck #49",
+                    "text": "<section class=\"critical-deck\">\n<h1>Coup solide</h1>\n<blockquote>\n<p>Dégâts triplés.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure tenace</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible ne peut pas soigner ces dégâts jusqu'à e qu'elle se soit reposée pendant au moins 8 heures.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Frappe de parade</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Vous obtenez un @UUID[Compendium.pf2e.other-effects.Item.QGTMOcJ1Dq5bk0GG]{Bonus de circonstances de +2 à la CA} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>déphasé</h1>\n<blockquote>\n<p>La cible devient intangible jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #1": {
+            "name": "Critical Fumble Deck #1",
+            "pages": {
+                "Critical Fumble Deck #1": {
+                    "name": "Critical Fumble Deck #1",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Tout était prévu</h1>\n<blockquote>\n<p>Vous êtes déplacé de 3 mètres dans une direction aléatoire (au choix du MJ). Ce déplacement provoque des réactions.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Distance mésestimée</h1>\n<blockquote>\n<p>Jusqu'à la fin de votre prochain tour, toutes vos pénalités de facteur de portée sont doublées.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Pas là où ça fait mal</h1>\n<blockquote>\n<p>Vous subissez @Damage[1d6[bleed]]{1d6 dégâts de saignement} et ne pouvez plus utiliser cette attaque avant la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Qu'est-ce qui s'est passé ?</h1>\n<blockquote>\n<p>Vous invoquez une brume avec les effets de @UUID[Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx]{Nuage nauséabond} centrée sur un angle de votre espace (déterminé au hasard par le MJ).</p>\n</blockquote>\n<p><code>Sort</code></p>\n<p> </p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #19": {
+            "name": "Critical Fumble Deck #19",
+            "pages": {
+                "Critical Fumble Deck #19": {
+                    "name": "Critical Fumble Deck #19",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Attaque maladroite</h1>\n<blockquote><p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.y1GwyXv7iOf8DhBg]{Pris au dépourvu} jusqu'à la fin de votre prochain tour.</p></blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Oeil abimé</h1>\n<blockquote><p>Vous vous touchez de manière critique à la place de votre cible.</p></blockquote>\n<p><code>À distance</code></p>\n<h1>Attaque éreintante</h1>\n<blockquote><p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué}.</p></blockquote>\n<p><code>À mains nues</code></p>\n<h1>Retour acide</h1>\n<blockquote><p>Vous subissez @Damage[2d6[acid]]{2d6 dégâts d'acide}.</p></blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #30": {
+            "name": "Critical Hit Deck #30",
+            "pages": {
+                "Critical Hit Deck #30": {
+                    "name": "Critical Hit Deck #30",
+                    "text": "<section class=\"critical-deck\">\n<h1>À vos bribes de réflexion</h1>\n<blockquote>\n<p><strong>Effet critique.</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Nettoyage en profondeur</h1>\n<blockquote>\n<p>Triple dégâts.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Large ouverture</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Courroux de l'accapareur</h1>\n<blockquote>\n<p>Triple dégâts aux dragons. Dégâts doublés pour toutes les autres créatures.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #36": {
+            "name": "Critical Hit Deck #36",
+            "pages": {
+                "Critical Hit Deck #36": {
+                    "name": "Critical Hit Deck #36",
+                    "text": "<section class=\"critical-deck\">\n<h1>Frapper les oreilles</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourde} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Lanceur de javelot</h1>\n<blockquote>\n<p>Dégâts triplés si l'attaque était une attaque à distance ou de jet. Dégâts doublés pour toutes les autres attaques.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Lèvre coupée</h1>\n<blockquote>\n<p>La cible doit réussir un @Check[flat|dc:5] pour lancer des sorts avec une composante verbale jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Appel de la nature</h1>\n<blockquote>\n<p>Dégâts triplés contre les animaux, les bêtes et les fées. Dégâts doublés contre toutes les autres créatures.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #53": {
+            "name": "Critical Fumble Deck #53",
+            "pages": {
+                "Critical Fumble Deck #53": {
+                    "name": "Critical Fumble Deck #53",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Coup de pied</h1>\n<blockquote>\n<p>Votre arme s'envole à [[/r 1d4*5]]{1d4 x 5 mètres} dans une direction aléatoire [[/r 1d8#1 égal au Nord, dans le sens des aiguilles d'une montre]] (déterminé par le MJ).</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Tellement de sang</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 3}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Déplacement involontaire</h1>\n<blockquote>\n<p>Vous êtes déplacé de 3 mètres dans une direction aléatoire [[/r 1d8#1 égal au Nord, dans le sens des aiguilles d'une montre]] (déterminé par le MJ). Ce déplacement déclenche les réactions.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>C'est si brillant !</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveugle} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #48": {
+            "name": "Critical Hit Deck #48",
+            "pages": {
+                "Critical Hit Deck #48": {
+                    "name": "Critical Hit Deck #48",
+                    "text": "<section class=\"critical-deck\">\n<h1>Terre ébranlée</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible et chaque ennemi qui lui est adjacent doit réussir un jet de @Check[reflex] ou tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>Contondant</code></p>Wild Surge\n<h1>Point vulnérable</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Enchainement du bouclier</h1>\n<blockquote>\n<p>Inflige des dégâts normaux au bouclier de la cible (en appliquant normalamene tla Solidité).</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Déferlement sauvage</h1>\n<blockquote>\n<p>Dégâts normaux puis de nouveau les dégâts normaux d'un type d'énergie aléatoire (Lancez [[/r 1d4#1-acide, 2-froid, 3-feu, 4-électricité]]{1d4} 1-acide, 2-froid, 3-feu, 4-électricité).</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #51": {
+            "name": "Critical Fumble Deck #51",
+            "pages": {
+                "Critical Fumble Deck #51": {
+                    "name": "Critical Fumble Deck #51",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Brouillard de guerre</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.uwYGEeqvt8pwjhXa]{Ébloui} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Oeil de boeuf</h1>\n<blockquote>\n<p>Votre attaque ricoche et vous touche près de l'oeil. Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveugle} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Doigt coincé</h1>\n<blockquote>\n<p>Vous touchez la cible, mais lui infligez seulement le minimum de dégâts pour l'attaque mais vous subissez ses dégâts normaux.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Peur de tout</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 3}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #16": {
+            "name": "Critical Fumble Deck #16",
+            "pages": {
+                "Critical Fumble Deck #16": {
+                    "name": "Critical Fumble Deck #16",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Jeter</h1>\n<blockquote>\n<p>Vous lâchez l'arme que vous avez utilisée après l'attaque. Elle tombe [[/r 1d6*5]]{1d6 cases} de distance dans une direction aléatoire. Lancez [[/r 1d8]].</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Ruée vers l'avant</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 2}</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Extension excessive</h1>\n<blockquote>\n<p>Vous déclenchez les réactions comme si vous aviez utilisé une action de déplacement.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Reflet</h1>\n<blockquote>\n<p>Le sort vous touche à la place de la cible.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #29": {
+            "name": "Critical Hit Deck #29",
+            "pages": {
+                "Critical Hit Deck #29": {
+                    "name": "Critical Hit Deck #29",
+                    "text": "<section class=\"critical-deck\">\n<h1>Crâne défoncé</h1>\n<blockquote>\n<p>Dégâts triplés.<strong> Effet critique :</strong> La cible doit réussir un jet de @Check[fortitude] ou mourir.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Surréaction</h1>\n<blockquote>\n<p>Dégâts normaux. La cible déclenche les réactions comme si elle avait juste utilisé une action de déplacement. Elle est aussi @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Papier coupé</h1>\n<blockquote>\n<p>La cible subit une @UUID[Compendium.pf2e.other-effects.Item.5gX3PZztMecmWxX9]{pénalité de circonstances de -2 aux jets d'attaque} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Sélection non naturelle</h1>\n<blockquote>\n<p>Dégâts triplés contre les aberrations, les célestes, les fiélons et les veilleurs. Dégâts doublés contre toutes les autres créatures.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #35": {
+            "name": "Critical Fumble Deck #35",
+            "pages": {
+                "Critical Fumble Deck #35": {
+                    "name": "Critical Fumble Deck #35",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Cogné</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 2}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Tir dans le pied</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Nauséeux 2} et subissez une @UUID[Compendium.pf2e.other-effects.Item.RcMZr0wSjrir1AnS]{pénalité de -1,50 mètre à votre Vitesse}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Surmenage</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Effet secondaire</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1}. Vous êtes aussi @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 2} jusqu'à ce que vous soyez soigné.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #9": {
+            "name": "Critical Hit Deck #9",
+            "pages": {
+                "Critical Hit Deck #9": {
+                    "name": "Critical Hit Deck #9",
+                    "text": "<section class=\"critical-deck\">\n<h1>Élan</h1>\n<blockquote>\n<p>Vous obtenez un @UUID[Compendium.pf2e.other-effects.Item.HLBhINtyRcHk6d7h]{Bonus de circonstances de +2} aux jets d'attaque jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Retour de manivelle</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Enchevêtrer</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Vous pouvez tenter de @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} la cible par une action gratuite. Vous utilisez la même pénalité d'attaques multiples que votre attaque et elle n'est pas comptabilisée pour établir la pénalité d'attaques multiples.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Jolies couleurs</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #40": {
+            "name": "Critical Hit Deck #40",
+            "pages": {
+                "Critical Hit Deck #40": {
+                    "name": "Critical Hit Deck #40",
+                    "text": "<section class=\"critical-deck\">\n<h1>À bout de souffle</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Tourne autour</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Main coupée</h1>\n<blockquote>\n<p>Dégâts normaux. Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et ne peut utiliser une de ses mains (déterminée de manière aléatoire par le MJ).</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Combustion</h1>\n<blockquote>\n<p>Si c'est une bombe de feu ou sort, la cible subit le triple des dégâts et @Damage[1d6[persistent,fire]]{1d6 dégâts de feu persistants}. Toute autre bombe ou sort inflige le double des dégâts.</p>\n</blockquote>\n<p><code>Bombe ou sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #4": {
+            "name": "Critical Hit Deck #4",
+            "pages": {
+                "Critical Hit Deck #4": {
+                    "name": "Critical Hit Deck #4",
+                    "text": "<section class=\"critical-deck\">\n<h1>Côte fêlée</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Élan</h1>\n<blockquote>\n<p>Vous obtenez un @UUID[Compendium.pf2e.other-effects.Item.HLBhINtyRcHk6d7h]{Bonus de circonstances de +2 aux jets d'attaque} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Sanglant</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1}.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Étourdi</h1>\n<blockquote>\n<p>Dégâts normaux. La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #17": {
+            "name": "Critical Fumble Deck #17",
+            "pages": {
+                "Critical Fumble Deck #17": {
+                    "name": "Critical Fumble Deck #17",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Muscle étiré</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 2}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Attaque maladroite</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Mord ta langue !</h1>\n<blockquote>\n<p>Vous subissez @Damage[1[bleed]]{1 dégât de saignement}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Combustion spontanée</h1>\n<blockquote>\n<p>Vous subissez @Damage[2d6[fire]]{2d6 dégâts de feu}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #9": {
+            "name": "Critical Fumble Deck #9",
+            "pages": {
+                "Critical Fumble Deck #9": {
+                    "name": "Critical Fumble Deck #9",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Attaquer l'obscurité</h1>\n<blockquote>\n<p>Vos ennemis sont @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqués} à vos yeux jussqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>corps-à-corps</code></p>\n<h1>Vise soigneusement la prochaine fois</h1>\n<blockquote>\n<p>Jusqu'à la fin de votre prochain tour, vos attaques nécessitent une action supplémentaire pour être utilisées.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Collision brutale</h1>\n<blockquote>\n<p>tentez un jet de @Check[fortitude]. Si c'est un succès, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1}. Si c'est un échec, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 2}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Transfert de puissance</h1>\n<blockquote>\n<p>Le sort dont vous bénéficiez du plus haut rang qui vous affecte actuellement est transféré à votre cible.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #28": {
+            "name": "Critical Hit Deck #28",
+            "pages": {
+                "Critical Hit Deck #28": {
+                    "name": "Critical Hit Deck #28",
+                    "text": "<section class=\"critical-deck\">\n<h1>Crâne écrasé</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 3} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure à la main</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et ne peut utiliser une de ses mains (determinée aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Coup large</h1>\n<blockquote>\n<p>La cible subit @Damage[1d4[bleed]]{1d4 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Dégâts continus</h1>\n<blockquote>\n<p>La cible subit @Damage[1d4[persistent]]{1d4 dégâts persistants} du même type que les dégâts de la bombe ou du sort.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #21": {
+            "name": "Critical Fumble Deck #21",
+            "pages": {
+                "Critical Fumble Deck #21": {
+                    "name": "Critical Fumble Deck #21",
+                    "text": "<section class=\"fumble-deck\"><h1>Retour de bâton</h1><blockquote><p>Vous vous infligez les dégâts normaux de l'attaque au lieu de les infliger à la cible.</p></blockquote><p><code>Corps-à-corps</code></p><h1>Large ouverture</h1><blockquote><p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.y1GwyXv7iOf8DhBg]{Pris au dépourvu} jusqu'à la fin de votre prochain tour.</p></blockquote><p><code>À distance</code></p><h1>Mis à terre</h1><blockquote><p>Vous tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p></blockquote><p><code>À mains nues</code></p><h1>Enchevêtré dans votre équipement</h1><blockquote><p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Surchargé} jusqu'à ce que vous passiez 2 actions Interagir pour vous libérer.</p></blockquote><p><code>Sort</code></p></section>"
+                }
+            }
+        },
+        "Critical Hit Deck #16": {
+            "name": "Critical Hit Deck #16",
+            "pages": {
+                "Critical Hit Deck #16": {
+                    "name": "Critical Hit Deck #16",
+                    "text": "<section class=\"critical-deck\">\n<h1>Deux pour une</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Inflige des dégâts normaux à une cible adjacente à la cible originelle.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Bras cloué</h1>\n<blockquote>\n<p>Comme avec l'effet critique de l'arc et la cible ne peut utiliser un de ses bras jusqu'à ce qu'il soit libéré. S'il utilise une arme au corps-à-corps, vous devez la lachez pour obtenir cet effet.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>sangles coupées</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La pénalité au test d'armure de la cible jusqu'à ce que l'armure soit Réparée (DD 15).</p>\n</blockquote>\n<p><code>tranchant</code></p>\n<h1>Électrocutée</h1>\n<blockquote>\n<p>Si c'est un sort ou une bombe d'électricité, la cible subit le double des dégâts et au début de son prochain tour, elle subit des dégâts normaux. Tout autre bombe ou sort inflige le double des dégâts.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #45": {
+            "name": "Critical Hit Deck #45",
+            "pages": {
+                "Critical Hit Deck #45": {
+                    "name": "Critical Hit Deck #45",
+                    "text": "<section class=\"critical-deck\">\n<h1>Coup bas</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2} et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} tant qu'elle reste Nauséeuse.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Boitillant</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et subit une @UUID[Compendium.pf2e.other-effects.Item.ScZGg91ri19H4IIc]{pénalité de circonstances de -3 mètres à toutes ses Vitesses}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Mauvaise parade</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible doit réussir un jet de @Check[reflex] ou lâcher une arme qu'elle tient (déterminée aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Faille planaire</h1>\n<blockquote>\n<p>Si c'est un sort, la cible subit des dégâts normaux et doit réussir un jet de @Check[will] ou être envoyée sur un Plan aléatoire (déterminé par le MJ).</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #6": {
+            "name": "Critical Hit Deck #6",
+            "pages": {
+                "Critical Hit Deck #6": {
+                    "name": "Critical Hit Deck #6",
+                    "text": "<section class=\"critical-deck\">\n<h1>Genou pêté</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et subit une @UUID[Compendium.pf2e.other-effects.Item.HTwG0F0LDu5ihBUm]{pénalité de statut de -1,50 mètre à sa Vitesse au sol}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Coup au mollet</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et subit une @UUID[Compendium.pf2e.other-effects.Item.zDV1wo2ytNTbyTB0]{pénalité de -3 mètres à sa Vitesse au sol}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Sale blessure</h1>\n<blockquote>\n<p>La cible subit une pénalité de circonstances de -2 aux tests avec toutes les compétences basées sur le Charisme sauf l'Intimidation.</p>\n</blockquote>\n<p><code>tranchant</code></p>\n<h1>Maintenant vous me voyez...</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} jusqu'à la fin de votre prochain tour ou jusqu'à ce que vous utilisez une action hostile.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #23": {
+            "name": "Critical Hit Deck #23",
+            "pages": {
+                "Critical Hit Deck #23": {
+                    "name": "Critical Hit Deck #23",
+                    "text": "<section class=\"critical-deck\">\n<h1>Frappe écrasante</h1>\n<blockquote>\n<p>Dégâts triplés.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Artère touchée</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible subit @Damage[2d6[bleed]]{2d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Attention à tes initiales</h1>\n<blockquote>\n<p>Dégâts Normaux. La cible est si humiliée qu'elle ne peut rien faire sauf vous attaquer. À la fin de chacun de ses tours, il peut tenter un jet de @Check[will] pour mettre fin à cet effet.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Distraction</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #30": {
+            "name": "Critical Fumble Deck #30",
+            "pages": {
+                "Critical Fumble Deck #30": {
+                    "name": "Critical Fumble Deck #30",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Sacré mauvais calcul</h1>\n<blockquote>\n<p>Vous vous infligez des déâts critiques avec votre attaque.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Oubli du recul</h1>\n<blockquote>\n<p>Vous tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Pas d'ouverture</h1>\n<blockquote>\n<p>Vous ne pouvez pas utiliser cette attaque jusq'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Tirer à blanc</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 1}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #31": {
+            "name": "Critical Fumble Deck #31",
+            "pages": {
+                "Critical Fumble Deck #31": {
+                    "name": "Critical Fumble Deck #31",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Coincé</h1>\n<blockquote>\n<p>Votre arme s'est logéée dans une surface ou un objet à proximité. Pour la libérer,vous devez obtenir un succès à un test d'@Check[athletics|dc:20|name:Déloger l'arme] et une action Interagir.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Coude de l'archer</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous subissez une pénalité de circonstances de -2 aux attaques à distance.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Déséquilibrée</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 2} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Bouclier de sort</h1>\n<blockquote>\n<p>La cible obtient un @UUID[Compendium.pf2e.other-effects.Item.PaS2kwv4vueI4PC7]{Bonus de statut de +2 aux jets de sauvegarde contre les sorts} pendant 1 minute.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #41": {
+            "name": "Critical Fumble Deck #41",
+            "pages": {
+                "Critical Fumble Deck #41": {
+                    "name": "Critical Fumble Deck #41",
+                    "text": "<section class=\"fumble-deck\"><h1>Tout ou rien</h1><blockquote><p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.fqk0ESqJACXqz21k]{pénalité de circonstances de -1aux jets d'attaque} jusqu'à obtenir un coup critique.</p></blockquote><p><code>Corps-à-corps</code></p><h1>Près de l'oreille</h1><blockquote><p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.W2OF7VeLHqc7p3DO]{Sourd} jusqu'à la fin de votre prochain tour.</p></blockquote><p><code>À distance</code></p><h1>Épingles et aiguilles</h1><blockquote><p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 3}.</p></blockquote><p><code>À mains nues</code></p><h1>Pourquoi moi ?</h1><blockquote><p>Vous provoquez les réactions comme si vous aviez utilisé une action de déplacement.</p></blockquote><p><code>Sort</code></p></section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #13": {
+            "name": "Critical Fumble Deck #13",
+            "pages": {
+                "Critical Fumble Deck #13": {
+                    "name": "Critical Fumble Deck #13",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Doigts glissants</h1>\n<blockquote>\n<p>Vous lachez l'arme avec laquelle vous avez porté l'attaque.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Corde coupée</h1>\n<blockquote>\n<p>Si l'attaque a utilisé une arme dans le groupe des arcs, la corde est coupée, ce qui nécessite 3 actions Interagir pour y remédier.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Muscle froissé</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Fatigue magique</h1>\n<blockquote>\n<p>Vous ne pouvez lancer aucun sort jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #34": {
+            "name": "Critical Hit Deck #34",
+            "pages": {
+                "Critical Hit Deck #34": {
+                    "name": "Critical Hit Deck #34",
+                    "text": "<section class=\"critical-deck\">\n<h1>Coup à faire tituber</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Tir en plein cœur</h1>\n<blockquote>\n<p>Dégâts triplés.<strong> Effet critique</strong> La cible subit @Damage[1d4[bleed]]{1d4 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Coupure à la jambe</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Démonstration terrifiante</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #44": {
+            "name": "Critical Hit Deck #44",
+            "pages": {
+                "Critical Hit Deck #44": {
+                    "name": "Critical Hit Deck #44",
+                    "text": "<section class=\"critical-deck\">\n<h1>Contretemps</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est repoussée de [[/r 1d4*1,5#mètres]]{1d4 x 1,50 mètre}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Impact profond</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Entrailles tranchées</h1>\n<blockquote>\n<p>La cible subit @Damage[1d4[bleed]]{1d4 dégâts de saignement} et toute créature qu'elle a Gobé est immédiatement libérée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Éclaboussure intense</h1>\n<blockquote>\n<p>La cible subit des dégâts normaux et toutes les créatures adjacentes à la cible subissent la moitié des dégâts du même type.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #51": {
+            "name": "Critical Hit Deck #51",
+            "pages": {
+                "Critical Hit Deck #51": {
+                    "name": "Critical Hit Deck #51",
+                    "text": "<section class=\"critical-deck\">\n<h1>Pied écrasé</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Organes en désordre</h1>\n<blockquote>\n<p>Dégâts triplés.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Aile déchirée</h1>\n<blockquote>\n<p>La cible perd toute Vitesse de vol jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Puissance énergétique</h1>\n<blockquote>\n<p>Si la bombe ou le sort inflige des dégâts d'acide, de froid, d'électricité, de feu ou de son, il inflige des dégâts triplés. Toutes les autres bombes ou sorts infligent des dégâts doublés.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #2": {
+            "name": "Critical Fumble Deck #2",
+            "pages": {
+                "Critical Fumble Deck #2": {
+                    "name": "Critical Fumble Deck #2",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Du mauvais côté</h1>\n<blockquote>\n<p>Si vous utilisez une arme tranchante, vous subissez @Damage[1d6[slashing]]{1d6 dégâts tranchants} et 1 dégât de saignement.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Vent imaginaire</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.wVGSlZEGxsg1s8AZ]{pénalité de circonstances de -2 aux jets d'attaque à distance} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code></code>À distance</code></p>\n<h1>Tu réfléchis trop !</h1>\n<blockquote>\n<p>Votre cible obtient un bonus de circonstances de +2 à la CA contre toutes les attaques émanant de vous jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Plus de jus</h1>\n<blockquote>\n<p>Jusqu'à guérison, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 2}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n<p> </p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #26": {
+            "name": "Critical Fumble Deck #26",
+            "pages": {
+                "Critical Fumble Deck #26": {
+                    "name": "Critical Fumble Deck #26",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Je t'ai dit que ça coupe !</h1>\n<blockquote>\n<p>Vous subissez @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Empoté</h1>\n<blockquote>\n<p>Vous faites tomber l'arme que vous avez utilisée.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Cesse de te frapper</h1>\n<blockquote>\n<p>Vous vous touchez à la place de la cible.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Pas moi, t'es fou !</h1>\n<blockquote>\n<p>Vous touchez l'allié le plus proche de la cible.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #38": {
+            "name": "Critical Fumble Deck #38",
+            "pages": {
+                "Critical Fumble Deck #38": {
+                    "name": "Critical Fumble Deck #38",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Sonner sa propre cloche</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourd}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Garde baissée</h1>\n<blockquote>\n<p>Vous provoquez des réactions comme si vous vous aviez utilisé une action de déplacement.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Échec féroce</h1>\n<blockquote>\n<p>Vous touchez de manière critique un allié dans votre allonge (déterminé aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>La magie est partie</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.fqk0ESqJACXqz21k]{pénalité de circonstances de -1 aux jets d'attaque jusqu'à ce que vous obteniez un coup critique}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #43": {
+            "name": "Critical Hit Deck #43",
+            "pages": {
+                "Critical Hit Deck #43": {
+                    "name": "Critical Hit Deck #43",
+                    "text": "<section class=\"critical-deck\">\n<h1>Mes dents !</h1>\n<blockquote>\n<p>La cible doit réussir un @Check[flat|dc:5] pour lancer des sorts avec la composante verbale jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Jaillissement</h1>\n<blockquote>\n<p>La cible subit @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Coupure terrible</h1>\n<blockquote>\n<p>Triple dégâts.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Douleur insoutenable</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #47": {
+            "name": "Critical Fumble Deck #47",
+            "pages": {
+                "Critical Fumble Deck #47": {
+                    "name": "Critical Fumble Deck #47",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Décision paralysante</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Tendon déchiré</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Piqûre piquante</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous subissez une @UUID[Compendium.pf2e.other-effects.Item.i5WccD9u62QPRZI8]{pénalité de circonstances de -2 aux jets d'attaque avec cette attaque jusqu'à ce que vous soyez soigné}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Maudit</h1>\n<blockquote>\n<p>Vous avez @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamné 1}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #22": {
+            "name": "Critical Hit Deck #22",
+            "pages": {
+                "Critical Hit Deck #22": {
+                    "name": "Critical Hit Deck #22",
+                    "text": "<section class=\"critical-deck\">\n<h1>Presse os</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique</strong> Soit la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et subit une @UUID[Compendium.pf2e.other-effects.Item.zDV1wo2ytNTbyTB0]{pénalité de statut de -3 mètres à votre Vitesse au sol} ou est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et ne peut utiliser une de ses bras (à votre choix). L'un ou l'autre de l'effet dure jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Poumon percé</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est Suffoquante jusqu'à ce qu'elle soit sujette aux soins magiques.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Douleur et Simple</h1>\n<blockquote>\n<p>Triple dégâts.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Lien hypnotique</h1>\n<blockquote>\n<p>Si c'est un sort, la cible subit des dégâts normaux et elle est @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Contrôlée} par vous jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #3": {
+            "name": "Critical Fumble Deck #3",
+            "pages": {
+                "Critical Fumble Deck #3": {
+                    "name": "Critical Fumble Deck #3",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Mauvaise chute</h1>\n<blockquote>\n<p>Vous tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Foulure lors du tir</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous subissez une @UUID[Compendium.pf2e.other-effects.Item.NU5wAbJLZO6T86eB]{pénalité de circonstances de -3 mètres à votre Vitesse} et êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Mauvaise surprise</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 2}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Crâne explosant</h1>\n<blockquote>\n<p>Vous devez tenter un jet de @Check[fortitude]. En cas de succès, vous subissez @Damage[3d6[mental]]{3d6 dégâts mentaux}. <strong>En cas d'échec, votre tête explose et vous mourrez.</strong></p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #7": {
+            "name": "Critical Fumble Deck #7",
+            "pages": {
+                "Critical Fumble Deck #7": {
+                    "name": "Critical Fumble Deck #7",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Vibration</h1>\n<blockquote>Si vous utilisez une arme contondante, vous lâchez cette arme et êtes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 2} jusqu'à ce que vous soyez soigné.</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Entortillé</h1>\n<blockquote>Vous êtes poussé en arrière de 1,50 mètre et tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</blockquote>\n<p><code>À distance</code></p>\n<h1>Pied perforé</h1>\n<blockquote>Vous subissez @Damage[1d4[bleed]]{1d4 dégâts de saignement}. Jusqu'à ce que cet effet se termine, vous subissez une @UUID[Compendium.pf2e.other-effects.Item.NU5wAbJLZO6T86eB]{pénalité de circonstances de -3 mètres à votre Vitesse}.</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Retour de flammes mental</h1>\n<blockquote>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 3}.</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #39": {
+            "name": "Critical Hit Deck #39",
+            "pages": {
+                "Critical Hit Deck #39": {
+                    "name": "Critical Hit Deck #39",
+                    "text": "<section class=\"critical-deck\">\n<h1>Coup briseur d'âme</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnée 1} et est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1} tant qu'elle est Condamnée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Repousser</h1>\n<blockquote>\n<p>La cible est repoussée de 3 mètres.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Dégâts à l'armure</h1>\n<blockquote>\n<p>L'armure de la cible subit aussi les dégâts (en appliquant la Solidité de l'armure normalament).</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Frappe drainante</h1>\n<blockquote>\n<p>La cible perd un sort préparé aléatoire ou un emplacement de sort, déterminé par le MJ.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #39": {
+            "name": "Critical Fumble Deck #39",
+            "pages": {
+                "Critical Fumble Deck #39": {
+                    "name": "Critical Fumble Deck #39",
+                    "text": "<section class=\"fumble-deck\">\n<h1>À la réception</h1>\n<blockquote>\n<p>Vous vous infligez des dégâts au lieu de la cible.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Dans la ligne de feu</h1>\n<blockquote>\n<p>Vous portez un coup critique à votre plus proche allié.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Tête, rencontre mur</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Tu m'entends maintenant ?</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourd}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #20": {
+            "name": "Critical Fumble Deck #20",
+            "pages": {
+                "Critical Fumble Deck #20": {
+                    "name": "Critical Fumble Deck #20",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Cette épée est lourde</h1>\n<blockquote><p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué}.</p></blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Visée erratique</h1>\n<blockquote><p>Relancez le jet d'attaque, en ciblant la créature la plus proche de la cible (à l'exclusion de vous-même).</p></blockquote>\n<p><code>À distance</code></p><h1>Attaque maladroite</h1>\n<blockquote><p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.y1GwyXv7iOf8DhBg]{Pris au dépourvu} jusqu'à votre prochain tour.</p></blockquote>\n<p><code>À mains nues</code></p>\n<h1>Yeux qui saignent</h1>\n<blockquote><p>Vous subissez @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p></blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #19": {
+            "name": "Critical Hit Deck #19",
+            "pages": {
+                "Critical Hit Deck #19": {
+                    "name": "Critical Hit Deck #19",
+                    "text": "<section class=\"critical-deck\">\n<h1>La nuit porte conseil</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} et ne peut être réveillée avant la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Coup douloureux</h1>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Cela va laisser une marque !</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible subit @Damage[2d6[bleed]]{2d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Frappe dévastatrice</h1>\n<blockquote>\n<p>Dégâts triplés. La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #10": {
+            "name": "Critical Hit Deck #10",
+            "pages": {
+                "Critical Hit Deck #10": {
+                    "name": "Critical Hit Deck #10",
+                    "text": "<section class=\"critical-deck\">\n<h1>Je vois les étoiles</h1>\n<blockquote>\n<p>Dégâts normaux. <strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'à ce qu'il soit soigné.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Trou d'épingle</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible subit @Damage[1[bleed]]{1 dégât de saignement} qui ne peut être ôté jusqu'à ce que la cible soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Éventrer</h1>\n<blockquote>\n<p>Triple dégâts.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Conduit</h1>\n<blockquote>\n<p>La cible subit une pénalité de statut de -2 à la CA et aux jets contre vos bombes ou vos sorts jusqu'à la fin de votre prochain round.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #52": {
+            "name": "Critical Fumble Deck #52",
+            "pages": {
+                "Critical Fumble Deck #52": {
+                    "name": "Critical Fumble Deck #52",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Vise les yeux</h1>\n<blockquote><p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.uwYGEeqvt8pwjhXa]{Ébloui jusqu'à la fin de votre prochain tour}.</p></blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Pincer un doigt</h1>\n<blockquote><p>Vous subissez @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p></blockquote>\n<p><code>À distance</code></p>\n<h1>Vents du changement</h1>\n<blockquote><p>Vous ne pouvez plus attaquer la même cible jusqu'à la fin de votre prochain tour.</p></blockquote>\n<p><code>À mains nues</code></p>\n<h1>Maintenant que je te vois...</h1>\n<blockquote><p>Votre cible est @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} jusqu'à la fin de son prochain tour ou qu'elle utilise une action hostile.</p></blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #34": {
+            "name": "Critical Fumble Deck #34",
+            "pages": {
+                "Critical Fumble Deck #34": {
+                    "name": "Critical Fumble Deck #34",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Arme enchevêtrée</h1>\n<blockquote>\n<p>Vous ne pouvez plus utiliser cette arme pour attaquer avant la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Échec magnifique</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Contusion osseuse</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessé 1} ou la valeur de votre état Blessé augmente de 1.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Vous les rendez plus gros</h1>\n<blockquote>\n<p>La cible augmente en taille avec les effets d'un sort @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Agrandissement} au rang 2. @UUID[Compendium.pf2e.spell-effects.Item.sPCWrhUHqlbGhYSD]{Effet : Agrandissement}</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #27": {
+            "name": "Critical Fumble Deck #27",
+            "pages": {
+                "Critical Fumble Deck #27": {
+                    "name": "Critical Fumble Deck #27",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Piqûre d'épingle</h1>\n<blockquote>\n<p>Vous subissez [[/r 1[bleed]]]{1 dégât de saignement}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Munitions renversées</h1>\n<blockquote>\n<p>La munition de l'arme que vous utilisez tombe de son contenant sur le sol. Vous pouvez passer 1 action Interagir pour ramasser une munition renversée de cette manière.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Juste pour gôuter</h1>\n<blockquote>\n<p>Vous touchez un allié qui vous est adjacent ou adjacent à la cible.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Sort fatiguant</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #4": {
+            "name": "Critical Fumble Deck #4",
+            "pages": {
+                "Critical Fumble Deck #4": {
+                    "name": "Critical Fumble Deck #4",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Attendez, quoi ?</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confus}</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Ne me tire pas dessus !</h1>\n<blockquote>\n<p>Jusqu'à la fin de votre prochain tour, chaque fois que vous ratez une attaque à distance ciblant un ennemi adjacent à l'un de vos alliés, vous touchez l'un de ces alliés adjacents à la place (déterminé aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Nerf pincé</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous subissez une @UUID[Compendium.pf2e.other-effects.Item.NU5wAbJLZO6T86eB]{pénalité de circonstances de -3 mètres à votre Vitesse} et êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Dérapage mental</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Contrôlé} par la cible jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #25": {
+            "name": "Critical Fumble Deck #25",
+            "pages": {
+                "Critical Fumble Deck #25": {
+                    "name": "Critical Fumble Deck #25",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Balancement tournoyant</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 2}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Entaillé</h1>\n<blockquote>\n<p>Vous subissez [[/r 1[bleed]]]{1 dégât de saignement}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Emmêlé</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Surchargé} jusqu'à ce que vous passiez 2 actions Interagir à vous libérer.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Mouvement de débutant</h1>\n<blockquote>\n<p>Relancez le jet d'attaque, en ciblant la créature la plus proche de la cible (à l'exclusion de vous-même).</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #53": {
+            "name": "Critical Hit Deck #53",
+            "pages": {
+                "Critical Hit Deck #53": {
+                    "name": "Critical Hit Deck #53",
+                    "text": "<section class=\"critical-deck\">\n<h1>Coup circulaire</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Portez une attaque supplémentaire contre un ennemi adjacent à la cible originelle en utilisant le même modificateur que l'attaque originelle.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Sale blessure</h1>\n<blockquote>\n<p>La cible subit @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Blessure retardée</h1>\n<blockquote>\n<p>Dégâts normaux <strong>Effet critique</strong> La cible subit le même nombre de dégâts à la fin de ses deux prochains tours.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Effet de souffle</h1>\n<blockquote>\n<p>La cible est repoussée de 3 mètres et tombe @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>Bombe ou sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #2": {
+            "name": "Critical Hit Deck #2",
+            "pages": {
+                "Critical Hit Deck #2": {
+                    "name": "Critical Hit Deck #2",
+                    "text": "<section class=\"critical-deck\">\n<h1>Où suis-je ?</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Ouverture surprise</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Vous obtenez 1 action que vous pouvez utiliser avant la fin de votre tour pour utiliser une action d'attaque contre la cible.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Oreille manquante</h1>\n<blockquote>\n<p>Dégâts normaux. La cible subit une pénalité de circonstances de -2 aux tests de Perception et aux tests basés sur le Charisme sauf à l'Intimidation jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Slashing</code></p>\n<h1>Nuage spirituel</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #14": {
+            "name": "Critical Fumble Deck #14",
+            "pages": {
+                "Critical Fumble Deck #14": {
+                    "name": "Critical Fumble Deck #14",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Écrasé</h1>\n<blockquote>\n<p>Votre arme subit @Damage[1d6]{1d6} dégâts, ignorant la Solidité.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Doigts écrasés</h1>\n<blockquote>\n<p>Vous subissez @Damage[1d4[bleed]]{1d4 dégâts de saignement}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Touche le mur</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Retour électrique</h1>\n<blockquote>\n<p>Vous subissez @Damage[2d6[electricity]]{2d6 dégâts d'électricité}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #46": {
+            "name": "Critical Hit Deck #46",
+            "pages": {
+                "Critical Hit Deck #46": {
+                    "name": "Critical Hit Deck #46",
+                    "text": "<section class=\"critical-deck\">\n<h1>Tibia cassé</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et subit une @UUID[Compendium.pf2e.other-effects.Item.zDV1wo2ytNTbyTB0]{pénalité de statut de -3 mètres à sa vitesse au sol}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Frappe parfaite</h1>\n<blockquote>\n<p>Dégâts triplés.</p>\n</blockquote>\n<p><code>Perforante</code></p>\n<h1>Entaille minante</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Explosion lumineuse</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveugle} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #32": {
+            "name": "Critical Fumble Deck #32",
+            "pages": {
+                "Critical Fumble Deck #32": {
+                    "name": "Critical Fumble Deck #32",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Plié</h1>\n<blockquote>\n<p>Les Points de vie actuels de votre arme son réduit à son Seuil de rupture. Si elle est déjà cassée, l'arme subit [[/r 3d6]]{3d6 dégâts}, en ignorant sa Solidité.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Manqué deux fois</h1>\n<blockquote>\n<p>Si cette attaque utilise des munitions, vous utilisez deux fois le montant de munition sur cette attaque.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>A attrapé votre attaque</h1>\n<blockquote>\n<p>Cette attaque accorde et déclenche une réaction de votre ennemi pour réaliser un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} ou @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Laisser vidé</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #11": {
+            "name": "Critical Hit Deck #11",
+            "pages": {
+                "Critical Hit Deck #11": {
+                    "name": "Critical Hit Deck #11",
+                    "text": "<section class=\"critical-deck\">\n<h1>Nez brisé</h1>\n<blockquote>\n<p>La cible subit @Damage[1d4[bleed]]{1d4 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Deux d'affilée</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Inflige des dégâts normaux à une cible supplémentaire adjacente à la cible originelle.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Frappe sur l'arme</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Inflige des dégâts normaux à l'une des armes de la cible (en appliquant normalement la Solidité).</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Atteinte nerveuse</h1>\n<blockquote>\n<p>Dégâts normaux. La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #24": {
+            "name": "Critical Fumble Deck #24",
+            "pages": {
+                "Critical Fumble Deck #24": {
+                    "name": "Critical Fumble Deck #24",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Trop de trucs !</h1>\n<blockquote>\n<p>Vous vous enchevêtrez dans votre équipement et êtes @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Surchargé} jusqu'à ce que vous passiez 2 actions Interagir pour vous libérer.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Entorse</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Poing sanguinolent</h1>\n<blockquote>\n<p>Vous subissez @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Vertige</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 2}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #12": {
+            "name": "Critical Fumble Deck #12",
+            "pages": {
+                "Critical Fumble Deck #12": {
+                    "name": "Critical Fumble Deck #12",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Réflexions secondaires</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3}</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Mélange des genres</h1>\n<blockquote>\n<p>Vous ne pouvez pas porter d'attaque à distance jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Envie</h1>\n<blockquote>\n<p>Si vous avez porté une attaque avec une griffe ou un poing, vous ne pouvez pas utiliser cette attaque jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Vide magique</h1>\n<blockquote>\n<p>Les effets de tous les sorts qui vous accordent un bénéfice se termine immédiatement.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #38": {
+            "name": "Critical Hit Deck #38",
+            "pages": {
+                "Critical Hit Deck #38": {
+                    "name": "Critical Hit Deck #38",
+                    "text": "<section class=\"critical-deck\">\n<h1>Déformation de l'armure</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique</strong> Inflige le même montant de dégâts pour l'armure de la cible, en ignorant la Solidité de l'armure.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Cache œil pour toi</h1>\n<blockquote>\n<p>Triple dégâts.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Coup du plat de la lame</h1>\n<blockquote>\n<p>Triple dégâts. Vous pouvez infliger des dégâts contondants au lieu de dégâts tranchants.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Brillance magique</h1>\n<blockquote>\n<p>La cible brille pendant 1 minute avec l'effet du sort @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Lumière révélatrice}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #37": {
+            "name": "Critical Hit Deck #37",
+            "pages": {
+                "Critical Hit Deck #37": {
+                    "name": "Critical Hit Deck #37",
+                    "text": "<section class=\"critical-deck\">\n<h1>Commotion cérébrale</h1>\n<blockquote>\n<p>Dégâts normaux. La cible est @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 minute et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Infection</h1>\n<blockquote>\n<p>La cible doit réussir un jet de @Check[fortitude] ou contracter la fièvre de la fange.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Écorcher</h1>\n<blockquote>\n<p>Dégâts normaux. La cible est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 3} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Corrosif</h1>\n<blockquote>\n<p>S'il s'agit d'une bombe ou d'un sort d'acide, la cible subit des dégâts triplés et @Damage[1d6[persistent,acid]]{1d6 dégâts d'acide persistants}. Toute autre bombe ou sort voit ses dégâts doublés.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #47": {
+            "name": "Critical Hit Deck #47",
+            "pages": {
+                "Critical Hit Deck #47": {
+                    "name": "Critical Hit Deck #47",
+                    "text": "<section class=\"critical-deck\">\n<h1>Casseur de dos</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure profonde</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Coupure au sourcil</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible subit @Damage[1d4[bleed]]{1d4 dégâts de saignement}. Jusqu'à ce qu'il soit mis fin au sagnement, toutes les créatures sont @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} pour la cible.</p>\n</blockquote>\n<p><code>Slashing</code></p>\n<h1>Contrecarrer le mystique</h1>\n<blockquote>\n<p>La cible ne peut activber les objets magiques, Lancer des sorts ou utiliser Alchimie rapide jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #8": {
+            "name": "Critical Fumble Deck #8",
+            "pages": {
+                "Critical Fumble Deck #8": {
+                    "name": "Critical Fumble Deck #8",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Qui c'était ?</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Voir double</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblui} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Dent cassée</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous subissez une @UUID[Compendium.pf2e.other-effects.Item.Ck0MQP9og75AWix7]{pénalité de circonstances de -2 à vos jets d'attaque}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Magie fragmentée</h1>\n<blockquote>\n<p>Votre cible obtient les effets sur sort @UUID[Compendium.pf2e.spells-srd.Item.j8vIoIEWElvpwkcI].</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #22": {
+            "name": "Critical Fumble Deck #22",
+            "pages": {
+                "Critical Fumble Deck #22": {
+                    "name": "Critical Fumble Deck #22",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Large ouverture</h1>\n<blockquote><p>Vous êtes @UUID[Compendium.pf2e.other-effects.Item.y1GwyXv7iOf8DhBg]{Pris au dépourvu} jusqu'à la fin de votre prochain tour.</p></blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Craquelé</h1>\n<blockquote><p>L'arme à distance (pas la munition) que vous utilisez subit @Damage[1d6]{1d6 dégâts}, en ignorant la Solidité.</p></blockquote>\n<p><code>À distance</code></p>\n<h1>le poing dans le visage</h1>\n<blockquote><p>Vous vous portez un coup critique avec l'attaque.</p></blockquote>\n<p><code>À mains nues</code></p>\n<h1>Faille de distance</h1>\n<blockquote><p>Vous êtes téléporté vert le plus proche espace adjacent de la cible de votre sort.</p></blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #18": {
+            "name": "Critical Hit Deck #18",
+            "pages": {
+                "Critical Hit Deck #18": {
+                    "name": "Critical Hit Deck #18",
+                    "text": "<section class=\"critical-deck\">\n<h1>Entrechoquée</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique:</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 round.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Frappe gardée</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Obtient un bonus de circonstances de +2 à la CA jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Tendon coupé</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et subit une pénalité de statut de @UUID[Compendium.pf2e.other-effects.Item.HTwG0F0LDu5ihBUm]{-1,50 m} à sa Vitesse au sol.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Renfort de puissance</h1>\n<blockquote>\n<p>Triple dégâts.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #36": {
+            "name": "Critical Fumble Deck #36",
+            "pages": {
+                "Critical Fumble Deck #36": {
+                    "name": "Critical Fumble Deck #36",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Désolé !</h1>\n<blockquote>\n<p>Vous touchez un allié qui vous est adjacent ou un allié adjacent à la cible.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Perdre la cible</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.5gX3PZztMecmWxX9]{pénalité de circonstances de -2 aux jets d'attaque} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Foulure</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Fragilisé</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.BjkhK1nFUw3vNKg2]{pénalité de circonstances de -2 aux jets d'attaque de sort et au DD de sort} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #50": {
+            "name": "Critical Hit Deck #50",
+            "pages": {
+                "Critical Hit Deck #50": {
+                    "name": "Critical Hit Deck #50",
+                    "text": "<section class=\"critical-deck\">\n<h1>Coup fatiguant</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure à la jambe</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible subit une @UUID[Compendium.pf2e.other-effects.Item.HTwG0F0LDu5ihBUm]{pénalité à la vitesse de -1,50 mètre à sa Vitesse au sol} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Tourne autour</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>tranchant</code></p>\n<h1>Vortex temporel</h1>\n<blockquote>\n<p>S'il s'agit d'un sort, dégâts normaux et la cible disparaît pour réapparaitre [[/r 1d4#rounds]]{1d4 rounds} plus tard. La cible ne peut utiliser d'actions et tout effet qui possède une durée ne s'écoule pas tant qu'elle est partie.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #8": {
+            "name": "Critical Hit Deck #8",
+            "pages": {
+                "Critical Hit Deck #8": {
+                    "name": "Critical Hit Deck #8",
+                    "text": "<section class=\"critical-deck\">\n<h1>Ouvrir en deux</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible subit @Damage[1d6[bleed]]{1d6 dégâts de saignement}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Les faire vaciller</h1>\n<blockquote>\n<p><strong>Effet critique.</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</strong></p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Mâchoire fracturée</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessée 1} et incapable de parler, manger, boire ou faire une attaque de mâchoires.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Charme protecteur</h1>\n<blockquote>\n<p>Vous bénéficiez d'un @UUID[Compendium.pf2e.other-effects.Item.sq8lhVfn0pl5WJ4t]{Bonus de statut de +2 à la CA et aux jets de sauvegarde} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Bombe ou sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #10": {
+            "name": "Critical Fumble Deck #10",
+            "pages": {
+                "Critical Fumble Deck #10": {
+                    "name": "Critical Fumble Deck #10",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Déséquilibré</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.5gX3PZztMecmWxX9]{pénalité de circonstances de -2 aux jets d'attaque} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Feu allié</h1>\n<blockquote>\n<p>Vous touchez l'allié le plus proche de la cible.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Quelque chose de cassé</h1>\n<blockquote>\n<p>Vous subissez @Damage[1d4[bludgeoning]]{1d4 dégâts contondants} et vous ne pouvez plus utiliser cette attaque jusqu'à ce que vous soyez soigné.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Drainage de puissance</h1>\n<blockquote>\n<p>Vous perdez un sort préparé ou un emplacement de sort (déterminé aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #21": {
+            "name": "Critical Hit Deck #21",
+            "pages": {
+                "Critical Hit Deck #21": {
+                    "name": "Critical Hit Deck #21",
+                    "text": "<section class=\"critical-deck\">\n<h1>Pneumothorax</h1>\n<blockquote>\n<p>Dégâts normaux <strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2} et @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Amas nerveux</h1>\n<blockquote>\n<p>Dégâts normaux <strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 2}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Rupture de la cavité abdominale</h1>\n<blockquote>\n<p>Triple dégâts. La cible est @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Transposition</h1>\n<blockquote>\n<p>Si c'est une attaque de sort, la cible et vous échangez vos places. C'est une effet de téléportation.</p>\n</blockquote>\n<p><code>Bombe ou sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #32": {
+            "name": "Critical Hit Deck #32",
+            "pages": {
+                "Critical Hit Deck #32": {
+                    "name": "Critical Hit Deck #32",
+                    "text": "<section class=\"critical-deck\">\n<h1>Pris de vitesse !</h1>\n<blockquote>\n<p>Dégâts triplés. La cible est mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Tir à la tête</h1>\n<blockquote>\n<p>Dégâts triplés.<strong> Effet critique :</strong> La cible doit réussir un jet de @Check[fortitude] ou mourir.</p>\n</blockquote>\n<p><code>Piercing</code></p>\n<h1>Des côtes à l'aine</h1>\n<blockquote>\n<p>Dégâts triplés.<strong> Effet critique :</strong> La cible doit réussir un jet de @Check[fortitude] ou mourir.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Condamnée !</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round et est aussi @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnée 1}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #5": {
+            "name": "Critical Hit Deck #5",
+            "pages": {
+                "Critical Hit Deck #5": {
+                    "name": "Critical Hit Deck #5",
+                    "text": "<section class=\"critical-deck\">\n<h1>Parade faible</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible lache une des armes qu'elle manie, au choix du MJ.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Blessure à l'épaule</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Tendon ischio-jambier</h1>\n<blockquote>\n<p>Dégâts normaux<strong> Effet critique</strong> La cible estmise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. La cible est aussi @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Coupe de la magie</h1>\n<blockquote>\n<p>Dégâts normaux. La cible ne peut lancer des sorts ou activer des objets magiques pendant [[/r 1d4#rounds]]{1d4 rounds}.</p>\n</blockquote>\n<p><code>Bombe ou sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #6": {
+            "name": "Critical Fumble Deck #6",
+            "pages": {
+                "Critical Fumble Deck #6": {
+                    "name": "Critical Fumble Deck #6",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Mordre la poussière</h1>\n<blockquote>\n<p>Vous tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et êtes @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Ébloui} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Surcompensé</h1>\n<blockquote>\n<p>Un abri fournit un @UUID[Compendium.pf2e.other-effects.Item.pbKvPM4cnmGTkDiZ]{Bonus de circonstances de +4 à la CA contre vos attaques à distance} pendant 1 minute.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Un goût horrible !</h1>\n<blockquote>\n<p>Si c'était une attaque de mâchoires (ou similaire), vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 3}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Transfert étrange</h1>\n<blockquote>\n<p>Perdez un sort préparé ou un emplacement de sort, déterminé aléatoirement par le MJ. Votre cible peut Lancer ce sort lors de son prochain tour même si elle ne peut pas lancer de sorts, en utilisant votre niveau, votre modificateur d'attaque de sort et le DD du sort.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #15": {
+            "name": "Critical Fumble Deck #15",
+            "pages": {
+                "Critical Fumble Deck #15": {
+                    "name": "Critical Fumble Deck #15",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Arme brisée</h1>\n<blockquote>\n<p>Les Points de vie de votre arme sont réduits à son Seuil de rupture. Si elle était déjà @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisée}, l'arme subit @Damage[3d6]{3d6 dégâts}, en ignorant sa Solidité.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Pas les parties !</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessé 1} ou la valeur de votre état Blessé augmente de 1.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Frustration</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.5gX3PZztMecmWxX9]{pénalité de circonstances de -2 aux jets d'attaque} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Faille bestiale</h1>\n<blockquote>\n<p>Votre sort devient un sort de @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Convocation d'animal} du même rang L'animal vous attaque.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #42": {
+            "name": "Critical Fumble Deck #42",
+            "pages": {
+                "Critical Fumble Deck #42": {
+                    "name": "Critical Fumble Deck #42",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Essouflé</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Mauvais Alignement</h1>\n<blockquote>\n<p>Vous subissez une @UUID[Compendium.pf2e.other-effects.Item.UZabiyynJWuUblMk]{pénalité de circonstances de -2 aux jets d'attaque avec cette arme} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Il a mordu ton poing</h1>\n<blockquote>\n<p>La cible vous inflige des dégâts de mâchoires.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Échange déséquilibré</h1>\n<blockquote>\n<p>Vous touchez, mais vous perdez un sort préparé ou un emplacement de sort du plus haut rang disponible (vous choisissez le sort).</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #29": {
+            "name": "Critical Fumble Deck #29",
+            "pages": {
+                "Critical Fumble Deck #29": {
+                    "name": "Critical Fumble Deck #29",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Reprends ton souffle</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 2} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Mauvaise arme</h1>\n<blockquote>\n<p>Si vous avez fait une attaque de jet, vous avez lancé à la place un objet de votre équipement (déterminé aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Approché trop près</h1>\n<blockquote>\n<p>Cette attaque accorde et déclenche une @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisie} ou une @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Agrippement} en tant que réaction pour votre ennemi.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Vous le rendez plus fort</h1>\n<blockquote>\n<p>La cible obtient un @UUID[Compendium.pf2e.other-effects.Item.lTwF7aCtQ6napqYu]{Bonus de statut de +2 aux jets d'attaque} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #11": {
+            "name": "Critical Fumble Deck #11",
+            "pages": {
+                "Critical Fumble Deck #11": {
+                    "name": "Critical Fumble Deck #11",
+                    "text": "<section class=\"fumble-deck\">\n<h1>J'ai glissé</h1>\n<blockquote>\n<p>Vous tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Retour de flamme</h1>\n<blockquote>\n<p>Vous vous touchez à la place de la cible.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Ego meurtri</h1>\n<blockquote>\n<p>Vous ne pouvez attaquer d'autre créature jusqu'à ce que la cible soit abattue ou jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Saignement de nez</h1>\n<blockquote>\n<p>Vous subissez [[/r 1[bleed]]]{1 dégât de saignement}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #14": {
+            "name": "Critical Hit Deck #14",
+            "pages": {
+                "Critical Hit Deck #14": {
+                    "name": "Critical Hit Deck #14",
+                    "text": "<section class=\"critical-deck\">\n<h1>Main fracturée</h1>\n<blockquote>\n<p>Dégâts normaux. Jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2} et il ne peut pas utiliser l'une de ses mains (choisi aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Directement dans l'oreille</h1>\n<blockquote>\n<p>Dégâts normaux. La cible est @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourde} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Se tenir à l'écart</h1>\n<blockquote>\n<p>Repousse la cible de 1,50 mètre.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Retour vampirique</h1>\n<blockquote>\n<p>Dégâts normaux. Vous regagnez des Points de vie égaux à la moitié des dégâts que vous infligez.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #44": {
+            "name": "Critical Fumble Deck #44",
+            "pages": {
+                "Critical Fumble Deck #44": {
+                    "name": "Critical Fumble Deck #44",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Tends le lui</h1>\n<blockquote>\n<p>À moins que vous ne réussissiez un jet de @Check[reflex], votre cible prend possession de votre arme.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Brisé</h1>\n<blockquote>\n<p>Les Points de vie actuels de votre arme sont réduits à son Seuil de rupture. Si elle est déjà @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisée}, l'arme subit @Damage[3d6]{3d6 dégâts}, en ignorant sa Solidité.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Balayer le sol</h1>\n<blockquote>\n<p>Vous soulevez un nuage de poussière, devenant @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveugle} jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Vous le rendez plus rapide</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accélérée} pendant 2 rounds.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #18": {
+            "name": "Critical Fumble Deck #18",
+            "pages": {
+                "Critical Fumble Deck #18": {
+                    "name": "Critical Fumble Deck #18",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Extension excessive</h1>\n<blockquote>\n<p>Vous déclenchez les réactions commesi vous aviez fait utilisé une action de déplacement.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Mal de dos</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Maux d'estomac</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 2}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Retour de flammes critique</h1>\n<blockquote>\n<p>Vous vous infligez un coup critique au lieu de toucher la cible.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #50": {
+            "name": "Critical Fumble Deck #50",
+            "pages": {
+                "Critical Fumble Deck #50": {
+                    "name": "Critical Fumble Deck #50",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Manche brisé</h1>\n<blockquote>\n<p>Les Points de vie actuels de votre arme sont réduits à leur seuil de rupture. Si elle était déjà cachée, l'arme subi @Damage[3d6]{3d6 dégâts}, en ignorant la Solidité. Si votre arme est une arme à allonge, elle perd son allonge.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Tous les pouces</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Maladresse</h1>\n<blockquote>\n<p>Vous vous touchez à la place de la cible.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Magie drainante</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainé 1}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #12": {
+            "name": "Critical Hit Deck #12",
+            "pages": {
+                "Critical Hit Deck #12": {
+                    "name": "Critical Hit Deck #12",
+                    "text": "<section class=\"critical-deck\">\n<h1>Orteil écrasé</h1>\n<blockquote>\n<p>Dégâts normaux. La cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} et subit une @UUID[Compendium.pf2e.other-effects.Item.zDV1wo2ytNTbyTB0]{pénalité de statut de -3 mètres à votre vitesse au sol}. Les deux effets durent jusqu'à e qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Piqûre</h1>\n<blockquote>\n<p>Dégâts normaux. La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Phalanges manquantes</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible perd [[/r 1d4#Doigts perdus]]{1d4 doigts} sur une main et devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à ce qu'elle soit sujette à un sort de @UUID[Compendium.pf2e.spells-srd.Item.2Vkd1IxylPceUAAF]{Régénération} ou à un effet similaire.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Viscosité étrange</h1>\n<blockquote>\n<p>Dégâts normaux et la cible est @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée}, en utilisant votre DD de classe comme DD pour s'Échapper.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #25": {
+            "name": "Critical Hit Deck #25",
+            "pages": {
+                "Critical Hit Deck #25": {
+                    "name": "Critical Hit Deck #25",
+                    "text": "<section class=\"critical-deck\">\n<h1>Déséquilibré</h1>\n<blockquote>\n<p>Dégâts normaux. La cible déclenche des réactions comme si elle avait juste utilisé une action de déplacement. Elle est aussi @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Os ébréché</h1>\n<blockquote>\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Fendre et tailler</h1>\n<blockquote>\n<p>Triple dégâts. La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Effet de rétrécissement</h1>\n<blockquote>\n<p>Dégâts normaux. La taille de la cible est réduite comme si elle était sujette au sort @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{Rétrécissement} jusqu'à la fin de son prochain tour. @UUID[Compendium.pf2e.spell-effects.Item.LXf1Cqi1zyo4DaLv]{Effet : Rétrécissement}</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #35": {
+            "name": "Critical Hit Deck #35",
+            "pages": {
+                "Critical Hit Deck #35": {
+                    "name": "Critical Hit Deck #35",
+                    "text": "<section class=\"critical-deck\">\n<h1>Frappe assourdissante</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourde} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Cloué sur place</h1>\n<blockquote>\n<p>Comme avec l'effet critique de l'arc. S'il s'agit d'une arme au corps-à-corps, vous devez la lachez pour obtenir cet effet. Si cette attaque a déjà cet effet, le test d'Athlétisme pour se libérer est un DD 20 au lieu d'un DD 10.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Décapitation</h1>\n<blockquote>\n<p>Dégâts triplés.<strong> Effet critique :</strong> La cible doit réussir un jet de @Check[fortitude] ou mourir.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Sort revenant</h1>\n<blockquote>\n<p>S'il s'agit d'un sort d'attaque, le sort ou l'emplacement de sort n'est pas dépensé.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #1": {
+            "name": "Critical Hit Deck #1",
+            "pages": {
+                "Critical Hit Deck #1": {
+                    "name": "Critical Hit Deck #1",
+                    "text": "<section class=\"critical-deck\">\n<h1>Craquer</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3}.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Avant-bras perforant</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible lâche une arme qu'elle tient (choisi aléatoirement par le MJ).</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Ouverture surprise</h1>\n<blockquote>\n<p><strong>Effet critique</strong> Vous obtenez 1 action que vous pouvez utiliser avant la fin de votre tour pour utiliser une action d'attaque contre la cible.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Réaction allergique</h1>\n<blockquote>\n<p>La cible subit @Damage[1d8[poison]]{1d8 dégâts de poison}.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #43": {
+            "name": "Critical Fumble Deck #43",
+            "pages": {
+                "Critical Fumble Deck #43": {
+                    "name": "Critical Fumble Deck #43",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Bouclier abimé</h1>\n<blockquote>\n<p>Vous infligez les dégâts normaux de l'attaque à votre bouclier, lui appliquant la solidité.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Tout ce que vous avez</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Adversaire à bords durs</h1>\n<blockquote>\n<p>Vous subissez @Damage[2d6[piercing]]{2d6 dégâts perforants} ou @Damage[2d6[slashing]]{tranchants} (au choix du MJ).</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Vous le rendez plus robuste</h1>\n<blockquote>\n<p>La cible obtient une @UUID[Compendium.pf2e.other-effects.Item.WqgtMWgM9nUjwQiI]{Résistance 5 contre tous les dégâts} jusqu'au début de son prochain tour.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #23": {
+            "name": "Critical Fumble Deck #23",
+            "pages": {
+                "Critical Fumble Deck #23": {
+                    "name": "Critical Fumble Deck #23",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Mis à rude épreuve</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2}.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Oups !</h1>\n<blockquote>\n<p>Vous tombez @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Mal positionné</h1>\n<blockquote>\n<p>Vous ne pouvez utiliser cette attaque jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Drain mental</h1>\n<blockquote>\n<p>Jusqu'à ce que vous soyez soigné, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 1}.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #33": {
+            "name": "Critical Hit Deck #33",
+            "pages": {
+                "Critical Hit Deck #33": {
+                    "name": "Critical Hit Deck #33",
+                    "text": "<section class=\"critical-deck\">\n<h1>Côtes cassées</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} jusqu'à ce qu'elle soit soignée.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Ponction lombaire</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Nerf coupé</h1>\n<blockquote>\n<p><strong>Effet critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 2} pendant 1 round.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Explosion de force</h1>\n<blockquote>\n<p>La bombe ou le sort inflige @Damage[1d8[force]]{1d8 dégâts de force} supplémentaires.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Hit Deck #24": {
+            "name": "Critical Hit Deck #24",
+            "pages": {
+                "Critical Hit Deck #24": {
+                    "name": "Critical Hit Deck #24",
+                    "text": "<section class=\"critical-deck\">\n<h1>Rupture de la rate</h1>\n<blockquote>\n<p>Dégâts normaux<strong> Effet critique :</strong> La cible subit @Damage[1[bleed]]{1 dégât de saignement} auquel elle ne peut mettre un terme tant qu'elle ne bénéficie pas de soins magiques.</p>\n</blockquote>\n<p><code>Contondant</code></p>\n<h1>Muscle sectionné</h1>\n<blockquote>\n<p>Dégâts normaux.<strong> Effet critique :</strong> jusqu'à ce qu'elle soit soignée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 3} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 3}.</p>\n</blockquote>\n<p><code>Perforant</code></p>\n<h1>Enfoncée dans la plaie</h1>\n<blockquote>\n<p>Triple dégâts. Vous lâchez votre arme.</p>\n</blockquote>\n<p><code>Tranchant</code></p>\n<h1>Sens de l'humour</h1>\n<blockquote>\n<p>La cible rit de manière incontrôlable jusqu'à la fin de son prochain tour. Tant qu'elle rit, elle est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} et ne peut se servir de ses réactions.</p>\n</blockquote>\n<p><code>Bombe ou Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #48": {
+            "name": "Critical Fumble Deck #48",
+            "pages": {
+                "Critical Fumble Deck #48": {
+                    "name": "Critical Fumble Deck #48",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Échec catastrophique</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Incosncient} jusqu'à ce que vous soyez réveillé ou jusqu'à la fin de votre prochain tour.</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Renversé</h1>\n<blockquote>\n<p>Si l'attaque a utilisé une arme de jet, l'arme se déplace à trois fois son facteur de portée dans une direction aléatoire (déterminée par le MJ).</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Ne le prenez pas !</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessé 1} ou la valeur de votre état Blessé augmente de 1.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Gifle magique</h1>\n<blockquote>\n<p>Vous obtenez automatiquement un échec (mais pas un échec critique) sur votre prohain jet de sauvegarde.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        },
+        "Critical Fumble Deck #33": {
+            "name": "Critical Fumble Deck #33",
+            "pages": {
+                "Critical Fumble Deck #33": {
+                    "name": "Critical Fumble Deck #33",
+                    "text": "<section class=\"fumble-deck\">\n<h1>Veine comique</h1>\n<blockquote>\n<p>Vous lâchez un objet que vous tenez (déterminé alétoirement par le MJ).</p>\n</blockquote>\n<p><code>Corps-à-corps</code></p>\n<h1>Pas mon poney !</h1>\n<blockquote>\n<p>Vous touchez le compagnon animal, la monture ou le familier le plus proche.</p>\n</blockquote>\n<p><code>À distance</code></p>\n<h1>Mauvais coup de boule</h1>\n<blockquote>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1}.</p>\n</blockquote>\n<p><code>À mains nues</code></p>\n<h1>Blocage de l'incantateur</h1>\n<blockquote>\n<p>Vous ne pouvez plus lancer ce sort de nouveau à n'importe quel rang, tant que vous ne vous reposez pas et n'avez pas accompli vos préparatifs quotidiens.</p>\n</blockquote>\n<p><code>Sort</code></p>\n</section>"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.description.value"
+    }
+}

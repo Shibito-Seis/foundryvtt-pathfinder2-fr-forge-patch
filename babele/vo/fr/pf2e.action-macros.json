@@ -1,0 +1,221 @@
+{
+    "label": "Macros des actions",
+    "entries": {
+        "Athletics: Arcane Slam": {
+            "name": "Athletics: Arcane Slam"
+        },
+        "Perform - Singing: Performance": {
+            "name": "Perform - Singing: Performance"
+        },
+        "Bon Mot: Diplomacy": {
+            "name": "Bon Mot: Diplomacy"
+        },
+        "Sneak: Stealth": {
+            "name": "Sneak: Stealth"
+        },
+        "Treat Poison: Medicine": {
+            "name": "Treat Poison: Medicine"
+        },
+        "Feint: Deception": {
+            "name": "Feint: Deception"
+        },
+        "Force Open: Athletics": {
+            "name": "Force Open: Athletics"
+        },
+        "Create a Diversion - Distracting Words: Deception": {
+            "name": "Create a Diversion - Distracting Words: Deception"
+        },
+        "Subsist: Survival": {
+            "name": "Subsist: Survival"
+        },
+        "Maneuver in Flight: Acrobatics": {
+            "name": "Maneuver in Flight: Acrobatics"
+        },
+        "Pick a Lock: Thievery": {
+            "name": "Pick a Lock: Thievery"
+        },
+        "Demoralize: Intimidation": {
+            "name": "Demoralize: Intimidation"
+        },
+        "Perform - Play percussion instrument: Performance": {
+            "name": "Perform - Play percussion instrument: Performance"
+        },
+        "Tumble Through: Acrobatics": {
+            "name": "Tumble Through: Acrobatics"
+        },
+        "High Jump: Athletics": {
+            "name": "High Jump: Athletics"
+        },
+        "Make an Impression: Diplomacy": {
+            "name": "Make an Impression: Diplomacy"
+        },
+        "Command an Animal: Nature": {
+            "name": "Command an Animal: Nature"
+        },
+        "Create a Diversion - Gesture: Deception": {
+            "name": "Create a Diversion - Gesture: Deception"
+        },
+        "Shove: Athletics": {
+            "name": "Shove: Athletics"
+        },
+        "Escape: Athletics": {
+            "name": "Escape: Athletics"
+        },
+        "Perform - Play wind instrument: Performance": {
+            "name": "Perform - Play wind instrument: Performance"
+        },
+        "Seek: Perception": {
+            "name": "Seek: Perception"
+        },
+        "Raise a Shield": {
+            "name": "Raise a Shield"
+        },
+        "Escape": {
+            "name": "Escape"
+        },
+        "Palm an Object: Thievery": {
+            "name": "Palm an Object: Thievery"
+        },
+        "Lie: Deception": {
+            "name": "Lie: Deception"
+        },
+        "Track: Survival": {
+            "name": "Track: Survival"
+        },
+        "Administer First Aid - Stabilize: Medicine": {
+            "name": "Administer First Aid - Stabilize: Medicine"
+        },
+        "Craft: Crafting": {
+            "name": "Craft: Crafting"
+        },
+        "Squeeze: Acrobatics": {
+            "name": "Squeeze: Acrobatics"
+        },
+        "Decipher Writing: Arcana": {
+            "name": "Decipher Writing: Arcana"
+        },
+        "Perform - Play string instrument: Performance": {
+            "name": "Perform - Play string instrument: Performance"
+        },
+        "Conceal an Object: Stealth": {
+            "name": "Conceal an Object: Stealth"
+        },
+        "Climb: Athletics": {
+            "name": "Climb: Athletics"
+        },
+        "Hide: Stealth": {
+            "name": "Hide: Stealth"
+        },
+        "Reposition: Athletics": {
+            "name": "Reposition: Athletics"
+        },
+        "Perform - Comedy: Performance": {
+            "name": "Perform - Comedy: Performance"
+        },
+        "Decipher Writing: Occultism": {
+            "name": "Decipher Writing: Occultism"
+        },
+        "Sense Motive: Perception": {
+            "name": "Sense Motive: Perception"
+        },
+        "Steel Your Resolve": {
+            "name": "Steel Your Resolve"
+        },
+        "Sense Direction: Survival": {
+            "name": "Sense Direction: Survival"
+        },
+        "Coerce: Intimidation": {
+            "name": "Coerce: Intimidation"
+        },
+        "Create a Diversion - Trick: Deception": {
+            "name": "Create a Diversion - Trick: Deception"
+        },
+        "Disable Device: Thievery": {
+            "name": "Disable Device: Thievery"
+        },
+        "Perform - Dance: Performance": {
+            "name": "Perform - Dance: Performance"
+        },
+        "Perform - Oratory: Performance": {
+            "name": "Perform - Oratory: Performance"
+        },
+        "Grapple: Athletics": {
+            "name": "Grapple: Athletics"
+        },
+        "Administer First Aid - Stop Bleeding: Medicine": {
+            "name": "Administer First Aid - Stop Bleeding: Medicine"
+        },
+        "Perform - Play keyboard instrument: Performance": {
+            "name": "Perform - Play keyboard instrument: Performance"
+        },
+        "Repair: Crafting": {
+            "name": "Repair: Crafting"
+        },
+        "Subsist: Society": {
+            "name": "Subsist: Society"
+        },
+        "Create Forgery: Society": {
+            "name": "Create Forgery: Society"
+        },
+        "Whirling Throw: Athletics": {
+            "name": "Whirling Throw: Athletics"
+        },
+        "Decipher Writing: Society": {
+            "name": "Decipher Writing: Society"
+        },
+        "Swim: Athletics": {
+            "name": "Swim: Athletics"
+        },
+        "Steal: Thievery": {
+            "name": "Steal: Thievery"
+        },
+        "Disarm: Athletics": {
+            "name": "Disarm: Athletics"
+        },
+        "Gather Information: Diplomacy": {
+            "name": "Gather Information: Diplomacy"
+        },
+        "Impersonate: Deception": {
+            "name": "Impersonate: Deception"
+        },
+        "Escape: Unarmed Attack": {
+            "name": "Escape: Unarmed Attack"
+        },
+        "Long Jump: Athletics": {
+            "name": "Long Jump: Athletics"
+        },
+        "Trip: Athletics": {
+            "name": "Trip: Athletics"
+        },
+        "Perform - Acting: Performance": {
+            "name": "Perform - Acting: Performance"
+        },
+        "Encouraging Words": {
+            "name": "Encouraging Words"
+        },
+        "Request: Diplomacy": {
+            "name": "Request: Diplomacy"
+        },
+        "Exploration: Avoid Notice": {
+            "name": "Exploration: Avoid Notice"
+        },
+        "Tamper: Crafting": {
+            "name": "Tamper: Crafting"
+        },
+        "Decipher Writing: Religion": {
+            "name": "Decipher Writing: Religion"
+        },
+        "Escape: Acrobatics": {
+            "name": "Escape: Acrobatics"
+        },
+        "Treat Disease: Medicine": {
+            "name": "Treat Disease: Medicine"
+        },
+        "Balance: Acrobatics": {
+            "name": "Balance: Acrobatics"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value"
+    }
+}

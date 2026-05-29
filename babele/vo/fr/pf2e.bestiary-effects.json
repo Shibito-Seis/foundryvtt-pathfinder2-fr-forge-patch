@@ -1,0 +1,2246 @@
+{
+    "label": "Effets des monstres",
+    "entries": {
+        "Effect: Ghonhatine Feed": {
+            "name": "Effect: Ghonhatine Feed",
+            "description": "<p>La créature obtient @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ]{Guérison accélérée 5} et un bonus de statut +2 aux jets de dégâts.</p>"
+        },
+        "Effect: Splintered Ground (Critical Failure)": {
+            "name": "Effect: Splintered Ground (Critical Failure)",
+            "description": "<p>La créature subit une pénalité de circonstances de -4,50 mètres à toutes ses Vitesses.</p>"
+        },
+        "Effect: Dueling Dance": {
+            "name": "Effect: Dueling Dance",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à votre CA.</p>"
+        },
+        "Effect: Xulgath Stench": {
+            "name": "Effect: Xulgath Stench",
+            "description": "<p>La créature subit une pénalité de statut de -1,50 mètre à ses Vitesses.</p>"
+        },
+        "Effect: Haywire": {
+            "name": "Effect: Haywire",
+            "description": "<p>La créature subit une pénalité de circonstances de -1 à ses Frappes mais inflige @Damage[1d6[bludgeoning]]{1d6 dégâts contondants} supplémentaires plus @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{Renversement}.</p>"
+        },
+        "Effect: Susceptible to Mockery (Critical Failure)": {
+            "name": "Effect: Susceptible to Mockery (Critical Failure)",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux Frappes et aux jets de dégâts contre ses ennemis.</p>"
+        },
+        "Effect: Shielding Wing": {
+            "name": "Effect: Shielding Wing",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à votre CA contre l'attaque déclencheuse.</p>"
+        },
+        "Effect: Exalt the Little Ones": {
+            "name": "Effect: Exalt the Little Ones",
+            "description": "<p>Les créatures avec le trait animal obtiennent un bonus de statut de +1 aux jets d'attaque, aux jets de dégâts et aux jets de sauvegarde. Si les animaux possèdent le trait  nuée, les DD des jets de sauvegarde pour résister à leurs actions dommageables obtiennent un bonus de statut de +1. Ce bonus passe à +2 pour les alliés dont le niveau est de 2 ou inférieur.</p>"
+        },
+        "Effect: Share Pain": {
+            "name": "Effect: Share Pain",
+            "description": "<p>La créature subit une pénalité de statut de -3 mètres à ses Vitesses en cas d'échec ou une pénalité de statut de -6 mètres à ses Vitesses sur un échec critique.</p>"
+        },
+        "Effect: Rotting Stench": {
+            "name": "Effect: Rotting Stench",
+            "description": "<p>Tant qu'elles sont dans l'aura, les créatures subissent aussi une pénalité de circonstances de -2 aux jets de sauvegarde contre la terreur et pour récupérer de l'état Nauséeux.</p>",
+            "rules": {
+                "1": {
+                    "text": "<p>Tant qu'elles sont dans l'aura, les créatures subissent aussi une pénalité de circonstances de -2 pour récupérer de l'état Nauséeux.</p>"
+                }
+            }
+        },
+        "Effect: Monologue": {
+            "name": "Effect: Monologue",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets de Volonté et un bonus de statut de +2 aux jets de dégâts de vos sorts. Chaque fois que vous utilisez cette action à nouveau, ces bonus augmentent respectivement de 1 et 2.</p>"
+        },
+        "Effect: Blood Wake": {
+            "name": "Effect: Blood Wake",
+            "description": "<p>La créature subit une pénalité de statut de -4 à ses tests d'Athlétisme pour Nager.</p>"
+        },
+        "Effect: Blood Fury": {
+            "name": "Effect: Blood Fury",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets d'attaque.</p>"
+        },
+        "Effect: Song of Freedom": {
+            "name": "Effect: Song of Freedom",
+            "description": "<p>Les jets de Volonté de la troupe augmentent à +29 contre tous les effets mentaux.</p>"
+        },
+        "Effect: Scent of Blood": {
+            "name": "Effect: Scent of Blood",
+            "description": "<p>Vous obtenez 10 Points de vie temporaires et un bonus de statut de +4 aux jets de dégâts avec vos attaques à mains nues, mais êtes Pris au dépourvu.</p>"
+        },
+        "Effect: Gloom Aura": {
+            "name": "Effect: Gloom Aura",
+            "description": "<p>La créature subit une pénalité de circonstances de -1 aux jets de sauvegarde fait pour résister aux effets d'émotion.</p>"
+        },
+        "Effect: Air of Sickness": {
+            "name": "Effect: Air of Sickness",
+            "description": "<p>La créature subit une pénalité de statut de -2 aux jets pour résister aux maladies.</p>"
+        },
+        "Effect: Icy Protection": {
+            "name": "Effect: Icy Protection",
+            "description": "<p>Vous obtenez une résistance contre le froid.</p>"
+        },
+        "Effect: Gleaming Armor": {
+            "name": "Effect: Gleaming Armor",
+            "description": "<p>La créature obtient un bonus de statut de +2 à sa CA et une résistance aux dégâts d'énergie basée sur la créature spécifique.</p>"
+        },
+        "Effect: Toxic Effluvium": {
+            "name": "Effect: Toxic Effluvium",
+            "description": "<p>Les Frappes au corps-à-corps de Kanker infligent 2d6 dégâts de poison supplémentaires.</p>"
+        },
+        "Effect: Stick a Fork in It": {
+            "name": "Effect: Stick a Fork in It",
+            "description": "<p>La créature subit une pénalité de circonstances de -3 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Drain Luck (Critical Failure)": {
+            "name": "Effect: Drain Luck (Critical Failure)",
+            "description": "<p>Accordé par Drain de chance.</p>\n<p>Vous devez lancer deux fois les dés et prendre le pire résultat pour tous les tests.</p>"
+        },
+        "Effect: Alchemical Strike": {
+            "name": "Effect: Alchemical Strike",
+            "description": "<p>Choisissez acide, feu, froid ou électricité. Le drudge imprègne ses attaques de poing de ces dégâts.</p>\n<p>Chaque fois qu'il touche, il inflige 1d6 dégâts du même type que celle de la bombe chargée à l'intérieur. Chaque bombe possède assez de fluide à l'intérieur pour porter 10 frappes réussies.</p>"
+        },
+        "Effect: Caustic Mucus": {
+            "name": "Effect: Caustic Mucus",
+            "description": "<p>La créature subit une pénalité de statut de -1,50 mètre à sa Vitesse. Cette réduction de Vitesse se termine avec les dégâts d'acide persistants.</p>"
+        },
+        "Effect: Sinful Bite": {
+            "name": "Effect: Sinful Bite",
+            "description": "<p>Vous subissez une pénalité de statut de -3 mètres à vos Vitesses.</p>"
+        },
+        "Effect: Tenacious Flames": {
+            "name": "Effect: Tenacious Flames",
+            "description": "<p>Les créatures dans l'émanation ne peuvent pas récupérer des dégâts de feu persistants.</p>"
+        },
+        "Effect: Fed by Wood": {
+            "name": "Effect: Fed by Wood",
+            "description": "<p>Les dégâts de feu infligé par la mâchoire de la créature augmentent d'un dé</p>"
+        },
+        "Effect: Towering Stance (Disbelieved)": {
+            "name": "Effect: Towering Stance (Disbelieved)",
+            "description": "<p>La créature prend une taille Moyenne.</p>"
+        },
+        "Effect: Hurl Net": {
+            "name": "Effect: Hurl Net",
+            "description": "<p>Sur un succès, vous êtes Pris au dépourvu et subissez une pénalité de circonstances de -3 mètres à vos Vitesses. Sur un succès critique vous êtes Entravé.</p>"
+        },
+        "Effect: Claim Corpse - Fleshy": {
+            "name": "Effect: Claim Corpse - Fleshy"
+        },
+        "Effect: Call to Halt (Success)": {
+            "name": "Effect: Call to Halt (Success)",
+            "description": "<p>La cible subit une pénalité de -3 mètres à toutes ses Vitesses pendant 1 minute.</p>"
+        },
+        "Effect: Pain Frenzy": {
+            "name": "Effect: Pain Frenzy",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Devil's Cursed Breath": {
+            "name": "Effect: Devil's Cursed Breath",
+            "description": "<p>La créature maudite subit une pénalité de statut à toutes les attaques.</p>"
+        },
+        "Effect: Break Legs!": {
+            "name": "Effect: Break Legs!",
+            "description": "<p>Vous devenez Maladroit 1, subissez une pénalité de 1,50 mètre à vos Vitesses et avez une faiblesse 5 contre les Frappes de l'origine.</p>"
+        },
+        "Effect: Bully the Departed": {
+            "name": "Effect: Bully the Departed",
+            "description": "<p>La créature obtient Régénération 15 (désactivée par Force ou Bon) et inflige @Damage[1d8[spirit]]{1d8 dégâts spirituels} supplémentaires sur ses Frappes.</p>"
+        },
+        "Effect: Hair Snare": {
+            "name": "Effect: Hair Snare",
+            "description": "<p><strong>Échec</strong> Vous subissez une pénalité de circonstances de -3 mètres à toutes ses Vitesses.</p>\n<p><strong>Échec critique</strong> Vous êtes Immobilisé.</p>"
+        },
+        "Effect: Bark Orders (Hold Sergeant)": {
+            "name": "Effect: Bark Orders (Hold Sergeant)",
+            "description": "<p>Vous obtenez un bonus de statut de +1 à vos jets d'attaques et de dégâts.</p>"
+        },
+        "Effect: Harness Wickedness": {
+            "name": "Effect: Harness Wickedness",
+            "description": "<p>Vos Frappes infligent un dé de dégâts supplémentaires et obtiennent le trait impie. Vous obtenez aussi 10 Points de vie temporaires, un bonus de statut de +1,50 mètre à la Vitesse et une faiblesse 5 contre saint.</p>"
+        },
+        "Effect: Near-Death Experience Healing": {
+            "name": "Effect: Near-Death Experience Healing",
+            "description": "<p>Vous bénéficiez de Guérison accélérée</p>"
+        },
+        "Effect: Consume Soul": {
+            "name": "Effect: Consume Soul",
+            "description": "<p>L'obcisidaémon choisit un des effets suivants.</p>\n<p><em>Sort amélioré</em> L'obcisidaémon obtient un bonus de statut de +2 à son DD de sort et son jet d'attaque de sort jusqu'à la fin de son prochain tour.</p>\n<p><em>Arme améliorée</em> L'arme de l'obcisidaémon obtient les effets d'une rune enflammée supérieure, de froid supérieur, de choc supérieur ou sanglante jusqu'à la fin de son prochain tour.</p>"
+        },
+        "Effect: Glutton's Feast": {
+            "name": "Effect: Glutton's Feast",
+            "description": "<p>L'ogre glouton obtient 1d4 Points de vie temporaires ou 2d4 en suivant la ruée du glouton.</p>"
+        },
+        "Effect: Beseech the Spirits": {
+            "name": "Effect: Beseech the Spirits",
+            "description": "<p>Vous obtenez perception de la vie 18 mètres et vision panoramique.</p>"
+        },
+        "Effect: Sight Prey": {
+            "name": "Effect: Sight Prey",
+            "description": "<p>Les Frappes à distance du belliciste contre la créature marquée obtiennent un bonus de circonstances de +1 au jet d'attaque et infligent 3d6 dégâts de précision supplémentaires. Chaque fois que le belliciste touche une créature avec une Frappe à distance, celle-ci subit une pénalité de -3 mètres à toutes ses Vitesses pendant 1 minute et chute de 6 mètres si elle vole.</p>"
+        },
+        "Effect: Nymph Queen's Inspiration": {
+            "name": "Effect: Nymph Queen's Inspiration",
+            "description": "<p>La créature obtient un bonus de statut de +1 à tous les tests d'Artisanat, tests de Représentation et aux jets de Volonté. Les bardes obtiennent un avantage supplémentaire :</p>\n<ul>\n<li><strong>Muse énigmatique</strong> le barde obtient un bonus de statut de +1 à tous ses tests de Connaissance</li>\n<li><strong>Muse virtuose</strong> le barde obtient un bonus de statut aux tests de Représentation est de +2 pour déterminer les effets des compositions</li>\n<li><strong>Muse touche-à-tout</strong> le bonus de statut de +4 à ses tests avec une compétence dans laquelle il est inexpérimenté</li>\n<li><strong>Autres muses</strong> le bonus au jet de Volonté passe à +2 contre les fées.</li>\n</ul>"
+        },
+        "Effect: Overdrive Engine": {
+            "name": "Effect: Overdrive Engine",
+            "description": "<p>Reginald obtient 200 Points de vie temporaires, un bonus de statut de +4,50 mètres à sa Vitesse et un bonus de statut de +2 aux jets d'attaque au corps-à-corps.</p>"
+        },
+        "Effect: Tip the Scales": {
+            "name": "Effect: Tip the Scales",
+            "description": "<p>Vous lancez deux fois votre prochain jet de d20 avant la fin de votre prochain tour et prenez le meilleur résultat.</p>"
+        },
+        "Effect: Alchemical Crossbow": {
+            "name": "Effect: Alchemical Crossbow",
+            "description": "<p>L'arbalète alchimique inflige 1d6 dégâts supplémentaires du type infligé par la bombe utilisée.</p>"
+        },
+        "Effect: Living Shield": {
+            "name": "Effect: Living Shield",
+            "description": "<p>Le rekhep accorde à un allié adjacent un bonus de circonstances de +2 à la CA jusqu'à ce qu'il ne soit plus adjacent ou jusqu'au début du prochain tour de l'archon, selon ce qui se produit en premier.</p>"
+        },
+        "Effect: Vengeful Fibers": {
+            "name": "Effect: Vengeful Fibers",
+            "description": "<p>La cible subit une pénalité de circonstances de -3 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Sic 'Em!": {
+            "name": "Effect: Sic 'Em!",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque et un bonus de statut de +2 aux jets de dégâts.</p>"
+        },
+        "Effect: Destructive Vengeance": {
+            "name": "Effect: Destructive Vengeance",
+            "description": "<p>Le champion inflige 2 dégâts spirituels ou de vide avec leurs Frappes contre la créature qui a déclenché l'action</p>"
+        },
+        "Effect: Shackling Cold": {
+            "name": "Effect: Shackling Cold",
+            "description": "<p>Vous subissez une pénalité de circonstances de -3 mètres à votre Vitesse.</p>"
+        },
+        "Effect: Verdant Aria": {
+            "name": "Effect: Verdant Aria",
+            "description": "<p>Vous obtenez un bonus de statut de +2 à la CA et aux jets de sauvegarde.</p>"
+        },
+        "Effect: Mangling Rend": {
+            "name": "Effect: Mangling Rend",
+            "description": "<p>La cible subit une pénalité de statut de -6 mètres à toutes ses Vitesses jusqu'à la fin de son prochain tour.</p>"
+        },
+        "Effect: Wrath of Spurned Hospitality": {
+            "name": "Effect: Wrath of Spurned Hospitality",
+            "description": "<p>Le nyctère obtient un bonus de statut de +2 à ses jets d'attaque et de dégâts sur ses Frappes de poing.</p>"
+        },
+        "Effect: Challenge Foe": {
+            "name": "Effect: Challenge Foe",
+            "description": "<p>Vous obtenez un bonus de circonstances aux dégâts égal à votre nombre de dés de dégâts d'arme contre votre ennemi désigné mais subissez une pénalité de circonstances équivalente contre toute autre créature.</p>"
+        },
+        "Effect: Dust Eternal": {
+            "name": "Effect: Dust Eternal",
+            "description": "<p>Tout ce qui se trouve dans l'aura est Masqué.</p>"
+        },
+        "Effect: Warning Hoot": {
+            "name": "Effect: Warning Hoot",
+            "description": "<p>Les cibles obtiennent un bonus de circonstances de +1 à leur jet d'initiative.</p>"
+        },
+        "Effect: Fortune's Favor": {
+            "name": "Effect: Fortune's Favor",
+            "description": "<p>Lorsque la créature fait un type spécifique de jet de sauvegarde, elle fait deux jets et garde le meilleur. Le type de jet de sauvegarde est déterminé par la couleur qui a été mise en avant lors de la lecture la plus récente de la poupée : Vigueur (Marteaux ou Boucliers), Réflexes (Clés ou Livres) ou Volonté (Étoiles ou Couronnes).</p>"
+        },
+        "Effect: Skin Net": {
+            "name": "Effect: Skin Net",
+            "description": "<p>Vous subissez une pénalité de circonstances de -3 mètres à vos Vitesses.</p>"
+        },
+        "Effect: Kharna's Blessing": {
+            "name": "Effect: Kharna's Blessing"
+        },
+        "Effect: Construct Trap": {
+            "name": "Effect: Construct Trap",
+            "description": "<p>Vous subissez une pénalité de statut de -1,50 mètre à toutes vos Vitesses.</p>"
+        },
+        "Effect: Song of the Swamp": {
+            "name": "Effect: Song of the Swamp",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets de dégâts et aux jets de sauvegarde contre la terreur.</p>"
+        },
+        "Effect: Rally": {
+            "name": "Effect: Rally",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 à votre CA et à vos jets de sauvegarde.</p>"
+        },
+        "Effect: Diplomatic Immunity": {
+            "name": "Effect: Diplomatic Immunity",
+            "description": "<p>L'attaquant obtient une faiblesse contre tous les dégâts infligés par les alliés de l'ambassadeur tant que l'Immunité diplomatique dure, que son attaque ait été ou non interrompue.</p>"
+        },
+        "Effect: Crocodile Form": {
+            "name": "Effect: Crocodile Form",
+            "description": "<p>Le bunyip obtient une Vitesse terrestre de 6 mètres mais sa Frappe de mâchoire perd les dégâts de saignement.</p>"
+        },
+        "Effect: Crush Chitin": {
+            "name": "Effect: Crush Chitin",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 à la CA.</p>"
+        },
+        "Effect: Distracting Frolic": {
+            "name": "Effect: Distracting Frolic",
+            "description": "<p>La cible alliée peut lancer le jet de sauvegarde deux fois et prendre le meilleur résultat.</p>"
+        },
+        "Effect: Guard Charge": {
+            "name": "Effect: Guard Charge",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à votre CA, vos jets de Réflexes et vos jets de sauvegarde contre la peur lorsque vous êtes adjacent à la garde viking.</p>"
+        },
+        "Effect: Spray Toxic Oil": {
+            "name": "Effect: Spray Toxic Oil",
+            "description": "<p>La créature obtient une faiblesse contre le feu 5 et lorsque la créature obtient un échec critique avec un jet d'attaque avec une arme qu'elle manie, elle lâche l'arme.</p>"
+        },
+        "Effect: Entangling Slime": {
+            "name": "Effect: Entangling Slime",
+            "description": "<p>La créature devient Maladroite 1 et subit une pénalité à la Vitesse de -1,50 mètre.</p>"
+        },
+        "Effect: Winter's Bite": {
+            "name": "Effect: Winter's Bite",
+            "description": "<p>Vous subissez une faiblesse contre le froid</p>"
+        },
+        "Effect: Feast on Illness": {
+            "name": "Effect: Feast on Illness",
+            "description": "<p>Le furnérico obtient 30 Points de vie temporaires.</p>"
+        },
+        "Effect: Kingpin's Presence": {
+            "name": "Effect: Kingpin's Presence",
+            "description": "<p>Vous obtenez un bonus de statut de +2 aux jets de sauvegarde contre les effets mentaux.</p>"
+        },
+        "Effect: Biggest Fan!": {
+            "name": "Effect: Biggest Fan!",
+            "description": "<p>Vous obtenez 1d6 Points de vie temporaires.</p>"
+        },
+        "Effect: Flammable": {
+            "name": "Effect: Flammable",
+            "description": "<p>Lorsqu'il brûle, Les frappes d'un bakeneko infligent 1d6 dégâts de feu supplémentaires.</p>"
+        },
+        "Effect: Burned Fingers": {
+            "name": "Effect: Burned Fingers",
+            "description": "<p>Vous subissez une pénalité de circonstances de –1 aux tests de Vol.</p>"
+        },
+        "Effect: Bob": {
+            "name": "Effect: Bob",
+            "description": "<p>Les longues jambes obtiennent un bonus de statut de +2 à sa Classe d'armure.</p>"
+        },
+        "Effect: Circle of Horns": {
+            "name": "Effect: Circle of Horns",
+            "description": "<p>Le troupeau obtient un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Soul Crush (Healing)": {
+            "name": "Effect: Soul Crush (Healing)",
+            "description": "<p>Le thanadaémon obtient Guérison accélérée 15 pendant 1 minute.</p>"
+        },
+        "Effect: Ectoplasmic Form (Physical)": {
+            "name": "Effect: Ectoplasmic Form (Physical)",
+            "description": "<p>La créature perd le trait intangible, l'immunité contre les dégâts de précision et toutes ses résistances. Elle obtient des Points de vie temporaires et une CA augmentée en fonction de la créature, ces Frappes de mâchoires inflige des dégâts perforants et ses Frappes de griffes infligent des dégâts tranchants à la place de dégâts du vide.</p>"
+        },
+        "Effect: Stench": {
+            "name": "Effect: Stench",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 aux jets de sauvegarde contre la maladie et pour récupérer de l'état @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux}.</p>"
+        },
+        "Effect: Aura of Disquietude": {
+            "name": "Effect: Aura of Disquietude",
+            "description": "<p>Une créature effrayée par l'aura ne peut prendre en tenaille.</p>"
+        },
+        "Effect: Whirlwind Form": {
+            "name": "Effect: Whirlwind Form",
+            "description": "<p>La créature obtient une résistance 10 contre les dégâts physiques.</p>"
+        },
+        "Effect: Nanite Surge (Glow)": {
+            "name": "Effect: Nanite Surge (Glow)",
+            "description": "<p>La créature émet une lumière faible dans une émanation de 3 mètres.</p>"
+        },
+        "Effect: Interpose": {
+            "name": "Effect: Interpose",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Aura of Good Cheer": {
+            "name": "Effect: Aura of Good Cheer",
+            "description": "<p>Les alliés au sein de l'aura obtiennent un bonus de statut de +1 aux jets de Volonté contre les effets d'émotion.</p>"
+        },
+        "Effect: Wreath of Holy Light": {
+            "name": "Effect: Wreath of Holy Light",
+            "description": "<p>Vous obtenez le trait saint, vos Frappes infligent 1d10 dégâts de feu supplémentaires, et si vous obtenez un succès critique sur une Frappe contre un ennemi, celui-ci subit également 1d6 dégâts de feu persistants.</p>"
+        },
+        "Effect: Smeltable": {
+            "name": "Effect: Smeltable",
+            "description": "<p>Vous subissez une pénalité de statut de -3 mètres à vos Vitesses et vos Frappes infligent 1d6 dégâts de feu supplémentaires. Vous perdez aussi votre faiblesse contre les dégâts tranchants et votre résistance contre les dégâts d'électricité.</p>"
+        },
+        "Effect: Phytohydra Heads": {
+            "name": "Effect: Phytohydra Heads",
+            "description": "<p>Le nombre de têtes que possède actuellement l'hydre.</p>"
+        },
+        "Effect: Aura of Vitality": {
+            "name": "Effect: Aura of Vitality",
+            "description": "<p>Les alliés dans l'aura du déva movanique obtiennent un bonus de statut +1 à tous leurs jets de sauvegarde, une résistance 10 contre les dégâts de vitalité et de vide et ne sont pas blessés par les effets des traits de vitalité et de vide d'un plan. Les animaux de niveau 12 ou inférieurs situés dans l'aura n'attaquent pas le déva movanique ou ses alliés à moins qu'ils ne soient contrôlés ou forcés à le faire.</p>"
+        },
+        "Effect: Apprentice's Ambition": {
+            "name": "Effect: Apprentice's Ambition",
+            "description": "<p>L'apprenti obtient un bonus de circonstances de +2 à ses jets d'attaque, de dégâts, de sauvegarde et à ses tests de compétence.</p>"
+        },
+        "Effect: Spear Parry": {
+            "name": "Effect: Spear Parry",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 à la CA jusqu'au début de votre prochain tour.</p>"
+        },
+        "Effect: Focused Assault": {
+            "name": "Effect: Focused Assault",
+            "description": "<p>La créature inflige des dégâts supplémentaires basés sur le nombre d'épées longues qu'elle manie.</p>"
+        },
+        "Effect: Chant of Dominance": {
+            "name": "Effect: Chant of Dominance",
+            "description": "<p>Toute créature blessée durant ce tour subit également 1d6 dégâts spirituels.</p>"
+        },
+        "Effect: Aura of Smoke": {
+            "name": "Effect: Aura of Smoke",
+            "description": "<p>Chaque créature dans l'aura est Masquée.</p>"
+        },
+        "Effect: Bark Orders": {
+            "name": "Effect: Bark Orders",
+            "description": "<p>Tous les alliés kobolds dans les 9 mètres de lui obtiennent un bonus de statut de +1 à ses jets d'attaque contre les effets de terreur jusqu'au début du prochain tour du chef Écailles de suie.</p>"
+        },
+        "Effect: Unbelievable Connection": {
+            "name": "Effect: Unbelievable Connection",
+            "description": "<p>La créature marquée est prise-au-dépourvu à vos attaques tant qu'elle reste Stupéfiée.</p>"
+        },
+        "Effect: Field of Slaughter (Keen)": {
+            "name": "Effect: Field of Slaughter (Keen)",
+            "description": "<p>Vos Frappes d'armes et à mains nues obtiennent les propriétés de la rune <em>acérée</em>.</p>"
+        },
+        "Effect: Blood Magic": {
+            "name": "Effect: Blood Magic",
+            "description": "<p>La créature obtient un bonus de statut de +2 à ses jets de Volonté.</p>"
+        },
+        "Effect: Putrid Blast": {
+            "name": "Effect: Putrid Blast",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 aux jets de Vigueur contre la bile xulgathe pendant 1 minute.</p>"
+        },
+        "Effect: Fed by Metal": {
+            "name": "Effect: Fed by Metal",
+            "description": "<p>La créature obtient un bonus d'objet de +1 à sa CA</p>"
+        },
+        "Effect: Fan Bolt": {
+            "name": "Effect: Fan Bolt",
+            "description": "<p>La créature subit une pénalité de -3 mètres à sa Vitesse de nage.</p>"
+        },
+        "Effect: Aura of Misfortune": {
+            "name": "Effect: Aura of Misfortune",
+            "description": "<p>Les créatures vivantes dans l'aura doivent lancer deux fois tous leurs d20 et utiliser le moins bon résultat.</p>"
+        },
+        "Effect: Partial Armor": {
+            "name": "Effect: Partial Armor",
+            "description": "<p>Effet éphémère</p>\n<p>Les attaques effectuées avec des armes à distance ou des armes à allonge obtiennent un bonus de circonstances de +1 aux jets d'attque contre Marguk.</p>"
+        },
+        "Effect: Tooth Tug": {
+            "name": "Effect: Tooth Tug",
+            "description": "<p>Vous subissez une pénalité de statut de -1 aux tests de compétence basés sur le Charisme et devez réussir un test nu DD 5 pour Lancer un sort, sauf si ce sort possède le trait subtil.</p>"
+        },
+        "Effect: Owe Money": {
+            "name": "Effect: Owe Money",
+            "description": "<p>Vous devez de l'argent.</p>"
+        },
+        "Effect: Deny Fate": {
+            "name": "Effect: Deny Fate",
+            "description": "<p>Lorsque vous déterminez l'initiative, vous obtenez automatiquement un 1.</p>"
+        },
+        "Effect: Gird in Prayer": {
+            "name": "Effect: Gird in Prayer",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets de sauvegarde contre la mort, les dégâts mentaux et les effets de possession.</p>"
+        },
+        "Effect: Soul Anchor": {
+            "name": "Effect: Soul Anchor",
+            "description": "<p>Vous obtenez Guérison accélérée égale au niveau de l'origine.</p>"
+        },
+        "Effect: Putrid Stench": {
+            "name": "Effect: Putrid Stench",
+            "description": "<p>La créature subit une pénalité de statut de -1,50 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Despair": {
+            "name": "Effect: Despair",
+            "description": "<p>Les créatures vivantes sont Effrayées 1 lorsqu'elles se trouvent dans la zone d'effet de l'aura de désespoir. Elles ne peuvent pas quitter naturellement cet état tant qu'elles se trouvent dans cette zone, mais il se dissipe immédiatement si elles la quittent.</p>"
+        },
+        "Effect: Divine Aegis": {
+            "name": "Effect: Divine Aegis",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde contre les effets de la magie non-divine et subissez une pénalité de circonstances de -1 aux jets de sauvegarde contre les effets de la magie divine</p>"
+        },
+        "Effect: Lost Red Cap": {
+            "name": "Effect: Lost Red Cap",
+            "description": "<p>La créature subit une pénalité de statut de -4 à ses jets de dégâts.</p>"
+        },
+        "Effect: Stab it! Stab it! Stab it!": {
+            "name": "Effect: Stab it! Stab it! Stab it!",
+            "description": "<p>Vos attaques contre la cible marquée infligent 1 dé de dégâts supplémentaire.</p>"
+        },
+        "Effect: Feel No Pain": {
+            "name": "Effect: Feel No Pain",
+            "description": "<p>La nuée obtient 10 Points de vie temporaires.</p>"
+        },
+        "Effect: Blasphemous Utterances": {
+            "name": "Effect: Blasphemous Utterances",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 à ses jets de sauvegarde contre les effets mentaux. Elle ne peut utiliser d'actions avec le trait concentration à moins de réussir un @Check[flat|dc:10]. En cas d'échec, l'action est perdue.</p>",
+            "rules": {
+                "1": {
+                    "text": "<p>Une créature ne peut utiliser d'actions avec le trait concentration à moins de réussir un @Check[flat|dc:10]. En cas d'échec, l'action est perdue.</p>"
+                }
+            }
+        },
+        "Effect: Aura of Command": {
+            "name": "Effect: Aura of Command",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque et un bonus de statut de +2 aux jets de Volonté.</p>"
+        },
+        "Effect: Jury-Rig": {
+            "name": "Effect: Jury-Rig",
+            "description": "<p>La cible obtient 10 Points de vie temporaires.</p>"
+        },
+        "Effect: Drain Life": {
+            "name": "Effect: Drain Life",
+            "description": "<p>Vous obtenez des Points de vie temporaires.</p>"
+        },
+        "Effect: Unluck Aura": {
+            "name": "Effect: Unluck Aura",
+            "description": "<p>La créature doit faire son jet deux fois et utiliser le pire résultat sur tous les jets.</p>"
+        },
+        "Effect: Hurtful Critique": {
+            "name": "Effect: Hurtful Critique",
+            "description": "<p>La créature subit une pénalité de circonstances de -1 à ses jets d'attaque (-2 sur un échec critique).</p>"
+        },
+        "Effect: One for All": {
+            "name": "Effect: One for All",
+            "description": "<p>Vous bénéficiez d'un bonus de circonstances de +1 à la CA. Si vous bénéficiez de plusieurs capacités Un pour Tous, le bonus passe à +2 au lieu de +1.</p>"
+        },
+        "Effect: Scraping Clamor": {
+            "name": "Effect: Scraping Clamor",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 aux jets de sauvegarde contre les sorts et les capacités audibles.</p>"
+        },
+        "Effect: Barbed Net": {
+            "name": "Effect: Barbed Net",
+            "description": "<p>Vous devenez maladroit 1 et subissez une pénalité de circonstances de -3 mètres à vos vitesses. Si la frappe était un succès critique, vous êtes également immobilisé.</p>"
+        },
+        "Effect: Fetid Screech (Critical Failure)": {
+            "name": "Effect: Fetid Screech (Critical Failure)",
+            "description": "<p>La créature subit une pénalité de statut de -1,50 mètre à ses Vitesses.</p>"
+        },
+        "Effect: Defensive Slam": {
+            "name": "Effect: Defensive Slam",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 à sa CA.</p>"
+        },
+        "Effect: Curse of Frost": {
+            "name": "Effect: Curse of Frost",
+            "description": "<p>La créature obtient une faiblesse contre le froid 15.</p>"
+        },
+        "Effect: Dero Medicine": {
+            "name": "Effect: Dero Medicine",
+            "description": "<p>Vous subissez une faiblesse 2 contre les dégâts tranchants.</p>"
+        },
+        "Effect: Harrow Burst": {
+            "name": "Effect: Harrow Burst",
+            "description": "<p>Une créature qui obtient un échec sur sont jet de sauvegarde lance [[/r 1d6]]{1d6} pour déterminer la couleur des cartes : 1 = marteaux (Force), 2 = clés (Dextérité), 3 = boucliers (Constitution), 4 = livres (Intelligence), 5 = étoiles (Sagesse), 6 = couronnes (Charisme). La créature subit une pénalité de statut de -1 à tous les tests relatifs à ce score d'attribut pendant 1 round (pénalité de statut de -2 sur un échec critique)</p>"
+        },
+        "Effect: Dirty Bomb (Critical Failure)": {
+            "name": "Effect: Dirty Bomb (Critical Failure)",
+            "description": "<p>La créature subit une pénalité de circonstances de -3 aux jets de Vigueur contre les bombes sales du chimiste.</p>"
+        },
+        "Effect: Curse of Stone": {
+            "name": "Effect: Curse of Stone",
+            "description": "<p>La créature obtient un bonus de statut de +1 à sa CA.</p>"
+        },
+        "Effect: Blade Barrage": {
+            "name": "Effect: Blade Barrage",
+            "description": "<p>Il obtient un bonus de circonstances cumulatif de +2 aux dégâts pour chaque Frappe réussie.</p>"
+        },
+        "Effect: Drain Luck (Success)": {
+            "name": "Effect: Drain Luck (Success)",
+            "description": "<p>Accordé par Drain de chance.</p>\n<p>Vous devez lancer deux fois les dés et prendre le moins bon résultat pour tous les tests.</p>"
+        },
+        "Effect: Bodyguard's Defense": {
+            "name": "Effect: Bodyguard's Defense",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Sight Prey (Speed Penalty)": {
+            "name": "Effect: Sight Prey (Speed Penalty)",
+            "description": "<p>Vous subissez une pénalité à vos Vitesses.</p>"
+        },
+        "Effect: Commanding Shout": {
+            "name": "Effect: Commanding Shout",
+            "description": "<p>Les DD des jets de sauvegarde de Infanterie de Gorum pour leurs actions Volée de carreaux ! et Levez les épées ! augmentent à DD 33 et elles bénéficient d'un bonus de statut de +2 à leurs jets de sauvegarde.</p>"
+        },
+        "Effect: Exalted Retributive Strike": {
+            "name": "Effect: Exalted Retributive Strike",
+            "description": "<p>Vous obtenez une résistance 14 contre les dégâts déclencheurs.</p>"
+        },
+        "Effect: Quicken the Rot": {
+            "name": "Effect: Quicken the Rot",
+            "description": "<p>Vous obtenez 30 Points de vie temporaires</p>"
+        },
+        "Effect: Praise Adachros": {
+            "name": "Effect: Praise Adachros",
+            "description": "<p>La créature obtient un bonus de statut de +1 à ses jets d'attaque, de perception, de sauvegarde et de compétences.</p>"
+        },
+        "Effect: Sepulchral Drain": {
+            "name": "Effect: Sepulchral Drain",
+            "description": "<p>La créature obtient une faiblesse 2 aux dégâts de vide.</p>"
+        },
+        "Effect: Curse of the Baneful Venom": {
+            "name": "Effect: Curse of the Baneful Venom",
+            "description": "<p>La créature tente immédiatement son prochain jet de sauvegarde contre un poison avec une pénalité de statut de -2.</p>"
+        },
+        "Effect: Commanding Aura": {
+            "name": "Effect: Commanding Aura",
+            "description": "<p>Vous obtenez 8 Points de vie temporaires.</p>"
+        },
+        "Effect: Field of Past Regrets": {
+            "name": "Effect: Field of Past Regrets",
+            "description": "<p>Les PJ bénéficient d'un bonus de statut de +1 aux jets de sauvegarde contre les effets mentaux. Les créatures vivantes, non nindoru, subissent une faiblesse 3 contre les dégâts mentaux.</p>"
+        },
+        "Effect: Consume Flesh": {
+            "name": "Effect: Consume Flesh",
+            "description": "<p>Vous obtenez un bonus de statut de +1 à tous les tests de compétence.</p>"
+        },
+        "Effect: Capture Magic": {
+            "name": "Effect: Capture Magic",
+            "description": "<p>La lame du magus obtient un bonus de statut de +2 aux dégâts de Cascade arcanique.</p>"
+        },
+        "Effect: Wolf Shape": {
+            "name": "Effect: Wolf Shape",
+            "description": "<p>Le barghest obtient une Vitesse de 12 mètres et ses mâchoires obtiennent @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{Renversement}.</p>"
+        },
+        "Effect: Aggravating Aura": {
+            "name": "Effect: Aggravating Aura",
+            "description": "<p>La créature obtient une faiblesse contre tous les dégâts.</p>"
+        },
+        "Effect: Undead Mastery": {
+            "name": "Effect: Undead Mastery",
+            "description": "<p>La créature obtient un bonus de circonstances de +1 aux jets d'attaques, de dégâts, à la CA, aux jets de sauvegarde et aux tests de compétence.</p>"
+        },
+        "Effect: Slithering Vine": {
+            "name": "Effect: Slithering Vine",
+            "description": "<p>Le stelemora augmente l'allonge de sa Frappe de liane de 3 mètres jusqu'à la fin de leur tour.</p>"
+        },
+        "Effect: Caustic Drool": {
+            "name": "Effect: Caustic Drool",
+            "description": "<p>La Frappe de mâchoire du molosse chthonien inflige 2 dégâts d'acide supplémentaires en cas d'attaque réussie ou 4 points en cas de coup critique.</p>"
+        },
+        "Effect: Viscous Breath": {
+            "name": "Effect: Viscous Breath",
+            "description": "<p>Les créatures dans l'aura subissent une pénalité de statut de -2 à toutes les attaques physiques non-magiques qu'elles tentent.</p>"
+        },
+        "Effect: Divine Weapon": {
+            "name": "Effect: Divine Weapon",
+            "description": "<p>Le sabre dentelé de Sœur Maéri inflige 1d4 dégâts spirituels supplémentaires.</p>"
+        },
+        "Effect: Extract Bones": {
+            "name": "Effect: Extract Bones",
+            "description": "<p>Vous obtenez 50 Points de vie temporaires.</p>"
+        },
+        "Effect: Dragonhide": {
+            "name": "Effect: Dragonhide",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 à la CA.</p>"
+        },
+        "Effect: Mortal Reflection": {
+            "name": "Effect: Mortal Reflection",
+            "description": "<p>L'automate imparfait tire des émotions de la cible pour rappeler un semblant de sensation mortelle, obtenant un bonus de statut de +1,50 mètre à sa Vitesse pendant 1 minute.</p>"
+        },
+        "Effect: Medical Malpractice": {
+            "name": "Effect: Medical Malpractice",
+            "description": "<p>Les Frappes au corps-à-corps du chirurgien infligent des dégâts de précision supplémentaires contre la créature marquée.</p>"
+        },
+        "Effect: Drain Blood": {
+            "name": "Effect: Drain Blood",
+            "description": "<p>Vous obtenez 4d4 Points de vie temporaires</p>"
+        },
+        "Effect: Ravenous Young": {
+            "name": "Effect: Ravenous Young",
+            "description": "<p>Une fois qu'une larve est attachée, la cible est @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1}. Lorsque la larve reste attachée, la cible ne peut pas récupérer de ses blessures de saignement.</p>",
+            "rules": {
+                "2": {
+                    "text": "{item|system.description.value}"
+                }
+            }
+        },
+        "Effect: Volcanic Purge": {
+            "name": "Effect: Volcanic Purge",
+            "description": "<p>Tant que vous subissez ces dégâts de feu persistants, vous subissez également une pénalité de statut de -3 mètres à vos Vitesses.</p>"
+        },
+        "Effect: Shields Up!": {
+            "name": "Effect: Shields Up!",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à la Ca et aux jets de Réflexes.</p>"
+        },
+        "Effect: Call to Blood": {
+            "name": "Effect: Call to Blood",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets d'attaque contre les créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+        },
+        "Effect: Musk": {
+            "name": "Effect: Musk",
+            "description": "<p>La créature subit une pénalité de 12 aux tests de Discrétion.</p>"
+        },
+        "Effect: Utter Despair": {
+            "name": "Effect: Utter Despair",
+            "description": "<p>Les créatures vivantes sont effrayées 2 tant qu'elles se trouvent dans l'aura de grand désespoir. Elles ne peuvent se remettre naturellement de cette terreur tant qu'elles restent dans l'aura, mais l'état effrayé disparaît immédiatement si elles la quittent.</p>"
+        },
+        "Effect: Queen's Presence": {
+            "name": "Effect: Queen's Presence",
+            "description": "<p>Vous obtenez un bonus de statut de +2 aux jets de sauvegarde contre les effets d'émotion.</p>"
+        },
+        "Effect: Bloodline Magic": {
+            "name": "Effect: Bloodline Magic",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux tests de Duperie.</p>"
+        },
+        "Effect: Demon-Touched Weapon": {
+            "name": "Effect: Demon-Touched Weapon",
+            "description": "<p>Shenga inflige 1d6 dégâts de saignement avec ses Frappes au corps-à-corps.</p>"
+        },
+        "Effect: My Turn!": {
+            "name": "Effect: My Turn!",
+            "description": "<p>Kar obtient un bonus de statut de +1 à ses jets d'attaques, de sauvegarde et ses tests de compétences.</p>"
+        },
+        "Effect: Loathsome Bite": {
+            "name": "Effect: Loathsome Bite",
+            "description": "<p>Vous subissez une pénalité de statut de -1 aux tests de compétences basés sur le Charisme.</p>"
+        },
+        "Effect: Vomit Tar": {
+            "name": "Effect: Vomit Tar",
+            "description": "<p>La créature est Ralentie 1 et obtient une faiblesse 5 contre le feu.</p>"
+        },
+        "Effect: Witchflame (Critical Failure)": {
+            "name": "Effect: Witchflame (Critical Failure)",
+            "description": "<p>La créature obtient une faiblesse contre le feu 10.</p>"
+        },
+        "Effect: Rockfall Failure": {
+            "name": "Effect: Rockfall Failure",
+            "description": "<p>La créature affectée subit une pénalité de circonstances de -3 mètres à ses Vitesses de déplacement pendant 1 round.</p>"
+        },
+        "Effect: Vamollaroth Stench": {
+            "name": "Effect: Vamollaroth Stench",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 aux jets de sauvegarde conter le poison et pour récupérer de l'état @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux}.</p>"
+        },
+        "Effect: Unsettling Attention": {
+            "name": "Effect: Unsettling Attention",
+            "description": "<p><strong>Échec</strong> La créature est déconcertée et subit une pénalité de -2 à tous les jets contre les effets de terreur tant qu'ils restent au sein du maléfice contenant Candlemere.</p>"
+        },
+        "Effect: Drain Luck (Failure)": {
+            "name": "Effect: Drain Luck (Failure)",
+            "description": "<p>Accordé par Drain de chance.</p>\n<p>Vous devez lancer deux fois les dés et prendre le pire résultat pour tous les tests.</p>"
+        },
+        "Effect: Crushing Spirits": {
+            "name": "Effect: Crushing Spirits",
+            "description": "<p>La créature subit une pénalité de circonstances de -3 mètres à toutes ses Vitesses.</p>"
+        },
+        "Effect: Deceitful Feast (Failure)": {
+            "name": "Effect: Deceitful Feast (Failure)",
+            "description": "<p>La créature subit une pénalité de -1 de circonstances aux jets de Volonté contre les sorts ou les capacités du brughadatch. La pénalité augmente après chaque échec à une sauvegarde, jusqu'à un maximum de -5.</p>"
+        },
+        "Effect: Furious Possession": {
+            "name": "Effect: Furious Possession",
+            "description": "<p>La créature obtient 12 Points de vie temporaires qui sont perdus lorsque la possession se termine. Pendant la possession, la créature émet l'aura Pulsion de rage. A chaque fois que la créature effectue une attaque au corps-à-corps, l'esprit peut substituer ses modificateurs d'attaque de griffe, le montant des dégâts ou les deux, en lieu et place des modificateurs de la créature.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.GC5441z8i7N8swk1]{Effet : Pulsion de rage}</p>"
+        },
+        "Stance: Hunter's Precision": {
+            "name": "Stance: Hunter's Precision",
+            "description": "<p>Vos Frappes infligent 2d8 dégâts de précision supplémentaires et le facteur de portée de votre arme à distance pour vos Frappes d'arme à distance est de 6 mètres supérieur à la normale. Sur un coup critique, la cible subit 2d6 dégâts de saignement.</p>"
+        },
+        "Effect: Timely Advice": {
+            "name": "Effect: Timely Advice",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 au jet déclencheur.</p>"
+        },
+        "Effect: Conduct the Experiment": {
+            "name": "Effect: Conduct the Experiment",
+            "description": "<p>Vos Frappes au corps-à-corps infligent 2d8 dégâts de précision supplémentaires contre la créature marquée.</p>"
+        },
+        "Effect: Restorative Halo": {
+            "name": "Effect: Restorative Halo",
+            "description": "<p>Vous bénéficiez d'une Guérison accélérée égale à la moitié du niveau de l'origine.</p>"
+        },
+        "Effect: Reminder of Doom": {
+            "name": "Effect: Reminder of Doom",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets d'attaque et aux jets de dégâts.</p>"
+        },
+        "Effect: Hampering Fusillade": {
+            "name": "Effect: Hampering Fusillade",
+            "description": "<p>Vous subissez une pénalité de circonstances de -3 mètres à votre Vitesse.</p>"
+        },
+        "Effect: Claim Corpse - Skeletal": {
+            "name": "Effect: Claim Corpse - Skeletal"
+        },
+        "Effect: Troop Harrowing": {
+            "name": "Effect: Troop Harrowing",
+            "description": "<p>Vous subissez une pénalité de statut à votre jet de sauvegarde ou à votre CA contre un sort.</p>"
+        },
+        "Effect: Bolster Torag's Chosen": {
+            "name": "Effect: Bolster Torag's Chosen",
+            "description": "<p>Vous obtenez un bonus de statut de +1 à la CA et les jets de Volonté.</p>"
+        },
+        "Effect: Primal Sink": {
+            "name": "Effect: Primal Sink",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque, aux jets de sauvegarde, aux tests de compétence et au DD des jets de sauvegarde contre l'empoisonnement.</p>"
+        },
+        "Effect: Guiding Words": {
+            "name": "Effect: Guiding Words",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque et de dégâts contre la créature marquée.</p>"
+        },
+        "Effect: Downcast": {
+            "name": "Effect: Downcast",
+            "description": "<p>La créature subit une pénalité de statut de -1 à ses jets d'attaque.</p>"
+        },
+        "Effect: Brimstone Blessing": {
+            "name": "Effect: Brimstone Blessing",
+            "description": "<p>Le trident inflige 2d6 dégâts de feu supplémentaires, obtient le trait impie et les effets d'une rune boomerang.</p>"
+        },
+        "Effect: Zinba Restoration": {
+            "name": "Effect: Zinba Restoration",
+            "description": "<p>La créature obtient Guérison accélérée 5 pendant 1 minute.</p>"
+        },
+        "Effect: Sandstorm": {
+            "name": "Effect: Sandstorm",
+            "description": "<p>La créature subit une pénalité de circonstances de -4 à ses tests de Perception.</p>"
+        },
+        "Effect: Mist Cloud": {
+            "name": "Effect: Mist Cloud",
+            "description": "<p>Les créatures dans l'aura sont masquées.</p>"
+        },
+        "Effect: To Shreds (AC Penalty)": {
+            "name": "Effect: To Shreds (AC Penalty)",
+            "description": "<p>Vous subissez une pénalité de circonstances de -2 à votre CA.</p>"
+        },
+        "Effect: Devour Soul": {
+            "name": "Effect: Devour Soul",
+            "description": "<p>La créature obtient 10 Points de vie temporaires et un bonus de statut de +2 aux jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Call to Action": {
+            "name": "Effect: Call to Action",
+            "description": "<p>La créature obtient un bonus de statut de +1 à l'attaque et aux jets de dégâts.</p>"
+        },
+        "Effect: Depth Charge": {
+            "name": "Effect: Depth Charge",
+            "description": "<p>Vous subissez une pénalité de circonstances de -2 aux tests d'Acrobaties aux tests pour Garder l'équilibre et aux tests d'Athlétisme pour Nager. Si vous obtenez un échec critique sur le jet de sauvegarde, vous êtes également sourd.</p>"
+        },
+        "Effect: Heart Break": {
+            "name": "Effect: Heart Break",
+            "description": "<p>Jusqu'à la fin de son prochain tour, chaque ennemi dans un rayon de 18 mètres subit une pénalité d'objet de -1 à ses jets de Volonté.</p>"
+        },
+        "Effect: Bittersweet Dreams": {
+            "name": "Effect: Bittersweet Dreams",
+            "description": "<p>La créature subit une pénalité de statut à ses jets d'attaque, de sauvegarde et tests de compétence dépendant du résultat de son jet de sauvegarde.</p>"
+        },
+        "Effect: Drain Life (Wight Spell Sniper)": {
+            "name": "Effect: Drain Life (Wight Spell Sniper)",
+            "description": "<p>Vous obtenez 2d6 Points de vie temporaires.</p>"
+        },
+        "Effect: Riding Zogototaru": {
+            "name": "Effect: Riding Zogototaru",
+            "description": "<p>Vous subissez une pénalité de circonstances de -2 à vos jets de Réflexes contre les balayages de Zogototaru.</p>"
+        },
+        "Effect: Fox's Wager": {
+            "name": "Effect: Fox's Wager",
+            "description": "<p>La cible obtient un bonus de statut de +1 aux jets d'attaques et un bonus de statut de +5 aux dégâts contre des créatures artificielles, les objets et les structures construites par les humanoïdes. Il obtient un bonus de statut de +2 aux tests de Discrétion contre les humanoïdes.</p>"
+        },
+        "Effect: Rockfall Critical Failure": {
+            "name": "Effect: Rockfall Critical Failure",
+            "description": "<p>La créature affectée subit une pénalité de circonstances de -6 mètres à ses Vitesses de déplacement pendant 2 rounds.</p>"
+        },
+        "Effect: Warded Casting": {
+            "name": "Effect: Warded Casting",
+            "description": "<p>Émaliza obtient 20 Points de vie temporaires et une résistance 20 contre les dégâts d'acide, d'électricité, de feu ou de froid.</p>"
+        },
+        "Effect: Inspiring Aura": {
+            "name": "Effect: Inspiring Aura",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'initiative et aux jets de sauvegarde contre les effets de terreur.</p>"
+        },
+        "Effect: Entangling Train": {
+            "name": "Effect: Entangling Train",
+            "description": "<p>La créature subit une pénalité de circonstances de -4,50 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Cloud of Allergens": {
+            "name": "Effect: Cloud of Allergens",
+            "description": "<p>Vous subissez une pénalité de circonstances de –1 aux tests de compétence qui possèdent le trait concentration et à tous les tests de Perception à l'intérieur du nuage.</p>"
+        },
+        "Effect: Vent Energy": {
+            "name": "Effect: Vent Energy",
+            "description": "<p>L'arme et les frappes de l'hadrinnex infligent 2d6 dégâts d'énergie supplémentaires en fonction du type de dégâts dans la glande énergétique.</p>"
+        },
+        "Effect: Greased Palms": {
+            "name": "Effect: Greased Palms",
+            "description": "<p>Vous obtenez un bonus de statut de +2 aux tests pour Recueillir des informations dans la localité du shérif.</p>"
+        },
+        "Effect: War Cry": {
+            "name": "Effect: War Cry",
+            "description": "<p>Vous obtenez 1d6 dégâts supplémentaires avec vos Frappes.</p>"
+        },
+        "Effect: Graveknight's Curse": {
+            "name": "Effect: Graveknight's Curse",
+            "description": "<p>La Vitesse de la créature est réduite de -3 mètres.</p>"
+        },
+        "Effect: Forgiven Defaced Naiad Queen's Thanks": {
+            "name": "Effect: Forgiven Defaced Naiad Queen's Thanks",
+            "description": "<p>Vous obtenez un bonus de statut de +3 à ses tests de Connaissances et à ses jets de sauvegarde contre les effets de terreur pendant 24 heures.</p>"
+        },
+        "Effect: Catchy Slogan": {
+            "name": "Effect: Catchy Slogan",
+            "description": "<p>Vous obtenez un bonus de statut de +1 à vos attaques et vos dégâts.</p>"
+        },
+        "Effect: Consume Organ": {
+            "name": "Effect: Consume Organ",
+            "description": "<p>La créature obtient 15 Points de vie temporaires et un bonus de statut de +1 aux jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Lurker's Glow (Critical Failure)": {
+            "name": "Effect: Lurker's Glow (Critical Failure)",
+            "description": "<p>La créature diffuse une lumière vive dans une émanation de 6 mètres pendant toute la durée de l'effet</p>"
+        },
+        "Effect: Discerning Aura": {
+            "name": "Effect: Discerning Aura",
+            "description": "<p>Tous les morts-vivants dans l'aura sont soulignés de bleu; émettant une lumière faible dans un rayon de 1,50 mètre.</p>"
+        },
+        "Effect: Wallow": {
+            "name": "Effect: Wallow",
+            "description": "<p>Le porc de guerre obtient des points de vie temporaires.</p>"
+        },
+        "Effect: Curse of Fire": {
+            "name": "Effect: Curse of Fire",
+            "description": "<p>La créature obtient une faiblesse contre le feu 15.</p>"
+        },
+        "Effect: Pest Haven": {
+            "name": "Effect: Pest Haven",
+            "description": "<p>Toute nuée partageant l'espace d'un maille-peaux gagne @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ]{Guérison accélérée 3}</p>"
+        },
+        "Effect: Technology Control": {
+            "name": "Effect: Technology Control",
+            "description": "<p>La cible subit une pénalité de circonstances de -2 a ses jets d'attaques et à ses DD contre une créature qu'elle ne devrait normalement pas attaquer.</p>\n<hr />\n<p><em>Note : Cet effet applique une pénalité à tous les jets et à tous les DD lorsqu'il est actif.</em></p>"
+        },
+        "Effect: Inspiring Display": {
+            "name": "Effect: Inspiring Display",
+            "description": "<p>Cette cible obtient obtient 4 Points de vie temporaires qui durent jusqu'au début du prochain tour du mage des cavernes.</p>"
+        },
+        "Effect: Drain Vigor": {
+            "name": "Effect: Drain Vigor",
+            "description": "<p>Vous obtenez 20 Points de vie temporaires.</p>"
+        },
+        "Effect: Hypnotic Stare": {
+            "name": "Effect: Hypnotic Stare",
+            "description": "<p>La cible subit une pénalité de -2 aux jets de Volonté.</p>"
+        },
+        "Effect: Fueled by Spite": {
+            "name": "Effect: Fueled by Spite",
+            "description": "<p>Le bataillon gagne 6 points de vie temporaires.</p>"
+        },
+        "Effect: Aura of Corruption": {
+            "name": "Effect: Aura of Corruption",
+            "description": "<p>La créature est considérée comme si elle était une plante pour les besoins de tout effet qui blesserait particulièrement ou qui aurait des inconvénients pour des créatures plantes plus que d'autres créatures, mais elle n'obtient aucun avantage du fait d'être une créature plante.</p>"
+        },
+        "Effect: Guide's Warning": {
+            "name": "Effect: Guide's Warning",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 aux jets d'initiative (+2 si l'éclaireur était en train de Reconnaître).</p>"
+        },
+        "Effect: Bound in Death": {
+            "name": "Effect: Bound in Death",
+            "description": "<p>Vos Frappes au corps-à-corps infligent 1d6 dégâts de vide persistants.</p>"
+        },
+        "Effect: Manipulate Luck (Good)": {
+            "name": "Effect: Manipulate Luck (Good)",
+            "description": "<p>La créature affectée peut jeter deux fois un d20 dans la minute qui suit, et utiliser le meilleur résultat.</p>"
+        },
+        "Effect: Words of Encouragement": {
+            "name": "Effect: Words of Encouragement",
+            "description": "<p>Vous ignorez toutes pénalités de circonstances ou de statut que vous pourriez avoir.</p>"
+        },
+        "Effect: Beguiling Presence": {
+            "name": "Effect: Beguiling Presence",
+            "description": "<p>Les créatures dans la zone qui peuvent observer le courtisan subissent une pénalité de statut de -2 sur leur DD de Volonté contre les tentatives du courtisan de les Solliciter.</p>"
+        },
+        "Effect: Lawbringer": {
+            "name": "Effect: Lawbringer",
+            "description": "<p>Le maréchal protecteur marque un ennemi pour le jugement.</p>"
+        },
+        "Effect: Grasp of the Deep": {
+            "name": "Effect: Grasp of the Deep",
+            "description": "<p>La créature obtient une faiblesse contre le froid 10 et subit une pénalité de statut de -2 aux jets de Vigueur.</p>"
+        },
+        "Effect: Create Opening": {
+            "name": "Effect: Create Opening",
+            "description": "<p>Vous subissez une pénalité de statut de -2 à la CA contre la prochaine Frappe effectuée contre vous.</p>"
+        },
+        "Effect: Sylvan Wine (Horned Hunter)": {
+            "name": "Effect: Sylvan Wine (Horned Hunter)",
+            "description": "<p>La créature obtient un bonus d'objet de +3 aux jets de Volonté.</p>"
+        },
+        "Effect: Parry Dance": {
+            "name": "Effect: Parry Dance",
+            "description": "<p>Le débauché obtient un bonus de circonstances de +2 à sa CA jusqu'à la fin de son prochain tour.</p>"
+        },
+        "Effect: Pilgrim's Ward": {
+            "name": "Effect: Pilgrim's Ward",
+            "description": "<p>Vous obtenez un bonus de statut de +1 à tous les tests de Religion et aux jets de Volonté.</p>"
+        },
+        "Effect: Thaw the Heart": {
+            "name": "Effect: Thaw the Heart",
+            "description": "<p>Vous perdez votre immunité contre les effets d'émotion et devenez Ralentie 1</p>"
+        },
+        "Effect: Magnificent…!": {
+            "name": "Effect: Magnificent…!",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque et de dégâts contre la créature marquée.</p>\n<p>L'origine inflige 3d6 dégâts de précision supplémentaires avec ses armes et Frappes à mains nues qui touchent cette créature.</p>"
+        },
+        "Effect: Ironblood Stance": {
+            "name": "Effect: Ironblood Stance",
+            "description": "<p>Nakasha adopte une posture d'acier impénétrable. Tant qu'elle est dans cette posture, Nakasha peut effectuer des attaques de balayage de fer avec ses poings et obtient une résistance 2 contre tous les dégâts.</p>"
+        },
+        "Effect: Rapid Evolution - Energy Gland": {
+            "name": "Effect: Rapid Evolution - Energy Gland",
+            "description": "<p>La créature obtient une résistance aux dégâts d'énergie similaire au type déclencheur.</p>"
+        },
+        "Effect: Invoke Rune": {
+            "name": "Effect: Invoke Rune",
+            "description": "<p>Une copie brillante de la rune invoquée apparaît sur une unique arme que le géant tient, accordant à l'arme un effet au choix du géant.</p>"
+        },
+        "Effect: Cat Sith's Mark": {
+            "name": "Effect: Cat Sith's Mark",
+            "description": "<p>Lorsque la créature maudite obtient un succès critique sur un test de compétence ou un jet de sauvegarde, il devient un succès. Chaque jour, la créature maudite peut tenter un @Check[flat|dc:10|traits:curse,misfortune|name:Briser la marque du chat sith] pour briser la malédiction.</p>"
+        },
+        "Effect: Read the Stars (Critical Success)": {
+            "name": "Effect: Read the Stars (Critical Success)",
+            "description": "<p>La créature obtient un bonus de circonstances de +1 aux jets de sauvegarde.</p>"
+        },
+        "Effect: Infernal Wound": {
+            "name": "Effect: Infernal Wound",
+            "description": "<p>Le DD du test nu pour arrêter le saignement est de 20. Le DD est réduit à 15 si la créature qui saigne ou un allié obtient un succès pour l'assister.</p>"
+        },
+        "Effect: Guardian's Aegis": {
+            "name": "Effect: Guardian's Aegis",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets de sauvegarde contre les effets magiques. Le bonus passe à +2 si l'effet est issu d'une créature fiélonne.</p>"
+        },
+        "Effect: Surgical Rend": {
+            "name": "Effect: Surgical Rend",
+            "description": "<p>Jusqu'à ce que la créature ait récupéré tous ses Points de vie, ce qui referme la blessure, les Frappes contre la créature infligent 1d6 dégâts de précision supplémentaires.</p>"
+        },
+        "Effect: Raise Guard": {
+            "name": "Effect: Raise Guard",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Conductive Downpour": {
+            "name": "Effect: Conductive Downpour",
+            "description": "<p>Les créatures dans l'aura subissent une faiblesse 10 contre l'électricité.</p>"
+        },
+        "Effect: Manipulate Luck (Bad)": {
+            "name": "Effect: Manipulate Luck (Bad)",
+            "description": "<p>La créature affectée peut jeter deux fois son prochain d20 et utiliser le résultat le moins bon.</p>"
+        },
+        "Effect: Inspire Courage (Love Siktempora)": {
+            "name": "Effect: Inspire Courage (Love Siktempora)",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets d'attaque, aux jets de dégâts et aux jets de sauvegarde contre les effets de terreur.</p>"
+        },
+        "Effect: Hasty Traps": {
+            "name": "Effect: Hasty Traps",
+            "description": "<p>Vous subissez une pénalité de statut de -1,50 mètre à vos vitesses tant que vous subissez des dégâts de saignement.</p>"
+        },
+        "Effect: Hallucinogenic Pollen (Failure)": {
+            "name": "Effect: Hallucinogenic Pollen (Failure)",
+            "description": "<p>La créature subit une pénalité de statut de -2 aux tests de Perception et aux jets de sauvegarde contre les effets mentaux.</p>"
+        },
+        "Effect: Untamed Shift (Oaksteward)": {
+            "name": "Effect: Untamed Shift (Oaksteward)",
+            "description": "<p>La main du Gardien des chênes obtient une attaque de griffes.</p>"
+        },
+        "Effect: Inspire Envoy": {
+            "name": "Effect: Inspire Envoy",
+            "description": "<p>La créature obtient un bonus de statut à ses jets d'attaque, sa CA ou toutes les compétences suivantes : Perception, Jets de sauvegarde et les tests de compétence basés sur le charisme. La valeur de ce bonus dépend des spécificités de la créature qui octroie ce bonus.</p>"
+        },
+        "Effect: Aura of Righteousness": {
+            "name": "Effect: Aura of Righteousness",
+            "description": "<p>Vous obtenez un bonus de statut +2 à votre CA et un bonus de statut de +2 aux jets de dégâts contre les créatures impies.</p>"
+        },
+        "Effect: Cooperative Hunting": {
+            "name": "Effect: Cooperative Hunting",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à votre prochain jet d'attaque de frappe.</p>"
+        },
+        "Effect: Motivating Assault": {
+            "name": "Effect: Motivating Assault",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque, aux jets de dégâts et aux jets de sauvegarde contre les effets de terreur.</p>"
+        },
+        "Effect: Inspired Feast": {
+            "name": "Effect: Inspired Feast",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets d'attaque et un bonus de statut de +2 aux jets de dégâts.</p>"
+        },
+        "Effect: Lantern of Hope": {
+            "name": "Effect: Lantern of Hope",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets de dégâts et aux jets de sauvegarde contre @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{Vague de désespoir}.</p>",
+            "rules": {
+                "1": {
+                    "label": "Lanterne d'espoir (contre Vague de désespoir)"
+                }
+            }
+        },
+        "Effect: Enraging Whistle": {
+            "name": "Effect: Enraging Whistle",
+            "description": "<p>Les animaux obtiennent un bonus de statut de +1 à leur jets d'attaque et aux dégâts</p>"
+        },
+        "Effect: Share Defenses": {
+            "name": "Effect: Share Defenses",
+            "description": "<p>La créature obtient une résistance au froid 10.</p>"
+        },
+        "Effect: Noxious Smog": {
+            "name": "Effect: Noxious Smog",
+            "description": "<p>Les créatures dans l'aura sont Masquées.</p>"
+        },
+        "Effect: Battle Cry": {
+            "name": "Effect: Battle Cry",
+            "description": "<p>La créature obtient un bonus de statut de +1 à ses jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Darivan's Bloodline Magic": {
+            "name": "Effect: Darivan's Bloodline Magic",
+            "description": "<p>Lorsque la magie de lignage de Darivan s'active, ses mouvements prennent une grâce surnaturelle et distraient une cible ; cela confère à Darivan un bonus de statut de +1 aux tests de Diplomatie pendant 1 round et impose à cette cible une pénalité de statut de -1 à ses jets de Volonté pendant 1 round.</p>"
+        },
+        "Effect: Read the Cards": {
+            "name": "Effect: Read the Cards",
+            "description": "<p>Lancez [[/r 1d6]]{1d6} pour déterminer une couleur. La créature du Tourment obtient les effets de la couleur pendant 1 minute. Si la couleur correspond à la couleur de la créature du Tourment, la valeur est doublée.</p>\n<ol>\n<li><strong>Marteaux</strong> The harrowkin gains a +2 status bonus to damage rolls.</li>\n<li><strong>Clés</strong> La créature du Tourment obtient un bonus de statut de +1 à la CA.</li>\n<li><strong>Boucliers</strong> La créature du Tourment obtient Guérison accélérée 5.</li>\n<li><strong>Livres</strong> La créature du Tourment obtient un bonus de statut de +1 aux tests de compétences.</li>\n<li><strong>Étoiles</strong> La créature du Tourment obtient un bonus de statut de +1 aux jets de sauvegarde.</li>\n<li><strong>Couronnes</strong> La créature du Tourment peut relancer 1 test au cours de la prochaine minute et prendre le résultat le plus élevé. C'est un effet de chance.</li>\n</ol>"
+        },
+        "Effect: Harmonizing Aura (Enemies)": {
+            "name": "Effect: Harmonizing Aura (Enemies)",
+            "description": "<p>La créature obtient un bonus de statut de -2 aux jets de dégâts de son et un bonus de statut de -1 à la CA et aux jets de sauvegarde contre les effets de son et audibles.</p>",
+            "rules": {
+                "0": {
+                    "label": "Aura d'harmonisation"
+                },
+                "1": {
+                    "label": "Aura d'harmonisation"
+                }
+            }
+        },
+        "Effect: Viscous Trap": {
+            "name": "Effect: Viscous Trap",
+            "description": "<p>La créature subit une pénalité de circonstances de -4,50 mètres à toutes ses Vitesses.</p>"
+        },
+        "Effect: Goblin Song": {
+            "name": "Effect: Goblin Song",
+            "description": "<p>La créature subit une pénalité de statut de -1 aux test de Perception et aux jets de Volonté.</p>"
+        },
+        "Effect: Flesh Mutation": {
+            "name": "Effect: Flesh Mutation",
+            "description": "<p>Vous êtes affecté par un effet selon le résultat.</p>\np><strong>1 Chair spongieuse</strong> Vous subissez une faiblesse 5 contre les dégâts physiques.</p>\n<p><strong>2 Sang corrosif</strong> Vous subissez 2d4 dégâts d'acide persistant qui ne peuvent être soignés normalement, mais qui cessent lorsque la mutation prend fin.</p>\n<p><strong>3 Yeux bourgeonnants</strong> Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ébloui}, mais vous êtes également immunisé contre la Prise en tenaille.</p>\n<p><strong>4 Esprit muté</strong> Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confus}. Vous pouvez toujours récupérer comme indiqué dans l'état, mais si vous le faites, vous restez @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} jusqu'à la fin de la mutation.</p>"
+        },
+        "Effect: Reflective Arrows (Penalty)": {
+            "name": "Effect: Reflective Arrows (Penalty)",
+            "description": "<p>Vous subissez une pénalité de circonstances de -1 au jet de sauvegarde contre les Flèches réfléchissantes.</p>"
+        },
+        "Effect: Commanding Aura (Quara)": {
+            "name": "Effect: Commanding Aura (Quara)",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.JrowrtDilEG8dN2s]{Quara Orshendiel}</p>\n<p>Les drows autour de Quara sont ragaillardis par sa présence. Ses alliés drows dans l'aura obtiennent un bonus de statut de +1 aux jets d'attaque et de compétences.</p>"
+        },
+        "Effect: Drink Emotions": {
+            "name": "Effect: Drink Emotions",
+            "description": "<p>Lorsqu'il est excité, l'empathe insensible subit une pénalité de -1 à la CA, obtient un bonus de statut de +1 à ses jets d'attaque et inflige 1d4 dégâts mentaux supplémentaires avec ses Frappes au corps-à-corps.</p>"
+        },
+        "Effect: Transfer Protection": {
+            "name": "Effect: Transfer Protection",
+            "description": "<p>Une créature peut porter un cassissien comme un casque. Lorsqu'elle le fait, un cassissien ne peut agir mais le cassissien étend son bonus de statut de +1 à la CA et aux jets de sauvegarde contre les créatures impies à son porteur. À tout moment, le cassissien peut se détacher de lui-même de son porteur par une action unique.</p>"
+        },
+        "Effect: Posse's Edge": {
+            "name": "Effect: Posse's Edge",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 sur vos jets d'initiative.</p>"
+        },
+        "Effect: Countered by Fire": {
+            "name": "Effect: Countered by Fire",
+            "description": "<p>La créature subit une pénalité de circonstances de -1 à ses jets d'attaques et à sa CA, et sa Frappe de mâchoire n'inflige par des dégâts d'électricité</p>"
+        },
+        "Effect: Static Field": {
+            "name": "Effect: Static Field",
+            "description": "<p>Les créatures plantes obtiennent 5 Points de vie temporaires.</p>"
+        },
+        "Effect: Under Command": {
+            "name": "Effect: Under Command",
+            "description": "<p>Vous êtes sous les ordres d'un capitaine de la garde.</p>"
+        },
+        "Effect: Assimilate Lava": {
+            "name": "Effect: Assimilate Lava",
+            "description": "<p>Un golem d'obsidienne qui s'immerge dans la lave ou le magma ne subit aucun dégât et, tant qu'il reste immergé de la sorte, il devient Ralenti 2 et obtient Guérison accélérée 15.</p>"
+        },
+        "Effect: Don Mask": {
+            "name": "Effect: Don Mask",
+            "description": "<p>Le mime obtient une faveur primordiale :</p>\n<ul>\n  <li><strong>Akkarok le Brûlant</strong> Les Frappes au corps-à-corps du mime infligent 2d6 dégâts de feu supplémentaires.</li>\n  <li><strong>Hazi Porté par le zéphyr</strong> Le mime obtient une Vitesse de vol de 6 mètres.</li>\n  <li><strong>Roi des tempêtes</strong> Le mime obtient la réaction Frappe réactive utilisable uniquement avec sa queue.</li>\n  <li><strong>Nessek, le Danseur des vagues</strong> Les Frappes de griffe du mime infligent 2d4 dégâts de saignement supplémentaires.</li>\n  <li><strong>Zalok, Qui a été appelé au Port noir</strong> Le mime obtient un bonus de statut de +3 mètres à sa Vitesse de déplacement et de Nage.</li>\n</ul>"
+        },
+        "Effect: Prepare Fangs": {
+            "name": "Effect: Prepare Fangs",
+            "description": "<p>Les dagues infligent des dégâts de poison égaux à la valeur de contre.</p>"
+        },
+        "Effect: Natural Disguise": {
+            "name": "Effect: Natural Disguise",
+            "description": "<p>Vous obtenez un bonus d'objet de +2 à vos tests de Discrétion dans un environnement naturel jusqu'à vos prochains préparatifs quotidiens ou jusqu'à ce que son déguisement soit découvert, selon ce qui se produit en premier.</p>"
+        },
+        "Effect: Aura of Protection (Solar)": {
+            "name": "Effect: Aura of Protection (Solar)",
+            "description": "<p>Les alliés dans l'aura du solar obtiennent un bonus de statut de +2 à leur CA contre les créatures impies et un bonus de statut de +2 contre ces dernières. Ce bonus passe à +4 contre le contrôle par des créatures impies et les attaques par des créatures impies convoquées.</p>"
+        },
+        "Effect: Regression": {
+            "name": "Effect: Regression",
+            "description": "<p>La créature rétrécit d'une taille et toutes les maîtrises de la cible qui sont expertes ou supérieures sont ramenées à qualifiées.</p>"
+        },
+        "Effect: Damned Restoration": {
+            "name": "Effect: Damned Restoration",
+            "description": "<p>Vous obtenez un bonus de statut de +2 à vos jets de dégâts.</p>"
+        },
+        "Effect: Psychic Daze": {
+            "name": "Effect: Psychic Daze"
+        },
+        "Effect: Will Not Falter": {
+            "name": "Effect: Will Not Falter",
+            "description": "<p>Vous obtenez un bonus de statut de +2 aux jets d'attaque et aux jets de sauvegarde contre la peur.</p>"
+        },
+        "Effect: Guildmaster's Lead": {
+            "name": "Effect: Guildmaster's Lead",
+            "description": "<p>Le membre de la Main de cuivre inflige 1d6 dégâts de précision supplémentaire la première fois qu'il inflige des dégâts.</p>"
+        },
+        "Effect: Rope Snare": {
+            "name": "Effect: Rope Snare",
+            "description": "<p>La créature subit une pénalité de circonstances de -3 mètres à sa Vitesse.</p>"
+        },
+        "Effect: Fiddle": {
+            "name": "Effect: Fiddle",
+            "description": "<p>Un air de viole entraînant pousse la créature à danser</p>\n<p><strong>Échec</strong> @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} et une pénalité de statut de -3 mètres aux Vitesses.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec mais également @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1}.</p>"
+        },
+        "Effect: Electric Surge": {
+            "name": "Effect: Electric Surge",
+            "description": "<p>Le tertre errant obtient 12 Points de vie temporaire et est Accéléré.</p>"
+        },
+        "Effect: Energy Ward": {
+            "name": "Effect: Energy Ward",
+            "description": "<p>La créature obtient une résistance 15 contre les dégâts déclencheurs, remplaçant tout autre resistance obtenue de cette capacité. Les frappes au corps-à-corps de la créature infligent aussi 4d10 dégâts supplémentaires de ce type.</p>"
+        },
+        "Effect: Glowing Spores": {
+            "name": "Effect: Glowing Spores",
+            "description": "<p>La créature subit une pénalité de -4 à ses tests de Discrétion.</p>"
+        },
+        "Effect: Soul Roar (Ally)": {
+            "name": "Effect: Soul Roar (Ally)",
+            "description": "<p>Vous obtenez des Points de vie temporaires égaux au niveau de l'origine.</p>"
+        },
+        "Effect: Fetid Fumes": {
+            "name": "Effect: Fetid Fumes",
+            "description": "<p>Tout ce qui est contenu dans l'aura est Masqué par la fumée.</p>"
+        },
+        "Effect: Engulf and Swallow Whole": {
+            "name": "Effect: Engulf and Swallow Whole",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.zU3Ovaet4xQ5Gmvy]{Engloutissement} ou @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{Gober}</p>\n<p>Vous êtez Agrippé, Ralenti 1 et vous devez retenir votre souffle ou commencer à suffoquer. Vous ne pouvez attaquer l'origine qu'avec des attaques à mains nues ou avec des armes d'Encombrement léger ou inférieur et l'origine est Prise au dépourvu contre l'attaque. Si l'origine subit des dégâts perforants ou tranchants supérieurs ou égaux à la valeur de Rupture indiqué par une unique attaque ou un sort, vous parvenez à vous libérez par la déchirure.</p>"
+        },
+        "Effect: Haunting Wail": {
+            "name": "Effect: Haunting Wail",
+            "description": "<p>Vous obtenez faiblesse 10 contre le son.</p>"
+        },
+        "Effect: Bond in Light": {
+            "name": "Effect: Bond in Light",
+            "description": "<p>La créature brille d'une lumière vive dans un rayon de 6 mètres et d'une lumière faible jusqu'à 12 mètres et a une @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ]{Guérison accélérée 10}</p>"
+        },
+        "Effect: Repentant Defiance": {
+            "name": "Effect: Repentant Defiance",
+            "description": "<p>Vous obtenez une résistance 3 contre les dégâts physiques.</p>"
+        },
+        "Effect: Align the Stars": {
+            "name": "Effect: Align the Stars",
+            "description": "<p>Si vous êtes un allié, vous obtenez un bonus de circonstances de +2 à la CA. Si vous êtes un ennemi, d'autres créatures obtiennent un bonus de circonstances de +4 aux jets de dégâts contre vous.</p>"
+        },
+        "Effect: Pollution Infusion": {
+            "name": "Effect: Pollution Infusion"
+        },
+        "Effect: Avenge the Fallen": {
+            "name": "Effect: Avenge the Fallen",
+            "description": "<p>Vous lancez le jet d'attaque deux fois et prenez le meilleur résultat.</p>"
+        },
+        "Effect: On Guard": {
+            "name": "Effect: On Guard",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à votre jet d'initiative.</p>"
+        },
+        "Effect: Consume Memories": {
+            "name": "Effect: Consume Memories",
+            "description": "<p>Vordakai obtient un bonus de statut à tous les tests de compétence pendant une minute du fait d'Absorption de la mémoire.</p>"
+        },
+        "Effect: Filth Wave": {
+            "name": "Effect: Filth Wave",
+            "description": "<p>Vous subissez une pénalité de -3 mètres à vos Vitesses.</p>"
+        },
+        "Effect: Blood Frenzy": {
+            "name": "Effect: Blood Frenzy",
+            "description": "<p>La créature gagne des Points de vie temporaires et d'autres effets en fonction de la créature spécifique.</p>"
+        },
+        "Effect: Manipulate Luck - Drusilla (Good)": {
+            "name": "Effect: Manipulate Luck - Drusilla (Good)",
+            "description": "<p>La créature affectée peut jeter deux fois d20 sur un jet dans la prochaine journée et utiliser le résultat le meilleur.</p>"
+        },
+        "Effect: Fiery Rhetoric": {
+            "name": "Effect: Fiery Rhetoric",
+            "description": "<p>Vous subissez une pénalité de statut de -2 à vos tests de Perception et à vos jets de Volonté.</p>"
+        },
+        "Effect: Vulnerable to Curved Space": {
+            "name": "Effect: Vulnerable to Curved Space",
+            "description": "<p>Quand le chien de Tindalos n'est pas adjacent à un angle de 90º (ou plus aigu), sa résistance aux dégâts physiques est suspendue et il est Nauséeux 1.</p>"
+        },
+        "Effect: Bloodline Magic (Stirvyn Banyan)": {
+            "name": "Effect: Bloodline Magic (Stirvyn Banyan)",
+            "description": "<p>Quand Stirvyn lance un sort de lignage, une résurgence de souvenirs ancestraux lui confère à lui ou à la cible du sort un bonus de statut de +1 aux tests de compétence pendant un round.</p>"
+        },
+        "Effect: Fold Form": {
+            "name": "Effect: Fold Form",
+            "description": "<p>Le kinzaruk déplie et replie rapidement son corps sous une nouvelle forme choisie parmi les options de <em>Forme animale</em>. Cela lui accorde les Vitesses de déplacement et les Frappes de la forme choisie, mais aucun de ses autres avantages. Son bonus à l'attaque reste inchangé et son bonus aux dégâts est de +3.</p>"
+        },
+        "Effect: Paired Spikes": {
+            "name": "Effect: Paired Spikes",
+            "description": "<p>La créature obtient une faiblesse 15 contre les dégâts d'électricité.</p>"
+        },
+        "Effect: Inspired Recitation": {
+            "name": "Effect: Inspired Recitation",
+            "description": "<p>Tous les alliés dans les 18 mètres obtiennent un bonus de statut de +1 aux jets de sauvegarde et 10 Points de vie temporaires pendant 1 minute.</p>"
+        },
+        "Effect: Guiding Words (Guide)": {
+            "name": "Effect: Guiding Words (Guide)",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 aux jets d'attaque contre la créature marquée.</p>"
+        },
+        "Effect: Swig (Clumsy)": {
+            "name": "Effect: Swig (Clumsy)",
+            "description": "<p>Vous obtenez un bonus d'objet de +2 aux jets de dégâts au corps-à-corps et aux jets de sauvegarde contre la terreur mais êtes Maladroit 1.</p>"
+        },
+        "Effect: Void Shroud": {
+            "name": "Effect: Void Shroud",
+            "description": "<p>Des créatures vivantes dans l'émanation subissent une pénalité de -2 aux jets contre les effets de terreur et de mort.</p>"
+        },
+        "Effect: You'll Pay for That": {
+            "name": "Effect: You'll Pay for That",
+            "description": "<p>Vous obtenez un bonus de statut de +5 à vos prochains jets de dégâts contre l'ennemi marqué.</p>"
+        },
+        "Effect: Beacon of the Rowan Guard": {
+            "name": "Effect: Beacon of the Rowan Guard",
+            "description": "<p>Lorsqu'elle est au sein de l'émanation, une créature avec le trait élémentaire et soit le trait plante, soit le trait bois obtient guérison accélérée 10 et un bonus de circonstances de +2 à tous les jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Debilitating Sneak Attack": {
+            "name": "Effect: Debilitating Sneak Attack",
+            "description": "<p>Vous devenez soit Affaibli 1, soit subissez une pénalité de statut de -3 mètres à vos vitesses.</p>"
+        },
+        "Effect: Necrotic Field": {
+            "name": "Effect: Necrotic Field",
+            "description": "<p>Les morts-vivants dans l'aura infligent @Damage[1d6[void]]{1d6 dégâts de vide} supplémentaires avec leurs attaques naturelles.</p>"
+        },
+        "Effect: Warshard Healing": {
+            "name": "Effect: Warshard Healing",
+            "description": "<p>Vous obtenez guérison accélérée 5.</p>"
+        },
+        "Effect: All Are One": {
+            "name": "Effect: All Are One",
+            "description": "<p>La zone de maelström bioluminescent et l'allonge de sa Frappe de tentacule augmente de 3 mètres, jusqu'à un maximum de 9 mètres supplémentaires.</p>"
+        },
+        "Effect: Dero Medicine (Deg)": {
+            "name": "Effect: Dero Medicine (Deg)",
+            "description": "<p>Vous obtenez une faiblesse 5 contre les dégâts tranchants.</p>"
+        },
+        "Effect: Super Qi Blast": {
+            "name": "Effect: Super Qi Blast",
+            "description": "<p>Pour votre prochaine incantation de la version à deux actions du sort <em>Explosion qi</em>, la taille du cône passe à 36 mètres et les dégâts passent à 16d6. Vous augmentez votre taille d'une catégorie, infligeant +9 dégâts supplémentaires avec vos Frappes au corps-à-corps.</p>"
+        },
+        "Effect: Curse of Boiling Blood": {
+            "name": "Effect: Curse of Boiling Blood",
+            "description": "<p>La créature obtient une faiblesse contre le feu 20 et est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} à tout instant.</p>"
+        },
+        "Effect: Replenishment of War (Endlo)": {
+            "name": "Effect: Replenishment of War (Endlo)",
+            "description": "<p>Lorsqu'Endlo inflige des dégâts à une créature en la Frappant avec une Frappe d'épée à deux mains, il obtient 6 Points de vie temporaires jusqu'à la fin de son prochain tour. Si la Frappe est un coup critique, il obtient 12 Points de vie temporaires.</p>"
+        },
+        "Effect: Slime Trap": {
+            "name": "Effect: Slime Trap",
+            "description": "<p>La créature subit une pénalité de circonstances de -3 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Rapid Evolution - Husk": {
+            "name": "Effect: Rapid Evolution - Husk",
+            "description": "<p>La créature obtient une résistance aux dégâts physiques similaire au type déclencheur.</p>"
+        },
+        "Effect: Song of the Skies": {
+            "name": "Effect: Song of the Skies",
+            "description": "<p>Vous obtenez une vitesse de vol de 18 mètres.</p>"
+        },
+        "Effect: Bravado Aversion": {
+            "name": "Effect: Bravado Aversion",
+            "description": "<p>Un gargarthezul ne supporte pas d'être dépassé. La première fois chaque round qu'une créature le déstabilise, le repousse ou le fait trébucher avec succès, il subit @Damage[1d6[mental]]{1d6 dégâts mentaux}.</p>",
+            "rules": {
+                "0": {
+                    "text": "{item|description}"
+                }
+            }
+        },
+        "Effect: Hope Vulnerability": {
+            "name": "Effect: Hope Vulnerability",
+            "description": "<p>La première fois chaque round qu'une créature échoue critique à une attaque ou un test de compétence contre l'élegécide, elle ressent une explosion d'espoir qui la laisse @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>",
+            "rules": {
+                "0": {
+                    "text": "{objet|description}"
+                }
+            }
+        },
+        "Effect: Impaling Chain": {
+            "name": "Effect: Impaling Chain",
+            "description": "<p>La cible est empalée et clouée sur place et est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} par la chaîne. La créature est incapable de récupérer des dégâts de saignement tant qu'elle ne s'est pas libérée.</p>"
+        },
+        "Effect: Absorb Shock": {
+            "name": "Effect: Absorb Shock",
+            "description": "<p>Le buveur de tempête obtient 10 Points de vie temporaires, est accéléré et augmente l'allonge de ses attaques de vigne de 1,50 mètre.</p>"
+        },
+        "Effect: Snake Form": {
+            "name": "Effect: Snake Form",
+            "description": "<p>La Frappe de queue du bunyip obtient une allonge de 3 mètres et @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Agrippement/Agrippement} mais sa Frappe de mâchoires perd ses dégâts de saignement.</p>",
+            "rules": {
+                "0": {
+                    "text": "<p>@Localize[PF2E.AttackEffects.IncreasedReach5]</p><hr /><p><strong><span class='action-glyph'>1</span> @Localize[PF2E.AttackEffectGrab]</strong> ({item|name})</p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
+                }
+            }
+        },
+        "Effect: Totems of the Past": {
+            "name": "Effect: Totems of the Past",
+            "description": "<p>Tout allié homme-lézard dans la zone est inspiré, obtenant un bonus de statut de +1 aux jets d'attaque.</p>"
+        },
+        "Effect: Steward of the Faithful": {
+            "name": "Effect: Steward of the Faithful",
+            "description": "<p>Chaque allié dans l'aura qui croit en Pharasma obtient une résistance 5 contre le vide et un bonus de statut de +1 aux jets de Volonté, aux tests de Diplomatie et de Médecine.</p>"
+        },
+        "Effect: Bloodletting": {
+            "name": "Effect: Bloodletting",
+            "description": "<p>Père Écorcheur obtient 40 Points de vie temporaires.</p>"
+        },
+        "Effect: Binding Oath": {
+            "name": "Effect: Binding Oath",
+            "description": "<p>Vous obtenez automatiquement un succès critique aux jets de sauvegarde basique contre les capacités et sorts de l'origine.</p>"
+        },
+        "Effect: Bogwid Fever": {
+            "name": "Effect: Bogwid Fever",
+            "description": "<p>Vous êtes affaibli et le DD pour récupérer des dégâts de saignement augmente en fonction du stade de la maladie.</p>"
+        },
+        "Effect: Stoke the Fervent (High Tormentor)": {
+            "name": "Effect: Stoke the Fervent (High Tormentor)",
+            "description": "<p>Chaque allié qui entend l'appel obtient un bonus de statut de +4 à ses jets d'attaque et de dégâts, un bonus de statut de +2 à ses jets de sauvegarde et subit une pénalité de statut de -2 à sa CA. Les alliés affectés doivent utiliser au minimum une de leurs actions pour Frapper à chaque tour, s'ils le peuvent (même si cela implique d'attaquer un allié, un objet ou le vide).</p>\n<p><em>La durée de l'effet a été fixée à une durée moyenne pour [[/gmr 2d4 #rounds]]{2d4 rounds}. Fixez la durée correcte lorsque l'effet est ajouté.</em></p>"
+        },
+        "Effect: Leader's Command": {
+            "name": "Effect: Leader's Command",
+            "description": "<p>Les créatures obtiennent selon le choix du meneur, un bonus de statut de +2 aux jets d'attaques ou un bonus de statut de +3 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Inspire Defense (Love Siktempora)": {
+            "name": "Effect: Inspire Defense (Love Siktempora)",
+            "description": "<p>La créature obtient un bonus de statut de +2 à la CA et aux jets de sauvegarde ainsi qu'une résistance 4 contre les dégâts physiques.</p>",
+            "rules": {
+                "0": {
+                    "label": "Inspiration défensive"
+                }
+            }
+        },
+        "Effect: Waterlogged": {
+            "name": "Effect: Waterlogged",
+            "description": "<p>Votre taille devient gigantesque et votre Vitesse est réduite à 4,50 mètres.</p>"
+        },
+        "Effect: Breach the Outer Rifts": {
+            "name": "Effect: Breach the Outer Rifts",
+            "description": "<p>L'arme inflige 2d6 dégâts supplémentaires. Lancez 1d20 pour en déterminer le type :</p>\n<ul>\n<li>1-7 acide</li>\n<li>8-9 froid</li>\n<li>10-11 électricité</li>\n<li>12-18 feu</li>\n<li>19-20 vide</li>\n</ul>"
+        },
+        "Effect: Revert Form": {
+            "name": "Effect: Revert Form",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets d'attaque, aux jets de dégâts, aux jets de sauvegarde et les tests de compétence.</p>"
+        },
+        "Effect: Near-Death Experience": {
+            "name": "Effect: Near-Death Experience",
+            "description": "<p>Vous réduisez le DD de récupération sur vos test de 2</p>"
+        },
+        "Effect: Active Mutagen": {
+            "name": "Effect: Active Mutagen",
+            "description": "<p>Darius possède un mutagène actif.</p>"
+        },
+        "Effect: Iron Command (Extra Damage)": {
+            "name": "Effect: Iron Command (Extra Damage)",
+            "description": "<p>Les frappes de Seldeg contre la créature déclencheuse infligent 3 dégâts supplémentaires jusqu'à la fin de son prochain tour. Seldeg choisit si les dégâts supplémentaires sont spirituels ou de vide chaque fois qu'il utilise cette réaction.</p>"
+        },
+        "Effect: Moon Frenzy": {
+            "name": "Effect: Moon Frenzy",
+            "description": "<p>La créature gagne une taille, augmente son allonge de 1,50 mètre et augmente les dégâts de sa Frappe de mâchoire (ou une Frappe similaire) de 2.</p>"
+        },
+        "Effect: You'll Pay for That (Damage)": {
+            "name": "Effect: You'll Pay for That (Damage)",
+            "description": "Le caïd ordonne une vendetta contre l'ennemi. Chacun des alliés du caïd qui entend l'ordre obtient un bonus de statut de +5 à son prochain jet de dégâts contre cet ennemi."
+        },
+        "Effect: Cloak in Embers": {
+            "name": "Effect: Cloak in Embers",
+            "description": "<p>Vous obtenez une résistance 10 contre le feu de l'attaque</p>"
+        },
+        "Effect: Curl Up": {
+            "name": "Effect: Curl Up",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Root in Place": {
+            "name": "Effect: Root in Place",
+            "description": "<p>Votre Vitesse est réduite à 0 et vous obtenez un bonus de circonstances de +1 à la CA et 2 Points de vie temporaires.</p>"
+        },
+        "Effect: Grasping Tendrils": {
+            "name": "Effect: Grasping Tendrils",
+            "description": "<p>L'akata obtient un bonus de circonstances de +2 aux jets d'attaque contre les cibles au sein de la zone de ses lianes agrippantes.</p>"
+        },
+        "Effect: Form a Phalanx": {
+            "name": "Effect: Form a Phalanx",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Red Tape": {
+            "name": "Effect: Red Tape",
+            "description": "<p>Vous subissez une pénalité de statut de -2 aux jets de sauvegarde contre les effets linguistiques.</p>"
+        },
+        "Effect: Bloom Regeneration": {
+            "name": "Effect: Bloom Regeneration",
+            "description": "<p>Pendant les 4 rounds suivant, la créature obtient régénération 10. Cette régénération peut être désactivée par des dégâts spirituels saint ou de fer froid.</p>"
+        },
+        "Effect: Inhale Light": {
+            "name": "Effect: Inhale Light",
+            "description": "<p>Le mangeur de torche obtient une allonge de 3 mètres, un bonus de statut de +1,50 mètre à la Vitesse et Guérison accélérée 2. Sa résistance aux dégâts physiques réduite à 2.</p>"
+        },
+        "Effect: Drain Luck": {
+            "name": "Effect: Drain Luck",
+            "description": "<p>La créature obtient une pénalité de statut à tous ses tests.</p>"
+        },
+        "Effect: Hamstring": {
+            "name": "Effect: Hamstring",
+            "description": "<p>La cible subit une pénalité de statut de -3 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Fiery Form": {
+            "name": "Effect: Fiery Form",
+            "description": "<p>La guenaude de sang obtient le trait feu et une Vitesse de vol de 18 mètres, devient immunisée au feu et émet autant de lumière qu'une torche.</p>"
+        },
+        "Effect: Tactical Command": {
+            "name": "Effect: Tactical Command",
+            "description": "<p>La créature obtient un bonus de statut de +2 à sa Frappe si le vétéran noble a déjà eu affaire à cette créature ou à une organisation à laquelle elle appartient, car le noble offre des conseils tactiques éprouvés.</p>"
+        },
+        "Effect: Vicious Bluster": {
+            "name": "Effect: Vicious Bluster",
+            "description": "<p>Lorsqu'un gargarthezul réussit à @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} un ennemi, il obtient 1d6 points de vie temporaires (2d6 en cas de succès critique) qui durent 1 minute.</p>"
+        },
+        "Effect: Ancestral Journey": {
+            "name": "Effect: Ancestral Journey",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets de Volonté et à tous les tests de compétence.</p>"
+        },
+        "Effect: Metallify": {
+            "name": "Effect: Metallify",
+            "description": "<p>La vase obtient une résistance 5 contre les dégâts physiques (sauf l'adamantium), elle subit une pénalité de 1,50 mètre à sa Vitesse, et ses Frappes de pseudopode gagnent le trait d'arme polyvalente T ou P.</p>"
+        },
+        "Effect: Wrath of Fate": {
+            "name": "Effect: Wrath of Fate",
+            "description": "<p>Une créature affectée peut choisir de lancer deux fois les dés lorsqu'elle tente une attaque, un jet de Réflexes ou un test de compétence et prend le résultat le plus faible. Après quoi, l'effet se termine.</p>"
+        },
+        "Effect: Curse Trespassers": {
+            "name": "Effect: Curse Trespassers",
+            "description": "<p>Vous subissez une pénalité de -2 aux jets de Volonté.</p>"
+        },
+        "Effect: Stoke the Fervent": {
+            "name": "Effect: Stoke the Fervent",
+            "description": "<p>Chaque allié qui entend cet appel obtient un bonus de statut de +1 à ses jets d'attaque, ses jets de dégâts et de sauvegarde et subit une pénalité de statut de -1 à la CA. Les alliés affectés doivent utiliser au minimum une de leurs actions pour Frapper à chaque tour, s'ils le peuvent (même si cela implique d'attaquer un allié, un objet ou dans le vide).</p>\n<p><em>La durée de l'effet a été fixée sur la durée moyenne de [[/gmr 2d4 #rounds]]{2d4 rounds}. Fixez la durée à la valeur correcte lorsque l'effet est ajouté.</em></p>"
+        },
+        "Effect: Ancestral Response": {
+            "name": "Effect: Ancestral Response",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 sur les jets de sauvegarde.</p>"
+        },
+        "Effect: Hunted Fear": {
+            "name": "Effect: Hunted Fear",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 aux tests de Survie pour éviter de se perdre.</p>"
+        },
+        "Effect: Draconic Breath Weapon Aura": {
+            "name": "Effect: Draconic Breath Weapon Aura",
+            "description": "<p>Après avoir utilisé son Arme de souffle, une aura entoure le corps du dragon déclencheur pendant 1 round.</p>"
+        },
+        "Effect: Shadow Rapier": {
+            "name": "Effect: Shadow Rapier",
+            "description": "<p>Le débaucheur cadavérique enveloppe son épée d'énergie de vide, changeant le type de dégâts en dégâts de vide.</p>",
+            "rules": {
+                "0": {
+                    "text": "{item|system.description.value}"
+                }
+            }
+        },
+        "Effect: Spill Secrets": {
+            "name": "Effect: Spill Secrets",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 à la CA et aux jets de sauvegarde contre la créature marquée</p>"
+        },
+        "Effect: Runic Resistance": {
+            "name": "Effect: Runic Resistance",
+            "description": "<p>La créature obtient une résistance 5 contre un type de dégâts.</p>"
+        },
+        "Effect: Lantern of Hope (Gestalt)": {
+            "name": "Effect: Lantern of Hope (Gestalt)",
+            "description": "<p>La créature obtient un bonus de statut de +3 à ses jets de dégâts et aux jets de sauvegarde contre @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{Vague de désespoir}.</p>",
+            "rules": {
+                "1": {
+                    "label": "Lanterne d'espoirt (contre Vague de désespoir)"
+                }
+            }
+        },
+        "Effect: Sting of the Lash": {
+            "name": "Effect: Sting of the Lash",
+            "description": "<p>La créature obtient 5 Points de vie temporaires.</p>"
+        },
+        "Effect: Resonance": {
+            "name": "Effect: Resonance",
+            "description": "<p>Vous obtenez un bonus de statut de +1 à vos jets d'attaque et de dégâts pour les effets avec le trait choisi : une créature avec le trait élémentaire et le trait sélectionné bénéficie de ce bonus à tous ses jets d'attaques et de dégâts.</p>"
+        },
+        "Effect: Curse the Intruders": {
+            "name": "Effect: Curse the Intruders",
+            "description": "<p>Vous subissez une pénalité de statut de -2 aux jets de Vigueur.</p>"
+        },
+        "Effect: Assured Fate": {
+            "name": "Effect: Assured Fate",
+            "description": "<p>Quand vous déterminez l'initiative, vous pouvez choisir d'obtenir un résultat égal à 13 + votre modificateur d'initiative.</p>"
+        },
+        "Effect: Siphon Will": {
+            "name": "Effect: Siphon Will",
+            "description": "<p>La monture obtient 20 Points de vie temporaires.</p>"
+        },
+        "Effect: Profane Gift": {
+            "name": "Effect: Profane Gift",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets d'attaque, aux tests de compétence et aux jets de sauvegarde.</p>"
+        },
+        "Effect: Hallucinogenic Pollen (Critical Failure)": {
+            "name": "Effect: Hallucinogenic Pollen (Critical Failure)",
+            "description": "<p>La créature subit une pénalité de statut de -4 aux tests de Perception et aux jets de sauvegarde contre les effets mentaux.</p>"
+        },
+        "Effect: Surge Forward": {
+            "name": "Effect: Surge Forward",
+            "description": "<p>Vous subissez une pénalité de circonstances de -1 jusqu'à votre prochain test de compétence pour surmonter une tâche lors de l'événement de la pluie battante. En cas d'échec critique, cette pénalité est de -2.</p>"
+        },
+        "Effect: Droning Wings": {
+            "name": "Effect: Droning Wings",
+            "description": "<p>Le coloxus obtient une immunité contre les dégâts de son.</p>"
+        },
+        "Effect: Lost Plates": {
+            "name": "Effect: Lost Plates",
+            "description": "<p>La créature subit une pénalité de statut à la CA égale au nombre de plaques perdues.</p>"
+        },
+        "Effect: Bad Deal": {
+            "name": "Effect: Bad Deal",
+            "description": "<p>Vous devez faire deux jets pour votre prochain jet d'attaque, jet de sauvegarde ou test de compétence et utiliser le moins bon résultat.</p>"
+        },
+        "Effect: Noxious Exhalation": {
+            "name": "Effect: Noxious Exhalation",
+            "description": "<p>La créature obtient une faiblesse 10 aux dégâts mentaux et une pénalité de statut de -1 aux jets de Volonté.</p>"
+        },
+        "Effect: Deceptive Heads": {
+            "name": "Effect: Deceptive Heads",
+            "description": "<p>Le nombre de têtes déceptives que possède le tyrafdir.</p>"
+        },
+        "Effect: Phantasmagoric Fog": {
+            "name": "Effect: Phantasmagoric Fog",
+            "description": "<p>Le hall se remplit d'une brume violette qui impose une pénalité de circonstances de -2 aux tests de Perception à toutes les créatures à l'intérieur et exposes quiconque pénètre dans le brouillard fantasmagorique.</p>"
+        },
+        "Effect: Invigorating Passion": {
+            "name": "Effect: Invigorating Passion",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets d'attaques et 10 Points de vie temporaires.</p>"
+        },
+        "Effect: Commander's Aura": {
+            "name": "Effect: Commander's Aura",
+            "description": "<p>La créature obtient un bonus de circonstances de +1 aux jets d'attaques, aux jets de dégâts, à la CA, aux jets de sauvegarde et aux tests de compétence.</p>"
+        },
+        "Effect: Impersonated Ability": {
+            "name": "Effect: Impersonated Ability",
+            "description": "<p>L'imposteur Noppera-Bo choisit parmi les capacités de la personne pour laquelle il se fait passer.</p>"
+        },
+        "Effect: Hydra Heads": {
+            "name": "Effect: Hydra Heads",
+            "description": "<p>Le nombre de têtes que l'hydre possède actuellement.</p>"
+        },
+        "Effect: Consumed by Bloodlust": {
+            "name": "Effect: Consumed by Bloodlust",
+            "description": "<p>Le Noirs Doigts obtient un bonus de statut de +2 aux attaques et aux dégâts avec sa dague, mais est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfait 2}.</p>"
+        },
+        "Effect: Lunar Blaze": {
+            "name": "Effect: Lunar Blaze",
+            "description": "<p>Diskah devient immunisée contre les dégâts de feu et ses Frappes au corps-à-corps infligent 1d6 dégâts de feu persistants supplémentaires.</p>"
+        },
+        "Effect: Defensive Slice": {
+            "name": "Effect: Defensive Slice",
+            "description": "<p>Le baron Drélev se met en position défensive avec son arme dégainée, puis tente un Frappe au corps-à-corps. Il subit une pénalité de statut de -2 sur toutes ses Frappes (incluant celle-ci) et obtient un bonus de statut de +2 à sa CA jusqu'au début de son prochain tour.</p>"
+        },
+        "Effect: Never off the Hook": {
+            "name": "Effect: Never off the Hook",
+            "description": "<p>Vous subissez une pénalité de circonstances de -3 à votre DD de Volonté conte les tentatives d'origine pour vous Démoraliser ou vous Contraindre.</p>"
+        },
+        "Effect: Eye Pluck": {
+            "name": "Effect: Eye Pluck",
+            "description": "<p>Vous subissez une pénalité de circonstances de -4 sur tous les tests de Perception basés sur la vision.</p>"
+        },
+        "Effect: Drink Life": {
+            "name": "Effect: Drink Life",
+            "description": "<p>Vous obtenez 25 Points de vie temporaires.</p>"
+        },
+        "Effect: Cite Precedent": {
+            "name": "Effect: Cite Precedent",
+            "description": "<p>Vous obtenez une pénalité de circonstances de -2 sur votre prochain test de Diplomatie dans un débat juridique.</p>"
+        },
+        "Effect: Imbue Righteousness": {
+            "name": "Effect: Imbue Righteousness",
+            "description": "<p>Vos Frappes avec cette arme obtiennent le trait saint et infligent 1d6 dégâts spirituels supplémentaires aux créatures impies.</p>"
+        },
+        "Effect: Pulse of Rage": {
+            "name": "Effect: Pulse of Rage",
+            "description": "<p>La créature subit une pénalité de statut de -1 à sa CA</p>"
+        },
+        "Effect: Pray to the Rotting God": {
+            "name": "Effect: Pray to the Rotting God",
+            "description": "<p>Vous obtenez un bonus de statut de +1 à vos jets d'attaque.</p>"
+        },
+        "Effect: Oceanic Armor": {
+            "name": "Effect: Oceanic Armor",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Artificer's Command": {
+            "name": "Effect: Artificer's Command",
+            "description": "<p>La créature obtient un bonus de statut aux jets d'attaque, aux jets de dégâts et aux jets de sauvegarde.</p>"
+        },
+        "Effect: Field of Slaughter (Bleed)": {
+            "name": "Effect: Field of Slaughter (Bleed)",
+            "description": "<p>Les coups critiques infligent 3d6 points de dégâts de saignement dans l'aura.</p>"
+        },
+        "Effect: Divine Frenzy": {
+            "name": "Effect: Divine Frenzy",
+            "description": "<p>Vous subissez une pénalité de -2 à la Perception et aux jets de Volonté et obtenez un bonus de statut de +2 à votre DD de sort et à votre modificateur d'attaque de sort. Vous ne pouvez utiliser des actions avec le trait concentration à moins de Lancer un sort ou de Chercher.</p>",
+            "rules": {
+                "0": {
+                    "text": "{item|system.description.value}"
+                }
+            }
+        },
+        "Effect: Dirty Bomb": {
+            "name": "Effect: Dirty Bomb",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 aux jets de Vigueur contre les Bombes sales du chimiste.</p>"
+        },
+        "Effect: Phalanx Fighter": {
+            "name": "Effect: Phalanx Fighter",
+            "description": "<p>Une créature obtient un bonus de circonstances de +1 à sa CA.</p>"
+        },
+        "Effect: Harrowing Misfortune": {
+            "name": "Effect: Harrowing Misfortune",
+            "description": "<p>La créature doit faire deux jets et choisir le moins bon sur son prochain jet d'un type spécifique déterminé par la couleur de la carte. Les couleurs et leurs effets sont : Marteaux (jet d'attaque au corps-à-corps), Clés (jet de Réflexes), Boucliers (jet de Vigueur), Livres (test de compétence), Étoiles (jet de Volonté) et Couronnes (jet d'attaque de sort).</p>"
+        },
+        "Effect: Defensive Assault": {
+            "name": "Effect: Defensive Assault",
+            "description": "<p>La créature obtient un bonus de circonstances à la CA basées sur les armes utilisées pour se défendre.</p>"
+        },
+        "Effect: Brutal Rally": {
+            "name": "Effect: Brutal Rally",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 aux jets d'attaque.</p>"
+        },
+        "Effect: Spotlight": {
+            "name": "Effect: Spotlight",
+            "description": "<p>La cible obtient un bonus de statut de +2 aux tests de Représentation et une résistance 10 contre les dégâts mentaux.</p>"
+        },
+        "Effect: Soul Lock (Healing)": {
+            "name": "Effect: Soul Lock (Healing)",
+            "description": "<p>Le fiélon gagne @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ]{Guérison accélérée 5} pendant 1 minute.</p>"
+        },
+        "Effect: Siphon Life": {
+            "name": "Effect: Siphon Life",
+            "description": "<p>Vous obtenez des Points de vie temporaires.</p>"
+        },
+        "Effect: Devour Soul (Victim Level 15 or Higher)": {
+            "name": "Effect: Devour Soul (Victim Level 15 or Higher)",
+            "description": "<p>La créature obtient 10 Points de vie temporaires et un bonus de statut de +2 aux jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Roast": {
+            "name": "Effect: Roast",
+            "description": "<p>Les créatures qui ont été Rôties subissent une pénalité de circonstances de -2 aux jets de sauvegarde contre Servir.</p>"
+        },
+        "Effect: Temper Armament": {
+            "name": "Effect: Temper Armament",
+            "description": "<p>Le trempage d'une armure ou d'un bouclier augmente sa Solidité de 1. Le trempage d'une arme accorde à l'arme un bonus de circonstances de +1 aux jets de dégâts.</p>"
+        },
+        "Effect: Spiritual Warden": {
+            "name": "Effect: Spiritual Warden",
+            "description": "<p>Les alliés dans l'aura obtiennent un bonus de statut de +2 à leurs jets de sauvegarde contre les effets de mort saving throws against death effects et les effets qui ciblent ou manipulent leurs âmes.</p>"
+        },
+        "Effect: Vicious Bluster (Critical Success)": {
+            "name": "Effect: Vicious Bluster (Critical Success)",
+            "description": "<p>Lorsqu'un gargarthézul @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoralise} avec succès un ennemi, il gagne des points de vie temporaires de 1d6 (2d6 en cas de succès critique) qui durent 1 minute.</p>"
+        },
+        "Effect: Choose Weakness": {
+            "name": "Effect: Choose Weakness",
+            "description": "<p>Un ghaéle modifie les dégâts élémentaires infligés par son épée à deux mains et par son rayon de lumière en dégâts d'acide, d'électricité, de feu ou de son. Il peut aussi modifier sa résistance aux énergies à n'importe quel type d'énergie (elle peut être d'un type différent de celle qu'il utilise pour ses attaques).</p>"
+        },
+        "Effect: Swell": {
+            "name": "Effect: Swell",
+            "description": "<p>Le monstre melfesh gonfle avec du gaz pendant 1 minute. Il atteint la taille Très grande et son allonge passe à 4,50 mètres. Il obtient aussi 12 Points de vie temporaires, une résistance contondant 5 et un bonus de statut de +2 aux jets d'attaque.</p>"
+        },
+        "Effect: Perfect Formation": {
+            "name": "Effect: Perfect Formation",
+            "description": "<p>La troupe obtient un bonus d'objet de +2 à la CA et un bonus de statut de +2 aux jets de Réflexes.</p>"
+        },
+        "Effect: Chaotic Spawning": {
+            "name": "Effect: Chaotic Spawning",
+            "description": "<p>La nuée vescavore devient Très grande et Accélérée. Elle peut utiliser l'action supplémentaire à chaque round uniquement pour l'action Morsures voraces.</p>"
+        },
+        "Effect: Sage's Analysis": {
+            "name": "Effect: Sage's Analysis",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à vos jets d'attaque et à votre CA contre une créature analysée et infligez 2d6 dégâts supplémentaires à cette créature avec l'arme utilisée pour votre attaque.</p>"
+        },
+        "Effect: Fanatical Frenzy (Legacy)": {
+            "name": "Effect: Fanatical Frenzy (Legacy)",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque et un bonus de statut de +2 aux jets de dégâts et subissez une pénalité de statut de -2 à la CA.</p>"
+        },
+        "Effect: Silent Aura": {
+            "name": "Effect: Silent Aura",
+            "description": "<p>Un harceleur silencieux n'émet aucun son, ce qui empêche les créatures de le remarquer à l'aide de l'ouïe ou d'un sens similaire. Ce silence arrête tout son en son sein ou le traversant. Le harceleur silencieux et toutes les créatures situées dans son aura ne peuvent pas utiliser d'attaques soniques ou d'actions ayant le trait audible : cela empêche les créatures de lancer des sorts à composantes verbales ou d'activer des objets à composante à base d'ordres.</p>"
+        },
+        "Effect: Frill Defense": {
+            "name": "Effect: Frill Defense",
+            "description": "<p>Vous bénéficiez d'un bonus de circonstances de +2 à votre CA.</p>"
+        },
+        "Effect: Death Gasp (Etioling)": {
+            "name": "Effect: Death Gasp (Etioling)",
+            "description": "<p>La créature obtient les traits mort-vivant et intangible, une Vitesse de vol de 7,50 mètres, une résistance 10 contre tous les dégâts (sauf les dégâts de force, les dégâts spectraux ou de vitalité doublée contre les dégâts non magiques) et devient immunisée aux dégâts de saignement, aux effets de mort, à la maladie, à la paralysie, au poison et au sommeil.</p>"
+        },
+        "Effect: Incendiary Dollop": {
+            "name": "Effect: Incendiary Dollop",
+            "description": "<p>Pendant la prochaine minute ou jusqu'à ce qu'une créature gratte la graisse de dollop avec une action Interagir, le DD des tests de la créature pour récupérer des dégâts de feu persistants est augmenté de 2.</p>"
+        },
+        "Effect: Blood Siphon (Critical Failure)": {
+            "name": "Effect: Blood Siphon (Critical Failure)",
+            "description": "<p>La créature obtient un bonus de statut de +2 à la CA et aux jets de sauvegarde et est accélérée. Elle peut utiliser son action supplémentaire seulement pour Marcher rapidement.</p>"
+        },
+        "Effect: Conduct": {
+            "name": "Effect: Conduct",
+            "description": "<p>La grenouille concert et tous les alliés dans les 18 mètres obtiennent un des trois effets suivants jusqu'au début du prochain tour de la grenouille concert.</p>\n<ul>\n<li><strong>Rouge</strong> Accorde un bonus de statut de +3 mètres à sa vitesse.</li>\n<li><strong>Bleu</strong> Accorde un bonus de statut de +1 à la CA et aux jets de Vigueur.</li>\n<li><strong>Jaune</strong> Les alliés obtiennent un bonus de statut de +1 aux jets d'attaques et infligent 1d4 dégâts de son supplémentaires sur les Frappes au corps-à-corps réussies.</li>\n</ul>"
+        },
+        "Effect: Cataclysm Brand": {
+            "name": "Effect: Cataclysm Brand",
+            "description": "<p>Vos frappes infligent 1d10 dégâts de feu supplémentaires.</p>"
+        },
+        "Effect: Sixfold Flurry": {
+            "name": "Effect: Sixfold Flurry",
+            "description": "<p>La créature obtient un bonus de circonstances à la CA en fonction des Frappes qu'elle a choisi de ne pas faire.</p>"
+        },
+        "Effect: Overtake Soul": {
+            "name": "Effect: Overtake Soul"
+        },
+        "Effect: Follow Me": {
+            "name": "Effect: Follow Me",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 aux tests de Duperie et de Discrétion.</p>"
+        },
+        "Effect: Siphoning Grip": {
+            "name": "Effect: Siphoning Grip",
+            "description": "<p>Vous obtenez des Points de vie temporaires.</p>"
+        },
+        "Effect: Stay Strong!": {
+            "name": "Effect: Stay Strong!",
+            "description": "<p>Vous obtenez un bonus de circonstances de +1 au jet de sauvegarde.</p>"
+        },
+        "Effect: Distracting Whisper": {
+            "name": "Effect: Distracting Whisper",
+            "description": "<p>Vous subissez une pénalité de circonstances de -2 à votre jet d'attaque.</p>"
+        },
+        "Effect: Lightning Powered": {
+            "name": "Effect: Lightning Powered",
+            "description": "<p>Pour chaque zombie électrique dans un rayon de 9 mètres, le zombie électrique obtient Guérison accélérée 2 (jusqu'à un maximum de Guérison accélérée 10).</p>"
+        },
+        "Effect: Howl of Vengeful Fury": {
+            "name": "Effect: Howl of Vengeful Fury",
+            "description": "<p>Les thatchlings obtiennent 5 Points de vie temporaires et un bonus de statut de +1 à leurs Frappes et aux jets de sauvegarde.</p>"
+        },
+        "Effect: Sacrifice Armor": {
+            "name": "Effect: Sacrifice Armor",
+            "description": "<p>La CA du scrapborn est diminué pendant 24 heures. Utilisée de cette manière, la CA du scrapborn ne peut pas être réduite en-dessous de 16.</p>"
+        },
+        "Effect: Crush of Hundreds": {
+            "name": "Effect: Crush of Hundreds",
+            "description": "<p>La créature subit une pénalité de -3 mètres à toutes ses Vitesses.</p>"
+        },
+        "Effect: Powder Burst": {
+            "name": "Effect: Powder Burst",
+            "description": "<p>Pénalité de statut de -2 aux tests de perception et aux jets de sauvegarde contre les effets mentaux.</p>"
+        },
+        "Effect: Aura of Growth": {
+            "name": "Effect: Aura of Growth",
+            "description": "<p>Les autres créatures ayant le trait plante obtiennent Guérison accélérée 20 tant qu'elles sont dans la zone.</p>"
+        },
+        "Effect: Ill Omen": {
+            "name": "Effect: Ill Omen",
+            "description": "<p>La créature subit une pénalité de -1 aux jets d'attaque, de compétence et de sauvegarde tant qu'elle reste dans l'aura de mauvais augure et devient immunisée aux effets de fortune pendant 1 jour.</p>"
+        },
+        "Effect: Guard's Parry (Guard)": {
+            "name": "Effect: Guard's Parry (Guard)",
+            "description": "<p>Le garde du palais obtient un bonus de circonstances de +2 à ses attaques et ses jets de dégâts jusqu'à la fin de son prochain tour.</p>"
+        },
+        "Effect: Black Cat Curse": {
+            "name": "Effect: Black Cat Curse",
+            "description": "<p>Lorsque vous tentez un jet d'attaque ou un jet de sauvegarde, vous devez faire le jet deux fois et conserver le pire résultat.</p>"
+        },
+        "Effect: Field of Undeath": {
+            "name": "Effect: Field of Undeath",
+            "description": "<p>Les alliés dans l'aura qui ont Guérison du vide obtiennent Guérison accélérée.</p>"
+        },
+        "Effect: Belief Fortification": {
+            "name": "Effect: Belief Fortification",
+            "description": "<p>Les membres de la faction de garrholdion obtiennent un bonus de statut de +1 aux jets de sauvegarde contre les effets d'émotion tant que vous êtes dans l'aura.</p>"
+        },
+        "Effect: Inspiring Presence (Empyreal Dragon)": {
+            "name": "Effect: Inspiring Presence (Empyreal Dragon)",
+            "description": "<p>Les créatures au sein de l'aura obtiennent un bonus de statut de +1 aux jets de sauvegarde et aux tests de compétences.</p>"
+        },
+        "Effect: Pinpoint Weakness": {
+            "name": "Effect: Pinpoint Weakness",
+            "description": "<p>Tsimaan met le doigt sur la faiblesse d'une créature dans les 9 mètres. Tsiman et tous ses alliés qui peuvent la voir et l'entendre, obtiennent un bonus de statut de +1 à leurs jets d'attaque et de dégâts contre cette créature jusqu'au début du prochain tour de Tsiman.</p>",
+            "rules": {
+                "0": {
+                    "label": "Identifier la faiblesse"
+                }
+            }
+        },
+        "Effect: Gift of Hospitality": {
+            "name": "Effect: Gift of Hospitality",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux tests de Société et de Diplomatie.</p>\n<p>Le don prend fin si la cible agit de manière hostile, ou si le faydhaan renonce au destinataire.</p>"
+        },
+        "Effect: Still Got It!": {
+            "name": "Effect: Still Got It!",
+            "description": "<p>La créature retraitée gagne un nombre de points de vie temporaires égal à son niveau, qui durent jusqu'à la fin du combat. Elle supprime également les effets d'être rouillé jusqu'à la fin de l'affrontement.</p>"
+        },
+        "Effect: Activate Defenses": {
+            "name": "Effect: Activate Defenses",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 à sa CA.</p>"
+        },
+        "Effect: Feed": {
+            "name": "Effect: Feed",
+            "description": "<p>La créature obtient un bonus de statut à ses tests et à ses DD en fonction de l'utilisation de sa capacité Alimentation.</p>"
+        },
+        "Effect: Stink Sap": {
+            "name": "Effect: Stink Sap",
+            "description": "<p>Les créatures et leur équipement enduit de sève sentent horriblement mauvais. Les créatures dans l'aura doivent tenter un jet de @Check[fortitude|dc:16]. En cas d'échec, la créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} et en cas d'échec critique, la créature est aussi @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}. Tant qu'elle se trouve dans l'aura, la créature subit une pénalité de circonstances de -2 aux jets de sauvegarde pour se remettre de l'état nauséeux. Une créature qui réussit son jet de sauvegarde est immunisée contre la sève puante pendant 1 minute. Les créatures ne font pas de jet de sauvegarde contre cet effet en mode exploration et ne sont pas temporairement immunisées mais les créatures recouvertes de sève puante doivent effectuer un jet contre leur propre aura lorsqu'elles effectuent leur test d'initiative en mode rencontre. La sève se dissipe au bout de 10 heures. Passer 10 minutes à frotter la sève avec de l'eau et du savon réduit la durée de 1 heure.</p>"
+        },
+        "Effect: Sylvan Wine": {
+            "name": "Effect: Sylvan Wine",
+            "description": "<p>La créature obtient un bonus d'objet de +1 aux jets de Volonté et un bonus d'objet de +3 aux jets de Volonté contre les effets de terreur.</p>"
+        },
+        "Effect: Witchflame (Success)": {
+            "name": "Effect: Witchflame (Success)",
+            "description": "<p>La créature obtient une faiblesse contre le feu 5.</p>"
+        },
+        "Effect: Cleansing Earth": {
+            "name": "Effect: Cleansing Earth",
+            "description": "<p>Vous obtenez 20 Points de vie temporaires.</p>"
+        },
+        "Effect: Infectious Aura": {
+            "name": "Effect: Infectious Aura",
+            "description": "<p>Vous subissez une pénalité de statut de -2 aux jets de sauvegarde contre les effets de maladie.</p>"
+        },
+        "Effect: Serpent Mode": {
+            "name": "Effect: Serpent Mode",
+            "description": "<p>Le serpent mécanique se transforme en un mode différent. Lancez 1d3 et consultez les options ci-dessous.</p>\n<ol>\n<li><strong>Mode cobra</strong> Le serpent mécanique peut utiliser Capuche intimidante.</li>\n<li><strong>Mode constricteur</strong> Le serpent mécanique peut utiliser sa Frappe d'anneaux et peut utiliser Constriction.</li>\n<li><strong>Mode serpent à sonnette</strong> Le serpent mécanique peut utiliser Sonnette brisante.</li>\n</ol>"
+        },
+        "Effect: Mammoth Land Star Limbs": {
+            "name": "Effect: Mammoth Land Star Limbs",
+            "description": "<p>Le nombre actuel de membres de l'étoile du pays des mammouths</p>"
+        },
+        "Effect: Nature's Infusion": {
+            "name": "Effect: Nature's Infusion",
+            "description": "<p>Le blodeuwedd obtient 15 Points de vie temporaires.</p>"
+        },
+        "Effect: Align the Stars (Ephemeral)": {
+            "name": "Effect: Align the Stars (Ephemeral)",
+            "description": "<p>Vous obtenez un bonus de circonstances de +4 aux jets de dégâts.</p>"
+        },
+        "Effect: Smash Kneecaps": {
+            "name": "Effect: Smash Kneecaps",
+            "description": "<p>La Vitesse de la créature est réduite de 3 mètres.</p>"
+        },
+        "Effect: Death Gasp": {
+            "name": "Effect: Death Gasp",
+            "description": "<p>La créature obtient le trait mort-vivant et devient immunisée aux dégâts de saignement, aux effets de mort, à la maladie, à la paralysie, au poison et au sommeil.</p>"
+        },
+        "Effect: Radiate Cold": {
+            "name": "Effect: Radiate Cold",
+            "description": "<p><strong>Succès</strong> Vous subissez une pénalité de statut de -1,50 mètre à vos Vitesses.</p>\n<p><strong>Échec</strong> Vous subissez  une pénalité de statut de -3 mètres à vos Vitesses et vous êtes Affaibli 1 .</p>\n<p><strong>Échec critique</strong> Vous êtes Immobilisé et Affaiblie 2.</p>"
+        },
+        "Effect: Ganzi Resistance": {
+            "name": "Effect: Ganzi Resistance",
+            "description": "<p>La créature obtient une résistance à l'acide, à l'électricité ou au son (choisi aléatoirement chaque jour) basé sur la créature spécifique.</p>"
+        },
+        "Effect: Harmonizing Aura (Allies)": {
+            "name": "Effect: Harmonizing Aura (Allies)",
+            "description": "<p>La créature obtient un bonus de statut de +2 aux jets de dégâts de son et un bonus de statut de +1 à la CA et aux jets de sauvegarde contre les effets de son et audibles.</p>",
+            "rules": {
+                "0": {
+                    "label": "Aura d'harmonie"
+                },
+                "1": {
+                    "label": "Aura d'harmonie"
+                }
+            }
+        },
+        "Effect: Liberating Step": {
+            "name": "Effect: Liberating Step",
+            "description": "<p>Vous obtenez une résistance 10 contre tous les dégâts déclencheurs.</p>"
+        },
+        "Effect: Keeper's Ward": {
+            "name": "Effect: Keeper's Ward",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets de sauvegarde contre les effets magiques. Le bonus passe à +2 si l'effet provient d'une créature aquatique.</p>"
+        },
+        "Effect: Disturbing Vision": {
+            "name": "Effect: Disturbing Vision",
+            "description": "<p>Les visions durent [[/gmr 1d4 #rounds]]{1d4 rounds} et tant qu'elles sont là, toutes les créatures mauvaises dans la zone obtiennent un bonus de statut de +1 à tous les jets.</p>"
+        },
+        "Effect: Winning Smile": {
+            "name": "Effect: Winning Smile",
+            "description": "<p>Vos attaques contre l'origine deviennent non-létales.</p>"
+        },
+        "Effect: Despoiler": {
+            "name": "Effect: Despoiler",
+            "description": "<p>La créature subit une pénalité de circonstances de -2 sur tous les jets de sauvegarde contre le poison, les maladies et les drogues.</p>"
+        },
+        "Effect: Poison Frenzy": {
+            "name": "Effect: Poison Frenzy",
+            "description": "<p>L'avaleur de poison devient déchaîné durant 1 minute. Lorsqu'il est déchaîné, l'avaleur de poison obtient un bonus de statut de +1 aux jets d'attaque de ses Frappes au corps-à-corps, un bonus de statut de +4 aux jets de dégâts des mêmes Frappes et 20 Points de vie temporaires jusqu'à ce que l'état cesse. Il subit aussi une pénalité de statut de -2 à sa CA.</p>"
+        },
+        "Effect: Electricity Absorption": {
+            "name": "Effect: Electricity Absorption",
+            "description": "<p>Après avoir subit des dégâts d'électricité, un zombie électrique perd son état @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} habituel, obtient la capacité d'utiliser des réactions et un bonus de statut de +3 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Bastion Aura": {
+            "name": "Effect: Bastion Aura",
+            "description": "<p>Toutes les créatures d'alignement bon dans l'aura bénéficient de Guérison accélérée 30 tant qu'elles restent à portée et elles obtiennent un bonus de statut de +2 aux jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Unsettled Aura": {
+            "name": "Effect: Unsettled Aura",
+            "description": "<p>Le gosreg projette un champ d'énergie discordante qui perturbe l'esprit des créatures pensantes. Toute créature qui n'est pas dénuée d'intelligence dans un rayon de 9 mètres d'un gosreg subit une pénalité de statut de -1 à ses jets de Volonté.</p>"
+        },
+        "Effect: War Leader": {
+            "name": "Effect: War Leader",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets d'attaque et aux tests de compétences.</p>"
+        },
+        "Effect: Vitriolic Miasma": {
+            "name": "Effect: Vitriolic Miasma",
+            "description": "<p>Vous subissez une pénalité de circonstances de -2 aux jets de sauvegarde contre le poison et une faiblesse 10 contre les dégâts de poison.</p>"
+        },
+        "Effect: Eat a Pickle": {
+            "name": "Effect: Eat a Pickle",
+            "description": "<p>Vous obtenez 4 Points de vie temporaires</p>"
+        },
+        "Effect: Divine Weapon (Chelaxian Cleric)": {
+            "name": "Effect: Divine Weapon (Chelaxian Cleric)",
+            "description": "<p>Les attaques du prêtre du Chéliax gagnent le trait impie et infligent 1d4 dégâts spirituels supplémentaires ; ces dégâts augmentent à 2d4 contre les créatures ayant le trait saint.</p>"
+        },
+        "Effect: Alchemical Embalming": {
+            "name": "Effect: Alchemical Embalming",
+            "description": "<p>Vous subissez une pénalité de -3 mètres à toutes vos Vitesses.</p>"
+        },
+        "Effect: Witchflame (Failure)": {
+            "name": "Effect: Witchflame (Failure)",
+            "description": "<p>La créature obtient une faiblesse contre le feu 5.</p>"
+        },
+        "Effect: Brand of the Impenitent": {
+            "name": "Effect: Brand of the Impenitent",
+            "description": "<p>La créature subit une pénalité de statut de -1 à la CA et aux jets de sauvegarde, réduit ses résistances de 2 et obtient une faiblesse contre les dégâts saints de 2.</p>"
+        },
+        "Effect: Protean Anatomy": {
+            "name": "Effect: Protean Anatomy",
+            "description": "<p>La créature obtient une résistance à l'acide, à l'électricité ou au son en fonction de son Anatomie protéenne.</p>"
+        },
+        "Effect: Inspirational Presence": {
+            "name": "Effect: Inspirational Presence",
+            "description": "<p>Chaque étudiant de dans l'aura de l'enseignant obtient un bonus de circonstances de +1 aux tests pour Se souvenir.</p>"
+        },
+        "Effect: Uncanny Tinker": {
+            "name": "Effect: Uncanny Tinker",
+            "description": "<p>La créature obtient un bonus de circonstances de +1 aux jets d'attaques.</p>"
+        },
+        "Effect: Crystalline Dust Form": {
+            "name": "Effect: Crystalline Dust Form",
+            "description": "<p>La créature obtient une Vitesse de vol de 12 mètres.</p>"
+        },
+        "Effect: Elemental Field": {
+            "name": "Effect: Elemental Field"
+        },
+        "Effect: Emotion Vulnerability": {
+            "name": "Effect: Emotion Vulnerability",
+            "description": "<p>Le furnérico obtient une faiblesse 15 contre le mental.</p>"
+        },
+        "Effect: Solidarity": {
+            "name": "Effect: Solidarity",
+            "description": "<p>En menant une manifestation, l'organisateur syndical s'accorde ainsi qu'à ses alliés un bonus de circonstances de +1 aux jets de sauvegarde contre la fatigue et les effets mentaux.</p>"
+        },
+        "Effect: Light of Truth": {
+            "name": "Effect: Light of Truth",
+            "description": "<p>Contre les créatures affectés par cette lumière, le zoaem et leurs alliés obtiennent un bonus de statut de +1 aux jets de dégâts et aux tests pour Se souvenir.</p>"
+        },
+        "Effect: Bully's Rage": {
+            "name": "Effect: Bully's Rage",
+            "description": "<p>La brute obtient un bonus de statut de +2 aux tests d'Intimidation et aux dégâts jusqu'à la fin de son tour.</p>"
+        },
+        "Effect: Tail Lash": {
+            "name": "Effect: Tail Lash",
+            "description": "<p>Vous subissez une pénalité de circonstances de -2 au jet déclencheur.</p>"
+        },
+        "Effect: Raise Defenses": {
+            "name": "Effect: Raise Defenses",
+            "description": "<p>Vous obtenez un bonus de circonstances de +2 à la CA.</p>"
+        },
+        "Effect: Remove Face": {
+            "name": "Effect: Remove Face",
+            "description": "<p>La créature subit une pénalité permanente de -4 à ses jets de Charisme et aux compétences basées sur le Charisme. Cette pénalité ne peut être supprimée que si la victime retrouve son visage et qu'un sort de @UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{Restauration} soit lancé sur elle.</p>"
+        },
+        "Effect: Sea Chantey": {
+            "name": "Effect: Sea Chantey",
+            "description": "<p>Tous les fiélons dans un rayon de 18 mètres obtiennent un bonus de statut de +1 aux jets d'attaque, aux\njets de dégâts et aux jets de sauvegarde contre les effets de terreur.</p>"
+        },
+        "Effect: Chug": {
+            "name": "Effect: Chug",
+            "description": "<p>La créature obtient un bonus d'objet de +2 aux tests d'Athlétisme, aux jets de dégâts et aux jets de sauvegarde contre la terreur</p>"
+        },
+        "Effect: Swig": {
+            "name": "Effect: Swig",
+            "description": "<p>Vous obtenez un bonus d'objet de +2 aux jets d'attaque au corps-à-corps et aux jets de sauvegarde contre la terreur mais vous êtes Pris au dépourvu.</p>"
+        },
+        "Effect: Hunt Will": {
+            "name": "Effect: Hunt Will",
+            "description": "<p>La monture obtient un bonus de circonstances de +2 pour les tests de Perception pour Chercher la proie et aux tests de Survie pour Pister la proie. La première fois que la monture touche sa proie désignée au cours d'un round, elle inflige 1d8 dégâts de précision supplémentaires.</p>"
+        },
+        "Effect: Hunter's Onslaught": {
+            "name": "Effect: Hunter's Onslaught",
+            "description": "<p>Vous devenez fascinée par la créature marquée et vous obtenez 10 Points de vie temporaires qui dure tant que dure le Carnage. Vous obtenez un bonus de statut aux dégâts de +8 contre l'ennemi marqué et les alliés dans une aura de 9 mètres autour du chasseur obtiennent la moitié de ce bonus.</p>"
+        },
+        "Effect: Stay in the Fight!": {
+            "name": "Effect: Stay in the Fight!",
+            "description": "<p>Vous obtenez 10 Points de vie temporaires.</p>"
+        },
+        "Effect: No Quarter!": {
+            "name": "Effect: No Quarter!",
+            "description": "<p>Vous obtenez un bonus de statut de +1 aux jets d'attaque et aux jets de dégâts.</p>"
+        },
+        "Effect: Hobble Pursuit": {
+            "name": "Effect: Hobble Pursuit",
+            "description": "<p>Vous subissez une pénalité de circonstances à vos Vitesses. En cas d'échec ou d'échec critique, vous êtes Ralenti 1.</p>"
+        },
+        "Effect: Void Tendrils": {
+            "name": "Effect: Void Tendrils",
+            "description": "<p>Lorsque vous devriez être soignée par un effet de vitalité, les soins sont réduits de 15.</p>"
+        },
+        "Effect: Guard's Parry (Liege)": {
+            "name": "Effect: Guard's Parry (Liege)",
+            "description": "<p>Le suzerain obtient un bonus de circonstances de +2 contre l'attaque déclencheuse cet effet.</p>"
+        },
+        "Effect: Take Them Down!": {
+            "name": "Effect: Take Them Down!",
+            "description": "<p>La créature obtient un bonus de statut de +1 à ses jets d'attaque et de dégâts.</p>"
+        },
+        "Effect: Sticky Spores": {
+            "name": "Effect: Sticky Spores",
+            "description": "<p>La créature subit une pénalité de statut de -3 mètres à toutes ses Vitesses.</p>"
+        },
+        "Effect: Mark of Fate": {
+            "name": "Effect: Mark of Fate",
+            "description": "<p>Vous subissez une faiblesse 10 contre les effets profanes et subissez une pénalité de circonstances de -2 aux tests de compétence basés sur le Charisme contre les fidèles d'Urgathoa.</p>"
+        },
+        "Effect: Grab Debris": {
+            "name": "Effect: Grab Debris",
+            "description": "<p>Le plume-récupérateur a accès aux capacités répertoriées jusqu'à ce qu'il utilise Débris lancés pour se débarrasser des débris ou jusqu'à ce qu'il Libère les débris. Le plume-récupérateur ne peut pas utiliser son attaque de bec lorsqu'il utilise son bec pour Saisir des débris.</p>\n<ol>\n    <li><strong>Chute de métal</strong> Le plume-récupérateur obtient un bonus de circonstances de +2 à sa CA.</li>\n    <li><strong>Lame brisée</strong> Le plume-récupérateur obtient une attaque de corps-à-corps de Lame brisée avec un modificateur d'attaque de +12 qui inflige 2d10+6 dégâts tranchants.</li>\n    <li><strong>Bombe non explosée</strong> Lorsque le plume-récupérateur lance ceci avec Débris lancés, tous les dégâts sont des dégâts de feu, et la bombe inflige également 3 dégâts de feu de zone.</li>\n    <li><strong>Baguette défectueuse</strong> Le plume-récupérateur obtient une attaque de carreau magique avec un modificateur d'attaque de +14 qui inflige 2d6+6 dégâts de force.</li>\n</ol>"
+        },
+        "Effect: Calming Bioluminescence": {
+            "name": "Effect: Calming Bioluminescence",
+            "description": "<p>Les créatures obtiennent un bonus de circonstances de +2 à leurs jets de sauvegarde contre les effets d'émotion.</p>"
+        },
+        "Effect: Symbol of Loyalty": {
+            "name": "Effect: Symbol of Loyalty",
+            "description": "<p>Les alliés dans l'aura de niveau 14 ou inférieur et loyaux à la cause du grand inquisiteur bénéficient d'un bonus de statut de +3 aux jets de Volonté.</p>"
+        },
+        "Effect: Compelled Performance": {
+            "name": "Effect: Compelled Performance",
+            "description": "<p>La cible possède un bonus de statut de +2 aux tests de Représentation pendant 1 semaine.</p>"
+        },
+        "Effect: No Fight Fair": {
+            "name": "Effect: No Fight Fair",
+            "description": "<p>Vous subissez une pénalité de statut à votre vitesse.</p>"
+        },
+        "Effect: Blood Soak": {
+            "name": "Effect: Blood Soak",
+            "description": "<p>La brigade des chapeaux rouges obtient un bonus de statut aux jets de dégâts pendant 1 minute. Le bonus est de +2 si elle consacre une action à la Moisson sanglante, de +6 si elle en consacre deux, ou de +8 si elle en consacre trois. Elle obtient également un bonus de statut de +4 aux jets de dégâts avec Écrasement et Piétinement.</p>"
+        },
+        "Effect: Swarming Bites": {
+            "name": "Effect: Swarming Bites",
+            "description": "<p>Vous devenez @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1}. Si vous tentez une action de concentration ou de manipulation alors que vous êtes affecté, vous devez réussir un @Check[flat|dc:5] sinon votre action est perdue. Faites le test après avoir dépensé l'action, mais avant que tout autre effet ne soit appliqué.</p>"
+        },
+        "Effect: Absorb Memories": {
+            "name": "Effect: Absorb Memories",
+            "description": "<p>La créature obtient un bonus de statut de +1 à tous ses tests de compétences.</p>"
+        },
+        "Effect: Keep Up With Me!": {
+            "name": "Effect: Keep Up With Me!",
+            "description": "<p>Vous obtenez un bonus de statut de +3 à votre jet d'attaque pour votre prochaine Frappe, ou au DD de votre prochaine capacité offensive si vous êtes une troupe.</p>"
+        },
+        "Effect: PFS Level Bump (NPC)": {
+            "name": "Effect: PFS Level Bump (NPC)",
+            "description": "<p>Les scénarios et quêtes sont conçues pour défier les PJ dont le niveau moyen est le moins élevé parmi ceux de plusieurs niveaux donnés (ex <em>Niveaux 1-2</em> est conçu pour être un défi pour des PJ de niveau 1 et <em>Niveaux 3-4</em> est conçu pour être un défi pour des PJ de niveau 3). Normalement, lorsque le total de Points de défi détermine que la puissance moyenne du groupe est équivalente au plus haut des niveaux (ex niveau 2 pour niveaux 1-2), l'échelle sera ajustée.</p>\n<p>À l'inverse, parfois, il est nécessaire d'ajouter un ajustement de niveau, notamment lorsque le niveau du scénario est fonction d'un nombre de joueurs ou si le scénario manque un low tier d'échelle 16-18.</p>\n<ul>\n<li>Augmentez les modificateurs d'attaque, les dégâts de l'attaque, les dégâts de sort, les modificateurs de jets de sauvegarde, les modificateurs de compétences et de Perception et la CA de 1.</li>\n<li>Augmentez le nombre total de Points de vie de 10 ou de 10%, selon ce qui est le plus élevé.</li>\n</ul>"
+        },
+        "Effect: Inspiring Presence": {
+            "name": "Effect: Inspiring Presence",
+            "description": "<p>La créature obtient un bonus de circonstances de +2 aux jets de sauvegarde contre les effets de terreur.</p>"
+        },
+        "Effect: Fettering Fedora": {
+            "name": "Effect: Fettering Fedora",
+            "description": "<p>La créature subit une pénalité de circonstances de -3 mètres à ses Vitesses.</p>"
+        },
+        "Effect: Yobnobby Overdrive": {
+            "name": "Effect: Yobnobby Overdrive",
+            "description": "<p>Yobnobby inflige des dégâts supplémentaires sur leurs frappes.</p>"
+        },
+        "Effect: Asper's Elemental Aura": {
+            "name": "Effect: Asper's Elemental Aura",
+            "description": "<p>Vous obtenez une résistance 10 contre les dégâts de l'élément choisi (électricité pour l'air, feu ou froid pour l'eau). Si vous choisissez l'air vous doublez votre vitesse. Si vous choisissez le feu, toute créature à moins de 9 mètres de vous qui reçoit des dégâts de feu reçoit 2d10 dégâts de feu persistants.\nSi vous choisissez l'eau, vous obtenez Guérison accélérée 20.</p>"
+        },
+        "Effect: Adaptive Strike": {
+            "name": "Effect: Adaptive Strike",
+            "description": "<p>Les Frappes au corps-à-corps de la créature comptent soit comme de l'adamantium, du fer froid ou de l'argent.</p>"
+        },
+        "Effect: Dire Warning": {
+            "name": "Effect: Dire Warning",
+            "description": "<p>La créature obtient un bonus de statut de +1 aux jets d'attaques et de dégâts.</p>"
+        },
+        "Effect: Sanguine Rain": {
+            "name": "Effect: Sanguine Rain",
+            "description": "<p>Les créatures qui tirent avantage de la consommation de sang (telles que les cherchesangs ou les vampires) gagnent Guérison accélérée 10 tant qu'elles restent dans la zone.</p>"
+        },
+        "Effect: Ensnare": {
+            "name": "Effect: Ensnare",
+            "description": "<p>La créature subit une pénalité de statut de -3 mètres à sa Vitesse.</p>"
+        },
+        "Effect: Tempest Rage": {
+            "name": "Effect: Tempest Rage",
+            "description": "<p>Akki obtient 5 Points de vie temporaires et inflige 1d4 dégâts d'électricité supplémentaires avec ses Frappes d'arme.</p>"
+        },
+        "Effect: Chemical Fertilizer": {
+            "name": "Effect: Chemical Fertilizer",
+            "description": "<p>Obtient un bonus de statut de 4,50 mètres à sa Vitesse jusqu'à la fin de son prochain tour.</p>"
+        },
+        "Spell Effect: Courageous Anthem (Kanya)": {
+            "name": "Spell Effect: Courageous Anthem (Kanya)",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{Hymne de courage} de Kanya</p>\n<p>Vous obtenez un bonus de statut de +2 aux jets d'attaque, aux jets de dégâts et aux jets de sauvegarde contre les effets de terreur.</p>"
+        },
+        "Effect: Funereal Dirge": {
+            "name": "Effect: Funereal Dirge",
+            "description": "<p>La créature subit une pénalité de statut de -2 à ses jets de sauvegarde contre Drain de vie</p>"
+        },
+        "Effect: Bosun's Command": {
+            "name": "Effect: Bosun's Command",
+            "description": "<p>Vous obtenez un bonus de statut de +2 aux jets d'attaque ou un bonus de statut de +3 mètres à vos Vitesses.</p>"
+        },
+        "Effect: Instinctual Tinker (Critical Success)": {
+            "name": "Effect: Instinctual Tinker (Critical Success)",
+            "description": "<p>La créature obtient un bonus de circonstances de +1 aux jets d'attaque.</p>"
+        },
+        "Effect: Distracting Giggle": {
+            "name": "Effect: Distracting Giggle",
+            "description": "<p>Les créatures subissent une pénalité de statut de -1 aux jets de Volonté.</p>"
+        },
+        "Effect: Splintered Ground": {
+            "name": "Effect: Splintered Ground",
+            "description": "<p>La créature subit une pénalité de circonstances de -3 mètres à toutes ses Vitesses.</p>"
+        },
+        "Effect: Countered by Water": {
+            "name": "Effect: Countered by Water",
+            "description": "<p>La créature prend une pénalité de circonstances de -1 à ses jets d'attaques, et sa Frappe de mâchoire n'inflige pas des dégâts de feu</p>"
+        },
+        "Effect: Champion's Aura (Champion of Rovagug)": {
+            "name": "Effect: Champion's Aura (Champion of Rovagug)",
+            "description": "<p>Vous subissez une pénalité de circonstances de –1 aux jets de sauvegarde contre la terreur.</p>"
+        },
+        "Effect: Interest is Due!": {
+            "name": "Effect: Interest is Due!",
+            "description": "<p>Votre Frappe inflige 1d6 dégâts mentaux supplémentaires.</p>"
+        },
+        "Effect: Soul Siphon": {
+            "name": "Effect: Soul Siphon",
+            "description": "<p>La créature obtient 5 Points de vie temporaires et un bonus de statut de +1 à ses jets d'attaque et de dégâts.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

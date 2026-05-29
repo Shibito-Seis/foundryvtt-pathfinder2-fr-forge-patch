@@ -1,0 +1,213 @@
+{
+    "label": "Ascendances",
+    "entries": {
+        "Conrasu": {
+            "name": "Conrasu",
+            "description": "<p><em>Les conrasus sont des fragments de force cosmique ayant une conscience dont les exosquelettes artificiels entremêlés sont les interfaces avec le monde mortel. À la fois partie intégrante des processus sous-jacents de l'univers et étrangement à part, les conrasus se tournent vers les aéons pour comprendre leur existence.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.ufWdokSN5W3Einus]{Conrasu}</em></p>"
+        },
+        "Goblin": {
+            "name": "Goblin",
+            "description": "<p><em>Les gobelins n'ont que faire du passé alambiqué auquel s'accrochent les autres gens. Ces petits êtres vivent en effet dans le présent et préfèrent de loin les fables à l'histoire réelle. En ce qui les concerne, des guerres qui se sont déroulées il y a seulement quelques décennies se trouvent dans un lointain passé. Bien qu'ils soient incompris des autres peuples, les gobelins sont satisfaits de leur situation. Les vertus gobelines sont de vivre dans le présent, de faire preuve de créativité et d'être honnête. Ils s'efforcent de mener une vie bien remplie plutôt que de se soucier de la fin du voyage. De raconter des histoires plutôt que de chicaner sur des détails factuels. D'être petit, mais de rêver en grand.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.Gn0XGCWDb0N4zLE0]{Gobelin}</em></p>"
+        },
+        "Halfling": {
+            "name": "Halfling",
+            "description": "<p><em>Les halfelins ne se revendiquent d'aucune nation et leurs villes sont rarement plus que de simples villages. Ils résident en général avec les humains dans l'enceinte de grandes villes où ils vivent dans de petites communautés aux côtés des grandes gens. De nombreux halfelins mènent une vie parfaitement épanouissante dans l'ombre de leurs grands voisins. D'autres préfèrent une existence plus nomade, partent fouler les chemins et profitent de toutes les opportunités et aventures qui se présentent à eux.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.voI7uPS9vsG74JIn]{Halfelin}</em></p>"
+        },
+        "Goloma": {
+            "name": "Goloma",
+            "description": "<p><em>Les golomas craignent la plupart des autres peuples et utilisent délibérément leur biologie inhabituelle pour effrayer ceux qu'ils considèrent comme de dangereux prédateurs. Rarement aperçus et souvent incompris, les golomas aux nombreux yeux et aux visages de bois inspirent la terreur à la plupart de ceux qui les croisent.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.jKglnHBFvzI80tIe]{Goloma}</em></p>"
+        },
+        "Kashrishi": {
+            "name": "Kashrishi",
+            "description": "<p><em>Les kashrishis élisent domicile dans les régions reculées du monde. Ces êtres tranquilles ont une constitution robuste et durable et des cornes cristallines distinctives. Leurs capacités psychiques inhérentes font d'eux des empathes naturels mais les accablent aussi parfois avec les pensées incessantes de leurs voisins.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.IJOH7nk0w1IybAhp]{Kashrishi}</em></p>"
+        },
+        "Catfolk": {
+            "name": "Catfolk",
+            "description": "<p>Vagabonds curieux et grégaires, les hommes-félins combinent des caractéristiques des félins et des humanoïdes à la fois en apparence et en tempérament. Ils apprécient apprendre de nouvelles choses, collectionner de nouvelles histoires et des babioles et s'assurer que les êtres qui leur sont chers soient en sécurité et heureux. Les hommes-félins se voient comme les gardiens élus des lieux naturels du monde et sont souvent imprudemment braves, même en face d'une opposition surpuissante. Ils croient que des communautés fortes, l'éventail des expériences et l'amélioration continuelle de soi-même les aideront dans leur combat.</p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.5S1Pq3GoEzLfBbH7]{Homme-félin (félide)}</em></p>"
+        },
+        "Vishkanya": {
+            "name": "Vishkanya",
+            "description": "<p><em>Les vishkanyas sont des humanoïdes ophidiens qui portent un venin puissant dans leur sang et leur salive. Largement incompris en raison des vieilles contes sur leur toxicité et leur finesse naturelle, les vishkanyas s'efforcent de devenir plus que ce que les histoires les décrivent.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.1lCAkGgIYYkczZ28]{Vishkanya}</p>"
+        },
+        "Awakened Animal": {
+            "name": "Awakened Animal",
+            "description": "<p>Autrefois, vous profitiez des plaisirs simples et illimités de la nature avec un esprit innocent et serein. Vous viviez l'instant présent, sans jamais vous poser de questions sur ce qui allait suivre ou réfléchir aux ramifications de ce qui s'était passé auparavant. Vous ne faisiez qu'un avec la nature. Puis vint l'événement qui changea tout. Vous avez bu l'eau d'un lac incandescent, été l'objet d'une farce magique, un druide a cherché à élever votre esprit. Vous avez été arraché à l'instant présent de la nature pour pénétrer dans un monde de pensées.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.jX3VHEFgpqqUy0aP]{Awakened Animal}</p>"
+        },
+        "Azarketi": {
+            "name": "Azarketi",
+            "description": "<p><em>Les azarketis, héritiers d'un empire éclaté, tiennent à leurs fières traditions mais font toujours surface pour interagir avec le reste du monde.</em></p>\n<p><em>Les humanoïdes aquatiques de la Mer Intérieure partagent une histoire sombre et chargée. La plupart des gens appellent ces peuples aquatiques les hommes-branchies ou parfois les bas-azlantes, bien qu'ils se désignent généralement eux-mêmes sous le nom d'azarketis, un mot azlant qui se traduit approximativement par \"peuple des mers\". Après la Chute, ces fiers humains ont été transformés en serviteurs aquatiques par leurs ennemis alghollthus. Ayant le sentiment de ne pas appartenir pleinement à leurs frères humains ni à la mer qui les unit, de nombreux azarketis luttent pour trouver une identité et un but. Bien que les habitants de la surface se méfient d'eux, les azarketis célèbrent leur lignée unique et le fait qu'ils sont les descendants de la vénérable culture azlante.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.SNhp04cirQnnBTbb]{Azarketi}</p>"
+        },
+        "Ratfolk": {
+            "name": "Ratfolk",
+            "description": "<p><em>Les ysokis sont des êtres appelés communément par les humanoïdes de la surface des \"homme-rats\". C'est un peuple communautaire qui préfère les conditions exiguës, avec jusqu'à 100 individus vivant dans une même maison. S'ils ne trouvent pas de logement en ville, les hommes-rats peuvent vivre dans des caves ou des cavernes qui leur permettent d'entreposer les marchandises diverses et variées qu'ils rapportent de leurs expéditions commerciales.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.zoSkNev57C8OEDYL]{Homme-rat}</p>"
+        },
+        "Skeleton": {
+            "name": "Skeleton",
+            "description": "<p><em>Les squelettes sont considérés parmi les plus faibles type de créatures mortes-vivantes. Ce sont typiquement des créatures dépourvues d'intelligence, manquant des nombreuses capacités qui font des autres morts-vivants une menace sérieuse. Quoi qu'il en soit, les os animés des dragons, des géants et d'autres grandes bêtes font de plus puissants adversaires. De puissantes créatures vivantes peuvent retenir une partie de leur puissance et de leur intellect en étant relevées comme squelettes. Certains nécromants font de leurs plus puissants ennemis des serviteurs morts-vivants squelettes en partant du principe qu'ils en auront le contrôle.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.EcNSrvwIj22Jxkjz]{Squelette}</em></p>"
+        },
+        "Automaton": {
+            "name": "Automaton",
+            "description": "<p><em>Ces créatures artificielles intelligentes abritent de véritables âmes et représentent ce qui reste de la dernière tentative de grandeur d'un empire mourant. Les automates combinent l'ingéniosité technologique et la puissance magique, créant ainsi un être mixte totalement unique à Golarion.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.rsx8cRI20oEDgfQh]{Automate}</em></p>"
+        },
+        "Vanara": {
+            "name": "Vanara",
+            "description": "<p><em>Les vanaras sont des humanoïdes aux caractéristiques simiesques curieux et espiègles, avec une fourrure de poils courts et soyeux, des yeux expressifs et de longues queues préhensiles. Leurs pieds en forme de mains et leur carrure agile leur sont fort utiles dans les zones de jungles où la plupart des vanaras vivent.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.40koksC576nYV2Tf]{Vanara}</p>"
+        },
+        "Yaksha": {
+            "name": "Yaksha",
+            "description": "<p><em>Loin des citadelles brillantes et des palais opulents, les yakshas réticents protègent l'arrière-pays rural du Tian Xia des catastrophes naturelles et des déprédations surnaturelles. Réputés pour leurs vœux déterminés et leurs prouesses avec la magie primordiale, les yakshas protègent les indigents et la nature sauvage, punissant ceux qui menacent l'un ou l'autre avec une fureur capables de briser les os. Les légendes concernant les yakshas rappellent qu'ils étaient à l'origine des esprits divins qui veillaient à la sécurité des routes et des demeures dans un monde primitif fait de vastes forêts des orages et des inondations de flammes titanesques : le Premier Monde, un royaume à la potentialité illimitée. Lors du Grand Abandon, lorsque les dieux ont quitté le Premier Monde, de nombreux yakshas ont refusé cet exode, préférant rester pour s'acquitter de leurs tâches de gardiens. Malgré le manque soudain de puissance divine dans le royaume, les yakshas restants ont fait des vœux primordiaux, ce qui leur a permis de canaliser la puissance de la Forge de la création toute proche en magie primordiale et de transformer des pans entiers du Premier Monde métamorphique en régions stables afin d'offrir un refuge aux fées démunies.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.f6IU2EGcJUzVZ4nD]{Yaksha}</em></p>"
+        },
+        "Leshy": {
+            "name": "Leshy",
+            "description": "<p><em>Gardiens et émissaires de l'environnement, les léchis sont des esprits immortels de la nature à qui a été accordée une forme physique temporaire.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.SWkwNivrfzWZqas9]{Léchi}</em></p>"
+        },
+        "Ghoran": {
+            "name": "Ghoran",
+            "description": "<p><em>Ce peuple végétal intelligent, créé par un druide mort depuis longtemps, possède une sorte d'immortalité grâce à ses graines, à moins que celles-ci ne soient détruites par des événements extérieurs autres que les ravages du temps.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.kRjkrWAqQNXj3LLP]{Ghoran}</em></p>"
+        },
+        "Kholo": {
+            "name": "Kholo",
+            "description": "<p><em>Les kholos ont la mauvaise réputation d'être des pillards brutaux et des adorateurs de démons. Nombreux sont ceux qui pensent que les kholos sont des sorciers, des cannibales, voire pire. La vérité est plus complexe. Les kholos sont des chasseurs et des pillards éminemment pratiques et pragmatiques. Pour eux, l'honneur n'est qu'un autre mot pour désigner un risque inutile. Toute perte d'un kholo n'affecte pas seulement l'individu, mais aussi ses compagnons de meute et ses proches. Perdre du temps pour autre chose que ce qui mène à la victoire, que ce soit par pitié ou par cruauté, est considéré comme un à peine moins qu'immoral. Les kholos sont passés maîtres dans l'art des embuscades, des feintes tactiques et de la guerre psychologique. La pratique kholo du culte des ancêtres et de l'endocannibalisme est tout aussi mal comprise. Les kholos consomment leurs morts en signe de révérence, organisant un grand festin et transformant les os en objet d'art ou en armes. Les kholos étendent cet honneur à des ennemis respectés, dans l'espoir d'intégrer ainsi leur ruse ou leur force au sein du clan.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.xBV8oGvecw7abZxc]{Kholo}</em></p>"
+        },
+        "Sprite": {
+            "name": "Sprite",
+            "description": "<p><em>Les sprites sont des créatures minuscules, fantaisistes et exubérantes du royaume des fées connus sous le nom de Premier monde. Ils adorent jouer des tours, explorer de nouvelles choses et embrasser tout ce qui a trait à la magie.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.rvbMGyBr6y5K7HDP]{Sprite}</em></p>"
+        },
+        "Orc": {
+            "name": "Orc",
+            "description": "<p><em>Les orcs sont forgés dans le creuset de la violence et du conflit, souvent dès le moment où ils viennent au monde. Comme ils vivent des vies qui sont fréquemment rapidement interrompues, les orcs apprécient de tester leurs forces contre des adversaires de valeur, que ce soit en défiant un membre de plus haut rang de leur communauté pour la domination ou en pillant une colonie des alentours. Beaucoup d'orcs recherchent la gloire aussitôt qu'ils savent marcher et porter une lame ou une massue, matant des bêtes sauvages ou chassant des monstres mortels.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.GCxhDyf1ZNlLiDKZ]{Orc}</em></p>"
+        },
+        "Poppet": {
+            "name": "Poppet",
+            "description": "<p><em>Les poupées sont de petites créature artificielles basiques qui aident généralement leurs propriétaires à accomplir de simples tâches. Parfois, les poupées accèdent à la conscience, à l'indépendance et obtiennent une parcelle de vie. Dépassant le stade de simples assistants ou de jouets, de telles poupées sont libres de suivre leur propre destin.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.Ck8L9livQph1GFal]{Poupée}</em></p>"
+        },
+        "Samsaran": {
+            "name": "Samsaran",
+            "description": "<p><em>La légende raconte que les Samsarans sont issus d'un groupe d'érudits de Zi Ha qui se sont aventurés dans les montagnes pour trouver le remède à une maladie qui ravageait leur village. Après des semaines à affronter des périls, ils trouvèrent une source d'eau douce remplie d'essence de vie magique et pure. Cette eau a ramené les érudits des portes de la mort et a guéri les villageois. Tous ceux qui ont bu l'eau ont consacré le reste de leur vie à l'apprentissage et à la découverte du monde. À leur mort, cette dévotion, combinée à l'essence magique qui a imprégné dans leur corps, a fait d'eux les premiers samsarans.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.pwrptby8NB54A6HQ]{Samsaran}</em></p>"
+        },
+        "Human": {
+            "name": "Human",
+            "description": "<p><em>Plus imprévisibles et disparates que n'importe quel autre peuple habitant sur Golarion, les humains font preuve d'une volonté exceptionnelle qui les pousse à s'étendre envers et contre tout. Si de nombreuses civilisations ont prospéré avant l'ascension de l'humanité, celle-ci est à l'origine des plus grandes et plus terribles sociétés de l'histoire et elle constitue aujourd'hui la majorité de la population du pourtour de la Mer Intérieure.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.7pU8yM7yPMw92SY3]{Humain}</em></p>"
+        },
+        "Yaoguai": {
+            "name": "Yaoguai",
+            "description": "<p><em>Les yaoguais commencent généralement par être de simples animaux, plantes ou objets avant de trouver un moyen de s'éveiller à la conscience, devenant ainsi d'étranges créatures capables de changer de formes. Souvent issus de l'imprégnation d'une énergie ambiante dans leur forme originelle, les yaoguais acquièrent leurs pouvoirs en s'entraînant pour leur magie innée. Prenant soin de ne pas dévoiler leur véritable apparence et leur nature, les yaoguais de même origine ou de même espèce forment parfois des enclaves dans lesquelles ils consacrent leur vie à perfectionner leurs pouvoirs ou à s'adonner à des activités hédonistes, bien que les deux ne s'excluent pas l'une l'autre. Les yaoguais qui n'appartiennent pas à une communauté solide se sentent obligés de se cultiver jusqu'à ce qu'ils transcendent leur origine, ce qui pourrait leur permettre de rejoindre la société et de connaître une nouvelle forme de liberté.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.OlqTCYZK9sBDeuKf]{Yaoguai}</em></p>"
+        },
+        "Centaur": {
+            "name": "Centaur",
+            "description": "<p><em>Les centaures sont de fiers nomades qui parcourent leurs territoires ancestraux de long en large, protégeant leurs terres de l'exploitation et contre les intrusions. Ce sont des survivalistes qui tissent des liens étroits avec leur famille et leur communauté et qui restent fermes face au danger. Nombre d'entre eux sont des chasseurs, des pisteurs et des guerriers habiles qui se battent avec un arc, de l'acier et leurs sabots. Courageux et têtus, ils sont prêts à défier les ennemis les plus féroces et les forces les plus importantes pour protéger leur foyer, leurs proches et la terre au sein de leur domaine.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.AhKqWjsodDXRUelE]{Centaur}</p>"
+        },
+        "Dwarf": {
+            "name": "Dwarf",
+            "description": "<p><em>Les nains, blottis dans leurs citadelles et cités de pierres, se sont fait une réputation de peuple sévère et stoïque qui bien méritée. Cependant, si l'on ne voit parfois en eux que d'austères façonneurs de pierres et de métaux dénués d'humour, tous ceux qui ont passé du temps en présence des nains ont compris que le zèle minutieux dont ils font preuve dans le travail leur permet de répondre à leur attachement pour la qualité plutôt que pour la quantité. Aux yeux d'un étranger, ils peuvent sembler méfiants et repliés sur leur clan. Aux yeux de leurs amis et de leurs familles, ils sont chaleureux et pleins d'attentions et leurs maisons communes résonnent de rires et de coups des marteaux frappant les enclumes.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.XzRv30zY3UXRbBho]{Nain}</em></p>"
+        },
+        "Anadi": {
+            "name": "Anadi",
+            "description": "<p><em>Les anadis sont des araignées intelligentes et recluses, originaires des jungles du sud du Garund. Bien qu'elles agissent à bien des égards comme des métamorphes naturels, leurs formes jumelées sont en fait le résultat d'une magie soigneusement développée.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.9dpHTBpL3j8ZpqTS]{Anadi}</em></p>"
+        },
+        "Dragonet": {
+            "name": "Dragonet",
+            "description": "<p><em>Les dragonnets sont de minuscules dragons, dotés des même ailes, crocs acérées comme des poignards et souffle magique que leurs cousins plus imposants. Ils peuvent être farouchement indépendants et fiers, parfois protecteurs et cupides et se délectent des choses les plus raffinées de la vie.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.XL2BDTsaIEDkpKj0]{Dragonnet}</p>"
+        },
+        "Jotunborn": {
+            "name": "Jotunborn",
+            "description": "<p><em>Selon leurs histoires les plus anciennes, le premier jotunborn a été la création directe des premiers dieux. Ayant juste terminé l'essentiel de la création de Golarion, ces dieux ont créé plusieurs groupes de peuples pour agir en tant qu'intendants de ce nouveau monde. Parmi ces groupes, il y avait les jotunborns, des êtres qui furent formés à partir des restes de titans qui osèrent se rebeller contre les dieux au cours des premiers jours de leur existence. Au lieu de donner aux jotunborns la pleine puissance qu'ils avaient donné aux titans, les dieux ont instillé à la place au premier jotunborn la plus infime étincelle de la création et lui ont donné des formes plus menues. Ces nouveaux serviteurs seraient tout aussi capables d'aider à façonner le reste de Golarion mais seraient aussi plus faibles et plus faciles à abattre s'il leur prenait l'envie de se rebeller comme leurs progéniteurs.</em></p>"
+        },
+        "Nagaji": {
+            "name": "Nagaji",
+            "description": "<p><em>Avec des visages d'humanoïdes et des têtes serpentines, les nagajis sont les hérauts, les compagnons et les serviteurs des puissants nagas. Ils éprouvent une profonde révérence pour les lieux saints et les vérités spirituelles, un aspect que bien d'autres trouvent aussi intimidant que l'apparence d'un nagaji.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.TlTIwW61zK0dk95v]{Nagaji}</em></p>"
+        },
+        "Tanuki": {
+            "name": "Tanuki",
+            "description": "<p><em>Le Tian Xia regorge d'ascendances disposant de dons magiques - tels que les tengus, les kitsunes, les yakshas et les yaoguais - dont les pouvoirs leur valent une grande considération et qui, en retour, utilisent leurs dons à des fins responsables. Les tanukis ne font pas partie de ces ascendances. Au contraire, ces humanoïdes métamorphes, qui ressemblent à des chiens viverrins, utilisent leurs pouvoirs d'illusion et de transformation d'une manière que beaucoup de gens devraient appliquer : pour s'amuser ! Les tanukis adorent les farces et les plaisanteries, en particulier celles qui leur permettent de faire tomber les puissants et de leur montrer à quoi ressemble la vie de tous les autres. Là où d'autres peuples se glorifient de leur histoire, de leurs nobles traditions ou de leurs cérémonies complexes, les tanukis sont fiers de leur simplicité et de leur mépris pour les nombreuses règles du monde. Bien que certains puissent prétendre que cette attitude réduit les tanukis à des ploucs grossiers, les tanukis estiment qu'elle les rend plus cultivés. Après tout, il faut connaître une règle pour la contourner et il faut comprendre une norme pour l'enfreindre.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.I1uEGrIhe4zLs8Ei]{Tanuki}</em></p>"
+        },
+        "Kitsune": {
+            "name": "Kitsune",
+            "description": "<p><em>Les kitsunes sont un peuple charismatique et drôle avec un lien vers le spirituel qui leur accorde des capacités magiques avec, en premier lieu, le pouvoir d'adopter d'autres formes. Qu'il s'agisse de passer inaperçu au sein d'un autre peuple ou de garder la queue haute, les kitsunes sont de fins observateurs des sociétés qui les entourent.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.26YL1jOPQQS6k7A9]{Kitsune}</em></p>"
+        },
+        "Hobgoblin": {
+            "name": "Hobgoblin",
+            "description": "<p><em>Plus grands et plus forts que leurs cousins gobelins, les hobgobelins égalent les humains en puissance et en stature, avec de larges épaules et de longs bras puissants.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.DuWzeY4zugKFFthl]{Hobgobelin}</em></p>"
+        },
+        "Tripkee": {
+            "name": "Tripkee",
+            "description": "<p><em>Les tripkees sont un peuple timide et prudent qui cherche généralement à éviter de se laisser entraîner dans les affaires des autres. En dépit de leur apparence précautionneuse et de leur petite taille, les tripkees aventuriers entreprennent souvent des actions audacieuses et nobles lorsque la situation l'exige.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.FhIJtKcINEe7fipX]{Tripkee}</p>"
+        },
+        "Minotaur": {
+            "name": "Minotaur",
+            "description": "<p>Les minotaures arpentent les passages complexes, qu'ils soient naturels ou artificiels, et sont des maîtres de l'architecture de pierre. Inquisiteurs et inébranlables, ces humanoïdes bovins passent leur vie à perfectionner la quête qui les appelle, ce qui peut parfois les mener loin des enclaves où ils ont été élevés. Les minotaures sont originaires de l'archipel d'Iblydos, mais ils se sont répandus loin sur Golarion, formant des communautés très unies, souvent près des montagnes ou sous la surface de la terre. Bien qu'on les prenne parfois pour de simples brutes, les minotaures sont autant des érudits que des guerriers. Ceux qui parviennent à faire abstraction de leur apparence y découvriront leur affinité pour la construction et la navigation, ainsi que pour leur manière créative de résoudre les problèmes.</p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.D1SZXGFA8Hh4huax]{Minotaure}</em></p>"
+        },
+        "Gnome": {
+            "name": "Gnome",
+            "description": "<p><em>Les ancêtres des premiers gnomes ont quitté le Premier Monde, le royaume des fées, il y a bien longtemps, mais nul ne connaît la véritable raison de leur exil sur Golarion. Les gnomes modernes ont hérité de leurs lointains parents leurs étranges raisonnements, leur excentricité, des comportements obsessionnels et ce que certains perçoivent comme une forme de naïveté. On retrouve des traces des particularités et des origines surnaturelles des gnomes dans les caractéristiques physiques : de longs membres, des cheveux de couleur vive et des visages enfantins et très expressifs.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.qIu10HByKeRaPPvD]{Gnome}</em></p>"
+        },
+        "Fetchling": {
+            "name": "Fetchling",
+            "description": "<p><em>Autrefois humains et désormais autre chose, les fetchelins affichent l'influence ancienne du Nébulmonde à travers des teints monochromes, des yeux brillants et l'invocation d'ombres surnaturelles.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.RlMgeku1FNJjF7YR]{Fetchelin}</em></p>"
+        },
+        "Shisk": {
+            "name": "Shisk",
+            "description": "<p><em>Les shisks sont des habitants des montagnes secrets, des humanoïdes à plumes d'os qui se cachent sous terre dans des tunnels et des cavernes sombres. Leur fascination pour la collecte et la protection de connaissances ésotériques est l'une des rares choses qui peuvent les persuader d'explorer le monde extérieur.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.qsbc1ZLCWzfl1sfZ]{Shisk}</em></p>"
+        },
+        "Wayang": {
+            "name": "Wayang",
+            "description": "<p><em>Les wayangs sont des membres de la diaspora venus du Nébulmonde où ils vivaient et travaillaient aux côtés de leurs alliés, les d'ziriaks tisseurs de lumière. Les deux peuples partageaient des affinités pour l'expression artistique et l'introspection spirituelle, s'inspirant mutuellement de leur sensibilité à la couleur, à la forme et à la fonction. Ils renforçaient également leurs défenses respectives contre les dragons destructeurs, les onis et les morts-vivants. Cette idylle s'est effondrée à cause de l'ingérence divine. Certains disent que lorsqu'Abadar a condamné Zon-Kuthon à l'exil dans le Nébulmonde, la présence déifique du Seigneur de Minuit a déformé le plan en un domaine cauchemardesque, tandis que d'autres récits attribuent des sources diaboliques à ce malheur.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.lLXEwzxawJ3Q0tpg]{Wayang}</em></p>"
+        },
+        "Sarangay": {
+            "name": "Sarangay",
+            "description": "<p><em>Les sarangays sont un peuple à tête de carabao qui a longtemps survécu dans les profondeurs des forêts du Tian Xia. De nombreux aventuriers les ont d'abord pris pour des monstres, mais les sarangays ne sont rien d'autre qu'une société prospère qui place sa communauté et son âme au-dessus de tout le reste. Leur culture repose sur le désir intense de protéger leur communauté et le chef qu'ils ont élu. On dit que leurs cornes sont des croissants de lune et que leur taille imposante est liée au fait que leurs ancêtres se sont étirés jusqu'à atteindre leur père, la Lune, tandis que leur mère Terre, les gardait près de son sein. Ils vénèrent le grand Père Lune, leur premier ancêtre, et s'efforcent de protéger et d'exalter la nature par-dessus tout car ils comprennent qu'ils en font partie.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.oTRP3yJNZp5KRoHK]{Sarangay}</em></p>"
+        },
+        "Surki": {
+            "name": "Surki",
+            "description": "<p><em>Les surkis sont une espèce insectoïde qui se nourrit de la magie latente du monde qui les entoure. En tant qu'espèce souterraine originaire d'Ombreterre, les surkis ont rarement été vus à la surface et toujours avec de longues pauses entre deux observations historiques. Cela est dû au cycle de vie des surkis - de longues périodes de sommeil suivies de ce que l'on appelle des \"creusements de génération\", au cours desquels ils migrent sur de grandes distances en réponse aux événements souterrains. La guérison de la Plaie du Monde a donné lieu à l'une des plus grandes migrations de ce type de leur histoire, amenant les surkis à remonter dans les cavernes et les passages de la cicatrice de Sarkoris et à émerger à la surface pour la première fois depuis de nombreuses années. Depuis leur apparition, plusieurs petites colonies de surkis se sont établies dans des coins isolés du Sarkoris, cataloguant avec voracité la faune, la magie et les divers autres habitants de la région au fur et à mesure de l'exploration de l'environnement étranger de la surface.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.6kuNg9Pr7LdaNPQq]{Surki}</p>"
+        },
+        "Android": {
+            "name": "Android",
+            "description": "<p><em>Merveilles technologiques venues d'un autre monde, les androïdes ont des corps synthétiques et des âmes vivantes. Leur double nature les rend vifs lorsqu'il s'agit de réfléchir et calmes sous la pression, mais aussi à l'aise dans l'immobilité et la solitude.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.dyusFHHyaQOaQhZ0]{Androïde}</em></p>"
+        },
+        "Strix": {
+            "name": "Strix",
+            "description": "<p><em>Connus sous ne nom d'itariis dans leur propre langue, les strix sont des humanoïdes aviaires reclus dévoués à leurs foyers et à leurs tribus. Ils défendent leurs précieuses communautés avec leurs larges envergures et des ergots acérés.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.N8aShsDuf3ur0vZ2]{Strix}</em></p>"
+        },
+        "Elf": {
+            "name": "Elf",
+            "description": "<p><em>En tant que membres d'un peuple ancien, les elfes ont été témoins de grands changements et ils possèdent une perspective sur le monde qui ne peut s'acquérir qu'en observant l'arc de l'histoire. Après avoir quitté le monde il y a bien longtemps, ils sont revenus sur une terre qui avait bien changé et ils luttent encore pour récupérer leurs terres ancestrales, notamment celles tombées aux mains de terribles démons qui les ont envahies. Certaines personnes admirent les elfes, qu'ils voient comme des êtres pleins de beauté et de grâce aux innombrables talents et connaissances. En ce qui les concerne, les elfes sont bien trop intéressés par leur liberté personnelle pour tenter d'incarner un tel idéal.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.3cfdiId1IoxLsF9V]{Elfe}</em></p>"
+        },
+        "Kobold": {
+            "name": "Kobold",
+            "description": "<p>Chaque kobold comprend instinctivement l'importance du pouvoir et beaucoup sont enclins à vénérer ceux qui le détiennent, qu'il s'agisse de puissants dragons, de fiélons cruels, de fées impérieux ou encore d'artefacts anciens. Les kobolds recherchent ces alliances par pragmatisme - après tout, qui oserait malmener un kobold au service d'un ancien dragon ? mais aussi parce que les œufs de kobolds incubés près de ces lieux de pouvoir s'imprègnent des caractéristiques physiques (et parfois des capacités) semblables à ceux du bienfaiteur du terrier. Les kobolds sont des artisans ingénieux et des alliés dévoués mais les étrangers qui pénètrent sur leur territoire les considèrent comme des escarmoucheurs inspirés et capables d'embuscades astucieuses. Toutefois, ces opportunistes reptiliens se montrent ravis de coopérer avec d'autres humanoïdes lorsque c'est à leur avantage, alliant prudence et ruse pour faire fortune dans le vaste monde.</p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.naQrTTE7CXu5lnNt]{Kobold}</em></p>"
+        },
+        "Athamaru": {
+            "name": "Athamaru",
+            "description": "<p>Les athamarus sont des humanoïdes ressemblant à des poissons qui forment des communautés sous-marines très unies. Dans de petites colonies, ils se consacrent à la culture vivrière d'algues, dressent des anguilles pour qu'elles servent de montures et créent des œuvres d'art élaborées en corail. Leurs relations avec les autres races aquatiques sont tendues car les athamarus ont subi des mauvais traitements de leur part. Cependant, ils restent curieux des liens potentiels et des nouvelles possibilités qui s'offrent à eux.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.19pE89qVIMELrZoY]{Athamaru}</p>"
+        },
+        "Shoony": {
+            "name": "Shoony",
+            "description": "<p><em>Minuscules humanoïdes qui ressemblent à des chiens trapus et bipèdes les shounis sont quelque fois pris à tort pour de faibles pacifistes insulaires. Quoi qu'il en soit, leur persévérance absolue, leur éthique de travail incroyable et leur utilisation pleine de ressources de la diplomatie font que les shounis sont loin d'être sans défense.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.j2hOTtHcdu2SA8Ha]{Shouni}</em></p>"
+        },
+        "Merfolk": {
+            "name": "Merfolk",
+            "description": "<p><em>Les hommes-poissons vivent dans tous les océans de Golarion, avec une variété infinie et une majesté qui inspire l'admiration. Ils se considèrent, non sans raison, comme les souverains de la mer. Dans les récifs tropicaux de la mer des Fièvres, les hommes-poissons construisent des temples et des palais de coraux aux couleurs vives. Sous la banquise de la mer Étincelante, ils chassent les phoques et les baleines pour se nourrir, au sein de petits clans qui se tiennent à l'écart. Dans l'océan Embaral, les habitants de la mer peuplent la grande cité marchande d'Alohmab, construite dans la coquille d'un escargot titanesque qui rampe au fond de l'océan.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.9hcAMLgnCAKkuyH6]{Merfolk}</p>"
+        },
+        "Fleshwarp": {
+            "name": "Fleshwarp",
+            "description": "<p><em>Les distordus sont des mutants dont les formes furent créées ou furent radicalement transformées par la magie, l'alchimie ou des énergies non naturelles. Leur apparence hétérodoxe peut leur rendre difficile de trouver un lieu qui soit à eux dans le monde.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.vTB1bTYVE4onyyy1]{Distordu}</em></p>"
+        },
+        "Lizardfolk": {
+            "name": "Lizardfolk",
+            "description": "<p><em>Les hommes-lézards sont des survivants accomplis, héritiers de royaumes considérés comme anciens même du point de vue des elfes.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.cbLJs37Nc8FveriK]{Homme-lézard}</em></p>"
+        },
+        "Tengu": {
+            "name": "Tengu",
+            "description": "<p><em>Les tengus sont des survivalistes et des gens qui apprécient la conversation, autant chez eux en vivant dans la nature qu'en trouvant une niche dans les cités denses. Ils accumulent la connaissance, les outils et les compagnons, les ajoutant à leur collection au fil de leurs voyages.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.YGIwmuVOJI7uNhGM]{Tengu}</em></p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

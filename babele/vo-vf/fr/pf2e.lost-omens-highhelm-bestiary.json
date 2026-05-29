@@ -1,0 +1,294 @@
+{
+    "label": "Heaume",
+    "entries": {
+        "Grand Defender": {
+            "name": "Grand Defender (Grand défenseur)",
+            "description": "<p>Sculpté à la main par le Père de la Création lui-même et renforcé par les âmes des nains les plus héroïques de l'histoire, le Grand Défenseur est le héraut de Torag à travers les plans. Véritable messager d'une divinité, le Grand Défenseur se manifeste d'une manière unique par rapport aux autres hérauts. Le châssis du Grand Défenseur se trouve à Forgeheart, le royaume souterrain de Torag au Paradis. Ce châssis est cependant vide et ne peut remplir que des fonctions de base, à l'instar d'un golem. Lorsque les fidèles font appel au Grand Défenseur, Torag réveille la créature artificielle avec des esprits. Comme la puissance du Grand Défenseur provient de la volonté de Torag et du pouvoir des âmes qui l'habitent, le Grand Défenseur peut prendre n'importe quelle forme. Torag peut envoyer ces esprits altérer toute statue d'une taille suffisante représentant un ancêtre nain. Ce processus transforme temporairement la sculpture en Grand Défenseur lui-même, au complet, avec ses capacités et son équipement.</p>",
+            "languages": "télépathie 30 mètres",
+            "items": {
+                "8bfrjBPYY9vQwv7D": {
+                    "name": "Hammer Storm (Marteau tempête)",
+                    "description": "<p>Le Grand défenseur lance une volée de marteaux de guerre qui inflige @Damage[12d8[bludgeoning]]{12d8 dégâts contondants} dans un @Template[cone|distance:50]{cône de 15 mètres} (@Check[reflex|dc:36|basic]). Le Grand défenseur peut exclure n'importe quelle nombre de cases de la zone pour ne pas infliger de dégâts aux créatures qu'il souhaite épargner dans cette zone. Les créatures qui obtiennent un échec critique à leur jet de sauvegarde sont repoussées de 3 mètres par rapport au Grand défenseur et tombent @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. La tempête crée 24 marteaux de guerre de taille moyenne qui perdurent après l'attaque et qui peuvent être utilisés par les créatures. Le Grand défenseur ne peut plus utiliser cette capacité avant [[/gmr #Recharge Marteau tempête]]{1d4 rounds}.</p>"
+                },
+                "EQxD7eDwvjCkYCZ4": {
+                    "name": "Hammer Barrier (Marteau barrière)"
+                },
+                "TKEEtdN9LFTog5FP": {
+                    "name": "Golem Antimagic (Antimagie du golem)",
+                    "description": "<p>Un golem est immunisé contre les sorts et les pouvoirs magiques autres que les siens mais chaque type de golem est affecté d'une manière spéciale par quelques formes de magie. Ces exceptions sont expliquées ci-après. S'il est indiqué plusieurs types de sorts (comme \"froid\" et \"eau\"), ils affectent tous le golem.</p>\n<ul>\n<li><strong>Blessé par l'acide</strong> Toute magie de ce type qui cible le golem lui inflige @Damage[8d10[untyped]]{8d10 dégâts} (ces dégâts n'ont aucun type) au lieu de l'effet habituel. Si le golem commence son tour dans une zone de magie de ce type ou s'il est affecté par un effet persistant d'acide, il subit @Damage[2d10[untyped]]{2d10 dégâts}.</li>\n<li><strong>Ralenti par l'électricité</strong> Toute magie de ce type qui le cible lui confère l'état Ralenti 1 pendant [[/r 2d6 #rounds]]{2d6 rounds} au lieu de l'effet normal. Si le golem commence son tour dans une zone de magie de type électricité, il est ralenti 1 pour ce round.</li>\n<li><strong>Soigné par le feu</strong> Toute magie de ce type qui cible le golem lui fait perdre son état Ralenti et lui permet de récupérer un nombre de PV égal à la moitié des dégâts qu'aurait dû infliger le sort. Si le golem commence son tour dans une zone de magie de type feu, il obtient @Damage[2d10[healing]]{2d10 PV}.</li>\n</ul>"
+                },
+                "TiAH6iu5HaOCtg07": {
+                    "name": "Force Blast (Explosion de force)"
+                },
+                "WfyrZ8T2RVPUA98e": {
+                    "name": "Ablative Adaptation (Ablation adaptative)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par minute</p>\n<p><strong>Déclencheur</strong> La résistance aux dégâts physiques du Grand défenseur est vaincue par l'exception à sa résistance</p>\n<hr />\n<p><strong>Effet</strong> Le Grand défenseur laisse tomber la couche de surface de son corps, altérant à la composition du matériau et à son apparence physique. Le matériau qui parvient à surmonter la résistance du Grand défenseur peut passer à l'adamantium, au fer froid, à l'aubargent ou à l'argent (au choix du Défenseur)"
+                },
+                "g4nVUq1BxZnFW9m9": {
+                    "name": "Telepathy 100 feet (Télépathie 30 m)"
+                },
+                "gnXNR1eGs1ec3CHv": {
+                    "name": "Warhammer (Marteau de guerre)"
+                },
+                "okF1IZw2cFIwdGWZ": {
+                    "name": "Defender's Shield (Can't Be Damaged) (Bouclier du Défenseur (ne peut pas être brisé))",
+                    "description": "<p>Comme les boucliers en bois, les boucliers en acier sont de formes et de tailles variées. Bien qu'ils soient plus coûteux que les boucliers en bois, ils sont cependant beaucoup plus résistants.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n    <th>Solidité</th><th>PV</th><th>SR</th>\n</tr>\n</thead>\n<tbody>\n    <tr>\n    <td>5</td>\n    <td>20</td>\n    <td>10</td>\n</tr>\n</tbody>\n</table>"
+                },
+                "txodHvTDxbVq0lKF": {
+                    "name": "Divine Innate Spells (Sorts divins innés)"
+                },
+                "yDkV2DlLlLIAWADI": {
+                    "name": "Vulnerable to Rust (Vulnérabilité à la rouille)",
+                    "description": "<p>Les effets de rouille magique, comme ceux d'une antenne d'oxydeur, affectent le Grand défenseur normalement.</p>"
+                }
+            }
+        },
+        "Graul": {
+            "name": "Graul",
+            "description": "<p>Les cavernes et les tunnels labyrinthiques sous Heaume abritent de nombreux dangers, dont l'insidieux graul est l'une des espèces indigènes les plus remarquables. Ces prédateurs embusqués hautement spécialisés possèdent un camouflage naturel qui les rend totalement imperceptibles à toutes les formes de vision dans le noir, tandis qu'ils flottent silencieusement dans l'obscurité, ce qui leur permet de chasser les créatures qui s'appuient sur des sens spécialisés pour naviguer dans leur domaine sans lumière. Étonnamment rusés, les grauls savent utiliser leurs talents magiques d'illusion et de mimétisme pour séparer leurs proies potentielles de leurs alliés et des sources de lumière.</p>",
+            "perception": "vision aveugle 36 mètres (précis)",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Agripper"
+                }
+            },
+            "items": {
+                "2qmcroLjL8H41yHV": {
+                    "name": "Oderless (Inodore)",
+                    "description": "<p>Le graul ne dégage aucun arôme naturel, ce qui le rend indétectable par les créatures utilisant la capacité Odorat.</p>"
+                },
+                "DxZAtyNFSrcDKZcg": {
+                    "name": "Tentacle Grab (Tentacules agrippantes)",
+                    "description": "<p>Une créature touchée par un tentacule du graul est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} par celle-ci. La créature n'est pas @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée}, mais ne peut pas se déplacer hors de la portée de la tentacule du graul. Une créature peut couper la tentacule avec une Frappe contre une CA 18 qui inflige au moins @Damage[10[slashing]]{10 dégâts tranchantts}. Cela n'inflige aucun dégâts au graul mais l'empêche d'utiliser sa Frappe de tentacule jusqu'à ce cque la tentacule repousse, ce qui prend 1 round. Le graul peut se déplacer sans arrêter d'agripper tant que la créature reste dans l'allonge de la tentacule.</p>"
+                },
+                "FihyYZWEp5Oo8wcj": {
+                    "name": "Paralysis (Paralysie)",
+                    "description": "<p>Une créature vivante touchée par une frappe de mâchoire du graul doit réussir un jet de @Check[fortitude|dc:20] ou être @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée}. La créature peut tenter un nouveau jet de sauvegarde à la fin de chacun de ses tours et le DD diminue progressivement de 1 sur chacun de tels tests. Une créature paralysée par cette capacité est aussi affectée par Invisibilité à vision dans le noir tant que l'effet persiste.</p>"
+                },
+                "GyNsvrCmSNVjr9Wr": {
+                    "name": "Ventriloquism (At Will) (Ventriloquie (À volonté))"
+                },
+                "RYtslJtiCWeBqb5n": {
+                    "name": "Primal Innate Spells (Sorts primordiaux innés)"
+                },
+                "Wwb6exi1VOFzmkjz": {
+                    "name": "Darkvision Invisibility (Invisibilité à vision dans le noir)",
+                    "description": "<p>La chair caoutchouteuse du graul est saturée d'un composé biochimique unique qui le rend indétectable à l'égard de n'importe quelle forme de vision dans le noir. Sous la lumière faible ou vive, la créature peut être aperçue normalement par toute sorte de vision.</p>"
+                },
+                "ZLLHb58OMKRpj5r5": {
+                    "name": "Sound Mimicry (Imitation de sons)",
+                    "description": "<p>Le graul imite à la perfection les sons et les voix des autres créatures en tentant un test de @Check[deception|against:will] contre le DD de Volonté de tout auditeur. Le graul n'a pas besoin de comprendre le langage qu'il imite, mais lorsqu'il parle un langage qu'il ne connaît pas, il ne peut que répéter des mots et des phrases qu'il a entendus au cours des 24 heures précédentes. Le graul ne peut utiliser cette capacité pour reproduire des pouvoirs ou des sorts basés sur la voix.</p>"
+                },
+                "ikUY2FcFjw2EODCR": {
+                    "name": "Seize (Attraper)",
+                    "description": "<p><strong>Déclencheur</strong> Le graul a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature avec sa tentacule.</p>\n<hr />\n<p><strong>Effet</strong> Le graul ramène la créature déclencheuse à lui. Le graul tente un test d'@Check[athletics|defense:fortitude] contre le DD de Vigueur de la créature. En cas de succès, la créature déclencheuse est automatiquement attirée de 4,50 mètres vers lui.</p>"
+                },
+                "uNNGBibvzg8Gy2kr": {
+                    "name": "Tentacle (Tentacule)"
+                },
+                "yJfVcmp4FwSeADnj": {
+                    "name": "Jaws (Mâchoire)"
+                }
+            }
+        },
+        "Augdunar": {
+            "name": "Augdunar",
+            "description": "<p>Sélectionnés au fil des siècles pour être aussi forts, robustes et grognons que les nains de Heaume eux-mêmes, les augdunars sont une race unique de mulets privilégiée par les marchands de la Citadelle céleste pour le transport des marchandises et le travail manuel. Contrairement aux mules que l'on trouve ailleurs sur Golarion, les augdunars sont capables de produire une descendance, bien qu'elle soit nettement moins nombreuse que celle des équidés ordinaires. Cela a permis de constituer un stock régulier, mais contrôlé, de ces créatures, ce qui permet à la population d'être autosuffisante. Les augdunars sont plus petits que les mules habituelles pour s'adapter à la taille des nains. Ils mesurent environ 1,80 mètre et pèsent entre 180 et 270 kilos.</p>\n<p>En raison de leur capacité à porter des charges supérieures à celles d'une mule traditionnelle et de leur aptitude à se reproduire entre eux, les augdunars sont souvent la cible de voleurs ou de marchands opportunistes. Aucun citoyen de Heaume digne de sa pierre n'accepte de vendre un augdunar à des étrangers et les tentatives de vol sur la route sont donc fréquentes. Malheureusement pour ces voleurs, les mules sont très fidèles à leurs propriétaires et braient bruyamment dès qu'un étranger prend leurs rênes en main. Combiné à un lourd coup de sabot sur le crâne, toute tentative pour s'enfuir avec un augdunar n'ont que peu de chance de succès.</p>\n<p>Bien que rares, de petits groupes d'augdunars ont échappé au contrôle des nains au fil des ans et ont créé des colonies sauvages dans les montagnes des Cinq Rois. Ces colonies sont en grande partie à l'abri des prédateurs ordinaires, tels que les loups, et se nourrissent des plantes des montagnes. En raison de leur faible taux de natalité, les augdunars sauvages n'ont pas besoin de voir leur population contrôlée, bien que des caravaniers tentent de les capturer et de les domestiquer à nouveau dans le but d'augmenter leurs profits.</p>\n<p>Bien qu'il s'agisse de bêtes de somme naturelles, les nains n'utilisent pas souvent les augdunars comme montures. Les mules semblent avoir une aversion instinctive pour les cavaliers, comme en témoignent les profondes morsures et les empreintes de sabots laissées sur ceux qui s'y sont essayés. Cela ne veut pas dire que certains n'ont pas réussi. Ceux qui font les efforts nécessaires pour créer un lien avec un augdunar constatent que leur persévérance peut être payante. La loyauté des augdunars est inégalée et même les voleurs savent qu'il ne faut pas essayer de voler un augdunar qui porte un cavalier.</p>",
+            "items": {
+                "fhMg298XCdud1b7D": {
+                    "name": "Back Kick (Coup de sabots arrière)",
+                    "description": "<p>L'augdunar se retourne rapidement, effectuant un coup de sabot puissant avec des deux pattes arrières. L'augdunar porte une Frappe de sabot. Si la Frappe touche l'augdunar inflige 1d10 dégâts contondants supplémentaires. Ceci compte comme deux attaque dans le calcul de la pénalité d'attaques multiples.</p>"
+                },
+                "kOIfsnMFqqb8nmDs": {
+                    "name": "Hoof (Sabot)"
+                },
+                "pQWmMswMgA5UmHEV": {
+                    "name": "Determined Trudge (Marche pénible et déterminée)",
+                    "description": "<p>L'augdunar Marche rapidement avec une pénalité de circonstances de -1,50 mètre à sa Vitesse en ignorant le terrain difficile.</p>"
+                }
+            }
+        },
+        "Pagulin": {
+            "name": "Pagulin",
+            "description": "<p>Les pagulins sont des lézards massifs à pattes multiples qui rôdent dans les cols des montagnes des Cinq Rois. Ces reptiles chassent les élans en se tenant à l'affût derrière les formations rocheuses ou dans les ouvertures des grottes. Les pagulins produisent une salive légèrement acide qu'ils crachent sur leurs proies pour les aveugler temporairement avant de les tuer. La queue du pagulin comporte un thagomiseur mortel, quatre grandes pointes qu'il utilise pour empaler ses proies et les empêcher de s'échapper. Les citoyens des Cinq rois savent que les pagulins sont beaucoup plus intelligents qu'ils n'en ont l'air car de nombreux rapports font état de pagulins qui laissent intentionnellement leur proie s'échapper, pour ensuite la suivre jusqu'à son repaire et se régaler de toute leur famille.</p>\n<p>Bien que les pagulins soient mortels, la plupart des habitants des montagnes des Cinq Rois leur restent indifférents. Les pagulins ont tendance à se reposer pendant plusieurs jours après la chasse, le temps de digérer leurs énormes prises. Cependant, ils sont particulièrement territoriaux et se réveillent volontiers de leur stupeur post-digestive pour défendre leur repaire. Les lézards sont également connus pour attaquer tout ce qui interrompt la chasse ou effraie leurs proies. De nombreuses caravanes de marchands ont dû faire face à une attaque inattendue de pagulins après être passées devant un troupeau de cerfs effrayés.</p>",
+            "StealthVariants": {
+                "0": {
+                    "label": "dans un environnement rocheux"
+                }
+            },
+            "SurvivalVariants": {
+                "0": {
+                    "label": "pour Pister une créature qui saigne"
+                }
+            },
+            "items": {
+                "5F3x3kb6RzBAtAwH": {
+                    "description": "<p>@Damage[(1d10+6)[piercing]]{1d10+6 dégâts perforants}, @Check[fortitude|dc:25|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                "77ml298CBlZQPFWV": {
+                    "name": "Tail Impalement (Empalement de queue)",
+                    "description": "<p>Une créature qui a été touchée par la frappe de queue d'un pagulin est empalée sur une des piques qui garnissent sa queue. La créature devient @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}. Si le pagulin se déplace, il emporte la créature empalée avec lui. Le pagulin n'a pas besoin d'utiliser une action supplémentaire pour maintenir la créature agrippée. La créature reste agrippée aussi longtemps qu'elle est empalée. La créature agrippée peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{S'Échapper}. Les créatures de taille Grande et supérieures sont immunisées à l'Empalement de queue du pagulin.</p>"
+                },
+                "AmJWxAaznWrR7cT5": {
+                    "name": "Claw (Griffe)"
+                },
+                "HOGEXvBEDcFtSi2w": {
+                    "name": "Jaws (Mâchoire)"
+                },
+                "a4gNBJxZRt38w9KE": {
+                    "name": "Spit (Cracher)"
+                },
+                "a7SkSojOBCMbEEq5": {
+                    "name": "Blinding Spittle (Crachat aveuglant)",
+                    "description": "<p>Une créature touchée par le crachat d'un pagulin doit tenter un jet de @Check[fortitude|dc:22] save.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Étourdie} pendant 1 round. Elle peut utiliser une interaction pour se débarrasser du crachat et enlever sa condition d'étourdissement.</p>\n<p><strong>Échec</strong> Comme en cas de succès, sauf que la créature est @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Aveuglée} au lieu d'être étourdie pendant 1 round.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais la créature est Aveuglée pendant 1 minute. La créature aura besoin de 2 Interaction pour se débarrasser du crachat.</p>"
+                },
+                "lYSJkzGiccxyMfdz": {
+                    "name": "Tail (Queue)"
+                },
+                "roVihSDEXcuUkb7o": {
+                    "name": "Spike Rend (Éventration de pique)",
+                    "description": "<p><strong>Conditions</strong> Le pagulin a empalé une créature sur sa queue.</p>\n<hr />\n<p><strong>Effet</strong> Le pagulin retire violemment sa pique de la créature, infligeant @Damage[2d6[bleed]]{2d6 dégâts de saignement} à la créature.</p>"
+                }
+            }
+        },
+        "The Bloodstorm": {
+            "name": "The Bloodstorm (La tempête-sang)",
+            "description": "<p>Cent mille sangsues, moustiques et parasites forment une masse bouillonnante de faim et de malice. Cela se déplace comme une tempête dans les tunnels et les cavernes du Pic de l'Empereur, constamment à la recherche de son prochain repas. Bien qu'elle possède de nombreux corps, elle n'a qu'un seul esprit, d'une intelligence surprenante. Les flammes et la fumée des villes la tiennent à distance, mais dans l'obscurité, elle est chez elle. Les nains de Heaume ont appris à vivre avec cette menace, mais ceux qui voyagent plus profondément dans la montagne doivent toujours rester vigilants.</p>\n<p>Dans les marais du Roncier, la nourriture est difficile à trouver. Aussi, lorsqu'un démon gravement blessé, un shemhazien connu sous le nom de Gratheyr, s'est réfugié dans ses eaux pour échapper à ses ennemis, toutes les créatures affamées se sont précipitées sur lui à l'odeur du sang. En dévorant sa chair, les créatures furent corrompues par son sang des Failles extérieures et leur faim ne fit que croître. Elles se régalèrent jusqu'à ce qu'il ne reste plus que son cœur, qui battait toujours au centre de la nuée, le liant à une volonté unique. Une fois son repas terminé, la nuée gonflée quitta le marais à la recherche de sa prochaine proie. Elle se déplaçait sans but, chassant animaux et voyageurs, jusqu'à ce qu'un grand grondement sous la terre attire son attention. La Tempête-sang suivit les vibrations dans les profondeurs de la terre, vers l'odeur de la sueur et le son des voix.</p>",
+            "languages": "ne peut parler aucune langue",
+            "perception": "Perception du sang 36 m (précis)",
+            "items": {
+                "AOVmlDAyLWPLQ3Es": {
+                    "name": "Demon Shape (Forme de démon)",
+                    "description": "<p>La nuée se condense pour prendre la forme solide d'un démon shemhazien. Sous cette forme, c'est une créature gigantesque qui ne peut pas partager l'espace d'une autre créature et qui peut utiliser son attaque de pince. Elle perd sa résistance aux dégâts physiques ainsi que ses faiblesses aux dégâts de zone et aux dégâts d'éclaboussure. Toute créature partageant un espace avec la tempête-sang lorsqu'elle se transforme est repoussée dans l'espace vide le plus proche. La tempête-sang peut utiliser cette action à nouveau pour reprendre sa forme de nuée.</p>"
+                },
+                "HJNwa0UJhR7KxLCJ": {
+                    "name": "Biting Swarm (Morsure de nuée)",
+                    "description": "<p>Chaque créature dans l'espace de la Tempête-sang subit @Damage[3d6[piercing],3d6[slashing]]{3d6 dégâts perforants et 3d6 dégâts tranchants} (@Check[fortitude|dc:31|basic]). Les créatures qui obtiennent un échec sur leur jet de sauvegarde subissent aussi @Damage[1d8[bleed]]{1d8 dégâts de saignement}.</p>"
+                },
+                "fv7KJFbrBRTvqefI": {
+                    "name": "Pincer (Pince)",
+                    "description": "<p><strong>Conditions</strong> La tempête-sang est sous Forme de démon</p>"
+                },
+                "gQO4Q9FL0lmy1nEE": {
+                    "name": "Tremorsense 60 feet (Perception des vibrations 18 m)"
+                },
+                "spDqiGTl7PbBDxUU": {
+                    "name": "Bloodsense 120 feet (Perception du sang 36 m (précis))",
+                    "description": "<p>La tempête de sang peut percevoir précisément les créatures qui saignent dans les 36 mètres.</p>"
+                },
+                "xS0LL49WhRi5SrNm": {
+                    "name": "Feeding Frenzy (Frénésie alimentaire)",
+                    "description": "<p><strong>Conditions</strong> Il y a des créatures qui ont subit des dégâts de saignement dans l'espace de la tempête-sang</p>\n<hr />\n<p><strong>Effet</strong> La créature qui saigne subit @Damage[3d8[piercing],3d8[slashing]]{3d8 dégâts perforants et 3d8 dégâts tranchants} (@Check[fortitude|dc:34|basic]). La tempête-sang gagne des Points de vie temporaires d'un montant égal à la moitié des dégâts infligés de cette manière.</p>"
+                },
+                "xitZqvPQVHDfsIC7": {
+                    "name": "Biting Constrict (Constriction mordante)",
+                    "description": "<p><strong>Conditions</strong> La Tempête-sang est sous sa Forme de démon et a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature</p>\n<hr />\n<p><strong>Effet</strong> La masse tournoyante de la pince de la tempête-sang serre la créature agrippée, infligeant @Damage[(3d8+8)[piercing]]{3d8+8 dégâts perforants} (jet de Vigueur basique). Sur un échec au jet de sauvegarde, la créature subit également @Damage[1d8[bleed]]{1d8 dégâts de saignement}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                }
+            }
+        },
+        "Draft Lizard": {
+            "name": "Draft Lizard (Lézard de trait)",
+            "description": "<p>Reptiles robustes aux écailles en damier or et blanc, les lézards de trait sont dotés de puissantes mâchoires et d'un dos encore plus robuste, capable de tirer des charges quatre fois supérieures à leur propre poids. Originaires des tunnels souterrains des montagnes des Cinq Rois, ces reptiles ont été domestiqués pour servir de bêtes de somme dans les Profondeurs et le réseau tentaculaire de passages au-delà. Les zoologistes pensent qu'ils font partie de la même famille de reptiles que les zétogekis car ils possèdent une carrure et d'autres caractéristiques physiques similaires.</p>\n<p>Dans les environs de Heaume, les lézards de trait ont adapté leur régime alimentaire pour se nourrir principalement d'hachticots. Cependant, des comportements résiduels suggèrent qu'en période de vaches maigres ou avant leur domestication, ils dévoraient des pierres pour se nourrir. On peut encore observer ces animaux ronger par habitude des rochers ou de grosses pierres, les faisant craquer avec leurs puissantes mâchoires et semblant en savourer le goût en faisant rouler les débris dans leur bouche. Les lézards de trait surmenés échappent au contrôle de leur maître pour consommer des pierres, avant de revenir sur leur chemin avec un sentiment de détermination renouvelé.</p>\n<p>Normalement aussi dociles que n'importe quelle autre bête de somme, les lézards de trait de Heaume se défendront s'ils sont attaqués par des prédateurs d'Ombreterre. Curieusement, ces lézards vouent une haine intense aux hryngars, qu'ils attaquent sans hésitation. Aucun document nain n'indique que ce comportement ait été enseigné lors de la domestication des animaux, ce qui laisse planer le mystère sur ses origines. Certains caravaniers affirment même que les reptiles peuvent sentir la présence des hryngars, les avertissant à l'avance de leurs attaques par un sifflement menaçant vers l'obscurité.</p>\n<p>Bien qu'ils soient trop grands pour être exceptionnellement adroits, il est possible d'apprendre à certains lézards de trait des tours de spectacle avec un entraînement attentif. La <em>Roue qui roule</em> est particulièrement connue pour son trio de reptiles se tenant en équilibre sur leur queue, en attrapant des rochers dans leurs mâchoires et pour leurs autres acrobaties. Le spectacle est bien connu à Heaume, considéré comme l'un des grands numéros accompli par le groupe. Cela a conduit certains nains plus jeunes à tenter d'enseigner les mêmes tours à leurs animaux, ce qui s'est soldé la plupart du temps par un échec et de légers dégâts matériels dans les Profondeurs.</p>",
+            "items": {
+                "A0HEPVDQ0ZxbcRhK": {
+                    "name": "Claw (Griffe)"
+                },
+                "H24BJE6L47c7473L": {
+                    "name": "Lizard Poison (Poison de lézard)",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Durée maximale</strong> 6 rounds</p>\n<hr />\n<p><strong>Stade 1</strong> @Damage[2d4[poison]]{2d4 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[2d6[poison]]{2d6 dégâts de poison} et Maladroit 1 (1 round)</p>\n<p><strong>Stade 3</strong> @Damage[2d6[poison]]{2d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2} (1 round)</p>"
+                },
+                "inJCHMmhwuTFkEZu": {
+                    "description": "<p>@Damage[(2d8+7)[piercing]]{2d8+7 dégâts perforants}, @Check[fortitude|dc:21|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                "jT8VYRxDgkui2HVD": {
+                    "name": "Jaws (Mâchoire)"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

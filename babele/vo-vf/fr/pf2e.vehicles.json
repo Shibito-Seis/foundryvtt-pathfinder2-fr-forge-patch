@@ -1,0 +1,1589 @@
+{
+    "label": "Véhicules",
+    "entries": {
+        "Steam Giant": {
+            "name": "Steam Giant (Géant à vapeur)",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "4",
+            "pilotingcheck": "Connaissance de la conduite (DD 32) ou Artisanat (DD 34)",
+            "speed": "6 mètres (alchimique)",
+            "items": {
+                "Rb4MyOLlodPUZdJX": {
+                    "name": "Flame Jet (Jet de flammes)",
+                    "description": "<p>Deux membres d'équipage accomplissent chacun une activité à 3 actions à leur tour pour produire une projection de flammes à la fin du tour du second personnage partant de n'importe quel coin de l'espace occupé par le géant à vapeur. Les flammes infligent @Damage[6d8[fire]]{6d8 dégâts de feu} à chaque créature dans un @Template[cone|distance:30]{cône de 9 mètres} (@Check[reflex|dc:32|basic]). Le jet de flammes cesse de fonctionner si le géant est brisé.</p>"
+                }
+            }
+        },
+        "War Wagon": {
+            "name": "War Wagon (Voiture de guerre)",
+            "crew": "1 pilote, 1 membre d'équipage",
+            "passengers": "6",
+            "pilotingcheck": "Connaissance de la conduite (DD 24) ou Nature (DD 26 à DD 34 en fonction des créatures de trait)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 6 créatures de Grande taille)",
+            "items": {
+                "FlEcs2bcRzhehZlg": {
+                    "name": "Countermeasures (Contre-mesures)",
+                    "description": "<p>Une créature qui Frappe une voiture de guerre avec une arme au corps-à-corps  ou une attaque à mains nues sans allonge subit @Damage[3d8[piercing]]{3d8 dégâts perforants} (@Check[reflex|dc:24|basic]).</p>"
+                },
+                "NuseCFEwiUEnOekC": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède un support d'armes. À l'achat, ce support d'arme est initialement vide. Installer ou désinstaller une arme dans un support nécessite 1 jour, un test d'@Check[crafting|dc:24] réussi et une arme appropriée. Ce support d'arme peut être équipé d'une arme de siège à distance de taille Grande ou inférieure.</p>"
+                }
+            }
+        },
+        "Clockwork Hopper": {
+            "name": "Clockwork Hopper (Bondisseur mécanique)",
+            "description": "<p>Un bondisseur mécanique possède une forme similaire à un grand lapin et effectue des avancées par bonds successifs qui évitent les aléas du terrain, bien que ces embardées peuvent provoquer des cahots et induire la maladie des transports chez certains de ceux qui l'empruntent.</p>",
+            "crew": "1 pilote",
+            "passengers": "2",
+            "pilotingcheck": "Connaissance de la conduite (DD 22) ou Artisanat (DD 24)",
+            "speed": "Vitesse 10,50 mètres (mécanique)",
+            "items": {
+                "gafl9oZCmfSGtfxj": {
+                    "name": "Hopper (Sautiller)",
+                    "description": "<p>Ce véhicule sautille sur le terrain lorsqu'il se déplace sur le sol. Il ignore le terrain difficile constitué par la terre, la roche, les gravats, les pentes et les broussailles et le terrain très difficile provoqué par de telles caractéristiques sont un terrain difficile pource qui le concerne.</p>"
+                },
+                "uP38cyn9BsX8ni0O": {
+                    "name": "Massive Jump (Saut massif)",
+                    "description": "<p>Le pilote engage le mécanisme de saut qui propulse le bondisseur mécanique dans les airs, dans un énorme bond. Le véhicule saute en ligne droite dans la direction de son mouvement actuel sans toucher terre sur une distance de 21 mètres en longueur et 9 mètres en hauteur, atterrissant dans un espace de sol solide. Les créatures qui sont adjacentes à l'espace où le bondisseur arrive subissent @Damage[4d10[bludgeoning]]{4d10 dégâts contondants} avec un jet de @Check[reflex|dc:22|basic|name:Éviter le bondisseur automate] et se retrouvent @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} en cas d'échec critique. Le bondisseur mécanique ne peut plus utiliser Saut massif avant 1 minute. Saut massif cesse de fonctionner si le Bondisseur mécanique est @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisé}.</p>"
+                },
+                "zEf7XS6RlEjM0VSO": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=22]]{DD 22}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                }
+            }
+        },
+        "Bathysphere": {
+            "name": "Bathysphere (Bathysphère)",
+            "crew": "1 pilote",
+            "passengers": "4",
+            "pilotingcheck": "Artisanat (DD 22), Connaissance de l'ingénierie (DD 20) ou Connaissance du pilotage (DD 20)",
+            "speed": "nage 6 mètres (alchimique, seulement sous l'eau)",
+            "items": {
+                "7LOtkjkF6S8p6CRA": {
+                    "name": "Tether Buoy (Reliée à une bouée)",
+                    "description": "<p>Les membres d'équipage et les passagers peuvent respirer lorsque le véhicule est sous l'eau jusqu'à une profondeur de 150 m.</p>"
+                },
+                "Qx3tJuimyRKT7l2W": {
+                    "name": "Cable",
+                    "description": "<p>La bathysphère est levée et abaissée par un cable à la surface et peut seulement se déplacer verticalement.</p>"
+                },
+                "upS8Tctv0gf8rQOC": {
+                    "name": "Ballast Release (Vider les ballasts)",
+                    "description": "<p>Le pilot libère le ballast de la bathysphère. La bathysphère se déplace 3 fois de sa Vitesse vers la surface à la fin du tour du pilote.</p>"
+                }
+            }
+        },
+        "Sky Chariot (Medium)": {
+            "name": "Sky Chariot (Medium) (Chariot céleste moyen)",
+            "crew": "1 pilote",
+            "passengers": "3",
+            "pilotingcheck": "Arcanes (DD 29), Nature (DD 29 à 37, en fonction des créatures de trait) ou Connaissance du pilotage (DD 27)",
+            "speed": "la Vitesse de vol de la plus lente des créatures de trait (tracté par 4 créatures Grandes, 2 créatures Très grandes ou 1 créature Gigantesque)"
+        },
+        "Sandsailer": {
+            "name": "Sandsailer (Voilier des sables)",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "6",
+            "pilotingcheck": "Athlétisme (DD 39), Connaissance de la conduite (DD 34), Connaissance de la navigation (DD 34), Nature (DD 39)",
+            "speed": "24 mètres (Vent)"
+        },
+        "Steelstone Assault Engine": {
+            "name": "Steelstone Assault Engine (Engin d'assaut en pierre d'acier)",
+            "description": "<p>Ce véhicule à vapeur est équipé de huit essieux, chacun doté d'une paire d'énormes roues métalliques à crampons alimentées indépendamment et capables de monter et descendre de manière autonome. Cela permet au moteur de maintenir une vitesse constante, même sur des terrains difficiles. Au sommet du véhicule se trouve un support d'arme rotatif équipé d'un canon en pierre d'acier.</p>",
+            "crew": "1 pilote, 5 membres d'équipage",
+            "passengers": "2",
+            "pilotingcheck": "Artisanat (DD 41) ou Connaissance de la conduite (DD 39)",
+            "speed": "7;50 mètres (alchimique, mécanique)"
+        },
+        "Steam Turtle": {
+            "name": "Steam Turtle (Tortue à vapeur)",
+            "description": "<p>Ce véhicule aquatique lourdement blindé ressemble à une tortue marine gigantesque recouverte de plaques d'acier. La tortue à vapeur est conçue pour les débarquements sur les plages et les assauts contre les installations portuaires. Une fois qu'elle a neutralisé les fortifications ennemies, elle déploie une longue passerelle de débarquement pour permettre aux troupes de débarquer et de se déployer.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "40",
+            "pilotingcheck": "Artisanat (DD 37) ou Connaissance de la navigarion maritime (DD 35)",
+            "speed": "nage 9 mètres (alchimique)",
+            "items": {
+                "CW6raLjyLvZAPowB": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "N548sqSbPhIQTCK2": {
+                    "name": "Space (Espace)",
+                    "description": "<p>24 mètres de long, 15 mètres de large, 12 mètres de haut</p>"
+                },
+                "SDMHRAgQKmX9GAlS": {
+                    "name": "Release Steam (Libérer la vapeur)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Deux membres d'équipage accomplissent chacun une activité à 3 actions au cours de leur tour pour libérer une importante accumulation de vapeur autour du véhicule, infligeant @Damage[11d6[fire]|options:area-damage]{11d6 dégâts de feu}dans une @Template[type:emanation|distance:10]{émanation de 3 mètres} (@Check[reflex|dc:35|basic]). Le mécanisme de libération cesse de fonctionner si le véhicule est brisé.</p>"
+                }
+            }
+        },
+        "War Strider": {
+            "name": "War Strider (Glisseur de combat)",
+            "description": "<p>Cet énorme véhicule à vapeur ressemble à un insecte géant doté de six pattes articulées surmontées d'une tourelle bombée capable de pivoter à 360 degrés afin de diriger ses armes montées à l'avant vers des ennemis situés dans n'importe quelle direction. Il dispose d'emplacements d'armes de chaque côté de sa tête qui ressemblent à des yeux. Grâce à ses longues pattes mécanisées, il peut facilement franchir des obstacles et traverser de larges gouffres.</p>",
+            "crew": "1 pilote, 5 membres d'équipage",
+            "passengers": "10",
+            "pilotingcheck": "Artisanat (DD 40) ou Connaissance de la conduite (DD 38)",
+            "speed": "9 mètres (alchimique, mécanique), ignore le terrain difficile",
+            "items": {
+                "BxBXK2Lkg5eJv3OY": {
+                    "name": "Long Stride (Long glissement)",
+                    "description": "<p>Un glisseur de combat peut franchir une ouverture de 9 mètres de large au cours d'une action de déplacement tant qu'il dispose de suffisamment de déplacement.</p>"
+                },
+                "ZSrYXt6FfwubLqI1": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède deux supports d'arme à l'avant. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 jour, un test d'@Check[crafting|dc:37] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Très grande ou inférieure.</p>"
+                }
+            }
+        },
+        "Armored Sleigh": {
+            "name": "Armored Sleigh (Taineau blindé)",
+            "description": "<p>Conçus pour traverser les climats glacials, les traîneaux blindés sont construits à partir de lourds madriers de chêne recouverts de fer. Ces véhicules massifs peuvent facilement traverser les terrains gelés et enneigés tout en protégeant le pilote et l'équipage du froid.</p>",
+            "crew": "2 pilotes, 8 membres d'équipage",
+            "passengers": "20",
+            "pilotingcheck": "Connaissance de la conduite (DD 36) ou Nature (DD 38 ou DD 46, en fonction des créature qui tirent)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 4 Très grandes créatures)",
+            "items": {
+                "ZC34GK9VgjIwe15Y": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "huNcuOUPCQnRwzLa": {
+                    "name": "Space (Espace)",
+                    "description": "<p>18 mètres de long, 9 mètres de large, 6 mètres de haut</p>"
+                },
+                "jXZhSyXIoxCZH7mO": {
+                    "name": "Insulated (Isolé du froid)",
+                    "description": "<p>Des protections contre les conditions climatiques glaciales sont intégrées à l'avant de ce véhicule, offrant ainsi un refuge contre le froid. Le pilote et l'équipage sont protégés contre le froid important et extrême. Le pilote bénéficie également d'une résistance 10 contre les dégâts de froid.</p>"
+                },
+                "myNha9udsrz9laBz": {
+                    "name": "Ice Traverser (Franchisseur de glace)",
+                    "description": "<p>Le traîneau blindé ignore le terrain difficile provoqué par la glace ou la neige.</p>"
+                }
+            }
+        },
+        "Siege Tower": {
+            "name": "Siege Tower (Tour de siège)",
+            "description": "<p>La tour de siège utilise la propulsion poussée, qui est régie par les mêmes règles que la propulsion tirée.</p>",
+            "crew": "1 pilote, 9 pousseurs",
+            "passengers": "40",
+            "pilotingcheck": "Diplomatie (DD 21), Intimidation (DD 21) ou Connaissance de la guerre (DD 19)",
+            "speed": "3 mètres (poussé par les pousseurs de l'équipage)",
+            "items": {
+                "jslLtykhA68xleGI": {
+                    "name": "Tiered (À plusieurs étages)",
+                    "description": "<p>Une tour de siège comporte cinq niveaux. Le niveau inférieur abrite l'équipage et chaque niveau supérieur peut accueillir jusqu'à 10 passagers. Les niveaux sont spécifiquement conçus pour protéger les personnes se trouvant dans la tour de siège et leur donner un abri important (ou un abri standard si la tour de siège est brisée). Chaque niveau est relié à celui qui le précède par une échelle de 2 mètres.</p>\n<p>La tour de siège possède un corvus à son niveau le plus élevé : un pont vertical qui peut être abaissé pour permettre aux créatures de franchir les brèches. Abaisser le corvus prend un total de 3 actions Interagir. Déplacer la tour de siège alors que le corvus est abaissé est très dangereux, surtout pour ceux qui se trouvent sur le corvus. Lorsqu'il est baissé, les créatures de l'étage supérieur n'ont plus d'abri du côté du corvus et les créatures sur le corvus abaissé n'ont pas d'abri sauf vis-à-vis du dessous</p>"
+                },
+                "uIzebnQMmGWvKMo5": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Sailing Ship": {
+            "name": "Sailing Ship (Bateau à voile)",
+            "crew": "1 pilote, 8 membres d'équipage",
+            "passengers": "10",
+            "pilotingcheck": "Connaissance de la navigation (DD 26), Diplomatie (DD 28) ou Intimidation (DD 28)",
+            "speed": "nage 12 mètres (vent)",
+            "items": {
+                "2UISHdYECuDVkedh": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Necro Roamer": {
+            "name": "Necro Roamer (Nécro vagabond)",
+            "description": "<p>Très apprécié des nécromanciens, ce véhicule est une cabane en bois blindée et fortement fortifiée, montée sur les pattes d'une douzaine de créatures mortes-vivantes.</p>",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "3",
+            "pilotingcheck": "Arcanes (DD 36) ou Connaissance de la conduite (DD 34)",
+            "speed": "9 mètres (magique)",
+            "items": {
+                "gJX0Lvluxa32duRR": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède deux supports d'arme sur le toit. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 jour, un test d'@Check[crafting|dc:36] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Grande ou inférieure.</p>"
+                }
+            }
+        },
+        "Iceboat": {
+            "name": "Iceboat (Bateau des glaces)",
+            "description": "<p>En plus de voyager sur la mer, ce vaisseau peut aussi franchir à grande vitesse la glace sur les fleuves, les lacs, les océans et les fjords.</p>",
+            "crew": "1 pilote, 1 membre d'équipage",
+            "passengers": "2",
+            "pilotingcheck": "Nature (DD 24) ou Connaissance de la navigation maritime",
+            "speed": "15 mètres sur la glace (vent), nage 9 mètres (vent)",
+            "items": {
+                "FFhaWaFrk7hnhcum": {
+                    "name": "Steel Keel (Quille d'acier)",
+                    "description": "<p>Les bateaux des glaces possèdent des lames d'acier fixées à leurs quilles et des stabilisateurs qui leur permettent de se déplacer sur la glace à une vitesse fulgurante.</p>"
+                },
+                "gfqiKy68ytWvW2OV": {
+                    "name": "Ice Traverser (Franchisseur de glace)",
+                    "description": "<p>La glace n'est pas un terrain difficile pour les bateaux des glaces. Quoi qu'il en soit, ils restent incapables de voyager sur la terre ferme à moins qu'elle ne soit totalement recouverte de glace.</p>"
+                }
+            }
+        },
+        "Mobile Command Post": {
+            "name": "Mobile Command Post (poste de commandement mobile)",
+            "description": "<p>Ce véhicule utilitaire ressemble à un petit campement, équipé de barrières de protection, d'une cuisine, de dortoirs et de bureaux cloisonnés, le tout monté sur des poutres en fer blindées. Sous ces poutres se trouve une série d'engrenages et de roues, entourés d'une chenille solide constituée de plaques de fer. Ces chenilles permettent au poste de commandement mobile de se déplacer sur tous types de terrains, mais à vitesse réduite. Une fois en position, ces chenilles se replient, permettant à la base du véhicule de reposer sur le sol tout en offrant une protection supplémentaire sur les côtés du véhicule.</p>",
+            "crew": "1 pilote, 9 membres d'équipage",
+            "passengers": "40",
+            "pilotingcheck": "Arcanes (DD 37), Artisant (DD 37) ou Connaissance de la conduite (DD 35)",
+            "speed": "6 mètres (magique, mécanique)",
+            "items": {
+                "kCO9msUmChonUP7K": {
+                    "name": "Space (Espace)",
+                    "description": "<p>27 mètres de long, 15 mètres de large, 6 mètres de haut</p>"
+                },
+                "z7FmMIh7GhEW7VFc": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Battery Tower": {
+            "name": "Battery Tower (Tour batterie)",
+            "description": "<p>Les tours de siège à poudre noire utilisent les mêmes règles que les tours de siège.</p>",
+            "crew": "1 pilote, 150 tourneurs, 2200 pousseurs",
+            "passengers": "204",
+            "pilotingcheck": "Diplomatie (DD 37), Intimidation (DD 37) ou Connaissance de la guerre (DD 35)",
+            "speed": "3 mètres (poussée, tournée)",
+            "items": {
+                "NPYMeT9SpDiUl907": {
+                    "name": "Weaponry (Armement)",
+                    "description": "<p>Une tour batterie est généralement équipée d'armes de siège à poudre noire pour les assauts lourds, avec des bombardes aux deux étages inférieurs et des canons aux autres étages. Leur prix est inclus dans celui de la tour batterie. Lors de la construction d'une tour batterie, vous pouvez choisir de remplacer ces armes par d'autres armes de siège d'un prix inférieur. Si vous voulez une arme de siège plus chère, vous devez l'acheter séparément. Les passagers de la tour batterie peuvent utiliser ces armes de siège en équipage.</p>"
+                },
+                "bgr3l9R7TMpSYb7q": {
+                    "name": "Tiered (À plusieurs étages)",
+                    "description": "<p>Une tour batterie comporte cinq niveaux. L'équipage opère au niveau inférieur, en faisant tourner un cabestan géant et jusqu'à quatre passagers peuvent prendre place à cet étage, ce qui est suffisant pour l'équipage complet d'une bombarde. Les autres niveaux peuvent accueillir 50 passagers chacun. Les étages sont spécialement conçus pour offrir aux personnes se trouvant à l'intérieur de la tour batterie un abri supérieur (ou pour offrir un abri standard si la tour batterie est @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Brisée}). Une échelle massive traverse en diagonale le centre de la tour batterie, de l'avant de l'étage supérieur à l'arrière de l'étage inférieur. L'échelle est suffisamment large pour que deux membres d'équipage ou passagers puissent y monter simultanément</p>"
+                },
+                "gmtQZ9QzVq0CTB1H": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Galley": {
+            "name": "Galley (Galère)",
+            "crew": "1 pilote, 20 rameurs",
+            "passengers": "6",
+            "pilotingcheck": "Connaissance de la navigation (DD 27), Diplomatie (DD 29) ou Intimidation (DD 29))",
+            "speed": "nage 6 mètres (à rames, vent)",
+            "items": {
+                "tFb8nV3bxHVLeU8Z": {
+                    "name": "Maneuverable (Manœuvrable)",
+                    "description": "<p>Avec un équipage au complet de rameurs compétents, une galère à rames peut tourner rapidement, tourner sur ell-même et même ramer vers l'arrière. Chaque virage à 90 degrés effectué en moins d'une longueur de véhicule coûte 1,50 mètre de mouvement supplémentaires. Elle peut ramer en arrière à un maximum de mi-vitesse et elle ne peut tourner tant qu'elle rame vers l'arrière.</p>"
+                }
+            }
+        },
+        "Flying Fortress": {
+            "name": "Flying Fortress (Forteresse volante)",
+            "description": "<p>Centre de commandement de champ de bataille ultime, cet immense château volant sert de plate-forme pour lancer des assauts aériens contre les positions ennemies terrestres et maritimes. En survolant une position ennemie, la forteresse volante peut anéantir les ennemis qui ne disposent pas d'armes de siège pour riposter en tirant sur leurs défenses de première ligne.</p>",
+            "crew": "1 pilote, 25 membres d'équipage",
+            "passengers": "100",
+            "pilotingcheck": "Arcanes (DD 42) ou Connaissance du pilotage (DD 40)",
+            "speed": "vol 9 mètres (magique, mécanique, vent)",
+            "items": {
+                "Qz9Kx0LrJvHnpBOZ": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "Ce véhicule possède huit supports d'arme : deux de chaque côté de la forteresse. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 journée, un test d'@Check[crafting|dc:40] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Très grande ou inférieure.</p>"
+                },
+                "hHuH4ZhAExxchTxv": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "oHxWHVUjvrntFRiu": {
+                    "name": "Space (Espace)",
+                    "description": "<p>21 mètres de long, 21 mètres de large, 24 mètres de haut</p>"
+                }
+            }
+        },
+        "Sand Racer": {
+            "name": "Sand Racer (Bolide des sables)",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 30), Artisanat (DD 35), Arcanes (DD 36)",
+            "speed": "27 mètres (thastéron)",
+            "items": {
+                "3KAdN0CvRHGl0Fap": {
+                    "name": "Exploratory Kit (Outil d'exploration)",
+                    "description": "<p>Les bolides des sables sont bâtis pour l'exploration à longue distance dans les déserts désolés et possèdent une capacité de stockage de @UUID[Compendium.pf2e.equipment-srd.L9ZV076913otGtiB]{Rations} qui peuvent durent 14 jours pour une créature de taille moyenne et 14 jours de carburant. Ils possèdent aussi un petit compartiment de stockage sur le devant qui est habituellement réservé à une @UUID[Compendium.pf2e.equipment-srd.vLGDUFrg4yGzpTQX]{Trousse de réparation} et des pièces mécaniques de remplacement.</p>"
+                },
+                "PCG0t8B7xMicbSIn": {
+                    "name": "Burning Exhaust (Tuyau d'échappement brûlant)",
+                    "description": "<p>Tentez un test de pilotage à deux actions pour manœuvrer le Bolide des sables.</p>\n<hr />\n<p><strong>SUccès critique</strong> Le bolide des sables se déplace à sa Vitesse et peut faire un virage normalement. Choisissez jusqu'à deux créatures adjacentes au bolide des sables au début de son déplacement. Les deux créatures subissent @Damage[6d6[fire]]{6d6 dégâts de feu} du tuyau d'échappement brûlant du bolide des sables (@Check[reflex|dc:30|basic]).</p>\n<p><strong>Succès</strong> Comme en cas de succès critique mais vous choisissez une seule créature.</p>\n<p><strong>Échec</strong> Comme en cas de succès, mais la créature obtient un bonus de circonstances de +4 à son jet de Réflexes et le bolide des sables se déplace à sa Vitesse en ligne droite.</p>\n<p><strong>Échec critique</strong> Vous ratez votre tentative de porter des dégâts aux créatures avec votre tuyau d'échappement. Le bolide des sables se déplace à sa Vitesse en ligne droite et devient incontrôlable.</p>"
+                },
+                "TbqVUPF2iKI2xCCf": {
+                    "name": "Speed Boost (Boost de vitesse)",
+                    "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<hr />\n<p><strong>Effet</strong> Le pilote déclenche une injection de thastéron directement dans le moteur du bolide des sables afin d'augmenter sa vitesse. Pendant un round le bolide des sables obtient une vitesse de 54 mètres, tous les tests de pilotage avec le bolide des sables obtiennent le trait téméraire et le pilote obtient un bonus de circonstances de +2 à tous ses tests d'Acrobaties ou de pilotage pour des défis spécifiques de navigation. Un boost de vitesse est terriblement inefficace et consomme une pleine journée de carburant.</p>"
+                }
+            }
+        },
+        "Ice Breaker": {
+            "name": "Ice Breaker (Brise-glace)",
+            "description": "<p>Les océans plus froids sont souvent recouverts d'une banquise épaisse, offrant à certains royaumes des barrières naturelles contre les assauts et les bombardements maritimes. Pour contrer cela et pour pouvoir ravitailler les troupes stationnées dans ces régions, des ingénieurs ont conçu d'énormes brise-glaces à vapeur. Propulsés par une douzaine de chaudières à vapeur alimentées par des flammes arcaniques, ces navires peuvent se frayer un chemin à travers d'épais champs de glace qui écraseraient la plupart des bateaux, laissant derrière eux un chenal ouvert que d'autres navires peuvent emprunter.</p>",
+            "crew": "1 pilote, 25 membres d'équipage",
+            "passengers": "100",
+            "pilotingcheck": "Arcanes (DD 42) ou Connaissance de la navigation maritime (DD 40)",
+            "speed": "nage 12 mètres ou 6 mètres dans la glace épaisse (magique, mécanique)",
+            "items": {
+                "58hgK2dQGyCZ2AtQ": {
+                    "name": "Space (Espace)",
+                    "description": "<p>36 mètres de long, 12 mètres de large, 15 mètres de haut</p>"
+                },
+                "EnrnSkd1bkrMlaQs": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède huit supports d'arme : un à la proue, un à la poupe et trois de chaque côté. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 jour, un test d'@Check[crafting|dc:40] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Très grande ou inférieure.</p>"
+                },
+                "RUDtXii4Oi89aeZn": {
+                    "name": "Ice Passage (Passage dans la glace)",
+                    "description": "<p>Ce vaisseau peut se déplacer à travers la banquise jusqu'à 6 mètres d'épaisseur, en laissant un passage d'eau libre derrière lui.</p>"
+                },
+                "sQgDqTnfS4q9DdgX": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Mobile Inn": {
+            "name": "Mobile Inn (Auberge mobile)",
+            "description": "<p>L'auberge mobile est l'étape qui suit celle de la voiture blindée, apportant le confort limité d'une simple (et exiguë) auberge pour rendre les voyages longue distance plus supportables pour les voyageurs fortunés. Essentiellement une minuscule auberge sur roues, alimentée par des catalyseurs alchimiques et un moteur à vapeur, le véhicule est équipé d'un poêle, d'une armoire de rangement, d'un lavabo, d'une table, de deux bancs et d'une couchette compacte assez grande pour accueillir quatre personnes. Elle peut être modifiée pour accueillir un unique passager dans un confort nettement supérieur ou pour accueillir facilement 5 passagers en lui retirant ses aménagements.</p>",
+            "crew": "1 pilote",
+            "passengers": "3 (peut en contenir 5 en retirant ses aménagements)",
+            "pilotingcheck": "Connaissance de la conduite (DD 24) ou Artisanat (DD 26)",
+            "speed": "9 mètres (alchimique)"
+        },
+        "Shark Diver": {
+            "name": "Shark Diver (Requin plongeur)",
+            "crew": "1 pilote, 4 membres d'équipage",
+            "passengers": "6",
+            "pilotingcheck": "Artisanat (DD 30) ou Connaissance du pilotage (DD 28)",
+            "speed": "nager 12 mètres (alchimique)",
+            "items": {
+                "O5JvDSJWNWG2VtpR": {
+                    "name": "Electrify (Electrification)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par minute</p>\n<hr />\n<p><strong>Effet</strong> Deux membres d'équipage accomplissent chacun une activité à 2 actions au cours de leur tour pour émettre une pulsation électrique, infligeant @Damage[6d6[electricity]]{6d6 dégâts électriques} à toutes les créatures dans @Template[emanation|distance:10]{une émanation de 3 mètres} du requin plongeur. L'équipage et les passagers du requin plongeur ne sont pas affectés. Les créatures affectées doivent tenter un jet de @Check[fortitude|dc:28|basic].</p>"
+                },
+                "V86H5yeH71jmelzY": {
+                    "name": "Submersible",
+                    "description": "<p>Le requin plongeur peut voyager sous la surface de l'eau, en transportant un réservoir d'air permettant de pourvoir aux besoins de 11 créatures moyennes pendant 24 heures. Le requin plongeur peut atteindre en toute sécurité une profondeur de 90 mètres. S'il est brisé, le requin plongeur perd de l'air de son réservoir, réduisant l'air emmagasiné de 10 minutes par round. Un requin plongeur brisé voit sa profondeur maximale de plongée réduite de moitié.</p>"
+                }
+            }
+        },
+        "Rowboat": {
+            "name": "Rowboat (Bateau à rames)",
+            "crew": "1 pilote",
+            "passengers": "2",
+            "pilotingcheck": "Athlétisme (DD 16) ou Connaissance de la navigation (DD 14)",
+            "speed": "nage 6 mètres (à rames)",
+            "items": {
+                "9UcPAPPrzEhaoWgY": {
+                    "name": "Portaged (Portage)",
+                    "description": "<p>Le bateau à rames peut être transporté sur terre par 2 créatures de taille moyenne ou 1 créature de taille Grande. Ces créatures sont Surchargées lorsqu'elles le font.</p>"
+                }
+            }
+        },
+        "Clockwork Castle": {
+            "name": "Clockwork Castle (Château mécanique)",
+            "description": "<p>Bien que le nom exagère un peu sa taille réelle, un château magique est néanmoins une forteresse assez grande bâtie sur dix pattes semblables à des pattes d'araignées mécaniques. Cette structure possède trois étages avec des logements luxueux. Les légendes parlent d'un château mécanique unique, beaucoup plus grand qu'un chateau de cette taille, peut-être un artefact à part entière.</p>",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "10",
+            "pilotingcheck": "Connaissance de la conduite (DD 35), Arcanes (DD 39) ou Artisanat (DD 37)",
+            "speed": "12 mètres (magique, mécanique)",
+            "items": {
+                "0CcYSQlAiZcoMkF0": {
+                    "name": "Skewering Step (Pattes embrochantes)",
+                    "description": "<p>Deux membres d'équipage accomplissent une activité à 3 actions à leur tour pour embrocher les ennemis proches avec les pattes du château mécanique. Toutes les créatures en-dessous ou adjacentes au véhicule subissent @Damage[7d8[piercing]]{7d8 dégâts perforants} (@Check[reflex|dc:35|basic|name:Éviter les pattes]) à la fin du tour du second personnage.</p>"
+                },
+                "3WQ9vWhVa2yyJCcV": {
+                    "name": "Luxurious Accommodations (Logements luxueux)",
+                    "description": "<p>Ce véhicule contient un pont, une salle des machines, des chambres à coucher privées pour 13 créatures et quatre pièces supplémentaires (habituellement une salle à manger, une cuisine, une salle d'eau et une salle de réunion).</p>"
+                },
+                "MBdI0c7xv3ufaJM8": {
+                    "name": "Environmental Protections (Protections environnementales)",
+                    "description": "<p>La température de l'intérieur du véhicule est maintenue magiquement. Les créatures dans ce véhicule sont protégées du froid et de la chaleur importantes et extrêmes.</p>"
+                },
+                "VqS08x8SzApqcmVy": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule dispose de quatre supports d'armes sur le toit, un à chaque coin du véhicule. À l'achat, ces tourelles sont vides. Installer ou désinstaller une arme demande 10 minutes et une test réussi d'@Check[crafting|dc:35|name:Installer une arme] ainsi que de disposer de l'arme appropriée. Trois de ces supports d'arme peuvent être équipés d'une arme à distance et le quatrième peut contenir une arme de siège à distance de taille Grande ou inférieure.</p>"
+                },
+                "dabct2Mb2XcbWKwb": {
+                    "name": "Maneuverable (Manoeuvrable)",
+                    "description": "<p>Ce véhicule est monté sur des pattes semblables à des pattes d'araignées qui permettent un de tourner rapidement, de se retourner sur place et même de se déplacer en arrière. Chaque virage à 90 degrés effectué en moins d'une longueur de véhicule coûte 1,50 mètre de mouvement supplémentaires. Ainsi, par exemple, il faut 3 mètres de mouvement pour que le véhicule fasse demi-tour et commence à se déplacer vers l'arrière. Le véhicule perd ces avantages lorsqu'il est @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisé}.</p>"
+                },
+                "tS9MnEsewMslgzhi": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=35]]{DD 35}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                }
+            }
+        },
+        "Air Cycle": {
+            "name": "Air Cycle (Cycle aérien)",
+            "description": "<p>Ce véhicule mécanique se compose d'une petite plate-forme à roues sous une paire d'ailes constituées d'un cadre en bois léger recouvert d'une toile résistante. Un cycle aérien doit être lancé depuis une altitude élevée, à l'instar d'un planeur. Une fois en vol, cependant, le cycle aérien peut être maintenu en altitude et contrôlé à l'aide d'un système de pédales et de poignées de direction permettant de contrôler sa vitesse et sa direction. Si vous cessez de pédaler, le cycle aérien fonctionne comme un planeur.</p>",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Athlétisme (DD 21) ou Connaissance du pilotage (DD 19)",
+            "speed": "vol 7,50 mètres (mécanique, vent)",
+            "items": {
+                "EKI3Klo7ag2vzNLi": {
+                    "name": "Aerial Launch (Lancement aérien)",
+                    "description": "<p>Les cycles aériens peuvent être transportés au combat par un aéronef plus grand et lancé de plus hautes altitudes.</p>"
+                },
+                "cqnHmqahIXXnm7S2": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=19]]{DD 19}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                }
+            }
+        },
+        "Backpack Balloon": {
+            "name": "Backpack Balloon (Sac à dos ballon)",
+            "description": "<p>Ce qui semble être un simple sac à dos, bien qu'encombrant, cache des engins mécaniques qui peuvent gonfler deux grands ballons, permettant à celui qui porte le sac à dos de voler dans les airs pendant de courtes périodes. De plus, des propulseurs permettent au pilote de se déplacer tant qu'il reste en vol.</p>",
+            "crew": "1 pilote",
+            "pilotingcheck": "Athlétisme (DD 24) ou Connaissance du pilotage (DD 22)",
+            "speed": "vol 6 mètres (alchimique, mécanique, vent)",
+            "items": {
+                "0R49mrYVzoBBqP85": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 30 minutes de temps opérationnel, [[/act disable-device dc=22]]{DD 22}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "xvVoNoxMpRCx3uQo": {
+                    "name": "Stowable (Rangeable)",
+                    "description": "<p>En passant 10 minutes à les remballer, les ballons sac à dos peuvent être rangés après que le pilote se soit désengagé.</p>"
+                },
+                "zUcSWtLmI7zoyoYJ": {
+                    "name": "Deploy Balloons (Déployer les ballons)",
+                    "description": "<p>Le pilote actionne un levier qui active les composants mécaniques afin de lancer deux grands ballons attachés et de les remplir d'un gaz plus léger que l'air. À l'extérieur du sac à dos se trouve une petite hélice mécanique. Celle-ci permet à l'utilisateur de remonter et de piloter le véhicule.</p>\n<p>Cette transformation dure jusqu'à ce que le pilote désengage les ballons en utilisant de nouveau cette activité.</p>"
+                }
+            }
+        },
+        "Skimmer": {
+            "name": "Skimmer (Hydroptère)",
+            "description": "<p>Cet élégant navire se présente généralement sous la forme d'un catamaran rapide. Grâce à deux mécanismes mécaniques, les coques principales peuvent être soulevées hors de l'eau, laissant uniquement les lames étroites de leurs quilles légèrement sous la surface, rendant l'hydroptère encore plus rapide, en doublant sa vitesse normale.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "2",
+            "pilotingcheck": "Nature (DD 30) ou Connaissance de la navigation maritime (DD 28)",
+            "speed": "nage 9 mètres ou 18 mètres en utilisant l'aile portante (vent)",
+            "items": {
+                "YQhLb8tPUoxCoxuV": {
+                    "name": "Deploy Hydrofoil (Déployer l'hydroptère)",
+                    "description": "<p>Les ailes flottantes de l'hydroptère sont déployées en tirant sur un levier, doublant la vitesse normale du véhicule. Quoi qu'il en soit, ceci rend le véhicule moins nanœuvrant de sorte qu'il doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés accompli tant que les ailes flottantes sont déployées. Le pilote peut de nouveau accomplir cette action pour rétracter les ailes flottantes et ramener l'hydroptère à sa Vitesse et à sa maœuvrabilité habituelles.</p>"
+                }
+            }
+        },
+        "Combat Kite": {
+            "name": "Combat Kite (Cerf-volant de combat)",
+            "crew": "1 pilote",
+            "passengers": "0",
+            "pilotingcheck": "Nature (DD 24) ou Connaissance du pilotage (DD 22)",
+            "speed": "vol 4,50 mètres (magique, vent)",
+            "items": {
+                "udUWMy1N6PlT1qTM": {
+                    "name": "Cargo Release (Libérer le chargement)",
+                    "description": "<p>Le cerf-volant de combat peut transporter un planeur ou jusqu'à 20 Encombrements de matériaux. Le planeur ou le chargement peuvent être libérés à distance en Interagissant avec la longe magique.</p>"
+                }
+            }
+        },
+        "Cliff Crawler": {
+            "name": "Cliff Crawler (Chenille de falaise)",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "3",
+            "pilotingcheck": "Arcanes (DD 29), Connaissance de l'ingénierie, Connaissance du pilotage (DD 27) ou Nature (DD 29)",
+            "speed": "escalade 12 mètres (magique)",
+            "items": {
+                "jUfFzSzu0PIwCSgB": {
+                    "name": "Mountain Traverser (Franchisseur de montagnes)",
+                    "description": "<p>Les rochers et les pierres ne constituent pas un terrain difficile pour une chenille de falaise et elle peut traverser la plupart des pans rocheux et des surfaces de pierre verticaux à la moitié de sa Vitesse.</p>"
+                }
+            }
+        },
+        "Ironclad": {
+            "name": "Ironclad (Cuirassé)",
+            "description": "<p>Cette canonnière lourde est construite à partir de solides poutres en bois massif recouvertes d'épaisses plaques de fer rivetées entre elles afin de protéger les parties du navire situées au-dessus de la ligne de flottaison. Ces poutres sont inclinées vers l'intérieur afin de réduire l'efficacité des projectiles de siège et des tirs de canon. Le navire est propulsé par deux paires de propulseurs entraînés par la vapeur provenant de chaudières alimentées par la magie qui émettent une fumée bleue lumineuse par leurs deux cheminées jumelles. Les cuirassés sont si redoutables qu'un seul d'entre eux a déjà réussi à bloquer à lui seul tout un port contre des navires en bois plus traditionnels.</p>",
+            "crew": "1 pilote, 19 membres d'équipage",
+            "passengers": "30",
+            "pilotingcheck": "Arcanes (DD 42) ou Connaissance de la navigation maritime (DD 40)",
+            "speed": "nage 12 mètres (magique)",
+            "items": {
+                "RArIVjfgQkucB1UI": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "S2YyMZIBF4csYxyg": {
+                    "name": "Space (Espace)",
+                    "description": "<p>30 mètres de long, 18 mètres de large, 6 mètres de haut</p>"
+                },
+                "UGbQZpoFLMeY4Sgo": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède quatre supports d'arme, deux de chaque côté du véhicule. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 journée, un test d'@Check[crafting|dc:40] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Très grande ou inférieure.</p>"
+                }
+            }
+        },
+        "Atakebune": {
+            "name": "Atakebune (Atakkebune)",
+            "description": "<p>La structure de ces navires gargantuesques est entièrement recouverte de fer. Ces navires s'apparentent à des forteresses flottantes plutôt qu'à de véritables navires de guerre et sont généralement utilisés pour les actions près des côtes et les blocus fluviaux. Ils utilisent des rames pour se propulser car leur revêtement entièrement de fer, ainsi que leur encombrement, empêchent qu'il puisse être propulsé par des voiles.</p>\n<p>Nombre de ces vaisseaux sont magnifiquement dorés, avec des incrustations de rouge et d'or sur leur revêtement en fer. Ce poids supplémentaire contribue à leur stabilité suspecte.</p>",
+            "crew": "1 pilote, 8 rameurs",
+            "passengers": "60",
+            "pilotingcheck": "Connaissance de la navigation maritime (DD 27), Diplomatie (DD 29)",
+            "speed": "9 mètres (à rames)",
+            "items": {
+                "TlSnIZDRiC1KWeOU": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Sky Chariot, Armored": {
+            "name": "Sky Chariot, Armored (Chariot céleste armé)",
+            "description": "<p>Ce véhicule à ciel ouvert est similaire à un traîneau, avec quatre roues à la place des patins et une paire d'ailes incurvées s'étendant sur les côtés. La carrosserie en bois du véhicule est blindée afin de protéger ses occupants, qui peuvent tirer avec des armes portatives par-dessus les plats-bords pour se protéger des attaques à distance.</p>",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "4",
+            "pilotingcheck": "Arcanes (DD 34), Nature (DD 34 à 42 en fonction de la créature de trait)",
+            "speed": "la Vitesse de vol de la plus lente des créatures de trait (tiré par 6 créatures Grandes, 2 créatures Très grandes ou 1 créature Gigantesque)",
+            "items": {
+                "OklAHvVZjuO3XuoC": {
+                    "name": "Alchemical Launcher (Lanceur alchimique)",
+                    "description": "<p>Deux membres d'équipage accomplissent chacun une activité à 3 actions au cours de leur tour pour lancer une concoction alchimique massive à partir du chariot. La concoction explose à l'impact, infligeant @Damage[10d6[fire]|options:area-damage]{10d6 dégâts de feu} à chaque créature dans une @Template[type:burst|distance:15]{explosion de 4,50 mètres} dans un rayon de 15 mètres de distance (@Check[reflex|dc:30|basic]).</p>"
+                }
+            }
+        },
+        "Two-Person Submersible": {
+            "name": "Two-Person Submersible (Submersible pour deux personnes)",
+            "description": "<p>Ce véhicule mécanique peut voyager sous la surface de l'eau pendant de courtes périodes pour franchir les barrages des ennemis ou débarquer à couvert sur les plages ennemies.</p>",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Artisanat (DD 18) ou Connaissance de la navigation maritime (DD 16)",
+            "speed": "nage 6 mètres (mécanique)",
+            "items": {
+                "R5WxR5cldJYz577k": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>30 minutes pour remonter, 3 heures de temps opérationnel, [[/act disable-device dc=16]]{DD 16}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "cn6AyWvKXJaJVNRq": {
+                    "name": "Submersible",
+                    "description": "<p>Ce véhicule peut voyager juste sous la surface de l'eau.</p>"
+                }
+            }
+        },
+        "Siege Barge": {
+            "name": "Siege Barge (Barge de siège)",
+            "description": "<p>Ces barges spéciales ont été conçu pour assiéger les forteresses et les campements ennemis à partir du fleuve ou du côté de la mer. En plus de transporter deux imposantes armes de siège et leurs équipes, ces barges contiennent également une grande variété de pierres et autres projectiles de siège.</p>",
+            "crew": "1 pilote, 4 membres d'équipage",
+            "passengers": "20",
+            "pilotingcheck": "Nature (DD 41 à 46 en fonction de la créature de trait) ou Connaissance de la navigation maritime (DD 39)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 4 créatures Très grandes)",
+            "items": {
+                "6fORJn25X1MJPxO5": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède deux supports d'arme. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 jour, un test d'@Check[crafting|dc:39] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Très grande ou inférieure.</p>"
+                },
+                "FqOevYKM14MsZEdA": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "SVIwF7uOfnrPwzRX": {
+                    "name": "Space (Espace)",
+                    "description": "<p>18 mètres de long, 9 mètres de large, 6 mètres de haut</p>"
+                }
+            }
+        },
+        "Sand Barge": {
+            "name": "Sand Barge (Barge des sables)",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "5",
+            "pilotingcheck": "Diplomatie (DD 24), Intimidation (DD 24) ou Connaissance de la navigation (DD 22)",
+            "speed": "12 mètres (rames, vent)",
+            "items": {
+                "rvLRBCsFQMdUKtar": {
+                    "name": "Sand Skimmer (Écumeur des sables)",
+                    "description": "<p>La barge des sables peut voyager aussi bien sur le sable, l'eau ou les sables mouvants mais elle ne peut traverser un sol solide.</p>"
+                }
+            }
+        },
+        "Cook's Caravan": {
+            "name": "Cook's Caravan (Caravane de cuisinier)",
+            "description": "<p>Une armée marche sur son estomac et cette caravane composée de voitures est conçue pour garder cet estomac rempli. Composé de cinq lourdes voitures reliées par une série de couloirs flexibles, ce convoi transporte des provisions et pourvoit aux repas des troupes. La voiture de tête et celle du milieu du convoi contiennent des cuisines entièrement équipées alors que les deuxième et quatrième voitures débordent de denrées alimentaires. La dernière roulotte de la caravane contient une chaudière et une arrière-cuisine permettant de nettoyer les ustensiles de cuisine et la vaisselle. Sur le toit de chaque voiture se trouve un jardin d'herbes aromatiques pour s'assurer de produits frais lors de chaque repas et, montés sous toutes les voitures se trouvent des stockages d'eau et de bière. Chaque caravane de cuisinier transporte suffisamment de fournitures pour nourrir son équipage, ses passagers, 12 créatures grandes et 500 soldats pendant un mois avant d'avoir besoin d'être réapprovisionnée.</p>",
+            "crew": "5 pilotes, 25 membres d'équipage",
+            "passengers": "50",
+            "pilotingcheck": "Connaissance de la conduite (DD 40) ou Nature (DD 42 à DD 45 en fonction des créatures qui tirent)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 12 créatures grandes)",
+            "items": {
+                "Uyksp5Oz4BKXVgmF": {
+                    "name": "Space (Espace)",
+                    "description": "<p>30 mètres de long, 9 mètres de large, 6 mètres de haut</p>"
+                },
+                "oswX58DR5DSlxdOO": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Karakoa": {
+            "name": "Karakoa",
+            "description": "<p>Les karakoas sont de grands balanciers à deux coques utilisés par les Tian-Sing pour se déplacer au sein de l'immense archipel de Minata. Rapides et robustes, les karakoas se distinguent des autres vaisseaux tianais par le fait qu'ils sont équipés de plates-formes pour le transport des guerriers et les combats en mer. En temps de paix, ils sont également utilisés comme navires de commerce, capables de transporter des marchandises et des passagers. Bien qu'ils soient capables de traverser les océans, leur coque ouverte peut s'avérer peu performante en cas de mer agitée car des vagues déferlantes peuvent submerger l'embarcation.</p>",
+            "crew": "1 pilote, 20 rameurs",
+            "passengers": "40",
+            "pilotingcheck": "Connaissance de la navigation maritime (DD 20) ou Athlétisme (DD 22)",
+            "speed": "nage 12 mètres (à rames, à vent)",
+            "items": {
+                "sT706wnF5RTbupUP": {
+                    "name": "Weakness 10 fire until broken (faiblesse 10 feu jusqu'à brisé)"
+                }
+            }
+        },
+        "Hot Air Balloon": {
+            "name": "Hot Air Balloon (Montgolfière)",
+            "crew": "1 pilote",
+            "passengers": "5",
+            "pilotingcheck": "Connaissance du pilotage (DD 16) ou Nature (DD 18)",
+            "speed": "vol 6 mètres (vent)",
+            "items": {
+                "PLw9fb62MWWOHQ3N": {
+                    "name": "Drifter (Dériver)",
+                    "description": "<p>La montgolfière ne peut pas être dirigée et compte sur les courants des vents favorables pour la mener dans la bonne direction. Si le pilote ne parvient pas à garder le contrôle de la montgolfière, celle-ci dérive dans la direction où le vent la porte, se déplaçant jusqu'à quatre fois sa Vitesse à chaque tour, déterminé par le MJ.</p>"
+                }
+            }
+        },
+        "Airship": {
+            "name": "Airship (Navire volant)",
+            "crew": "1 pilote, 5 autres membres d'équipage",
+            "passengers": "15",
+            "pilotingcheck": "Arcanes (DD 32), Artisanat (DD 32), Nature (DD 32) ou Connaissance du pilotage (DD 30)",
+            "speed": "vol 15 mètres (alchimique, magique)",
+            "items": {
+                "zGMODH6r1X3ZbwB1": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Ambling Surveyor": {
+            "name": "Ambling Surveyor (Enquêteur ambulant)",
+            "description": "<p>Cet énorme appareil à mécanisme magique se déplace sur de lourdes chenilles qui facilitent la navigation de l'appareil dans diverses conditions défavorables. Il contient des oiseaux à mécanismes magiques qui peuvent transmettre des informations visuelles à l'enquêteur.</p>",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "7",
+            "pilotingcheck": "Connaissance de la conduite (DD 32) ou Artisanat (DD 34)",
+            "speed": "4,50 mètres (magique, mécanique)",
+            "items": {
+                "DoCusD26UNQbmFNI": {
+                    "name": "Continous Track (Piste continue)",
+                    "description": "<p>Ce véhicule se déplace sur une bande continue de lourdes chenilles entraînées par une série d'engrenages et de roues, ce qui lui permet de parcourir aisément des terrains accidentés. La terre, la roche, les gravats, les pentes et les broussailles ne sont pas des terrains difficiles pour un arpenteur ambulant. L'arpenteur ambulant ignore le terrain difficile causé par la terre, la roche, les gravats, les pentes et les broussailles et le terrain très difficile provoqué par ces caractéristiques est un terrain difficile normal pour l'arpenteur ambulant.</p>"
+                },
+                "R4Co971n6x5ZNJHd": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=32]]{DD 32}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "Yr2rxvC8Hzmb70KZ": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "eXdF4IskaccqgTpS": {
+                    "name": "Survey (Enquêter)",
+                    "description": "<p><strong>Conditions</strong> L'enquêteur ambulant n'est pas en déplacement</p>\n<hr />\n<p><strong>Effet</strong> Le pilote et l'équipage libèrent une série de six oiseaux mécaniques, qui passent deux heures à voler par dessus la zone environnante dans les 1,5 kilomètre autour de l'enquêteur ambulant. Tous ce que les oiseaux voient est magiquement transmis en retour à l'équipage de l'enquêteur ambulant sous la forme d'images illusoires que l'équipage doivent transcrire en temps réel s'ils veulent utiliser l'information pour surveiller pleinement la zone et établir une carte. Après deux heures, les oiseaux reviennent. Les oiseaux utilisent les statistiques de base d'un @UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.9Uc7T3x3cxNo7lvY]{espion mécanique} s'ils sont attaqués ou si la Perception est importante pour déterminer ce qu'ils peuvent percevoir, bien qu'ils n'accomplissent que l'action Surveiller et qu'ils ne possèdent pas d'autres capacités d'un espion mécanique. Des oiseaux de remplacement coûtent 250 po chacun.</p>"
+                }
+            }
+        },
+        "Flying Submersible": {
+            "name": "Flying Submersible (Submersible volant)",
+            "description": "<p>Ce véhicule tubulaire vole à l'aide d'une paire de grands ballons gonflés avec du gaz. Grâce à un propulseur de proue mécanique, le véhicule peut avancer s'il n'y a pas de vents contraires importants. À l'atterrissage dans l'eau, les ballons sont dégonflés et rangés à l'intérieur du véhicule, tandis que le propulseur de proue continue de le faire avancer à la surface de l'eau. En remplissant un long réservoir de ballast situé dans la quille du véhicule, celui-ci peut alors plonger et se déplacer sous l'eau. Le véhicule ne peut rester immergé que pendant une heure avant de devoir refaire surface pour renouveler son approvisionnement en oxygène. Les armes de ce véhicule se trouvent dans un compartiment spécial qui permet de tirer et de recharger sous l'eau.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "30",
+            "pilotingcheck": "Athlétisme (DD 38), Connaissance du pilotage (DD 38), Connaissance de la navigation maritime (DD 36)",
+            "speed": "nage 9 mètres (alchimique, mécanique)",
+            "items": {
+                "f9kbmNNkDQy8bSg2": {
+                    "name": "Space (Espace)",
+                    "description": "<p>18 mètres de long, 12 mètres de large, 12 mètres de haut</p>"
+                },
+                "gQ7lxAlWZocn7vCA": {
+                    "name": "Deploy Balloons (Déployer les ballons)",
+                    "description": "<p>Le pilote engage un levier qui active les composants mécaniques pour lancer deux ballons imposants reliés et les remplir d'un gaz plus léger que l'air. Ceci accorde au submersible volant une vitesse de vol de 9 mètres mais lui retire sa vitesse de nage. Cette transformation dure jusqu'à ce que le pilote désengage les ballons en accomplissant de nouveau cette action.</p>"
+                },
+                "nr8xxBKjI4FBoqK6": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède deux supports d'arme. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 jour, un test d'@Check[crafting|dc:36] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Très grande ou inférieure.</p>"
+                },
+                "v5Jv0mJcVUEylX0j": {
+                    "name": "Amphibious (Amphibie)",
+                    "description": "<p>Ce véhicule peut amerrir et puis s'immerger jusqu'à une profondeur de 60 mètres.</p>"
+                }
+            }
+        },
+        "Raft": {
+            "name": "Raft (Radeau)",
+            "crew": "1 pilote",
+            "passengers": "4",
+            "pilotingcheck": "Athéltisme (DD 14) ou Connaissance de la navigation (DD 12)",
+            "speed": "nager 3 mètres (à rames)",
+            "items": {
+                "rwza6SRk2Qv2kNXK": {
+                    "name": "Portaged (Portage)",
+                    "description": "<p>Le radeau peut être transporté sur terre par 2 créatures de taille Moyenne ou 1 créature de taille Grande. Ces créatures sont Surchargées.</p>"
+                }
+            }
+        },
+        "Baochuan": {
+            "name": "Baochuan",
+            "description": "<p>La quille de ces navires est constituée de poutres en bois reliées entre elles par des cerceaux de fer afin d'assurer une plus grande stabilité lors de la traversée des océans. En cas de tempête, les trous de la proue se remplissent partiellement d'eau lorsque le navire avance, atténuant ainsi les violentes turbulences provoquées par les vagues. Réputés pour leur solidité en mer, les baochuans étaient souvent choisis pour transporter des trésors précieux ou des émissaires importants pendant la saison des tempêtes. C'est pourquoi ils sont souvent appelés « bateaux à trésors » et très recherchés par les pirates.</p>",
+            "crew": "1 pilote, 200 membres d'équipage",
+            "passengers": "400",
+            "pilotingcheck": "Connaissance de la navigation maritiem (DD 31) ou Nature (DD 33)",
+            "speed": "nage 9 mètres (vent)",
+            "items": {
+                "DmMftTCrXCi4fBWi": {
+                    "name": "Weakness 10 fire until broken (Faiblesse 10 contre le feu jusqu'à Brisé)"
+                }
+            }
+        },
+        "Titanic Stomper": {
+            "name": "Titanic Stomper (Piétineur titanique)",
+            "description": "<p>Parmi les véhicules les plus dangereux créés en Ustalav grâce à un mélange de magie et de la nouvelle technologie stasienne, un piétineur titanique a la forme d'un long lézard sinueux ou d'un béhir avec des bobines stasiennes soigneusement placées et huit grandes pattes capables de piétiner. Les piétineurs titaniques ont été conçus pour dévaster les armées de morts-vivants. Il n'en existe que deux, ce qui les rend presque uniques, et les moyens d'en créer d'autres font face à un obstacle car certains des inventeurs cruciaux ont été tués alors qu'ils tentaient de concevoir une technologie plus poussée, une armure mécanisée plus petite mais plus puissante appelée le Grobelarch, qui a fini par devenir enragée et a tué ses créateurs.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "6",
+            "pilotingcheck": "Connaissance de la conduite (DD 34) ou Artisanat",
+            "speed": "12 mètres, (électrique, magique)",
+            "items": {
+                "QUHIpCfam8YMHy6U": {
+                    "name": "Electrical Absorption (Absorption électrique)",
+                    "description": "<p><strong>Déclencheur</strong> Le piétineur titanique est ciblé par ou dans une zone d'un effet qui inflige des dégâts d'électricité</p>\n<hr />\n<p><strong>Effet</strong> Le pilote utilise sa réaction pour activer les bobines stasiennes, qui engrangent l'électricité dans l'engin électrique du piétineur titanique. La prochaine fois que Faisceau d'électrique est utilisé au cours de la minute suivante, les dégâts qu'elle inflige passent à @Damage[7d12[electricity]]{7d12 dégâts d'électricité}.</p>"
+                },
+                "lTX8qPMdwaThuCnc": {
+                    "name": "Quaking Step (Pas de tremblement)",
+                    "description": "<p>Le sol tremble à chaque pas du piétineur titanique. À chaque fois que ce véhicule se déplace, les créatures au sol dans un rayon de 6 mètres sur son passage doivent tenter un jet de @Check[reflex|dc:32|name:Rester debout] pour rester debout. En cas d'échec, la créature est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} pendant 1 round et sur un échec critique, la créature tombe @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+                },
+                "vDMm6mf0S2i9JMzd": {
+                    "name": "Bolt Blast (Décharge d'électricité)",
+                    "description": "<p>Deux membres de l'équipage peuvent chacun accomplir une activité à 3 actions au cours de leur tour pour lancer une ligne de foudre à la fin du tour du second personnage. Cette ligne de foudre jaillit à l'avant du piétineur titanique à partir d'un angle choisi par le membre de l'équipage qui inflige @Damage[5d12[electricity]]{5d12 dégâts d'électricité} à chaque créature sur une ligne de 36 mètres (@Check[reflex|dc:34|basic|name:éviter la décharge]). La Décharge d'électricité cesse de fonctionner lorsque le piétineur titanique est @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisé}.</p>"
+                }
+            }
+        },
+        "Caisson": {
+            "name": "Caisson (Fourgon)",
+            "description": "<p>Cette voiture lourdement blindée est conçue pour transporter de la poudre noire et d'autres munitions inflammables dans et autour des zones de combat. Elle est dotée d'un blindage supplémentaire qui augmente son poids à plusieurs fois celui d'une voiture ordinaire. En raison de ce poids supplémentaire, la voiture blindée est assez lente.</p>",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 19) ou Artisanat (DD 21)",
+            "speed": "4,50 mètres (mécanique)",
+            "items": {
+                "3aMytFuZW7MG9K0E": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "WBWEDPfUhbkTJuOh": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>1 heure pour remonter, 6 heures de temps opérationnel, [[/act disable-device dc=19]]{DD 19}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "bXhue1I61hEB7Gmf": {
+                    "name": "Space (Espace)",
+                    "description": "<p>3 mètres de long, 3 mètres de large, 2,20 mètres de haut</p>"
+                }
+            }
+        },
+        "Chariot (Light)": {
+            "name": "Chariot (Light) (Chariot léger)",
+            "crew": "1 pilote",
+            "pilotingcheck": "Connaissance de la conduite (DD 14) ou Nature (DD 16 à DD 24, en fonction des créatures de trait)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par une créature de taille Grande)"
+        },
+        "Medical Wagon": {
+            "name": "Medical Wagon (Voiture médicalisée)",
+            "description": "<p>Les voitures médicalisées sont des visions fréquentes à proximité du champs de bataille. Ces voitures transportent différentes fournitures médicales ordinaires et magiques et sont généralement occupées par un médecin. Une petite civière est installée à l'arrière du wagon pour transporter du personnel ou servir de table d'opération d'urgence.</p>",
+            "crew": "1 pilote, 1 membre d'équipage",
+            "passengers": "1",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 1 créature de Grande taille)",
+            "items": {
+                "rtaIKM2ljVIGRhna": {
+                    "name": "Enhanced Medicinal Tools (Outils médicaux améliorés)",
+                    "description": "<p>En tentant un test de Médecine à l'intérieur d'une voiture médicale, vous obtenez un bonus d'objet de +2.</p>"
+                }
+            }
+        },
+        "Velocipede": {
+            "name": "Velocipede (Vélocipède)",
+            "crew": "1 pilote",
+            "pilotingcheck": "Athlétisme (DD 15) ou Connaissance du pilotage (DD 17)",
+            "speed": "La vitesse du pilote (pédalé [comme à rames])",
+            "items": {
+                "PcXltLxBnG3FD8dH": {
+                    "name": "Portable",
+                    "description": "<p>Le vélocipède peut être tiré sur le sol sur sa roue par une créature Moyenne. La créature est Surchargée.</p>"
+                },
+                "QwXzg5zGAZg4h78t": {
+                    "name": "Fragile",
+                    "description": "<p>Conduire le vélocipède sur un terrain difficile voit le DD augmenter de 2 et obtenir le trait téméraire.</p>"
+                }
+            }
+        },
+        "Wagon": {
+            "name": "Wagon (Voiture)",
+            "crew": "1 pilote",
+            "passengers": "4",
+            "pilotingcheck": "Connaissance de la conduite (DD 15) ou Nature (DD 17 à DD 25, en fonction des créatures de trait)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 2 créatures Grandes)"
+        },
+        "Battle Dirigible": {
+            "name": "Battle Dirigible (Dirigeable de combat)",
+            "description": "<p>Ces dirigeables rigides lourdement blindés sont portés dans les airs par une série d'énormes poches de gaz logées dans la structure de leur coque, protégés contre les dégâts par une peau en cuir et en métal. Utilisés pour contrôler le champ de bataille depuis les airs, ces dirigeables transportent à la fois leurs propres armements et un ou plusieurs planeurs montés sur des rails permettant un déploiement rapide sur les côtés et le dessus.</p>",
+            "crew": "1 pilote, 9 membres d'équipage",
+            "passengers": "30",
+            "pilotingcheck": "Arcanes (DD 37), Artisanat (DD 37) ou Connaissance du pilotage (DD 35)",
+            "speed": "vol 15 mètres (alchimique, magique)",
+            "items": {
+                "8aFZ02PVBVeMw4ey": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède quatre supports d'arme, un à chaque coin de la gondole. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 3 heures, un test d'@Check[crafting|dc:35] réussi et une arme appropriée. Trois de ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Moyenne ou inférieure et le quatrième peut être équipé d'une arme de siège à distance de taille Grande ou inférieure.</p>"
+                },
+                "QsEjXH2LvOJNGXCL": {
+                    "name": "Space (Espace)",
+                    "description": "<p>30 mètres de long, 15 mètres de large, 15 mètres de haut</p>"
+                },
+                "WodipRtBR55xNfOy": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Chariot (Heavy)": {
+            "name": "Chariot (Heavy) (Chariot lourd)",
+            "crew": "1 pilote",
+            "passengers": "3",
+            "pilotingcheck": "Connaissance de la conduite (DD 18) ou Nature (DD 20 à DD 28 en fonction des créatures de trait)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 2 créatures de Grande taille)"
+        },
+        "Clockwork Bumblebee": {
+            "name": "Clockwork Bumblebee (Bourdon mécanique)",
+            "description": "<p>Ce véhicule fantasque transporte un petit nombre de passagers et de membres d'équipage. Il est capable de voler brièvement mais le poids de ses mécanismes empêche une utilisation prolongée. Le pilote, l'équipage et les passagers sont tous assis à l'arrière, à cheval sur la coque, sur des selles intégrées.</p>",
+            "crew": "1 pilote, 2 membres d'équipage",
+            "passengers": "1",
+            "pilotingcheck": "Artisanat (DD 28) ou Connaissance de la conduite (DD 26)",
+            "speed": "Vol 9 mètres (mécanique)",
+            "items": {
+                "TMYxeMEQ1ilLoAlJ": {
+                    "name": "Wind Up (Remonter)",
+                    "description": "<p>(10 minutes de remontage, 10 minutes de temps opérationnel, DD 26, veille)</p>"
+                }
+            }
+        },
+        "Armored Carriage": {
+            "name": "Armored Carriage (Carriole blindée)",
+            "description": "<p>Lente mais régulière, une carriole blindée combine une propulsion mécanique avec une coque protectrice pour un voyage sûr et confortable.</p>",
+            "crew": "1 pilote",
+            "passengers": "3",
+            "pilotingcheck": "Connaissance de la conduite (DD 20) ou Artisanat (DD 22)",
+            "speed": "7,50 mètres (mécanique)",
+            "items": {
+                "eMf9xcynjFjF5ma8": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=20]]{DD 20}}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "oWlyE6XYOLX2gBB6": {
+                    "name": "Weapon Mount (Support d'arme)",
+                    "description": "<p>Ce véhicule possède un support pour une arme montée à l'arrière qui peut être équipé d'une arme à distance. À l'achat, cet emplacement est vide. Installer ou démonter une arme sur ce support nécessite d'y passer 10 minutes, un test d'@Check[crafting|dc:20|name:Attacher une arme] réussi ainsi que de disposer d'une arme appropriée à installer.</p>"
+                }
+            }
+        },
+        "Helepolis": {
+            "name": "Helepolis (Hélépolis)",
+            "description": "<p>L'hélepolis utilise à la fois la propulsion par la poussée et la propulsion tournée pour faire tourner un cabestan. La propulsion tournée utilise les mêmes règles que la propulsion à la rame. La propulsion poussée utilise les mêmes règles que la propulsion tirée.</p>",
+            "crew": "1 pilote, 200 tourneurs, 3000 pousseurs",
+            "passengers": "306",
+            "pilotingcheck": "Diplomatie (DD 37), Intimidation (DD 37) ou Connaissance de la guerre (DD 35)",
+            "speed": "3 mètres (poussé, tourné)",
+            "items": {
+                "LUwtad4TFV730JPb": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "dxxn3NqH1AvntQbw": {
+                    "name": "Tiered (À plusieurs étages)",
+                    "description": "<p>Une hélépolis comporte six niveaux. L'équipage opère au niveau inférieur, en faisant tourner un cabestan géant. Il reste de la place à ce niveau pour accueillir jusqu'à six passagers (suffisamment pour une équipe de siège de baliste lourde complète ; voir Armement). Chacun des cinq autres niveaux peut accueillir jusqu'à 60 passagers. Les niveaux sont spécialement conçus pour protéger les personnes se trouvant à l'intérieur de l'hélipolis et leur donner un abri important (ou un abri standard si l'hélépolis est @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Brisé}). Une échelle massive traverse en diagonale le centre de l'hélépolis, de l'avant du niveau supérieur à l'arrière du niveau inférieur. L'échelle est suffisamment large pour que deux membres d'équipage ou passagers puissent y monter simultanément.</p>"
+                },
+                "gs1T9M7KLq7a9JmG": {
+                    "name": "Weaponry (Armement)",
+                    "description": "<p>La tour de siège est chargée à ras bord d'armes de siège - typiquement hérissées de balistes lourdes aux premier et deuxième étages et de balistes aux troisième, quatrième et cinquième étages. Le prix de ces armes est inclus dans celui de l'hélépolis. Lors de la construction d'une hélépolis, vous pouvez choisir de les remplacer par d'autres armes de siège d'un prix inférieur. Si vous voulez une arme de siège plus chère, vous devez l'acheter séparément. En raison de la structure de l'hélépolis, toute arme de siège qui s'y trouve doit lancer sa charge en ligne droite. Par exemple, une baliste ou un mangeonneau peuvent fonctionner dans une hélépolis mais pas une catapulte ou un trébuchet. Les passagers de l'hélépolis peuvent utiliser ces armes de siège.</p>"
+                }
+            }
+        },
+        "Cavern Crawler": {
+            "name": "Cavern Crawler (Rampant des cavernes)",
+            "description": "<p>Ce véhicule mort-vivant imposant est créé en fabicant un compartiment de pilotage et de chargement au sein de la dépouille d'un ver des cavernes imposant et en imprégnant les restes avec de l'énergie du vide. Ce compartiment possède de l'air respirable ainsi que des supports d'armes scellables. Conçu spécifiquement pour creuser sous et derrière les positions ennemies, les rampants des cavernes peuvent attaquer les ennemis sur les flancs ou amener des fournitures et des renforts aux troupes derrière les lignes ennemies.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "30",
+            "pilotingcheck": "Arcanes (DD 42) ou Connaissance de la conduite (DD 40)",
+            "speed": "9 mètres, creuser 9 mètres (magique, mécanique)",
+            "items": {
+                "YjzXzqLZdUUgbEwv": {
+                    "name": "Tunnel",
+                    "description": "<p>Le rampant des cavernes peut creuser à travers de la pierre solide à une Vitesse de 4,50 mètres. Le pilote peut choisir de laisser un tunnel.</p>"
+                },
+                "a8TydEao18VqapWR": {
+                    "name": "Space (Espace)",
+                    "description": "<p>30 mètres de long, 9 mètres de large, 9 mètres de haut</p>"
+                },
+                "mUDFSYDXMbTtoTve": {
+                    "name": "Swallow (Avaler)",
+                    "description": "<p>Deux membres d'équipage accomplissent chacun une activité à 3 actions lors de leur tour pour ouvrir la bouche du rampant des cavernes et avaler une créature Très grande ou de taille inférieure adjacente au véhicule. Celle-ci doit alors tenter un jet de @Check[fortitude|dc:40]. Une créature peut choisir d'obtenir un échec. En cas d'échec, la créature est avalée par le rampant des cavernes, déplacée dans le compartiment des passagers et se retrouve @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. Cette action est un échec si le compartiment des passagers est plein.</p>"
+                }
+            }
+        },
+        "Clockwork Wagon": {
+            "name": "Clockwork Wagon (Voiture mécanique)",
+            "description": "<p>Une voiture mécanique est un véhicule lent et encombrant doté de rouages et d'engrenages qui courent tout le long, à l'intérieur comme à l'extérieur, ce qui lui permet de tirer environ deux fois plus de marchandises qu'une voiture ordinaire. Toutefois, il dispose de moins d'espace pour les passagers qu'une voiture ordinaire.</p>",
+            "crew": "1 pilote",
+            "passengers": "2",
+            "pilotingcheck": "Connaissance de la conduite (DD 18) ou Artisanat (DD 20)",
+            "speed": "6 mètres (mécanique)",
+            "items": {
+                "0pWllu1H0c2ZTJbM": {
+                    "name": "Hauler (Poids lourd)",
+                    "description": "<p>Ce véhicule est construit pour transporter des charges lourdes sur de longues distances. Il peut contenir jusqu'à 400 Encombrements de fret.</p>"
+                },
+                "38Zgv0sAfLXH2dfB": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>1 heure pour remonter, 8 heures de temps opérationnel, [[/act disable-device dc=18]]{DD 18}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "7OqKezdHChnhLvmc": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Adaptable Paddleboat": {
+            "name": "Adaptable Paddleboat (Bateau à rames ajustable)",
+            "description": "<p>Ce bateau mécanique amphibie se déplace à travers l'eau en utilisant des roues à aube pour maintenir un rhytme lent et régulier. Lorsque c'est nécessaire, le bateau utilise des mécanismes ingénieux pour repositionner les roues à aube et les transformer en roues adaptées au voyage terrestre.</p>",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 16), Connaissance de la navigation (DD 16) ou Artisanat (DD 18)",
+            "speed": "nage 4,50 mètres (mécanique)",
+            "items": {
+                "3Vt9tFjjJmSsJ99w": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=16]]{DD 16}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "UZrxxtljdLoLewB9": {
+                    "name": "Deploy Wheels (Déployer les roues)",
+                    "description": "<p>Le pilote actionne un levier qui active les composants mécaniques pour transformer les roues à aubes du bateau adaptable en roues permettant de rouler sur le sol. Cela confère au bateau à rames ajustable une Vitesse de 6 mètres et réduit sa Vitesse de nage à 1,50 mètre. Cette transformation dure jusqu'à ce que le pilote désengage les roues en utilisant à nouveau cette activité.</p>"
+                }
+            }
+        },
+        "Cart": {
+            "name": "Cart (Charrette)",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 14) ou Nature (DD 16 à DD 24 en fonction de la créature de trait)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 1 créature Grande)"
+        },
+        "Vonthos's Golden Bridge": {
+            "name": "Vonthos's Golden Bridge (Passerelle d'or de Vonthos)",
+            "description": "<p>Conçu par le magicien Vonthos dans le cadre de son pari de tenter le test de la Pierre-étoile à Absalom, ce véhicule étrange est considéré comme une merveille de magie et de technologie. La Passerelle d'or de Vonthos est une sphère volante faite à partir d'un trône dans lequel s'imbriquent des anneaux automatisés recouvert d'or et de joyaux, imprégné d'abjurations puissantes et adaptées qui lui octroient des capacités uniques.</p>",
+            "crew": "1 pilote",
+            "pilotingcheck": "Connaissance de la conduite (DD 36) ou Arcanes (DD 38)",
+            "speed": "Vol 12 mètres (magique, mécanique)",
+            "items": {
+                "UQr6y2RUCvhlcvZ3": {
+                    "name": "Protective Barrier (Barrière protectrice)",
+                    "description": "<p>Bien que les anneaux tourbillonnants du véhicule ne couvrent pas entièrement le pilote, ils offrent une protection incroyable, en maintenant magiquement la température à l'intérieur de la sphère et en annulant les attaques physiques. Le pilote est protégé du froid et de la chaleur importants et extrêmes. Le pilote obtient aussi un résistance 10 contre tous les dégâts physiques (sauf l'adamantium).</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.exwQF6E1FWmuxwBc]{Effet : Barrière protectrice}</p>"
+                },
+                "izZwMB8zgdsWje9o": {
+                    "name": "Prismatic Defense (Défense prismatique)",
+                    "description": "<p>Le pilote mobilise la puissance des joyaux magiques cachés dans les ornements extravagants de ce véhicule pour lui donner des défenses supplémentaires. Le véhicule obtient une résistance 20 contre dégâts d'une des énergies suivantes : acide, électricité, feu, force, froid ou son. Cette résistance dure jusqu'à la prochaine activation de Défense prismatique.</p>"
+                },
+                "kt9xSEJnhJNdCBEy": {
+                    "name": "Captivating Wealth (Richesse captivante)",
+                    "description": "<p>12 m. L'or, les joyaux et les différents embellissements qui ornent cette sphère volante émettent une splendeur étincelante capable de subjuguer les créatures. Chaque créature qui débute son tour dans l'aura doit tenter un jet de @Check[will|dc:36|traits:magic]. En cas d'échec, la créature est @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2} pendant aussi longtemps qu'elle reste dans l'aura. Une créature qui obtient un succès sur son jet de sauvegarde est temporairement immunisée pendant 1 heure. À chaque fois que Défense prismatique est activée, la zone de Richesse captivante est réduite de 3 mètres pendant 1 heure, jusqu'à un minimum de 0 mètres.</p>"
+                },
+                "zni42kvDwzT6lzuW": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=37]]{DD 37}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                }
+            }
+        },
+        "Sleigh": {
+            "name": "Sleigh (Traineau)",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 15) ou Nature (DD 17 à DD 25 en fonction des créatures de trait)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 2 créatures de taille grande ou 6 de taille Moyenne)",
+            "items": {
+                "Buxx8NC3JQzeLsjs": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "XvCWEJlIIDSfz2EA": {
+                    "name": "Ice Traverser (Franchisseur de glace)",
+                    "description": "<p>La glace et la neige ne sont pas un terrain difficile pour un traîneau mais tous les autres terrains sont pour lui un terrain difficile.</p>"
+                }
+            }
+        },
+        "Sled": {
+            "name": "Sled (Traineau)",
+            "crew": "1 pilote",
+            "pilotingcheck": "Connaissance de la conduite (DD 14) ou Nature (DD 16 au DD 24, selon la créature qui tire)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 2 créatures Moyennes ou 4 créatures Petites)",
+            "items": {
+                "dDX0a93qZCir17NH": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "dWNVc3fRpbqaL7OS": {
+                    "name": "Ice Traverser (Franchisseur de glace)",
+                    "description": "<p>La glace et la neige ne sont pas un terrain difficile à un traineau, mais tous les autres terrains sont des terrains difficiles pour lui.</p>"
+                }
+            }
+        },
+        "Sand Diver": {
+            "name": "Sand Diver (Plongeur des sables)",
+            "description": "<p>Un plongeur des sables est un véhicule présentant vaguement la forme d'un scorpion qui utilise des réactions alchimiques pour se propulser. La structure en forme de queue agit comme un puits de chaleur et libère des vapeurs alchimiques derrière le plongeur lorsqu'il creuse. Au lieu de pinces, il possède deux mécanismes permettant de creuser à l'avant qui lui permettent de plonger à travers le sable.</p>",
+            "crew": "1 pilote",
+            "passengers": "2",
+            "pilotingcheck": "Connaissance de la conduite (DD 18) ou Artisanat (DD 20)",
+            "speed": "6 mètres, creuser 3 mètres (alchimique)",
+            "items": {
+                "PqsmKTcXOM0aNYo8": {
+                    "name": "Shard Trail (Piste d'éclats)",
+                    "description": "<p>Un plongeur des sables peut seulement @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Creuser} à travers le sable, en utilisant la chaleur et les flammes de son noyau alchimique pour lentement creuser son passage à travers. Les fumées alchimiques laissées derrière sont piégées sous terre pendant que le véhicule creuse, catalysant temporairement les fragments de sable en un sous-produit semblable à du verre. Les créatures qui Creusent dans une zone où ce véhicule a creusé au cours des dernières 24 heures subissent @Damage[1d12[piercing]]{1d12 dégâts perforants} à cause des éclat de sable (@Check[fortitude|dc:17|basic|name:Éviter les éclats]). Une créature qui continue à creuser le long de la même voie que celle que le plongeur des sables a récemment creusé doit continuer à faire ce jet la première fois lors de chaque round où elle creuse à travers les éclats.</p>"
+                },
+                "rDwfQJPnK5YyRx7v": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Sky Chariot (Heavy)": {
+            "name": "Sky Chariot (Heavy) (Chariot céleste lourd)",
+            "crew": "1 pilote",
+            "passengers": "7",
+            "pilotingcheck": "Arcanes (DD 33), Nature (DD 33 à DD 41, en fonction de la créature de trait) ou Connaissance du pilotage (DD 31)",
+            "speed": "la Vitesse de vol de la plus lente créature de trait (tiré par 6 créatures Grandes, 2 créatures Très grandes ou 1 créature Gigantesque)"
+        },
+        "Apparatus of the Octopus": {
+            "name": "Apparatus of the Octopus (Appareil pieuvre)",
+            "description": "<p>Cet appareil, qui a la forme d'une pieuvre (ou plus rarement celle d'un calamar ou d'une autre créature aquatique), utilise pratiquement entièrement une propulsion magique. Différents composants mécaniques constituent les commandes et les mécanismes destinés à améliorer certaines fonctionnalités mais c'est la magie qui alimente le mouvement des engrenages du véhicule. Bien que l'appareil n'ait besoin que d'un pilote, il peut accepter facultativement un second membre d'équipage, qui peut s'avérer utile pour manœuvrer les mains ou les yeux de l'appareil.</p>",
+            "crew": "1 pilote",
+            "passengers": "1 (le passager peut optionnellement agir comme membre d'équipage mais ce n'est pas nécessaire)",
+            "pilotingcheck": "Connaissance de la conduite (DD 28) ou Artisanat (DD 30)",
+            "speed": "1,50 mètre, nage 12 mètres (magique, mécanique)",
+            "items": {
+                "KFSpJiu6uoHoZl1b": {
+                    "name": "Manipulate Hands (Mains manipulatrices)",
+                    "description": "<p>Un membre de l'équipage actionne un levier qui ressemble à une manette pour étendre et manipuler les mains de l'appareil. Bien que les mains ne puissent pas attaquer, elles peuvent accomplir des actions telles que @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif}, @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Voler} quelque chose ou ouvrir le bouchon d'une fiole de potion et peuvent Agripper et porter un Encombrement de 50 au maximum.</p>"
+                },
+                "jv3XUW2upC7aFRtR": {
+                    "name": "Open Eyes (Ouvrir les yeux)",
+                    "description": "<p>Un membre de l'équipage actionne un levier pour ouvrir les yeux de l'appareil, qui émettent de la lumière vive dans un rayon de 6 mètres et une lumière faible dans les 6 mètres suivants. Un membre de l'équipage peut accomplir une fois de plus cette action pour Fermer les yeux.</p>"
+                },
+                "mTjyYbkFbVeKoGO8": {
+                    "name": "Submersible",
+                    "description": "<p>L'appareil pieuvre peut protéger son équipage et ses passagers de la pression de l'eau jusqu'à une profondeur maximale de 1 500 mètres et contient assez d'air pendant 12 heures pour un pilote seul ou pour 6 heures pour un pilote et un passager ou un membre d'équipage.</p>"
+                },
+                "uoev6dRtG1YFWPrn": {
+                    "name": "Open Portholes (Ouvrir les hublots)",
+                    "description": "<p>Un membre de l'équipage actionne un levier pour ouvrir deux hublots, permettant à l'équipage de regarder en dehors de l'appareil et permettant aux créatures à l'extérieur de regarder dans l'appareil. Un membre de l'équipage peut accomplir cette action une nouvelle fois pour fermer les hublots.</p>"
+                }
+            }
+        },
+        "Clunkerjunker": {
+            "name": "Clunkerjunker (Casse-bagnole)",
+            "description": "<p>Un grand favori des gobelins, un casse-bagnole est en gros un chariot avec une armure construit à partir de rebuts et qui utilise des produits chimiques volatiles, des explosions et des réactions alchimiques pour se propulser de manière cahoteuse. Bien que l'idée initiale soit impressionnante d'inventivité et que les coûts de fabrication soient très bas, ces casses-bagnoles ont une forte tendance à tomber en panne et il passent toujours à un cheveu près d'un désastre après un cahot provoqué par un nid-de-poule placé sur la route.</p>",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 16) ou Artisanat (DD 18)",
+            "speed": "9 mètres (Alchimique)",
+            "items": {
+                "79YskaB7D1bAmIDD": {
+                    "name": "Volatile Flamethrower (Lance-flammes instable)",
+                    "description": "<p>Le pilote accomplit une activité à 3 actions lors de son tour pour éjecter du feu alchimique par les tuyaux d'échappement situés sur les côtés de son véhicule. Faisant partie de l'activité, le pilote charge trois flasques de feu grégeois mineur dans le tuyau d'échappement. Le pilote doit ensuite tenter un test @Check[flat|dc:5]. En cas de succès, les créatures adjacentes au véhicule subissent @Damage[1d8[fire]]{1d8 dégâts de feu} ( jet de @Check[reflex|dc:15|basic|name:Éviter les flammes]). En cas d'échec, l'effet se retourne contre le pilote et les éventuels passagers, infligeant @Damage[1d8[fire]]{1d8 dégâts de feu} à ces derniers, sans jet de sauvegarde.</p>"
+                },
+                "Gy4AuNFAGBzfjRFq": {
+                    "name": "Smog",
+                    "description": "<p>3 mètres. Lorsque le véhicule est piloté, il émet continuellement un fin brouillard de feu et de substances chimiques volatiles. Les créatures dans l'aura (ce qui inclut le pilote et les passagers) subissent une pénalité de circonstances de -1 aux tests de Perception visuels.</p>"
+                },
+                "yKd1wGx6zmlBwk0u": {
+                    "name": "Fall Apart (Tombe en morceaux)",
+                    "description": "<p>Lorsque ce véhicule subit des dégâts physiques, le pilote doit tenter un @Check[flat|dc:11] (ou un @Check[flat|dc:20] sur un critique). En cas d'échec, le véhicule perd sa Solidité et subit une pénalité de circonstances de -4 à la CA.</p>"
+                }
+            }
+        },
+        "Djong": {
+            "name": "Djong",
+            "description": "<p>Les djongs sont d'immenses balanciers à plusieurs ponts utilisés par les Tian-Sing pour transiter dans l'archipel de Minata. De conception similaire aux karakoas, plus petits, les djongs possèdent une coque ouverte qui les rend très rapides et exceptionnellement stables, capables de transporter des centaines de rameurs sur leurs ponts, ainsi qu'une grande voile triangulaire tressée sur un mât. Les larges plates-formes des djongs en font d'excellents transports de marchandises, et leur taille et leur stabilité leur permettent d'accueillir des centaines de guerriers et leur équipement pour les transporter. En temps de paix, les djongs sont souvent utilisés pour accueillir de grandes célébrations et des mariages importants, les dignitaires amenant leurs larges entourages sur leurs propres djongs, puis se réunissant avec d'autres célébrants pour former un village flottant.</p>\n<p>La taille des djongs est limitée par la disponibilité des grosses poutres nécessaires pour former chacune de ses coques jumelles. La plupart des arbres géants adaptés à la construction des djongs ont été abattus, ce qui rend les djongs survivants encore plus précieux, leur longueur totale devenant un critère de statut pour leurs propriétaires.</p>",
+            "crew": "1 pilote, 400 rameurs",
+            "passengers": "100",
+            "pilotingcheck": "Connaissance de la navigation maritime (DD 34), Diplomatie (DD 36) ou Intimidation (DD 36)",
+            "speed": "nage 15 mètres (à rames, à vent)",
+            "items": {
+                "AU5iAjOfKnbaizIn": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Geobukseon": {
+            "name": "Geobukseon",
+            "description": "<p>Ces navires trapus sont construits avec un revêtement protecteur en forme de coquille sur leur pont plutôt qu'avec le pont principal ouvert de la plupart des bateaux qui naviguent. Le pont entièrement couvert protège les 80 rameurs et les 50 soldats du navire contre les flèches et les armes incendiaires. En outre, ce pont blindé est recouvert de pointes de fer pour décourager les ennemis de tenter de monter à bord.</p>\n<p>Sur la proue du navire se trouve une tête de dragon qui peut émettre de la fumée sulfureuse pour dissimuler efficacement ses mouvements en combat rapproché. Sous la tête de dragon se trouve une grande ancre munie d'un écusson en bois en forme de visage, qui peut être utilisée pour éperonner les navires ennemis.</p>",
+            "crew": "1 pilote, 80 rameurs",
+            "passengers": "50",
+            "pilotingcheck": "Connaissance de la navigation maritime (DD 30), Diplomatie (DD32) ou Intimidation (DD 32)",
+            "speed": "nage 9 mètres (rame)",
+            "items": {
+                "1kgEMCsta3jRjgwD": {
+                    "name": "Turtleback Spikes (Pointes du dos de la tortue)",
+                    "description": "<p>Le toit d'un geobukseon est un terrain difficile et dangereux. Une créature qui se déplace sur lt toit subit @Damage[1d6[piercing]]{1d6 dégâts perforants} pour chaque case dans laquelle elle se déplace. Tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} sur le toit du geobukseon inflige @Damage[5d6[piercing]]{5d6 dégâts perforants}.</p>"
+                },
+                "pBSi7pjOr9qNTYAC": {
+                    "name": "Smoking Breath (Souffle de fumée)",
+                    "description": "<p>Lorsque le geobukseon s'Arrête, il est @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} par la fumée pendant 1 round ou jusqu'à son prochain déplacement. Le geobukseon ne peut utiliser cet état masqué pour @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Se cacher} ou @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtif}.</p>"
+                }
+            }
+        },
+        "Siege Dragon": {
+            "name": "Siege Dragon (Dragon de siège)",
+            "description": "<p>Conçu pour ressembler à un dragon massif et adamantin vu de loin, ce véhicule est destiné à effrayer les civils et à intimider les armées ennemies sur le champ de bataille en contrebas.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "6",
+            "pilotingcheck": "Arcanes (DD 41), Artisanat (DD 41) ou Connaissance du pilotage (DD 39)",
+            "speed": "12 mètres, vol 36 mètres (magique, mécanique, vent)",
+            "items": {
+                "L3l9AMAPPDLj42J5": {
+                    "name": "Frightful (Effrayant)",
+                    "description": "<p>Une créature qui se trouve à moins de 30 mètres d'un dragon de siège au début de son tour doit réussir un jet de @Check[will|dc:39] ou être @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}. Quel que soit le résultat du jet de sauvegarde, la créature est ensuite temporairement immunisée contre cet effet pendant 24 heures.</p>"
+                },
+                "t9Ml1GxjmWer9vBI": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède un support d'armes. À l'achat, ce support d'arme est initialement vide. Installer ou désinstaller une arme dans un support nécessite 3 heures, un test d'@Check[crafting|dc:39] réussi et une arme appropriée. Ce support d'arme peut être équipé d'une arme de siège à distance de taille Grande ou inférieure.</p>"
+                }
+            }
+        },
+        "Bunta": {
+            "name": "Bunta",
+            "description": "<p>Ce coracle tissé à la main ne semble assez grand que pour accueillir une seule personne. Cependant, lorsque vous pilotez le bateau, vous pouvez embarquer jusqu'à une douzaine de passagers, qui voyagent dans votre âme. Ils sont conscients de tout ce que vous ressentez et peuvent communiquer par télépathie avec vous ou les autres passagers, mais ils ne peuvent pas agir, sauf pour Se souvenir et utiliser des actions qui ne requièrent que l'utilisation de leur esprit (déterminées par le MJ). Ils peuvent quitter votre âme ou vous pouvez en retirer n'importe quel nombre de passagers en utilisant une action unique - qui possède le trait concentration - en les faisant apparaître dans un espace adjacent à <em>Bunta</em>. Si vous quittez <em>Bunta</em> ou si vous êtes tué, toutes les créatures présentes dans votre âme sortent immédiatement de votre corps et se retrouvent dans l'espace disponible le plus proche. Si vous quittez <em>Bunta</em> après l'avoir piloté, vous pouvez utiliser une unique action, qui possède le trait concentration, pour stocker le bateau dans votre âme. Vous pouvez le retirer de votre âme dans une case adjacente avec une autre action de ce type. Si <em>Bunta</em> subit suffisamment de dégâts pour être détruit, il éclate en brume dorée, puis se reforme pendant 24 heures dans l'âme de son dernier pilote.</p>",
+            "crew": "1 pilote",
+            "pilotingcheck": "Arcanes (DD 30), Nature (DD 30) ou Connaissance de la navigation maritime (DD 32)",
+            "speed": "Vol 12 mètres (magique), Nage 12 mètres (magique), Nage 6 mètres (à la rame)",
+            "items": {
+                "QItYJDojJ9ncPNBt": {
+                    "name": "Spirit Ship (Bateau spirituel)",
+                    "description": "<p><em>Bunta</em> peut être endommagé par des sorts comme @UUID[Compendium.pf2e.spells-srd.PHVHBbdHeQRfjLmE]{Coup spirituel} qui affecte directement l'esprit d'une créature et de tels effets ignorent la Solidité de <em>Bunta</em>.</p>"
+                },
+                "cSPwkOlj0iGk1iND": {
+                    "name": "Activate (Activation)",
+                    "description": "<p><strong>Activation</strong> <span class=\"action-glyph\">3</span> (concentration, manipulation)</p>\n<p><strong>Conditions</strong> Vous pilotez <em>Bunta</em></p>\n<p><strong>Effet</strong> Une rivière d'argent s'écoule de votre cœur, allant de l'avant sur une ligne qui contourne les obstacles comme s'il s'agissait d'eau. Si le <em>Bunta</em> voyage à sa Vitesse dans la rivière chaque round pendant 10 minutes, vous arrivez sur un autre plan comme si vous lanciez @UUID[Compendium.pf2e.spells-srd.5bTt2CvYHPvaR7QQ]{Téléportation interplanaire}. Vous arrivez à la destination que vous avez spécifié ou un lieu aléatoire si nous n'avez pas fait de choix. Si le <em>Bunta</em> ne voyage pas à sa Vitesse minimum durant un round, vous pouvez mettre fin à cette activation. Si vous continuez, vous avez une chance cumulative de 1% d'arriver en un lieu extraplanaire aléatoire pour chaque round au cours duquel le <em>Bunta</em> ne s'est pas déplacé à sa vitesse, jusqu'à un maximum de 60% si le <em>Bunta</em> ne s'est pas déplacé à sa vitesse pendant 10 minutes pleines. Aussi longtemps que vous restez sur le <em>Bunta</em>, vous êtes protégé de tout effet néfaste environnemental du plan.</p>"
+                },
+                "rE4lq3Kyp6tvwM6K": {
+                    "name": "Destruction",
+                    "description": "<p><em>Bunta</em> ne peut être détruit de façon permanente que si le Vieux mage Jatembe le détresse, puis immerge chaque roseau dans la Rivière Styx à la base de la Tour de Pharasma.</p>"
+                },
+                "tNXnjpVwYxDnck4o": {
+                    "name": "Secret of Souls (Secret des âmes)",
+                    "description": "<p>Vous pilotez <em>Bunta</em> dans l'âme d'une créature, trouvant et restaurant sa vraie nature. Le <em>Bunta</em> tente de contrer tout effet magique sur la créature. Son rang de contre est de 10, avec un modificateur de [[/r 1d20+40 #Contre]]{+40}.</p>"
+                }
+            }
+        },
+        "Combat Transport": {
+            "name": "Combat Transport (Transport de combat)",
+            "description": "<p>Ces véhicules massifs intègrent plusieurs vessies remplies de gaz et une technologie mécanique pour déployer rapidement des troupes au combat. Dotés d'un large fuselage entouré de vessies à gaz tout aussi volumineuses, les transports de combat utilisent des ventilateurs mécaniques montés à l'arrière et au fond pour se déplacer et planer.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "40",
+            "pilotingcheck": "Artisanat (DD 36) ou Connaissance du pilotage (DD 34)",
+            "speed": "vol 12 mètres (alchimique, mécanique, vent)",
+            "items": {
+                "5um0QCV3dFiwQPyY": {
+                    "name": "Space (Espace)",
+                    "description": "<p>24 mètres de long, 18 mètres de large, 9 mètres de haut</p>"
+                },
+                "B6R2bCS8bj5B0kiv": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>30 minutes pour remonter, 3 heures de temps opérationnel, [[/act disable-device dc=34]]{DD 34}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "MlFBTJ5DjdpbaXW2": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "miNi90XzTOPt0eem": {
+                    "name": "Hover (Flotter)",
+                    "description": "<p>Les transports de combat possèdent une série de six grands ventilateurs mécaniques construits à l'intérieur de leur base plate. Ces ventilateurs peuvent être activés lorsque vous Stoppez le véhicule pour lui permettre de flotter à environ 1,50 mètre de la surface de sorte que les troupes peuvent être rapidement déployées à l'aide de rampes à l'avant et à l'arrière, quelle que soit la nature du terrain.</p>"
+                }
+            }
+        },
+        "Nighthawk": {
+            "name": "Nighthawk (Faucon de nuit)",
+            "crew": "1 pilot",
+            "passengers": "6",
+            "pilotingcheck": "Athlétisme (DD 29) ou Connaissance du pilotage (DD 27)",
+            "speed": "vol 16,50 mètres (vent)",
+            "items": {
+                "hSynFTcsCqIXxVGK": {
+                    "name": "Aerial Launch (Lancement aérien)",
+                    "description": "<p>Les faucons de nuit peuvent être transportés au combat par un aéronef plus grand et lancé de plus hautes altitudes.</p>"
+                }
+            }
+        },
+        "Strider": {
+            "name": "Strider (Glisseur)",
+            "crew": "1 pilote",
+            "passengers": "2",
+            "pilotingcheck": "Arcanes (DD 25), Artisanat (DD 25), Connaissance de l'ingénierie (DD 23) ou Connaissance du pilotage (DD 23)",
+            "speed": "9 mètres (alchimique, magique)",
+            "items": {
+                "b3OQJLYv4hEX7yhn": {
+                    "name": "Long Reach (Longue portée)",
+                    "description": "<p>Le glisseur peut enjamber un trou aussi grand que 9 mètres en Marchant rapidement par-dessus.</p>"
+                }
+            }
+        },
+        "Speedster": {
+            "name": "Speedster (Bolide)",
+            "description": "<p>Un bolide est un hybride fuselé léger mécanique au châssis aérodynamique qui fonctionne à la vapeur alchimique, qui a une vague forme de cheval ou de tout autre créature conçue pour la vitesse. Les bolides sont construits pour maintenir un rythme rapide qui peut devenir encore plus rapide pendant de brèves périodes de temps en libérant la pression de la vapeur accumulée pour obtenir une poussée de vitesse supplémentaire.</p>",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 27) ou Artisanat (DD 29)",
+            "speed": "15 mètres (alchimique, mécanique)",
+            "items": {
+                "R2SaS8szVUWwiHQr": {
+                    "name": "Streamlined (Profilé)",
+                    "description": "<p>Ce véhicule léger n'a pas d'espace supplémentaire pour du fret.</p>"
+                },
+                "iU2xj2sIMM3UdezU": {
+                    "name": "Speed Boost (Poussée de vitesse)",
+                    "description": "<p>Le pilote laisse échapper de la vapeur alchimique montée en pression dans le moteur afin d'augmenter la vitesse temporairement. Pendant [[/r 1d4 #rounds]]{1d4 rounds}, la Vitesse du bolide est de 24 mètres et toutes les actions de mouvement prises par le pilote obtiennent le trait téméraire. Lorsque le pilote utilise une action qui possède le trait téméraire, le pilote utilise un degré de succès en moins que celui qu'il a obtenu sur son test de pilotage. Le bolide ne peut plus utiliser la Poussée de vitesse pendant 1 heure car il faut du temps pour régénérer la pression.</p>"
+                },
+                "kr1leAaQlGXDTwn6": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 2 heures de temps opérationnel, [[/act disable-device dc=28]]{DD 28}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                }
+            }
+        },
+        "Bone Ship": {
+            "name": "Bone Ship (Vaisseau squelettique)",
+            "description": "<p>Il reste rarement quelque chose de vivant après le passage d'un vaisseau squelettique, seulement la mort, la destruction et des vagues rouges comme le sang qui s'entrechoquent et forment de l'écume dans son sillage. Lorsqu'un vaisseau squelettique se forme, la magie nécromantique drague de grands os du fond de la mer et les plie lentement pour qu'ils se mettent en place avec une intention malveillante. Les côtes des baleines forment généralement les poutres de la coque et leurs grandes colonnes vertébrales se tordent pour former des mâts imposants. Leurs muscles et leurs tendons enserrent le navire, se serrant et se desserrant pour faire tourner précisément le navire lorsqu'il navigue.</p>\n<p>Lorsqu'un vaisseau squelettique rencontre un autre navire ou trouve une autre occasion de semer la mort, des cadavres plus petits éparpillés dans le navire s'animent pour former un équipage et un groupe d'abordage. Chaque membre d'équipage ressemble à un squelette humanoïde, mais ces membres peuvent être constitués d'os de diverses créatures. Pour le combat, le navire crée également des canons magiques formés d'os qui propulsent des éclats d'os et des débris qui explosent par magie. Les petites pierres précieuses noires parsemées sur la structure du navire renferment les âmes d'un équipage noyé car un navire d'os constitue l'héritage maudit de marins morts.</p>\n<p>Lorsqu'une mort de masse survient en pleine mer - souvent parce qu'un navire entier coule loin des côtes - l'angoisse des victimes mourantes peut engendrer un vaisseau squelettique. Cet événement peut se produire lorsqu'un marin adresse une ultime supplique à un dieu obscur ou lorsqu'une divinité en profite pour lier ensemble les âmes de nombreux marins morts pour en faire la démonstration destructrice de sa puissance divine. Lorsqu'il n'est pas créé par une intervention divine, un vaisseau squelettique peut se développer lentement et de manière plus organique à partir d'un des navires pilotés par les marins morts-vivants connus sous le nom de @UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.lCDygpomjUnutb5b{Draugr}. Au fur et à mesure que les navires draugr sillonnent les mers et coulent d'autres navires, ils peuvent collecter plus d'âmes et d'os pour devenir finalement des vaisseaux squelettiques. Ces navires ont une apparence différente de celle de nombreux autres vaisseaux squelettiques, ressemblant à des assemblages de navires ou à des structures asymétriques.</p>\n<p>Un vaisseau squelettique est presque glouton, possédant un appétit insatiable pour la mort, la destruction et pour ajouter de nouvelles âmes à son équipage. Ces désirs proviennent d'une cause sous-jacente, soit placée dans le vaisseau par son créateur, soit sécrétée par les dernières volontés éparses des âmes mortes qui le composent. Par exemple, une divinité peut envoyer un vaisseau squelettique en mission spéciale pour transmettre un message ou se débarrasser d'un adversaire ou d'un gêneur particulièrement tenace. Bien que les vaisseaux squelettiques se déplacent généralement au-dessus les vagues, ils n'ont pas besoin de respirer et peuvent effectuer des missions sous-marines à la demande de leur créateur.</p>\n<p>Les vaisseaux squelettiques ont une réputation légendaire parmi les marins. Ces morts-vivants peuvent surgir de nulle part pour semer la destruction et si les corps d'un équipage sont absents lors d'un naufrage, cette calamité peut être imputée à un vaisseau squelettique. La mer peut apporter la mort de manière soudaine de bien des façons, mais l'asservissement éternel de l'âme constitue un sort bien plus terrifiant que la mort elle-même.</p>",
+            "crew": "1 pilote, 12 membres d'équipage",
+            "passengers": "12",
+            "pilotingcheck": "Connaissance de la navigation (DD 40), Religion (DD 38) ; la propulsion du bateau est le vent lorsque la Connaissance de la navigation est utilisée ou magique si Religion est utilisé",
+            "speed": "Nage 12 mètres"
+        },
+        "Carriage": {
+            "name": "Carriage (Carriole)",
+            "crew": "1 pilote",
+            "passengers": "4",
+            "pilotingcheck": "Connaissance de la conduite (DD 16) ou Nature (DD 18 à DD 26, en fonction des créatures de trait)",
+            "speed": "la Vitesse de la plus lente des créatures de trait (tracté par 2 créatures de Grande taille)"
+        },
+        "Cauldron of Flying": {
+            "name": "Cauldron of Flying (Chaudron de vol)",
+            "description": "<p>Un grand pot pour la cuisine de 1,2 mètre de hauteur et de 1,50 mètre de large de diamètre, légèrement bombé au milieu et évasé au sommet.</p>",
+            "crew": "1 pilote",
+            "pilotingcheck": "Arcanes (DD 24), Occultisme (DD 20) ou Connaissance du pilotage (DD 22)",
+            "speed": "vol 9 mètres (magique)",
+            "items": {
+                "L5LOLKdKxPBT5LCB": {
+                    "name": "Iron Rim (Bordure de fer)",
+                    "description": "<p>Le chaudron procure à son pilote un @UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{abri standard}, bien que cet abri ne procure pas typiquement de bonus aux tests de Discrétion dans la mesure où un chaudron volant est à la fois visible et suspicieux.</p>"
+                }
+            }
+        },
+        "Clockwork Borer": {
+            "name": "Clockwork Borer (Foreur mécanique)",
+            "description": "<p>Un foreur mécanique est essentiellement un énorme vilebrequin en adamantium attaché à un grand chariot à roues. Les engrenages mécaniques à l'intérieur déplacent le foreur lui-même et font tourner le vilebrequin, ce qui lui permet de creuser rapidement dans les matériaux meubles et même dans la pierre solide mais à un rythme plus lent.</p>",
+            "crew": "1 pilote",
+            "passengers": "5",
+            "pilotingcheck": "Connaissance de la conduite (DD 26) ou Artisanat (DD 28)",
+            "speed": "6 mètres, Creuser 3 mètres (mécanique)",
+            "items": {
+                "TPj4AFDezXubgaJm": {
+                    "name": "Adamantine Drill (Vilebrequin en adamantium)",
+                    "description": "<p>Bien que la plupart des Vitesses de creusement permettent seulement à une créature ou à un véhicule de se déplacer dans de les matériaux ou de la terre meuble, ce véhicule est équipé d'une foreuse en adamantium qui peut creuser dans la roche et la pierre à une Vitesse de 1,50 mètre par minute.</p>"
+                },
+                "hCwx6Q30DbNVZa88": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>À cause de sa lenteur, ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                },
+                "kQbyDtF75cOAr2Lc": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, DD 26, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                },
+                "scXXuno9YNm1GWXK": {
+                    "name": "Pivoting Seats (Sièges pivotants)",
+                    "description": "<p>Les sièges de ce véhicule sont montés sur une plate-forme lestée qui pivote lorsque le véhicule se déplace, ajustant automatiquement sa position en fonction de la gravité. Les créatures assises restent droites, quelle que soit la position ou l'angle du véhicule.</p>"
+                }
+            }
+        },
+        "Longship": {
+            "name": "Longship (Drakkar)",
+            "crew": "1 pilote, 10 rameurs",
+            "passengers": "4",
+            "pilotingcheck": "Connaissance de la navigation (DD 26), Diplomatie (DD 28) ou Intimidation DD 28",
+            "speed": "nager 12 mètres (à rames, vent)",
+            "items": {
+                "MRaXvaSDe5OvOwnS": {
+                    "name": "Maneuverable (Manœuvrable)",
+                    "description": "<p>Avec un équipage complet de rameurs compétents, un drakkar à rames peut tourner rapidement, tourner sur place et même ramer vers l'arrière. Chaque tournant de 90 degrés accompli sur moins que la longueur du véhicule coûte 1,50 mètre supplémentaire de mouvement. Il peut ramer en arrière pas plus vite que la moitié de sa vitesse et elle ne peut tourner lorsqu'elle rame vers l'arrière.</p>"
+                }
+            }
+        },
+        "Glider": {
+            "name": "Glider (Planeur)",
+            "crew": "1 pilote",
+            "pilotingcheck": "Connaissance du pilotage (DD 14) ou Nature (DD 16)",
+            "speed": "vol 7,50 mètres (vent)",
+            "items": {
+                "Ix4GHIqSUqHawiG8": {
+                    "name": "Starting Drop (Chute de départ)",
+                    "description": "<p>Le seul moyen de lancer un planeur est de le faire sauter d'une pente inclinée avec des conditions de vent favorables. Le planeur est incontrôlé et chute de 18 mètres chaque round jusqu'à ce que le pilote réussisse à Prendre le contrôle. Si le planeur touche le sol avent que le pilote n'ait réussi à @UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{Prendre le contrôle}, le pilote et le planeur subissent chacun des dégâts de chute.</p>"
+                }
+            }
+        },
+        "Cutter": {
+            "name": "Cutter (Cotre)",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "6",
+            "pilotingcheck": "Nature (DD 24) ou Connaissance de la navigation (DD 22)",
+            "speed": "nage 9 mètres (vent)",
+            "items": {
+                "RJf32Bczb9zQaFqs": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Automated Cycle": {
+            "name": "Automated Cycle (Vélo automatisé)",
+            "description": "<p>Ce vélo mécanique fournit la majeure partie de sa mobilité grâce à des engrenages, qui permettent au vélo de se déplacer à un rythme raisonnable sans que le pilote ait à fournir un effort de pédalage significatif. Le pilote utilise un système de pédales et un guidon pour contrôler la vitesse et la direction du véhicule. Le véhicule est équipé de deux nacelles, de part et d'autre du pilote.</p>",
+            "crew": "1 pilote",
+            "passengers": "2",
+            "pilotingcheck": "Connaissance de la conduite (DD 15) ou Artisanat (DD 17)",
+            "speed": "9 mètres (mécanique)",
+            "items": {
+                "L0S2jaWemV8ndKIE": {
+                    "name": "Sidecars (Nacelles)",
+                    "description": "<p>Chacune des deux nacelles peut contenir 1 passager ou un Encombrement de 10. La Vitesse de ce vélo automatisé est réduite de 1,50 mètre pour chaque nacelle qui contient un passager ou du fret.</p>"
+                },
+                "lctMsuE0KxKUZgnH": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=14]]{DD 14}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                }
+            }
+        },
+        "Sky Chariot (Light)": {
+            "name": "Sky Chariot (Light) (Chariot céleste léger)",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Arcanes (DD 25), Nature (DD 25 à 33, en fonction des créatures de trait) ou Connaissance du pilotage (DD 23)",
+            "speed": "la Vitesse de vol de la plus lente des créatures de trait (tiré par 2 créatures grandes ou 1 créature Très grande)"
+        },
+        "Steam Cart": {
+            "name": "Steam Cart (Chariot à vapeur)",
+            "description": "<p>Un chariot à vapeur ressemble à un chariot avec un chaudron alchimique qui produit de la vapeur pour alimenter le mouvement du véhicule par le biais d'un moteur simple.</p>",
+            "crew": "1 pilote",
+            "passengers": "1",
+            "pilotingcheck": "Connaissance de la conduite (DD 16) ou Artisanat (DD 18)",
+            "speed": "7,50 mètres (alchimique)",
+            "items": {
+                "kbVUEpQsOKNyw0BS": {
+                    "name": "Steam Cloud (Nuage de vapeur)",
+                    "description": "<p>Lorsque le chariot à vapeur subit des dégâts de collision, son moteur expulse un nuage dense de vapeur dans une @Template[emanation|distance:5]{émanation de 1,50 mètre}. Le chariot à vapeur et toutes les créatures dans la vapeur deviennent @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqués} et les créatures en dehors du nuage à vapeur sont Masquées aux créatures dans le nuage. La vapeur se dissipe au bout d'un round.</p>"
+                }
+            }
+        },
+        "Firefly": {
+            "name": "Firefly (Luciole électrique)",
+            "description": "<p>Une luciole électrique est un mélange de magie et de technologie, utilisant la magie de l'électricité et le magnétisme pour flotter juste au-dessus du sol. Bien que la luciole électrique ressemble plus à une boîte qu'à un insecte, elle doit son nom à la lueur constante de la lumière de la magie électrique qui l'alimente, ainsi qu'aux aimants stabilisateurs qui dépassent de ses côtés, à peu près à la place des ailes.</p>",
+            "crew": "1 pilote",
+            "passengers": "3",
+            "pilotingcheck": "Connaissance du pilotage (DD 20), Arcanes (DD 22) ou Artisanat (DD 22)",
+            "speed": "Flotter 6 mètres (électrique, magique)",
+            "items": {
+                "ChjOaa11CkBJeVJ8": {
+                    "name": "Glow (Luire)",
+                    "description": "<p>Alimenté par l'électricité magique, ce véhicule émet une lumière vive dans les 6 mètres et une lumière faible dans les 6 mètres suivants.</p>"
+                },
+                "XLttadhtgYoOq6f1": {
+                    "name": "Flash",
+                    "description": "<p>Le pilote surcharge le véhicule, ce qui provoque la création d'un flash de lumière brillante. Toutes les créatures dans la lumière vive de l'aura brillante doivent réussir un jet de @Check[fortitude|dc:19|name:Éviter le flash] ou être @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouies} pendant 1 minute. La lumière de la luciole électrique s'affaiblit pendant 10 minutes, réduisant l'émission de lumière faible de 3 mètres. Pendant ce temps il ne peut plus utiliser Flash. Flash arrête de fonctionner si la luciole électrique est brisée.</p>"
+                },
+                "fG2IE4D8GEe8e98D": {
+                    "name": "Hover (Flotter)",
+                    "description": "<p>Ce véhicule se maintient en l'air à l'aide de propulseurs tournant rapidement qui lui permettent de rester à 30 centimètres au-dessus du sol. Il est incapable de voler plus haut et lorsque le pilote arrête la magie ou que le véhicule est brisé, il descend de 30 centimètre jusqu'au sol.</p>"
+                }
+            }
+        },
+        "Snail Coach": {
+            "name": "Snail Coach (Coche escargot)",
+            "description": "<p>Ayant la forme de l'animal qui lui donne son nom, le coche escargot est propulsé par une combinaison de magie et d'adhésifs alchimiques avec une coquille extérieure solide pour se protéger des attaques. La piste laissée par la colle adhésive du véhicule sur la route permet l'escalade et laisse derrière elle une traînée qui représente un obstacle pour les ennemis qui le poursuivent.</p>",
+            "crew": "1 pilote",
+            "passengers": "6",
+            "pilotingcheck": "Connaissance de la conduite (DD 23) ou Artisanat (DD 25)",
+            "speed": "4,50 mètres, escalade 4,50 mètres (alchimique, magique)",
+            "items": {
+                "cFwKXyV5W3o1v3KK": {
+                    "name": "Adhesive Secretions (Secrétion adhésives)",
+                    "description": "<p>Ce véhicule secrète une colle alchimique adhésive qui permet de coller et escalader des surfaces solides. Les espaces où le coche escargot est passé deviennent du terrain difficile pendant 1 round. Toute créature qui termine son tour sur la colle doit réussir un jet de @Check[reflex|dc:23|name:Éviter la colle] ou subir une pénalité de statut de -3 mètres à ses Vitesses pendant 1 round. En cas d'échec critique, la créature est aussi @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant 1 round ([[/act escape dc=23]]{S'Échapper}).</p>"
+                }
+            }
+        },
+        "Steam Trolley": {
+            "name": "Steam Trolley (Carriole à vapeur)",
+            "description": "<p>Une carriole à vapeur est essentiellement un plus grand chariot à vapeur avec un chaudron et un fourneau alchimiques plus puissants alimentant un plus grand moteur à vapeur.</p>",
+            "crew": "1 pilote, 1 membre d'équipage",
+            "passengers": "6",
+            "pilotingcheck": "Connaissance de la conduite (DD 19) ou Artisanat (DD 21)",
+            "speed": "7,50 mètres (alchimique)"
+        },
+        "Second Kiss": {
+            "name": "Second Kiss (Second baiser)",
+            "description": "<p>Le Second baiser est un navire volant massif et rigide. Une enveloppe en tissu tendu sur un squelette en bois et en métal ovale contient une douzaine de sac fermés emplis de gaz de floranine qui permet au vaisseau de s'élever dans les airs. Une paire de propulseurs actionnées par des mécanismes automatisés, montés dans des nacelles de chaque côté de la cabine de l'équipage, assure le mouvement vers l'avant. L'équipage dirige le vaisseau à l'aide de gouvernails et d'ailerons situés dans quatre énormes ailerons arrière.</p>",
+            "crew": "1 pilote, 3 membres d'équipage",
+            "passengers": "8",
+            "pilotingcheck": "Connaissance du pilotage (DD 30) ou Artisanat (DD 32)",
+            "speed": "Vol 9 mètres",
+            "items": {
+                "V0HecEvj92RlltT5": {
+                    "name": "Sluggish (Lent)",
+                    "description": "<p>Ce véhicule doit se déplacer de deux fois sa longueur pour chaque tournant de 90 degrés qu'il effectue.</p>"
+                }
+            }
+        },
+        "Firework Pogo": {
+            "name": "Firework Pogo (Pogo feu d'artifice)",
+            "crew": "1 pilote",
+            "passengers": "0",
+            "pilotingcheck": "Artisanat (DD 21) ou Connaissance du pilotage (DD 19)",
+            "speed": "Propulsion de saut (Alchimique)",
+            "items": {
+                "V0Iw3ZOvbTqoxlvz": {
+                    "name": "Jump Jet (Propulsion de saut)",
+                    "description": "<p>Le pogo feu d'artifice se déplace exclusivelment par le biais de @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Bond}. Pour chaque action passée à @UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Diriger}, le pogo Bondit de 6 mètres horizontalement ou de 3 mètres verticalement.</p>"
+                },
+                "W01aasqmTJL5TpkW": {
+                    "name": "Unstable Launch (Lancement instable)",
+                    "description": "<p>Quand le pilote utilise une activité à 3 actions pour @UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Diriger} de manière téméraire le pogo feu d'artifice, il émet une explosion de flammes au lancement qui inflige @Damage[3d6[fire]]{3d6 dégâts de feu} au pilote, au pogo lui-même et à chaque créature dans un rayon de 3 mètres (@Check[reflex|dc:19|basic]).</p>"
+                }
+            }
+        },
+        "Floating Camouflage Blind": {
+            "name": "Floating Camouflage Blind (Embarcation camouflée)",
+            "description": "<p>L'embarcation camouflée comprend une plate-forme en bois attachée à une paire de pontons et est propulsée par un petit moteur mécanique. Sur cette plate-forme se trouvent quatre murs bas, recouverts d'une toile qui offre une protection contre les intempéries. En général, l'extérieur du camouflage est peint de manière à se fondre dans le feuillage environnant. Les embarcations camouflées sont souvent positionnées près de l'embouchure de voies navigables stratégiques afin de pouvoir surveiller discrètement le trafic.</p>",
+            "crew": "1 pilote",
+            "passengers": "3",
+            "pilotingcheck": "Artisanat (DD 21) ou Connaissance de la navigation maritime (DD 19)",
+            "speed": "nage 3 mètres (mécanique)",
+            "items": {
+                "fjG9iutGUirWKbtu": {
+                    "name": "Wind-Up (Remonter un dispositif)",
+                    "description": "<p>10 minutes pour remonter, 1 heure de temps opérationnel, [[/act disable-device dc=19]]{DD 19}, veille</p>\n<hr />\n<p>Pour qu'un mécanisme puisse fonctionner, il doit être remonté avec une clé unique par une autre créature. Cela prend le temps indiqué. Une fois remonté, il dispose du temps opérationnel indiqué, après quoi il ne peut plus fonctionner jusqu'à ce que le mécanisme soit remonté.</p>\n<p>Le temps de fonctionnement ne diminue pas en mode veille. S'il n'est pas précisé quand un dispositif a été remonté, la plupart des gardiens de ces mécanismes les remontent à un moment déterminé, typiquement à 8 heures du matin.</p>\n<p>Une créature peut tenter un test pour @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Désamorcer un dispositif} avec le DD indiqué, pour réduire le temps de fonctionnement. Pour chaque succès, le mécanisme perd 1 heure de temps opérationnel. Ceci peut être accompli même si le mécanisme est en mode veille.</p>"
+                }
+            }
+        },
+        "Combat Catamaran": {
+            "name": "Combat Catamaran (Catamaran de combat)",
+            "description": "<p>Ce voilier à grande vitesse est conçu pour traquer les navires en fuite. Lorsqu'il navigue au vent arrière, ce catamaran de combat peut déployer deux immenses focs semblables à des cerfs-volants qui augmentent considérablement sa vitesse.</p>",
+            "crew": "2 pilotes, 5 membres d'équipage",
+            "passengers": "15",
+            "pilotingcheck": "Nature (DD 33) ou Connaissance de la navigation maritime (DD 31)",
+            "speed": "nage 9 mètres ou 15 mètres en utilisant les focs (vent)",
+            "items": {
+                "WKcmxoJseJKLLsby": {
+                    "name": "Weapon Mounts (Supports d'arme)",
+                    "description": "<p>Ce véhicule possède deux supports d'arme : une sur chacune de ses coques. À l'achat, ces supports d'arme sont initialement vides. Installer ou désinstaller une arme dans un support nécessite 1 jour, un test d'@Check[crafting|dc:31] réussi et une arme appropriée. Ces supports d'arme peuvent être équipés d'armes de siège à distance de taille Très grande ou inférieure.</p>"
+                },
+                "oUF5jQd985RKQxDl": {
+                    "name": "Space (Espace)",
+                    "description": "<p>12 mètres de long, 12 mètres de large, 24 mètres de haut</p>"
+                },
+                "xrqdMttCPa8erSAH": {
+                    "name": "Deploy Spinnakers (Déployer les focs)",
+                    "description": "<p>Ce véhicule possède des focs imposant en forme de cerf volants. Déployer et affaler ces focs nécessitent que deux membres d'équipage accomplissent chacun une activité à 3 actions au cours de leur tour. Lorsque les focs sont déployés, les armes installées sur les supports d'arme ne peuvent ouvrir le feu.</p>"
+                }
+            }
+        },
+        "Hillcross Glider": {
+            "name": "Hillcross Glider (Planeur des collines)",
+            "description": "<p>Les planeurs des collines sont faits d'os et de cuir tendu, attachés ensemble avec des tendons et scellés à l'aide d'une colle faite de graisse animale.</p>",
+            "crew": "1 pilote",
+            "pilotingcheck": "Connaissance du pilotage (DD 19) ou Nature (DD 21)",
+            "speed": "Vol 11,50 mètres (vent)",
+            "items": {
+                "xB0A9RW1Zi6TC7g0": {
+                    "name": "Starting Drop (Chute initiale)",
+                    "description": "<p>La seule manière de faire décoller un planeur des collines est de sauter d'une pente fortement inclinée avec des conditions de vent favorables. Le planeur est incontrôlé et tombe de 12 mètres chaque round jusqu'à ce que le pilote réussit @UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{Prendre le contrôle}. Si le planeur percute le sol avant que le Pilote ne prenne le contrôle, le pilote et le planeur subissent tous deux des dégâts de chute.</p>"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.description",
+        "gm": "system.details.privateNotes",
+        "crew": "system.details.crew",
+        "passengers": "system.details.passengers",
+        "pilotingcheck": "system.details.pilotingCheck",
+        "speed": "system.details.speed",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

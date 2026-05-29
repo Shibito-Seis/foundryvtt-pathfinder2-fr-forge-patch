@@ -1,0 +1,167 @@
+{
+    "label": "Effet des reliques",
+    "entries": {
+        "Effect: Work Harden (Shield)": {
+            "name": "Effect: Work Harden (Shield) (Effet : Durcir l'ouvrage (bouclier))",
+            "description": "<p>Vous frappez la relique contrer un bouclier fait de métal et de la vapeur s'en échappe comme s'il venait juste d'être trempé. L'objet cible durcit pendant 10 minutes, augmentant sa Solidité de 5.</p>"
+        },
+        "Effect: Shroud of the Afterlife": {
+            "name": "Effect: Shroud of the Afterlife (Effet : Linceul de l'au-delà)",
+            "description": "<p>Vous vous enveloppez de pouvoirs issus d'au-delà du royaume des vivants pendant 1 minute. Tant que ce linceul est actif, vous avez une apparence blême et obtenez une résistance au poison égale à la moitié du niveau de la relique, ainsi qu'un bonus de statut de +1 à vos jets de sauvegarde contre les effets de mort, les maladies, les effets capables de vous paralyser, le poison et les effets de sommeil. De plus, le DD de vos tests de récupération est de 9 (au lieu de 10) + votre la valeur de votre état Mourant.</p>",
+            "rules": {
+                "1": {
+                    "label": "Linceul de l'au-delà"
+                }
+            }
+        },
+        "Effect: Heat Haze": {
+            "name": "Effect: Heat Haze (Effet : Voile de chaleur)",
+            "description": "<p>Votre relique élève l'air de manière erratique autour de vous, en créant des ondes de chaleur qui distordent votre apparence et vous confèrent l'état @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} pendant 1 minute. Comme la nature de cet effet ne permet pas de camoufler votre emplacement, vous ne pouvez utiliser cet état pour vous @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Cacher} ou @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtif}.</p>"
+        },
+        "Effect: Fiendish Bargain (Attack Bonus)": {
+            "name": "Effect: Fiendish Bargain (Attack Bonus) (Effet : Marchandage Fiélon (bonus d'attaque))",
+            "description": "<p>Vous obtenez un bonus de statut de +2 aux jets d'attaque pendant 1 minute.</p>"
+        },
+        "Effect: Life Everlasting": {
+            "name": "Effect: Life Everlasting (Effet : Vie éternelle)",
+            "description": "<p>Vous libérez des quantités massives d'énergie de vitalité. Pendant 1 minute, vous libérez de l'énergie de vitalité dans une émanation de 3 mètres centrée sur vous. À la fin de votre tour, vous (si vous êtes vivant) et les créatures vivantes alliées dans l'émanation, récupérez @Damage[1d10[healing]] Points de vie. Si vous ou une créature alliée deviez mourir suite à l'aggravation de la valeur de votre état mourant, vous pouvez Révoquer l'activation par une action gratuite pour éviter la mort. Dans ce cas, la valeur de l'état Mourant n'augmente pas.</p>"
+        },
+        "Effect: Sacred Glow": {
+            "name": "Effect: Sacred Glow (Effet : Lueur sacrée)",
+            "description": "<p>Les créatures impies situées dans la zone sont @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayées 1} et ne peuvent réduire l'intensité de cet état en dessous de 1 tant qu'elles restent dans la lumière. La faiblesse que possèdent les fiélons qui se trouvent dans la zone d'effet contre les dégâts saints est augmentée de 5.</p>"
+        },
+        "Spell Effect: Elemental Form (Forge)": {
+            "name": "Spell Effect: Elemental Form (Forge) (Effet : Forme élémentaire (Forge))",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{Forme élémentaire} et @UUID[Compendium.pf2e-relics.relic-gifts.5BX9BGusRyMqWftu]{Forge vivante}</p>\n<hr />\n<p>Votre forme de combat est Grande et vos attaques ont une allonge de 3 mètres. Vous devez avoir de l'espace pour vous étendre ou le sort est perdu. À la place, vous obtenez CA = 22 + votre niveau, 20 PV temporaires, un modificateur d'attaque de +25, un bonus aux dégâts de +11, le double du nombre de dés de dégâts (y compris les dégâts persistants) et un modificateur d'Acrobaties ou d'Athlétisme de +25. Vous obtenez également les avantages suivants : </p>\n<ul>\n    <li><strong>Vitesse de forge</strong> 9 mètres ; résistance 10 contre le feu, faiblesse 5 contre le froid et l'eau</li>\n    <li><strong>Corps-à-corps</strong> <span class=\"action action-glyph\" title=\"Single Action\" aria-label=\"Single Action\">1</span>Frappe forge <strong>Dégâts</strong> 1d10 configurable ; 1d4 de feu persistant.</li>\n</ul>",
+            "rules": {
+                "1": {
+                    "label": "Frappe de la forge Dégât configurable"
+                },
+                "5": {
+                    "label": "Frappe de la forge Feu"
+                }
+            }
+        },
+        "Effect: Beginner's Luck": {
+            "name": "Effect: Beginner's Luck (Effet : Chance du débutant)",
+            "description": "<p>Vous considérez que votre bonus de maîtrise est égal à la moitié de votre niveau ou si votre relique est de niveau 7 ou supérieur, comme égal à votre niveau. Puis, lancez deux fois, en prenant le meilleur des deux résultats. Cela ne vous permet pas d'utiliser les actions qui nécessitent d'être qualifié dans la compétence.</p>",
+            "rules": {
+                "0": {
+                    "label": "Chance du débutant"
+                }
+            }
+        },
+        "Cooldown: Healing Wave": {
+            "name": "Cooldown: Healing Wave (Recharge : Vague de guérison)"
+        },
+        "Effect: Perception Filter (Success)": {
+            "name": "Effect: Perception Filter (Success) (Effet : Filtre de Perception (succès))",
+            "description": "<p>La créature subit une pénalité de -2 aux tests de Perception pour vous Chercher ou vous détecter.</p>"
+        },
+        "Effect: Incandescent Sight": {
+            "name": "Effect: Incandescent Sight (Effet : Vision Incandescente)",
+            "description": "<p>Vous percevez les infrarouges et vos yeux s'adaptent aux signatures thermiques, ce qui vous octroie le sens vision thermique précise pendant 1 minute. Votre vision thermique peut percevoir les gradients thermiques à une distance de 9 mètres, ce qui vous permet de repérer les créatures vivantes et les objets chauds dans le noir. Les objets chauds bloquent votre vision thermique même s'ils sont transparents (comme de l'eau chaude, par exemple).</p>"
+        },
+        "Effect: Angelic Vessel": {
+            "name": "Effect: Angelic Vessel (Effet : Réceptacle Angélique)",
+            "description": "<p>Vous obtenez 50 Points de vie supplémentaires, augmentant à la fois le nombre maximal et le nombre actuel de vos Points de vie, ainsi qu'une faiblesse 10 contre les dégâts impies.</p>"
+        },
+        "Effect: Petal Dance": {
+            "name": "Effect: Petal Dance (Effet : Danse des Pétales)",
+            "description": "<p>Vous vous transformez en une nuée de pétales et de feuilles. Cela vous octroie le trait nuée, une immunité contre les dégâts de chute, une résistance 5 contre les dégâts contondants et tranchants et une faiblesse 5 contre les dégâts de zone et les dégâts d'éclaboussure. Vous pouvez vous faufiler dans des espaces larges d'à peine quelques centimètres en déplaçant vos pétales dans la fissure. Vous n'obtenez pas cependant le pouvoir esprit de la nuée et êtes donc toujours affecté normalement par les effets mentaux. Sous forme de nuée, vous ne pouvez pas parler, lancer de sorts, utiliser d'actions dotées du trait manipulation nécessitant vos mains, activer vos objets magiques ou effectuer vos Frappes avec votre corps normal. Vous restez sous cette forme pendant 1 minute ou jusqu'à ce que vous Révoquiez cette activation. Au niveau 13, la relique obtient une réaction qui se déclenche quand vous tombez ou que vous subissez des dégâts. Cela vous permet de bénéficier des résistances, faiblesses et de l'immunité contre les dégâts de chute de ce bienfait.</p>"
+        },
+        "Effect: Lightning Storm": {
+            "name": "Effect: Lightning Storm (Effet : Tempête d'éclairs)",
+            "description": "<p>La relique vous enveloppe d'une tempête de vent, de pluie et de foudre dans une émanation de 9 mètres. Cette tempête est un terrain difficile pour tout autre que vous. Toute créature autre que vous qui pénètre ou débute son tour dans la tempête subit @Damage[1d12[electricity]]{1d12 dégâts d'électricité} avec un jet de @Check[reflex|against:class-spell|basic] (@Damage[2d12[electricity]]{2d12 dégâts d'électricité} au niveau 15). Vous pouvez Maintenir cette activation jusqu'à 1 minute.</p>"
+        },
+        "Effect: Righteous Call": {
+            "name": "Effect: Righteous Call (Effet : Appel à la vertu)",
+            "description": "<p>Les Frappes que vos alliés portent lorsqu'ils se trouvent dans un rayon de 9 mètres de vous obtiennent le trait saint.</p>"
+        },
+        "Effect: Dancing Shadow": {
+            "name": "Effect: Dancing Shadow (Effet : Ombre dansante)",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e-relics.relic-gifts.BVQLXeCmX70EsXtq]{Ombre dansante}</p>\n<hr />\n<p>L'ombre de votre relique se détache et danse dans les airs pour attaquer un ennemi. Quand vous activez la relique, désignez une cible. L'ombre de la relique vole sur une distance maximale de 18 mètres jusqu'à ce qu'elle soit adjacente à cet adversaire, puis elle effectue une Frappe contre lui. Elle inflige @Damage[5d8[untyped]] en cas de succès ou le double en cas de succès critique. Le type de dégâts correspond à l'un des types de dégâts infligés normalement par votre relique. L'ombre utilise votre bonus d'attaque avec la relique et elle utilise et contribue à votre pénalité d'attaques multiples. Tant que cette activation fait effet, vous pouvez utiliser une action unique dotée des traits attaque et concentration pour diriger mentalement l'ombre afin qu'elle effectue une autre Frappe contre la même cible. L'ombre perdure jusqu'à ce que la cible soit réduite à 0 PV, que cette cible s'éloigne de plus de 120 mètres de vous ou se déplace dans une zone où il ne peut y avoir d'ombres, telle qu'une zone de ténèbres totales.</p>\n<p>L'ombre n'occupe aucun espace, ne peut pas contribuer à la prise en tenaille et ne dispose d'aucun autre attribut d'une créature. Elle suit automatiquement la cible choisie. L'arme ne peut effectuer aucune action autre que sa Frappe et les dons et sorts qui affectent les armes ne s'appliquent pas à elle.</p>"
+        },
+        "Effect: Grim Specter": {
+            "name": "Effect: Grim Specter (Effet : Spectre sinistre)",
+            "description": "<p>Vous devenez intangible, sans aucun corps physique. Vous êtes immunisé contre les effets nécessitant un corps physique, y compris les dégâts de précision ainsi que l'exposition à la plupart des maladies et poisons.  Vous obtenez une résistance contre tous les dégâts égale à la moitié du niveau de la relique. Les dégâts de force, les attaques @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{spectrales}, les dégâts spirituels, de vide et de vitalité ignorent cette résistance et la résistance est doublée contre les dégâts non magiques.</p>\n<p>Vous pouvez traverser des objets solides. Quand vous vous trouvez à l'intérieur d'un objet, vous ne pouvez pas percevoir, attaquer ou interagir avec ce qui se trouve à l'extérieur et vous êtes toujours @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} quand vous débutez un tour dans un objet. Les créatures tangibles peuvent vous traverser mais ne peuvent pas terminer leur déplacement dans votre espace. Vous ne pouvez pas tenter de tests basés sur la Force contre des créatures ou des objets tangibles à moins que ces objets possèdent la rune de propriété spectrale. De même, les créatures tangibles ne peuvent pas tenter de tests basés sur la Force contre vous.</p>\n<p>Vous pouvez Maintenir cette activation jusqu'à 1 minute.</p>"
+        },
+        "Effect: Fiendish Bargain (Damage Penalty)": {
+            "name": "Effect: Fiendish Bargain (Damage Penalty) (Effet : Marchandage fiélon (Pénalité aux dégâts))",
+            "description": "<p>Vous subissez une pénalité de -1 aux jets de dégâts pendant 1 minute.</p>"
+        },
+        "Effect: Ripples and Waves": {
+            "name": "Effect: Ripples and Waves (Effet : Ondulations et vagues)",
+            "description": "<p>Pendant 1 minute, de l'eau s'écoule de vous et emplit une @Template[type:emanation|distance:60]{émanation de 18 mètres} arrivant à hauteur de cheville et centrée sur vous. Les ennemis dans la zone d'effet sans Vitesse de nage considèrent la zone affectée comme un terrain difficile pour leur déplacement au sol. Tant que cet effet persiste, tous les effets d'eau que vous générez peuvent provenir de n'importe quel endroit au sein de cette émanation en plus de leur portée et de leur zone d'effet normales.</p>"
+        },
+        "Effect: Jet Propulsion": {
+            "name": "Effect: Jet Propulsion (Effet : Propulsion Thermique)",
+            "description": "<p>Des flammes de la relique sont canalisées à travers votre corps et jaillissent de vos pieds et de vos mains ou de vos autres membres, avec suffisamment de puissance pour vous faire décoller et vous propulser dans les airs. Pendant 1 minute, vous obtenez un bonus de statut de +3 mètres à votre Vitesse et obtenez une Vitesse de vol égale à la plus élevée entre votre nouvelle Vitesse ou 6 mètres. Vous devez terminer votre tour sur une surface solide, sinon vous chutez.</p>",
+            "rules": {
+                "1": {
+                    "label": "Propulsion thermique"
+                }
+            }
+        },
+        "Effect: Feral Claws": {
+            "name": "Effect: Feral Claws (Effet : Griffes sauvages)",
+            "description": "<p>Vos mains se transforment en griffes. Cela vous octroie une attaque à mains nues de griffes qui inflige 1d6 dégâts tranchants et qui possède les traits agile et finesse.</p>",
+            "rules": {
+                "0": {
+                    "label": "Griffes sauvages"
+                }
+            }
+        },
+        "Effect: Dragon Strike": {
+            "name": "Effect: Dragon Strike (Effet : Frappes du Dragon)",
+            "description": "<p>Pendant 1 minute, lorsque vous réussissez une Frappe au corps-à-corps à mains nues, vous infligez 1d6 dégâts tranchants supplémentaires.</p>",
+            "rules": {
+                "0": {
+                    "label": "Frappes du Dragon"
+                }
+            }
+        },
+        "Cooldown: Word of Faith": {
+            "name": "Cooldown: Word of Faith (Recharge : Parole de piété)"
+        },
+        "Spell Effect: Spirit Blink": {
+            "name": "Spell Effect: Spirit Blink (Effet : Oscillation spirituelle)",
+            "description": "<p>Vous oscillez entre les royaumes mortels et le Plan éthéré. Ceci vous fait bénéficier des effets d'@UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]{Osciller}, sauf que la résistance est égale au niveau du germe d'âme au lieu de 5.</p>"
+        },
+        "Effect: Wind Barrier": {
+            "name": "Effect: Wind Barrier (Effet : Barrière de vent)",
+            "description": "<p>Une barrière d'air invisible dévie les attaques à distance, vous accordant un bonus de circonstances de +2 à la CA contre les attaques à distance jusqu'au début de votre prochain tour. Au niveau 13, le bonus de circonstances à la CA passe à +3 contre les attaques à distance.</p>",
+            "rules": {
+                "0": {
+                    "label": "Barrière de vent (contre les attaque à distance)"
+                },
+                "1": {
+                    "label": "Barrière de vent (contre les attaque à distance)"
+                }
+            }
+        },
+        "Cooldown: Dragon Strike": {
+            "name": "Cooldown: Dragon Strike (Recharge : Frappes de dragon)"
+        },
+        "Effect: Work Harden (Armor)": {
+            "name": "Effect: Work Harden (Armor) (Effet : Durcir l'ouvrage (armure))",
+            "description": "<p>Vous frappez la relique contrer une armure faite de métal et de la vapeur s'en échappe comme si elle venait juste d'être trempé. L'objet cible durcit pendant 10 minutes, augmentant son bonus d'objet à la CA de 1.</p>"
+        },
+        "Effect: Profane Fervor": {
+            "name": "Effect: Profane Fervor (Effet : Ferveur blasphématoire)",
+            "description": "<p>Les Frappes que vos alliés portent lorsqu'ils se trouvent dans un rayon de 9 mètres de vous obtiennent le trait impie.</p>"
+        },
+        "Effect: Wyrm's Flight": {
+            "name": "Effect: Wyrm's Flight (Effet : Vol du Ver)",
+            "description": "<p>Des ailes draconiques fantomatiques vous confèrent une Vitesse de vol égale à la plus élevée entre votre Vitesse ou 6 mètres. Ce phénomène dure 10 minutes ou jusqu'à ce que vous Révoquiez l'effet. Au niveau 17, vous pouvez Activer et Révoquer ce pouvoir aussi souvent que vous le souhaitez et il possède une durée illimitée.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

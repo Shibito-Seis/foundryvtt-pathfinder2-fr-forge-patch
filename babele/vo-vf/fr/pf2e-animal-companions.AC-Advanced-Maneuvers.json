@@ -1,0 +1,405 @@
+{
+    "label": "Manœuvres avancées (Animal Companions)",
+    "entries": {
+        "Float": {
+            "name": "Float (Flottement)",
+            "description": "<p><strong>Déclencheur</strong> Le champignon parapluie est en train de tomber.</p>\n<hr />\n<p>Le champignon parapluie remplit des poches d'air et commence à tournoyer pour ralentir sa chute. Il descend lentement de 18 mètres par round. Il peut utiliser cette réaction même s'il est @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient}.</p>"
+        },
+        "Weighted Kick": {
+            "name": "Weighted Kick (Ruade lestée)",
+            "description": "<p>Votre augdunar donne une lourde ruade avec ses pattes arrière, transmettant le poids de son fardeau sur la cible. Il effectue un coup de sabot. Sur un coup réussi, l'augdunar repousse automatiquement la cible de 1,50 mètre (3 mètres sur un coup critique).</p>"
+        },
+        "Lurching Rush": {
+            "name": "Lurching Rush (Embardée ruante)",
+            "description": "<p>Le varan Marche rapidement puis fait une Frappe de mâchoires. S'il a bougé d'au moins 6 mètres de sa position de départ, il obtient un bonus de circonstances de +2 au jet d'attaque.</p>"
+        },
+        "Boar Charge": {
+            "name": "Boar Charge (Charge du sanglier)",
+            "description": "<p>Le sanglier Marche rapidement deux fois en ligne droite puis porte une Frappe de défense. Tant qu'il s'est déplacé d'au moins 6 mètres, il obtient un bonus de circonstances de +2 à son jet d'attaque.</p>"
+        },
+        "Diving Skewer": {
+            "name": "Diving Skewer (Piqûre en plongée)",
+            "description": "<p>La vouivre Vole jusqu'à la moitié de sa Vitesse puis effectue une Frappe de dard. Si la Frappe touche, la cible est également mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. Si la frappe est un coup critique, la cible subit également @Damage[2d6[persistent,poison]]{2d6 dégâts de poison persistants}.</p>",
+            "rules": {
+                "1": {
+                    "text": "COMP.SpecificRule.Wyvern.DivingSkewer.Note"
+                }
+            }
+        },
+        "Death Roll": {
+            "name": "Death Roll (Roulade mortelle)",
+            "description": "<p><strong>Conditions</strong> Le crocodile a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature.</p>\n<hr />\n<p>Le crocodile rentre ses pattes et roule rapidement, en tordant sa victime. Il effectue une Frappe de mâchoire avec un bonus de circonstances de +2 au jet d'attaque contre la créature Agrippée. Si le crocodile obtient une réussite, il met également la créature @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. S'il obtient un échec, il libère la créature.</p>"
+        },
+        "Pick at the Meat": {
+            "name": "Pick at the Meat (Piquer la viande)",
+            "description": "<p><strong>Conditions</strong> La dernière action du compagnon animal était une Frappe de mâchoires réussie.</p>\n<hr />\n<p>Votre oiseau pique dans la plaie qu'il a juste créée. La cible de sa Frappe de mâchoires subit @Damage[1d8[bleed]]{1d8 dégâts de saignement} ou @Damage[2d8[bleed]]{2d8 dégâts de saignement} si l'oiseau est spécialisé.</p>"
+        },
+        "Screaming Skull": {
+            "name": "Screaming Skull (Crâne hurlant)",
+            "description": "<p>Le squelette ôte son propre crâne et le lance, faisant une Frappe de mâchoires avec une portée de 6 mètres. Qu'il touche ou non, la cible et tous les ennemis dans les 3 mètres doivent tenter un jet de @Check[will|against:screaming-skull] ou être @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayées 1} ou @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayées 2} en cas de coup critique. Cela utilise un DD qualifié en fonction du modificateur de Charisme du squelette, ou un DD expert si le squelette est spécialisé.</p>\n<p>Au début du prochain tour du squelette, la tête peut soit bondir, rouler ou revenir en volant pour se refixer. Le squelette est aveugle tant que sa tête est à distance.</p>"
+        },
+        "Gulp Blood": {
+            "name": "Gulp Blood (Gorgée de sang)",
+            "description": "<p><strong>Conditions</strong> La dernière action de l'âme-en-peine aquatique était une attaque de mâchoires réussie contre un ennemi</p>\n<hr>\n<p>L'âme-en-peine aquatique obtient 2d8 Points de vie temporaires qui durent pendant 1 round et l'adversaire subit @Damage[2d6[persistent,bleed]]{2d6 dégâts de saignement}. Si l'âme-en-peine aquatique est spécialisée, l'âme-en-peine aquatique obtient à la place 3d8 Points de vie et la cible subit @Damage[3d6[persistent,bleed]]{3d6 dégâts de saignement}. Si la créature ciblée n'a aucun fluide vital, cette capacité pourrait ne pas fonctionner, à la discrétion du MJ.</p>"
+        },
+        "Snatch": {
+            "name": "Snatch (Arracher du sol)",
+            "description": "<p>Le roc Frappe une créature avec ses serres puis tente de l'Agripper. Si l'Agrippement est un succès, le roc Vole jusqu'à la moitié de sa vitesse, emportant la créature avec lui.</p>"
+        },
+        "Sudden Retreat": {
+            "name": "Sudden Retreat (Retraite soudaine)",
+            "description": "<p>L'hippocampe effectue une Frappe de queue, puis Nage avec un bonus de circonstances de +3 mètres à sa Vitesse de nage. L'hippocampe et son cavalier bénéficient d'un bonus de circonstances de +2 à leur CA contre les réactions déclenchées par ce déplacement.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.evvqmXIieuMwFMJT]{Effet : Retraite (Cavalier)}</p>"
+        },
+        "Tongue Pull": {
+            "name": "Tongue Pull (Traction de la langue)",
+            "description": "<p>Le gecko des cavernes fait claquer sa langue et tente d'attirer vers lui un ennemi se trouvant dans un rayon de 3 mètres. Le gecko fait un test d'Athlétisme contre le DD de Vigueur de l'adversaire. S'il réussit, le gecko des cavernes tire l'ennemi à côté de lui. Ce mouvement est un déplacement forcé. En cas de succès critique, l'ennemi est également @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Saisi} jusqu'au début de votre prochain tour.</p>"
+        },
+        "Cat Pounce": {
+            "name": "Cat Pounce (Bond de félin)",
+            "description": "<p>Le félin Marche rapidement puis effectue une Frappe. S'il était @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détecté} au début de son Bond de félin, il reste Non détecté jusqu'à ce qu'il ait porté l'attaque.</p>"
+        },
+        "Careful Withdraw": {
+            "name": "Careful Withdraw (Retrait précautionneux)",
+            "description": "<p>La chaise sur pattes vous extirpe précautionneusement d'une situation dangereuse. Elle Fait un pas deux fois puis Marche rapidement.</p>"
+        },
+        "Long Stomp": {
+            "name": "Long Stomp (Longue cavalcade)",
+            "description": "<p>Votre girafe Marche rapidement deux fois et effectue une frappe de sabot. Si elle s'est déplacée d'au moins 6 mètres, elle inflige @Damage[1d6[bludgeoning]]{1d6 dégâts contondants} supplémentaires. Les dégâts passent à @Damage[2d6[bludgeoning]|shortLabel]{2d6 dégâts} si votre girafe est spécialisée.</p>"
+        },
+        "Breach": {
+            "name": "Breach (Saut piqué)",
+            "description": "<p>L'orque nage jusqu'à sa Vitesse de nage, puis bondit hors de l'eau jusqu'à 7,50 mètres dans les airs, effectuant une Frappe contre une créature à tout moment lors de son saut (ça lui permet donc d'atteindre une cible qui se trouverait à 9 mètres de la surface de l'eau). Après sa Frappe, l'orque replonge dans l'eau.</p>"
+        },
+        "Suction Vortex": {
+            "name": "Suction Vortex (Vortex aspirant)",
+            "description": "<p><strong>Conditions</strong> Le drake vorace n'a pas de créature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} dans ses mâchoires</p>\n<hr />\n<p><strong>Effet</strong> Le drake vorace prend une puissant inspiration, en tentant d'attirer un ennemi à 3 mètres de lui. Le drake fait un test d'@Check[athletics|against:fortitude]{Athlétisme} contre le DD de Vigueur d'un ennemi. En cas de succès, le drake vorace attire l'ennemi de 3 mètres maximum pour qu'il lui soit adjacent. Ce déplacement est un déplacement forcé. Sur un succès critique, l'ennemi est également Agrippé par les mâchoires du drake jusqu'au début de votre prochain tour.</p>"
+        },
+        "Scurry": {
+            "name": "Scurry (S'empresser)",
+            "description": "<p>Votre chetamog accomplit n'importe quelle combinaison de deux actions Marcher rapidement ou Escalader. Il obtient un bonus de circonstances de +3 mètres à sa Vitesse au cours de ces Marches rapides.</p>"
+        },
+        "Telepathic Pounce": {
+            "name": "Telepathic Pounce (Assaut télépathique)",
+            "description": "<p>Le shotalashu chasse en épinglant ses adversaires, pas seulement avec ses griffes, mais aussi avec son esprit. Une créature dans les 9 mètres doit tenter un jet de @Check[will|against:telepathic-pounce] avec les effets suivants. Ce jet utilise un DD Qualifié en utilisant le modificateur de Charisme du shotalashu ou un DD Expert s'il est spécialisé.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature subit une pénalité de statut à sa vitesse de -1,50 mètre pendant 1 round.</p>\n<p><strong>Échec</strong> La créature subit une pénalité de statut à sa vitesse de -3 mètres pendant 1 round. Le shotalashu peut alors @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Bondir}.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} et @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant un tour. Le shotalashu peut alors Bondir.</p>"
+        },
+        "Wing Thrash": {
+            "name": "Wing Thrash (Balayage d'aile)",
+            "description": "<p>La chauve-souris frappe violemment et sauvagement avec ses ailes, effectuant des Frappes d'ailes contre un maximum de trois ennemis adjacents. Chaque attaque compte dans la pénalité d'attaques multiples de la chauve-souris mais la pénalité n'augmente qu'après avoir effectué toutes les attaques.</p>"
+        },
+        "Grabbing Trunk": {
+            "name": "Grabbing Trunk (Trompe préhensile)",
+            "description": "<p>L'éléphant agrippe son ennemi avec sa trompe et le transporte. L'éléphant utilise Athlétisme pour @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} une créature dans sa trompe de deux tailles plus petites que lui. Si sa cible est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} ou@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée}, l'éléphant la repositionne dans un nouvel espace dans son allonge.</p>"
+        },
+        "Seedpod Spring": {
+            "name": "Seedpod Spring (Éclosion printanière)",
+            "description": "<p>Une gousse dans le fauteuil éclot et se déploie, en libérant une touffe légère de matière cotonneuse. Votre Fauteuil motte de racines Bondit de 9 mètres verticalement ou horizontalement et dérive vers le bas, descendant de 1,50 mètre pour chaque 1,50 mètre parcourus horizontalement et vous ne subissez aucun dégât de chute. La matière cotonneuse se disperse au moment de l'atterrissage.</p>"
+        },
+        "Hair Barrage": {
+            "name": "Hair Barrage (Déluge velu)",
+            "description": "<p>La tarentule, d'une pichenette de ses pattes, projette des poils acérés en un @Template[cone|distance:15]{cône de 4,50 mètres}. Ceci inflige @Damage[(4 + max(0,floor((@actor.level - 6) / 4)))d6[piercing]]{4d6 dégâts perforants} avec un jet de @Check[type:reflex|against:hair-barrage|basic:true] contre votre DD de classe. Ces dégâts augmentent de 1d6 supplémentaires pour chaque tranche de 4 niveaux que vous possédez au delà du niveau 6. </p>"
+        },
+        "Takedown": {
+            "name": "Takedown (Renversement)",
+            "description": "<p><strong>Conditions</strong> La dernière action du compagnon animal était une attaque réussie de mâchoires.</p>\n<hr />\n<p>Le loup renverse automatiquement la cible de sa Frappe de mâchoire @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+        },
+        "Poisonous Sweep": {
+            "name": "Poisonous Sweep (Balayage empoisonné)",
+            "description": "<p>La salamandre sécrète du poison par des glandes sur sa queue et matraque un ennemi pour l'en enduire. Elle fait une Frappe de queue. Si cette Frappe touche, la cible subit @Damage[1d6[persistent,poison]]{1d6 dégâts de poison persistants} supplémentaires. Si votre salamandre est agile ou sauvage, ces dégâts passent à @Damage[2d6[persistent,poison]{2d6 dégâts de poison persistants}.</p>"
+        },
+        "Bucking Frenzy": {
+            "name": "Bucking Frenzy (Ruade frénétique)",
+            "description": "<p>Le cochon de combat transforme toute peur qu'il ressent en une furie avant de ruer sauvagement. Réduisez la valeur de l'état Effrayé du cochon de combat de 1 (minimum 0). Le cochon de combat fait ensuite des Frappes de sabot jusqu'à trois ennemis différents dans son allonge. Ces Frappes subissent chacune une pénalité de -2 à leurs jets d'attaque à moins que le cochon de combat n'ait commencé son tour avec l'état Effrayé. Chaque attaque est prise en compte dans le calcul de la pénalité d'attaques multiples du cochon de combat mais la pénalité n'augmente qu'après que toutes les attaques ont été portées.</p>"
+        },
+        "Flyby Attack": {
+            "name": "Flyby Attack (Attaque en vol)",
+            "description": "<p>L'oiseau de proie Vole et porte une Frappe de serre à n'importe quel moment.</p>"
+        },
+        "Spiked Bunker": {
+            "name": "Spiked Bunker (Bunker pointu)",
+            "description": "<p>Votre élémentaire de métal s'entoure de piques de métal protectrices et se met sur la défensive. Il bénéficie d'un bonus de circonstances de +2 à la CA. Toute créature qui touche l'élémentaire de métal avec une attaque au corps-à-corps à mains nues alors qu'il est dans son bunker pointu subit @Damage[2d6[piercing]]{2d6 dégâts perforants} (ou @Damage[3d6[piercing]]{3d6 dégâts perforants} si votre élémentaire de métal est spécialisé). L'élémentaire de métal ne peut pas se déplacer, Frapper ou entreprendre d'autres actions nécessitant l'utilisation de son corps tant qu'il est dans son Bunker pointu mais il peut rétracter le bunker par une action unique, ce qui met un terme à ses effets.</p>"
+        },
+        "Snatch and Zap": {
+            "name": "Snatch and Zap (Saisir et électrocuter)",
+            "description": "<p>L'Ulgrem-Lurann mord violemment et libère une décharge électrique. Il porte une Frappe de mâchoires. Si la Frappe touche, la créature ciblée devient automatiquement @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} par l'Ulgrem-Lurann et subit @Damage[1d4[electricity]]{1d4 dégâts d'électricité} (@Damage[2d4[electricity]|shortLabel]{2d4 dégâts d'électricité} pour un Ulgrem-Lurann adulte ou @Damage[3d4[electricity]|shortLabel]{3d4 dégâts d'électricité} pour un compagnon spécialisé). L'état Agrippé persiste jusqu'à la fin de votre prochain tour, bien que l'Ulgrem-Lurann puisse utiliser @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} pour tenter d'étendre sa durée comme à l'ordinaire.</p>"
+        },
+        "Spring Kick": {
+            "name": "Spring Kick (Ruade bondissante)",
+            "description": "<p>Le kangourou prend équilibre sur sa queue et déclenche une puissante ruade à l'aide de ses deux pieds. S'il touche, la cible est repoussée de 3 mètres. Sur un coup critique, elle est aussi mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{A terre}.</p>"
+        },
+        "Tearing Clutch": {
+            "name": "Tearing Clutch (Serrage déchirant)",
+            "description": "<p>L'oiseau de terreur effectue une Frappe de bec. En cas de coup réussi, la cible subit @Damage[2d6[persistent,bleed]]{2d6 dégâts de saignement}.</p>"
+        },
+        "Telekinetic Assault": {
+            "name": "Telekinetic Assault (Assaut télékinésique)",
+            "description": "<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p>Votre fantôme relâche un déluge d'émotions, faisant voler de petits objets et des débris dans une @Template[emanation|distance:20]{émanation de 6 mètres}, en infligeant@Damage[(floor(@actor.level / 2))d6[bludgeoning]|options:area-damage]{1d6 dégâts contondants} par tranche de 2 niveau que le fantôme possède (@Check[reflex|basic|against:telekinetic-assault|options:area-effect]). Cela utilise un DD qualifié en utilisant le modificateur de Charisme du fantôme ou un DD expert si le fantôme est spécialisé.</p>"
+        },
+        "Feast on the Fallen": {
+            "name": "Feast on the Fallen (Festin sur le déchu)",
+            "description": "<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Déclencheur</strong> Une créature adjacente au vautour est réduite à 0 PV</p>\n<hr />\n<p>Le vautour avale un morceau de l'ennemi défait, bénéficiant de  @Damage[18[healing]]{18 Points de vie}. Si le vautour est un compagnon animal spécialisé, augmentez les Points de vie regagnés à @Damage[30[healing]|shortLabel]{30}.</p>"
+        },
+        "Wrapping Tendrils": {
+            "name": "Wrapping Tendrils (Tentacules enveloppants)",
+            "description": "<p><strong>Conditions</strong> La dernière action du radeau-méduse était une attaque de tentacule réussie. </p>\n<hr />\n<p>Le radeau-méduse effectue une autre attaque de tentacule contre la même cible. Si cette attaque réussit, la cible est\négalement @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}, comme si le radeau-méduse avait réussi à Saisir la cible.</p>"
+        },
+        "Burrowing Ambush": {
+            "name": "Burrowing Ambush (Embuscade souterraine)",
+            "description": "<p>Votre taupe Creuse et effectue une Frappe. Si la taupe a commencé son déplacement sous terre, la cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} pour cette attaque.</p>"
+        },
+        "Overwhelm": {
+            "name": "Overwhelm (Prise de mâchoire)",
+            "description": "<p>Le tyrannosaure s'abat sur un ennemi et l'immobilise dans ses mâchoires. Le tyrannosaure tente une Frappe de mâchoires. Si elle touche, la cible est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}.</p>"
+        },
+        "Defensive Curl": {
+            "name": "Defensive Curl (Posture défensive)",
+            "description": "<p>Le pangolin se roule en boule pour se défendre. Il bénéficie d'un bonus de circonstances de +2 à la CA. Toute créature qui touche le pangolin avec une attaque au corps-à-corps à mains nues alors qu'il est dans sa Posture défensive subit @Damage[2d6[bleed]]{2d6 dégâts de saignement}. Le pangolin ne peut se déplacer, utiliser cette attaque à mains nues ou effectuer d'autres actions qui nécessitent d'utiliser ses membres lorsqu'il est en Posture défensive, mais il peut se déployer en une seule action, mettant fin aux effets de la Posture défensive.</p>"
+        },
+        "Bear Hug": {
+            "name": "Bear Hug (Étreinte de l'ours)",
+            "description": "<p><strong>Conditions</strong> La dernière action de l'ours était une Frappe de griffe réussie.</p>\n<hr />\n<p>L'ours porte une autre Frappe de griffe sur la même cible. Si cette Frappe touche, la cible est aussi @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}, comme si l'ours avait réussi à @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} la cible.</p>"
+        },
+        "Gnaw": {
+            "name": "Gnaw (Ronger)",
+            "description": "<p><strong>Conditions</strong> La dernière action du compagnon animal était une Frappe de mâchoires réussie.</p>\n<hr />\n<p>La cible de la Frappe subit @Damage[1d6[persistent,bleed]]{1d6 dégâts de saignement} et subit une pénalité de -3 mètres à ses Vitesses jusqu'à ce qu'elle mette fin aux dégâts de saignement. Si la hyène est un compagnon animal spécialisé, les dégâts de saignement passent à @Damage[2d6[persistent,bleed]|shortLabel]{2d6}.</p>"
+        },
+        "Tongue Grab": {
+            "name": "Tongue Grab (Langue gluante)",
+            "description": "<p>La grenouille géante projette sa langue et effectue une Frappe de langue. Si la Frappe touche, la cible est automatiquement @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} par la grenouille géante et attirée dans une  case adjacente à la grenouille. L'état Agrippé dure jusqu'à la fin de votre prochain tour.</p>"
+        },
+        "Defensive Curl (Hermit Krait)": {
+            "name": "Defensive Curl (Hermit Krait) (Enroulement défensif (Serpent-pagure))",
+            "description": "<p>Le Serpent-pagure rentre ses têtes dans sa coquille pour se protéger. Il obtient un bonus de circonstances de +2 à sa CA et un bonus de circonstances de +4 à tout test visant à se faire passer pour un simple coquillage. Toute créature qui touche le Serpent-pagure avec une attaque à mains nues au corps-à-corps alors qu'il est en Enroulement défensif subit @Damage[2d6[persistent,poison]]{2d6 dégâts de poison persistants}, car l'une des têtes du Serpent-pagure jaillit de la coquille. Pendant qu'il est dans sa coquille, le Serpent-pagure ne peut pas se déplacer ni effectuer d'autres actions nécessitant l'utilisation de ses membres, mais il peut en sortir en une seule action, mettant fin aux effets de l'Enroulement défensif.</p>"
+        },
+        "Crab Cannon": {
+            "name": "Crab Cannon (Cannon crabe)",
+            "description": "<p>Votre crabe durian se recroqueville en boule, prenant la forme d'une balle. Il se lance ensuite avec sa puissante pince sur une cible à moins de 6 mètres. Lorsqu'il atterrit, il effectue une Frappe de pince, sauf que les dégâts sont contondants au lieu de perforants. En cas de réussite, la cible devient @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} pendant 1 round et la Frappe inflige @Damage[1d8[untyped]] (non typé) dégâts supplémentaires, ou 2d8 dégâts supplémentaires si votre crabe est spécialisé.</p>"
+        },
+        "Rolling Knockdown": {
+            "name": "Rolling Knockdown (Roulade renversante)",
+            "description": "<p>Votre élémentaire de terre roule sur le sol comme une boule de bowling et renverse un ennemi. Il Marche rapidement sur une distance de 3 mètres puis porte une Frappe de poing. S'il touche, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+        },
+        "Bounding Retreat": {
+            "name": "Bounding Retreat (Retraite bondissante)",
+            "description": "<p>L'antilope Bondit deux fois. Si elle a un cavalier, elle peut le laisser dans un espace inoccupé quand elle Bondit hors de celui-ci.</p>"
+        },
+        "Take a Taste": {
+            "name": "Take a Taste (Goûte un morceau)",
+            "description": "<p><strong>Conditions</strong> Le zombie a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravé} une créature.</p>\n<hr />\n<p>Le zombie essaie de rapprocher et de mordre la créature. Le zombie fait une Frappe de mâchoires contre la créature. Cette Frappe utilise les mêmes caractéristiques que sa Frappe normale au corps-à-corps, sauf que ses dégâts sont de 1d10 et qu'elle inflige des dégâts perforants.</p>"
+        },
+        "Unnerving Screech": {
+            "name": "Unnerving Screech (Cri strident)",
+            "description": "<p>Votre oiseau de proie squelettique émet un cri strident, contre nature, qui rend sourd et fait sursauter un ennemi dans un rayon de 9 mètres. La cible doit tenter un jet de @Check[fortitude]. La cible est alors temporairement immunisée pendant 1 heure. L'état Effrayé est un effet mental d'émotion et de terreur, mais la créature peut toujours être @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourde} si elle est immunisée contre de tels effets.</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible est Sourde pendant 1 round et @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La cible est Sourde pendant 1 minute et Effrayée 1.</p>\n<p><strong>Échec critique</strong> La cible est Sourde pendant 10 minutes et @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>"
+        },
+        "Knock Aside": {
+            "name": "Knock Aside (Pousser de côté)",
+            "description": "<p><strong>Conditions</strong> La dernière action du compagnon animal était une Frappe de coup de tête réussie</p>\n<hr />\n<p>La chèvre repousse automatiquement la cible en arrière de 1,50 mètre ou de 3 mètres si la Frappe requise était un coup critique.</p>"
+        },
+        "Ultrasonic Scream": {
+            "name": "Ultrasonic Scream (Cri ultrasonique)",
+            "description": "<p>Le papillon de nuit bat des ailes et émet des couinements ultrasoniques qui brouillent les sens des créatures proches. Choisissez une créature dans un rayon de 9 mètres autour du papillon de nuit. Cette créature doit tenter un jet de @Check[fortitude|against:ultrasonic-scream]. Elle doit utiliser le DD qualifié en utilisant le modificateur de Constitution du papillon ou un DD expert si le papillon est spécialisé.</p>\n<hr />\n<p><strong>Succès</strong> La cible traite toutes les créatures comme si elles étaient @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} lors de sa prochaine attaque avant le début de votre prochain tour.</p>\n<p><strong>Échec</strong> La cible traite toutes les créatures comme si elles étaient @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} jusqu'au début de votre prochain tour.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec et la cible est aussi @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>"
+        },
+        "Distracting Spray": {
+            "name": "Distracting Spray (Aspersion distrayante)",
+            "description": "<p>Le capybara asperge une cible adjacente avec ses glandes odorantes. La cible doit tenter un jet de @Check[fortitude|against:distracting-spray]. Essuyer le musc prend une action Interagir et met fin à l'effet. Ceci utilise un DD qualifié en utilisant le modificateur de Constitution du capybara ou un DD expert si le capybara est spécialisé.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} pendant 1 round.</p>\n<p><strong>Échec</strong> La créature est Maladroite 1 pendant 1 minute.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} pendant 1 minute.</p>"
+        },
+        "Bay": {
+            "name": "Bay (Plainte)",
+            "description": "<p>Le molosse d'ombre lâche une étrange plainte, en tentant de @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} chaque ennemi dans une @Template[emanation|distance:20]{émanation de 6 mètres}. Ces tentatives de démoralisation ne nécessitent pas de parler la langue et elles ne subissent pas de la pénalité liée au fait de ne pas partager une langue.</p>"
+        },
+        "Bony Constriction": {
+            "name": "Bony Constriction (Constriction osseuse)",
+            "description": "<p><strong>Conditions</strong> Le serpent constricteur a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} une créature.</p>\n<hr />\n<p>Le serpent squelette constricteur inflige @Damage[12[piercing]]]{12 dégâts perforants} à la créature agrippée avec ses côtes aiguisées. La créature doit tenter un jet de @Check[fortitude|basic|against:bony-constriction]. Si le serpent constricteur est un compagnon spécialisé passez ces dégâts à @Damage[20[piercing]|shortLabel]{20}. Il faut utiliser le DD qualifié en utilisant le modificateur de Constitution du serpent constricteur ou un DD expert si le serpent constricteur est spécialisé.</p>"
+        },
+        "Rolling Charge": {
+            "name": "Rolling Charge (Charge en boule)",
+            "description": "<p>L'ours calcifié se roule en boule et Marche rapidement en ligne droite. Il peut faire une Frappe de coup contre une créature à laquelle il est adjacent à n'importe quel moment de son déplacement. Si la Frappe est un coup critique, la cible est aussi mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>",
+            "rules": {
+                "1": {
+                    "text": "COMP.SpecificRule.CragstoneBear.RollingCharge.Note"
+                }
+            }
+        },
+        "Gallop": {
+            "name": "Gallop (Galop)",
+            "description": "<p>Le cheval Marche rapidement deux fois avec un bonus de circonstances de +3 mètres à sa Vitesse.</p>"
+        },
+        "Circling Flyby": {
+            "name": "Circling Flyby (Vol circulaire)",
+            "description": "<p>Votre élémentaire d'air vole en cercle, soufflant des rafales sur vos ennemis avant de revenir à sa position de départ. L'élémentaire d'air Vole sur la moitié de sa vitesse, effectue deux Frappes de rafale, puis Vole à nouveau sur la moitié de sa vitesse pour revenir à sa position initiale. Les deux attaques sont prises en compte pour le calcul de la pénalité d'attaques multiples de l'élémentaire d'air, mais la pénalité n'augmente qu'après avoir effectué les deux attaques.</p>"
+        },
+        "Spit": {
+            "name": "Spit (Crachat)",
+            "description": "<p>Le bacallia régurgite une partie du contenu de son estomac par une Frappe à distance de crachat qui inflige une base de 1d6 dégâts d'acide avec un facteur de portée de 3 mètres. Les dégâts passent à 2d6 pour un bacallia adulte et à 3d6 pour un bacallia spécialisé. Une créature vivante touchée par cette Frappe est également @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2} sur un coup critique).</p>",
+            "rules": {
+                "3": {
+                    "text": "COMP.SpecificRule.Bacallia.AdvancedManeuver.Note"
+                }
+            }
+        },
+        "Extend Pseudopod": {
+            "name": "Extend Pseudopod (Étendre un pseudopode)",
+            "description": "<p>Votre fauteuil s'allonge lui-même, faisant bénéficier à sa Frappe de pseudopode du trait allonge 3 mètres jusqu'au début de votre prochain tour.</p>"
+        },
+        "Sand Stride": {
+            "name": "Sand Stride (Marche sur le sable)",
+            "description": "<p>Le chameau Marche rapidement deux fois avec un bonus de circonstances de +1,50 mètre à sa Vitesse, ignorant le terrain difficile provoqué par les débris, le sable et un sol inégal fait de pierre ou de terre.</p>"
+        },
+        "Flamethrower": {
+            "name": "Flamethrower (Lance-flammes)",
+            "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<hr />\n<p>L'élémentaire de feu porte une Frappe de flammèche à toutes les créatures sur une @Template[line|distance:60]{ligne de 18 mètres}, même à celles qui ne sont pas dans l'allonge de la Frappe de flammèche. Toutes ses Frappes sont prises en compte pour déterminer la pénalité d'attaques multiples de l'élémentaire de feu, mais elle n'augmente pas avant d'avoir porté toutes les Frappes.</p>"
+        },
+        "Flying Strafe": {
+            "name": "Flying Strafe (Frappes en vol)",
+            "description": "<p>Le griffon Vole jusqu'à sa Vitesse de vol et effectue deux Frappes de serres sur le trajet, chacune sur une cible différente.</p>"
+        },
+        "Blood Feast": {
+            "name": "Blood Feast (Festin sanglant)",
+            "description": "<p>Votre compagnon animal vampirique attaque un ennemi qui saigne et boit son sang. Votre compagnon tente une Frappe contre une créature qui est en train de subir des dégâts de saignement. La Frappe inflige 2d8 dégâts supplémentaires. Si la Frappe touche et inflige des dégâts, votre compagnon animal vampirique obtient des Points de vie temporaires égaux à la moitié de votre niveau qui persistent jusqu'à 1 minute.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.q6fSAYeFEf1B5Bu7]{Effet : Festin Vampirique}</p>"
+        },
+        "Rhinoceros Charge": {
+            "name": "Rhinoceros Charge (Charge du rhinocéros)",
+            "description": "<p>Le rhinocéros Marche rapidement deux fois puis effectue une Frappe de corne. Tant que le rhinocéros s'est déplacé d'au moins 6 mètres, la corne inflige 1d8 dégâts perforants supplémentaires ou 2d8 dégâts supplémentaires si votre rhinocéros est agile ou sauvage.</p>"
+        },
+        "Badger Rage": {
+            "name": "Badger Rage (Rage du blaireau)",
+            "description": "<p><strong>Conditions</strong> Le blaireau n'est pas @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué} ou en rage.</p>\n<hr />\n<p>Le blaireau entre dans un état de rage intense qui dure pendant 1 minute, jusqu'à ce qu'il n'y ait plus d'ennemis qu'il puisse percevoir aux alentours, ou qu'il sombre dans l'@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscience} selon de qui se produit en premier. Il ne peut cesser volontairement sa rage. Lorsqu'il est enragé, le blaireau est affecté de la manière suivante.</p>\n<ul>\n    <li>Il inflige 4 dégâts supplémentaires avec ses attaques de morsure et 2 dégâts supplémentaires avec ses attaques de griffes.</li>\n    <li>Il subit une pénalité de -1 à la CA.</li>\n    <li>Il ne peut pas utiliser d'actions ayant le trait concentration. Le compagnon animal peut @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} même en étant enragé. Une fois qu'il met fin à son état enragé, il ne peut plus utiliser la Rage du Blaireau pendant 1 minute.</li>\n</ul>"
+        },
+        "Go For the Eyes!": {
+            "name": "Go For the Eyes! (Vise les yeux !)",
+            "description": "<p>L'écurenard Marche rapidement, tente un test d'@Check[acrobatics|against:perception] contre le DD de Perception d'une créature adjacente et puis porte une Frappe au corps-à-corps.</p>\n<hr />\n<p><strong>Succès critique</strong> déboussolée par le bond soudain de l'écurenard, la cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin du prochain tour de votre écurenard.</p>\n<p><strong>Succès</strong> La cible n'est que momentanément distraite et est Prise au dépourvu jusqu'à la fin du tour actuel de l'écurenard.</p>\n<p><strong>Échec critique</strong> L'écurenard apprécie mal la distance du visage de sa cible et se retrouve @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+        },
+        "Bouncing Slam": {
+            "name": "Bouncing Slam (Coup rebondissant)",
+            "description": "<p>Le gibtas Bondit sur une créature de taille Moyenne ou inférieure, atterrissant dans l'espace de la créature et @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousse} la créature. Si la Poussée est un échec, le gibtas rebondit de la case de la cible vers une case adjacente au choix de la cible.</p>"
+        },
+        "Grabbing Branches": {
+            "name": "Grabbing Branches (Branches accrocheuses)",
+            "description": "<p>Votre élémentaire de bois entoure un ennemi de ses branches, le maintenant en place. Votre élémentaire de bois porte une Frappe de branche. En cas de succès, la cible est aussi @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} par l'élémentaire de bois jusqu'à la fin de votre prochain tour, à moins que votre élémentaire de bois ne se déplace ou que la cible ou que la cible s'échappe.</p>"
+        },
+        "Enamoring Exhalation": {
+            "name": "Enamoring Exhalation (Exhalaison envoûtant)",
+            "description": "<p>Votre dragonnet de monte envoûte les personnes à proximité, exhalant un @Template[type:cone|distance:15] de phéromones qui fascine ceux qui s'y trouvent. Chaque créature dans la zone est @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} par vous et votre dragonnet jusqu'à la fin de votre prochain tour, à moins de réussir un jet de @Check[type:fortitude|against:enamoring-exhalation|basic:true]. Ce jet utilise un DD qualifié en fonction du modificateur de Charisme du dragonnet, ou un DD expert si le dragonnet est spécialisé.</p>"
+        },
+        "Tail Escape": {
+            "name": "Tail Escape (Autotomie d'évasion)",
+            "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<p><strong>Conditions</strong> Le tuatara des roches géant est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravé}.</p>\n<hr />\n<p>Le tuatara des roches géant détache sa queue pour se libérer de la prise de son ennemi. Il S'échappe automatiquement et peut Faire un pas. Il ne peut plus alors utiliser sa Frappe de coup de queue avant de pouvoir la régénérer, ce qui lui prend 10 minutes ou nécessite l'application d'une magie de guérison qui lui redonne des Points de vie.</p>"
+        },
+        "Drench": {
+            "name": "Drench (Tremper)",
+            "description": "<p>Votre élémentaire d'eau trempe les feux à proximité pour les éteindre. Votre élémentaire éteint tous les feux dans une @Template[emanation|distance:5]{émanation de 1,50 mètre}. Il éteint automatiquement tous les feux non magiques et tente de contrer tous les feux magiques (son modificateur de contre est égal à son modificateur d'attaque avec sa Frappe de vague, non modifié par les bonus ou les effets qui s'appliquent aux jets d'attaques).</p>"
+        },
+        "Frightening Display": {
+            "name": "Frightening Display (Posture effrayante)",
+            "description": "<p>Votre singe fait une démonstration effrayante et bruyante, en surprenant un ennemi. Le primate essaie de @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} la créature ciblée. Cette démonstration obtient le trait visuel et ne requiert aucune langue. Tant qu'elle est Effrayée par cette capacité, la cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} par votre primate.</p>"
+        },
+        "Darting Attack": {
+            "name": "Darting Attack (Attaque foudroyante)",
+            "description": "<p>Le raptor Fait un pas jusqu'à 3 mètres et puis Frappe ou Frappe puis Fait un pas jusqu'à 3 mètres.</p>"
+        },
+        "Liberating Bite": {
+            "name": "Liberating Bite (Morsure libératrice)",
+            "description": "<p>La mangouste effectue une Frappe de mâchoires qui peut aider une créature à sa libérer d'une étreinte, telle que l'emprise d'un cobra. Si la Frappe touche, chaque créature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} par la cible peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{S'Échapper} par une action gratuite.</p>"
+        },
+        "Tail Swipe": {
+            "name": "Tail Swipe (Coup de queue)",
+            "description": "<p>Votre lézard de trait donne un coup avec sa queue, faisant des Frappes de queue contre deux ennemis adjacents maximum. Chaque attaque est décomptée de la pénalité d'attaques multiples du lézard de trait, mais la pénalité n'augmente pas avant d'avoir porté toutes les attaques.</p>"
+        },
+        "Lumbering Knockdown": {
+            "name": "Lumbering Knockdown (Renversement boutoir)",
+            "description": "<p>Votre tricératops Marche rapidement jusqu'à 3 mètres puis porte une Frappe de corne. En cas de succès, la cible se retrouve @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+        },
+        "Raging Stampede": {
+            "name": "Raging Stampede (Charge déchaînée)",
+            "description": "<p>Le yzoby Marche rapidement puis effectue une Frappe de cornes. Si la Frappe touche, la cible est repoussée de 3 mètres</p>"
+        },
+        "Fire Breath": {
+            "name": "Fire Breath (Souffle de feu)",
+            "description": "<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p>Le drake de monte souffle un @Template[cone|distance:30]{cône de 9 mètres} de feu, infligeant  @Damage[(max(1,floor(@actor.level/2)))d6[fire]|options:area-damage]{1d6 dégâts de feu par tranche de 2 niveaux} du drake à toutes les créatures dans la zone (@Check[reflex|basic|options:area-effect|against:fire-breath]). Il utilise le DD qualifié avec le modificateur de Constitution du drake ou à partir un DD expert si le drake est spécialisé.</p>\n<p>[[/r {(floor(@actor.level/2))d6}[fire]]]{Dégâts selon le niveau}</p>"
+        },
+        "Gnash": {
+            "name": "Gnash (Acharnement)",
+            "description": "<p><strong>Conditions</strong> La dernière action de la tête tranchée était une Frappe de mâchoires réussie.</p>\n<hr />\n<p>Votre tête tranchée se secoue violemment d'avant en arrière, tentant d'arracher une bouchée de chair. Elle effectue une nouvelle Frappe avec ses mâchoires contre la même cible. Si la Frappe touche, elle inflige @Damage[1d6[bleed]]{1d6 dégâts de saignement} en plus de ses dégâts normaux.</p>"
+        },
+        "Lock Jaw": {
+            "name": "Lock Jaw (Mâchoire verrouillée)",
+            "description": "<p><strong>Conditions</strong> La dernière action du doguer isgéri était une Frappe de mâchoires réussie. </p>\n<hr />\n<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}, comme si le dogue isgéri avait réussi à Saisir la cible.</p>"
+        },
+        "Lizard Leap": {
+            "name": "Lizard Leap (Bond de lézard)",
+            "description": "<p>Le keulia Bondit puis porte une Frappe de morsure. Tant qu'il s'est déplacée d'au moins 3 mètres, sa Frappe inflige @Damage[1d6[piercing]]{1d6 dégâts perforants} supplémentaires ou @Damage[2d6[piercing]]{2d6} si votre keulia est agile ou sauvage.</p>"
+        },
+        "Darting Stab": {
+            "name": "Darting Stab (Dard éclair)",
+            "description": "<p>La guêpe géante Vole jusqu'à 4,50 mètres puis Frappe ou bien Frappe puis Vole jusqu'à 4,50 mètres.</p>"
+        },
+        "Flower Dance": {
+            "name": "Flower Dance (Danse florale)",
+            "description": "<p>La Sundaflora se dresse sur ses pattes arrière et commence à onduler et danser, montrant sa beauté éblouissante pour distraire vos attaquants. Elle tente de @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feindre} la créature ciblée, utilisant sa compétence [[/act feint skill=performance]{Représentation}] au lieu de Duperie. En cas de succès (ou de succès critique), la cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} à votre égard, plutôt qu'à l'égard de votre Sundaflora.</p>"
+        },
+        "Antler Catapult": {
+            "name": "Antler Catapult (Ramure catapulte)",
+            "description": "<p>L'élan Fait un Pas puis une Frappe avec sa ramure. S'il s'est déplacé et a touché, l'élan peut projeter sa cible dans l'espace qu'il vient juste de quitter, ce qui constitue un déplacement forcé.</p>"
+        },
+        "Grip Throat": {
+            "name": "Grip Throat (Gorge serrée)",
+            "description": "<p>La main tente de @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} une créature Moyenne ou de taille inférieure par la gorge. Si la main obtient un succès, en plus des effets ordinaires, la créature éprouve des difficultés à parler. Tant qu'elle est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} par la main, elle doit dépenser une action supplémentaire pour accomplir n'importe quelle action qui possède le trait verbal.</p>"
+        },
+        "Disgusting Gallop": {
+            "name": "Disgusting Gallop (Galop immonde)",
+            "description": "<p>La monture zombie Marche rapidement deux fois, projetant une salive putride le long de son parcours. Une fois pendant ce mouvement, choisissez une créature adjacente à la monture zombie. La salive l'éclabousse et la créature doit réussir un jet de @Check[fortitude|against:disgusting-gallop] ou être @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1}.</p>\n<p>La créature est alors temporairement immunisée contre la salive pendant 24 heures. Cela utilise un DD qualifié basé sur le modificateur de Constitution de la monture zombie, ou un DD expert si la monture est spécialisée.</p>"
+        },
+        "Shred": {
+            "name": "Shred (Déchiqueter)",
+            "description": "<p>Le squale déchiquette vicieusement la blessure, infligeant des dégâts supplémentaires. La cible de la Frappe du requin subit @Damage[1d8[slashing]]{1d8 dégâts tranchants} ([ @Damage[2d8[slashing]|shortLabel]{2d8} pour un requin adulte ou  @Damage[3d8[slashing]|shortLabel]{3d8} pour un compagnon spécialisé).</p>"
+        },
+        "Possessing Strike": {
+            "name": "Possessing Strike (Frappe possédante)",
+            "description": "<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p>Votre portelames gris tente d'injecter le fragment d'une âme malveillante dans une victime pour prendre le contrôle de ses actions. Le portelames gris porte une Frappe de lame contre une créature vivante. Si il touche et inflige des dégâts, la cible doit tenter un jet de Volonté contre le plus élevé entre votre DD de classe ou votre DD de sort. Quel que soit le résultat, la cible est temporairement immunisée à Frappe possédante pendant 24 heures.</p>\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible parvient à combattre le fragment d'âme qui la possède mais est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1}.</p>\n<p><strong>Échec</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 round et ne peut utiliser des actions hostiles contre vous ou votre portelames gris.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais si la cible subit des dégâts d'une attaque ou d'un sort, le DD du test nu pour récupérer de la confusion passe à 15.</p>"
+        },
+        "Swimming Snap": {
+            "name": "Swimming Snap (Claquement aquatique)",
+            "description": "<p>L'anguille géante Nage et effectue une Frappe de mâchoires à n'importe quel point de son trajet.</p>"
+        },
+        "Grab and Sting": {
+            "name": "Grab and Sting (Saisir et piquer)",
+            "description": "<p>Le scorpion maintient son ennemi en place avec ses pinces afin de le piquer. Il effectue une Frappe de pince. Si le coup touche, la créature ciblée devient automatiquement @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} par le scorpion qui lui porte alors une Frappe de dard. L'état Agrippé dure jusqu'à la fin de votre prochain tour.</p>"
+        },
+        "Throw Rock": {
+            "name": "Throw Rock (Lancé de rocher)",
+            "description": "<p>Le jeune arboréen Interagit pour attraper un rocher près de lui ou pour récupérer un rocher qu'il porte, puis le projette avec une Frappe à distance de rocher qui inflige 1d6 dégâts contondants de base avec un facteur de portée de 9 mètres. Les jeunes arboréens adultes infligent 2d6 dégâts contondants et les arboréens spécialisés 3d6.</p>",
+            "rules": {
+                "1": {
+                    "label": "Rocher"
+                }
+            }
+        },
+        "Constrict": {
+            "name": "Constrict (Constriction)",
+            "description": "<p><strong>Conditions</strong> Le serpent a une créature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}.</p>\n<hr />\n<p>Le serpent inflige @Damage[12[bludgeoning]]{12 dégâts contondants} à la créature Agrippée. La créature doit tenter un jet de @Check[fortitude|basic]. Si le serpent est un compagnon spécialisé, augmentez ces dégâts à@Damage[20[bludgeoning]|shortLabel]{20}.</p>"
+        },
+        "Hustle": {
+            "name": "Hustle (S'empresser)",
+            "description": "<p>Le scarabée se déplace à une vitesse incroyable. Il Marche rapidement trois fois.</p>"
+        },
+        "Pterosaur Swoop": {
+            "name": "Pterosaur Swoop (Piqué du ptérosaure)",
+            "description": "<p>Le ptérosaure Vole à sa Vitesse et porte une Frappe de bec à n'importe quel point durant ce déplacement.</p>"
+        },
+        "Aerial Retreat": {
+            "name": "Aerial Retreat (Retraite aérienne)",
+            "description": "<p>L'hippogriffe fait une Frappe de serre, puis s'envole avec un bonus de circonstances de +3 mètres à sa vitesse de vol. L'hippogriffe et son cavalier obtiennent un bonus de circonstances de +2 à leur CA contre les réactions déclenchées par ce déplacement.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.evvqmXIieuMwFMJT]{Effet : Retraite (Cavalier)}</p>"
+        },
+        "Death from Above": {
+            "name": "Death from Above (Piqué furieux)",
+            "description": "<p>L'écureuil volant s'abat sur une cible située plus bas en la griffant furieusement. L'écureuil tombe à un endroit inoccupé à coté de la cible, sans subir dégât et effectue deux Frappes de griffes. Les deux attaques sont prise en compte dans le calcul de sa pénalité d'attaques multiples, mais la pénalité n'augmente qu'après avoir porté les deux attaques.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

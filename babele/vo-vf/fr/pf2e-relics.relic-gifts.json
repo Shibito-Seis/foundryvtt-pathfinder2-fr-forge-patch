@@ -1,0 +1,669 @@
+{
+    "label": "Don des reliques",
+    "entries": {
+        "Time Reversal": {
+            "name": "Time Reversal (Inversion temporelle)",
+            "description": "<p><strong>Aspect</strong> temps</p>\n<p><strong>Activation</strong> <span class=\"pf2-icon\">1</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> La relique lance @UUID[Compendium.pf2e.spells-srd.Item.G56DJkxlUjFv0C4Z]{Repère temporel} sur vous.</p>"
+        },
+        "Shroud of the Afterlife": {
+            "name": "Shroud of the Afterlife (Linceul de l'au-delà)",
+            "description": "<p><strong>Aspect</strong> mort</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong>  Vous vous enveloppez d'un pouvoir issu d'au-delà du royaume des vivants pendant 1 minute. Tant que le linceul est actif, vous avez une apparence blême et obtenez une résistance contre le poison égale à la moitié du niveau de la relique, ainsi qu'un bonus de statut de +1 à vos jets de sauvegarde contre les effets de mort, les maladies, les effets capables de vous paralyser, le poison et les effets de sommeil. De plus, le DD de vos tests de récupération est de 9 (au lieu de 10) + l'intensité de votre état mourant</p>"
+        },
+        "Searing Wave": {
+            "name": "Searing Wave (Vague ardente)",
+            "description": "<p><strong>Aspect</strong> feu</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<hr />\n<p><strong>Effet</strong> Vous permettez à une partie de la magie du feu de votre relique de s'échapper dans une direction de votre choix. Vous infligez @Damage[(max(1,floor((@actor.level)/2)))d10[fire]]{1d10 dégâts de feu} par tranche de deux niveaux de la relique à toutes les créatures dans un @Template[cone|distance:30]{cône de 9 mètres} (@Check[reflex|against:class-spell|basic]). Vous ne pouvez utilisez Vague ardente avant [[/gmr 1d4 #Recharge Vague ardente]]{1d4 rounds}.</p>"
+        },
+        "Breath of Dragons (Blue)": {
+            "name": "Breath of Dragons (Blue) (Souffle des dragons (bleu))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez une ligne d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[electricity]|options:area-damage]{2d6 dégâts d'électricité} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures sur une @Template[type:line|distance:80]{ligne de 24 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Precious Anodization": {
+            "name": "Precious Anodization (Précieuse anodisation)",
+            "description": "<p><strong>Aspect</strong> métal</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Pendant une minute, votre relique est affectée par le sort @UUID[Compendium.pf2e.spells-srd.Item.7dBxguCNWCoPYxIi]{Plaqué de métal} d'un rang égal à la moitié du niveau de la relique, arrondi au supérieur. Vous pouvez choisir des métaux peu courants en plus de ceux courants.</p>"
+        },
+        "Tide of Death": {
+            "name": "Tide of Death (Marée de mort)",
+            "description": "<p><strong>Aspect</strong> mort</p>\n<p><strong>Prérequis</strong> Regard mortel</p>\n<hr />\n<p>Vous pouvez activer @UUID[Compendium.pf2e-relics.relic-gifts.Item.0BdLI4DQIP2C3cVT]{Regard mortel} avec 3 actions au lieu de 2. Si vous le faites, il cible toutes les créatures vivantes sauf vous dans un rayon de 9 mètres. Si vous avez la capacité guérison du vide, vous pouvez vous inclure parmi les cibles pour être soigné.</p>"
+        },
+        "Jet Propulsion": {
+            "name": "Jet Propulsion (Propulsion thermique)",
+            "description": "<p><strong>Aspect</strong> feu</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\"><span class=\"action\" title=\"Single Action\" aria-label=\"Single Action\">1</span> </span>(concentration)</p>\n<hr />\n<p><strong>Effet</strong> Des flammes de la relique sont canalisées à travers votre corps et jaillissent de vos pieds et de vos mains ou de vos autres membres, avec suffisamment de puissance pour vous faire décoller et vous propulser dans les airs. Pendant 1 minute, vous obtenez un bonus de statut de +3 mètres à votre Vitesse et obtenez une Vitesse de vol égale à la plus élevée entre votre nouvelle Vitesse ou 6 mètres. Vous devez terminer votre tour sur une surface solide, sinon vous chutez.</p>"
+        },
+        "Linguistics Nexus": {
+            "name": "Linguistics Nexus (Nexus linguistique)",
+            "description": "<p><strong>Aspect</strong> esprit</p>\n<hr />\n<p>Votre relique vous octroie une puissante plasticité neurale et, en conséquence, vous pouvez apprendre plus facilement de nouvelles langues. Vous apprenez une langue supplémentaire de votre choix tous les deux niveaux de la relique (minimum 1). Vous pouvez utiliser le réapprentissage pour l'une des langues de la relique en seulement une semaine d'intermède.</p>"
+        },
+        "Fascinating": {
+            "name": "Fascinating (Fascinant)",
+            "description": "<p><strong>Aspect</strong> art</p>\n<hr />\n<p>Vous obtenez le don de compétence @UUID[Compendium.pf2e.feats-srd.Item.7LB00jkh6JaJr3vS]{Représentation fascinante} tant que vous portez ou maniez la relique, même si vous n'en remplissez pas les prérequis. Lorsque vous obtenez un succès critique contre un observateur, cette cible ne devient pas temporairement immunisée contre cet effet.</p>\n<hr />\n<p><em><strong>Note de l'éditeur</strong> Vous devrez ajouter ce don manuellement en tant que don bonus.</em></p>"
+        },
+        "Psychic Scream": {
+            "name": "Psychic Scream (Hurlement psychique)",
+            "description": "<p><strong>Aspect</strong> esprit</p>\n<p><strong>Activation </strong> <span class=\"pf2-icon\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous concentrez vos pensées avant de les libérer sous forme d'un puissant hurlement télépathique. Les ennemis dans une @Template[type:burst|distance:20]{explosion de 6 mètres} centrée sur vous doivent tenter un jet de (@Check[type:will|against:class-spell|basic|options:area-effect]) ou subir @Damage[(max(1,floor((@actor.level)/2)))d10[mental|options:area-effect]]{1d10 dégâts mentaux} tous les 2 niveaux de la relique. En cas d'échec critique, ils sont également @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiés 1} pendant 1 minute.</p>"
+        },
+        "Death Gaze": {
+            "name": "Death Gaze (Regard mortel)",
+            "description": "<p><strong>Aspect</strong> mort</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre regard fait se flétrir et pourrir la chair d'une créature. Ciblez une créature que vous pouvez voir à une distance maximale de 9 mètres. Votre regard inflige @Damage[(max(1,floor((@actor.level)/2)))d6[void]]{1d6 dégâts de vide} à la créature par tranche de 2 niveaux que possède la relique (minimum 1d6 ; @Check[type:fortitude|against:class-spell|basic:true]). Une créature morte-vivante ou toute autre créature bénéficiant de guérison du vide que vous ciblez de la sorte récupère à la place 1d6 Points de vie par niveau de la relique et est temporairement immunisée contre cet effet pendant 10 minutes.</p>"
+        },
+        "Perception Filter": {
+            "name": "Perception Filter (Filtre de perception)",
+            "description": "<p><strong>Aspect</strong> esprit</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Votre relique atteint les esprits des créatures à proximité et empêche leurs moyens de perception de sentir votre présence. Pendant les 10 prochaines minutes, une créature qui pénètre dans une @Template[emanation|distance:120]{émanation de 36 mètres}, centrée sur vous, doit tenter un jet de @Check[will|against:class-spell|traits:secret] secret, après quoi la créature est temporairement immunisée pendant 1 journée.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature subit une pénalité aux tests de Perception de -2 pour vous @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Chercher} ou vous détecter.</p>\n<p><strong>Échec</strong> Vous parvenez à filtrer tous les sens de la créature, ce qui lui rend difficile de vous remarquer. Lorsque vous êtes @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Caché} ou non détecté par la créature, elle ne vous observe pas aussitôt tant que vous ne faites rien d'autre que @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Vous cacher}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtif} ou Faire un pas. Si elle lance un test de Perception pour vous Chercher ou vous détecter, elle considère son résultat comme si elle avait obtenu un résultat d'un degré inférieur à celui qu'elle a obtenu et, si vous lancez un test de Discrétion pour vous Cacher, Être furtif ou échapper autrement à son attention, vous considérez votre résultat un degré de succès supérieur à celui que vous avez obtenu contre la créature. Si vous utilisez une action hostile envers la créature, l'effet se termine pour cette créature après avoir achevé cette action hostile.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais l'effet ne se termine pas pour cette créature si vous utilisez une action hostile contre elle.</p>\n<p><strong>Note de l'éditeur</strong> En raison de la nature secrète voulue de l'interaction entre le MJ et le joueur concernant les règles de discrétion, ainsi que de la complexité des effets, seul l'effet de succès de ce don est automatisé en raison de sa nature simpliste. Le MJ devra pour le resteeffectuer les autres ajustements nécessaires pour obtenir le degrés de succès approprié.</p>"
+        },
+        "Artistic Perfection": {
+            "name": "Artistic Perfection (Perfection artistique)",
+            "description": "<p><strong>Aspect</strong> art</p>\n<hr />\n<p>Votre relique améliore votre compétence en Artisanat ou en Représentation (choisissez-en une). Si vous obtenez un succès avec la compétence choisie, il devient un succès critique.</p>"
+        },
+        "Monsoon Curtain": {
+            "name": "Monsoon Curtain (Rideau de mousson)",
+            "description": "<p><strong>Aspect</strong> eau</p>\n<p><strong>Activation</strong> <span class=\"pf2-icon\">3</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Vous invoquez un rideau de pluie violente sur une zone située dans un rayon de 36 mètres. Le rideau est épais de 1,50 mètre, long de 9 mètres, haut de 9 mètres et dure 1 minute. Le rideau se dresse verticalement, mais vous pouvez façonner son tracé. Le rideau produit les effets suivants.</p>\n<ul>\n<li>Si un effet de feu franchit le rideau, selon la situation, soit le résultat de son jet d'attaque est réduit d'un degré de succès, soit le jet de sauvegarde de ses cibles est augmenté d'un degré de succès</li>\n<li>Les créatures souffrant d'une faiblesse à l'eau qui traversent le mur ou commencent leur tour à l'intérieur subissent un montant de dégâts égal à leur faiblesse.</li>\n<li>Le rideau impose une pénalité de statut de -2 aux tests de Perception pour détecter des créatures ou des objets de l'autre côté.</li>\n</ul>\n<p>@Template[type:line|distance:30]{Ligne du rideau de mousson}</p>"
+        },
+        "Muse": {
+            "name": "Muse",
+            "description": "<p><strong>Aspect</strong> art</p>\n<p><strong>Prérequis</strong> La relique est de niveau supérieur ou égal à 3</p>\n<hr />\n<p>Telle une muse, la relique vous guide dans votre art, vous insufflant des idées inspirantes et fournissant un bonus d'objet de +1 aux tests d'Artisanat ou de Représentation (choisissez-en un. Si votre relique vous le permet, vous pouvez prendre ce bienfait une nouvelle fois pour prendre l'autre). Une fois que la relique atteint le niveau 9, le bonus d'objet passe à +2 et à +3 lorsque la relique atteint le niveau 17.</p>",
+            "rules": {
+                "1": {
+                    "label": "{item|name} Muse"
+                }
+            }
+        },
+        "Cleanse Soul": {
+            "name": "Cleanse Soul (Purifier l'âme)",
+            "description": "<p><strong>Aspect</strong> âme</p>\n<p><strong>Activation</strong> 1 minute (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Vous purifiez une âme des malédictions. Le germe d'âme tente de contrer toutes les malédictions qui vous accablent ou qui affectent une créature que vous touchez pendant l'activation. L'âme de la cible est renforcée contre d'éventuelles nouvelles malédictions et elle obtient un bonus de statut de +2 à ses jets de sauvegarde contre les malédictions pendant 1 heure.</p>"
+        },
+        "Living Statue": {
+            "name": "Living Statue (Statue vivante)",
+            "description": "<p><strong>Aspect</strong> terre</p>\n<hr />\n<p>Les énergies de votre relique vous permettent de contrôler la chair et la pierre. Vous pouvez lancer, chacun une fois par jour @UUID[Compendium.pf2e.spells-srd.Item.znv4ECL7ZtuiagtA]{Pétrifier} et @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Remise sur pied} (uniquement pour annuler les effets de pétrification) au rang 6 en tant que sorts innés. Tant que vous êtes en contact avec la terre, votre corps se pétrifie quand vous êtes touché, ce qui vous octroie une résistance 5 contre les dégâts physiques (sauf l'adamantium). Cette résistance passe à 8 dans les cavernes et les environnements souterrains.</p>",
+            "rules": {
+                "0": {
+                    "label": "Dans les cavernes"
+                },
+                "1": {
+                    "label": "Sur le sol"
+                }
+            }
+        },
+        "Steal Luck": {
+            "name": "Steal Luck (Voler la chance)",
+            "description": "<p><strong>Aspect</strong> chance</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">r</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Déclencheur</strong> Vous ou une créature dans les 9 mètres de vous lance deux d20 en raison d'un effet de fortune ou d'infortune et vous aimez le meilleur jet</p>\n<hr />\n<p><strong>Effet</strong> Vous volez le meilleur des deux nombres que la cible déclencheuse a obtenu. La cible doit utiliser l'autre résultat. Jusqu'à ce que vous fassiez vos prochains préparatifs quotidiens, vous pouvez substituer ce nombre à un jet de d20 pour remplacer un jet de sauvegarde ou un test de compétence que vous devez faire contre un effet créé par un ennemi, un danger ou l'environnement. Procéder de la sorte est un effet de fortune. Si vous n'y parvenez pas avant vos prochains préparatifs quotidiens, vous perdez le nombre emmagasiné.</p>"
+        },
+        "Apothecary's Garden": {
+            "name": "Apothecary's Garden (Jardin de l'apothicaire)",
+            "description": "<p><strong>Aspect</strong> plante</p>\n<hr />\n<p>De puissantes substances médicinales naturelles poussent sur votre relique. Toutes les nuits, deux herbes médicinales (ou d'autres plantes) poussent sur votre relique et peuvent être récoltées sans danger au cours de vos prochains préparatifs quotidiens. Une créature vivante qui consomme une de ses herbes en utilisant une action @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interagir} regagne @Damage[(max(1,floor((@actor.level)/2)))d8[healing]]{1d8 Points de vie} tous les 2 niveaux de la relique (minimum 1d8). Au niveau 9, la relique fait pousser trois herbes par nuit et quatre au niveau 17. Les herbes se flétrissent 1 jour après avoir été récoltées.</p>\n<p>@UUID[Compendium.pf2e-relics.relic-gifts.Item.Ir5KeJGBeaeMHXW8]{Herbe médicinale de l'apothicaire}</p>\n<p><em><strong>Note de l'éditeur</strong> Glisser et déposer \"l'Herbe médicinale de l'apothicaire\" dans votre inventaire pour recevoir vos herbes au cours de chacun de vos préparatifs quotidiens.</em></p>"
+        },
+        "Bestow Life": {
+            "name": "Bestow Life (Insuffler la Vie)",
+            "description": "<p><strong>Aspect</strong> vie</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Une infusion d'énergie de vitalité provenant de votre relique peut temporairement animer un objet non vivant. Vous transformez un objet inanimé adjacent en un @UUID[Compendium.pf2e.spells-srd.Item.sLzPzk7DJnfuORJ0]{objet animé} de même nature (ainsi, un balai devient un balai animé) avec un niveau égal à la moitié du niveau de la relique. L'objet effectue une simple et unique tâche que vous lui indiquez, à l'exception de combattre, quand vous utilisez insuffler la vie en ignorant tout autre ordre ultérieur. L'objet est dénué d'intelligence et s'acquitte obstinément de sa tâche sans créativité. L'objet reste animé pendant 1 heure.</p>"
+        },
+        "Angelic Vessel": {
+            "name": "Angelic Vessel (Réceptacle Angélique)",
+            "description": "<p><strong>Aspect</strong> céleste</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> À votre invitation, un céleste imprègne votre corps d'une force divine. Vous obtenez 50 Points de vie supplémentaires, en augmentant aussi bien vos points de vie actuels que votre maximum de Points de vie et vous subissez une faiblesse 10 contre les dégâts impies. Si la relique possède le bienfait appel à la vertu, cette activation accorde également les effets de ce bienfait sans dépenser son activation journalière. Vous pouvez Révoquer cet effet. Si vous le faites, vous pouvez libérer une vague de puissance sainte. La relique lance un sort @UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]{Décret divin} au rang 8 avec le trait saint.</p>"
+        },
+        "Molten Crucible": {
+            "name": "Molten Crucible (Creuset en fusion)",
+            "description": "<p><strong>Aspect</strong> forge</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">3</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Vous frappez la relique contre une arme, une armure, ou un bouclier fait de métal. L'objet devient incandescent et, au cours des 10 minutes suivantes, se transforme en un objet de base différent de la même catégorie. Ceci change la forme de base de l'objet tout en conservant les mêmes matériaux, runes et propriétés magiques. Les deux objets de base doivent avoir un niveau inférieur ou égal à 1 et les armes doivent requérir le même nombre de mains. Les objets spécifiques ne peuvent être changés de cette manière à moins que le MJ n'en décide autrement. Par exemple, une <em>masse d'armes en fer froid +2</em> peut devenir une <em>épée longue en fer froid +2</em> ou une cotte de mailles peut devenir une armure de plates, mais une maille lunaire ne peut pas être affectée de cette manière.</p>"
+        },
+        "Fiendish Defiance": {
+            "name": "Fiendish Defiance (Opposition fiélone)",
+            "description": "<p><strong>Aspect</strong> fiélon</p>\n<p><strong>Prérequis</strong> La relique est un objet porté</p>\n<hr />\n<p>Le pouvoir fiélon de votre relique renforce vos protections contre les célestes et vous permet d'ignorer une partie de leurs attaques. Tant que vous portez la relique, vous obtenez un bonus de statut de +1 à votre CA contre les attaques des célestes et une résistance contre un type d'énergie correspondant à l'origine fiélone de la relique (comme une résistance au feu pour un diable). La résistance est égale à la moitié du niveau de la relique (minimum 1).</p>\n<hr />\n<p><em><strong>Note de l'éditeur</strong> Bien que certains type de dégâts d'énergie ne soient pas officiellement présents parmi les fiélons existants, la prise en charge de tous les dégâts d'énergie (y compris force, vitalité et vide) ont été incluses. Le poison qui était pris en charge précédemment a été retiré car il ne s'agit pas d'un type d'énergie. Si vous le souhaitez, il peut être ajouté manuellement aux choix possibles.</em></p>"
+        },
+        "Flare Bolt": {
+            "name": "Flare Bolt (Trait ardent)",
+            "description": "<p><strong>Aspect</strong> feu</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Un trait de feu jaillit de la relique. Effectuez un @Check[type:class-spell|defense:ac]{jet d'attaque de sort} avec votre relique contre une cible dans les 9 mètres. Le trait inflige @Damage[(max(1,floor((@actor.level)/2)))d6[fire]]{1d6 dégâts de feu} tous les 2 niveaux de la relique (minimum 1d6).</p>\n<p><strong>Succès critique</strong> Le trait inflige le double des dégâts ainsi que des @Damage[(@actor.level)[persistent,fire]]{dégâts de feu persistants} égaux au niveau de la relique.</p>\n<p><strong>Succès</strong> Le trait inflige la totalité des dégâts.</p>"
+        },
+        "Form of Fury": {
+            "name": "Form of Fury (Forme de la furie)",
+            "description": "<p><strong>Aspect</strong> bête</p>\n<p><strong>Prérequis</strong> La relique est un objet porté.</p>\n<p><strong>Fréquence</strong> deux fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> En invoquant la nature bestiale en son sein, vous changez de forme en celle d'un animal. La relique lance @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Forme animale} sur vous, vous transformant dans le même type d'animal à chaque fois, choisi lorsque le bienfait est obtenu. Le rang du sort est égal à la moitié du niveau de l'objet arrondi à l'inférieur.</p>"
+        },
+        "Lashing Currents": {
+            "name": "Lashing Currents (Courants flagellants)",
+            "description": "<p><strong>Aspect</strong> eau</p>\n<p><strong>Prérequis</strong> La relique est une arme</p>\n<hr />\n<p>De l'eau s'accumule à l'extrémité de votre relique. Vous pouvez ajuster votre prise sur votre relique avec une action Interagir pour effectuer une Frappe de courant flagellant avec elle. L'attaque inflige @Damage[1d4[bludgeoning]]{1d4 dégâts contondants}, possède les traits allonge 3 mètres, croc-en-jambe, désarmer, finesse et polyvalent T et appartient au groupe des fléaux d'armes. Votre Frappe de courants flagellants obtient l'avantage des runes fondamentales et des runes de propriété de votre relique, mais les runes de propriété qui ne peuvent s'appliquer aux courants flagellants ne fonctionnent pas. Vous pouvez utiliser une autre action Interagir pour de revenir à votre prise normale et effectuer des Frappes avec la relique.</p>\n<hr />\n<p>@UUID[Compendium.pf2e-macro-helper-library.helper-library-macros.Macro.hRCi5uHwsTJHQ4Dt]{Courants flagellants}</p>\n<hr />\n<p><em><strong>Note de l'éditeur</strong></em> La macro Courants flagellants n'a aucun moyen de vérifier à quel groupe d'arme votre relique appartient, de sorte que si vous utilisez la macro vous aller devoir sélectionner quelle arme est utilisée comme étant votre relique.</p>"
+        },
+        "Draconic Arrogance": {
+            "name": "Draconic Arrogance (Arrogance draconique)",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Déclencheur</strong> Vous allez lancer un jet de sauvegarde</p>\n<hr />\n<p><strong>Effet</strong> Vous vous riez du destin et vous vous complaisez dans votre arrogance draconique. Si vous obtenez un succès critique sur le jet de sauvegarde, vous pouvez tenter de @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} la créature qui a créé l'effet vous obligeant à effectuer ce jet (s'il y en a une). Si vous obtenez un succès, il devient un succès critique. Si vous obtenez un échec (mais pas un échec critique) sur ce test, il devient un succès. Si, par contre, vous obtenez un échec critique, vous êtes forcé de faire face à votre orgueil démesuré et devenez @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 2}.</p>"
+        },
+        "Wind Barrier": {
+            "name": "Wind Barrier (Barrière de vent)",
+            "description": "<p><strong>Aspect</strong> air</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Une barrière invisible constituée d'air dévie les attaques à distance et vous octroie un bonus de circonstances de +2 à votre CA contre celles-ci jusqu'au début de votre prochain tour. Au niveau 13, ce bonus de circonstances à la CA passe à +3 contre les attaques à distance.</p>"
+        },
+        "Rail Dash": {
+            "name": "Rail Dash (Rail électromagnétique)",
+            "description": "<p><strong>Aspect</strong> métal</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Votre relique invoque un chemin balisé d'aimant sous vos pieds, vous créant une route complètement dépourvue de frottement où vous pouvez foncer à toute allure. Vous pouvez Marcher rapidement jusqu'à trois fois en ligne droite. Si vous finissez votre dernière Marche rapide adjacent à un objet ou à une créature, vous lui rentrez dedans, infligeant @Damage[(max(1,floor((@actor.level)/2)))d12[bludgeoning]]{1d12 dégâts contondants} par tranche de deux niveaux de la relique, avec un jet de @Check[type:reflex|against:class-spell|basic].</p>"
+        },
+        "Underground Bounty": {
+            "name": "Underground Bounty (Récompense souterraine)",
+            "description": "<p><strong>Aspect</strong> terre</p>\n<hr />\n<p>Votre relique produit des métaux et des pierres pour améliorer vos armes. Chaque jour, au cours de vos préparatifs quotidiens, votre relique invoque un éclat magique d'argent, de fer-froid, d'or ou une pierre non précieuse ou un matériau métallique de votre choix (comme le bronze ou le granit). Si votre relique est une arme, elle absorbe immédiatement l'éclat, lui conférant un revêtement magique composé du métal ou de la pierre en question jusqu'à vos prochains préparatifs quotidiens. Si votre relique n'est pas une arme, l'éclat n'est pas immédiatement utilisé, vous pouvez lui faire toucher une arme en pierre ou en métal en utilisant une action Interagir pour lui donner un revêtement magique composé de ce métal ou de cette pierre pendant 10 minutes. Tant qu'elle est couverte de ce revêtement, l'arme interagit avec les faiblesses, les résistances et autres comme si elle était composée de la pierre ou du métal de l'éclat au lieu du sien. La nature du revêtement et de l'éclat est visiblement magique et, si vous n'utilisez pas l'éclat, il disparaît lorsque vous faites vos prochains préparatifs quotidiens. Au niveau 17, ajoutez l'adamantium et l'aubargent aux options disponibles.</p>"
+        },
+        "Breath of Dragons (Sovereign)": {
+            "name": "Breath of Dragons (Sovereign) (Souffle des dragons (souverain))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[mental]|options:area-damage]{2d6 dégâts mentaux} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Mental Bastion": {
+            "name": "Mental Bastion (Bastion mental)",
+            "description": "<p><strong>Aspect</strong> esprit</p>\n<hr />\n<p>Votre relique prend en charge certains de vos processus mentaux et en améliore d'autres. Vous obtenez télépathie. Si vous possédez déjà télépathie, vous augmentez sa portée de 9 mètres. Chaque fois que vous subissez l'état @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié}, réduisez de 1 son intensité. Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accéléré} de façon permanente et pouvez utiliser l'action supplémentaire pour Vous souvenir.</p>\n<p><em><strong>Note de l'éditeur</strong> Ajoutez télépathie manuellement, étant donné qu'elle ne figure pas parmi les langues des PJ.</em></p>"
+        },
+        "Fervent Spell": {
+            "name": "Fervent Spell (Sort fervent)",
+            "description": "<p><strong>Aspect</strong> émotion</p>\n<p><strong>Prérequis</strong> bienfait ferveur</p>\n<hr />\n<p>Tant que le bienfait ferveur de la relique dure, vous avez accès au sort fourni par l'état émotionnel, vous pouvez lancer ce dernier en utilisant vos propres emplacements de sort. Vous avez aussi accès à l'activation suivante :</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> La relique lance le sort associé à sa ferveur émotionnelle au rang du sort le plus faible.</p>"
+        },
+        "Incandescent Sight": {
+            "name": "Incandescent Sight (Vision incandescente)",
+            "description": "<p><strong>Aspect</strong> feu</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous percevez les infrarouges et vos yeux s'adaptent aux signatures thermiques, ce qui vous octroie le sens vision thermique précise pendant 1 minute. Votre vision thermique peut percevoir les gradients thermiques à une distance de 9 mètres, ce qui vous permet de repérer les créatures vivantes et les objets chauds dans le noir. Les objets chauds bloquent votre vision thermique même s'ils sont transparents (de l'eau chaude, par exemple).</p>"
+        },
+        "Whammy": {
+            "name": "Whammy (Coup de malchance)",
+            "description": "<p><strong>Aspect</strong> chance</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Fréquence </strong> Une fois par jour</p>\n<p><strong>Déclencher</strong> Un ennemi dans un rayon de 9 mètres obtient un succès sur un jet d'attaque, de sauvegarde, ou de compétence</p>\n<hr /><p><strong>Effet </strong>Votre relique envoie des ondes de malchance, forçant la créature à relancer et prendre le pire résultat.</p>"
+        },
+        "Living Storm": {
+            "name": "Living Storm (Tempête vivante)",
+            "description": "<p>La relique vous octroie une Vitesse de vol égale à la plus élevée entre votre Vitesse ou 18 mètres. De plus, une créature qui vous Frappe avec une attaque au corps-à-corps subit @Damage[5[electricity]]{5 dégâts d'électricité}, et vous pouvez lancer @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Éclair} au rang 5 en tant que sort inné.</p>\n<p><em><strong>Note de l'éditeur</strong> Vous allez devoir ajouter manuellement une entrée de sort inné pour <em>Éclair</em>.</em></p>"
+        },
+        "Precognition": {
+            "name": "Precognition (Précognition)",
+            "description": "<p><strong>Aspect</strong> temps</p>\n<p><strong>Activation</strong> <span class=\"pf2-icon\">R</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Déclencheur</strong> Votre tour commence</p>\n<hr />\n<p><strong>Effet</strong> Vous analysez les flux temporels divergents afin de déterminer le meilleur plan d'action. Résolvez deux tours comme s'ils s'étaient produits, puis choisissez ensuite lequel se réalise. L'autre ne se produit pas.</p>"
+        },
+        "Enthralling": {
+            "name": "Enthralling (Envoutant)",
+            "description": "<p><strong>Aspect</strong> art</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous dissertez longuement au sujet de votre art, en faites une démonstration ou donnez une représentation. La relique lance @UUID[Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS]{Discours captivant} à un rang égal à la moitié de son niveau. Si vous êtes légendaire en Artisanat ou en Représentation, les créatures ne peuvent obtenir de succès critique sur leur jet de sauvegarde contre ce sort. Vous pouvez utiliser Maintenir une activation pour maintenir l'effet comme vous le feriez pour le sort.</p>"
+        },
+        "Megaflora": {
+            "name": "Megaflora (Mégaflore)",
+            "description": "<p><strong>Aspect</strong> plant</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Avec une impulsion d'énergie naturelle, votre relique fait pousser des plantes massives en un instant. La mégaflore est de l'un des types suivants, choisi par le MJ au moment où la relique obtient ce legs. Une mégaflore apparaît dans un espace de 3 mètres inoccupé dans un rayon de 9 mètres et elle possède 50 Points de vie, une faiblesse 5 contre le feu, une CA de 37, [[/r 1d20+20]]{Réflexes +20}, et [[/r 1d20+30]]{Vigueur +30}. Elle persiste pendant 1 minute ou jusqu'à ce qu'elle tombe à 0 Point de vie.</p>\n<ul>\n    <li><strong>Arbre de vie</strong> Un grand arbre sur lequel poussent des fruits donnant la vie pousse à l'endroit indiqué. Tant que cet arbre persiste, les créatures vivantes à portée de l'arbre peuvent utiliser une action Interagir pour cueillir un fruit et le manger. Elles regagnent @Damage[(2d8+5)[healing]]{2d8+5 Points de vie}. Si on cueille un fruit sans le manger, il disparaît instantanément. C'est un effet de guérison et de bois. une même créature ne peut être soignée par l'arbre qu'une seule fois par round.</li>\n    <li><strong>Fleur-charogne</strong> Une unique fleur dégageant une odeur de charogne pousse dans la zone ciblée. Tant que la fleur persiste, à chaque round à la fin de votre tour, toutes les créatures sauf vous dans une @Template[type:burst|distance:20]{explosion de 6 mètres} centrée sur la plante doivent réussir un jet de @Check[fortitude|against:class-spell|options:area-effect] ou être @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuses 2} (et @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdies 2} en cas d'échec critique). Il s'agit d'un effet de poison.</li>\n    <li><strong>Ronces</strong> Une plante couverte de ronces ou une tige de bambou de 3 mètres de hauteur pousse à l'endroit ciblé. Tant qu'elle persiste, à chaque round à la fin de votre tour, des tiges pointues jaillissent du sol infligeant @Damage[6d8[piercing]|options:area-damage]{6d8 dégâts perforants} à toutes les créatures sauf vous dans une @Template[type:burst|distance:20]{explosion de 6 mètres} centrée sur la plante (@Check[reflex|against:class-spell|basic|options:area-effect])</li>\n</ul>"
+        },
+        "Umbral Body": {
+            "name": "Umbral Body (Corps ombral)",
+            "description": "<p><strong>Aspect</strong> ombre</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre corps est imprégné d'une essence ténébreuse et vous pouvez modeler des volutes d'ombres de vous-même infligeant des dégâts. Cela a les effets du sort @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{Explosion d'ombre} au rang 6 et vous pouvez infliger uniquement des dégâts contondants, tranchants ou perforants. Vous ne pouvez pas utiliser à nouveau cette activation pendant [[/r 1d4 #Recharge de Corps ombral]]{1d4 rounds}.</p>"
+        },
+        "Feather Steps": {
+            "name": "Feather Steps (Pas de plume)",
+            "description": "<p><strong>Aspect</strong> air</p>\n<p><strong>Prérequis</strong> La relique est un objet porté</p>\n<hr />\n<p>Tant que vous portez la relique, vous ne déclenchez pas les pièges qui utilisent le poids ou des plaques de pression comme déclencheurs. De plus, quand vous tombez, vous réduisez les dégâts de chute du niveau de la relique. Si cela devrait réduire les dégâts de chute à 0, vous retombez sur vos pieds et n'êtes pas À terre. La relique octroie un bonus d'objet de +1 aux tests d'Athlétisme effectués pour Sauter. Ce bonus passe à +2 au niveau 9 et à +3 au niveau 17.</p>"
+        },
+        "Fervor": {
+            "name": "Fervor (Ferveur)",
+            "description": "<p><strong>Aspect</strong> émotion</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous obtenez les avantages de la ferveur émotionnelle de l'état émotionnel de votre relique pendant les 3 prochains rounds, mais vous ignorez le sort associé à cette ferveur. Ce sentiment disparait rapidement, de sorte que vous ne subissez aucun contrecoup émotionnel.</p>\n<hr />\n<p><em><strong>Note de l'éditeur</strong> Vous choisissez une émotion pour votre relique. Une astuce serait d'écrire entre parenthèses l'émotion vous avez choisie pour votre relique dans le nom de cette capacité et d'effacer toutes les émotions inutiles de la liste ci-dessus. L'effet possède un bouton pour faciliter la tâche.</em></p>"
+        },
+        "Shadow Smith": {
+            "name": "Shadow Smith (Forge des ombres)",
+            "description": "<p><strong>Aspect</strong> ombre</p>\n<p><strong>Activation</strong> <span class=\"pf2-icon\">1</span> (manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique attire les ombres proches et leur donne la forme d'une arme simple, d'un objet ou d'un outil simple comme une corde ou un pied-de-biche. L'objet créé dure jusqu'à ce qu'il soit utilisé pour une unique activité, jusqu'à ce que vous utilisiez de nouveau Forge des ombres ou pendant 1 minute, selon ce qui se produit en premier, après quoi il disparaît.</p>"
+        },
+        "Raise Ramparts": {
+            "name": "Raise Ramparts (Élever des remparts)",
+            "description": "<p><strong>Aspect</strong> terre</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">3</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Votre relique reforme la terre autour de vous. Vous lancez <em>@UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Mur de pierre}</em> au rang 5.</p>"
+        },
+        "Track of the Beast": {
+            "name": "Track of the Beast (Voie de la bête)",
+            "description": "<p><strong>Aspect</strong> bête</p>\n<p>Vous êtes imprégné de l'esprit d'un animal. La relique accorde l'un des avantages suivants, choisi par le MJ au moment où elle obtient ce bienfait.</p>\n<ul>\n<li>Un bonus de statut de +3 mètres à votre Vitesse.</li>\n<li>Une Vitesse d'escalade égale à votre Vitesse terrestre.</li>\n<li>Une Vitesse de nage égale à votre Vitesse terrestre.</li>\n</ul>\n<p><em><strong>Note de l'éditeur</strong> Ignorez cette capacité qui ne sert que de 'base' à la capacité Voie de la bête. Des capacités séparées ont été faites pour chacune des vitesses, avec leur propre texte pour rester cohérent.</em></p>",
+            "rules": {
+                "0": {
+                    "prompt": "Choisissez une Vitesse"
+                }
+            }
+        },
+        "Against All Odds": {
+            "name": "Against All Odds (Contre toute attente)",
+            "description": "<p><strong>Aspect</strong> chance</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<p><strong>Déclencheur</strong> Vous tentez un test de compétence avec un DD supérieur de 15 ou plus à votre bonus dans la compétence.</p>\n<hr />\n<p><strong>Effet</strong> Vous lancez deux fois le dé et gardez le meilleur résultat.</p>"
+        },
+        "Draconic Ascendance": {
+            "name": "Draconic Ascendance (Ascendant draconique)",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> concentration</p>\n<hr />\n<p><strong>Effet</strong> Le germe d'âme lance @UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{Forme de dragon} au rang 8 en vous ciblant ; vous devez prendre la forme du dragon correspondant aux origines draconique du germe d'âme.</p>\n<hr />\n<p><strong>Note de l'éditeur</strong> <em>Forme de dragon</em> ne présente pas tous les types de dragon possibles. Si vous choisissez cette capacité et que vous avez sélectionné un type de dragon pour votre germe d'âme qui n'est pas prévu dans les paramètres habituels du sort, parlez en avec votre MJ pour choisir un type approprié et créer un effet personnalisé du sort correspondant à votre type spécifique.</em></p>"
+        },
+        "Call of the Wild": {
+            "name": "Call of the Wild (Appel de la nature)",
+            "description": "<p><strong>Aspect</strong> bête</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique lance @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Convocation d'animal} à un rang égal à la moitié de son niveau d'objet arrondi au supérieur, invoquant une créature qui vient combattre à vos côtés. Vous pouvez Maintenir cette activation comme vous le feriez avec le sort.</p>"
+        },
+        "Breath of Dragons (Cloud)": {
+            "name": "Breath of Dragons (Cloud) (Souffle des dragons (nuage))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[electricity]|options:area-damage]{2d6 dégâts d'électricité} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Encompassing Darkness": {
+            "name": "Encompassing Darkness (Ténèbres enveloppantes)",
+            "description": "<p>L'ombre que vous projetez peut contenir des objets. Vous pouvez Interagir avec votre ombre pour stocker des objets ou les reprendre comme vous le feriez avec un réceptacle normal. Votre ombre peut contenir un total de 3 Encombrements d'objet qui n'est pas pris en compte pour déterminer l'Encombrement que vous pouvez transporter. Au niveau 6, et tous les 4 niveaux suivants, vous pouvez stocker 1 Encombrement supplémentaire dans votre ombre. Tant que ces objets sont dans votre ombre et peuvent être détectés normalement, vous obtenez un bonus de circonstances de +4 à vos tests de [[/act conceal-an-object]]{Discrétion} pour Dissimuler un objet à moins que quelqu'un ne pense à fouiller votre ombre pour y trouver des objets.</p>\n<hr />\n<p><strong>Note de l'éditeur</strong> Les limites de l'Encombrement devront être mises à jour automatiquement.</p>"
+        },
+        "Draconic Resistance": {
+            "name": "Draconic Resistance (Résistance draconique)",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p>Votre corps se couvre d'écailles pour vous protéger des attaques draconiques. Vous obtenez un bonus de statut de +1 à la CA contre les attaques portées par des dragons et une résistance contre un type d'énergie correspondant à l'origine draconique du germe d'âme (tel que la résistance au feu si elle vient d'un dragon rouge) égale à la moitié du niveau de la relique (minimum 1).</p>"
+        },
+        "Breath of Dragons (BASE)": {
+            "name": "Breath of Dragons (BASE) (Souffle des dragons (base))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône ou une ligne d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[untyped]|options:area-damage]{2d6 dégâts} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures qui se trouvent soit dans un cône de 9 mètres soit sur une ligne de 24 mètres, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect]. La forme du souffle est celle qui convient le mieux à l'origine draconique du germe d'âme, tout comme son type de dégât. Cette capacité possède le trait correspondant au type de dégât.</p>\n<p>@Template[type:cone|distance:30]{Cône de 9 mètres}</p>\n<p>@Template[type:line|distance:80]{Ligne de 24 mètres}</p>\n<p>@Damage[(2*max(1,floor((@actor.level)/2)))d6[untyped]|options:area-damage]{Dégâts par tranche de 2 niveaux}</p>\n<p><em><strong>Note de l'éditeur</strong></em> cette version du bienfait permet au MJ de créer ses propres capacités Souffle des dragons pour tout autre dragon qu'il pourrait avoir construit.</p>"
+        },
+        "Apothecary's Medicinal Herb": {
+            "name": "Apothecary's Medicinal Herb (Herbe médicinale de l'apothicaire)",
+            "description": "<p>Une créature vivante qui consomme cette herbe en utilisant une action @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interagir} regagne @Damage[(max(1,floor((@actor.level)/2)))d8[healing]]{1d8 Points de vie} tous les 2 niveaux de la relique (minimum 1d8).</p>"
+        },
+        "Inextinguishable": {
+            "name": "Inextinguishable (Flamme de vie)",
+            "description": "<p><strong>Aspect</strong> vie</p>\n<hr />\n<p>Votre connexion à la force vitale vous rend plus difficile à tuer que les autres. Vous mourez de l'état Mourant à Mourant 5 plutôt qu'à mourant 4. Si vous obtenez un succès à un jet de sauvegarde contre un effet de mort ou de vide, il devient un succès critique à la place.</p>"
+        },
+        "Scrap Shot": {
+            "name": "Scrap Shot (Projectile de ferraille)",
+            "description": "<p><strong>Aspect</strong> métal</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> La répulsion magnétique de votre relique projette un morceau de métal pointu. Faites un @Check[type:class-spell|defense:ac|option:scrap-shot]{jet d'attaque de sort} avec votre relique contre une cible dans les 9 mètres. Le morceau de métal inflige @Damage[(max(1,floor((@actor.level)/2)))d6[piercing]]{1d6 dégâts perforants}. Si la cible porte une armure métallique ou est principalement constituée de métal, vous obtenez un bonus de circonstances de +1 à votre jet d'attaque de sort, et la cible devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'au début de votre prochain tour, car le bout de métal reste collé à la cible. Si votre relique est faite de métal précieux, le projectile est aussi composé ou plaqué de ce métal, surmontant ainsi les résistances et autres éléments similaires. Le bout de métal qui constitue le projectile rouille ou se désagrège rapidement et n'a aucune valeur s'il est vendu.</p>",
+            "rules": {
+                "0": {
+                    "label": "Projectile de ferraille contre un ennemi fait de métal ou portant une armure métalique"
+                },
+                "1": {
+                    "label": "Projectile de ferraille contre du métal"
+                }
+            }
+        },
+        "Profane Fervor": {
+            "name": "Profane Fervor (Ferveur blasphématoire)",
+            "description": "<p><strong>Aspect</strong> fiélon</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Des énergies impies transforment vos armes en les imprégnant de fureur contre tout ce qui est bon. Pendant 1 minute, vos armes, tant que vous les tenez, et vos attaques à mains nues obtiennent la rune d'arme @UUID[Compendium.pf2e.equipment-srd.Item.gmMrJREf4JSHd2dZ]{Impie}. Si une arme a atteint sa limite de runes de propriété, vous pouvez choisir une rune de propriété qui est neutralisée tant que la rune impie fait effet. De plus, les Frappes effectuées par vos alliés situés dans un rayon de 9 mètres autour de vous obtiennent le trait impie.</p>",
+            "rules": {
+                "0": {
+                    "label": "Ferveur blasphématoire"
+                }
+            }
+        },
+        "Soul Puppet": {
+            "name": "Soul Puppet (Marionnette d'âme)",
+            "description": "<p><strong>Aspect</strong> âme</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">3</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Vous liez des âmes perdues, animant temporairement une créature morte-vivante. Le germe d'âme lance @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]{Convocation de mort-vivant} à un rang égal à la moitié du niveau du germe, arrondi au supérieur. Vous pouvez Maintenir cette activation comme vous le feriez avec le sort.</p>"
+        },
+        "Grappling Vine": {
+            "name": "Grappling Vine (Vignes-grappins)",
+            "description": "<p><strong>Aspect</strong> plante</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique projette plusieurs vignes collantes sur une cible située à une distance maximale de 15 mètres. Effectuez un @Check[type:class-spell]{jet d'attaque} comme si vous utilisez un @UUID[Compendium.pf2e.equipment-srd.Item.6DCy7tEF1cxaIJMy]{grappin}, mais si vous obtenez un échec critique au test pour attacher les vignes vous n'obtenez qu'un échec normal. Une fois les vignes agrippées, les créatures bénéficient d'un bonus de statut de +1 à leurs tests d'Athlétisme pour les Escalader, et d'un bonus de statut de +1,50 mètres à la distance qu'elles parcourent avec un test réussi pour Escalader. Les vignes perdurent une journée ou jusqu'à ce que vous utilisiez à nouveau vignes-grappins, auquel cas celles qui ont été créées précédemment se flétrissent.</p>"
+        },
+        "Pollen Spray": {
+            "name": "Pollen Spray (Pulvérisation de pollens)",
+            "description": "<p><strong>Aspect</strong> plante</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Du pollen et des spores empoisonnés sont projetés par votre relique, infligeant @Damage[(max(1,floor((@actor.level)/2)))d6[poison]|options:area-damage]{1d6 dégâts de poison} (minimum 1d6) tous les 2 niveaux\nde la relique dans un @Template[type:cone|distance:15]{cône de 4,50 mètres} (@Check[fortitude|against:class-spell|basic|options:area-effect]). En cas d'échec critique, les cibles sont également @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouies} pendant 1 round. Vous ne pouvez pas utiliser à nouveau pulvérisation de pollens pendant [[/r 1d4 #Recharge pulvérisation de pollens]]{1d4 rounds}.</p>"
+        },
+        "Swap Luck": {
+            "name": "Swap Luck (Échange de chance)",
+            "description": "<p><strong>Aspect</strong> chance</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Déclencheur</strong> Vous obtenez un échec ou un échec critique sur un jet de sauvegarde contre un effet ciblant plusieurs créatures</p>\n<hr />\n<p><strong>Effet</strong> Vous échangez votre jet avec une autre cible consentante. Chacun de vous détermine le nouveau résultat en utilisant le jet échangé.</p>"
+        },
+        "Enhancing Circuitry": {
+            "name": "Enhancing Circuitry (Système de circuits amélioré)",
+            "description": "<p><strong>Aspect</strong> métal</p>\n<p>Votre relique est gravée de nœuds et d'éléments visibles uniquement de très prés, lui manquant seulement une source de courant pour se mettre à fonctionner. Vous obtenez une résistance contre l'électricité égale à la moitié du niveau de la relique (minimum 1).</p>\n<hr />\n<p><strong>Activation - Compléter le circuit</strong> <span class=\"action-glyph\">R</span> (manipulation)</p>\n<p><strong>Déclencheur</strong> Vous êtes ciblé par un effet d'électricité ou vous vous trouvez dans sa zone.</p>\n<hr />\n<p><strong>Effet</strong> Votre relique utilise l'effet déclencheur pour compléter son circuit. Vous choisissez quel chemin l'électricité prend dans le circuit, obtenant les avantages correspondants.</p>\n<ul>\n    <li><strong>Condensateur</strong> Vous devenez chargé électriquement, obtenant un bonus de statut de +1 à vos jets d'attaque et de dégâts jusqu'à la fin de votre prochain tour.</li>\n    <li><strong>Inducteur</strong> Votre résistance contre les dégâts d'électricité augmente pour égaler le niveau de votre relique jusqu'à la fin de votre prochain tour.</li>\n    <li><strong>Résistance</strong> Votre relique tente de contrer l'effet. En cas d'échec, votre relique surchauffe, vous infligeant des dégâts égaux au rang de contre de l'effet (ou le double du rang de contre en cas d'échec critique).</li>\n</ul>",
+            "rules": {
+                "2": {
+                    "label": "Inducteur"
+                },
+                "3": {
+                    "label": "Condensateur"
+                }
+            }
+        },
+        "Dominant Emotion": {
+            "name": "Dominant Emotion (Émotion dominante)",
+            "description": "<p><strong>Aspect</strong> émotion</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Déclencheur</strong> Vous devriez être affecté défavorablement par un effet d'émotion.</p>\n<hr />\n<p><strong>Effet</strong> La relique essaie de neutraliser l'effet déclencheur avec sa propre émotion, en tentant un test de @Check[type:class-spell]{contre}. Si le test est un succès, vous ressentez une soudaine montée d'émotion de la relique et l'effet contré n'a aucune prise sur vous.</p>"
+        },
+        "Little Helper": {
+            "name": "Little Helper (Assistance fiélone)",
+            "description": "<p><strong>Aspect</strong> fiélon</p>\n<hr />\n<p>Votre relique devient consciente et développe sa personnalité (généralement une personnalité qui s'oppose à la vôtre). Votre relique possède une personnalité correspondant au type de fiélon qui lui est associé, le trait impie, une vision précise et une ouïe imprécise sur 9 mètres, peut comprendre et parler une langue que vous connaissez et des modificateurs d'Intelligence, de Sagesse et de Charisme de +0. Les modificateurs de Perception et de Volonté de votre relique sont égaux à vos modificateurs de maîtrise en Perception et en Volonté, respectivement. Elle est qualifiée dans la Connaissance associée à ce type de fiélon (comme Connaissance des démons) avec un modificateur total égal à 2 + le niveau de la relique. Contrairement à la plupart des objets intelligents, la relique ne dispose d'aucune action ni réaction et ne peut pas utiliser ses propres activations.</p>"
+        },
+        "Soul Magic": {
+            "name": "Soul Magic (Magie de l'âme)",
+            "description": "<p><strong>Aspect</strong> âme</p>\n<p><strong>Activation</strong> <span class=\"pf2-icon\">1</span> (concentration)</p>\n<p><strong>Frèquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Vous insufflez de l'énergie spirituelle en vous ou en une créature consentante que vous touchez. Cela a les mêmes effets qu'@UUID[Compendium.pf2e.spells-srd.Item.KtTGLbLG9nqMbUYL]{Inspiration divine}.</p>"
+        },
+        "Dancing Shadow": {
+            "name": "Dancing Shadow (Ombre dansante)",
+            "description": "<p><strong>Aspect</strong> ombre</p>\n<p><strong>Prérequis</strong> La relique est une arme.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> L'ombre de votre relique se détache de votre relique et danse dans les airs pour attaquer un ennemi. Lorsque vous Activez la relique, désignez une cible. L'ombre de la relique s'envole jusqu'à 18 mètres et qu'elle soit adjacente à cet ennemi et lui porte une Frappe, infligeant @Damage[5d8[untyped]]{5d8 dégâts} sur un succès ou le double sur un coup critique. Le type des dégâts est de n'importe quel type qui peut être normalement infligé par votre relique. L'ombre utilise votre bonus à l'attaque avec la relique et elle utilise et contribue à votre pénalité d'attaques multiples. Tant que cette activation est en effet, vous pouvez utiliser une action unique, qui possède les traits attaque et concentration pour diriger mentalement l'ombre pour qu'elle porte une autre Frappe contre la même cible. L'ombre dure jusqu'à ce que cette cible soit réduite à 0 Point de vie, que la cible se déplace à plus de 120 mètres de vous ou que cette cible se déplace dans une zone où aucune ombre ne pourrait être projetée, comme celle d'une zone d'obscurité totale, selon ce qui se produit en premier.</p>\n<p>L'ombre ne prend pas de place, n'accorde pas la tenaille et n'a pas les autres attributs d'une créature et elle suit automatiquement l'ennemi choisi. L'ombre ne peut pas faire d'autre attaque que sa Frappe et les dons ou les sorts qui affectent les armes ne s'appliquent pas à elle.</p>\n<hr />\n<p><strong>Note de l'éditeur</strong> L'effet prend en compte chaque type de dégâts (sauf ceux non typés) pour prendre en charge les armes personnalisées et les différentes interpretations de la phrase \"les dégâts que votre arme inflige normalement\". Cependant, vous serez très certainement limité aux dégâts contondants, perforants ou tranchants pour la plupart des armes.</p>"
+        },
+        "Breath of Dragons (Green)": {
+            "name": "Breath of Dragons (Green) (Souffle des dragons (vert))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[poison]|options:area-damage]{2d6 dégâts de poison} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Breath of Dragons (Conspirator)": {
+            "name": "Breath of Dragons (Conspirator) (Souffle des dragons (comploteur))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle de fumée</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône de fumée nocive. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[poison]|options:area-damage]{2d6 dégâts de poison} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Breath of Dragons (Red)": {
+            "name": "Breath of Dragons (Red) (Souffle des dragons (rouge))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[fire]|options:area-damage]{2d6 dégâts de feu} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Inspiring": {
+            "name": "Inspiring (Inspirant)",
+            "description": "<p><strong>Aspect</strong> art</p>\n<p><strong>Activation</strong><span class=\"action-glyph\"> 1</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous créez une vision d'un objet que vous auriez pu fabriquer ou vous donnez une courte représentation pour inspirer un allié dans les 18 mètres. Ceci fonctionne autrement comme le tour de magie @UUID[Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x]{Prélude inspirant}.</p>"
+        },
+        "Flowing Footsteps": {
+            "name": "Flowing Footsteps (Déplacement fluide)",
+            "description": "<p><strong>Aspect</strong> eau</p>\n<hr />\n<p>Votre relique empêche l'eau de faire obstacle à vos déplacements. Vous obtenez les effet du sort @UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{Marche sur l'eau} et la capacité de respirer sous l'eau. Vous obtenez aussi une Vitesse de nage égale à la plus élevée entre votre Vitesse ou 4,50 mètres.</p>"
+        },
+        "Sacred Glow": {
+            "name": "Sacred Glow (Lueur sacrée)",
+            "description": "<p><strong>Aspect</strong> céleste</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique émet une lumière sainte. Cela génère une lumière vive dans une @Template[emanation|distance:30]{émanation de 9 mètres} autour de l'objet. Les créatures impies situées dans la zone sont @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayées 1} et ne peuvent réduire l'intensité de cet état en dessous de 1 tant qu'elles restent dans la lumière. La faiblesse que possèdent les fiélons qui se trouvent dans la zone d'effet contre les dégâts saints est augmentée de 5.</p>\n<p><em><strong>Note de l'éditeur</strong> Bien que le suivi de l'état Effrayé soit pris en charge automatiquement par le système, il n'y a aucune automatisation concernant l'augmentation de la faiblesse contre les dégâts saints pour les fiélons.</em></p>",
+            "rules": {
+                "0": {
+                    "label": "Lueur sacrée"
+                }
+            }
+        },
+        "Living Death": {
+            "name": "Living Death (Non mort)",
+            "description": "<p><strong>Aspect</strong> mort</p>\n<hr />\n<p>Vous vous trouvez sur le seuil entre la vie et la mort. Si vous tentez un jet de sauvegarde contre un effet qui vous infligerait des dégâts de néant, comme @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Mise à mal}, vous obtenez un résultat avec un degré de succès supérieur que ce que vous avez obtenu. Si vous obtenez un succès critique et que l'effet est capable de guérir des morts-vivants, vous regagnez un nombre de Points de vie égal à la moitié de la totalité des dégâts du sort. Les effets de vitalité ou de autre sort qui vous soigneraient sont réduits de moitié. Tous ces effets ne s'appliquent que si vous êtes une créature vivante.</p>\n<p><em><strong>Note de l'éditeur</strong> Seul l'ajustement du degré de succès est automatisé.</em></p>"
+        },
+        "Form of Vengeance": {
+            "name": "Form of Vengeance (Forme de vengeance)",
+            "description": "<p><strong>Aspect</strong> bête</p>\n<p><strong>Prérequis</strong> Bienfait Forme de furie</p>\n<hr />\n<p>Chaque fois que vous utilisez l'activation Forme de furie de la relique, cette dernière peut lancer @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{Forme aérienne} ou @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{Forme de dinosaure} au lieu de @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Forme animale}. Comme pour Forme de furie, ces sorts vous transforment chaque fois en un même type d'animal (de sorte que vous ne pouvez avoir que trois formes différentes, une pour chaque sort). Le rang de sort est le même que celui indiqué pour Forme de furie.</p>\n<p>Tant que vous êtes transformé, vous pouvez passer d'une forme à une autre en maintenant l'activation. Cela ne change pas la durée.</p>"
+        },
+        "Pierce the Veil": {
+            "name": "Pierce the Veil (Par-delà le voile)",
+            "description": "<p><strong>Aspect</strong> mort</p>\n<p><strong>Prérequis</strong> bienfait Non mort</p>\n<hr />\n<p>La relique vous permet de percer le voile qui sépare la vie de la mort. Tant que vous portez ou tenez la relique, vous bénéficiez de la capacité guérison du vide (comme si vous étiez un mort-vivant, l'énergie de vitalité vous inflige des dégâts et l'énergie du vide vous soigne). De plus, chaque fois que vous êtes soigné par un sort ou un effet de vide, vous obtenez une résistance 5 contre tous les dégâts (sauf force, spectrale, esprit et vitalité) jusqu'au début de votre prochain tour. Enfin, vous obtenez un bonus d'objet de +2 à tous vos jets de sauvegarde contre les effets de mort tant que vous êtes le détenteur de la relique. Ce bonus d'objet est de +3 au niveau 13.</p>"
+        },
+        "Healing Wave": {
+            "name": "Healing Wave (Vague de guérison)",
+            "description": "<p><strong>Aspect</strong> vie</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous libérez une vague d'énergie de vitalité dans un @Template[cone|distance:15]{cône de 4,50 mètres}. Vous et les cibles vivantes dans la zone d'effet récupérez @Damage[(max(1,floor(@actor.level)))d4[healing,vitality]|options:area-damage]{1d4 Points de vie} par niveau de la relique.</p>"
+        },
+        "Blazing Soul": {
+            "name": "Blazing Soul (Âme embrasée)",
+            "description": "<p><strong>Aspect</strong> feu</p>\n<p>Du feu magique inonde votre corps et votre âme pour vous protéger des flammes inférieures et vous permettre d'attiser les plus modestes étincelles en véritables brasiers. Vous obtenez une résistance 10 contre le feu. La première fois chaque heure que vous êtes ciblé par un effet de feu qui devrait vous infliger des dégâts, vous les subissez, mais vous récupérez @Damage[1d8[healing]]{1d8 Points de vie} pour chaque rang de contre de l'effet.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Déclencheur</strong> Une créature dans un rayon de 18 mètres subit un coup critique ou obtient un échec critique à son jet de sauvegarde contre un effet de feu et n'est pas réduite à 0 Point de vie</p>\n<hr />\n<p><strong>Effet</strong> Des flammes jaillissent de cette créature lui infligeant @Damage[6d6[fire]|options:area-damage]{6d6 dégâts de feu} ainsi qu'à toutes les créatures situées dans une @Template[type:burst|distance:15]{explosion de 4,50 mètres} centrée sur elle (@Check[type:reflex|against:class-spell|basic|options:area-damage]). Vous n'êtes pas affecté par cette activation mais vos alliés le sont. Si ces dégâts réduisent à 0 Point de vie la créature déclencheuse, elle est réduite en cendres, mais son équipement reste intact. Vous ne pouvez pas utiliser à nouveau cette activation pendant [[/r 1d4 #Recharger]]{1d4 rounds}.</p>"
+        },
+        "Lightning Storm": {
+            "name": "Lightning Storm (Tempête d'éclairs)",
+            "description": "<p><strong>Aspect</strong> air</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> La relique vous enveloppe d'une tempête de vent, de pluie et de foudre dans une @Template[emanation|distance:30]{émanation de 9 mètres}. Cette tempête est un terrain difficile pour tout autre que vous. Toute créature autre que vous qui pénètre ou débute son tour dans la tempête subit @Damage[1d12[electricity]]{1d12 dégâts d'électricité}, avec un jet de @Check[reflex|against:class-spell|basic] (@Damage[2d12[electricity]]{2d12 dégâts d'électricité} au niveau 15). Vous pouvez Maintenir cette activation jusqu'à 1 minute.</p>"
+        },
+        "Dancing Shadow Strike": {
+            "name": "Dancing Shadow Strike (Frappe d'ombre dansante)",
+            "description": "<p>Vous dirigez mentalement l'ombre pour qu'elle porte une autre Frappe contre la même cible, infligeant @Damage[5d8[untyped]]{5d8 dégâts} sur un succès.</p>"
+        },
+        "Beginner's Luck": {
+            "name": "Beginner's Luck (Chance du débutant)",
+            "description": "<p><strong>Aspect</strong> chance</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">r</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Déclencheur</strong> Vous lancez un d20 alors que vous êtes inexpérimenté</p>\n<hr />\n<p><strong>Effet</strong> Vous considérez que votre bonus de maîtrise est égal à la moitié de votre niveau ou si votre relique est de niveau 7 ou supérieur, comme égal à votre niveau. Puis, lancez deux fois, en conservant le meilleur résultat. Cela ne vous permet pas d'utiliser les actions qui nécessitent d'être qualifié dans la compétence.</p>"
+        },
+        "Intelligent Relic": {
+            "name": "Intelligent Relic (Relique intelligente)",
+            "description": "<p><strong>Aspect</strong> relique intelligente</p>\n<hr />\n<p>Votre relique devient un objet intelligent. Son alignement est au plus à un pas sur chaque axe s'il ne correspond pas au vôtre. Elle obtient un trait d'alignement correspondant à son alignement. La relique est dotée de la vue en tant que sens précis à une distance d'au maximum 9 mètres et de l'ouïe en tant que sens imprécis à une distance d'au maximum 9 mètres. Elle est qualifiée en Perception, augmentant son degré de maîtrise lorsque vous augmentez le votre. choisissez si elle peut parler à voix haute ou communiquer avec vous télépathiquement. Elle connait les langues qui correspondent à son histoire passée, en général parmi celles que vous connaissez. La relique est également qualifiée dans trois compétences, augmentant son degré de maîtrise dans une compétence à chaque fois que la relique obtient un nouveau bienfait. Les scores d'attributs mentaux de votre relique débutent à +3, +2 et +1, arrangés comme bon vous semble. La relique est également qualifiée en Volonté et son degré de maîtrise augmente lorsque vous augmentez le vôtre. À chaque fois que vous obtenez un bienfait, augmentez l'un des scores d'attributs mentaux de votre relique de 2 ou deux de 1. Autrement la relique fonctionne comme tous les autres objets intelligents.</p>"
+        },
+        "Grim Specter": {
+            "name": "Grim Specter (Spectre sinistre)",
+            "description": "<p><strong>Aspect</strong> mort</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, métamorphose, vide)</p>\n<hr />\n<p><strong>Effet</strong> Vous pouvez en appeler aux puissances terrifiantes qui alimentent votre relique pour vous transformer en un spectre de la mort. Vous devenez intangible, sans aucun corps physique. Vous êtes immunisé contre les effets nécessitant un corps physique, y compris les dégâts de précision ainsi que l'exposition à la plupart des maladies et poisons. Vous obtenez une résistance contre tous les dégâts égale à la moitié du niveau de la relique. Les dégâts de force, les attaques @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{spectrales}, les dégâts spirituels, de vide et de vitalité ignorent cette résistance et la résistance est doublée contre les dégâts non magiques.</p>\n<p>Vous pouvez traverser des objets solides. Quand vous vous trouvez à l'intérieur d'un objet, vous ne pouvez pas percevoir, attaquer ou interagir avec ce qui se trouve à l'extérieur et vous êtes toujours @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} quand vous débutez un tour dans un objet. Les créatures tangibles peuvent vous traverser mais ne peuvent pas terminer leur déplacement dans votre espace. Vous ne pouvez pas tenter de tests basés sur la Force contre des créatures ou des objets tangibles à moins que ces objets possèdent la rune de propriété spectrale. De même, les créatures tangibles ne peuvent pas tenter de tests basés sur la Force contre vous.</p>\n<p>Vous pouvez Maintenir cette activation jusqu'à 1 minute.</p>"
+        },
+        "Breath of Dragons (Brass)": {
+            "name": "Breath of Dragons (Brass) (Souffle des dragons (cuivre))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez une ligne d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[fire]|options:area-damage]{2d6 dégâts de feu} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures sur une @Template[type:line|distance:80]{ligne de 24 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Repository of Knowledge": {
+            "name": "Repository of Knowledge (Banque de connaissances)",
+            "description": "<p><strong>Aspect</strong> esprit</p>\n<hr />\n<p>Votre relique est imprégnée des impressions psychiques des temps anciens. Tant que la relique est sur vous, vous êtes qualifié dans 3 compétences supplémentaires de Connaissances au choix du MJ et qui sont cohérentes avec l'histoire de la relique. Ce choix est fait au moment d'obtenir ce bienfait. Si la relique est de niveau 9, vous devenez expert dans ces compétences de Connaissances et si la relique est de niveau 17, vous devenez maître.</p>"
+        },
+        "Breath of Dragons (White)": {
+            "name": "Breath of Dragons (White) (Souffle des dragons (blanc))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[cold]|options:area-damage]{2d6 dégâts de froid} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Breath of Dragons (Brine)": {
+            "name": "Breath of Dragons (Brine) (Souffle des dragons (saumure))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez une ligne d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[acid]|options:area-damage]{2d6 dégâts d'acide} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures sur une @Template[type:line|distance:80]{ligne de 24 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Work Harden": {
+            "name": "Work Harden (Durcir l'ouvrage)",
+            "description": "<p><strong>Aspect</strong> forge</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Vous frappez la relique contre une armure ou un bouclier fait de métal et de la vapeur s'en échappe comme si l'objet venait juste d'être trempé. L'objet cible durcit pendant 10 minutes, augmentant soit son bonus d'objet à la CA de 1 si c'est une armure, soit sa Solidité de 5 si c'est un bouclier.</p>\n<p>@UUID[Compendium.pf2e-relics.relic-effects.Item.53FkfoGZ9za7cvaH]{Effet : Durcir l'ouvrage (armure)}</p>\n<p>@UUID[Compendium.pf2e-relics.relic-effects.Item.gfriz81evOoKgeMM]{Effet : Durcir l'ouvrage (bouclier)}</p>"
+        },
+        "Vitality Siphon": {
+            "name": "Vitality Siphon (Siphon de vitalité)",
+            "description": "<p><strong>Aspect</strong> vie</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Déclencheur</strong> Un allié dans les 18 mètres récupère plus de Points vie qu'il n'en a perdus grâce à un effet de guérison de vitalité ciblé qui n'a pas de durée</p>\n<hr />\n<p><strong>Effet</strong> Votre relique sert de relais de vitalité. Vous, ou une créature consentante adjacente, regagnez un nombre de points de vie égal à la valeur qui excède les Points de vie maximum de la créature déclencheuse. Par exemple, s'il ne manquait que 5 points de vie à la créature déclencheuse et qu'elle est la cible d'un sort @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Guérison} qui lui permet de récupérer 12 points de vie, vous, ou une créature consentante adjacente, récupérez les 7 points de vie en excès.</p>"
+        },
+        "Time Jump": {
+            "name": "Time Jump (Saut temporel)",
+            "description": "<p><strong>Aspect</strong> temps</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Votre relique lance @UUID[Compendium.pf2e.spells-srd.Item.qJGW6BbIcU6sfA1d]{Saut temporel} sur vous selon vos spécifications.</p>"
+        },
+        "Breath of Dragons (Fortune)": {
+            "name": "Breath of Dragons (Fortune) (Souffle des dragons (fortuné))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle perturbateur</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergies perturbatrices. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[force]|options:area-damage]{2d6 dégâts de force} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Command Legion": {
+            "name": "Command Legion (Commander une légion)",
+            "description": "<p><strong>Aspect</strong> fiélon</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">3</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique ouvre un portail en elle et submerge vos ennemis sous un assaut de fiélons. Vous lancez @UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff]{Convocation de fiélon} au rang 6, mais vous en invoquez deux au lieu d'un seul et pouvez les commander tous les deux avec 1 action pour Maintenir le sort. Si la relique possède le bienfait @UUID[Compendium.pf2e-relics.relic-gifts.Item.ll3vBFxxOTJD6spG]{Ferveur blasphématoire}, cette activation accorde également les effets de ce bienfait sans dépenser son activation journalière. Pendant la prochaine minute, vous pouvez utiliser l'activation suivante :</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">F</span> (concentration)</p>\n<p><strong>Déclencheur</strong> L'un des fiélons invoqués par convocation de légion est banni</p>\n<p><strong>Effet</strong> Vous invoquez le même fiélon dans un espace adjacent. Le fiélon récupère tous ses points de vie et tous les états, sorts et autres effets qu'il subissait ont expiré avant qu'il ne soit de nouveau invoqué. Cependant, il ne récupère pas les capacités qu'il a déjà utilisées et dont l'utilisation est limitée, tels que des sorts innés ou des capacités avec une entrée Fréquence.</p>"
+        },
+        "Temporal Pulse": {
+            "name": "Temporal Pulse (Pulsation temporelle)",
+            "description": "<p><strong>Aspect</strong> temps</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Vous faites vibrer le temps autour de vous, le dérobant à vos ennemis et l'octroyant à vos alliés. Les créatures de votre choix dans un rayon de 9 mètres doivent effectuer un jet de @Check[type:will|dc:resolve(@actor.system.attributes.classOrSpellDC.value)]. Pour chaque créature ralentie grâce à ce bienfait, vous pouvez rendre un allié dans un rayon de 9 mètres, y compris vous, @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accéléré} pendant 1 round.</p>\n<p><strong>Succès</strong> La créature n'est pas affectée.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1}.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 2}.</p>"
+        },
+        "Fiendish Bargain": {
+            "name": "Fiendish Bargain (Marchandage fiélon)",
+            "description": "<p><strong>Aspect</strong> fiélon</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\"></span>1</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous négociez avec les forces maléfiques de votre relique pour qu'elles vous accordent une faveur, mais vous devez offrir quelque chose en échange. Choisissez l'un des avantages suivants.</p>\n<ul>\n    <li>Votre relique tente de contrer un état néfaste qui vous affecte.</li>\n    <li>Vous récupérez @Damage[(3d8+16)[healing]]{3d8+16 Points de vie}. Ceci est un effet de guérison.</li>\n    <li>Vous obtenez un bonus de statut de +2 aux jets d'attaque pendant 1 minute. @UUID[Compendium.pf2e-relics.relic-effects.Item.b2ld3FEnHBKl9EX7]{Effet : Marchandage Fiélon (bonus d'attaque)}</li>\n</ul>\n<p>En échange, après avoir bénéficié de l'avantage, vous subissez l'un des effets suivants, déterminé aléatoirement.</p>\n<ul>\n    <li>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 1} pendant 1 minute.</li>\n    <li>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} pendant 1 minute.</li>\n    <li>Vous perdez @Damage[1d8[untyped]]{1d8 Points de vie}</li>\n    <li>Vous subissez une pénalité de -1 aux jets de dégâts pendant 1 minute. @UUID[Compendium.pf2e-relics.relic-effects.Item.kxrPNJwabHP9p4Se]{Effet : Marchandage fiélon (pénalité aux dégâts)}</li>\n</ul>"
+        },
+        "Breath of Dragons (Umbral)": {
+            "name": "Breath of Dragons (Umbral) (Souffle des dragons (ombral))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[void]|options:area-damage]{2d6 dégâts du vide} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Obscure": {
+            "name": "Obscure (Obscur)",
+            "description": "<p><strong>Aspect</strong> ombre</p>\n<hr />\n<p>Votre relique absorbe la lumière et déforme les ombres autour de vous pour vous dissimuler dans les ténèbres. Tant que vous êtes sous une lumière faible dans une zone pleine d'ombres, vous pouvez tenter un test de Discrétion pour @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Vous cacher}, même si vous n'êtes pas @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} à l'égard d'une créature, comme lorsque lorsqu'elle est par exemple dotée de @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]{vision dans le noir}.</p>"
+        },
+        "Shattered Earth": {
+            "name": "Shattered Earth (Terre brisée)",
+            "description": "<p><strong>Aspect</strong> terre</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique propage des ondes sismiques dans le sol environnant en faisant remonter à la surface des fragments tranchants. Une surface de pierre ou de terre de 3 mètres de rayon à une distance maximale de 18 mètres de vous est transformée en terrain difficile. Une créature qui pénètre dans une case affectée au cours d'une action de déplacement doit réussir un test @Check[type:acrobatics|against:class-spell] ou un jet de @Check[type:reflex|against:class-spell]. Si la créature obtient un échec, elle subit @Damage[(1+max(0,floor((@actor.level -2)/4)))d6[piercing]]{1d6 dégâts perforants}; elle n'a besoin d'effectuer ce jet qu'une seule fois par action de déplacement même si elle traverse plusieurs cases. Au niveau 6, puis tous les 4 niveaux suivants, les dégâts augmentent de 1d6.</p>"
+        },
+        "Breath of Dragons (Mirage)": {
+            "name": "Breath of Dragons (Mirage) (Souffle des dragons (mirage))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle hallucinatoire</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône de nuages qui agressent les sens. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[mental]|options:area-damage]{2d6 dégâts mentaux} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Breath of Dragons (Empyreal)": {
+            "name": "Breath of Dragons (Empyreal) (Souffle des dragons (empyréen))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle spirituel</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône de feu saint. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[spirit,holy]|options:area-damage]{2d6 dégâts spirituels saints} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Righteous Call": {
+            "name": "Righteous Call (Appel à la vertu)",
+            "description": "<p><strong>Aspect</strong> céleste</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> La magie sainte emplit votre arsenal, le rendant plus efficace encore contre le mal. Pendant 1 minute, vos armes et vos attaques à mains nues obtiennent la @UUID[Compendium.pf2e.equipment-srd.Item.DH0kB9Wbr5pDeunX]{rune sainte} tant que vous les tenez. Si une arme est à sa limite de runes de propriété, vous pouvez choisir de mettre en veille une de ses runes de propriété tant que la rune sainte produit son effet. De plus, les Frappes que vos alliés portent lorsqu'ils se trouvent dans un rayon de 9 mètres de vous obtiennent le trait saint.</p>\n<p><em><strong>Note de l'éditeur</strong>Compte tenu de la manière étrange dont se comportent les runes entre ellesvous devrez retirer manuellement une de vos propriétés d'arme si elle a atteint sa limite.</em></p>",
+            "rules": {
+                "0": {
+                    "label": "Appel à la vertu"
+                }
+            }
+        },
+        "Spirit Blink": {
+            "name": "Spirit Blink (Oscillation spirituelle)",
+            "description": "<p><strong>Aspect</strong> âme</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Vous oscillez entre les royaumes des mortels et le Plan éthéré. Ceci vous fait bénéficier des effets d'@UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]{Osciller}, sauf que la résistance est égale au niveau du germe d'âme au lieu de 5.</p>"
+        },
+        "Absorb Injury": {
+            "name": "Absorb Injury (Absorber la blessure)",
+            "description": "<p><strong>Aspect</strong> âme</p>\n<p><strong>Activation</strong><span class=\"pf2-icon\">R</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Déclencheur</strong> un allié dans les 9 mètres subit des dégâts</p>\n<hr />\n<p><strong>Effet</strong> Vous créez un lien avec l'âme de votre allié et absorbez la blessure pour le protéger. Vous subissez les dégâts à la place de votre allié. Vous subissez également n'importe quel effet associé au transfert de dégâts, tel que le poison sur la lame, les états ou des dégâts de feu persistants provoqués sur un coup critique d'une arme gravée d'une rune enflammée.</p>"
+        },
+        "Force Blast": {
+            "name": "Force Blast (Explosion de force)",
+            "description": "<p><strong>Aspect</strong> âme</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Une explosion de force enveloppe une créature de votre choix dans un rayon de 9 mètres. Cette explosion inflige @Damage[(1d6+floor((@actor.level-1)/2)d6)[force]]{1d6 dégâts de force}, avec un jet de (@Check[fortitude|against:class-spell|basic]). Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>"
+        },
+        "Breath of Dragons (Gold)": {
+            "name": "Breath of Dragons (Gold) (Souffle des dragons (or))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[fire]|options:area-damage]{2d6 dégâts de feu} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Emotion Conduit": {
+            "name": "Emotion Conduit (Conduit d'émotion)",
+            "description": "<p><strong>Aspect</strong> émotion</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Vous canalisez l'émotion de votre relique sur une cible située à moins de 9 mètres, contrant un effet d'émotion sur cette créature. La relique fait un test de @Check[type:class-spell]{contre}. Si le test est un succès, la cible ressent une soudaine montée d'émotion de la relique et l'effet contré prend fin sur la cible. La cible est temporairement immunisée au conduit d'émotion de la relique jusqu'à ce que vous effectuiez vos prochains préparatifs quotidiens.</p>"
+        },
+        "Beast Senses": {
+            "name": "Beast Senses (Sens bestiaux)",
+            "description": "<p><strong>Aspect</strong> bête</p>\n<p><strong>Prérequis</strong> La relique est un objet porté</p>\n<hr />\n<p>La relique vous octroie les sens développés d'un animal tant que vous la portez. Vous obtenez vision nocturne. Si vous avez possédez déjà vision nocturne, vous obtenez à la place vision dans le noir. Au niveau 10, la relique vous accorde odorat imprécis avec une portée de 3 mètres.</p>",
+            "rules": {
+                "0": {
+                    "prompt": "Quel sens ?"
+                }
+            }
+        },
+        "Bottomless Reservoir": {
+            "name": "Bottomless Reservoir (Réservoir sans fond)",
+            "description": "<p><strong>Aspect</strong> eau</p>\n<p><strong>Activation </strong> <span class=\"pf2-icon\">1</span> (manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique peut absorber et rejeter de l'eau, en la stockant dans un réservoir sans fond. Soit vous touchez avec votre relique une masse d'eau adjacente et absorbez 4 litres dans son réservoir, soit vous rejetez 4 litres de liquide. Vous pouvez dépenser une action supplémentaire lorsque vous activez cet effet pour absorber de l'eau dans une créature touchée entièrement constituée d'eau, telle qu'un élémentaire d'eau. Si vous le faites, elle subit @Damage[(max(1,floor(@actor.level)))d6]{1d6 dégâts par niveau de la relique} (jet de @Check[type:fortitude|against:class-spell|basic]).</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"pf2-icon\">r</span> (manipulation)</p>\n<p><strong>Fréquence</strong> Vous êtes ciblé par un effet d'acide ou d'eau</p>\n<p><strong>Effet</strong> Votre relique tente de contrer cet effet en utilisant 4 litres d'eau stockés. À la discrétion du MJ, vous pouvez utiliser ce pouvoir sur des effets provoqués par d'autres liquides comme du sang.</p>"
+        },
+        "Living Forge": {
+            "name": "Living Forge (Forge vivante)",
+            "description": "<p><strong>Aspect</strong> forge</p>\n<p><strong>Activation</strong><span class=\"action action-glyph\" title=\"Two Actions\" aria-label=\"Two Actions\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> La relique est absorbée dans votre corps, et vous vous transformez en un élémentaire constitué d'acier incandescent. Vous obtenez les effets de @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{Forme élémentaire} au rang 7 et vous utilisez les caractéristiques ci-dessous pour la  forme de combat de la forge. Sous cette forme, vous pouvez transformer vos membres en différents objets, tel qu'une lame ou un marteau, en utilisant une action Interagir. Transformer vos membres de cette façon vous permet de choisir entre des dégâts contondants, physiques ou tranchants.</p>\n<ul>\n    <li><strong>Vitesse de forge</strong> 9 mètres ; résistance 10 contre le feu, faiblesse 5 contre le froid et l'eau</li>\n    <li><strong>Corps-à-corps</strong> <span class=\"action action-glyph\" title=\"Single Action\" aria-label=\"Single Action\">1</span>Frappe forge <strong>Dégâts</strong> 1d10 configurable ; 1d4 de feu persistant.</li>\n</ul>"
+        },
+        "Emotion Surge": {
+            "name": "Emotion Surge (Flot d'émotion)",
+            "description": "<p><strong>Aspect</strong> émotion</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Un flot d'émotion émane de votre relique, vous accordant un bonus de statut de +1 au test de compétence déterminé par l'émotion de la relique. Ce bonus dure 1 minute.</p>\n<ul>\n<li><strong>Amour</strong> tests de Médecine</li>\n<li><strong>Colère</strong> tests d'Athlétisme</li>\n<li><strong>Détresse</strong> tests de Survie</li>\n<li><strong>Dévouement</strong> tests pour Se souvenir</li>\n<li><strong>Émerveillement</strong> tests de Représentation</li>\n<li><strong>Fierté</strong> tests de Société</li>\n<li><strong>Haine</strong> tests d'Intimidation</li>\n<li><strong>Joie</strong> tests de Diplomatie</li>\n<li><strong>Peur</strong> tests de Discrétion</li>\n<li><strong>Remords</strong> tests de Duperie</li>\n</ul>\n<p><em><strong>Note de l'éditeur</strong> Vous choisissez une émotion pour votre relique. Une astuce serait d'écrire entre parenthèse quelle émotion vous avez choisi pour votre relique dans le nom de cette capacité et effacer toutes les émotions inutiles de la liste ci-dessus. L'effet a un bouton pour faciliter la tâche.</em></p>"
+        },
+        "Borrow Time": {
+            "name": "Borrow Time (Emprunter du temps)",
+            "description": "<p><strong>Aspect</strong> temps</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Vous pointez la relique vers une créature dans un rayon de 9 mètres, lui insufflant un sentiment d'urgence. La créature obtient l'état @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accéléré} pendant 1 round. Une fois l'état terminé, la créature est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round et temporairement immunisée contre ce bienfait jusqu'à vos prochains préparatifs quotidiens.</p>\n<hr />\n<p><em><strong>Note de l'éditeur</strong> Étant donné qu'il n'y a aucune action spécifiée pour l'état Accéléré obtenu par ce bienfait, la cible obtient simplement une action supplémentaire qu'elle peut utiliser comme bon lui semble, y compris pour des actions qui nécessitent plus d'1 action, pourvu qu'elle dispose encore du nombre d'actions nécessaires.</em></p>"
+        },
+        "Ripples and Waves": {
+            "name": "Ripples and Waves (Ondulations et vagues)",
+            "description": "<p><strong>Aspect</strong> eau</p>\n<p>Vous êtes en harmonie avec le flux et le reflux de toutes choses, comme si vous incarniez l'eau elle-même. Vous obtenez @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]{Perception des ondes} en tant que sens précis dans un rayon de 18 mètres et vous pouvez lancer @UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]{Poussée hydraulique} au rang 5 à volonté en tant que sort inné.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Effet</strong> Pendant 1 minute, de l'eau s'écoule de vous et emplit une @Template[type:emanation|distance:60]{émanation de 18 mètres} arrivant à hauteur de cheville et centrée sur vous. Les ennemis dans la zone d'effet sans vitesse de nage considèrent la zone affectée comme un terrain difficile pour leur déplacement au sol. Tant que cet effet persiste, tous les effets d'eau que vous générez peuvent provenir de n'importe quel endroit au sein de cette émanation en plus de leur portée et de leur zone d'effet normales.</p>"
+        },
+        "Clean Luck": {
+            "name": "Clean Luck (Enlever l'infortune)",
+            "description": "<p><strong>Aspect</strong> chance</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<p><strong>Déclencheur</strong> Vous lancez un d20 affecté par un effet d'infortune.</p>\n<hr />\n<p><strong>Effet</strong> Vous annulez l'effet d'infortune. Tout autre effet de fortune s'applique toujours.</p>"
+        },
+        "Breath of Dragons (Copper)": {
+            "name": "Breath of Dragons (Copper) (Souffle des dragons (cuivre))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez une ligne d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[acid]|options:area-damage]{2d6 dégâts d'acide} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures sur une @Template[type:line|distance:80]{ligne de 24 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Wyrm's Flight": {
+            "name": "Wyrm's Flight (Vol du Ver)",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Des ailes draconiques fantomatiques vous confèrent une Vitesse de vol égale à la plus élevée entre votre Vitesse ou 6 mètres. Ce phénomène dure 10 minutes ou jusqu'à ce que vous Révoquiez l'effet. Au niveau 17, vous pouvez Activer et Révoquer ce pouvoir aussi souvent que vous le souhaitez et il possède une durée illimitée.</p>"
+        },
+        "Heaven's Grace": {
+            "name": "Heaven's Grace (Grâce céleste)",
+            "description": "<p><strong>Aspect</strong> céleste</p>\n<p><strong>Prérequis</strong> La relique est un objet porté.</p>\n<hr />\n<p>Les cieux vous protègent. Tant que vous portez la relique, vous obtenez un bonus de statut de +1 à votre CA contre les attaques des fiélons et une résistance contre un type d'énergie correspondant à l'origine céleste de la relique (comme une résistance au son pour un ange du Chœur). La résistance est égale à la moitié du niveau de la relique (minimum 1).</p>\n<hr />\n<p><em><strong>Note de l'éditeur</strong> Bien que certains type de dégâts d'énergie ne soient pas officiellement présents parmi les célestes existants, la prise en charge de tous les dégâts d'énergie (y compris force, vitalité, et vide) ont été inclus.</em></p>"
+        },
+        "Forge Weld": {
+            "name": "Forge Weld (Soudure de la forge)",
+            "description": "<p><strong>Aspect</strong> forge</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Vous frappez la relique contre un objet non-magique en métal d'un encombrement inférieur ou égal à 4, réparant ce dernier. Les bords de l'objet luisent comme s'il avait été chauffé à blanc et vous redonnez [[/r (max(5,floor((@actor.level)*5)))]]{5 Points de vie} à l'objet par niveau de la relique. Si le nombre de points de vie de l'objet repasse ainsi au-dessus de son Seuil de rupture, il n'est plus @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisé}. Cette capacité ne peut pas remplacer les pièces manquantes ou réparer un objet complètement détruit.</p>"
+        },
+        "Breath of Dragons (Diabolic)": {
+            "name": "Breath of Dragons (Diabolic) (Souffle des dragons (diabolique))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle de feu infernal</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône de feu infernal. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[fire,unholy]|options:area-damage]{2d6 dégâts de feu impie} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Breath of Dragons (Omen)": {
+            "name": "Breath of Dragons (Omen) (Souffle des dragons (des présages))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle de destins</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône de nuages qui agresse les sens. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[mental]|options:area-damage]{2d6 dégâts mentaux} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Ancestors' Call": {
+            "name": "Ancestors' Call (Appel des ancêtres)",
+            "description": "<p><strong>Aspect</strong> esprit</p>\n<p>Les esprits nains gravitent autour de cette relique et vous pouvez les appeler à vous habiter, vous et vos alliés, pour vous transmettre des secrets ancestraux. Lorsque vous obtenez ce don, choisissez trois dons ancestraux courants de niveau 1.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Choisissez un des trois dons ancestraux. Vous et chaque allié dans une @Template[burst|distance:10]{explosion de 3 mètres} de rayon centrée sur vous obtenez ce don et le trait nain pendant 1 minute.</p>"
+        },
+        "Word of Faith": {
+            "name": "Word of Faith (Parole de piété)",
+            "description": "<p><strong>Aspect</strong> céleste</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> En plaçant votre main sur vous-même ou sur un allié, vous soignez ses blessures et renforcez son esprit. La cible regagne @Damage[(max(1,floor(@actor.level)))d8[healing,vitality]]{1d8 Points de vie} par niveau de l'objet et réduit la valeur de l'état @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé} de 1.</p>"
+        },
+        "Deadly Spark": {
+            "name": "Deadly Spark (Éclair mortel)",
+            "description": "<p><strong>Aspect</strong> air</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<hr />\n<p><strong>Effet</strong> Un éclair jaillit de la relique en direction d'une créature dans un rayon de 6 mètres. Cet éclair inflige @Damage[(1+max(0,floor((@actor.level -2)/4)))d12[electricity]]{1d12 dégâts d'électricité} (Check[type:reflex|against:class-spell|basic]). L'éclair inflige 1d12 dégâts de plus au niveau 6, encore 1d12 dégâts de plus au niveau 12 puis tous les 4 niveaux ensuite.</p>"
+        },
+        "Rolling Geode": {
+            "name": "Rolling Geode (Géode mobile)",
+            "description": "<p><strong>Aspect</strong> terre</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Des pierres et des cristaux forment une sphère qui poursuit vos adversaires. Vous créez une géode dans un espace inoccupé dans un rayon de 9 mètres. Vous pouvez dépenser une action unique dotée du trait concentration pour déplacer la géode de 9 mètres sur le sol. Si elle entre dans l'espace d'une créature, cette dernière doit réussir un jet de @Check[reflex|against:class-spell|basic:true] ou subir @Damage[2d6[bludgeoning]]{2d6 dégâts contondants}. Une créature ne peut subir des dégâts de cette manière qu'une seule fois par tour, même si vous faites passer plusieurs fois la géode par son espace. La géode persiste pendant 1 minute ou jusqu'à ce qu'elle soit détruite ou Révoquée. Elle possède une CA 5, une Solidité 10 et 40 points de vie et est immunisée contre les coups critiques et les dégâts de précision.</p>"
+        },
+        "Charming": {
+            "name": "Charming (Charmant)",
+            "description": "<p><strong>Aspect</strong> art</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous parlez brièvement à propos de votre art ou vous donnez une courte représentation. La relique lance @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charme} à un rang égal à la moitié du sien.</p>\n<hr />\n<p><strong>Note de l'éditeur</strong> Vraisemblablement, \"à un rang égal à la moitié du sien\" aurait dû être \"à la moitié du niveau de l'objet (arrondi au supérieur)\". Il faudrait très probablement un errata ou une clarification de la part de Paizo.</p>"
+        },
+        "Sands of the Hourglass": {
+            "name": "Sands of the Hourglass (Grains de sable du sablier)",
+            "description": "<p><strong>Aspect</strong> temps</p>\n<p><strong>Prérequis</strong> La relique est de niveau 5 ou supérieur.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Vous ciblez une créature dans un rayon de 9 mètres, lui imposant temporairement la décrépitude du temps. La cible doit réussir un jet de @Check[fortitude|against:class-spell]. Les états Maladroit et Affaibli durent 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible touchée est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} et @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1}.</p>\n<p><strong>Échec</strong> La cible touchée est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1}.</p>\n<p><strong>Échec critique</strong> La cible touchée est @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 3}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 3} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 2}.</p>"
+        },
+        "Breath of Dragons (Adamantine)": {
+            "name": "Breath of Dragons (Adamantine) (Souffle des dragons (adamantin))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle d'avalanche</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous crachez un cône de rochers. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[bludgeoning]|options:area-damage]{2d6 dégâts contondants} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Breath of Dragons (Silver)": {
+            "name": "Breath of Dragons (Silver) (Souffle des dragons (argent))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[cold]|options:area-damage]{2d6 dégâts de froid} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Life Everlasting": {
+            "name": "Life Everlasting (Vie éternelle)",
+            "description": "<p><strong>Aspect</strong> vie</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous libérez des quantités massives d'énergie de vitalité. Pendant 1 minute, vous libérez de l'énergie de vitalité dans une @Template[emanation|distance:10]{émanation de 3 mètres} centrée sur vous. À la fin de votre tour, vous (si vous êtes vivant) et les créatures vivantes alliées dans l'émanation, récupérez @Damage[10[healing,vitality]|options:area-damage]{10 Points de vie}. Si vous ou une créature alliée deviez mourir suite à l'aggravation de la valeur de votre état Mourant, vous pouvez Révoquer l'activation par une action gratuite pour éviter la mort. Dans ce cas, la valeur de l'état Mourant n'augmente pas.</p>\n<p><em><strong>Note de l'éditeur</strong> l'aura et l'effet sont là dans le seul but de mesurer et savoir qui se trouve dans l'émanation et la récupération de Points de vie n'est pas automatisée.</em></p>"
+        },
+        "Breath of Dragons (Horned)": {
+            "name": "Breath of Dragons (Horned) (Souffle des dragons (cornu))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation - Souffle de poison</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez un cône d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[poison]|options:area-damage]{2d6 dégâts de poison} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures dans un @Template[type:cone|distance:30]{cône de 9 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Overflowing Life": {
+            "name": "Overflowing Life (Trop-plein de vie)",
+            "description": "<p><strong>Aspect</strong> vie</p>\n<hr />\n<p>La force de vie circule à travers vous et l'énergie de vitalité fait jaillir de votre corps votre essence vitale qui perle sur votre peau comme des gouttes de lumière liquide. Quand vous récupérez des Points de vie grâce à la guérison de sorts de vitalité, vous regagnez un nombre de Points de vie supplémentaires sous la forme d'un bonus d'objet égal à la moitié du niveau de la relique (minimum 1). Ce bonus ne s'applique que la première fois par incantation qu'un sort donné vous guérit.</p>"
+        },
+        "Heat Haze": {
+            "name": "Heat Haze (Voile de chaleur)",
+            "description": "<p><strong>Aspect</strong> feu</p>\n<hr />\n<p>La chaleur de votre relique réchauffe agréablement l'air ambiant. Tant que vous tenez ou portez la relique, elle vous protège du froid environnemental ambiant. Au niveau 9, elle vous protège également du froid extrême et au niveau 17, elle vous protège du froid extraordinaire. Au niveau 4, la relique bénéficie également de l'activation suivante.</p>\n<hr />\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Effet</strong> Votre relique élève l'air de manière erratique autour de vous, en créant des ondes de chaleur qui distordent votre apparence et vous confèrent l'état @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} pendant 1 minute. Comme la nature de cet effet ne permet pas de camoufler votre emplacement, vous ne pouvez utiliser cet état pour vous @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Cacher} ou @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtif}.</p>"
+        },
+        "Sprout Ally": {
+            "name": "Sprout Ally (Croissance d'un allié)",
+            "description": "<p><strong>Aspect</strong> plante</p>\n<p><strong>Activation </strong><span class=\"pf2-icon\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Votre relique fait pousser rapidement une plante proche avant de l'animer pour qu'elle combatte avec vous. Elle lance @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{Convocation de plante ou de champignon}, avec un rang égal à la moitié du niveau de la relique arrondi au supérieur. Vous pouvez Maintenir cette activation comme vous le feriez avec le sort.</p>"
+        },
+        "Divine Retribution": {
+            "name": "Divine Retribution (Représailles divines)",
+            "description": "<p><strong>Aspect</strong> céleste</p>\n<p><strong>Prérequis</strong> La relique est une arme</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> En puisant dans la fureur divine, vous choisissez une cible qui vous a infligé des dégâts, à vous ou à un allié, au cours du round précédent et vous chargez votre relique de vengeance divine à son encontre. Vous effectuez une Frappe contre cet ennemi, lui infligeant un dé de dégâts supplémentaire si vous le touchez. Si la cible possède le trait impie, elle est aussi @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1} jusqu'au début de votre prochain tour si elle touche (ou @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 2} sur un coup critique).</p>"
+        },
+        "Recalculate": {
+            "name": "Recalculate (Recalculer)",
+            "description": "<p><strong>Aspect</strong> esprit</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Déclencheur</strong> Vous avez raté un jet d'attaque</p>\n<hr />\n<p><strong>Effet</strong> L'analyse des angles, des probabilités et une myriade d'autres facteurs se déversent dans votre esprit depuis votre relique pour préparer la prochaine attaque. Vous obtenez un bonus de circonstances de +1 à votre prochain jet d'attaque contre la cible dont vous venez de rater l'attaque, tant que vous l'effectuez avant le début de votre prochain tour.</p>"
+        },
+        "Petal Dance": {
+            "name": "Petal Dance (Danse des pétales)",
+            "description": "<p><strong>Aspect</strong> plante</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Vous vous transformez en une nuée de pétales et de feuilles. Cela vous octroie le trait nuée, une immunité contre les dégâts de chute, une résistance 5 contre les dégâts contondants et tranchants et une faiblesse 5 contre les dégâts de zone et les dégâts d'éclaboussure. Vous pouvez vous faufiler dans des espaces larges d'à peine quelques centimètres en déplaçant vos pétales dans la fissure. Vous n'obtenez cependant pas la capacité esprit de la nuée et êtes donc toujours affecté normalement par les effets mentaux. Sous forme de nuée, vous ne pouvez pas parler, lancer de sorts, utiliser d'actions dotées du trait manipulation nécessitant vos mains, activer vos objets magiques ou effectuer vos Frappes avec votre corps normal. Vous restez sous cette forme pendant 1 minute ou jusqu'à ce que vous Révoquiez cette activation. Au niveau 13, la relique obtient une réaction qui se déclenche quand vous tombez ou que vous subissez des dégâts. Cela vous permet de bénéficier des résistances, des faiblesses et de l'immunité aux dégâts de chute de ce bienfait.</p>"
+        },
+        "Breath of Dragons (Bronze)": {
+            "name": "Breath of Dragons (Bronze) (Souffle des dragons (bronze))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez une ligne d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[electricity]|options:area-damage]{2d6 dégâts d'électricité} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures sur une @Template[type:line|distance:80]{ligne de 24 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Feral Claws": {
+            "name": "Feral Claws (Griffes féroces)",
+            "description": "<p><strong>Aspect</strong> bête</p>\n<p><strong>Prérequis</strong> La relique est un objet porté</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vos mains se transforment en une paire de griffes. Cela vous accorde une attaque à mains nues de griffe qui inflige 1d6 dégâts tranchants et possède les traits agile et finesse. Cela dure jusqu'à ce que vous Révoquiez l'effet.</p>"
+        },
+        "Tidal Crash": {
+            "name": "Tidal Crash (Déferlante)",
+            "description": "<p><strong>Aspect</strong> eau</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Votre relique projette une sphère d'eau dense. Effectuez un @Check[type:class-spell|defense:ac]{jet d'attaque de sort} contre une cible dans les 9 mètres. En cas de succès, vous infligez @Damage[(2d10 + floor((@actor.level - 1) / 2)d10)[bludgeoning]]{2d10 dégâts contondants} plus @Damage[(2 + floor((@actor.level - 1) / 2))[bludgeoning,splash]{2 dégâts d'éclaboussure contondants}. Au niveau 3, puis tous les 2 niveaux suivants, augmentez les dégâts initiaux de 1d10 et les dégâts d'éclaboussure de 1.</p>"
+        },
+        "Curse Wound": {
+            "name": "Curse Wound (Plaie maudite)",
+            "description": "<p><strong>Aspect</strong> fiélon</p>\n<p><strong>Prérequis</strong> La relique est une arme</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Déclencheur</strong> Votre Frappe avec votre relique inflige des dégâts à une créature dans les 18 mètres</p>\n<hr />\n<p><strong>Effet</strong> Le mal qui imprègne votre relique maudit la blessure de votre ennemi de sorte à ce qu'il ne puisse pas guérir. la créature déclencheuse doit réussir un jet de @Check[will|against:class-spell] ou être incapable de récupérer les Points de vie perdus à cause de cette Frappe jusqu'à ses prochains préparatifs quotidiens. Si vous utilisez Plaie maudite sur une créature déjà affectée par cette capacité, cela met un terme à l'effet précédent.</p>"
+        },
+        "Quickening Emotion": {
+            "name": "Quickening Emotion (Émotion accélératrice)",
+            "description": "<p><strong>Aspect</strong> émotion</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">R</span> (concentration)</p>\n<p><strong>Déclencheur</strong> Vous êtes la cible d'un effet d'émotion par une source hostile.</p>\n<hr />\n<p><strong>Effet</strong> La relique tente un test de @Check[type:class-spell]{contre}. Si le test est un succès, la relique absorbe l'effet complètement et l'annule. À la place, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Accéléré} jusqu'à 1 minute, mais pas plus longtemps que la durée de l'effet déclencheur. Vous êtes alors temporairement immunisé contre cet effet pendant 1 heure.</p>"
+        },
+        "Dragon Strike": {
+            "name": "Dragon Strike (Frappes de dragon)",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">1</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Des images fantomatique de griffes de dragon se forme autour de vos mains et reste dans les airs lorsque vous attaquez. Pendant 1 minute, lorsque vous réussissez une Frappe au corps-à-corps à mains nues, vous infligez 1d6 dégâts tranchants supplémentaires. Au niveau 11, vous pouvez utiliser cette capacité une fois toutes les 10 minutes à la place d'une fois par heure.</p>\n<hr />\n<p>@UUID[Compendium.pf2e-relics.relic-effects.Item.3jptXZxp07IJejPX]{Recharge : Frappes de dragon}</p>"
+        },
+        "Dark Roads": {
+            "name": "Dark Roads (chemins obscurs)",
+            "description": "<p><strong>Aspect</strong> ombre</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Votre relique crée un chemin entre votre ombre et une autre ombre proche, vous téléportant, avec tous les objets que vous portez et que vous tenez, de votre espace actuel à un espace inoccupé dans un rayon de 9 mètres que vous pouvez voir. Vous ne pouvez utiliser de nouveau ce bienfait avant [[/r 1d4 #Recharge des chemins obscurs]]{1d4 rounds}.</p>\n<p>Si la destination n'est pas située dans une zone de lumière vive, la portée est de 18 mètres. Le bienfait échoue automatiquement si cela devrait entraîner une autre créature avec vous (même si vous la transportez dans un contenant extradimensionnel)</p>"
+        },
+        "Breath of Dragons (Black)": {
+            "name": "Breath of Dragons (Black) (Souffle des dragons (noir))",
+            "description": "<p><strong>Aspect</strong> dragon</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration)</p>\n<hr />\n<p><strong>Effet</strong> Vous soufflez une ligne d'énergie. Vous infligez @Damage[(2*max(1,floor((@actor.level)/2)))d6[acid]|options:area-damage]{2d6 dégâts d'acide} par tranche de 2 niveaux que le germe d'âme possède à toutes les créatures sur une @Template[type:line|distance:80]{ligne de 24 mètres}, avec un jet de @Check[type:reflex|against:class-spell|basic|options:area-effect].</p>"
+        },
+        "Propelling Winds": {
+            "name": "Propelling Winds (Vents propulseurs)",
+            "description": "<p><strong>Aspect</strong> air</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (concentration, manipulation)</p>\n<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> La relique lance @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Vol} en vous prenant pour cible.</p>"
+        },
+        "Ease Burden": {
+            "name": "Ease Burden (Alléger le fardeau)",
+            "description": "<p><strong>Aspect</strong> terre</p>\n<hr />\n<p>Votre relique tire sa force de la terre sous vos pieds pour alléger votre charge. Tant que votre relique est sur votre personne et que vous vous tenez sur le sol, vous pouvez porter 1 Encombrement de plus que la normale avant d'être Surchargé et vous augmentez votre Encombrement maximal de 2. Au niveau 6 et tous les 4 niveaux par la suite, augmentez l'Encombrement que vous pouvez transporter avant de devenir Surchargé de 1 et votre Encombrement maximum de 2.</p>"
+        },
+        "All Will Decay": {
+            "name": "All Will Decay (Tout se décomposera)",
+            "description": "<p><strong>Aspect</strong> métal</p>\n<p>Le lien entre votre relique et le Plan du métal la connecte à l'inévitabilité de la rouille et de la décomposition. Vous pouvez lancer @UUID[Compendium.pf2e.spells-srd.Item.yy2K51kK3a60rRIe]{Nuage de rouille} au rang 5 à volonté comme un sort inné.</p>\n<p><strong>Activation</strong> <span class=\"action-glyph\">2</span> (aura, concentration)</p>\n<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Un nuage de flocon de rouille tourbillonne autour de vous, créant une @Template[emanation|distance:15]{émanation de 4,50 mètres} qui dure pendant 1 minute. Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} pour toutes les créatures à l'extérieur du nuage. Un ennemi qui débute son tour dans le nuage subit @Damage[15[slashing]]{15 dégâts tranchants} avec un jet de @Check[fortitude|against:class-spell|basic]. Si la cible possède le trait métal ou si elle est principalement faite de métal, les dégâts sont de @Damage[30[slashing]]{30} au lieu de 15. Les objets non-magiques non tenus en métal qui se trouvent dans le nuage sont @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Brisés} automatiquement.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    },
+    "folders": {
+        "Air": "Air",
+        "Apothecary's Garden": "Jardin de l'apothicaire",
+        "Artistry": "Talent artistique",
+        "Beast": "Bêtes",
+        "Breath of Dragons": "Souffle de dragons",
+        "Celestial": "Céleste",
+        "Dancing Shadow": "Ombre dansante",
+        "Death": "Mort",
+        "Dragon": "Dragon",
+        "Earth": "Terre",
+        "Emotion": "Émotion",
+        "Encompassing Darkness": "Ténèbres enveloppantes",
+        "Fiends": "Fiélons",
+        "Fire": "Feu",
+        "Forge": "Forge",
+        "Grand Gifts": "Grand bienfait",
+        "Intelligent Relic Gifts": "Bienfaits des reliques intelligentes",
+        "Life": "Vie",
+        "Luck": "Chance",
+        "Major Gifts": "Bienfaits majeurs",
+        "Metal": "Métal",
+        "Mind": "Esprit",
+        "Minor Gifts": "Bienfaits mineurs",
+        "Plant": "Plante",
+        "Shadow": "Ombre",
+        "Soul": "Âme",
+        "Time": "Temps",
+        "Water": "Eau"
+    }
+}

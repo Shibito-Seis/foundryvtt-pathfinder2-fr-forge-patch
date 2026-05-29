@@ -1,0 +1,1803 @@
+{
+    "label": "Bestiaire Saison 7 pfs",
+    "entries": {
+        "Kizrech (11-12)": {
+            "name": "Kizrech (11-12)",
+            "blurb": "Général vordine asexué",
+            "languages": "Télépathie 30 mètres",
+            "saves": "Bonus de statut de +1 aux jets de sauvegarde contre la magie",
+            "items": {
+                "FPs9Bi34nso7qlCA": {
+                    "name": "Trident of Dis (Trident de Dis)",
+                    "description": "<p>Kizrech effectue une Frappe de trident, augmentant son allonge de 3 mètres pour cette Frappe. Si un allié impie se tient entre Kizrech et sa cible ou si Kizrech chevauche une créature impie, l'énergie de cette créature impie provoque 1d8 dégâts spirituels supplémentaires sur la Frappe. </p>"
+                },
+                "TVLTSMr5ZBcGgKjJ": {
+                    "name": "Hoof (Sabot)"
+                },
+                "WLvdIhprj7cd1ha4": {
+                    "name": "Translocate (At Will) (Translocation (À volonté))"
+                },
+                "Xk3dgpxZ0YER08J8": {
+                    "name": "Returning Unholy Trident (Trident impie boomerang)"
+                },
+                "co2oaEEUO9ejhVbc": {
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>\n<p>Kizrech peut utiliser cette réaction pour empêcher sa monture de subir des dégâts à sa place, suivant les règles normales du Blocage au bouclier.</p>"
+                },
+                "coNa4wAvlNgz8Q2l": {
+                    "name": "Burning Hoofprints (Empreintes enflammées de sabots)",
+                    "description": "<p>Kizrech Marche rapidement, laissant des empreintes de sabots dans chaque case qu'il quitte. Les empreintes brûlent pendant 1 minute. Une créature au sol qui entre dans une case avec des empreintes de sabots brûlantes ou qui commence son tour dans une telle case subit @Damage[1d6[fire]]{1d6 dégâts de feu}. Kizrech peut utiliser cette capacité tout en chevauchant une créature fiélonne, affectant jusqu'à 9 mètres d'empreintes de sabots contiguës de la Marche rapide de sa monture ; cette traînée fait 3 mètres de large pour une monture de taille Grande, ou 4,50 mètres de large pour une monture de taille Très grande.</p>"
+                },
+                "dZF46p1pFpGeRCMJ": {
+                    "name": "Divine Innate Spells (Sorts innés divins)"
+                },
+                "eFSn04VHXskAZuk0": {
+                    "name": "Infernal Command (Commande infernale)",
+                    "description": "<p><strong>Déclencheur</strong> Un ennemi dans un rayon de 9 mètres autour de Kizrech lui inflige des dégâts, ou à sa monture</p>\n<hr />\n<p><strong>Effet</strong> Kizrech ordonne à son ennemi de s'agenouiller devant lui. L'ennemi déclencheur doit choisir de soit tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} en tant qu'action libre, soit subir @Damage[3d6[mental]]{3d6 dégâts mentaux}.</p>"
+                },
+                "jMgnwHMPjY4M0KeC": {
+                    "name": "Divine Focus Spells (Sorts divins focalisés)"
+                },
+                "km7leU6HupTrnw62": {
+                    "name": "Mounted Force (Puissance montée)",
+                    "description": "<p>Lorsqu'il est monté sur une créature fiélonne, le trident de Kizrech bénéficie déclencheuse traits joute 1d8 et jet 18 mètres, et Kizrech ainsi que sa monture augmentent chacun leur niveau de 1 lorsqu'ils résolvent des effets de mise hors combat.</p>"
+                },
+                "nNOdXm0WI7BDz31x": {
+                    "name": "Returning Unholy Trident (Trident impie boomerang)"
+                },
+                "qvOjS82LRQAcCMUx": {
+                    "name": "Warfare Lore (Connaissance de la guerre)"
+                },
+                "vrKcrtDYg36TA2Gz": {
+                    "name": "Charm of Cold Resistance (Charme de résistance contre le froid)"
+                }
+            }
+        },
+        "Duty's Soulshackle": {
+            "name": "Duty's Soulshackle (Entrave des âmes du Devoir)",
+            "desc (hazard)": "<p>Une portion de colonne vertébrale humanoïde est fixée à un bâton par une chaîne munie de crochets, plantée et enroulée autour d'elle. D'autres chaînes spectrales, faites d'ombre pure, la maintiennent en l'air et l'enlacent sinueusement.</p>",
+            "disable": "<p>@Check[arcana|dc:20], @Check[occultism|dc:20] ou @Check[religion|dc:20] (qualifié) pour interrompre les énergies spectrales canalisées par l'objet intelligent. Chaque succès réduit de 1 le nombre d'actions de la hantise. Lorsque la hantise n'a plus d'actions, elle est neutralisée.</p>",
+            "routine": "<p>(trois actions) Lors de son initiative, l'Entrave des âmes du Devoir utilise d'abord Appel au service s'il le peut et dépense les actions restantes pour effectuer des frappes de chaînes velstrac contre ses ennemis.</p>",
+            "stealth": "<p>(expert); remarquer le bâton a un DD de 0.</p>",
+            "items": {
+                "PMq6dV0yzrSd6xx3": {
+                    "name": "Call to Serve (Appel au service)",
+                    "description": "<p><em>L'Entrave des âmes du Devoir</em> crée un @UUID[Compendium.pf2e.pfs-season-7-bestiary.Actor.ckZ7eHNCFNP6ddiO]{Feuille racornie de Talhindir} à 3 mètres de lui. Il ne peut ensuite plus utiliser cette action pendant [[/gmr 1d6 #rounds]]{1d6 rounds}.</p>"
+                },
+                "nkoTyUCfCvVnSYUq": {
+                    "name": "Chained by Duty (Enchaîné par le devoir)",
+                    "description": "<p><strong>Déclencheur</strong> Lyari propose un moyen de la libérer de <em>L'Entrave des âmes du Devoir</em>.</p>\n<hr />\n<p><strong>Effet</strong> <em>L'Entrave des âmes du Devoir</em> tremble de rage avant de libérer davantage de chaînes spectrales. Puis, la hantise détermine l'initiative.</p>"
+                },
+                "s55PFg7RWxyaEgTg": {
+                    "name": "Velstrac Chains (Chaînes velstrac)"
+                }
+            }
+        },
+        "Demonologist": {
+            "name": "Demonologist (Démonologiste)",
+            "description": "<p>Le démonologiste peut attirer une créature hors des Failles extérieures et la plier à sa volonté... du moins pour un temps limité.</p>\n<hr />\n<p>Les secrets cachés et les pouvoirs occultes exercent un attrait irrésistible pour beaucoup. Comme la majorité de ces PNJ sont des incantateurs, vous pouvez envisagez d'utiliser des listes de sorts alternatives pour ajuster leurs thèmes.</p>",
+            "DiplomacyVariants": {
+                "0": {
+                    "label": "avec des démons"
+                }
+            },
+            "items": {
+                "8Xoqtmerpdbx1Rgu": {
+                    "name": "Fist (Poing)"
+                },
+                "Cu79oDJClJ9C9Reu": {
+                    "name": "Demon Lore (Connaissance des démons)"
+                },
+                "VJxxeLCAgKz1s9HI": {
+                    "name": "Demonic Temptation (Tentations démoniaques)",
+                    "description": "<p>L'étude de démonologie a attiré l'attention d'au moins un démon qui tente activement de posséder le démonologiste. Lorsque celui-ci vante publiquement les bénéfices des pouvoirs démoniaques (qu'il y croie ou non), il obtient un bonus de statut de +1 aux tests de compétence, à la CA et aux jets de sauvegarde pendant 1 jour. Ces bonus ne s'appliquent pas contre les démons. À la fin de la journée, le démonologiste doit tenter un jet de @Check[volonté|dd:20]. En cas d'échec, il se retrouve possédé pendant 1 jour (ou définitivement en cas d'échec critique).</p>"
+                },
+                "cah7DtpiMX62b2rT": {
+                    "name": "Longspear (Pique)"
+                },
+                "ldL413k00pgvZnif": {
+                    "name": "Fiendish Hypotheses and Protections from Same (Spellbook) (Fiélons: Hypothèses et protections de ces créatures (Grimoire))"
+                },
+                "naPxWIBQxbkOgD8M": {
+                    "name": "Breach the Outer Rifts (Fracture des Failles extérieures)",
+                    "description": "<p><strong>Conditions</strong> La dernière action du démonologiste a consisté à incanter un sort autre qu'un tour de magie</p>\n<hr />\n<p><strong>Effet</strong> Le démonologiste canalise l'énergie des Failles extérieures dans son arme. Jusqu'à la fin du tour, l'arme inflige 2d6 dégâts supplémentaires. Lancez 1d20 pour déterminer le type : 1-7 acide, 8-9 froid, 10-11 électrique, 12-18 feu, 19-20 vide.</p>"
+                },
+                "rcJ4W5TkvDrGFTF2": {
+                    "name": "Arcane Prepared Spells (Sorts arcaniques préparés)"
+                },
+                "rskoGYiEEGDi0ngN": {
+                    "name": "Academia Lore (Connaissance universitaire)"
+                },
+                "ryVaqSZq9cQ7wPix": {
+                    "name": "Robes",
+                    "description": "<p>Les vêtements d'explorateur sont suffisamment robustes pour être renforcés afin de vous protéger, même s'il ne s'agit pas d'une armure. Ils se présentent sous de nombreuses formes, bien que les types les plus courants ressemblent à des vêtements sacerdotaux, des habits de moine ou des robes de magicien, car les membres de ces trois classes sont susceptibles d'éviter de porter une armure.</p>"
+                },
+                "xS8f6u8VDcBepVGM": {
+                    "name": "Demon Summoning (Convocation de démon)",
+                    "description": "<p>Le démonologiste peut incanter le sort arcanique @UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff]{Convocation de fiélon} au rang 5 pour convoquer un @UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.ANptV6ltBi9C3P1l]{Nucol}. Pour cela, il doit sacrifier deux sorts préparés de rang 4 et subir volontairement @Damage[4d12[mental]]{4d12 dégâts mentaux} qui ne peuvent pas être réduits ou évités.</p>\n<p>Si le démonologiste est incapable de @UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]{Maintenir le sort}, s'il est assommé ou tué par exemple, le sort continue mais le MJ fait un test @Check[flat|dc:10] à chaque tour, mettant fin au sort en cas d'échec.</p>"
+                }
+            }
+        },
+        "Torn Trio": {
+            "name": "Torn Trio (Trio déchiré)",
+            "blurb": "Variante affaiblie de Quatuor déchité",
+            "hpdetails": "Guérison du vide",
+            "languages": "(Ne peut parler aucune langue)",
+            "items": {
+                "7zBy716qoQu0GqBE": {
+                    "name": "Reactive Strike (See Split Reactions) (Frappe réactive (Voir Réactions à la seconde))"
+                },
+                "FAyA7DAYT3DbBGga": {
+                    "name": "Limb (Membre)"
+                },
+                "G0TqPWbj2hoTfeWJ": {
+                    "name": "Flurry of Limbs (Déluge de membres)",
+                    "description": "<p>Le trio déchiré effectue un certain nombre de Frappes de membre pouvant atteindre le nombre de ses membres fonctionnels, chacune contre une cible différente. Ces attaques comptent dans le calcul de la pénalité d'attaques multiples du trio déchiré, mais la pénalité n'augmente qu'une fois toutes les attaques effectuées.</p>"
+                },
+                "XlSPUiZ7swOb3uMB": {
+                    "name": "Bound Limbs (Membres rattachés)",
+                    "description": "<p>Un trio déchiré possède généralement quatre membres sectionnés, reliés à un point central par des liens quasi intangibles. Un membre est définitivement séparé du point central et devient non fonctionnel chaque fois que le trio déchiré perd 60 Points de Vie (ainsi, à 120 PV il possède trois membres fonctionnels, à 120 PV deux, et ainsi de suite). Chaque membre fonctionnel peut @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} une créature distincte à portée, ou plusieurs membres fonctionnels peuvent Saisir la même créature. Pour chaque membre supplémentaire utilisé pour Saisir une créature, le DD pour lui @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Échapper} augmente de 2.</p>"
+                },
+                "YjtZAfYKCsCb88yD": {
+                    "name": "Split Reactions (Réactions à la seconde)",
+                    "description": "<p>Un trio déchiré possède un nombre de réactions par round égal au nombre de ses membres encore fonctionnels, qu'il ne peut utiliser que pour effectuer des Frappes réactives. Il ne peut pas utiliser plus d'une réaction sur la même action déclencheuse, même si une créature quitte plusieurs cases dans son allonge et le trio déchiré doit utiliser un membre différent pour chaque Frappe réactive qu'il effectue. Chaque fois qu'un membre du trio déchiré est rendu non fonctionnel, le trio déchiré perd une de ses réactions.</p>"
+                },
+                "hAOi8fSz7gYtKE2Z": {
+                    "name": "Void Healing (Guérison du vide)"
+                },
+                "hFgGN1jjJQY5dlJm": {
+                    "name": "Tear Asunder (Écarter et déchirer)",
+                    "description": "<p><strong>Conditions</strong> Le trio déchiré a une créature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} par au moins deux membres</p>\n<hr />\n<p><strong>Effet</strong> La créature subit @Damage[(5d6+2)[slashing]]{5d6+2 dégâts tranchants} pour chaque membre actuellement en train de l'Agripper ou de l'Entraver (maximum 15d6) (@Check[fortitude|dc:30|basic]). Si elle obtient un échec critique, la créature perd également une partie aléatoire de son corps et l'un des membres du trio déchiré cesse de l'Agripper ou de l'Entraver.</p>"
+                },
+                "uJDdqEktyz3QrEXu": {
+                    "name": "Replacement Parts (Remplacer des membres)",
+                    "description": "<p>Un trio déchiré peut passer 1 minute à déchirer le cadavre d'une créature humanoïde tuée au cours de la dernière heure pour récupérer 60 Points de vie et restaurer l'un de ses membres non fonctionnels. Un trio déchiré ne peut pas posséder plus de trois membres.</p>"
+                }
+            }
+        },
+        "Lesser Marsh Giant": {
+            "name": "Lesser Marsh Giant (Géant des marais inférieur)",
+            "description": "<p>Vivant dans les marais salants des côtes et dans les tourbières fétides, ces géants ont une apparence hideuse avec une bouche de poisson, une peau visqueuse gris-vert et de gros yeux sombres et globuleux. Ils préfèrent manger la chair de ceux qu'ils tuent au combat, y compris d'autres géants des marais, et s'abreuvent d'eau stagnante dans des chaudrons ou directement dans leurs maisons marécageuses.</p>\n<p>Les clans de géants des marais sont insulaires, chaque clan se consacrant à l'adoration zélée d'une divinité marine, d'un seigneur démoniaque ou d'une entité étrangère. Quelles que soient les forces qui appellent les géants des marais, il arrive que les bourbiérins et les ogres soient également pris au piège et se rassemblent pour rendre un culte sinistre. Plutôt que de privilégier ces humanoïdes, les géants des marais s'intéressent à leurs animaux de compagnie : krooths, pieuvres géantes ou créatures primitives telles que les dinosaures et les crocodiliens deinosuchus.</p>\n<p>Atteignant une taille d'à peine 3,3 mètres et pesant environ 500 kilos, les géants des marais sont assez petits pour des géants, mais ils compensent cette stature relativement frêle par leur fanatisme.</p>\n<hr />\n<p>Les géants sont des créatures humanoïdes massives qui vivent aux quatre coins du monde, dans des régions reculées. Les géants sont très différents les uns des autres, mais ils sont unis par leur faim, car ils ont besoin d'être nourris de leur propre élément, en plus des festins que l'on attend d'un humanoïde aussi massif. Bien qu'il s'agisse d'une question simple pour certains géants, les types plus ésotériques trouvent que ce besoin est une dure réalité. Alors qu'une énorme poignée de glace ou de neige accompagne le repas d'un géant du givre, les géants de l'ombre ont faim des ombres coagulées du Nébulmonde.</p>",
+            "items": {
+                "EF6jFpXwBUM3i2gf": {
+                    "name": "Fist (Poing)"
+                },
+                "SOapd5GiFsybvQAC": {
+                    "name": "Occult Innate Spells (Sorts innés occultes)"
+                },
+                "UPUXBFdc12OlpoBV": {
+                    "name": "Gaff (Gaffe)"
+                },
+                "eoLK3mAvvXiMTLnH": {
+                    "name": "Twist the Hook (Torsion du crochet)",
+                    "description": "<p>Le géant effectue une Frappe au corps-à-corps avec sa gaffe. S'il touche, il remue sa gaffe pour mettre la créature @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et infliger une blessure atroce, infligeant @Damage[2d4[bleed]]{2d4 dégâts de saignement} à la créature.</p>"
+                },
+                "huY2kc7XivnkykqV": {
+                    "name": "Spit (Crachat)"
+                },
+                "vVucSfThIT1iEEjO": {
+                    "name": "Drowning Hook (Gaffe de noyade)",
+                    "description": "<p><strong>Conditions</strong> Une créature qui est @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} se situe dans l'allonge du géant des marais.</p>\n<hr />\n<p><strong>Effet</strong> Le géant des marais utilise sa gaffe pour maintenir la créature sous l'eau. La cible est submergée dans l'eau jusqu'à ce qu'elle ne soit plus À terre. Tant qu'elle est sous la surface de l'eau et qu'elle est incapable de respirer sous l'eau, la créature doit retenir sa respiration. Elle subit @Damage[2d10[bludgeoning]]{2d10 dégâts contondants} (@Check[fortitude|dc:21|basic]). Si la créature obtient un échec à son jet de sauvegarde, elle perd l'équivalent de 3 rounds d'air.</p>"
+                },
+                "zkvNDt3HOWSmCOid": {
+                    "description": "<p>De nombreux géants des marais combattent muni d'une gaffe, un bois d'une longueur surdimensionnée avec une seule pointe métallique fixée à l'extrémité. Souvent utilisées par les pêcheurs pour attraper les poissons, les géants des marais utilisent leurs gaffes comme armes.</p>"
+                }
+            }
+        },
+        "Kizrech": {
+            "name": "Kizrech",
+            "blurb": "Général vordine asexué",
+            "languages": "Télépathie 30 mètres",
+            "saves": "Bonus de statut de +1 aux jets de sauvegarde contre la magie",
+            "items": {
+                "FPs9Bi34nso7qlCA": {
+                    "name": "Trident of Dis (Trident de Dis)",
+                    "description": "<p>Kizrech effectue une Frappe de trident, augmentant son allonge de 3 mètres pour cette Frappe. Si un allié impie se tient entre Kizrech et sa cible ou si Kizrech chevauche une créature impie, l'énergie de cette créature impie provoque 1d8 dégâts spirituels supplémentaires sur la Frappe. </p>"
+                },
+                "TVLTSMr5ZBcGgKjJ": {
+                    "name": "Hoof (Sabot)"
+                },
+                "WHcrbPPmC96tjl0w": {
+                    "name": "Divine Focus Spells (Sorts divins focalisés)"
+                },
+                "WLvdIhprj7cd1ha4": {
+                    "name": "Translocate (At Will) (Translocation (À volonté))"
+                },
+                "Xk3dgpxZ0YER08J8": {
+                    "name": "Returning Unholy Trident (Trident impie boomerang)"
+                },
+                "co2oaEEUO9ejhVbc": {
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>\n<p>Kizrech peut utiliser cette réaction pour empêcher sa monture de subir des dégâts à sa place, suivant les règles normales du Blocage au bouclier.</p>"
+                },
+                "coNa4wAvlNgz8Q2l": {
+                    "name": "Burning Hoofprints (Empreintes de sabots brûlantes)",
+                    "description": "<p>Kizrech Marche rapidement, laissant des empreintes de sabots dans chaque case qu'il quitte. Les empreintes brûlent pendant 1 minute. Une créature au sol qui entre dans une case avec des empreintes de sabots brûlantes ou qui commence son tour dans une telle case subit @Damage[1d6[fire]]{1d6 dégâts de feu}. Kizrech peut utiliser cette capacité tout en chevauchant une créature fiélonne, affectant jusqu'à 9 mètres d'empreintes de sabots contiguës de la Marche rapide de sa monture ; cette traînée fait 3 mètres de large pour une monture de taille Grande, ou 4,50 mètres de large pour une monture de taille Très grande.</p>"
+                },
+                "dZF46p1pFpGeRCMJ": {
+                    "name": "Divine Innate Spells (Sorts innés divins)"
+                },
+                "eFSn04VHXskAZuk0": {
+                    "name": "Infernal Command (Commande infernale)",
+                    "description": "<p><strong>Déclencheur</strong> Un ennemi dans un rayon de 9 mètres autour de Kizrech lui inflige des dégâts, ou à sa monture</p>\n<hr />\n<p><strong>Effet</strong> Kizrech ordonne à son ennemi de s'agenouiller devant lui. L'ennemi déclencheur doit choisir de soit tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} en tant qu'action libre, soit subir @Damage[3d6[mental]]{3d6 dégâts mentaux}.</p>"
+                },
+                "km7leU6HupTrnw62": {
+                    "name": "Mounted Force (Puissance montée)",
+                    "description": "<p>Lorsqu'il est monté sur une créature fiélonne, le trident de Kizrech bénéficie déclencheuse traits joute 1d8 et jet 18 mètres, et Kizrech ainsi que sa monture augmentent chacun leur niveau de 1 lorsqu'ils résolvent des effets de mise hors combat.</p>"
+                },
+                "nNOdXm0WI7BDz31x": {
+                    "name": "Returning Unholy Trident (Trident impie boomerang)"
+                },
+                "qvOjS82LRQAcCMUx": {
+                    "name": "Warfare Lore (Connaissance de la guerre)"
+                },
+                "vrKcrtDYg36TA2Gz": {
+                    "name": "Charm of Cold Resistance (Charme de résistance contre le froid)"
+                }
+            }
+        },
+        "Naiad Ship Hunter": {
+            "name": "Naiad Ship Hunter (Chasseur de navires naïade)",
+            "description": "<p>Les chasseurs de primes sont constamment en mouvement, que ce soit dans les murs d'une cité ou les étendues sauvages, traquant leurs proies fugitives pour les capturer... ou les éliminer. Recourant aussi souvent à la discrétion et à la tromperie qu'à leurs talents martiaux, ces chasseurs déploient un large éventail de compétences pour accomplir leurs missions et empocher de juteuses récompenses.</p>\n<hr />\n<p>Qu'ils soient engagés pour faire la guerre, protéger une caravane ou infiltrer une forteresse réputée impénétrable, les mercenaires ne manquent pas de travail à travers tout Golarion.</p>",
+            "blurb": "Variant chasseur de primes",
+            "items": {
+                "0odn31BhTvalgovA": {
+                    "name": "Aqueous Boarding Pike (Pique d'abordage aqueuse)"
+                },
+                "LvkfpNccs65oqyIV": {
+                    "name": "Precision Edge (Précision avantageuse)",
+                    "description": "<p>À chacun de ses tours, le chasseur de navires naïade inflige 1d8 dégâts de précision supplémentaires lors de sa première Frappe réussie contre la proie chassée.</p>"
+                },
+                "NOsEnDWrZNe5mjC0": {
+                    "name": "Water Orb (Orbe d'eau)"
+                },
+                "bolEEyhGC8YjlLhQ": {
+                    "name": "Animal Empathy (Empathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions aux animaux, recevoir des réponses de leur part et utiliser la compétence Diplomatie avec eux.</p>"
+                },
+                "mCWRIeeB6PFExTmR": {
+                    "name": "Hunt Prey (Chasser une proie)",
+                    "description": "<p>Le chasseur de navires naïade désigne comme sa proie une unique créature qu'il peut voir et entendre ou qu'il Piste. Il obtient un bonus de circonstances de +2 aux tests de Perception quand il @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Cherche} sa proie, aux tests de Survie quand il la @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Piste} et aux tests de Diplomatie pour @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Recueillir des information} sur cette proie. Ces effets s'appliquent jusqu'à ce qu'il utilise de nouveau Chasser une proie.</p>"
+                },
+                "yEaUAKruElpCN6zI": {
+                    "name": "Posse's Edge (Avantage de la bande)",
+                    "description": "<p>Le chasseur de navires naïades et ses alliés obtiennent un bonus de circonstances de +1 sur leurs jets d'initiative si l'adversaire inclut sa proie chassée.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.m1Vd997DEVoOeaJu]{Effet : Avantage de la bande}</p>"
+                }
+            }
+        },
+        "In a Right Pickle": {
+            "name": "In a Right Pickle (Vraiment dans la mouise)",
+            "desc (hazard)": "<p>Un brasier noirci de suie brille d'une lumière démoniaque, des ombres vacillant à l'intérieur.</p>",
+            "disable": "<p>@Check[arcana|dc:21], @Check[occultism|dc:21] ou @Check[religion|dc:21] à moins de 4,50 mètres du brasier pour lui ordonner de s'arrêter, réduisant ses actions de 1 (ou 2 sur un succès critique) ; @Check[thievery|dc:23] pour trouver le commutateur caché sur le brasier qui le désactive ; ou n'importe quel sort avec le trait eau ou lumière de rang 1, contre DD 20, pour dissiper les ombres enflammées dans une case.</p>",
+            "reset": "<p>Les flammes cessent 1 minute après que toutes les créatures vivantes ont quitté la zone, mais après 1 heure, un puits d'obscurité remplit le brasier et il est prêt à se déclencher à nouveau.</p>",
+            "routine": "<p>(4 actions) Le piège enflamme des ombres dans une @Template[line|distance:5]{case de 1,50 mètre} dans la zone de la pièce. Une créature qui entre ou termine son tour dans ce feu subit @Damage[(2d6+5)[fire]]{2d6+5 dégâts de feu} (@Check[fortitude|dc:19|basic]). Augmentez le DD de 2 si la créature est dans des ténèbres magiques (@Check[fortitude|dc:21|basic]).</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "CwJWB3RDmuPPzpM2": {
+                    "name": "Flames of Caina (Flammes de Caina)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature vivante entre dans la zone</p>\n<hr />\n<p><strong>Effet</strong> Les ombres bouillonnent dans le brasier. Il lance @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Ténèbres} sur lui-même, puis détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Naiad Water Guardian": {
+            "name": "Naiad Water Guardian (Gardien aquatique naïade)",
+            "description": "<p>Le shérif renégat est convaincu que la fin justifie les moyens et n'hésite pas à utiliser les autres pour son propre profit, que ce soit par la corruption, la manipulation ou la force.</p>\n<hr />\n<p>Ces loups solitaires dégagent une aura de mystère, de bravade et de confiance en soi.</p>",
+            "blurb": "Variante de shérif rénégat",
+            "items": {
+                "20d8PebGz6J8zRAT": {
+                    "name": "Animal Empathy (Emathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions, recevoir des réponses et utiliser la compétence Diplomatie avec les animaux.</p>"
+                },
+                "6U8PkkS2LIhiy5C1": {
+                    "name": "Aqueous Fist (Poing aqueux)"
+                },
+                "9HmFx6yfyclmglMz": {
+                    "name": "Water Orb (Orbe aqueuse)"
+                },
+                "CYx6PDHf6ppok3ro": {
+                    "name": "At My Command (À mes ordres)",
+                    "description": "<p><strong>Conditions</strong> La dernière action du gardien aquatique naïade ce tour-ci était une Frappe réussie contre une créature dans un rayon de 9 mètres</p>\n<hr />\n<p><strong>Effet</strong> Le naïade crie un ordre à la créature qu'il a touchée. La cible doit réussir un jet de @Check[will|dc:22] ou consacrer sa première action de son prochain tour à obéir à l'ordre (ou toutes ses actions lors de son prochain tour sur un échec critique). Le naïade peut ordonner à une créature de s'approcher de lui, de lâcher ce qu'elle tient ou de tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. Quel que soit le résultat de son jet de sauvegarde, la créature est temporairement immunisée pendant 10 minutes.</p>"
+                },
+                "eIUanT7fEcq1jBAo": {
+                    "name": "Aqueous Spear (Lance aqueuse)"
+                }
+            }
+        },
+        "Bartolo Posandi (3-4)": {
+            "name": "Bartolo Posandi (3-4)",
+            "blurb": "Garde du corps humain mâle",
+            "items": {
+                "3VGxXH5zycKTay0Q": {
+                    "name": "Longsword (Épée longue)"
+                },
+                "7e6GRUALYf5VWbaN": {
+                    "name": "Retributive Strike (Frappe punitive)",
+                    "description": "<p><strong>Déclencheur</strong> Un ennemi inflige des dégâts à un allié de Bartolo, et tous deux se tiennent à 4,50 mètres de Bartolo</p>\n<hr />\n<p>Bartolo protège son allié et Frappe l'ennemi. L'allié obtient une résistance 5 contre les dégâts déclencheurs. Si l'ennemi est dans l'allonge de Bartolo, il effectue une Frappe contre lui.</p>"
+                },
+                "ZYApjt2LHvyo1bJN": {
+                    "name": "Fist (Poing)"
+                },
+                "aL02VqRkmLi4byoh": {
+                    "name": "Living Shield (Bouclier vivant)",
+                    "description": "<p>Bartolo saisit une créature et l'utilise comme un bouclier, bénéficiant d'un bonus de circonstances de +2 à la CA et de la réaction Blocage au bouclier tant que la créature est agrippée. Utilisez le niveau de la créature plus le bonus d'objet à la CA (le cas échéant) comme sa Dureté.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Xu7QxeF9S8ysJpuI]{Effet : Bouclier vivant}</p>"
+                },
+                "hwp7cKCR2nZLzrd1": {
+                    "name": "Shield Block (See Living Shield) (Blocage au bouclier (Voir Bouclier vivant))"
+                }
+            }
+        },
+        "Scaling the Chain": {
+            "name": "Scaling the Chain (Balade sur la chaîne)",
+            "desc (hazard)": "<p>Les PJ apparaissent sur un gigantesque mur de chaînes crochues suspendues dans une brume grise tourbillonnante. Les chaînes irradient une énergie glaçante. Des cris d'innocence et de condamnation résonnent dans la brume en elfique. Un plan de lumière situé 3 mètres au-dessus ondule et tournoie tout en reflétant faiblement les PJ en dessous, mais les reflets déforment et altèrent les PJ pour leur donner un teint terreux semblable à celui des morts-vivants.</p>",
+            "disable": "<p>Un PJ qui est monté jusqu'au plan de lumière (@Check[athletics|dc:13] pour Escalader ; en cas d'échec critique, le PJ chute de 3 mètres avant d'être saisi par une chaîne) peut tenter un test de @Check[thievery|dc:18] pour perturber le plan ou un test d'@Check[arcana|dc:18], d'@Check[occultism|dc:18] ou de @Check[religion|dc:18] pour perturber rituellement la hantise. Chaque succès réduit de 1 le nombre d'actions de la hantise. Lorsque la hantise n'a plus d'actions, elle est désactivée et les PJ retournent tous à la zone <strong>B3</strong>.</p>",
+            "reset": "<p>La hantise se réinitialise la prochaine fois que <em>L'Entrave des âmes</em> piège des créatures dans la bibliothèque.</p>",
+            "routine": "<p>(trois actions) Les chaînes s'agitent et gémissent de façon sinistre autour de deux créatures aléatoires différentes piégées dans la hantise, infligeant @Damage[(1d6+2)[void]]{1d6+2 dégâts de vide} (@Check[will|dc:16|basic] pour réduire les dégâts de moitié).</p>",
+            "stealth": "<p>(Qualifié)</p>",
+            "items": {
+                "OnXHTmF4xdwx2axb": {
+                    "name": "The Pain of Devotion (La douleur de la dévotion)",
+                    "description": "<p><strong>Déclencheur</strong> La hantise Chassés par les chaînes est désactivée</p>\n<hr />\n<p><strong>Effet</strong> Les chaînes s'agitent de façon sinistre, infligeant @Damage[(1d6+2)[void]]{1d6+2 dégâts de vide} à toutes les créatures dans la hantise (@Check[will|dc:16|basic] pour réduire les dégâts de moitié). La hantise détermine ensuite l'initiative.</p>"
+                }
+            }
+        },
+        "Bartolo Posandi": {
+            "name": "Bartolo Posandi",
+            "blurb": "Garde du corps humain mâle",
+            "items": {
+                "3VGxXH5zycKTay0Q": {
+                    "name": "Longsword (Épée longue)"
+                },
+                "7e6GRUALYf5VWbaN": {
+                    "name": "Retributive Strike (Frappe punitive)",
+                    "description": "<p><strong>Déclencheur</strong> Un ennemi inflige des dégâts à un allié de Bartolo, et tous deux se tiennent à 4,50 mètres de Bartolo</p>\n<hr />\n<p>Bartolo protège son allié et Frappe l'ennemi. L'allié obtient une résistance 3 contre les dégâts déclencheurs. Si l'ennemi est dans l'allonge de Bartolo, il effectue une Frappe contre lui.</p>"
+                },
+                "ZYApjt2LHvyo1bJN": {
+                    "name": "Fist (Poing)"
+                },
+                "aL02VqRkmLi4byoh": {
+                    "name": "Living Shield (Bouclier vivant)",
+                    "description": "<p>Bartolo saisit une créature et l'utilise comme un bouclier, bénéficiant d'un bonus de circonstances de +2 à la CA et de la réaction Blocage au bouclier tant que la créature est agrippée. Utilisez le niveau de la créature plus le bonus d'objet à la CA (le cas échéant) comme sa Dureté.</p>"
+                },
+                "hwp7cKCR2nZLzrd1": {
+                    "name": "Shield Block (See Living Shield) (Blocage au bouclier (Voir Bouclier vivant))"
+                }
+            }
+        },
+        "Frenzied Sea Life": {
+            "name": "Frenzied Sea Life (Faune marine frénétique)",
+            "desc (hazard)": "<p>Une nuée de seiches agressives, de poulpes, de raies diables et d'innombrables autres espèces marines mordent et frappent les ennemis de Timonithaéa.</p>",
+            "disable": "<p>@Check[thievery|dc:27] (qualifié) pour retirer la couronne de l'autel tout en évitant de se faire mordre par la nuée d'animaux marins, ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (rang 4 ; contrer DD 27) pour désactiver l'enchantement de la couronne, brisant le contrôle de Timonithaéa sur les créatures marines.</p>",
+            "routine": "<p>(une action) Les créatures marines attaquent, infligeant @Damage[(1d10+4)[bludgeoning],(1d10+4)[piercing]]{1d10+4 dégâts contondants et 1d10+4 dégâts perforants} à chaque créature hostile à Timonithaéa dans le temple (@Check[reflex|dc:25|basic]).</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "4p7frSBHGFFLs1ae": {
+                    "name": "Aquatic Onslaught (Assaut aquatique)",
+                    "description": "<p><strong>Déclencheur</strong> Les PJ entrent dans la chambre principale du temple</p>\n<hr />\n<p><strong>Effet</strong> La chambre se remplit de créatures marines, puis détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Lyari Zinfeld": {
+            "name": "Lyari Zinfeld",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "1FwfoQZutgMZuZ7A": {
+                    "name": "Swift Leap (Bond rapide)",
+                    "description": "<p>Lyari se déplace d'une distance égale ou inférieure à la moitié de sa Vitesse en bondissant. Ce déplacement ne déclenche pas de réactions.</p>"
+                },
+                "IVyafoUtJ07Mw5lo": {
+                    "name": "Consume Flesh (Absorption de la chair)",
+                    "description": "<p><strong>Conditions</strong> Lyari est adjacente au cadavre d'une créature morte depuis moins d'une heure.</p>\n<hr />\n<p><strong>Effet</strong> Lyari dévore un morceau de chair du cadavre et récupère @Damage[1d6[healing]]{1d6 Points de vie}.</p>\n<p>Elle récupère des Points de vie une seule fois par cadavre.</p>"
+                },
+                "MYehNbs3vmOO1Am4": {
+                    "name": "Duty's Soulshackle (Entrave des âmes du Devoir)"
+                },
+                "ObvfT7H6CJFgUwak": {
+                    "name": "Claw (Griffe)"
+                },
+                "OyBM0lFUQ8cJ66g8": {
+                    "name": "Duty's Soulshackle (Entrave des âmes du Devoir)"
+                },
+                "a95o9NAIxUiz6qwC": {
+                    "name": "Elven Lore (Connaissance des elfes)"
+                },
+                "aVh5EzRlTBz0XCWW": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "cISRUzJuD47gP9NF": {
+                    "name": "Books (Livres)"
+                },
+                "dKVpzI2Gex2xr8no": {
+                    "name": "Nihilistic Truthsayer (Porteuse de vérités nihilistes)",
+                    "description": "<p>Le temps que Lyari a passé seule dans les profondeurs et sa perspective unique sur l'existence la rendent étonnamment réceptive aux terribles vérités universelles que les autres préfèrent ignorer. Elle s'adresse calmement à un ennemi situé à moins de 9 mètres, lui rappelant, d'un ton logique et posé, la fragilité de l'existence, ses insécurités supposées et ses échecs inévitables. La cible doit tenter un jet de sauvegarde de @Check[will|dc:16]. Si la créature obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3} et @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{En fuite} pendant 1 round en cas d'échec critique). Quelle que soit l'issue du jet, la cible devient temporairement immunisée pendant 1 heure.</p>"
+                },
+                "hbrVcX03l1hUrzRc": {
+                    "name": "Library Lore (Connaissance des bibliothèques)"
+                }
+            }
+        },
+        "Dragon's Ward": {
+            "name": "Dragon's Ward (Rune du dragon)",
+            "disable": "<p>@Check[thievery|dc:27] (maître) pour retirer méticuleusement la rune sans déclencher la magie, ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (rang 4 ; contrer DD 25) pour contrer la rune.</p>",
+            "stealth": "<p>(expert)</p>",
+            "items": {
+                "Q3tYNLNsh36qBUyL": {
+                    "name": "Curse the Intruders (Maudire les intrus)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature franchit le seuil</p>\n<hr />\n<p><strong>Effet</strong> Chaque créature vivante dans un rayon de 9 mètres doit réussir un jet de @Check[will|dc:23]. Si la créature obtient un échec à son jet de sauvegarde, elle est soumise à la malédiction du dragon. Une créature maudite subit une pénalité de statut de 2 aux jets de Vigueur, et toute guérison naturelle ou magique qu'elle reçoit est réduite de moitié. La malédiction persiste jusqu'à être supprimée par @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Affliction purifiée} ou une magie similaire.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.qPul8V5LMyHNpsOa]{Effect: Curse the Intruders}</p>"
+                }
+            }
+        },
+        "Pirate Gorilla": {
+            "name": "Pirate Gorilla (Gorille pirate)",
+            "description": "<p>Les gorilles peuvent être des créatures territoriales, tout particulièrement s'ils sont provoqués par des chasseurs ou par la présence de monstres plus dangereux. Un gorille utilise avec sauvagerie ses crocs et ses puissants bras pour mordre et rouer de coups les intrus.</p>\n<hr />\n<p>Bien que de nombreux primates soient pacifiques et vivent reclus, les gorilles peuvent se montrer très territoriaux et les mégaprimatus sont particulièrement agressifs et dangereux.</p>",
+            "blurb": "Variante de gorille",
+            "items": {
+                "4PvDXumkGQD2NB4z": {
+                    "name": "Well-Trained (Bien entraîné)",
+                    "description": "<p>Le gorille pirate est habitué à recevoir des ordres à bord d'un navire. Il perd son immunité aux effets linguistique, appels à se rendre inclus.</p>"
+                },
+                "7PQkG1Vfc7aynb2X": {
+                    "name": "Frightening Display (Démonstration effrayante)",
+                    "description": "<p>Le gorille frappe son torse et affiche une posture effrayante. Les créatures dans une @Template[emanation|distance:30]{émanation de 9 mètres} doivent effectuer un jet de @Check[will|dc:18|options:area-effect,inflicts:frightened,inflicts:off-guard].</p>\n<p>Tant qu'une créature est Effrayée par cette capacité, elle est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} face au gorille.</p>\n<hr />\n<p><strong>Succès critique</strong> Aucun effet et immunité temporaire pendant 1 minute.</p>\n<p><strong>Succès</strong> La créature n'est pas affectée.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>"
+                },
+                "AZc9w8btLS3tlJmK": {
+                    "name": "Boarding Action (Action d'embarquement)",
+                    "description": "<p>Le pirate se balance sur une corde ou Marche rapidement, se déplaçant jusqu'au double de sa Vitesse. Si le pirate embarque ou débarque d'un bateau au cours de son déplacement, il peut effectuer une Frappe au corps-à-corps à la fin de son déplacement, cette dernière infligeant alors un dé de dégâts supplémentaire en cas de succès.</p>"
+                },
+                "D4XA5YtJ0G4E1and": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "T50Unm8nAUbNCLxu": {
+                    "name": "Fist (Poing)"
+                }
+            }
+        },
+        "The Scourge of Woodsedge": {
+            "name": "The Scourge of Woodsedge (Fléau de la Loge de la Lisière)",
+            "hpdetails": "Guérison du vide",
+            "languages": "Incapable de parler",
+            "speeds": "Lévitation de lames",
+            "items": {
+                "00iNFuUnCQuVy22z": {
+                    "name": "Final Execution (Exécution finale)",
+                    "description": "<p>Le Fléau cible une créature @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée} avec une Frappe de corps-à-corps avec sa lame. Un coup réussi est automatiquement un coup critique et la créature cible doit réussir un jet de @Check[fortitude|dc:36]. Si elle obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Condamnée 1}. Si la cible est déjà Condamnée, elle augmente sa valeur Condamnée de 1.</p>"
+                },
+                "B3tpwN7dZEoStsev": {
+                    "name": "To Shreds (Déchiqueter)",
+                    "description": "<p>Le Fléau explose en une tornade tourbillonnante de métal et de lames, au prix d'exposer brièvement son noyau martial. Toutes les créatures dans une @Template[type:emanation|distance:20]{émanation de 6 mètres} doivent réussir un jet de @Check[reflex|dc:33]. Si la créature obtient un échec à son jet de sauvegarde elle subit @Damage[10d10[slashing],3d8[void]|options:area-damage]{10d10 dégâts tranchants et 3d8 dégâts de vide}. Le Fléau ne peut plus utiliser ce pouvoir pendant [[/gmr 1d4 #Déchiqueter]]{1d4 rounds}.</p>\n<p>Si le Fléau est la cible d'une Frappe réactive suite à l'utilisation de cette action, il subit une pénalité de circonstances de -2 à sa CA. Si la Frappe réactive interrompt cette action, cette pénalité persiste jusqu'au début du prochain tour du Fléau.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.vaqiHzEewOKDx6rP]{Effet : Déchiqueter (pénalité à la CA)}</p>"
+                },
+                "DY2xnW20SodXTF1I": {
+                    "name": "Throwing Blade (Lame de jet)"
+                },
+                "UFdJTh4UUcMeXA26": {
+                    "name": "Life Sap (Aspiration de vie)",
+                    "description": "<p>Une créature blessée par les Frappes de lame du Fléau doit réussir un jet de @Check[fortitude|dc:36] sous peine de devenir @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1}. Si la cible est déjà Drainée, elle augmente sa valeur Drainée de 1, jusqu'à un maximum de @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 3}. En cas d'échec critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée} jusqu'à la fin du prochain tour du Fléau.</p>"
+                },
+                "VxDkoOnhJQrp2lBr": {
+                    "description": "<p>Le Fléau perçoit l'essence vitale des créatures vivantes à portée.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+                },
+                "dZcNG2pzhZMzFOhd": {
+                    "description": "<p>@Check[will|dc:36|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>\n<hr />\n<p><em>Note: le rayon de cette aura n'a pas été fourni par Paizo</em></p>"
+                },
+                "of5l6dDBzPYlNwTq": {
+                    "name": "Blade (Lame)"
+                },
+                "utkwrTyuxi8OLPCV": {
+                    "name": "Bladed Levitation (Lévitation de lames)",
+                    "description": "<p>Le Fléau a une Vitesse de vol de 9 mètres, mais doit terminer son tour à moins de 1,50 mètre du sol, sinon il tombe et subit des dégâts normalement.</p>"
+                }
+            }
+        },
+        "Olinda Posandi": {
+            "name": "Olinda Posandi",
+            "blurb": "Humaine diaboliste femme",
+            "items": {
+                "FW0LcRKKo8WVFtAr": {
+                    "name": "Silver Religious Symbol of Asmodeus (Symbole en argent d'Asmodéus)"
+                },
+                "TVyBB6w72RJxVtO1": {
+                    "name": "Arcane Prepared Spells (Sorts arcaniques préparés)"
+                },
+                "W2x8jxg3NDKhQYZt": {
+                    "name": "Sacrifice Minion (Sacrifice de diablotin)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ennemie dans un rayon de 4,50 mètres effectue un jet de sauvegarde</p>\n<hr />\n<p><strong>Effet</strong> Détruisez un sbire diablotin dans un rayon de 4,50 mètres. L'ennemi effectue deux jets de sauvegarde et prend le résultat le plus faible.</p>"
+                },
+                "mifGhwXoceLzOBG6": {
+                    "name": "Dagger (Dague)"
+                },
+                "qoCESLhY3rQqeK0h": {
+                    "name": "Conjure Imp (Conjuration de diablotin)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par tour</p>\n<hr />\n<p><strong>Effet</strong> Olinda invoque un serviteur diablotin dans un rayon de 6 mètres, qui peut effectuer une frappe au corps-à-corps contre un ennemi adjacent.</p>"
+                },
+                "t63P9OB3juBHOv7F": {
+                    "name": "Dagger (Dague)"
+                }
+            }
+        },
+        "Dragged to the Depths": {
+            "name": "Dragged to the Depths (Entraîné dans les profondeurs marines)",
+            "desc (hazard)": "<p>Un calmar géant percute le navire par en dessous, utilisant son bec pour percer la coque. Il enroule ensuite ses tentacules autour du mât, faisant violemment tanguer le navire.</p>",
+            "disable": "<p>@Check[athletics|dc:20] pour arracher les tentacules du mât, empêchant le navire de tanguer ; deux succès totaux sont requis pour désactiver le danger.</p>",
+            "reset": "<p>Le calmar relâche le navire pendant un round avant de reprendre le mât et de réinitialiser le danger. Le danger ne se réinitialise plus une fois que les PJ ont vaincu les naïades ou qu'elles ont fui.</p>",
+            "routine": "<p>(deux actions) À son initiative, le calmar utilise sa première action pour tirer sur le mât. Chaque créature doit tenter un jet de @Check[reflex|dc:20]. Si la créature obtient un échec, elle tombe @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À Terre}. Si la créature est déjà À terre en tentant le jet, elle glisse de 3 mètres dans une direction déterminée par le MJ si elle obtient un nouvel échec. Si ce mouvement force une créature à quitter le navire, elle peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis}. Le calmar utilise sa seconde action pour effectuer une attaque de tentacule.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "M8m5ET7uQuzasHjR": {
+                    "name": "Tentacle (Tentacule)"
+                },
+                "hJJ0OCULgzHXeOsy": {
+                    "name": "Flip the Ship (Faire chavirer le navire)",
+                    "description": "<p><strong>Déclencheur</strong> Les naïades montent à bord du navire</p>\n<hr />\n<p><strong>Effet</strong> Chaque créature se tenant sur le pont doit tenter un jet de @Check[reflex|dc:20] ou tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À Terre}. Le danger détermine ensuite l'initiative.</p>"
+                }
+            }
+        },
+        "Naiad Raider": {
+            "name": "Naiad Raider (Pilleur naïade)",
+            "blurb": "Variante de Briseur de jambes",
+            "items": {
+                "0gE6l2oSZZRPjEyT": {
+                    "description": "<p>Le pilleur naïade [[/act shove options=stampeding-shove]]{Pousse} une créature, obtenant un bonus de circonstances de +2 à son test d'Athlétisme si la cible est @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. S'il réussit, la cible subit @Damage[2d10[bludgeoning]]{2d10 dégâts contondants} (dégâts doublés en cas de succès critique).</p>"
+                },
+                "NxCV08g4DxVZ7Xkd": {
+                    "name": "Animal Empathy (Empathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions, recevoir des réponses et utiliser la compétence Diplomatie avec les animaux.</p>"
+                },
+                "TAqfKW4mSmkiBuzO": {
+                    "name": "Break Legs! (Briser les jambes !)",
+                    "description": "<p>Le pilleur naïade effectue une Frappe avec un maillet contre une créature adjacente. Si elle touche, la créature est mise @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} pendant 1 minute. Tant que cet état persiste, la créature subit également une pénalité de 1,50 mètre à ses Vitesses et une faiblesse 5 contre les Frappes du pilleur naïade.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.zOaP4yGwbFOszxeJ]{Effet : Briser les jambes !}</p>"
+                },
+                "WMD2iZZH3jNfGTgC": {
+                    "name": "Aqueous Fist (Poing aqueux)"
+                },
+                "dXznel7vuVPWhsQn": {
+                    "name": "Aqueous Maul (Maillet aqueux)"
+                },
+                "u3p3LeRECuD5PFwU": {
+                    "name": "Rushing Strike (Frappe rapide)",
+                    "description": "<p>Le pilleur naïade Marche rapidement deux fois. S'il termine son mouvement dans l'allonge d'un ennemi, il peut effectuer une Frappe au corps-à-corps contre cet ennemi.</p>"
+                }
+            }
+        },
+        "Heavily Damaged Jaws of Hell": {
+            "name": "Heavily Damaged Jaws of Hell (Mâchoires de l'enfer gravement endommagées)",
+            "desc (hazard)": "<p>La machine est un dispositif cylindrique cerclé de lames avec un oeil diabolique en son centre. Des inventeurs gnomes ont créé cet engin mécanique, qui puise dans les plans de la Terre et du Feu pour créer de puissantes déflagrations afin d'endommager les murs de forteresses ou de décimer les rangs ennemis. Malheureusement, les nombreux kilomètres de forêt ne lui ont pas été cléments et elle est en panne. Les connexions planaires endommagées de ses mâchoires se sont affaiblies jusqu'à n'être qu'un mince filet et, lorsqu'elle est activée, elle frappe dans une frénésie incontrôlée. Les lames qui l'encerclent se mettent à cingler l'air autour d'elle.</p>",
+            "disable": "<p>@Check[arcana|dc:15], @Check[crafting|dc:15], @Check[nature|dc:15] ou @Check[thievery|dc:15] (qualifié) deux fois, pour trancher la connexion aux plans du Feu et de la Terre. @Check[crafting|dc:13] ou @Check[thievery|dc:13] (qualifié) une fois, pour retirer le pivot reliant la plateforme aux chevaux. Une créature doit être adjacente à la mâchoire pour tenter l'un ou l'autre de ces tests.</p>",
+            "reset": "<p>La connexion planaire s'arrête après 1 minute. Les chevaux se fatiguent et s'arrêtent de courir après 1 minute.</p>",
+            "routine": "<p>(trois actions) À son tour chaque round, les chevaux dépensent une action pour se déplacer de 9 mètres, en traînant la plateforme portant la mâchoire derrière eux dans une direction choisie au hasard. Les chevaux ne se déplaceront pas à travers d'autres créatures. Les joueurs sur la plateforme lorsqu'il se déplace doivent tenter un @Check[acrobatics|dc:15] lorsqu'il bouge. En cas d'échec, ils tombent. Retirer le pivot mettra fin au mouvement aléatoire. La mâchoire utilise 2 actions pour Cracher du Feu ou effectuer des Frappes au corps-à-corps contre une créature adjacente.</p>",
+            "items": {
+                "LCjhpLS1is67Har2": {
+                    "name": "Jaws Statistics (Statistiques des mâchoires)",
+                    "description": "<p><strong>Dureté des mâchoires</strong> 8</p>\n<p><strong>Points de vie des mâchoires</strong> 30 (SR 15)</p>"
+                },
+                "WcEngw9sRL9nxZmh": {
+                    "name": "Blade (Lame)"
+                },
+                "qZI2dGYb3P3DpTBd": {
+                    "name": "Blades of Vengeance (Lames vengeresses)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature de taille Petite ou supérieure se déplace dans un rayon de 3 mètres de la mâchoire.</p>\n<hr />\n<p><strong>Effet</strong> Une des lames cingle l'air, effectuant une Frappe contre la créature.</p>"
+                },
+                "uHMxDJnJaeG4qqvF": {
+                    "name": "Spit Fire (Cracher le feu)",
+                    "description": "<p>La mâchoire lance une boule de magma (portée 18 mètres, @Template[burst|distance:10]{explosion de 3 mètres}), au hasard, vers le plus grand groupe de créatures qu'elle peut prendre dans l'explosion (sans s'inclure), infligeant @Damage[2d4[bludgeoning],2d4[fire]|options:area-damage]{2d4 dégâts contondants et 2d4 dégâts de feu}. Chaque créature prise dans l'explosion doit tenter un jet de @Check[reflex|dc:15|options:damaging-effect,area-effect]. La mâchoire ne peut plus Cracher du Feu pendant [[/gmr 1d4+1 #Recharge Cracher du Feu]] rounds.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature subit la moitié des dégâts.</p>\n<p><strong>Échec</strong> La créature subit tous les dégâts et est jetée @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n<p><strong>Échec critique</strong> La créature subit le double des dégâts, @Damage[1[persistent,fire]]{1 dégâts de feu persistants}, et est jetée À terre.</p>"
+                }
+            }
+        },
+        "Imp Minion (3-4)": {
+            "name": "Imp Minion (3-4) (Sbire diablotin (3-4))",
+            "description": "<p>Les diablotins sont des infiltrateurs et corrupteurs fiélonnes qui, malgré leur stature menue, sont parfaitement capables d'influencer subtilement un individu à la volonté faible pour qu'il commette des actes de plus en plus maléfiques. Un diablotin accepte souvent de servir un mortel et feint la docilité et la loyauté dans le cadre d'un complot à long terme visant à provoquer la mort de son maître ou à damner son âme. Les diablotins naissent directement des Plans Extérieurs eux-mêmes, plutôt que d'âmes mortelles, et ils servent donc en dehors de toute hiérarchie fiélonne, ce qui leur laisse une grande latitude pour poursuivre leurs spécialités. Bien qu'ils ne mesurent pas plus de 60 centimètres, les diablotins peuvent être des combattants vicieux, volant hors de portée et devenant invisibles pour s'échapper si la situation tourne à leur désavantage.</p>",
+            "items": {
+                "LD8TK8mGL7ubLU4I": {
+                    "name": "Stinger (Dard)"
+                }
+            }
+        },
+        "Duty's Soulshackle (3-4)": {
+            "name": "Duty's Soulshackle (3-4) (Entrave des âmes du Devoir (3-4))",
+            "desc (hazard)": "<p>Une portion de colonne vertébrale humanoïde est fixée à un bâton par une chaîne munie de crochets, plantée et enroulée autour d'elle. D'autres chaînes spectrales, faites d'ombre pure, la maintiennent en l'air et l'enlacent sinueusement.</p>",
+            "disable": "<p>@Check[arcana|dc:23], @Check[occultism|dc:23] ou @Check[religion|dc:23] (qualifié) pour interrompre les énergies spectrales canalisées par l'objet intelligent. Chaque succès réduit de 1 le nombre d'actions de la hantise. Lorsque la hantise n'a plus d'actions, elle est neutralisée. Lorsque la hantise n'a plus d'actions, elle est neutralisée.</p>",
+            "routine": "<p>(trois actions) Lors de son initiative, l'Entrave des âmes du Devoir utilise d'abord Appel au service s'il le peut et dépense les actions restantes pour effectuer des frappes de chaînes velstrac contre ses ennemis.</p>",
+            "stealth": "<p>(expert); remarquer le bâton a un DD de 0.</p>",
+            "items": {
+                "PMq6dV0yzrSd6xx3": {
+                    "name": "Call to Serve (Appel au service)",
+                    "description": "<p><em>L'Entrave des âmes du Devoir</em> crée un @UUID[Compendium.pf2e.pfs-season-7-bestiary.Actor.ckZ7eHNCFNP6ddiO]{Feuille flétrie de Talhindir} à 3 mètres de lui. Il ne peut ensuite plus utiliser cette action pendant [[/gmr 1d6 #rounds]]{1d6 rounds}.</p>"
+                },
+                "nkoTyUCfCvVnSYUq": {
+                    "name": "Chained by Duty (Enchaîné par le devoir)",
+                    "description": "<p><strong>Déclencheur</strong> Lyari propose un moyen de la libérer de <em>L'Entrave des âmes du Devoir</em>.</p>\n<hr />\n<p><strong>Effet</strong> <em>L'Entrave des âmes du Devoir</em> tremble de rage avant de libérer davantage de chaînes spectrales. Puis, la hantise détermine l'initiative.</p>"
+                },
+                "s55PFg7RWxyaEgTg": {
+                    "name": "Velstrac Chains (Chaînes velstrac)"
+                }
+            }
+        },
+        "Partially Decomposed Rat Swarm": {
+            "name": "Partially Decomposed Rat Swarm (Nuée de rats à moitié décomposés)",
+            "hpdetails": "Guérison du vide",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader ou Nager"
+                }
+            },
+            "items": {
+                "BsKuf0AAqQmzH3he": {
+                    "name": "Zombie Plague (Peste du zombie)",
+                    "description": "<p>Les conditions Nauséeux et @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient} causées par la Peste du zombie ne peuvent prendre fin ni être réduites avant que la maladie ne soit guérie.</p>\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:14]</p>\n<p><strong>Stade 1</strong> porteur sans effet néfaste (1d4 heures)</p>\n<p><strong>Stade 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (1 jour)</p>\n<p><strong>Stade 3</strong> Nauséeux 1 et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} (1 jour)</p>\n<p><strong>Stade 4</strong> Inconscient (1 jour)</p>\n<p><strong>Stade 5</strong> Mort</p>"
+                },
+                "Xq6hkgKiPBNei8df": {
+                    "name": "Swarming Bites (Morsures de nuée)",
+                    "description": "<p>Chaque ennemi dans l'espace de la nuée subit @Damage[1d6[piercing]|options:area-damage]{1d6 dégâts perforants} (@Check[reflex|dc:27|basic|options:area-effect]). Toute créature qui obtient un échec à son jet de sauvegarde est exposée à la peste du zombie.</p>"
+                },
+                "wnyeoxJq6nJPx1Re": {
+                    "name": "Slow (Ralenti)",
+                    "description": "<p>Une nuée de rats à moitié décomposés est constamment @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} et ne peut pas utiliser de réaction.</p>"
+                }
+            }
+        },
+        "Talhindir's Autumn": {
+            "name": "Talhindir's Autumn (Automne de Talhindir)",
+            "desc (hazard)": "<p>Toutes les lumières de la pièce s'allument soudainement, comme au jour de la mort de Lyari. Un chuchotement d'accusations et un verdict de culpabilité emplissent l'air. Des guerriers elfes fantomatiques disparaissent et réapparaissent dans une avancée désorientante et implacable.</p>",
+            "disable": "<p>@Check[athletics|dc:18] pour résister à la force du verdict, ou @Check[arcana|dc:18], @Check[occultism|dc:18] ou @Check[religion|dc:18] pour interrompre rituellement la hantise. Chaque succès réduit de 1 le nombre d'actions de la hantise. Lorsque la hantise n'a plus d'actions, elle est neutralisée et la hantise Chassés par les Chaînes se déclenche.</p>",
+            "reset": "<p>La hantise se réinitialise la prochaine fois que <em>L'Entrave des âmes</em> piège des créatures dans la bibliothèque.</p>",
+            "routine": "<p>(deux actions) La hantise effectue des Frappes de jugement vengeur contre trois créatures différentes et aléatoires prises au piège dans cette hantise. Une flaque spectrale de sang se forme sous toute créature rendue @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} par cette hantise.</p>",
+            "stealth": "<p>(qualifié) ; test de @Check[occultism|dc:13] ou @Check[religion|dc:13] pour remarquer des chuchotements étranges.</p>",
+            "items": {
+                "IXxD7yCqmDTGKr4z": {
+                    "name": "Accusations",
+                    "description": "<p><strong>Déclencheur</strong> Les PJ entrent tous dans la pièce</p><hr /><p><strong>Effet</strong> Des accusations de crimes contre la couronne sont chuchotées dans toute la pièce en elfique. Chaque créature vivante dans la pièce doit effectuer un jet de @Check[will|dc:16] sous peine d'être @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}. La hantise détermine ensuite l'initiative.</p>"
+                },
+                "eCADU7m2g9CZMt8i": {
+                    "name": "Vengeful Judgment (Jugement vengeur)",
+                    "description": "<p>Plus @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} sur un coup critique</p>"
+                }
+            }
+        },
+        "Captain Conziva": {
+            "name": "Captain Conziva (Capitaine Conziva)",
+            "description": "<p>Le maître d'équipage (ou bosco) dirige les matelots chargés de l'entretien du navire.</p>\n<hr />\n<p>Les aventuriers peuvent avoir besoin d'embarquer sur un vaisseau rapide, ou pourraient affronter des dangers venant de pirates en mer ou dans les villages côtiers.</p>",
+            "blurb": "Variante de bosco",
+            "items": {
+                "0Z0tfKCoRaKagvVT": {
+                    "name": "Pike and Strike (Pique et frappe)",
+                    "description": "<p>Capitaine Conziva porte une Frappe au corps-à-corps avec sa pique d'abordage.</p>\n<p>Si la Frappe est un succès, le capitaine peut soit déplacer la cible de 1,50 mètre au maximum sans la sortir de la zone d'allonge de la pique, soit effectuer une Frappe de poing contre la cible sans augmenter sa pénalité d'attaques multiples après cette Frappe de poing.</p>"
+                },
+                "4ZB9khLqIwNxe4j2": {
+                    "name": "Sailing Lore (Connaissance de la navigation maritime)"
+                },
+                "598qUP8bkS1TdMEY": {
+                    "name": "Claw (Griffe)"
+                },
+                "FXduVQD4iGJxgXX2": {
+                    "name": "Naval Pike (Pique d'abordage)"
+                },
+                "S0MOf3jyFwTZYtAP": {
+                    "name": "Naval Pike (Pique d'abordage)"
+                },
+                "cPR81h7L11UyZ71x": {
+                    "name": "Horn (Corne)"
+                },
+                "ioBhBqoLt4XX6CZA": {
+                    "name": "Naval Pike (Pique d'abordage)"
+                },
+                "u6QEft9DxfittKI2": {
+                    "name": "Captain's Command (Injonction du capitaine)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par round</p>\n<hr />\n<p><strong>Effet</strong> Le capitaine Conziva ordonne à un allié d'attaquer ou de prendre position. Jusqu'à la fin du prochain tour de l'allié, ce dernier obtient, au choix du capitaine, un bonus de statut de +2 aux jets d'attaque ou un bonus de statut de +3 mètres à sa Vitesse.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.WfiaKdXNSxC3POcs]{Effet : Injonction du bosco}</p>"
+                }
+            }
+        },
+        "Thoroughbred Nightmare": {
+            "name": "Thoroughbred Nightmare (Destrier noir Pur-sang)",
+            "description": "<p>Les destriers noirs sont des équidés enflammés annonciateurs de mort.</p>",
+            "items": {
+                "Huqh2NJEkx1xBpoO": {
+                    "name": "Flaming Gallop (Galop enflammé)",
+                    "description": "<p>Le destrier noir pur-sang Marche rapidement ou Vole jusqu'au triple de sa Vitesse. Les sabots s'embrasent de flammes intenses, infligeant @Damage[5d6[fire]]{5d6 dégâts de feu} (@Check[reflex|dc:28|basic]) à toutes les créatures, sauf son cavalier, auxquelles le destrier se retrouve adjacent au cours de son déplacement. Chaque créature ne peut être affectée qu'une seule fois au cours d'une même utilisation de Galop enflammé</p>"
+                },
+                "NHSqYE5ZeWiln3Vx": {
+                    "name": "Hoof (Sabot)"
+                },
+                "aFTYkeNI6jd2TfGi": {
+                    "name": "Interplanar Teleport (Self and Rider Only) (Téléportation interplanaire (Soi et cavalier uniquement))"
+                },
+                "hvrW7fEOtezPrmRv": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "jW0BtgVKN8XQhLKs": {
+                    "name": "Divine Innate Spells (Sorts innés divins)"
+                },
+                "nbWXPfh7WyVCERN9": {
+                    "name": "Smoke (Fumée)",
+                    "description": "<p>4,50 mètres</p>\n<p>Le destrier noir pur-sang exhale constamment une fumée noire. Les créatures dans l'aura sont @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masquées} aux créatures en dehors de la zone, et les créatures en dehors de l'aura sont Masquées à celles dans l'aura. Les destriers noirs et leurs cavaliers peuvent voir à travers cette fumée.</p>\n<p>Une créature qui débute son tour dans l'aura doit effectuer un jet de @Check[fortitude|dc:25|traits:inhaled,poison]. En cas d'échec, la créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2}, puis elle est temporairement immunisée contre cet état provoqué par la fumée pendant 1 minute. Ceci est un poison inhalé et le destrier noir comme son cavalier sont immunisés contre cet effet.</p>"
+                }
+            }
+        },
+        "Violent Crowd": {
+            "name": "Violent Crowd (Foule violente)",
+            "desc (hazard)": "<p>Des citoyens inquiets scandent des slogans sur les dangers de traiter avec le Chéliax et lancent des briques sur les sympathisants chélaxiens.</p>",
+            "disable": "<p>Réussissez deux des tests suivants, dans n'importe quelle combinaison : @Check[athletics|dc:25] (qualifié) pour confisquer les débris dangereux, @Check[diplomacy|dc:25] (qualifié) pour calmer la foule, @Check[intimidation|dc:23] (non qualifié) pour effrayer la foule, @Check[will|dc:28] (qualifié) pour conserver une attitude courageuse et confiante ; un effet tel que @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Apaisement} capable de cibler une zone compte comme un succès automatique.</p>",
+            "routine": "<p>(trois actions) La foule violente utilise une action pour scander un Slogan entraînant si elle ne bénéficie pas déjà de cet effet. Elle utilise une fois par tour Ébranler la confiance et utilise ses actions restantes pour des Frappes avec des pavés.</p>",
+            "stealth": "<p>(qualifié) Les personnages détectent automatiquement ce piège lorsqu'ils ouvrent la porte de la Grande Salle.</p>",
+            "items": {
+                "02FoDMzaejpPj31n": {
+                    "name": "Cobblestone (Pavés)"
+                },
+                "JEjJmbaqLOsaBEiD": {
+                    "name": "Shake Confidence (Ébranler la confiance)",
+                    "description": "<p>La foule violente cible une créature dans un rayon de 9 mètres. La créature doit tenter un jet de @Check[will|dc:25].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée et est immunisée contre Ébranler la confiance pendant 24 heures.</p>\n<p><strong>Succès</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature devient Effrayée 2 et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1}.</p>"
+                },
+                "ewXmZRDcTa19hzd0": {
+                    "name": "Catchy Slogan (Slogan entraînant)",
+                    "description": "<p>Tous les pièges dans une @Template[type:emanation|distance:30]{émanation de 9 mètres} obtiennent un bonus de statut de +1 aux jets d'attaque et aux jets de dégâts pendant 1 round.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wFpKEx9KSjoVg9xq]{Effet : Slogan Entraînant}</p>"
+                },
+                "i373FF1aDiawcdbR": {
+                    "name": "There They Are! (Ils sont là !)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ouvre la porte de la Grande Salle.</p>\n<hr />\n<p><strong>Effet</strong> La foule violente détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Murderous Crowd": {
+            "name": "Murderous Crowd (Foule meurtrière)",
+            "desc (hazard)": "<p>Des citoyens inquiets scandent des slogans sur les dangers de traiter avec le Chéliax et lancent des briques sur les sympathisants chélaxiens.</p>",
+            "disable": "<p>Réussissez deux des tests suivants, dans n'importe quelle combinaison : @Check[athletics|dc:27] (qualifié) pour confisquer les débris dangereux, @Check[diplomacy|dc:27] (qualifié) pour calmer la foule, @Check[intimidation|dc:25] (non qualifié) pour effrayer la foule, @Check[will|dc:30] (qualifié) pour conserver une attitude courageuse et confiante ; un effet tel que @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Apaisement} capable de cibler une zone compte comme un succès automatique.</p>",
+            "routine": "<p>(trois actions) La foule meurtrière utilise une action pour scander un Slogan entraînant si elle ne bénéficie pas déjà de cet effet. Elle utilise une fois par tour Ébranler la confiance et utilise ses actions restantes pour des Frappes avec des pavés.</p>",
+            "stealth": "<p>(qualifié) Les personnages détectent automatiquement ce piège lorsqu'ils ouvrent la porte de la Grande Salle.</p>",
+            "items": {
+                "02FoDMzaejpPj31n": {
+                    "name": "Cobblestone (Pavé)"
+                },
+                "JEjJmbaqLOsaBEiD": {
+                    "name": "Shake Confidence (Ébranler la confiance)",
+                    "description": "<p>La foule meurtrière cible une créature dans un rayon de 9 mètres. La créature doit tenter un jet de @Check[will|dc:27].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée et est immunisée contre Ébranler la confiance pendant 24 heures.</p>\n<p><strong>Succès</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature devient Effrayée 2 et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1}.</p>"
+                },
+                "ewXmZRDcTa19hzd0": {
+                    "name": "Catchy Slogan (Slogan entraînant)",
+                    "description": "<p>Tous les pièges dans une @Template[type:emanation|distance:30]{émanation de 9 mètres} obtiennent un bonus de statut de +1 aux jets d'attaque et aux jets de dégâts pendant 1 round.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wFpKEx9KSjoVg9xq]{Effet : Slogan Entraînant}</p>"
+                },
+                "i373FF1aDiawcdbR": {
+                    "name": "There They Are! (Ils sont là !)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ouvre la porte de la Grande Salle.</p>\n<hr />\n<p><strong>Effet</strong> La foule meurtrière détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Rowdy Crowd": {
+            "name": "Rowdy Crowd (Foule bagarreuse)",
+            "desc (hazard)": "<p>Des citoyens inquiets scandent des slogans sur les dangers de traiter avec le Chéliax et lancent des briques sur les sympathisants chélaxiens.</p>",
+            "disable": "<p>Réussissez deux des tests suivants, dans n'importe quelle combinaison : @Check[athletics|dc:22] (qualifié) pour confisquer les débris dangereux, @Check[diplomacy|dc:22] (qualifié) pour calmer la foule, @Check[intimidation|dc:20] (non qualifié) pour effrayer la foule, @Check[will|dc:24] (qualifié) pour conserver une attitude courageuse et confiante ; un effet tel que @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Apaisement} capable de cibler une zone compte comme un succès automatique.</p>",
+            "routine": "<p>(trois actions) La foule bagarreuse utilise une action pour scander un Slogan entraînant si elle ne bénéficie pas déjà de cet effet. Elle utilise une fois par tour Ébranler la confiance et utilise ses actions restantes pour des Frappes avec des pavés.</p>",
+            "stealth": "<p>(qualifié) Les personnages détectent automatiquement ce piège lorsqu'ils ouvrent la porte de la Grande Salle.</p>",
+            "items": {
+                "02FoDMzaejpPj31n": {
+                    "name": "Cobblestone (Pavé)"
+                },
+                "JEjJmbaqLOsaBEiD": {
+                    "name": "Shake Confidence (Ébranler la confiance)",
+                    "description": "<p>La foule bagarreuse cible une créature dans un rayon de 9 mètres. La créature doit tenter un jet de @Check[will|dc:22].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée et est immunisée contre Ébranler la confiance pendant 24 heures.</p>\n<p><strong>Succès</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature devient Effrayée 2 et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1}.</p>"
+                },
+                "ewXmZRDcTa19hzd0": {
+                    "name": "Catchy Slogan (Slogan entraînant)",
+                    "description": "<p>Tous les pièges dans une @Template[type:emanation|distance:30]{émanation de 9 mètres} obtiennent un bonus de statut de +1 aux jets d'attaque et aux jets de dégâts pendant 1 round.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wFpKEx9KSjoVg9xq]{Effet : Slogan Entraînant}</p>"
+                },
+                "i373FF1aDiawcdbR": {
+                    "name": "There They Are! (Ils sont là !)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ouvre la porte de la Grande Salle.</p>\n<hr />\n<p><strong>Effet</strong> La foule bagarreuse détermine l'initiative.</p>"
+                }
+            }
+        },
+        "In a Pickle": {
+            "name": "In a Pickle (Dans la mouise)",
+            "desc (hazard)": "<p>Un brasier noirci de suie brille d'une lumière démoniaque, des ombres vacillant à l'intérieur.</p>",
+            "disable": "<p>@Check[arcana|dc:18], @Check[occultism|dc:18] ou @Check[religion|dc:18] à moins de 4,50 mètres du brasier pour lui ordonner de s'arrêter, réduisant ses actions de 1 (ou 2 sur un succès critique) ; @Check[thievery|dc:20] pour trouver le commutateur caché sur le brasier qui le désactive ; ou n'importe quel sort avec le trait eau ou lumière de rang 1, contre DD 17, pour dissiper les ombres enflammées dans une case.</p>",
+            "reset": "<p>Les flammes cessent 1 minute après que toutes les créatures vivantes ont quitté la zone, mais après 1 heure, un puits d'obscurité remplit le brasier et il est prêt à se déclencher à nouveau.</p>",
+            "routine": "<p>(4 actions) Le piège enflamme des ombres dans une @Template[line|distance:5]{case de 1,50 mètre} dans la zone de la pièce. Une créature qui entre ou termine son tour dans ce feu subit @Damage[(1d6+5)[fire]]{1d6+5 dégâts de feu} (@Check[fortitude|dc:17|basic]). Augmentez le DD de 2 si la créature est dans des ténèbres magiques (@Check[fortitude|dc:19|basic]).</p>",
+            "items": {
+                "CwJWB3RDmuPPzpM2": {
+                    "name": "Flames of Caina (Flammes de Caina)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature vivante entre dans la zone</p>\n<hr />\n<p><strong>Effet</strong> Les ombres bouillonnent dans le brasier. Il lance @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Ténèbres} sur lui-même, puis détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Ascending the Chain": {
+            "name": "Ascending the Chain (Escalade de la chaîne)",
+            "desc (hazard)": "<p>Les PJ apparaissent sur un gigantesque mur de chaînes crochues suspendues dans une brume grise tourbillonnante. Les chaînes irradient une énergie glaçante. Des cris d'innocence et de condamnation résonnent dans la brume en elfique. Un plan de lumière situé 3 mètres au-dessus ondule et tournoie tout en reflétant faiblement les PJ en dessous, mais les reflets déforment et altèrent les PJ pour leur donner un teint terreux semblable à celui des morts-vivants.</p>",
+            "disable": "<p>Un PJ qui est monté jusqu'au plan de lumière (test d'@Check[athletics|dc:15] pour Escalader ; en cas d'échec critique, le PJ chute de 3 mètres avant d'être saisi par une chaîne) peut tenter un test de @Check[thievery|dc:20] pour perturber le plan ou un test d'@Check[arcana|dc:20], d'@Check[occultism|dc:20] ou de @Check[religion|dc:20] pour perturber rituellement la hantise. Chaque succès réduit de 1 le nombre d'actions de la hantise. Lorsque la hantise n'a plus d'actions, elle est désactivée et les PJ retournent tous à la zone <strong>B3</strong>.</p>",
+            "reset": "<p>La hantise se réinitialise la prochaine fois que <em>L'Entrave des âmes</em> piège des créatures dans la bibliothèque.</p>",
+            "routine": "<p>(trois actions) Les chaînes s'agitent et gémissent de façon sinistre autour de deux créatures aléatoires différentes piégées dans la hantise, infligeant @Damage[(2d6+2)[void]]{2d6+2 dégâts de vide} (@Check[will|dc:18|basic] pour réduire les dégâts de moitié).</p>",
+            "stealth": "<p>(Qualifié)</p>",
+            "items": {
+                "OnXHTmF4xdwx2axb": {
+                    "name": "The Pain of Devotion (La douleur de la dévotion)",
+                    "description": "<p><strong>Déclencheur</strong> La hantise Chassés par les chaînes est désactivée</p>\n<hr />\n<p><strong>Effet</strong> Les chaînes s'agitent de façon sinistre, infligeant @Damage[(2d6+2)[void]]{2d6+2 dégâts de vide} à toutes les créatures dans la hantise (@Check[will|dc:18|basic] pour réduire les dégâts de moitié). La hantise détermine ensuite l'initiative.</p>"
+                }
+            }
+        },
+        "Hunted by Chains": {
+            "name": "Hunted by Chains (Chassés par les chaînes)",
+            "desc (hazard)": "<p>Des chaînes d'ombre s'étirent pour enlacer les créatures piégées dans le paysage mental.</p>",
+            "disable": "<p>Test d'@Check[acrobatics|dc:17] pour éviter les chaînes, ou test d'@Check[arcana|dc:17], d'@Check[occultism|dc:17] ou de @Check[religion|dc:17] pour perturber rituellement la hantise. Chaque succès réduit le nombre d'actions de la hantise d'une. Lorsque la hantise n'a plus d'actions, elle est désactivée et elle est désactivée et la hantise déclenche Escalade de la chaîne.</p>",
+            "reset": "<p>La hantise se réinitialise la prochaine fois que <em>L'Entrave des âmes</em> piège des créatures dans la bibliothèque.</p>",
+            "routine": "<p>(deux actions) Des chaînes spectrales se déploient pour envelopper trois créatures aléatoires différentes piégées dans la hantise, qui doivent chacune réussir un jet de @Check[reflex|dc:16]. Si la créature obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} jusqu'à ce qu'elle [[/act escape dc=16]]{S'échappe}. À chaque round où une créature commence son tour @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}, elle subit @Damage[2d4[force]]{2d4 dégâts de force non létaux}. Des cicatrices spectrales se forment sur toute créature mise @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} par cette apparition.</p>",
+            "stealth": "<p>(Qualifié)</p>",
+            "items": {
+                "DZs5p7js1GEsHi69": {
+                    "name": "Chains of Undeath (Chaînes de non-mort)",
+                    "description": "<p><strong>Déclencheur</strong> L'Automne de Talhindir est désactivée</p>\n<hr />\n<p><strong>Effet</strong> Une image spectrale de L'Entrave des âmes du Devoir apparaît dans une alcôve d'exposition, déployant des chaînes d'énergie sombre vers chaque créature. Chaque créature vivante dans la hantise doit tenter un jet de @Check[will|dc:16]. Si elle obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}. La hantise détermine ensuite l'initiative.</p>"
+                }
+            }
+        },
+        "Ogre Hunter": {
+            "name": "Ogre Hunter (Chasseur ogre)",
+            "items": {
+                "A5BpjLkqVn4BSXTc": {
+                    "name": "Trident"
+                },
+                "ItDTIowVA9KO4zNG": {
+                    "name": "Ogre Hook (Crochet ogre)"
+                },
+                "JDeq2RIvsQCT4hQm": {
+                    "name": "Hunting Throw (Jet de chasse)",
+                    "description": "<p>L'ogre chasseur effectue une Frappe à distance avec son trident dans un rayon de 18 mètres sans pénalité de portée. Si la Frappe touche, elle a assez de force pour faire tomber la cible @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À Terre}. Si la Frappe est un succès critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} par le trident.</p>"
+                },
+                "Re8QGjayIcTb9XDe": {
+                    "name": "Always Ready for a Scufe (Toujours prêt pour une échauffourée)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans l'allonge du chasseur ogre</p>\n<hr />\n<p><strong>Effet</strong> Le chasseur ogre dégaine une arme de corps-à-corps.</p>"
+                },
+                "pwFv2tGKdCtjLxjZ": {
+                    "name": "Reactive Strike (Frappe réactive)"
+                }
+            }
+        },
+        "Timonithaea": {
+            "name": "Timonithaea (Timonithaéa)",
+            "description": "<p>Les naïades souveraines règnent sur des territoires encore vierges, centrés autour de lacs immaculés, de rivières puissantes ou de toute autre étendue d'eau douce. Les chants des bardes et les représentations artistiques de ces puissantes nymphes ont tendance à dépeindre les naïades souveraines sous leur forme légèrement plus humanoïde, qu'elles revêtent lorsqu'elles font le rare voyage vers les terres civilisées pour gagner des alliés, recueillir des nouvelles ou jauger les menaces.</p>\n<p>La plupart des naïades souveraines traitent avec bienveillance ceux qui respectent leurs domaines, mais elles sont aussi féroces et promptes à éliminer leurs ennemis. Leur beauté éblouissante et leur éventail de sorts offensifs font des naïades souveraines des adversaires redoutables si elles sont forcées de se battre.</p>\n<hr />\n<p>Les nymphes sont une famille de fées qui prennent la forme de beaux humanoïdes aux traits elfiques et qui possèdent un lien profond avec le monde naturel. Les plus courantes sont les dryades, qui sont des esprits incarnant les grands arbres, mais il existe de nombreuses autres sortes de nymphes, dont les naïades, qui veillent sur les étendues d'eau. Toutes les nymphes sont les gardiennes d'un élément de la nature, généralement un arbre ou un étang spécifique, voire, dans le cas des nymphes souveraines, de forêts entières ou de vastes étendues d'eau.</p>\n<h2>Nymphes souveraines</h2>\n<p>Les nymphes souveraines sont des nymphes puissantes qui règnent sur des régions entières de nature vierge et pas uniquement sur des arbres ou des étangs isolés. Chaque variété de nymphe peut avoir une souveraine. Les naïades souveraines sont parmi les plus connues et sont celles qui interagissent le plus souvent avec les mortels des environs. C'est pourquoi certains spécialistes désignent les souveraines des naïades comme simplement des \"nymphes\".</p>",
+            "blurb": "Variante de souveraine naïade",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Nager"
+                }
+            },
+            "items": {
+                "EhdD8hFrqyISTFtx": {
+                    "name": "Primal Prepared Spells (Sorts primordiaux préparés)"
+                },
+                "Gm902B0XQR5W4eLu": {
+                    "name": "Tied to the Land (Lié à la région)",
+                    "description": "<p>La naïade souveraine est liée à une masse d'eau ou une zone avec des paysages liés à l'eau.</p>\n<hr />\n<p>Une naïade souveraine est intrinsèquement liée à une région spécifique. Tant que la reine est en bonne santé, l'environnement y est exceptionnellement résilient, ce qui permet à la nymphe souveraine de tenter de contrer automatiquement tout sort susceptible de nuire à l'environnement (comme le rituel @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHxD]{Flétrissement}), en utilisant son DD de sort avec un rang de contre égal au sort de druide de rang le plus élevé qu'elle peut lancer.</p>\n<p>Cependant, lorsque la nymphe souveraine est en mauvaise santé physique ou psychologique, la région qu'elle protège se retrouve elle aussi déformée et malade. Dans ce cas, le rétablissement de la nymphe souveraine entraîne une guérison rapide de l'ensemble de la région.</p>"
+                },
+                "HL3wrCKvsFKv7jaX": {
+                    "name": "Tidal Surge (At Will) (Raz-de-marée (À volonté))"
+                },
+                "P658sPuiyqAqTdkz": {
+                    "name": "Focus Beauty (Focaliser la beauté)",
+                    "description": "<p>Si une cible déjà affectée par Beauté de la nymphe souveraine obtient un échec sur son jet de sauvegarde, l'image de la reine s'incruste dans l'esprit de la créature, l'aveuglant de fait jusqu'à ce que sa vision soit rétablie par un sort de @UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Corps assaini} ou un effet similaire.</p>\n<p>La naïade souveraine peut révoquer cet effet.</p>\n<hr />\n<p>La nymphe souveraine fait peser sa beauté sur une cible, qui doit effectuer un jet de sauvegarde contre l'aura Beauté de la nymphe (@Check[will|dc:23]). Si la créature échoue et qu'elle était déjà affectée par l'aura, elle subit un effet plus important décrit dans le commentaire consacré à la nymphe souveraine.</p>\n<p>Une nymphe souveraine ne peut Focaliser sa beauté sur une créature donnée qu'une seule fois par tour.</p>"
+                },
+                "TahJmDRewYTMmLsm": {
+                    "name": "Water Orb (Orbe d'eau)"
+                },
+                "Y44FxT7CY4R6SkdW": {
+                    "name": "Nymph's Beauty (Beauté de la nymphe)",
+                    "description": "<p>9 mètres. @Check[will|dc:23|options:area-effect,inflicts:stunned]. </p> \n<p>Si la créature obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1} et redevient Étourdie 1 à chaque fois qu'elle débute son tour dans l'aura pendant les 24 prochaines heures, même si elle ne peut pas voir la naïade souveraine.</p>"
+                },
+                "YJMvSGcOCT86q7GC": {
+                    "name": "Timonithaea's Calling (L'Appel de Timonithaéa)",
+                    "description": "<p>Timonithaéa canalise l'énergie magique dans la couronne Enoménos pour communiquer par télépathie avec les créatures qui se trouvent sous l'eau dans un rayon de 32 kilomètres autour de Naós tou Neroú.</p>"
+                },
+                "lQKrggSbzpvqq4YB": {
+                    "name": "Inspiration"
+                },
+                "nS51JCooM2dV2JTC": {
+                    "name": "Animal Empathy (Empathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions, recevoir des réponses et utiliser la compétence Diplomatie avec les animaux.</p>"
+                },
+                "pCZn7Y6OrzZU4XgW": {
+                    "name": "Primal Innate Spells (Sorts innés primordiaux)"
+                },
+                "xxUW9YkqVCI57nCo": {
+                    "name": "Aqueous Fist (Poing aqueux)"
+                },
+                "yQ0WKMlep02TPvLi": {
+                    "name": "Change Shape (Changement de forme)"
+                },
+                "z1Wnid4gCPgKMoV8": {
+                    "name": "Water Healing (Soins des eaux)",
+                    "description": "<p>Pour chaque période de 10 minutes qu'une naïade passe à s'immerger dans un plan d'eau de son domaine, elle récupère @Damage[30[healing]]{30 Points de vie}.</p>"
+                }
+            }
+        },
+        "Goblin Rigger": {
+            "name": "Goblin Rigger (Gréeur gobelin)",
+            "description": "<p>Les commandos gobelins sont, en théorie, les chefs des raids perpétrés par ces créatures. Dans la pratique, il est rare qu'ils continuent à commander leurs camarades une fois que la bataille a commencé. La plupart se soustraient à leurs responsabilités pour aller se jeter dans la mêlée afin de revendiquer un plus grand prestige que leurs frères tribaux.</p>\n<hr />\n<p>Ces petits humanoïdes ont une peau verte ou grise et une grosse tête avec des oreilles larges. Bien que certains gobelins soient civilisés et aient travaillé dur pour être considérés comme des membres honnêtes des communautés humanoïdes, nombreux sont des créatures vicieuses et impétueuses qui se délectent de semer des ravages. Ces gobelins ne pensent à rien d'autre qu'à massacrer le bétail, voler des nouveau-nés ou brûler des bâtiments simplement pour le plaisir que cela leur procure. Ils adorent faire de mauvaises farces aux humanoïdes de plus grande taille qu'ils appellent les « longues-jambes ».</p>\n<p>Les gobelins sont superstitieux avec une crainte révérencieuse particulière à l'égard de la magie et une fascination pour le feu ; ceux qui maîtrisent la magie ou le feu sont très respectés par les membres de leur espèce. La plupart des autres humanoïdes ont le plus grand mal à comprendre la mentalité des gobelins : ils détestent les canidés mais n'hésitent pas à partager leurs tanières avec des « chiens gobelins », ils attaquent sans crainte des créatures plus grandes mais sont terrifiés par les chevaux et ils détestent les légumes alors qu'ils considèrent les cornichons comme une friandise. Pour un gobelin, bien naturellement, ce sont des choix de vie parfaitement sensés.</p>",
+            "blurb": "Variante de gobelin commando",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader"
+                }
+            },
+            "items": {
+                "HhMYhB7AGitnowoU": {
+                    "name": "Boarding Action (Action d'embarquement)",
+                    "description": "<p>Le gréeur gobelin se balance sur une corde ou Marche rapidement, se déplaçant jusqu'au double de sa Vitesse. Si le gréeur embarque ou débarque d'un bateau au cours de son déplacement, il peut effectuer une Frappe au corps-à-corps à la fin de son déplacement, cette dernière infligeant alors un dé de dégâts supplémentaire en cas de succès.</p>"
+                },
+                "QhkpbpwvjtVEa7gj": {
+                    "name": "Scimitar (Cimmetère)"
+                },
+                "YdD2kpKW2TNfcupL": {
+                    "name": "Goblin Scuttle (Précipitation gobeline)",
+                    "description": "<p><strong>Déclencheur</strong> Un allié termine une action de déplacement adjacent au gréeur gobelin.</p>\n<hr />\n<p><strong>Effet</strong> Le gréeur gobelin Fait un pas.</p>"
+                },
+                "wBppFKxjdSadJQj2": {
+                    "name": "Shortbow (Arc court)"
+                }
+            }
+        },
+        "Enraged Sea Life": {
+            "name": "Enraged Sea Life (Faune marine enragée)",
+            "desc (hazard)": "<p>Une nuée de seiches agressives, de poulpes, de raies diables et d'innombrables autres espèces marines mordent et frappent les ennemis de Timonithaéa.</p>",
+            "disable": "<p>@Check[thievery|dc:23] (qualifié) pour retirer la couronne de l'autel tout en évitant de se faire mordre par la nuée d'animaux marins, ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (rang 3 ; contrer DD 23) pour désactiver l'enchantement de la couronne, brisant le contrôle de Timonithaéa sur les créatures marines.</p>",
+            "routine": "<p>(une action) Les créatures marines attaquent, infligeant @Damage[(1d8+3)[bludgeoning],(1d8+3)[piercing]]{1d8+3 dégâts contondants et 1d8+3 dégâts perforants} à chaque créature hostile à Timonithaéa dans le temple (@Check[reflex|dc:22|basic]).</p>",
+            "stealth": "<p>(Qualifié)</p>",
+            "items": {
+                "4p7frSBHGFFLs1ae": {
+                    "name": "Aquatic Onslaught (Assaut aquatique)",
+                    "description": "<p><strong>Déclencheur</strong> Les PJ entrent dans la chambre principale du temple</p>\n<hr />\n<p><strong>Effet</strong> La chambre se remplit de créatures marines, puis détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Naiad Commander": {
+            "name": "Naiad Commander (Capitaine naïade)",
+            "description": "<p>Le capitaine est l'autorité suprême à bord d'un navire, responsable de la vie et du bien-être de tous les membres de l'équipage.</p>\n<hr />\n<p>Les aventuriers peuvent avoir besoin de passer sur un navire rapide, ou ils peuvent faire face à des dangers provenant de pillards en mer ou dans des établissements côtiers.</p>",
+            "blurb": "Variante de capitaine de navire",
+            "items": {
+                "1y3QPbqipmQ8JnMe": {
+                    "name": "Aqueous Fist (Poing aquatique)"
+                },
+                "5iTqDt4fDSnYuJIg": {
+                    "name": "Dual Disarm (Double désarmement)",
+                    "description": "<p>Le capitaine naïade effectue deux Frappes, la première avec sa rapière et l'autre avec sa main-gauche (dans n'importe quel ordre). Si les deux Frappes touchent, le capitaine de navire peut tenter de [[/act disarm]]{Désarmer} la cible.</p>\n<p>La pénalité d'attaques multiples n'augmente qu'une fois les deux attaques effectuées.</p>"
+                },
+                "ASoYSZQLeYx2zpGR": {
+                    "name": "Aqueous Rapier (Rapière aqueuse)"
+                },
+                "FMRFRcuXn2QHFX2v": {
+                    "name": "Bravery (Bravoure)",
+                    "description": "<p>Lorsque le capitaine naïade obtient un succès sur un jet de Volonté contre un effet de terreur, il devient un succès critique. De plus, à chaque fois qu'il obtient l'état @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé}, réduisez son intensité de 1.</p>"
+                },
+                "GPPuGjbwDW5uV6ct": {
+                    "name": "Aqueous Main-Gauche (Main-gauche aqueuse)"
+                },
+                "OjePIuXOLgAEb4RG": {
+                    "name": "No Quarter! (Pas de quartier !)",
+                    "description": "<p>Le capitaine naïade ordonne à son équipage de se battre sans faire de quartier. Toutes les créatures alliées de niveau équivalent ou inférieur se trouvant à moins de 6 mètres du capitaine de navire obtiennent un bonus de statut de +1 à leurs jets d'attaque et de dégâts jusqu'à la fin du prochain tour du capitaine de navire.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.TjRZbd52qWPjTbNT]{Effet : Pas de quartier !}</p>"
+                },
+                "eqKIODGOehxhMYJ0": {
+                    "name": "Animal Empathy (Empathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions, recevoir des réponses et utiliser la compétence Diplomatie avec les animaux.</p>"
+                },
+                "uaIlnacoQ95VuVMM": {
+                    "name": "Sailing Lore (Connaissance de la navigation maritime)"
+                }
+            }
+        },
+        "Recently Slain Rat Swarm": {
+            "name": "Recently Slain Rat Swarm (Nuée de rats récemment tués)",
+            "hpdetails": "Guérison du vide",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader ou Nager"
+                }
+            },
+            "items": {
+                "BsKuf0AAqQmzH3he": {
+                    "name": "Zombie Plague (Peste du zombie)",
+                    "description": "<p>Les conditions Nauséeux et @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient} causées par la Peste du zombie ne peuvent prendre fin ni être réduites avant que la maladie ne soit guérie.</p>\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:14]</p>\n<p><strong>Stade 1</strong> porteur sans effet néfaste (1d4 heures)</p>\n<p><strong>Stade 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (1 jour)</p>\n<p><strong>Stade 3</strong> Nauséeux 1 et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} (1 jour)</p>\n<p><strong>Stade 4</strong> Inconscient (1 jour)</p>\n<p><strong>Stade 5</strong> Mort</p>"
+                },
+                "Xq6hkgKiPBNei8df": {
+                    "name": "Frenzied Bites (Morsures frénétiques)",
+                    "description": "<p>Chaque ennemi dans l'espace de la nuée subit @Damage[2d6[piercing]|options:area-damage]{2d6 dégâts perforants} (@Check[reflex|dc:20|basic|options:area-effect]). Toute créature qui obtient un échec à son jet de sauvegarde est exposée à la peste du zombie.</p>"
+                },
+                "wnyeoxJq6nJPx1Re": {
+                    "name": "Slow (Ralenti)",
+                    "description": "<p>Une nuée de rats récemment tués est constamment @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} et ne peut pas utiliser de réaction.</p>"
+                }
+            }
+        },
+        "Marshy Snapdrake": {
+            "name": "Marshy Snapdrake (Craquedrake des marais)",
+            "description": "<p>Les habiles mages et paysagistes kizidhars fabriquent ces charmantes créatures de manière artisanale, tant pour le plaisir esthétique de leurs shuyookhs que pour leur protection. Pour créer un craquedrake, il faut d'abord élaborer minutieusement une armature de bois vivant en forme de drake, puis tisser des milliers de fleurs de fleur de dragonnier colorées en motifs complexes afin de former le corps et les écailles de la créature. Une fois achevés, les craquedrakes servent généralement à la fois de gardiens, d'animaux de compagnie et de décorations aux kizidhars tant qu'ils sont correctement nourris.</p>",
+            "languages": "Ne peut parler aucune langue",
+            "speeds": "Passage forestier supérieur",
+            "items": {
+                "03YaLZZBbaQNXIgl": {
+                    "name": "Fangs (Crocs)"
+                },
+                "7RD9b0b0ARSHZeZJ": {
+                    "name": "Greater Marsh Passage (Passage forestier supérieur)",
+                    "description": "<p>Le craquedrake des marais ignore les terrains difficiles et les terrains très difficiles liés aux marécages et aux champignons.</p>"
+                },
+                "HAmEsoCS7jucJCnL": {
+                    "name": "Marshy Snapdrake Pollen (Pollen de craquedrake des marais)",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Durée maximale</strong> 8 rounds</p>\n<p><strong>Stade 1</strong> @Damage[1d6[poison]]{1d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ébloui 1} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[1d6[poison]]{1d6 dégâts de poison}, Ébloui 1 et @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (2 rounds)</p>\n<p><strong>Stade 3</strong> @Damage[2d6[poison]]{2d6 dégâts de poison}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confus} et Nauséeux 1 (2 rounds)</p>"
+                },
+                "YsP0BTGgFbqhPJlq": {
+                    "name": "Spray Pollen (Pulvérisation de pollen)",
+                    "description": "<p>Le craquedrake des marais souffle une explosion de pollen dans un @Template[type:cone|distance:40]{Cône de 12 mètres}. Les créatures prises dans le souffle doivent réussir un jet de @Check[reflex|dc:25|basic] ou être exposées au pollen du craquedrake des marais.</p>\n<p>Le snapdrake des marais ne peut pas utiliser Pulvérisation de pollen à nouveau pendant [[/gmr 1d6 #Recharge pulvérisation de pollen]]{1d6 rounds}.</p>"
+                },
+                "dupxU1QENo5dwXMD": {
+                    "name": "Speed Surge (Vitesse augmentée)",
+                    "description": "<p><strong>Fréquence</strong> 3 fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Le craquedrake des marais peut se déplacer jusqu'à deux fois sa Vitesse.</p>"
+                },
+                "oWKqHA1A1VMXlVm8": {
+                    "name": "Alluring Scent (Senteur séduisante)",
+                    "description": "<p>Une créature qui pénètre dans l'émanation doit faire un jet de @Check[will|dc:25]. Si elle obtient un échec, la cible est @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} par le craquedrake des marais et doit utiliser au moins 1 action à son prochain tour pour Marcher rapidement en direction du craquedrake des marais. Si elle obtient un succès, la cible est immunisée contre la Senteur séduisante du craquedrake des marais pendant 1 heure.</p>"
+                },
+                "u2nE2RBWdzAHKWHI": {
+                    "name": "Tail Scythe (Faux de queue)"
+                },
+                "ynOVEJzoDLnic7tI": {
+                    "name": "Reactive Strike (Tail Scythe Only) (Frappe réactive (Faux de queue uniquement))"
+                }
+            }
+        },
+        "Bubbling Pile of Orts": {
+            "name": "Bubbling Pile of Orts (Tas pétillant d'orts)",
+            "desc (hazard)": "<p>Une faille vers les Enfers crépite d'une énergie instable provenant du cercle d'invocation brisé alors qu'une masse grouillante de fiélons lutte pour émerger. Une forme de brume couleur sang d'un Chevalier Infernal leur lance des ordres avec colère.</p>",
+            "disable": "<p>@Check[arcana|dc:16], @Check[nature|dc:19], @Check[occultism|dc:19] ou @Check[religion|dc:19] (2 actions) (qualifié) à 4,50 mètres ou moins pour affaiblir la faille, lui infligeant @Damage[3d4[spirit]|traits:holy]{3d4 dégâts spirituels}. Ces dégâts ont le trait saint.</p>",
+            "routine": "<p>(1 action) Le Chevalier Infernal commande les orts, et le piège frappe violemment chaque créature ennemie dans son emplacement et les cases adjacentes, infligeant @Damage[(1d10+6)[slashing]]{1d10+6 dégâts tranchants} (@Check[reflex|dc:18|basic]). Si aucune cible n'est à portée, un ort émerge dans une case adjacente.</p>",
+            "stealth": "<p>qualifié</p>",
+            "items": {
+                "9T4b5Mvz91zxdIbO": {
+                    "name": "Hellfire (Feu infernal)",
+                    "description": "<p>Tous les orts dans un rayon de 9 mètres ont un bonus de statut de +1 pour toucher et infligent 1d4 dégâts de feu supplémentaires s'ils touchent.</p>"
+                },
+                "RkxE5OMukTbfxsOw": {
+                    "name": "Planar Breach (Faille planaire)",
+                    "description": "<p><strong>Déclencheur</strong> Le cercle magique est brisé.</p>\n<hr />\n<p><strong>Effet</strong> Le tas déverse des orts et le piège détermine ensuite l'initiative.</p>"
+                },
+                "px9jiv09J9tnjJFv": {
+                    "name": "Bubble (Bulle)",
+                    "description": "<p><strong>Déclencheur</strong> Le piège subit un coup critique ou obtient un échec critique à un jet de sauvegarde.</p>\n<hr />\n<p><strong>Effet</strong> Un ort émerge dans une case adjacente.</p>"
+                }
+            }
+        },
+        "Pirate Goblin": {
+            "name": "Pirate Goblin (Gobelin pirate)",
+            "description": "<p>Les combattants de première ligne des tribus de gobelins préfèrent se battre au sein de larges groupes, surtout quand ils peuvent attaquer à au moins trois contre un.</p>\n<hr />\n<p>Ces petits humanoïdes ont une peau verte ou grise et une grosse tête avec des oreilles larges. Bien que certains gobelins soient civilisés et aient travaillé dur pour être considérés comme des membres honnêtes des communautés humanoïdes, nombreux sont des créatures vicieuses et impétueuses qui se délectent de semer des ravages. Ces gobelins ne pensent à rien d'autre qu'à massacrer le bétail, voler des nouveau-nés ou brûler des bâtiments simplement pour le plaisir que cela leur procure. Ils adorent faire de mauvaises farces aux humanoïdes de plus grande taille qu'ils appellent les « longues-jambes ».</p>\n<p>Les gobelins sont superstitieux avec une crainte révérencieuse particulière à l'égard de la magie et une fascination pour le feu ; ceux qui maîtrisent la magie ou le feu sont très respectés par les membres de leur espèce. La plupart des autres humanoïdes ont le plus grand mal à comprendre la mentalité des gobelins : ils détestent les canidés mais n'hésitent pas à partager leurs tanières avec des « chiens gobelins », ils attaquent sans crainte des créatures plus grandes mais sont terrifiés par les chevaux et ils détestent les légumes alors qu'ils considèrent les cornichons comme une friandise. Pour un gobelin, bien naturellement, ce sont des choix de vie parfaitement sensés.</p>",
+            "blurb": "Variante de gobelin guerrier",
+            "items": {
+                "4EXgRMqNIRLXxB1c": {
+                    "name": "Shortbow (Arc court)"
+                },
+                "CnmgzGmi2Avq67QA": {
+                    "name": "Dogslicer (Tranchechien)"
+                },
+                "UKgAtRQoGjCLDLmT": {
+                    "name": "Tailed Goblin (Gobelin à queue)",
+                    "description": "<p>Un gobelin pirate n'est pas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} quand il Escalade, peut Escalader avec une main occupée et peut faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} à des adversaires même si ses deux mains sont occupées.</p>"
+                },
+                "czwGWW73rkPW7vBg": {
+                    "name": "Goblin Scuttle (Précipitation gobeline)",
+                    "description": "<p><strong>Déclencheur</strong> Un allié gobelin termine une action de déplacement adjacent au pirate gobelin.</p>\n<hr />\n<p><strong>Effet</strong> Le pirate gobelin @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Fait un pas}.</p>"
+                },
+                "iNVPjf6gB7TmqEM8": {
+                    "name": "Boarding Action (Action d'embarquement)",
+                    "description": "<p>Le pirate gobelin se balance sur une corde ou Marche rapidement, se déplaçant jusqu'au double de sa Vitesse. Si le pirate embarque ou débarque d'un bateau au cours de son déplacement, il peut effectuer une Frappe au corps-à-corps à la fin de son déplacement, cette dernière infligeant alors un dé de dégâts supplémentaire en cas de succès.</p>"
+                }
+            }
+        },
+        "Olinda Posandi (3-4)": {
+            "name": "Olinda Posandi (3-4)",
+            "blurb": "Humaine diaboliste femme",
+            "items": {
+                "FW0LcRKKo8WVFtAr": {
+                    "name": "Silver Religious Symbol of Asmodeus (Symbole en argent d'Asmodéus)"
+                },
+                "TVyBB6w72RJxVtO1": {
+                    "name": "Arcane Prepared Spells (Sorts arcaniques préparés)"
+                },
+                "W2x8jxg3NDKhQYZt": {
+                    "name": "Sacrifice Minion (Sacrifice de diablotin)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ennemie dans un rayon de 4,50 mètres effectue un jet de sauvegarde</p>\n<hr />\n<p><strong>Effet</strong> Détruisez un sbire diablotin dans un rayon de 4,50 mètres. L'ennemi effectue deux jets de sauvegarde et prend le résultat le plus faible.</p>"
+                },
+                "mifGhwXoceLzOBG6": {
+                    "name": "Dagger (Dague)"
+                },
+                "qoCESLhY3rQqeK0h": {
+                    "name": "Conjure Imp (Conjuration de diablotin)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par tour</p>\n<hr />\n<p><strong>Effet</strong> Olinda invoque un serviteur diablotin dans un rayon de 6 mètres, qui peut effectuer une frappe au corps-à-corps contre un ennemi adjacent.</p>"
+                },
+                "t63P9OB3juBHOv7F": {
+                    "name": "Dagger (Dague)"
+                }
+            }
+        },
+        "Athamaru Swab": {
+            "name": "Athamaru Swab (Laveur de pont athamaru)",
+            "description": "<p>Dans les profondeurs de la mer, des bancs d'athamarus (humanoïdes piscicoles armés de lances et d'arbalètes particulières) traquent les requins, les serpents de mer et les calamars géants chevauchant des murènes géantes. Les premiers chasseurs à frapper sont armés de harpons barbelés qui déploient de grands éventails d'algues, ralentissant et épuisant leurs proies. Quelques athamarus audacieux utilisent le harpon ainsi encastré comme poignée pour chevaucher leur proie pendant un court moment. Une fois la créature fatiguée, les autres chasseurs l'achèvent à l'aide de longues lances. Les athamarus ont développé cette tradition de chasse pour forger des guerriers compétents et dissuader les attaquants potentiels, en partie en réponse à des siècles d'oppression et de mauvais traitements de la part d'autres cultures aquatiques.</p>\n<p>Les athamarus chassent rarement les habitants de la terre, proposant plutôt d'échanger leurs services de guides contre des objets en métal et en céramique qu'ils ne peuvent pas construire sous l'eau - et contre des tubercules, qu'ils considèrent comme des délices terrestres. Ils apportent leur aide aux voiliers endommagés et sauvent les marins naufragés, en leur fournissant de la nourriture et des conseils.</p>\n<p>Les communautés d'athamarus - généralement des villages de 200 individus ou moins - sont matriarcales. La souveraine est aussi sa principale pondeuse, offrant à chaque génération des liens familiaux puissants. Les communautés sont soudées et loyales. Les matriarches sont conseillées et assistées par des lanceurs de sorts primordiaux et des guérisseurs.</p>",
+            "blurb": "Variante de chasseur athamaru faible",
+            "speeds": "Nageur chevronné",
+            "items": {
+                "1elKyf9JIeMq5jrZ": {
+                    "name": "Fan Bolts (Carreaux éventail)"
+                },
+                "8hoPxayirM6ubTyC": {
+                    "name": "Longspear (Pique)"
+                },
+                "E5px1RlWDeEv4gVY": {
+                    "name": "Diving Reload (Rechargement en plongée)",
+                    "description": "<p>Le laveur de pont athamaru peut plonger sous l'eau, ce qui lui confère le camouflage, et recharger son arme en une même action.</p>"
+                },
+                "F0RaqdAbEfogkX2c": {
+                    "name": "Fan Bolt (Carreau éventail)",
+                    "description": "<p>Le laveur de pont athamaru prépare avec soin ses carreaux pourvu de crochets tissés à partir d'algues marines. Sur une Frappe d'arbalète réussie, le carreau s'enfonce et l'éventail d'algues de déploie. La cible subit une pénalité de statut de -3 mètres à sa Vitesse de Nage. Une créature peut Interagir afin d'effectuer un test d'@Check[athletics|dc:18|name:Retirer le carreau éventail], retirant le carreau en cas de succès.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.seWuw1GMSm3kzCWV]{Effet : Carreau éventail}</p>"
+                },
+                "KnlMKaajUHNW24mj": {
+                    "name": "Crossbow (Arbalète)"
+                },
+                "eBzYlEBFycddJLAk": {
+                    "name": "Hunt Prey (Chasser une proie)",
+                    "description": "<p>Le chasseur athamaru désigne une unique créature qu'il peut entendre et percevoir ou une créature qu'il est en train de Pister, qui devient sa proie. L'athamaru bénéficie d'un bonus de circonstances de +2 aux tests de Perception quand il @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Cherche} sa proie et aux tests de Survie quand il la @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Piste}.</p>\n<p>La première fois qu'il touche sa proie durant le round, il lui inflige 1d8 dégâts de précision supplémentaires. Cet effet dure jusqu'à ce que le chasseur athamaru utilise Chasser une proie de nouveau.</p>"
+                },
+                "zAfIfdV5UBJtB564": {
+                    "name": "Smooth Swimmer (Nageur chevronné)",
+                    "description": "<p>Le laveur de pont athamaru ignore le terrain difficile causé par les particularités des terrains aquatiques.</p>"
+                }
+            }
+        },
+        "Distracted Zaluraak": {
+            "name": "Distracted Zaluraak (Zaluraak distrait)",
+            "description": "<p>Les dragons fortunés possèdent la capacité innée de puiser dans les énergies magiques brutes qui les entourent. Ils utilisent constamment ces énergies magiques pour renforcer leurs propres capacités magiques et même leur corps, car l'énergie peut guérir les blessures. Un dragon fortuné a la carrure typique d'un dragon arcanique, mais son corps présente une particularité frappante : son trésor. La nature du dragon, qui consiste à puiser dans la magie, fait que les pièces, les gemmes et surtout, les objets magiques s'accrochent à son corps comme le fer à l'aimant. Un dragon attire constamment des énergies magiques des objets attachés à son corps et utilise ces énergies pour lancer des sorts. Les énergies magiques qui circulent à travers un dragon fortuné circulent également à travers les objets du dragon et, dans de nombreux cas, les objets fondent sous l'effet de la chaleur produite par ce processus. Les dragons fortunés sont à la recherche d'expériences inédites. Ce désir d'originalité les amène à aborder les visiteurs d'autres ascendances avec curiosité, bien que cet intérêt initial s'estompe rapidement si le visiteur n'a pas des qualités attrayantes.</p>\n<hr />\n<p>Les dragons se présentent sous une multitude de formes et nombre d'entre eux possèdent des capacités magiques ou des liens avec la magie. Certains dragons tirent une plus grande puissance de la magie que d'autres, ce qui leur permet de manifester des capacités ou de modifier leur silhouette en cas d'exposition prolongée à la magie. Ces dragons deviennent plus puissants en vieillissant et en renforçant leurs liens avec leurs origines magiques. Les érudits débattent de la classification de ces dragons, certains préférant le nom de dragons magiques et d'autres celui de dragons traditionnels en raison de leur lien avec des traditions magiques spécifiques. Quel que soit leur nom, ces dragons partagent un certain nombre de caractéristiques : leur capacité à puiser dans les énergies magiques, une puissance et une ruse accrues à mesure qu'ils vieillissent et une propension à amasser de vastes quantités de trésors et de richesses.</p>",
+            "blurb": "Variante de jeune dragon fortuné",
+            "saves": "Bonus de statut de +2 aux jets de sauvegarde contre l'arcanique",
+            "items": {
+                "2ZLsaPJA5gu2RAy4": {
+                    "name": "Arcane Spontaneous Spells (Sorts arcaniques spontanés)"
+                },
+                "Fd9jpCrOyon1zkTb": {
+                    "name": "Disruptive Breath (Souffle perturbateur)",
+                    "description": "<p>Zaluraak vaporise un nuage d'énergies perturbatrices qui infligent @Damage[7d6[force]|options:area-damage]{7d6 dégâts de force} en un @Template[cone|distance:30]{cône de 9 mètres} (@Check[reflex|dc:27|basic|options:area-effect]). Les créatures qui obtiennent un échec à leur jet de sauvegarde sont également @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiées 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiées 2} en cas d'échec critique) pendant 1 minute.</p>\n<p>Le dragon ne peut plus utiliser cette capacité pendant [[/gmr 1d4 #Recharger Souffle perturbateur]]{1d4 rounds}</p>"
+                },
+                "HrKiO0jPCr68aaT0": {
+                    "name": "Share the Wealth (Partage des richesses)",
+                    "description": "<p><strong>Conditions</strong> Le corps de Zaluraak est couvert de richesses (ceci est habituellement le cas lors d'une première rencontre avec le dragon)</p>\n<hr />\n<p><strong>Effet</strong> Zaluraak secoue de manière agressive son corps, envoyant les pièces d'or et autres trésors dans les airs tout autour de lui, infligeant @Damage[7d6[bludgeoning]|options:area-damage]{7d6 dégâts contondants} à toutes les créatures dans une @Template[emanation|distance:30]{émanation de 9 mètres} (@Check[reflex|dc:26|basic|options:area-effect]). Le corps du dragon n'est plus recouvert de richesses.</p>"
+                },
+                "RvtzkMW1PTqja0gM": {
+                    "name": "+2 Status to All Saves vs. Arcane (Bonus de statut de +2 aux jets de sauvegarde contre l'arcanique)"
+                },
+                "U2aHyDSUjhmZQz3D": {
+                    "name": "Mercantile Lore (Connaissance commerciale)"
+                },
+                "V3RdFn1rzRknyFZk": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "ZSBangxptZQWQrmm": {
+                    "name": "Treasure Dive (Plongeon dans le trésor)",
+                    "description": "<p><strong>Conditions</strong> Le corps du dragon n'est pas couvert de richesses et le dragon est à côté de son trésor</p>\n<hr />\n<p><strong>Effet</strong> Zaluraak Marche rapidement ou Creuse à travers son trésor, en utilisant sa Vitesse au sol. Il se drape de pièces, d'objets magiques et autres trésors qui se collent à son corps. Ce contact avec des objets magiques le revitalise provoquant la récupération d'un emplacement de sort spontané qu'il a déjà utilisé</p></p>\n<p>Zaluraak peut se déplacer vers d'autres créatures lorsqu'il utilise ce déplacement. Les créatures qui se trouvent sur le chemin du dragon ou au-dessus alors que le dragon est en train de Creuser, doivent effectuer un jet de @Check[reflex|dc:24] ou être repoussées de 3 mètres (en cas d'échec critique elles sont repoussées de 6 mètres et jetées @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}).</p>"
+                },
+                "ZtXhjfJCNa4QpidO": {
+                    "name": "Claw (Griffe)"
+                },
+                "fLPSxVkoQyjEcOhg": {
+                    "name": "Capture Spell (Capture de sort)",
+                    "description": "<p><strong>Déclencheur</strong> Zaluraak obtient un succès ou un succès critique à son jet de sauvegarde contre un sort</p>\n<hr />\n<p><strong>Effet</strong> Zaluraak essaie de capturer une portion de la magie du sort pour s'en nourrir. Il tente de contrer le sort (Rang 5, modificateur [[/r 1d20+20 #contre]]{+20}). S'il obtient une réussite, le dragon n'est pas affecté par les effets du sort et regagne un emplacement de sort spontané qu'il a utilisé. Les autres cibles sont affectées par le sort comme à l'ordinaire.</p>"
+                },
+                "l85X7HFMtvq5VzZO": {
+                    "name": "Tail (Queue)"
+                },
+                "wlFjZPNirGsmZHEX": {
+                    "name": "Draconic Frenzy (Frénésie draconique)",
+                    "description": "<p>Zaluraak effectue deux Frappes de griffe et une Frappe de queue dans n'importe quel ordre.</p>"
+                },
+                "xAnWgLECiMfi9alB": {
+                    "name": "Accounting Lore (Connaissance de la comptabilité)"
+                },
+                "xZbyHDzzCDYB7MD6": {
+                    "name": "Draconic Momentum (Impulsion draconique)",
+                    "description": "<p>Lorsqu'il obtient un coup critique avec une Frappe, Zaluraak peut choisir entre la recharge du Souffle perturbateur ou le gain d'un emplacement de sort spontané dépensé.</p>"
+                }
+            }
+        },
+        "Undead Hellknight": {
+            "name": "Undead Hellknight (Chevalier infernal mort-vivant)",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "Ey0n0sGrh6IbhXQ5": {
+                    "name": "Spear (Lance)"
+                },
+                "IRm6i1GMKxWub37L": {
+                    "name": "Morningstar (Morgenstern)"
+                },
+                "P6MqxWxSWsS3YZL1": {
+                    "name": "Warfare Lore (Connaissance de la guerre)"
+                },
+                "VAjIOFfXsEkMxTAZ": {
+                    "name": "Damned Restoration (Restauration du damné)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par heure</p>\n<hr />\n<p><strong>Effet</strong> Une cible morte-vivante dans son allonge récupère @Damage[2d6[healing]]{2d6 Points de Vie} et obtient un bonus de statut de +2 à ses jets de dégâts pendant 1 round.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.F4fWxN5WREaoWz19]{Effet : Restauration du damné}</p>"
+                },
+                "hUM0weUCNAO3w0hE": {
+                    "name": "Spear (Lance)"
+                }
+            }
+        },
+        "Timonithaea (7-9)": {
+            "name": "Timonithaea (7-9) (Timonithaéa (7-9))",
+            "description": "<p>Les naïades souveraines règnent sur des territoires encore vierges, centrés autour de lacs immaculés, de rivières puissantes ou de toute autre étendue d'eau douce. Les chants des bardes et les représentations artistiques de ces puissantes nymphes ont tendance à dépeindre les naïades souveraines sous leur forme légèrement plus humanoïde, qu'elles revêtent lorsqu'elles font le rare voyage vers les terres civilisées pour gagner des alliés, recueillir des nouvelles ou jauger les menaces.</p>\n<p>La plupart des naïades souveraines traitent avec bienveillance ceux qui respectent leurs domaines, mais elles sont aussi féroces et promptes à éliminer leurs ennemis. Leur beauté éblouissante et leur éventail de sorts offensifs font des naïades souveraines des adversaires redoutables si elles sont forcées de se battre.</p>\n<hr />\n<p>Les nymphes sont une famille de fées qui prennent la forme de beaux humanoïdes aux traits elfiques et qui possèdent un lien profond avec le monde naturel. Les plus courantes sont les dryades, qui sont des esprits incarnant les grands arbres, mais il existe de nombreuses autres sortes de nymphes, dont les naïades, qui veillent sur les étendues d'eau. Toutes les nymphes sont les gardiennes d'un élément de la nature, généralement un arbre ou un étang spécifique, voire, dans le cas des nymphes souveraines, de forêts entières ou de vastes étendues d'eau.</p>\n<h2>Nymphes souveraines</h2>\n<p>Les nymphes souveraines sont des nymphes puissantes qui règnent sur des régions entières de nature vierge et pas uniquement sur des arbres ou des étangs isolés. Chaque variété de nymphe peut avoir une souveraine. Les naïades souveraines sont parmi les plus connues et sont celles qui interagissent le plus souvent avec les mortels des environs. C'est pourquoi certains spécialistes désignent les souveraines des naïades comme simplement des \"nymphes\".</p>",
+            "blurb": "Variante de souveraine naïade",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour nager"
+                }
+            },
+            "items": {
+                "EhdD8hFrqyISTFtx": {
+                    "name": "Primal Prepared Spells (Sort primordiaux préparés)"
+                },
+                "Gm902B0XQR5W4eLu": {
+                    "name": "Tied to the Land (Liée à la région)",
+                    "description": "<p>La naïade souveraine est liée à une masse d'eau ou une zone avec des paysages liés à l'eau.</p>\n<hr />\n<p>Une naïade souveraine est intrinsèquement liée à une région spécifique. Tant que la reine est en bonne santé, l'environnement y est exceptionnellement résilient, ce qui permet à la nymphe souveraine de tenter de contrer automatiquement tout sort susceptible de nuire à l'environnement (comme le rituel @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHxD]{Flétrissement}), en utilisant son DD de sort avec un rang de contre égal au sort de druide de rang le plus élevé qu'elle peut lancer.</p>\n<p>Cependant, lorsque la nymphe souveraine est en mauvaise santé physique ou psychologique, la région qu'elle protège se retrouve elle aussi déformée et malade. Dans ce cas, le rétablissement de la nymphe souveraine entraîne une guérison rapide de l'ensemble de la région.</p>"
+                },
+                "HL3wrCKvsFKv7jaX": {
+                    "name": "Tidal Surge (At Will) (Raz-de-marée (À volonté))"
+                },
+                "P658sPuiyqAqTdkz": {
+                    "name": "Focus Beauty (Focaliser la beauté)",
+                    "description": "<p>Si une cible déjà affectée par Beauté de la nymphe souveraine obtient un échec sur son jet de sauvegarde, l'image de la reine s'incruste dans l'esprit de la créature, l'aveuglant de fait jusqu'à ce que sa vision soit rétablie par un sort de @UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Corps assaini} ou un effet similaire.</p>\n<p>La naïade souveraine peut révoquer cet effet.</p>\n<hr />\n<p>La nymphe souveraine fait peser sa beauté sur une cible, qui doit effectuer un jet de sauvegarde contre l'aura Beauté de la nymphe (@Check[will|dc:23]). Si la créature échoue et qu'elle était déjà affectée par l'aura, elle subit un effet plus important décrit dans le commentaire consacré à la nymphe souveraine.</p>\n<p>Une nymphe souveraine ne peut Focaliser sa beauté sur une créature donnée qu'une seule fois par tour.</p>"
+                },
+                "TahJmDRewYTMmLsm": {
+                    "name": "Water Orb (Orbe d'eau)"
+                },
+                "Y44FxT7CY4R6SkdW": {
+                    "name": "Nymph's Beauty (Beauté de la nymphe)",
+                    "description": "<p>9 mètres. @Check[will|dc:26|options:area-effect,inflicts:stunned]. </p> \n<p>Si la créature obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1} et redevient Étourdie 1 à chaque fois qu'elle débute son tour dans l'aura pendant les 24 prochaines heures, même si elle ne peut pas voir la naïade souveraine.</p>"
+                },
+                "YJMvSGcOCT86q7GC": {
+                    "name": "Timonithaea's Calling (L'appel de Timonithaéa)",
+                    "description": "<p>Timonithaéa canalise l'énergie magique dans la couronne Enoménos pour communiquer par télépathie avec les créatures qui se trouvent sous l'eau dans un rayon de 32 kilomètres autour de Naós tou Neroú.</p>"
+                },
+                "lQKrggSbzpvqq4YB": {
+                    "name": "Inspiration"
+                },
+                "nS51JCooM2dV2JTC": {
+                    "name": "Animal Empathy (Empathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions, recevoir des réponses et utiliser la compétence Diplomatie avec les animaux.</p>"
+                },
+                "pCZn7Y6OrzZU4XgW": {
+                    "name": "Primal Innate Spells (Sorts innés primordiaux)"
+                },
+                "xxUW9YkqVCI57nCo": {
+                    "name": "Aqueous Fist (Poing aqueux)"
+                },
+                "yQ0WKMlep02TPvLi": {
+                    "name": "Change Shape (Changement de forme)"
+                },
+                "z1Wnid4gCPgKMoV8": {
+                    "name": "Water Healing (Soins des eaux)",
+                    "description": "<p>Pour chaque période de 10 minutes qu'une naïade passe à s'immerger dans un plan d'eau de son domaine, elle récupère @Damage[30[healing]]{30 Points de vie}.</p>"
+                }
+            }
+        },
+        "Lyari Zinfeld (3-4)": {
+            "name": "Lyari Zinfeld (3-4)",
+            "items": {
+                "1FwfoQZutgMZuZ7A": {
+                    "name": "Swift Leap (Bond rapide)",
+                    "description": "<p>La blême se déplace d'une distance égale ou inférieure à la moitié de sa Vitesse en bondissant. Ce déplacement ne déclenche pas de réactions.</p>"
+                },
+                "IVyafoUtJ07Mw5lo": {
+                    "name": "Consume Flesh (Absorption de la chair)",
+                    "description": "<p><strong>Conditions</strong> Lyari est adjacente au cadavre d'une créature morte depuis moins d'une heure.</p>\n<hr />\n<p><strong>Effet</strong> Lyari dévore un morceau de chair du cadavre et récupère @Damage[1d6[healing]]{1d6 Points de vie}.</p>\n<p>Elle récupère des Points de vie une seule fois par cadavre.</p>"
+                },
+                "MYehNbs3vmOO1Am4": {
+                    "name": "Duty's Soulshackle (Entrave des âmes du Devoir)"
+                },
+                "ObvfT7H6CJFgUwak": {
+                    "name": "Claw (Griffes)"
+                },
+                "OyBM0lFUQ8cJ66g8": {
+                    "name": "Duty's Soulshackle (Entrave des âmes du Devoir)"
+                },
+                "a95o9NAIxUiz6qwC": {
+                    "name": "Elven Lore (Connaissance des elfes)"
+                },
+                "aVh5EzRlTBz0XCWW": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "cISRUzJuD47gP9NF": {
+                    "name": "Books (Livres)"
+                },
+                "dKVpzI2Gex2xr8no": {
+                    "name": "Nihilistic Truthsayer (Porteuse de vérités nihilistes)",
+                    "description": "<p>Le temps que Lyari a passé seule dans les profondeurs et sa perspective unique sur l'existence la rendent étonnamment réceptive aux terribles vérités universelles que les autres préfèrent ignorer. Elle s'adresse calmement à un ennemi situé à moins de 9 mètres, lui rappelant, d'un ton logique et posé, la fragilité de l'existence, ses insécurités supposées et ses échecs inévitables. La cible doit tenter un jet de sauvegarde de @Check[will|dc:19]. Si la créature obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3} et @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{En fuite} pendant 1 round en cas d'échec critique). Quelle que soit l'issue du jet, la cible devient temporairement immunisée pendant 1 heure.</p>"
+                },
+                "hbrVcX03l1hUrzRc": {
+                    "name": "Library Lore (Connaissance des bibliothèques)"
+                }
+            }
+        },
+        "Hunted by Duty's Bonds": {
+            "name": "Hunted by Duty's Bonds (Chassés par les chaînes du devoir)",
+            "desc (hazard)": "Shadowy chains reach out to ensnare creatures",
+            "disable": "<p>Test d'@Check[acrobatics|dc:18] pour éviter les chaînes, ou test d'@Check[arcana|dc:18], d'@Check[occultism|dc:18] ou de @Check[religion|dc:18] pour perturber rituellement la hantise. Chaque succès réduit le nombre d'actions de la hantise d'une. Lorsque la hantise n'a plus d'actions, elle est désactivée et la hantise déclenche Escalade de la chaîne.</p>",
+            "reset": "<p>La hantise se réinitialise la prochaine fois que <em>L'Entrave des âmes</em> piège des créatures dans la bibliothèque.</p>",
+            "routine": "<p>(deux actions) Des chaînes spectrales se déploient pour envelopper trois créatures aléatoires différentes piégées dans la hantise, qui doivent chacune réussir un jet de @Check[reflex|dc:17]. Si la créature obtient un échec à son jet de sauvegarde, elle est @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} jusqu'à ce qu'elle [[/act escape dc=17]]{S'échappe}. À chaque round où une créature commence son tour @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée}, elle subit @Damage[(2d4+1)[force]]{2d4+1 dégâts de force non létaux}. Des cicatrices spectrales se forment sur toute créature mise @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} par cette apparition.</p>",
+            "stealth": "<p>(Qualifié)</p>",
+            "items": {
+                "DZs5p7js1GEsHi69": {
+                    "name": "Chains of Undeath (Chaînes de non-mort)",
+                    "description": "<p><strong>Déclencheur</strong> L'Automne de Talhindir est neutralisée</p>\n<hr />\n<p><strong>Effet</strong> Une image spectrale de l'entrave des âmes du Devoir apparaît dans une niche d'exposition, projetant des chaînes d'énergie obscure vers chaque créature. Chaque créature vivante dans ce piège doit effectuer un @Check[will|dc:16]. Si elle obtient un échec à son jet de sauvegarde, la créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}. La hantise détermine ensuite l'initiative.</p>"
+                }
+            }
+        },
+        "Unruly Crowd": {
+            "name": "Unruly Crowd (Foule incontrôlée)",
+            "desc (hazard)": "<p>Des citoyens inquiets scandent des slogans sur les dangers de traiter avec le Chéliax et lancent des briques sur les sympathisants chélaxiens.</p>",
+            "disable": "<p>Réussissez deux des tests suivants, dans n'importe quelle combinaison : @Check[athletics|dc:20] (qualifié) pour confisquer les débris dangereux, @Check[diplomacy|dc:20] (qualifié) pour calmer la foule, @Check[intimidation|dc:18] (non qualifié) pour effrayer la foule, @Check[will|dc:22] (qualifié) pour conserver une attitude courageuse et confiante ; un effet tel que @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Apaisement} capable de cibler une zone compte comme un succès automatique.</p>",
+            "routine": "<p>(trois actions) La foule incontrôlée utilise une action pour scander un Slogan entraînant si elle ne bénéficie pas déjà de cet effet. Elle utilise une fois par tour Ébranler la confiance et utilise ses actions restantes pour des Frappes avec des pavés.</p>",
+            "stealth": "<p>(qualifié) Les personnages détectent automatiquement ce piège lorsqu'ils ouvrent la porte de la Grande Salle.</p>",
+            "items": {
+                "02FoDMzaejpPj31n": {
+                    "name": "Cobblestone (Pavé)"
+                },
+                "JEjJmbaqLOsaBEiD": {
+                    "name": "Shake Confidence (Ébranler la confiance)",
+                    "description": "<p>La foule incontrôlée cible une créature dans un rayon de 9 mètres. La créature doit tenter un jet de @Check[will|dc:20].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée et est immunisée contre Ébranler la confiance pendant 24 heures.</p>\n<p><strong>Succès</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature devient Effrayée 2 et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1}.</p>"
+                },
+                "ewXmZRDcTa19hzd0": {
+                    "name": "Catchy Slogan (Slogan entraînant)",
+                    "description": "<p>Tous les pièges dans une @Template[type:emanation|distance:30]{émanation de 9 mètres} obtiennent un bonus de statut de +1 aux jets d'attaque et aux jets de dégâts pendant 1 round.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wFpKEx9KSjoVg9xq]{Effet : Slogan Entraînant}</p>"
+                },
+                "i373FF1aDiawcdbR": {
+                    "name": "There They Are! (Ils sont là !)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ouvre la porte de la Grande Salle.</p>\n<hr />\n<p><strong>Effet</strong> La foule incontrôlée détermine l'initiative.</p>"
+                }
+            }
+        },
+        "Talhindir's Fall": {
+            "name": "Talhindir's Fall (La chute de Talhindir)",
+            "desc (hazard)": "<p>Toutes les lumières de la pièce s'allument soudainement, comme au jour de la mort de Lyari. Un chuchotement d'accusations et un verdict de culpabilité emplissent l'air. Des guerriers elfes fantomatiques disparaissent et réapparaissent dans une avancée désorientante et implacable.</p>",
+            "disable": "<p>@Check[athletics|dc:20] pour résister à la force du verdict, ou @Check[arcana|dc:20], @Check[occultism|dc:20] ou @Check[religion|dc:20] pour interrompre rituellement la hantise. Chaque succès réduit de 1 le nombre d'actions de la hantise. Lorsque la hantise n'a plus d'actions, elle est neutralisée et la hantise Chassés par les Chaînes se déclenche.</p>",
+            "reset": "<p>La hantise se réinitialise la prochaine fois que <em>L'Entrave des âmes</em> piège des créatures dans la bibliothèque.</p>",
+            "routine": "<p>(deux actions) La hantise effectue des Frappes de jugement vengeur contre trois créatures différentes et aléatoires prises au piège dans cette hantise. Une flaque spectrale de sang se forme sous toute créature rendue @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} par cette hantise.</p>",
+            "stealth": "<p>(qualifié) ; test de @Check[occultism|dc:15] ou @Check[religion|dc:15] pour remarquer des chuchotements étranges.</p>",
+            "items": {
+                "IXxD7yCqmDTGKr4z": {
+                    "name": "Accusations",
+                    "description": "<p><strong>Déclencheur</strong> Les PJ entrent tous dans la pièce</p><hr /><p><strong>Effet</strong> Des accusations de crimes contre la couronne sont chuchotées dans toute la pièce en elfique. Chaque créature vivante dans la pièce doit effectuer un jet de @Check[will|dc:18] sous peine d'être @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}. La hantise détermine ensuite l'initiative.</p>"
+                },
+                "eCADU7m2g9CZMt8i": {
+                    "name": "Vengeful Judgment (Jugement vengeur)",
+                    "description": "<p>Plus @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} sur un coup critique</p>"
+                }
+            }
+        },
+        "Withered Leaf of Talhindir": {
+            "name": "Withered Leaf of Talhindir (Feuille racornie de Talhindir)",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "6aRy2QDkaxrKWSn2": {
+                    "name": "Slink in Shadows (Se fondre dans les ombres)",
+                    "description": "<p>La Feuille de Talhindir peut [[/act hide]]{Se cacher} ou mettre fin à son [[/act sneak]]{Furtivité} dans l'ombre d'une créature ou d'un objet.</p>"
+                },
+                "M0O8rEQtmGSkUrVI": {
+                    "name": "Withered Touch (Touché de flétrissure)"
+                },
+                "WsuruTWS3hKjcRAs": {
+                    "name": "Weight of Darkness (Poids des ténèbres)"
+                },
+                "wAnVScy4XBMbtkLm": {
+                    "name": "Light Vulnerability (Vulnérabilité à la lumière)",
+                    "description": "<p>Les attaques contre la Feuille de Talhindir sont considérées comme magiques si elles sont effectuées par une créature se trouvant dans une lumière magique ou avec un objet se trouvant dans une lumière magique (comme celle du sort @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Lumière}).</p>"
+                }
+            }
+        },
+        "Damaged Jaws of Hell": {
+            "name": "Damaged Jaws of Hell (Mâchoires de l'enfer endommagées)",
+            "desc (hazard)": "<p>La machine est un dispositif cylindrique cerclé de lames avec un oeil diabolique en son centre. Des inventeurs gnomes ont créé cet engin mécanique, qui puise dans les plans de la Terre et du Feu pour créer de puissantes déflagrations afin d'endommager les murs de forteresses ou de décimer les rangs ennemis. Malheureusement, les nombreux kilomètres de forêt ne lui ont pas été cléments et elle est en panne. Les connexions planaires endommagées de ses mâchoires se sont affaiblies jusqu'à n'être qu'un mince filet et, lorsqu'elle est activée, elle frappe dans une frénésie incontrôlée. Les lames qui l'encerclent se mettent à cingler l'air autour d'elle.</p>",
+            "disable": "<p>@Check[arcana|dc:18], @Check[crafting|dc:18], @Check[nature|dc:18] ou @Check[thievery|dc:18] (qualifié) deux fois, pour trancher la connexion aux plans du Feu et de la Terre. @Check[crafting|dc:16] ou @Check[thievery|dc:16] (qualifié) une fois, pour retirer le pivot reliant la plateforme aux chevaux. Une créature doit être adjacente à la mâchoire pour tenter l'un ou l'autre de ces tests.</p>",
+            "reset": "<p>La connexion planaire s'arrête après 1 minute. Les chevaux se fatiguent et s'arrêtent de courir après 1 minute.</p>",
+            "routine": "<p>(trois actions) À son tour chaque round, les chevaux dépensent une action pour se déplacer de 9 mètres, en traînant la plateforme portant la mâchoire derrière eux dans une direction choisie au hasard. Les chevaux ne se déplaceront pas à travers d'autres créatures. Les joueurs sur la plateforme lorsqu'il se déplace doivent tenter un @Check[acrobatics|dc:18] lorsqu'il bouge. En cas d'échec, ils tombent. Retirer le pivot mettra fin au mouvement aléatoire. La mâchoire utilise 2 actions pour Cracher du Feu ou effectuer des Frappes au corps-à-corps contre une créature adjacente.</p>",
+            "items": {
+                "LCjhpLS1is67Har2": {
+                    "name": "Jaws Statistics (Statistiques de la mâchoire)",
+                    "description": "<p><strong>Dureté des mâchoires</strong> 15</p>\n<p><strong>Points de vie des mâchoires</strong> 60 (SR 30)</p>"
+                },
+                "WcEngw9sRL9nxZmh": {
+                    "name": "Blade (Lame)"
+                },
+                "qZI2dGYb3P3DpTBd": {
+                    "name": "Blades of Vengeance (Lames vengeresses)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature de taille Petite ou supérieure se déplace dans un rayon de 3 mètres de la mâchoire.</p>\n<hr />\n<p><strong>Effet</strong> Une des lames cingle l'air, effectuant une Frappe contre la créature.</p>"
+                },
+                "uHMxDJnJaeG4qqvF": {
+                    "name": "Spit Fire (Cracher le feu)",
+                    "description": "<p>La mâchoire lance une boule de magma (portée 18 mètres, @Template[burst|distance:10]{explosion de 3 mètres}), au hasard, vers le plus grand groupe de créatures qu'elle peut prendre dans l'explosion (sans s'inclure), infligeant @Damage[2d4[bludgeoning],2d4[fire]|options:area-damage]{2d4 dégâts contondants et 2d4 dégâts de feu}. Chaque créature prise dans l'explosion doit tenter un jet de @Check[reflex|dc:15|options:damaging-effect,area-effect]. La mâchoire ne peut plus Cracher du Feu pendant [[/gmr 1d4+1 #Recharge Cracher du Feu]] rounds.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature subit la moitié des dégâts.</p>\n<p><strong>Échec</strong> La créature subit tous les dégâts et est jetée @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>\n<p><strong>Échec critique</strong> La créature subit le double des dégâts, @Damage[1[persistent,fire]]{1 dégâts de feu persistants}, et est jetée À terre.</p>"
+                }
+            }
+        },
+        "King Pirate Gorilla": {
+            "name": "King Pirate Gorilla (Gorille Roi des pirates)",
+            "description": "<p>Les gorilles peuvent être des créatures territoriales, tout particulièrement s'ils sont provoqués par des chasseurs ou par la présence de monstres plus dangereux. Un gorille utilise avec sauvagerie ses crocs et ses puissants bras pour mordre et rouer de coups les intrus.</p>\n<hr />\n<p>Bien que de nombreux primates soient pacifiques et vivent reclus, les gorilles peuvent se montrer très territoriaux et les mégaprimatus sont particulièrement agressifs et dangereux.</p>",
+            "blurb": "Variante de gorille élite",
+            "items": {
+                "4PvDXumkGQD2NB4z": {
+                    "name": "Well-Trained (Bien entraîné)",
+                    "description": "<p>Le gorille pirate est habitué à recevoir des ordres à bord d'un navire. Il perd son immunité aux effets linguistique, appels à se rendre inclus.</p>"
+                },
+                "7PQkG1Vfc7aynb2X": {
+                    "name": "Frightening Display (Démonstration effrayante)",
+                    "description": "<p>Le gorille frappe son torse et affiche une posture effrayante. Les créatures dans une @Template[emanation|distance:30]{émanation de 9 mètres} doivent effectuer un jet de @Check[will|dc:20|options:area-effect,inflicts:frightened,inflicts:off-guard].</p>\n<p>Tant qu'une créature est Effrayée par cette capacité, elle est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} face au gorille.</p>\n<hr />\n<p><strong>Succès critique</strong> Aucun effet et immunité temporaire pendant 1 minute.</p>\n<p><strong>Succès</strong> La créature n'est pas affectée.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>"
+                },
+                "AZc9w8btLS3tlJmK": {
+                    "name": "Boarding Action (Action d'embarquement)",
+                    "description": "<p>Le gorille pirate se balance sur une corde ou Marche rapidement, se déplaçant jusqu'au double de sa Vitesse. Si le pirate embarque ou débarque d'un bateau au cours de son déplacement, il peut effectuer une Frappe au corps-à-corps à la fin de son déplacement, cette dernière infligeant alors un dé de dégâts supplémentaire en cas de succès.</p>"
+                },
+                "D4XA5YtJ0G4E1and": {
+                    "name": "Jaws (Mâchoires)"
+                },
+                "T50Unm8nAUbNCLxu": {
+                    "name": "Fist (Poing)"
+                }
+            }
+        },
+        "Greater Demonologist": {
+            "name": "Greater Demonologist (Démonologiste avancé)",
+            "description": "<p>Le démonologiste peut attirer une créature hors des Failles extérieures et la plier à sa volonté... du moins pour un temps limité.</p>\n<hr />\n<p>Les secrets cachés et les pouvoirs occultes exercent un attrait irrésistible pour beaucoup. Comme la majorité de ces PNJ sont des incantateurs, vous pouvez envisagez d'utiliser des listes de sorts alternatives pour ajuster leurs thèmes.</p>",
+            "blurb": "Variant de démonologiste",
+            "DiplomacyVariants": {
+                "0": {
+                    "label": "avec des démons"
+                }
+            },
+            "items": {
+                "8Xoqtmerpdbx1Rgu": {
+                    "name": "Fist (Poing)"
+                },
+                "Cu79oDJClJ9C9Reu": {
+                    "name": "Demon Lore (Connaissance des démons)"
+                },
+                "VJxxeLCAgKz1s9HI": {
+                    "name": "Demonic Temptation (Tentations démoniaques)",
+                    "description": "<p>L'étude de démonologie a attiré l'attention d'au moins un démon qui tente activement de posséder le démonologiste. Lorsque celui-ci vante publiquement les bénéfices des pouvoirs démoniaques (qu'il y croie ou non), il obtient un bonus de statut de +1 aux tests de compétence, à la CA et aux jets de sauvegarde pendant 1 jour. Ces bonus ne s'appliquent pas contre les démons. À la fin de la journée, le démonologiste doit tenter un jet de @Check[volonté|dd:20]. En cas d'échec, il se retrouve possédé pendant 1 jour (ou définitivement en cas d'échec critique).</p>"
+                },
+                "cah7DtpiMX62b2rT": {
+                    "name": "Longspear (Pique)"
+                },
+                "ldL413k00pgvZnif": {
+                    "name": "Fiendish Hypotheses and Protections from Same (Spellbook) (Fiélons: Hypothèses et protections de ces créatures (Grimoire))"
+                },
+                "naPxWIBQxbkOgD8M": {
+                    "name": "Breach the Outer Rifts (Fracture des Failles extérieures)",
+                    "description": "<p><strong>Conditions</strong> La dernière action du démonologiste a consisté à incanter un sort autre qu'un tour de magie</p>\n<hr />\n<p><strong>Effet</strong> Le démonologiste canalise l'énergie des Failles extérieures dans son arme. Jusqu'à la fin du tour, l'arme inflige 2d6 dégâts supplémentaires. Lancez 1d20 pour déterminer le type : 1-7 acide, 8-9 froid, 10-11 électrique, 12-18 feu, 19-20 vide.</p>"
+                },
+                "rcJ4W5TkvDrGFTF2": {
+                    "name": "Arcane Prepared Spells (Sorts arcaniques préparés)"
+                },
+                "rskoGYiEEGDi0ngN": {
+                    "name": "Academia Lore (Connaissance universitaire)"
+                },
+                "ryVaqSZq9cQ7wPix": {
+                    "name": "Robes",
+                    "description": "<p>Les vêtements d'explorateur sont suffisamment robustes pour être renforcés afin de vous protéger, même s'il ne s'agit pas d'une armure. Ils se présentent sous de nombreuses formes, bien que les types les plus courants ressemblent à des vêtements sacerdotaux, des habits de moine ou des robes de magicien, car les membres de ces trois classes sont susceptibles d'éviter de porter une armure.</p>"
+                },
+                "xS8f6u8VDcBepVGM": {
+                    "name": "Demon Summoning (Convocation de démon)",
+                    "description": "<p>Le démonologiste peut incanter le sort arcanique @UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff]{Convocation de fiélon} au rang 5 pour convoquer un démon. Pour cela, il doit sacrifier deux sorts préparés de rang 4 et subir volontairement @Damage[4d12[mental]]{4d12 dégâts mentaux} qui ne peuvent pas être réduits ou évités.</p>\n<p>Si le démonologiste est incapable de Maintenir le sort, s'il est assommé ou tué par exemple, le sort continue mais le MJ fait un test @Check[flat|dc:10] à chaque tour, mettant fin au sort en cas d'échec.</p>"
+                }
+            }
+        },
+        "Imp Minion": {
+            "name": "Imp Minion (Sbire diablotin)",
+            "description": "<p>Les diablotins sont des infiltrateurs et corrupteurs fiélonnes qui, malgré leur stature menue, sont parfaitement capables d'influencer subtilement un individu à la volonté faible pour qu'il commette des actes de plus en plus maléfiques. Un diablotin accepte souvent de servir un mortel et feint la docilité et la loyauté dans le cadre d'un complot à long terme visant à provoquer la mort de son maître ou à damner son âme. Les diablotins naissent directement des Plans Extérieurs eux-mêmes, plutôt que d'âmes mortelles, et ils servent donc en dehors de toute hiérarchie fiélonne, ce qui leur laisse une grande latitude pour poursuivre leurs spécialités. Bien qu'ils ne mesurent pas plus de 60 centimètres, les diablotins peuvent être des combattants vicieux, volant hors de portée et devenant invisibles pour s'échapper si la situation tourne à leur désavantage.</p>",
+            "items": {
+                "LD8TK8mGL7ubLU4I": {
+                    "name": "Stinger (Dard)"
+                }
+            }
+        },
+        "Diabolic Messenger": {
+            "name": "Diabolic Messenger (Messager diabolique)",
+            "items": {
+                "Omm2X9U53sWtJwUK": {
+                    "name": "Hidden Blade (Lame dissimulée)",
+                    "description": "<p><strong>Fréquence</strong> Une fois par round </p>\n<hr />\n<p><strong>Effet</strong> Le messager diabolique tire une arme et effectue Frappe. La cible de la Frappe est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} contre cette attaque.</p>"
+                },
+                "RwOdkAEAFzEFKY17": {
+                    "description": "<p>Le messager diabolique inflige 1d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "cTLK2lqgUeiCNOFQ": {
+                    "name": "Absalom Court Lore (Connaissance de la Cour d'Absalom)"
+                },
+                "gnEv2IWvvAm4hy9t": {
+                    "name": "Fist (Poing)"
+                },
+                "mqZwhkKFZ6GJ6kFj": {
+                    "name": "Rapier (Rapière)"
+                },
+                "muLphOSrpPPuXK2Z": {
+                    "name": "Dagger (Dague)"
+                },
+                "pJ2DVxfBRi9Wrmt6": {
+                    "name": "Dagger (Dague)"
+                }
+            }
+        },
+        "Talhindir's Grief": {
+            "name": "Talhindir's Grief (Le chagrin de Talhindir)",
+            "desc (hazard)": "<p>Des gemissements s'élèvent pour devenir des hurlements assourdissants. Les sculptures fongiques se mettent à pleurer du sang qui s'accumule autour des piliers.</p>",
+            "disable": "<p>Test de @Check[performance|dc:17] (qualifié) pour couvrir les cris effrayants par un son plus puissant ou test d'@Check[occultism|dc:15] ou de @Check[religion|dc:15] (qualifié) pour rompre rituellement la hantise.</p>",
+            "reset": "<p>Si la hantise n'est pas dissipée, elle se réinitialise après 1 jour.</p>",
+            "stealth": "<p>(expert)</p>",
+            "items": {
+                "Zc4aoZHHPsmz8zUP": {
+                    "name": "The Falling Tears (Larmes de sang)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature se déplace à moins de 3 mètres de la sculpture de Viore Ciobanu</p>\n<hr />\n<p><strong>Effet</strong> Du sang se met à pleuvoir du plafond. Les cris des statues infligent @Damage[(2d6+5)[mental]]{2d10+13 dégâts mentaux} aux créatures vivantes dans la pièce (@Check[will|dc:17|basic|options:inflicts:frightened]). Si la créature obtient un échec sur son jet de sauvegarde, elle est également @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2} en cas d'échec critique).</p>"
+                }
+            }
+        },
+        "Dragged to the Briny Depths": {
+            "name": "Dragged to the Briny Depths (Entraîné dans les profondeurs salées)",
+            "desc (hazard)": "<p>Un calmar géant percute le navire par en dessous, utilisant son bec pour percer la coque. Il enroule ensuite ses tentacules autour du mât, faisant violemment tanguer le navire.</p>",
+            "disable": "<p>@Check[athletics|dc:23] pour arracher les tentacules du mât, empêchant le navire de tanguer ; deux succès totaux sont requis pour désactiver le danger.</p>",
+            "reset": "<p>Le calmar relâche le navire pendant un round avant de reprendre le mât et de réinitialiser le danger. Le danger ne se réinitialise plus une fois que les PJ ont vaincu les naïades ou qu'elles ont fui.</p>",
+            "routine": "<p>(deux actions) À son initiative, le calmar utilise sa première action pour tirer sur le mât. Chaque créature doit tenter un jet de @Check[reflex|dc:22]. Si la créature obtient un échec, elle tombe @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À Terre}. Si la créature est déjà À terre en tentant le jet, elle glisse de 3 mètres dans une direction déterminée par le MJ si elle obtient un nouvel échec. Si ce mouvement force une créature à quitter le navire, elle peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis}. Le calmar utilise sa seconde action pour effectuer une attaque de tentacule.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "M8m5ET7uQuzasHjR": {
+                    "name": "Tentacle (Tentacule)"
+                },
+                "hJJ0OCULgzHXeOsy": {
+                    "description": "<p><strong>Déclencheur</strong> Les naïades montent à bord du navire</p>\n<hr />\n<p><strong>Effet</strong> Chaque créature se tenant sur le pont doit tenter un jet de @Check[reflex|dc:22] ou tomber @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À Terre}. Le danger détermine ensuite l'initiative.</p>"
+                }
+            }
+        },
+        "Shriveled Leaf of Talhindir": {
+            "name": "Shriveled Leaf of Talhindir (Feuille flétrie de Talhindir)",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "6aRy2QDkaxrKWSn2": {
+                    "name": "Slink in Shadows (Se fondre dans les ombres)",
+                    "description": "<p>La Feuille de Talhindir peut [[/act hide]]{Se cacher} ou mettre fin à son [[/act sneak]]{Furtivité} dans l'ombre d'une créature ou d'un objet.</p>"
+                },
+                "M0O8rEQtmGSkUrVI": {
+                    "name": "Withered Touch (Touché de flétrissure)"
+                },
+                "WsuruTWS3hKjcRAs": {
+                    "name": "Weight of Darkness (Poids des ténèbres)",
+                    "description": "<p><strong>Conditions</strong> La Feuille de Talhindir a réussi une Frappe avec son touché de flétrissure contre une créature vivante lors de son action précédente</p>\n<hr />\n<p><strong>Effet</strong> La Feuille de Talhindir enchaîne l'âme de la créature. Celle-ci doit effectuer un jet de @Check[will|dc:17|options:inflicts:enfeebled]. Si elle obtient un échec à son jet de sauvegarde, la créature est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1}. Cet effet est cumulatif avec les autres conditions Affaibli provenant d'autres Feuilles de Talhindir ou d'ombres, jusqu'à un maximum de @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 4}. La valeur Affaiblie due au Poids des Ténèbres diminue de 1 chaque minute.</p>"
+                },
+                "wAnVScy4XBMbtkLm": {
+                    "name": "Light Vulnerability (Vulnérabilité à la lumière)",
+                    "description": "<p>Les attaques contre la Feuille de Talhindir sont considérées comme magiques si elles sont effectuées par une créature se trouvant dans une lumière magique ou avec un objet se trouvant dans une lumière magique (comme celle du sort @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Lumière}).</p>"
+                }
+            }
+        },
+        "Pile of Orts": {
+            "name": "Pile of Orts (Tas d'orts)",
+            "desc (hazard)": "<p>Une faille vers les Enfers crépite d'une énergie instable provenant du cercle d'invocation brisé alors qu'une masse grouillante de fiélons lutte pour émerger. Une forme de brume couleur sang d'un Chevalier Infernal leur lance des ordres avec colère.</p>",
+            "disable": "<p>@Check[arcana|dc:16], @Check[nature|dc:16], @Check[occultism|dc:16] ou @Check[religion|dc:16] (2 actions) (qualifié) à 4,50 mètres ou moins pour affaiblir la faille, lui infligeant @Damage[2d4[spirit]|traits:holy]{2d4 dégâts spirituels}. Ces dégâts ont le trait saint.</p>",
+            "routine": "<p>(1 action) Le Chevalier Infernal commande les orts, et le piège frappe violemment chaque créature ennemie dans son emplacement et les cases adjacentes, infligeant @Damage[(1d6+3)[slashing]]{1d6+3 dégâts tranchants} (@Check[reflex|dc:15|basic]). Si aucune cible n'est à portée, un ort émerge dans une case adjacente.</p>",
+            "stealth": "<p>qualifié</p>",
+            "items": {
+                "9T4b5Mvz91zxdIbO": {
+                    "name": "Hellfire (Feu infernal)",
+                    "description": "<p>Tous les orts dans un rayon de 9 mètres ont un bonus de statut de +1 pour toucher et infligent 1d4 dégâts de feu supplémentaires s'ils touchent.</p>"
+                },
+                "RkxE5OMukTbfxsOw": {
+                    "name": "Planar Breach (Faille planaire)",
+                    "description": "<p><strong>Déclencheur</strong> Le cercle magique est brisé.</p>\n<hr />\n<p><strong>Effet</strong> Le tas déverse des orts et le piège détermine ensuite l'initiative.</p>"
+                },
+                "px9jiv09J9tnjJFv": {
+                    "name": "Bubble (Bulle)",
+                    "description": "<p><strong>Déclencheur</strong> Le piège subit un coup critique ou obtient un échec critique à un jet de sauvegarde.</p>\n<hr />\n<p><strong>Effet</strong> Un ort émerge dans une case adjacente.</p>"
+                }
+            }
+        },
+        "Naiad Warrior": {
+            "name": "Naiad Warrior (Guerrier naïade)",
+            "items": {
+                "9gsh1iqY4KWVAnvE": {
+                    "name": "Aqueous Trident (Trident aqueux)"
+                },
+                "Dzk0av8V7KPthrfO": {
+                    "name": "Ocean Lore (Connaissance des océans)"
+                },
+                "YJR1cTJmIvEqaAHc": {
+                    "name": "Animal Empathy (Empathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions aux animaux, recevoir des réponses de leur part et utiliser la compétence Diplomatie avec eux.</p>"
+                },
+                "f0DDarr5MFdbqCMt": {
+                    "name": "Underwater Awareness (Esquive sous-marine)",
+                    "description": "<p><strong>Déclencheur</strong> Un ennemi porte une Frappe contre le guerrier naïade lorsqu'il est sous l'eau.</p>\n<hr />\n<p><strong>Effet</strong> Le guerrier naïade perçoit le mouvement de son ennemi dans l'eau et esquive à temps. Il obtient un bonus de circonstances de +2 à sa CA contre l'attaque déclencheuse.</p>"
+                },
+                "n1xTzBBV2PpoJoQh": {
+                    "name": "Aqueous Trident (Trident aqueux)"
+                },
+                "xTj7OVv1uH9YPuEK": {
+                    "name": "Dive (Plonger)",
+                    "description": "<p>Le guerrier naïade se déplace vers le bas jusqu'à deux fois sa Vitesse de nage.</p>"
+                },
+                "zeppbfAE2LZB0zl5": {
+                    "name": "Aqueous Fist (Poing aqueux)"
+                }
+            }
+        },
+        "Naiad Water Defender": {
+            "name": "Naiad Water Defender (Défenseur aquatique naïade)",
+            "description": "<p>Coupe-gorges, assassins, voleurs et autres s'en prennent aux plus vulnérables de la société. Il est du devoir du chef de gang d'orienter leurs activités et de les maintenir dans le droit chemin.</p>\n<hr />\n<p>Les scélérats poursuivent des objectifs égoïstes autant qu'impitoyables, n'hésitant pas à écraser tous ceux assez fous, ou aux coeurs nobles, qui se dresseraient sur leur route.</p>",
+            "blurb": "Variante de chef de gang",
+            "items": {
+                "06QUpYDzeWLuHjVF": {
+                    "name": "Aqueous Shortsword (Épée courte aqueuse)"
+                },
+                "9xpaU4kcENt6pjtN": {
+                    "name": "Aqueous Fist (Poing aqueux)"
+                },
+                "Ht7knXtXeyTkKi2n": {
+                    "name": "Evasive Reflexes (Réflexes d'évitement)",
+                    "description": "<p>Lorsqu'un défenseur aquatique naïade obtient un succès à son jet de Réflexes, il obtient un succès critique à la place</p>"
+                },
+                "PDidp7qMSw5qRoXU": {
+                    "name": "Quick Draw (Arme en main)",
+                    "description": "<p>Le chef de gang dégaine une arme en utilisant une action Interagir puis Frappe avec cette arme.</p>"
+                },
+                "U1pVgJkNIeXvdXNP": {
+                    "name": "Underworld Lore (Connaissance de la pègre)"
+                },
+                "Uqr6Lka2wLdjHCCz": {
+                    "name": "Animal Empathy (Empathie avec les animaux)",
+                    "description": "<p>La naïade peut poser des questions aux animaux, recevoir des réponses de leur part et utiliser la compétence Diplomatie avec eux.</p>"
+                },
+                "dlhm2yJ4EUGym0CG": {
+                    "name": "Gang Up (Attaque groupée)",
+                    "description": "<p>Tout ennemi qui se trouve à la fois dans la zone d'allonge du défenseur aquatique naïade et dans celle d'un de ses alliés se trouve @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} face aux attaques de corps-à-corps du défenseur aquatique naïade comme s'il était pris en tenaille.</p>"
+                },
+                "fp3XmyB0pcpjCBex": {
+                    "name": "Nimble Dodge (Esquive agile)",
+                    "description": "<p><strong>Déclencheur</strong> Le défenseur aquatique naïade est ciblé par une attaque au corps-à-corps ou à distance par un attaquant qu'il peut voir </p>\n<hr />\n<p><strong>Effet</strong> Le défenseur aquatique naïade obtient un bonus de circonstances de +2 à sa CA contre l'attaque déclencheuse.</p>"
+                },
+                "hfbXoZFO4q2A4GmU": {
+                    "name": "Water Orb (Orbe d'eau)"
+                },
+                "j1wf4dSXkGypJjRs": {
+                    "description": "<p>Le défenseur aquatique naïade inflige 2d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "kSd8rIlnXiVczYg0": {
+                    "name": "Deny Advantage (Refus d'avantage)",
+                    "description": "<p>Le défenseur aquatique naïade n'est pas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} par les créatures de niveau 7 ou inférieur qui sont @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Cachées}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détectées}, qui le prennent en tenaille ou qui utilisent une @UUID[Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7]{Attaque surprise}.</p>"
+                },
+                "qNEPB3RKC3SlV4YE": {
+                    "name": "Surprise Attacker (Attaque surprise)",
+                    "description": "<p>Au premier round de combat, si le défenseur aquatique naïade lance un dé de Duperie ou de Discrétion afin de déterminer son initiative, les créatures qui n'ont pas encore agi sont @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu} contre lui.</p>"
+                },
+                "wXgvnztT7r9jO7Px": {
+                    "name": "Brutal Rally (Mobilisation par la violence)",
+                    "description": "<p><strong>Déclencheur</strong> Le défenseur aquatique naïade obtient un coup critique contre une créature</p>\n<hr />\n<p><strong>Effet</strong> Tous les alliés qui voient le défenseur aquatique naïade obtiennent un bonus de circonstances de +1 à leurs jets d'attaque jusqu'au début du prochain tour du défenseur aquatique naïade.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7x0O2GqWBJiAk5PF]{Effet : Mobilisation par la violence}</p>"
+                }
+            }
+        },
+        "Athamaru Pirate": {
+            "name": "Athamaru Pirate (Pirate athamaru)",
+            "description": "<p>Dans les profondeurs de la mer, des bancs d'athamarus (humanoïdes piscicoles armés de lances et d'arbalètes particulières) traquent les requins, les serpents de mer et les calamars géants chevauchant des murènes géantes. Les premiers chasseurs à frapper sont armés de harpons barbelés qui déploient de grands éventails d'algues, ralentissant et épuisant leurs proies. Quelques athamarus audacieux utilisent le harpon ainsi encastré comme poignée pour chevaucher leur proie pendant un court moment. Une fois la créature fatiguée, les autres chasseurs l'achèvent à l'aide de longues lances. Les athamarus ont développé cette tradition de chasse pour forger des guerriers compétents et dissuader les attaquants potentiels, en partie en réponse à des siècles d'oppression et de mauvais traitements de la part d'autres cultures aquatiques.</p>\n<p>Les athamarus chassent rarement les habitants de la terre, proposant plutôt d'échanger leurs services de guides contre des objets en métal et en céramique qu'ils ne peuvent pas construire sous l'eau - et contre des tubercules, qu'ils considèrent comme des délices terrestres. Ils apportent leur aide aux voiliers endommagés et sauvent les marins naufragés, en leur fournissant de la nourriture et des conseils.</p>\n<p>Les communautés d'athamarus - généralement des villages de 200 individus ou moins - sont matriarcales. La souveraine est aussi sa principale pondeuse, offrant à chaque génération des liens familiaux puissants. Les communautés sont soudées et loyales. Les matriarches sont conseillées et assistées par des lanceurs de sorts primordiaux et des guérisseurs.</p>",
+            "blurb": "Variante de chasseur athamaru",
+            "speeds": "Nageur chevronné",
+            "items": {
+                "1elKyf9JIeMq5jrZ": {
+                    "name": "Fan Bolts (Carreaux éventail)"
+                },
+                "8hoPxayirM6ubTyC": {
+                    "name": "Longspear (Pique)"
+                },
+                "E5px1RlWDeEv4gVY": {
+                    "name": "Diving Reload (Rechargement en plongée)",
+                    "description": "<p>Le pirate athamaru peut plonger sous l'eau, ce qui lui confère le camouflage, et recharger son arme en une même action.</p>"
+                },
+                "F0RaqdAbEfogkX2c": {
+                    "name": "Fan Bolt (Carreau éventail)",
+                    "description": "<p>Le pirate athamaru prépare avec soin ses carreaux pourvu de crochets tissés à partir d'algues marines. Sur une Frappe d'arbalète réussie, le carreau s'enfonce et l'éventail d'algues de déploie. La cible subit une pénalité de statut de -3 mètres à sa Vitesse de Nage. Une créature peut Interagir afin d'effectuer un test d'@Check[athletics|dc:18|name:Retirer le carreau éventail], retirant le carreau en cas de succès.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.seWuw1GMSm3kzCWV]{Effet : Carreau éventail}</p>"
+                },
+                "KnlMKaajUHNW24mj": {
+                    "name": "Crossbow (Arbalète)"
+                },
+                "eBzYlEBFycddJLAk": {
+                    "name": "Hunt Prey (Chasser une proie)",
+                    "description": "<p>Le pirate athamaru désigne une unique créature qu'il peut entendre et percevoir ou une créature qu'il est en train de Pister, qui devient sa proie. L'athamaru bénéficie d'un bonus de circonstances de +2 aux tests de Perception quand il @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Cherche} sa proie et aux tests de Survie quand il la @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Piste}.</p>\n<p>La première fois qu'il touche sa proie durant le round, il lui inflige 1d8 dégâts de précision supplémentaires. Cet effet dure jusqu'à ce que le pirate athamaru utilise Chasser une proie de nouveau.</p>"
+                },
+                "zAfIfdV5UBJtB564": {
+                    "name": "Smooth Swimmer (Nageur chevronné)",
+                    "description": "<p>Le pirate athamaru ignore le terrain difficile causé par les particularités des terrains aquatiques.</p>"
+                }
+            }
+        },
+        "Greater Dragon's Ward": {
+            "name": "Greater Dragon's Ward (Rune du dragon supérieure)",
+            "disable": "<p>@Check[thievery|dc:30] (maître) pour retirer méticuleusement la rune sans déclencher la magie, ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (rang 4 ; contrer DD 28) pour contrer la rune.</p>",
+            "stealth": "<p>(expert)</p>",
+            "items": {
+                "Q3tYNLNsh36qBUyL": {
+                    "name": "Curse the Intruders (Maudire les intrus)",
+                    "description": "<p><strong>Déclencheur</strong> Une créature franchit le seuil</p>\n<hr />\n<p><strong>Effet</strong> Chaque créature vivante dans un rayon de 9 mètres doit réussir un jet de @Check[will|dc:26]. Si la créature obtient un échec à son jet de sauvegarde, elle est soumise à la malédiction du dragon. Une créature maudite subit une pénalité de statut de 2 aux jets de Vigueur, et toute guérison naturelle ou magique qu'elle reçoit est réduite de moitié. La malédiction persiste jusqu'à être supprimée par @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Affliction purifiée} ou une magie similaire.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.qPul8V5LMyHNpsOa]{Effect: Curse the Intruders}</p>"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

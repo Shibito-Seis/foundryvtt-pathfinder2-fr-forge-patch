@@ -97,9 +97,9 @@ class Translator {
                 const originalName = fromUuidSync(entry._stats.compendiumSource, {'strict': false})?.flags?.babele?.originalName;
                 if (originalName) {
                     entry.name = originalName;
-                    const compendium = game.babele.packs.get(itemCompendium);
-                    if (compendium) {
-                        arr[index] = compendium.translate(entry);
+                    
+                    if (game.babele?.translate) {
+                        arr[index] = game.babele.translate(itemCompendium, entry);
                     }
                 }
             }

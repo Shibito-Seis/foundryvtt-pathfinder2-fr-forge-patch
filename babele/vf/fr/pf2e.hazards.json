@@ -1,0 +1,951 @@
+{
+    "label": "Dangers",
+    "entries": {
+        "Gravehall Trap": {
+            "name": "Piège de la salle des tombes",
+            "description": "<p>Lorsqu'une créature vivante traverse le milieu du tunnel piégé, la magie nécromantique anime partiellement les cadavres enfouis dans les murs et le plafond.</p>",
+            "desc (hazard)": "<p>Lorsqu'une créature vivante traverse le milieu du tunnel piégé, la magie nécromantique anime partiellement les cadavres enfouis dans les murs et le plafond.</p>",
+            "disable": "<p>@Check[thievery|dc:24|name:perturber le déclencheur|traits:action:disable-a-device] (expert) pour perturber le déclencheur magique avant que le piège ne fasse son test d'initiative ou de @Check[religion|dc:18|name:surcharger de vitalité] (qualifié) pour surcharger la zone de vitalité et empêcher le piège d'utiliser sa routine pendant 1 round ; sur le troisième test de religion réussi, les énergies nécromantiques sont perturbées et le piège est détruit.</p>",
+            "routine": "<p>(1 action) Les morts-vivants attaquent toute les créatures dans la salle infligeant @Damage[4d6[bludgeoning]]{4d6 dégâts contondants}. Les créatures dans la salle doivent tenter un jet de @Check[reflex|dc:21].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible subit la moitié des dégâts.</p>\n<p><strong>Échec</strong> La cible subit la totalité des dégâts et subit une pénalité de -3 mètres à toutes ses Vitesses (avec un minimum de 1,50 mètre) pendant 1 round.</p>\n<p><strong>Échec critique</strong> La cible subit le double des dégâts et se retrouve @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant 1 round.</p>",
+            "items": {
+                "8yNeU3TLczTIlFjP": {
+                    "name": "Fente des morts",
+                    "description": "<p><strong>Déclencheur</strong> Une créature vivante franchit la moitié du tunnel.</p>\n<hr />\n<p><strong>Effet</strong> Les morts s'agrippent à partir des murs et du plafond en gémissant et en crachant des asticots grouillants. Les créatures dans la piège doivent tenter un jet de @Check[will|dc:21]. Le piège roule alors son initiative.</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée</p>\n<p><strong>Succès</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}</p>\n<p><strong>Échec</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}. Elle ne peut pas réduire la valeur de l'état effrayé sous 1 tant qu'elle reste dans l'aire d'effet du piège.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, et la cible est @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée} pendant 1 round.</p>"
+                }
+            }
+        },
+        "Drowning Pit": {
+            "name": "Fosse de noyade",
+            "description": "<p>Une trappe recouvre une fosse de 3 mètres de côté, 9 mètres de profondeur et 1,50 mètre d'eau au fond. Quatre arrivées d'eau dans les murs sont reliées à des réservoirs d'eau dissimulés. Chaque arrivée d'eau est située sur un mur différent, à 15 cm en dessous du sommet de la fosse.</p>",
+            "hpdetails": "Arrivée Solidité 8, PV 32 (SR 16)",
+            "desc (hazard)": "<p>Une trappe recouvre une fosse de 3 mètres de côté, 9 mètres de profondeur et 1,50 mètre d'eau au fond. Quatre arrivées d'eau dans les murs sont reliées à des réservoirs d'eau dissimulés. Chaque arrivée d'eau est située sur un mur différent, à 15 cm en dessous du sommet de la fosse.</p>",
+            "disable": "<p>@Check[thievery|dc:18] (qualifié) pour sceller chaque arrivée d'eau, @Check[thievery|dc:22] (qualifié) pour ouvrir la trappe ou @Check[athletics|dc:22] @UUID[Compendium.pf2e.action-macros.Macro.yMTKMnaYSGtDz4wk]{ouvrir de force : Athlétisme} la trappe DD 22</p>",
+            "reset": "<p>Le piège peut être réactivé si la porte est réengagée manuellement et les réservoirs remplis d'eau ; il peut être réactivé sans draîner le puits mais faire ainsi le rend moins efficace</p>",
+            "routine": "<p>(4 actions) Le piège perd 1 action à chaque tour pour chaque arrivée d'eau désactivée. Lors de chaque action du piège, une arrivée d'eau déverse de l'eau, augmentant la profondeur de l'eau de 1,50 mètre. Une fois que le puits est plein d'eau, le puits cesse d'utiliser des actions mais les créatures dns le puits commencent à se noyer.</p>",
+            "stealth": "<p>Qualifié ; test de @Check[perception|dc:22|traits:action:seek] (expert) pour remarquer les arrivées d'eau une fois la trappe ouverte</p>",
+            "items": {
+                "iji2yCS44gpqc5p3": {
+                    "name": "Chute dans la fosse",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur la trappe.</p>\n<hr />\n<p><strong>Effet</strong> La créature qui déclenche le piège tombe dans la fosse et subit les dégâts de chute, en les réduisant de 1,50 mètre car elle tombe dans l'eau (@Damage[12[bludgeoning]|options:fall-damage]{12 dégâts contondants} normalement). Elle peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis} pour éviter la chute. La trappe se referme ensuite et le danger fait un jet d'initiative.</p>"
+                }
+            }
+        },
+        "Shrieker": {
+            "name": "Criard",
+            "description": "<p>Ce champignon violet de taille humaine émet un cri perçant quand il est dérangé.</p>",
+            "desc (hazard)": "<p>Ce champignon violet de taille humaine émet un cri perçant quand il est dérangé.</p>",
+            "disable": "<p>@Check[survival|dc:18|name:Désamorcer le sac|traits:environmental,fungus] pour s'approcher précautionneusement et couper la poche d'air du champignon sans déclencher son cri.</p>",
+            "reset": "<p>1 minute</p>",
+            "items": {
+                "sBSa8YzXeDYM0ODl": {
+                    "name": "Hurlement",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ou une source de lumière à une distance de 3 mètres du criard ou le criard subit des dégâts.</p>\n<hr />\n<p><strong>Effet</strong> Le criard émet un hurlement assourdissant qui inflige @Damage[1d6[sonic]]{1d6 dégâts de son} à toutes les créatures dans une @Template[emanation|distance:30]{émanation de 9 mètres} (@Check[fortitude|dc:16|basic|traits:auditory]). En cas d'échec critique, la créature est @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourde} pendant 1 minute.</p>"
+                }
+            }
+        },
+        "Perilous Flash Flood": {
+            "name": "Crue subite périlleuse",
+            "description": "<p>Que ce soit à cause de l'eau qui dévale dans les rues en transportant de dangereux débris le long de sa route ou une substance moins naturelle qui se libère, cette inondation ballotte sans répit tout ce qui se trouve sur son passage.</p>",
+            "desc (hazard)": "<p>Que ce soit à cause de l'eau qui dévale dans les rues en transportant de dangereux débris le long de sa route ou une substance moins naturelle qui se libère, cette inondation ballotte sans répit tout ce qui se trouve sur son passage.</p>",
+            "disable": "<p>Trois tests d'@Check[athletism|dc:35|name:Déplacer la barricade], d'@Check[crafting|dc:35|name:construire des barricades] ou de @Check[survival|dc:35|name:Construire des barricades] pour se déplacer ou construire des barricades suffisamment solides pour s'abriter de la crue. Bien que cela permette d'établir un endroit sûr où se réfugier, les créatures en dehors de cet abri peuvent toujours être en danger en fonction de la nature de cette crue.</p>",
+            "routine": "<p>(1 action) La crue avance de 18 mètres affectant toutes les créatures situées dans la zone. Entraînée par la crue, chaque créature doit tenter un jet de @Check[fortitude|dc:30].</p>\n<p>Le montant et le type de dégâts dépendent de la nature de la crue et certaines imposent des effets supplémentaires. En raison des eaux turbulentes, les créatures dans la zone d'effet doivent tenter un test d'@Check[athletics|dc:20|name:Swim|traits:action:swim] pour Nager afin de pouvoir se déplacer et celles qui ne réussissent pas ce test à chaque round peuvent se noyer.</p>\n<p><strong>Succès critique</strong> La créature ne subit aucun dégât.</p>\n<p><strong>Succès</strong> La créature subit la moitié des dégâts.</p>\n<p><strong>Échec</strong> La créature subit les pleins dégâts et est entraînée sur 3 mètres dans le sens d'écoulement de l'eau.</p>\n<p><strong>Échec critique</strong> La créature subit le double des dégâts et est entraînée sur 6 mètres dans le sens d'écoulement de l'eau.</p>\n<hr />\n<p>• <em>Écoulement d'acide</em> Le liquide caustique dissout la chair en se déplaçant, infligeant @Damage[1d12[bludgeoning],(1d12+8)[acid]]{1d12 dégâts contondants et 1d12+8 dégâts acide}. De plus, il inflige @Damage[2d6[persistent,acid]]{2d6 dégâts d'acide persistants} aux créatures qui ont obtenu un échec critique à leurs jets de Vigueur.</p>\n<p>• <em>Vagues déchaînées</em> Les eaux tumultueuses de cette crue infligent @Damage[(2d12+10)[bludgeoning]]{2d12+10 dégâts contondants}.</p>\n<p>• <em>Détritus répugnants</em> Cette crue charrie des éléments infectés et contaminés comme de la chair pourrissante ou des eaux usées des égouts. Elle inflige @Damage[(2d12+8)[bludgeoning]]{2d12+8 dégâts contondants}. Chaque créature exposée à la crue doit tenter un jet de @Check[type:fortitude|dc:29]. Elle est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} en cas d'échec et @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2} en cas d'échec critique. De plus, les créatures en contact avec les eaux de la crue sont exposées à la Fièvre de la fange (@Check[fortitude|dc:29]).</p>\n<p>• <em>Débris tranchants</em> Les eaux charrient différents objets dont certains sont particulièrement tranchants. La crue inflige @Damage[1d12[bludgeoning]]{1d12 dégâts contondants} et @Damage[(1d12+12)[piercing]]{1d12+12 perforants}.</p>\n<p>• <em>Substance gluante</em> La substance est particulièrement visqueuse. Elle inflige @Damage[(2d12+6)[bludgeoning]]{2d12+6 dégâts contondants}. De plus, chaque créature affectée par la crue doit tenter à chaque round un jet de @Check[reflex|dc:29] au début de son tour. En cas d'échec, elle subit une pénalité de circonstances de -3 mètres à sa Vitesse pendant 1 round. En cas d'échec critique, elle est à la place @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} pendant 1 round.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "Pz2JfI4HEqH5iEwA": {
+                    "name": "Fièvre de la fange",
+                    "description": "<p>Les états Nauséeux et Inconscient dûs à la fièvre de la fange ne s'améliorent pas naturellement tant que la maladie n'est pas guérie.</p>\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:20]</p>\n<hr />\n<p><strong>Stade 1</strong> porteur sans symptômes ([[/gmr 1d4 #hours]]{1d4 heures})</p>\n<p><strong>Stade 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 1} (1 jour)</p>\n<p><strong>Stade 3</strong> Nauséeux 1 et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} (1 jour)</p>\n<p><strong>Stade 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconscient} (1 jour)</p>\n<p><strong>Stade 5</strong> Mort</p>"
+                },
+                "gxjS3APksgflCuua": {
+                    "name": "Rupture",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ou un effet brise le barrage faisant obstacle à la crue.</p>\n<hr />\n<p><strong>Effet</strong> Le danger détermine son initiative tandis que la crue se déverse de nouveau.</p>"
+                }
+            }
+        },
+        "Bottomless Pit": {
+            "name": "Fosse sans fond",
+            "description": "<p>Une trappe de fer recouvre une fosse sans fond de 3 mètres de côté.</p>",
+            "desc (hazard)": "<p>Une trappe de fer recouvre une fosse sans fond de 3 mètres de côté.</p>",
+            "disable": "<p>@Check[thievery|dc:18|name:Retirer la trappe|traits:action:disable-a-device] (qualifié) pour retirer la trappe</p>",
+            "reset": "<p>Le piège provoque toujours la chute éternelle des créatures si elles chutent dedans, mais la trappe doit être réinitialisée manuellement pour que le piège soit de nouveau Caché.</p>",
+            "stealth": "<p>(ou 0 si la trappe est désamorcée ou brisée) ou <em>détection de la magie</em></p>",
+            "items": {
+                "WJtDPJzNrJO19H6k": {
+                    "name": "Fosse sans fond",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur la trappe.</p>\n<hr />\n<p><strong>Effet</strong> La créature qui déclenche le piège tombe dans la fosse et n'arrête pas de chuter, probablement pour toujours. Elle peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis}. Le DD pour Escalader les parois ou pour Se raccrocher in extremis est de 26.</p>\n<p>Il y a de nombreuses prises sur les parois de la fosse et la créature peut tenter de Se raccrocher in extremis toutes les 6 secondes lors de sa chute. Si elle y parvient, elle peut commencer à Escalader à partir de l'endroit où elle s'est raccrochée (l'escalade peut s'avérer très longue selon la distance de chute parcourue). Étant donné que la créature n'arrête pas de chuter, elle peut se reposer et même préparer des sorts lors de sa chute, bien que les objets lâchés pendant la chute sont normalement à jamais perdus.</p>"
+                }
+            }
+        },
+        "Slamming Door": {
+            "name": "Claque-porte",
+            "description": "<p>Des plaques de pression dans le sol sont reliées à un bloc de pierre dissimulé dans le plafond d'un couloir.</p>",
+            "desc (hazard)": "<p>Des plaques de pression dans le sol sont reliées à un bloc de pierre dissimulé dans le plafond d'un couloir.</p>",
+            "disable": "<p>@Check[thievery|dc:15|name:Désactivation du claque-porte] (qualifié) sur les panneaux du sol avant que la pierre ne tombe.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "34y07VryqAVeJhfG": {
+                    "name": "Fermeture violente",
+                    "description": "<p><strong>Déclencheur.</strong> Une pression est exercée sur l'un des panneaux au sol.</p>\n<hr />\n<p><strong>Effet</strong> La porte tombe et bloque le couloir. Le bloc de pierre tombe en infligeant @Damage[3d8[bludgeoning]]{3d8 dégâts contondants} aux créatures adjacentes ou situées en dessous. Les créatures concernées sont repoussées hors de l'espace occupé par le bloc dans une direction aléatoire. Une créature qui réussit un jet de @Check[reflex|dc:17|traits:damaging-effect] ne subit aucun dégât et évite le bloc en faisant une roulade dans une direction aléatoire. En cas de succès critique, elle choisit la direction.</p>\n<p>Lever le bloc nécessite la réussite d'un test d'@Check[athletics|dc:25|name:Soulever le bloc|showDC:all].</p>\n<p>Frapper les panneaux au sol déclenche le piège. Le bloc utilise la même CA et les mêmes jets de sauvegarde que le piège mais il possède une Solidité de 12 et 48 PV (SR 24).</p>"
+                }
+            }
+        },
+        "Spear Launcher": {
+            "name": "Lance-épieu",
+            "description": "<p>Un compartiment dans le mur est chargé d'un épieu monté sur un ressort relié à une dalle du sol dans une case de 1,50 mètre de côté.</p>",
+            "desc (hazard)": "<p>Un compartiment dans le mur est chargé d'un épieu monté sur un ressort relié à une dalle du sol dans une case de 1,50 mètre de côté.</p>",
+            "disable": "<p>@Check[thievery|dc:18|name:Désactiver le piège] (qualifié) sur la dalle du sol ou le compartiment du mur</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "0KrOaCLFSEcIdcej": {
+                    "name": "Épieu",
+                    "description": "<p><strong>Déclencheur</strong> Une pression est exercée sur la dalle au sol.</p>\n<hr />\n<p><strong>Effet</strong> Le piège propulse l'épieu et effectue une attaque contre la créature ou l'objet sur la dalle au sol.</p>"
+                },
+                "B486xwl3ZYYCqNyw": {
+                    "name": "Épieu"
+                }
+            }
+        },
+        "Darkside Mirror": {
+            "name": "Miroir aux sombres reflets",
+            "description": "<p>Un miroir magique remplace les personnages par des reflets maléfiques d'eux-mêmes venus d'une autre dimension.</p>",
+            "hpdetails": "Le miroir ne peut être endommagé tant qu'un reflet du miroir est vivant",
+            "desc (hazard)": "<p>Un miroir magique remplace les personnages par des reflets maléfiques d'eux-mêmes venus d'une autre dimension.</p>",
+            "disable": "<p>@Check[thievery|dc:34|name:Ramener une créature|traits:action:disable-a-device] (légendaire) pour ramener une créature depuis l'autre dimension en dix minutes ou moins après son remplacement (ce n'est possible que si son reflet est mort), @Check[thievery|dc:39|name:Désactiver le miroir|traits:action:disable-a-device] (maître) pour désactiver de manière permanente me miroir une fois que tous les reflets du miroir sont morts ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 7 ; DD 32) pour contrer le miroir pendant une minute et empêcher des remplacements supplémentaires pendant ce temps.</p>",
+            "reset": "<p>Le miroir est toujours prêt à aspirer des créatures pour les emporter dans l'autre dimension. Dix minutes après qu'une créature a été aspirée par le miroir, si un allié ne la ramène pas entre-temps avec la compétence Vol, elle se retrouve dans l'autre dimension où elle peut être capturée et tuée. Dans la dimension du miroir, elle est considérée comme un reflet et les habitants de cette dimension ne peuvent pas détruire le miroir de ce côté-ci tant que la créature absorbée s'y trouve. Ces dimensions sont des réalités alternatives et non des plans et même les rituels comme <em>Téléportation interplanaire</em> ne peuvent permettre de s'y rendre.</p>",
+            "routine": "<p>(1 action) Le miroir aspire une autre créature qu'il réfléchit et la remplace par un reflet d'elle-même. Les reflets attaquent à leur tour lors de leur propre initiative, en utilisant les mêmes statistiques que la créature d'origine, mais avec un alignement impie (ce qui change uniquement les capacités qui dépendent de l'alignement). Un reflet peut dépenser 3 actions en touchant le miroir pour retourner dans sa dimension d'origine et libérer la créature dont il était le reflet, mais la plupart préfèrent ne pas agir de la sorte.</p>",
+            "stealth": "<p>Maître pour remarquer que ce n'est pas un miroir ordinaire.</p>",
+            "items": {
+                "JEXj6WkaqB0iscnL": {
+                    "name": "Reflet maléfique",
+                    "description": "<p><strong>Déclencheur</strong> Le miroir réfléchit une créature dont l'alignement n'est pas impie.</p>\n<hr />\n<p><strong>Effet</strong> Le miroir aspire la créature et la remplace par un double impie d'elle-même (@Check[reflex|dc:34] pour éviter d'être aspiré dans le miroir), puis il fait un jet d'initiative.</p>"
+                }
+            }
+        },
+        "Poisoned Dart Gallery": {
+            "name": "Couloir de fléchettes empoisonnées",
+            "description": "<p>Une multitude de trous desquels sont tirées des fléchettes empoisonnées percent les murs d'un long couloir avec un panneau de contrôle à son extrémité.</p>",
+            "hpdetails": "pour détruire le panneau de contrôle et désamorcer le piège",
+            "desc (hazard)": "<p>Une multitude de trous desquels sont tirées des fléchettes empoisonnées percent les murs d'un long couloir avec un panneau de contrôle à son extrémité.</p>",
+            "disable": "<p>@Check[thievery|dc:21|name:désactiver le piège (Panneau de contrôle)|traits:action:disable-a-device]] (expert) sur le panneau de contrôle pour désactiver le piège</p>",
+            "reset": "<p>Le piège se désactive et se remet en marche après 1 minute</p>",
+            "routine": "<p>(1 action) Le piège projette une fléchette contre chaque créature dans la galerie par 1 action. Puisqu'il lance des fléchettes continuellement, le piège peut aussi utiliser l'action gratuite Barrage continu pour lancer des fléchettes sur chaque créature durant le tour de la créature.</p>",
+            "stealth": "<p>Expert ou @Check[perception|dc:31|traits:action:seek] (maître) pour remarquer le panneau de contrôle</p>",
+            "items": {
+                "3oSIIlS5PZwciZ3k": {
+                    "name": "Fléchette empoisonnée"
+                },
+                "6Tgjj5TppvVkF6QL": {
+                    "name": "pas de PAM",
+                    "description": "<p>Le dard empoisonné n'applique pas une PAM.</p>"
+                },
+                "KFCwJINs8Uu4riRs": {
+                    "name": "Volée de fléchettes",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre ou termine son tour dans le couloir.</p>\n<hr />\n<p><strong>Effet</strong> Le piège fait une Frappe de fléchette empoisonnée contre la créature qui l'a déclenché, puis fait un jet d'initiative.</p>"
+                },
+                "eY731rvsYJZ2o5Sh": {
+                    "name": "Poison flesset",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:22]</p>\n<hr />\n<p><strong>Durée maximale</strong> 6 rounds</p>\n<p><strong>Stade 1</strong> @Damage[1d6[poison]]{1d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[2d6[poison]]{2d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2} (1 round)</p>\n<p><strong>Stade 3</strong> @Damage[3d6[poison]]{3d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 3} (1 round)</p>"
+                },
+                "hkSWLZaKG41zef8w": {
+                    "name": "Tir de barrage ininterrompu",
+                    "description": "<p><strong>Déclencheur</strong> Une créature termine une action dans le couloir.</p>\n<hr />\n<p><strong>Effet</strong> Le piège fait une Frappe de fléchette empoisonnée contre la créature déclencheuse.</p>"
+                }
+            }
+        },
+        "Yellow Mold": {
+            "name": "Moisissure jaune",
+            "description": "<p>Les spores de la moisissure empoisonnent les créatures à proximité.</p>",
+            "desc (hazard)": "<p>Les spores de la moisissure empoisonnent les créatures à proximité.</p>",
+            "disable": "<p>@Check[survival|dc:26|name:Retirer la moisissure] (expert) pour enlever la moisissure sans déclencher le nuage de spores.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "eTpo3PPNbe4sFYhD": {
+                    "name": "Explosion de spores",
+                    "description": "<p><strong>Déclencheur</strong> Une créature endommage la moisissure ou entre dans l'espace qu'elle occupe. La moisissure ne peut pas effectuer cette réaction si elle est directement exposée à la lumière du soleil ou si les dégâts qu'elle a subis sont des dégâts de feu.</p>\n<hr />\n<p><strong>Effet</strong> La créature à l'origine du déclenchement et toutes celles à @Template[emanation|distance:10]{3 mètres} ou moins sont exposées aux spores de la moisissure jaune.</p>"
+                },
+                "tyAeSBnHmP9Nuh2k": {
+                    "name": "Spores de moisissure jaune",
+                    "description": "<p>Tout état Drainé infligé par les spores persiste après la fin de la durée du poison.</p>\n<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:26]</p>\n<hr />\n<p><strong>Durée maximale</strong> 6 rounds</p>\n<p><strong>Stade 1</strong> @Damage[1d8[poison]]{1d8 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainé 1} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[2d8[poison]]{2d8 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainé 2} (1 round)</p>\n<p><strong>Stade 3</strong> @Damage[3d8[poison]]{3d8 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainé 3} (1 round)</p>"
+                }
+            }
+        },
+        "Green Slime": {
+            "name": "Limon vert",
+            "description": "<p>Une pellicule verte et caustique est suspendue au plafond au-dessus, surveillant les proies qui passent en dessous.</p>",
+            "desc (hazard)": "<p>Une pellicule verte et caustique est suspendue au plafond au-dessus, surveillant les proies qui passent en dessous.</p>",
+            "disable": "<p>@Check[survival|dc:33|name:Peler le limon vert au plafond] (expert) pour précautionneusement peler la substance du plafond sans la toucher</p>",
+            "reset": "<p>1 heure, le temps que la substance se nourrisse et remonte lentement au plafond</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "aNYeaG5N3o5PQ9IB": {
+                    "name": "Embuscade caustique",
+                    "description": "<p><strong>Déclencheur</strong> Une créature passe sous le limon.</p>\n<hr />\n<p><strong>Effet</strong> Le limon vert tombe sur la créature et tente de la dissoudre pour la transformer en pulpe nutritive. La cible doit tenter un jet de @Check[reflex|dc:28].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible s'écarte à temps et n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible est éclaboussée par un peu de substance. Elle est drainée 1.</p>\n<p><strong>Échec</strong> Le limon tombe sur sa cible. La cible est Drainée 1 et l'intensité de cet état augmente de 1 à la fin de chacun de ses tours tant qu'elle ne s'est pas débarrassée du limon. Si la cible atteint l'état Drainé 4, la prochaine fois que cette intensité devrait augmenter, elle meurt et se dissout en pulpe nutritive. Un limon couvrant sa cible ne peut plus être retiré par des tests de Survie et les dégâts infligés au limon le sont aussi à la cible (en appliquant les immunités, les faiblesses et les résistances de la cible et non ceux du limon).</p>\n<p><strong>Échec critique</strong> Le limon recouvre complètement sa cible. Même effet qu'en cas d'échec mais la cible est immédiatement Drainée 2, devient Drainée 4 après 1 round et meurt après 2 rounds.</p>"
+                }
+            }
+        },
+        "Hallucination Powder Trap": {
+            "name": "Piège à poudre hallucinogène",
+            "description": "<p>Un tube rempli de poudre hallucinogène doté d'une petite amorce explosive est relié à une poignée de porte ou un loquet similaire.</p>",
+            "desc (hazard)": "<p>Un tube rempli de poudre hallucinogène doté d'une petite amorce explosive est relié à une poignée de porte ou un loquet similaire.</p>",
+            "disable": "<p>@Check[thievery|dc:26|name:empêcher de percer|traits:action:disable-a-device] (expert) pour désamorcer le marteau qui frappe l'amorce</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "NjmHPcx6IEA14Yul": {
+                    "name": "Nuage de poudre",
+                    "description": "<p><strong>Déclencheur</strong> Le loquet est enclenché ou le tube est brisé.</p>\n<hr />\n<p><strong>Effet</strong> Le tube explose en projetant la poudre hallucinogène dans un @Template[cone|distance:30]{cône de 9 mètres}. Chaque créature dans le cône doit réussir un jet de @Check[will|dc:24] ou être confuse pendant 1 round et subir une pénalité de statut de -2 aux tests de Perception et aux jets de sauvegarde contre les effets mentaux pendant [[/gmr 1d4 #heures]]{1d4 heures}. La pénalité s'élève à -4 en cas d'échec critique.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.6OpwHz0f55wPawHI]{Effet : Nuage de poudre}</p>"
+                }
+            }
+        },
+        "Sportlebore": {
+            "name": "Imitapéro",
+            "description": "<p>Fléau des aventuriers affamés, les imitapéros sont des nuisibles ressemblant à de délicieux en-cas. Cette créature s'installe parmi les rations de voyage, comme des fruits ou de la viande séchée et imite leur forme à la perfection en déformant son abdomen et en changeant sa couleur avant de replier sa tête, son thorax et ses pattes pour les cacher sous cet abdomen devenu si appétissant. Une fois mangé, l'imitapéro se reproduit et libère une nuée affamée que sa victime, à présent souffrante, vomit. Les insectes voraces attaquent alors toutes les créatures qu'ils pensent pouvoir dévorer.</p>\n<p><em>Note : Seul, l'imitapéro fonctionne comme un danger plutôt qu'une créature.</em></p>",
+            "desc (hazard)": "<p>Un imitapéro se cache parmi les victuailles sur une assiette de nourriture ou dans un paquet de rations de voyage.</p>",
+            "disable": "<p>Une créature qui repère l'imitapéro peut le retirer automatiquement des aliments parmi lesquels il se cache avec une action Interagir.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "WleycA2DC7Pz8RYR": {
+                    "name": "Imitation de nourriture",
+                    "description": "<p><strong>Déclencheur</strong> Une créature mange des aliments où se cachent l'imitapéro.</p>\n<hr />\n<p><strong>Effet</strong> L'imitapéro se multiplie rapidement dans l'estomac de son hôte qui est alors exposé à l'infestation d'imitapéros.</p>"
+                },
+                "nCcx1LK7XrbDnVXI": {
+                    "name": "Infestation d'imitapéros",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:22|basic]</p>\n<p><strong>Stade 1</strong> porteur sans symptômes (1 jour)</p>\n<p><strong>Stade 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 1} (1 heure)</p>\n<p><strong>Stade 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli 2} (1 heure)</p>\n<p><strong>Stade 4</strong> @Damage[4d6[bludgeoning]]{4d6 dégâts contondants} (@Check[fortitude|dc:25|basic]) lorsque l'hôte vomit douloureusement une nuée d'imitapéros et revient au stade 1.</p>"
+                }
+            }
+        },
+        "Wheel Of Misery": {
+            "name": "Roue du malheur",
+            "description": "<p>Une roue ornée fichée dans le mur, divisée en six segments, chacun gravé d'une rune colorée, est contrôlée par un capteur magique qui détecte toute créature en approche devant elle à 30 mètres ou moins.</p>",
+            "desc (hazard)": "<p>Une roue ornée fichée dans le mur, divisée en six segments, chacun gravé d'une rune colorée, est contrôlée par un capteur magique qui détecte toute créature en approche devant elle à 30 mètres ou moins.</p>",
+            "disable": "<p>@Check[thievery|dc:26|name:empêcher de tourner|traits:action:disable-a-device] (expert) sur la roue pour l'empêcher de tourner ou test @Check[thievery|dc:22|name:effacer chaque rune|traits:action:disable-a-device] (maître) pour effacer chaque rune, ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 4 ; DD 22) pour contrer chaque rune</p>",
+            "reset": "<p>Le piège se désactive et se réinitialise si aucune créature ne se déplace dans la zone de détection de son capteur pendant au moins une minute.</p>",
+            "routine": "<p>(2 actions) À son tour lors du décompte de l'initiative, le piège utilise sa première action pour tourner, puis elle s'arrête. Lancez 1d6 pour déterminer quel segment se retrouve en haut lorsqu'elle s'arrête de tourner. La roue utilise sa deuxième action pour reproduire les effets du sort correspondant au segment (rang 3, DD 24, modificateur d'attaque de sort +14). Le sort prend pour cible la créature la plus proche ou centre sa zone d'effet sur celle-ci. La portée du sort passe à 30 mètres, si nécessaire. Tous les sorts lancés par ce piège sont arcaniques.</p>\n<p><strong>1</strong> @UUID[Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl]{Sommeil}</p>\n<p><strong>2</strong> @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralysie}</p>\n<p><strong>3</strong> @UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Éclair} (ligne de 30 mètres)</p>\n<p><strong>4</strong> @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Cécité}</p>\n<p><strong>5</strong> @UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{Flèche acide}</p>\n<p><strong>6</strong> @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]{Rayon d'affaiblissement}</p>",
+            "stealth": "<p>Expert pour détecter le capteur magique; DD 0 pour repérer la roue.</p>",
+            "items": {
+                "ZS4b3rYv9jOgbMzm": {
+                    "name": "La roue tourne",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans la zone de détection du capteur.</p>\n<hr />\n<p><strong>Effet</strong> La roue commence à tourner et fait un jet d'initiative.</p>"
+                }
+            }
+        },
+        "Web Lurker Deadfall": {
+            "name": "Assommoir du rôdeur des toiles",
+            "description": "<p>Un fil déclenche une chute de pierre une fois cassé. Elles tombent sur toutes les cibles dans une case de 3 mètres de côté.</p>",
+            "desc (hazard)": "<p>Un fil déclenche une chute de pierre une fois cassé. Elles tombent sur toutes les cibles dans une case de 3 mètres de côté.</p>",
+            "disable": "<p>@Check[survival|dc:20|name:Réarranger la toile] (qualifié) ou test de @Check[thievery|dc:20|name:Réarranger la toile] (expert) pour réarranger la toile.</p>",
+            "stealth": "<p>@Check[stealth|dc:23]</p>",
+            "items": {
+                "j3QvHDCU1gvOInG4": {
+                    "name": "Assommoir",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans la case où se trouve le fil à casser.</p>\n<hr />\n<p><strong>Effet</strong> Toutes les créatures dans la case de 3 mètres de côté où se trouve le piège reçoivent @Damage[2d6[bludgeoning]]{2d6 dégâts contondants} (@Check[reflex|dc:20|basic]).</p>"
+                }
+            }
+        },
+        "Web Lurker Noose": {
+            "name": "Toile de noeuds coulants",
+            "description": "<p>Des sangles discrètes au niveau de la gorge accrochent les créatures qui s'y engagent</p>",
+            "desc (hazard)": "<p>Des sangles discrètes au niveau de la gorge accrochent les créatures qui s'y engagent</p>",
+            "disable": "<p>@Check[survival|dc:18|name:réarranger la toile|traits:mechanical,trap] (qualifié) ou @Check[thievery|dc:18|name:réarranger la toile|traits:mechanical,trap] (expert) pour réarranger la toile</p>",
+            "items": {
+                "LZTjCUaLv54zwB8W": {
+                    "name": "Noeud coulant",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans la case où se trouve le fil étrangleur.</p>\n<hr />\n<p><strong>Effet</strong> Le rôdeur des toiles effectue une Frappe de noeud coulant contre la créature ayant déclenché ce pouvoir.</p>"
+                },
+                "VNaaW87S24zzxXZh": {
+                    "name": "Noeud coulant",
+                    "description": "<p>Sur une attaque réussie, la cible est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} et soulevée de terre ([[/act escape dc=22]]).</p>\n<p>La cible subit @Damage[1d6[bludgeoning]]{1d6 dégâts contondants} à la fin de chacun de ses tours tant qu'elle reste prisonnière du nœud coulant.</p>"
+                }
+            }
+        },
+        "Spectral Reflection": {
+            "name": "Reflet spectral",
+            "description": "<p>Le reflet dans le miroir distord et modifie subtilement, son expression reflétant un rictus de malice horripilant.</p>",
+            "desc (hazard)": "<p>Le reflet dans le miroir distord et modifie subtilement, son expression reflétant un rictus de malice horripilant.</p>",
+            "disable": "<p>@Check[religion|dc:23|name:exorciser l'esprit|traits:haunt] (maître) ou @Check[thievery|dc:23|name:recouvrir le miroir|traits:haunt] (qualifié)",
+            "reset": "<p>La hantise se reforme après 1 minute, se manifestant dans tout miroir dans la zone imprégnée</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "17gJOHIRtWXfYMKa": {
+                    "name": "Absorption de vitalité",
+                    "description": "<p>Une créature touchée par les ardillons d'ombre du reflet doit tenter un jet de @Check[fortitude|dc:22] alors que la hantise tente d'absorber dans le miroir une partie de son énergie vitale. La cible est @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1} si elle rate son jet de sauvegarde ou @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 2} en cas d'échec critique.</p>"
+                },
+                "V7tWWuB9NSEsMEae": {
+                    "name": "Spécial",
+                    "description": "<p>Les reflets spectraux imprègnent souvent des bâtiments entiers en se manifestant dans n'importe quel miroir suffisamment grand. Les Points de vie et la Solidité donnés en exemple représentent un miroir typique renforcé par la hantise ; à votre discrétion, la hantise peut apparaître dans des surfaces réfléchissantes plus difficiles à détruire. Vaincre la manifestation en lui infligeant des dégâts détruit cette surface et la hantise ne peut plus l'utiliser. Si la hantise apparaît dans une zone avec de nombreux miroirs, envisagez d'accorder aux PJ deux ou trois fois plus de PX qu'un danger simple.</p>"
+                },
+                "hEtVGo9EpKcXlhPI": {
+                    "name": "Empalement spectral",
+                    "description": "<p><strong>Déclencheur</strong> Une créature vivante approche à moins de 4,50 mètres du miroir et ce dernier est éclairé par une lumière au moins faible</p>\n<hr />\n<p><strong>Effect</strong> Des ardillons d'ombre embrochent la créature reflétée par le miroir au moment où la hantise effectue une Frappe d'ardillons d'ombre.</p>"
+                },
+                "wdA0nAhiSTY7znrs": {
+                    "name": "Ardillons d'ombre"
+                }
+            }
+        },
+        "Scythe Blades": {
+            "name": "Lames de faux",
+            "description": "<p>Deux lames, chacune cachée dans une rainure de 4,50 mètres de long au plafond, sont reliées à un fil de détente.</p>",
+            "desc (hazard)": "<p>Deux lames, chacune cachée dans une rainure de 4,50 mètres de long au plafond, sont reliées à un fil de détente.</p>",
+            "disable": "<p>@Check[thievery|dc:21|name:Désactiver une lame] (qualifié) pour désamorcer chaque lame.</p>",
+            "reset": "<p>Le piège se réinitialise au bout de 15 minutes</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "0fjRyLkdj1a2kfGM": {
+                    "name": "Chute de lames de faux",
+                    "description": "<p><strong>Déclencheur</strong> Le fil de détente est tiré ou coupé.</p>\n<hr />\n<p><strong>Effet</strong> Les deux lames s'abattent, chacune Frappant toutes les créatures situées sous les rainures au plafond.</p>"
+                },
+                "eLyrxG4My2vDsmHg": {
+                    "name": "Pas de PAM",
+                    "description": "<p>Les frappes de faux n'appliquent aucune PAM.</p>"
+                },
+                "oaNkRH35bkjdSm6P": {
+                    "name": "Faux"
+                }
+            }
+        },
+        "Frozen Moment": {
+            "name": "Instant figé",
+            "description": "<p>Une magie protectrice tente de piéger les intrus et les voleurs dans une trame temporelle pervertie.</p>",
+            "desc (hazard)": "<p>Une magie protectrice tente de piéger les intrus et les voleurs dans une trame temporelle pervertie.</p>",
+            "disable": "<p>@Check[thievery|dc:38|name:Désassembler les éléments du sort|traits:action:disable-a-device] (légendaire) pour désassembler les multiples éléments du sort en un clin d'œil ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 9, DD 36) le piège avant qu'il ne se déclenche ou pour contrer l'effet sur une créature après le déclenchement du piège</p>",
+            "stealth": "<p>Maître</p>",
+            "items": {
+                "SoObyOgEreU0KLDs": {
+                    "name": "Dérive temporelle",
+                    "description": "<p><strong>Déclencheur</strong> Une créature touche la zone ou l'objet protégé.</p>\n<hr />\n<p><strong>Effet</strong> La créature qui déclenche le piège et toutes les créatures à 9 mètres ou moins sont emportées dans une trame temporelle pervertie (@Check[fortitude|dc:38] pour annuler). L'esprit des créatures va une vitesse telle que chaque round semble durer un siècle, mais leur corps et les énergies magiques vont si lentement qu'ils ne peuvent effectuer aucune action à part Se souvenir. Une créature affectée doit immédiatement faire un jet de @Check[will|dc:36] contre le sort <em>Déformer l'esprit</em> et en faire un nouveau lors de chaque minute de temps réel qui s'écoule alors que la créature est piégée dans l'instant figé. Cet effet a une durée illimitée mais peut être contré.</p>"
+                }
+            }
+        },
+        "Brown Mold": {
+            "name": "Moisissure brune",
+            "description": "<p>Cette moisissure sans prétention aspire la chaleur de l'air.</p>",
+            "desc (hazard)": "<p>Cette moisissure sans prétention aspire la chaleur de l'air.</p>",
+            "disable": "<p>@Check[survival|dc:18|name:Retirer la moisissure|traits:environmental,fungus] (qualifié) pour retirer la moisissure en sécurité</p>",
+            "reset": "<p>Après s'être étendue, la moisissure brune ne peut plus grandir de nouveau pendant une journée</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "MQ3CKYIdF6zrMg0x": {
+                    "name": "Absorption de chaleur",
+                    "description": "<p><strong>Déclencheur</strong> Du feu à moins de 1,50 mètre de la moisissure brune.</p>\n<hr />\n<p><strong>Effet</strong> La moisissure brune s'étend sur chaque case adjacente aux cases qu'elle occupe. En grandissant, elle absorbe encore plus la chaleur de son environnement, infligeant @Damage[(2d6+6)[cold]]{2d6+6 dégâts de froid} (@Check[fortitude|dc:18|basic]) aux créatures situées dans un rayon de 3 mètres après son expansion.</p>"
+                },
+                "NcyiM0WihYrncbSF": {
+                    "name": "Émission de froid",
+                    "description": "<p>1,50 m. La moisissure brune inflige @Damage[2d6[cold]]{2d6 dégâts de froid} aux créatures proches.</p>"
+                }
+            }
+        },
+        "Poisonous Mold": {
+            "name": "Mousse empoisonnée",
+            "description": "<p>Ce champignon grotesque libère des spores empoisonnés lorsqu'une créature s'approche.</p>",
+            "desc (hazard)": "<p>Ce champignon grotesque libère des spores empoisonnés lorsqu'une créature s'approche.</p>",
+            "disable": "<p>@Check[survival|dc:18] (qualifié) pour retirer en sécurité la mousse</p>",
+            "reset": "<p>À moins d'être entièrement éradiqué (typiquement avec de l'acide et du feu), la mousse repousse pendant le cours de 2 semaines.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "748inOlksdAeFB0A": {
+                    "name": "Se nourrir de pourriture",
+                    "description": "<p>La mousse s'étend lorsqu'elle est nourrie par du sang ou de la pourriture. Si, à un moment donné, une créature subit des dégâts de saignement alors qu'elle est adjacente à la moule ou si un corps mourant ou mort est adjacent à la mousse, celle-ci grandit et s'étend sur toutes les cases adjacentes à son espace actuel. Cela ne peut se produire qu'une fois par jour.</p>"
+                },
+                "ZN34eJalpkCoNMeM": {
+                    "name": "Explosion de spores",
+                    "description": "<p><strong>Fréquence</strong> Une fois par jour</p>\n<p><strong>Déclencheur</strong> Une créature touche la mousse, la frappe ou le blesse</p>\n<hr />\n<p><strong>Effet</strong> La mousse explose dans une explosion de spores et la mousse fait des grappes, infligeant @Damage[(2d6+6)[poison]]{2d6 dégâts de poison} aux créatures dans les 3 mètres d'elle, avec un jet de @Check[fortitude|dc:18|basic].</p>"
+                },
+                "h7tMZClq2efB1OYA": {
+                    "name": "Spores flottantes",
+                    "description": "<p>1,50 m. Une créature qui pénètre ou débute son tour dans l'aura subit @Damage[2d6[poison]]{2d6 dégâts de poison}.</p>"
+                }
+            }
+        },
+        "Hidden Pit": {
+            "name": "Fosse dissimulée",
+            "description": "<p>Une trappe de bois recouvre une fosse de 3 mètres sur 3 et de 6 mètres de profondeur.</p>",
+            "desc (hazard)": "<p>Une trappe de bois recouvre une fosse de 3 mètres sur 3 et de 6 mètres de profondeur.</p>",
+            "disable": "<p>@Check[thievery|dc:12|name:Retirer la Trappe] pour retirer la trappe.</p>",
+            "reset": "<p>Les créatures peuvent toujours tomber dans la fosse mais la trappe doit être remise en place manuellement pour la cacher de nouveau.</p>",
+            "stealth": "<p>(ou 0 si la trappe est désamorcée ou brisée)</p>",
+            "items": {
+                "lY83oUjx0DLxDByK": {
+                    "name": "Chute dans la fosse",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur la trappe.</p>\n<hr />\n<p><strong>Effet</strong> La créature qui déclenche ce piège tombe dans la fosse et subit des dégâts de chute (généralement @Damage[10[bludgeoning]|options:fall-damage]{10 dégâts contondants}). Elle peut effectuer la réaction @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis} pour éviter de chuter.</p>"
+                }
+            }
+        },
+        "Snowfall": {
+            "name": "Chute de neige",
+            "description": "<p>De la neige et de la glace se sont entassées sur une surface élevée telle que la branche d'un arbre ou d'une toiture. L'adhérence à cette surface est ténue et risque de tomber lorsque celle-ci est ébranlée.</p>",
+            "desc (hazard)": "<p>De la neige et de la glace se sont entassées sur une surface élevée telle que la branche d'un arbre ou d'une toiture. L'adhérence à cette surface est ténue et risque de tomber lorsque celle-ci est ébranlée.</p>",
+            "disable": "<p>@Check[survival|dc:19|name:Déloger la neige] (qualifié) pour déloger la neige ou infliger des dégâts de feu permettant de détruire le danger sans le déclencher</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "hoSnbd89PgLy85mP": {
+                    "name": "Chute de neige",
+                    "description": "<p><strong>Déclencheur</strong> Une créature se déplace sous l'endroit où est amoncelée la neige.</p>\n<hr />\n<p><strong>Effet</strong> La glace et la neige tombent sur la créature ayant déclenché le danger, infligeant @Damage[(2d6+3)[bludgeoning]]{2d6+3 dégâts contondants} (@Check[reflex|dc:18|basic]) et détrempe ses vêtements. Tant que la victime n'a pas changé ses vêtements ou passé au moins une heure dans une zone avec une température normale ou supérieure, elle considère les environnements froids comme étant d'un échelon plus froid (par exemple, un froid modéré est considéré comme un froid important).</p>"
+                }
+            }
+        },
+        "Vorpal Executioner": {
+            "name": "Bourreau vorpal",
+            "description": "<p>Une scie à la lame extrêmement aiguisée descend et traverse la pièce de part en part le long d'un complexe réseau de rainures en tentant de décapiter tous ceux qui s'y trouvent.</p>",
+            "hpdetails": "par jonction",
+            "desc (hazard)": "<p>Une scie à la lame extrêmement aiguisée descend et traverse la pièce de part en part le long d'un complexe réseau de rainures en tentant de décapiter tous ceux qui s'y trouvent.</p>",
+            "disable": "<p>@Check[thievery|dc:41|name:bloquer les itinéraires|traits:action:disable-a-device] (expert) à quatre jonctions différentes pour bloquer tous les itinéraires possibles de la lame et l'empêcher de traverser la pièce.</p>",
+            "reset": "<p>Le piège met un round à se réinitialiser et peut se déclencher de nouveau le round suivant.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "1HPSHShNAV8hxPe3": {
+                    "name": "Pas de PAM",
+                    "description": "<p>Les Frappes de lame de scie n'appliquent pas la PAM.</p>"
+                },
+                "4QF1yNgj2FX7rO4C": {
+                    "name": "Décapitation totale",
+                    "description": "<p><strong>Déclencheur</strong> Une créature tente de sortir de la pièce.</p>\n<hr />\n<p><strong>Effet</strong> La lame de scie se déplace le long des rainures, en effectuant une Frappe contre chaque créature dans la pièce et en modulant sa taille et sa hauteur pour optimiser ses chances de décapiter ses cibles.</p>"
+                },
+                "T0k2Rnyz49qG1Gkv": {
+                    "name": "Lame de scie"
+                },
+                "mPVesRXUMN4Ws9IR": {
+                    "name": "Décapitation",
+                    "description": "<p>En cas de coup critique, la cible doit réussir un jet de @Check[fortitude|dc:39|traits:damaging-effect] ou être décapitée, ce qui la tue sur le coup, sauf si elle peut survivre sans tête.</p>"
+                }
+            }
+        },
+        "Plummeting Doom": {
+            "name": "Chute mortelle",
+            "description": "<p>Quatre esprits vengeurs saisissent les intrus et les font tomber du bord d'une falaise de près de 40 mètres de hauteur.</p>",
+            "desc (hazard)": "<p>Quatre esprits vengeurs saisissent les intrus et les font tomber du bord d'une falaise de près de 40 mètres de hauteur.</p>",
+            "disable": "<p>@Check[Athletism|dc:20|name:repousser de force les esprits] (qualifié) pour repousser les esprits si violemment qu'ils craignent de tomber de la falaise ou @Check[Religion|dc:20|name:sceller les esprits] (expert) pour sceller au loin temporairement les esprits</p>",
+            "reset": "<p>1 heure</p>",
+            "stealth": "<p>Maître pour percevoir l'écho d'un objet lointain s'écrasant sur le sol</p>",
+            "items": {
+                "i9qsvHuq9IdeRohO": {
+                    "name": "Appel du sol",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à une distance de 4,50 mètres du bord d'une falaise.</p>\n<hr />\n<p><strong>Effet</strong> Chaque esprit essaie de faire tomber de la falaise une créature située à une distance de 18 mètres de son rebord en tentant un test avec un modificateur de +26 contre la Vigueur de la cible. Si la hantise réussit, la cible tombe de la falaise et fait une chute de 36 mètres.</p>\n<p>Jusqu'à ce que la hantise soit vaincue, chaque créature à une distance maximale de 18 mètres du bord de la falaise doit tenter un jet de @Check[will|dc:40] à chaque fois qu'elle utilise une action ou une réaction pour Arrêter une chute, Voler, Se raccrocher in extremis ou éviter de tomber ; si le jet est raté, l'action est interrompue. La hantise tente automatiquement de contrer les sorts tels que <em>Atterrissage en douceur</em> permettant de ralentir la chute ou de réduire ses effets avec un modificateur de contre de +32.</p>"
+                }
+            }
+        },
+        "Hammer Of Forbiddance": {
+            "name": "Marteau d'interdiction",
+            "description": "<p>Un gigantesque marteau oscille dans l'entrée d'un édifice et peut potentiellement blesser une créature qui tente d'entrer, la repousser ou l'empêcher d'accéder au bâtiment.</p>",
+            "hpdetails": "Solidité du pivot 16, PV 64 (SR 32)",
+            "desc (hazard)": "<p>Un énorme marteau se balance vers le bas dans l'entrée d'un édifice et peut potentiellement blesser une créature qui tente d'entrer, la repousser ou l'empêcher d'accéder au bâtiment.</p>",
+            "disable": "<p>@Check[thievery|dc:28|name:empêcher le balancement|traits:action:disable-a-device] (expert) une fois sur le marteau et une autre sur son pivot pour l'empêcher de se balancer</p>",
+            "reset": "<p>Le piège se réinitialise au fil du round et est prêt à se balancer de nouveau 1 round après.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "caUgV11OydLsLw1j": {
+                    "name": "Interdiction d'entrer",
+                    "description": "<p><strong>Déclencheur</strong> Une créature franchit le seuil de l'entrée.</p>\n<hr />\n<p><strong>Effet</strong> Le marteau se blance, en portant une Frappe contre la créature déclencheuse.</p>"
+                },
+                "pLuxXYKq1Wi28Czn": {
+                    "name": "Marteau",
+                    "description": "<p>De plus, la cible est repoussée de 3 mètres et doit réussir un jet de @Check[will|dc:30] ou être incapable d'entrer dans l'édifice pendant 24 h, quelles que soient les entrées qu'elle tente d'emprunter (en cas de coup critique, la cible rate automatiquement le jet de Volonté) ; pas de pénalité d'attaques multiples.</p>"
+                }
+            }
+        },
+        "Grasp Of The Damned": {
+            "name": "Emprise des damnés",
+            "description": "<p>Ces esprits désespérés sont les échos d'individus ayant commis de grandes atrocités au nom d'une divinité maléfique. Désormais, ils ne savent qu'une seule chose, c'est que leur âme a été damnée et ils pensent pouvoir changer leur destin en offrant de puissants sacrifices à leurs maîtres fiélons.</p>",
+            "desc (hazard)": "<p>Ces esprits désespérés sont les échos d'individus ayant commis de grandes atrocités au nom d'une divinité maléfique. Désormais, ils ne savent qu'une seule chose, c'est que leur âme a été damnée et ils pensent pouvoir changer leur destin en offrant de puissants sacrifices à leurs maîtres fiélons.</p>",
+            "disable": "<p>@Check[religion|dc:46|name:inspirer l'intervention divine] (maître) pour inspirer l'intervention d'une divinité et contrer le rituel</p>",
+            "reset": "<p>1 jour</p>",
+            "stealth": "<p>Maître</p>",
+            "items": {
+                "hK2a0NJwqQgjs15q": {
+                    "name": "Marque de damnation",
+                    "description": "<p><strong>Déclencheur</strong> Au moins trois créatures vivantes et conscientes de niveau 13 au moins pénètrent dans la zone de la hantise.</p>\n<hr />\n<p><strong>Effet</strong> La hantise inflige @Damage[(6d12+35)[void]]{6d12+35 dégâts de vide} à chaque créature située dans la zone affectée et chaque créature doit tenter un jet de @Check[will|dc:40|traits:damaging-effect].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature ne subit aucun dégât et est Condamnée 1.</p>\n<p><strong>Succès</strong> La cible subit la moitié des dégâts et est Condamnée 1.</p>\n<p><strong>Échec</strong> La créature subit les pleins dégâts, est Condamnée 2 et reçoit la marque de damnation.</p>\n<p><strong>Échec critique</strong> La créature subit le double des dégâts, est Condamnée 3 et reçoit la marque de damnation.</p>\n<p>Si une créature avec la marque de damnation meurt au cours des prochaines 24 heures, y compris à cause des dégâts infligés par la hantise, son âme est immédiatement entraînée sur le plan de la divinité maléfique que servaient les esprits damnés. L'âme y est alors retenue captive par un puissant serviteur de cette divinité. Seul un <em>Souhait</em> ou un effet similaire tout aussi puissant peut permettre de récupérer directement cette âme perdue. Cependant, il est aussi possible de se rendre sur le plan maléfique afin de vaincre le gardien de cette âme.</p>"
+                }
+            }
+        },
+        "Confounding Betrayal": {
+            "name": "Trahison confondante",
+            "description": "<p>Les alliés apparaissent retirer leurs déguisements et se révèlent être des monstres malveillants.</p>",
+            "desc (hazard)": "<p>Les alliés apparaissent retirer leurs déguisements et se révèlent être des monstres malveillants.</p>",
+            "disable": "<p>@Check[deception|dc:28|name:Tromper la hantise|traits:haunt](expert) deux fois pour tromper la hantise avec votre propres mensonges ou @Check[occultism|dc:28|name:créer une protection|traits:haunt,mental] (qualifié) deux fois pour créer une protection contre l'influence mentale de la hantise</p>",
+            "reset": "<p>La hantise se désactive 1 minute après que toutes les créatures aient quitté la zone mais se réactive immédiatement après</p>",
+            "routine": "<p>(1 action ; illusion, mise hors de combat, occulte) La hantise continue à créer la confusion des sens de la victime et la pousser à commettre des violences contre les autres. Chaque créature dans la zone de la hantise doit tenter un jet de @Check[will|dc:26].</p>\n<p><strong>Succès critique</strong> La créature n'est pas affectée et est temporairement immunisée pendant 1 minute.</p>\n<p><strong>Succès</strong> La créature n'est pas affectée.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 round.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse} pendant 1 minute.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "QrgnumULVnz8pWfK": {
+                    "name": "Démasquer",
+                    "description": "<p><strong>Déclencheur</strong> Au moins deux créatures entrent dans la zone de la hantise.</p>\n<hr />\n<p><strong>Effet</strong> Chaque créature voit la silhouette des créatures proches se déformer et se transformer avant de prendre l'apparence d'êtres démoniaques et effroyables assoiffés de sang. Chaque créature dans la zone d'effet doit tenter un jet de @Check[will|dc:30].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature rejette entièrement l'illusion et est temporairement immunisée à la routine de la hantise pendant 1 minute.</p>\n<p><strong>Succès</strong> La créature n'est pas affectée par ces étranges visions.</p>\n<p><strong>Échec</strong> La créature croit que les illusions sont réelles ; si elle est confuse par la routine de la hantise, elle ne peut tenter de tests nus pour mettre un terme à l'état confus quand elle subit des dégâts.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec mais la créature conserve une méfiance envers les autres et ne peut bénéficier d'une réaction Aider pendant 24 h.</p>"
+                }
+            }
+        },
+        "Flensing Blades": {
+            "name": "Lames lacérantes",
+            "description": "<p>Une tornade d'éclats de verre et d'acier propulsé spectralement réduit tout ce qu'elle touche en morceaux.</p>",
+            "desc (hazard)": "<p>Une tornade d'éclats de verre et d'acier propulsé spectralement réduit tout ce qu'elle touche en morceaux.</p>",
+            "disable": "<p>@Check[thievery|dc:35|name:détruire les lames|traits:action:disable-a-device] (maître) pour ajuster précisément les lames afin qu'elles se détruisent mutuellement ou test de @Check[religion|dc:38|name:affaiblir la hantise|traits:haunt] (expert) pour affaiblir la hantise. Quatre succès sont nécessaires pour la désamorcer</p>",
+            "reset": "<p>La hantise rassemble les fragments tranchants dans sa zone d'effet en une heure après quoi elle peut de nouveau être déclenchée.</p>",
+            "routine": "<p>(3 actions) La tornade de lames utilise 3 actions pour se déplacer, se déplaçant de 9 mètres par action et infligeant @Damage[(2d10+10)[slashing]]{2d10+10 dégâts tranchants}. Chaque créature sur sa trajectoire doit tenter un jet de @Check[reflex|dc:33].</p>\n<p><strong>Succès critique</strong> La créature n'est pas affectée <p>\n<p><strong>Succès</strong> La créature subit la moitié des dégâts.</p>\n<p><strong>Échec</strong> La créature subit la totalité des dégâts plus @Damage[1d10[bleed]]{1d10 dégâts de saignement}.</p>\n<p><strong>Échec critique</strong> La créature subit le double des dégâts et @Damage[1d10[bleed]]{1d10 dégâts de saignement}. Elle est également Blessée 1 (ou augmente la valeur de son état Blessé de 1 si elle l'était déjà). Chaque test réussi pour désamorcer ce danger réduit le déplacement de la hantise de 9 mètres et le quatrième succès la désamorce complètement.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "jSBfyDGUXAPbIJTT": {
+                    "name": "Lames tourbillonnantes",
+                    "description": "<p><strong>Déclencheur</strong> Au moins trois créatures pénètrent dans la zone de la hantise.</p>\n<hr />\n<p><strong>Effet</strong> Des fragments tranchants sont soulevés du sol et se mettent à tourbillonner en cercles rapides sur une case de 1,50 mètre. La hantise fait un jet d'initiative.</p>"
+                }
+            }
+        },
+        "Summoning Rune": {
+            "name": "Rune de convocation",
+            "description": "<p>Une nuée de capteurs magiques invisibles dans un rayon de 3 mètres entoure une rune invisible sur le mur ou le plafond, de la même taille que la créature qu'elle peut convoquer.</p>",
+            "desc (hazard)": "<p>Une nuée de capteurs magiques invisibles dans un rayon de 3 mètres entoure une rune invisible sur le mur ou le plafond, de la même taille que la créature qu'elle peut convoquer.</p>",
+            "disable": "<p>@Check[acrobatics|dc:15|name:approcher prudemment] pour approcher sans activer le piège suivi par un test de @Check[thievery|dc:17|name:Effacer la rune|traits:action:disable-a-device] (qualifié) pour effacer la rune ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 1 ; DD 15) pour contrer la rune</p>",
+            "reset": "<p>Le piège se réinitialise chaque jour à l'aube</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "1M9OasbKWAPME9IC": {
+                    "name": "Convocation de monstre",
+                    "description": "<p><strong>Déclencheur</strong> Une créature entre dans la nuée de capteurs magiques.</p>\n<hr />\n<p><strong>Effet</strong> Ce piège convoque une créature spécifique de niveau 1, déterminée lors de la création du piège. La créature fait un jet d'initiative et agit pendant [[/gmr 2d6 #rounds]]{2d6 rounds}, après quoi le sort se termine et elle disparaît. Elle disparaît également si quelqu'un désamorce le piège avant la fin de la durée. La créature convoquée peut effectuer 3 actions chaque round, ainsi que des réactions, au contraire de la plupart des créatures convoquées.</p>"
+                }
+            }
+        },
+        "Titanic Flytrap": {
+            "name": "Attrape-mouche titanesque",
+            "description": "<p>À première vue, une attrape-mouche titanesque ressemble à une plante normale mais, sous des eaux opaques, elle dissimule une mâchoire beaucoup plus grande de 3 mètres de diamètre renforcée par des branches et garnie de poils paralysants.</p>",
+            "desc (hazard)": "<p>À première vue, une attrape-mouche titanesque ressemble à une plante normale mais, sous des eaux opaques, elle dissimule une mâchoire beaucoup plus grande de 3 mètres de diamètre renforcée par des branches et garnie de poils paralysants.</p>",
+            "disable": "<p>@Check[thievery|dc:22|name:Tromper les sens de l'attrape mouche] (qualifié) pour tromper les sens du poids et de la pression de l'attrape-mouche",
+            "reset": "<p>1 heure (ou plus longtemps après un gros repas)</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "Yw05wWhZB9fLdatc": {
+                    "name": "Mâchoires"
+                },
+                "eauYGISAGprcOwH4": {
+                    "name": "Engloutissement",
+                    "description": "<p>La cible est prise au piège des mâchoires de l'attrape-mouche et elle subit l'état @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{agrippé} jusqu'à ce qu'elle [[/act escape dc=21]]{S'échappe}. De plus, elle est exposée à la toxine de l'attrape- mouche titanesque à cause des centaines de minuscules poils à l'intérieur des feuilles. Si la plante a obtenu un succès critique à son attaque, la cible subit une pénalité de circonstances de -2 à ses jets de sauvegarde contre ce poison. Tant que la cible demeure agrippée, à la fin de chacun de ses tours elle subit @Damage[3d6[acid]]{3d6 dégâts d'acide}.</p>"
+                },
+                "f9aVsy30iGDJTtb4": {
+                    "name": "Occlusion rapide",
+                    "description": "<p><strong>Déclencheur</strong> Une créature de taille Petite ou Moyenne pénètre dans une case dans l'allonge des mâchoires cachées de l'attrape-mouche.</p>\n<hr />\n<p><strong>Effet</strong> Les mâchoires de l'attrape-mouche se referment d'un seul coup sur la créature déclencheuse.</p>"
+                },
+                "qBQpsAk64L9c0sJ2": {
+                    "name": "Toxine d'attrape-mouche titanesque",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Durée maximale</strong> 4 rounds</p>\n<p><strong>Stade 1</strong> @Damage[2d6[poison]]{2d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 1} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[3d6[poison]]{3d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 2} (1 round)</p>\n<p><strong>Stade 3</strong> @Damage[4d6[poison]]{4d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysé} (1 round)</p>"
+                }
+            }
+        },
+        "Hampering Web": {
+            "name": "Toile entravante",
+            "description": "<p>Des rideaux de toiles d'araignée semi-transparents obstruent une entrée pour capturer des petits insectes ou gêner des créatures plus grandes qui les traversent.</p>",
+            "desc (hazard)": "<p>Des rideaux de toiles d'araignée semi-transparents obstruent une entrée pour capturer des petits insectes ou gêner des créatures plus grandes qui les traversent.</p>",
+            "disable": "<p>@Check[survival|dc:17|name:Écarter les toiles] (qualifié) pour écarter les toiles.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "CHZ0RRKgpq6eI2AS": {
+                    "name": "Prise au piège",
+                    "description": "<p><strong>Déclencheur</strong> Une créature qui n'est pas une araignée passe à travers.</p>\n<hr />\n<p><strong>Effet</strong> Les toiles s'enroulent autour de la créature et collent à son corps. La créature ayant déclenché ce danger doit réussir un jet de @Check[reflex|dc:20] ou subir une pénalité de circonstances de -3 mètres à toutes ses Vitesses jusqu'à ce qu'elle @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{S'Échappe} des toiles (DD 20). En cas d'échec critique, les toiles se collent aussi au visage de la créature ce qui la rend @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} et elle ne peut pas tenter de réduire cet état tant qu'elle ne S'échappe pas des toiles.</p>"
+                }
+            }
+        },
+        "Banshee's Symphony": {
+            "name": "Symphonie d'outre-tombe",
+            "description": "<p>Une <em>Plainte des damnés</em> que la magie rend contagieuse est piégée dans le larynx d'un elfe momifié et invisible.</p>",
+            "desc (hazard)": "<p>Une <em>Plainte des damnés</em> que la magie rend contagieuse est piégée dans le larynx d'un elfe momifié et invisible.</p>",
+            "disable": "<p>@Check[thievery|dc:42|name:Percer le larynx|traits:action:disable-a-device] (maître) pour percer le larynx invisible avec une précision telle que la magie se disperse avant l'activation du piège, @Check[thievery|dc:44|name:Démanteler le larynx|traits:action:disable-a-device] (légendaire) trois fois pour démanteler le larynx pendant que le piège est actif de telle sorte qu'il disloque le sort ou <em>Dissipation de la magie</em> (niveau 9 ; DD 38 pour contrer) pour contrer la Plainte des damnés avant l'activation du piège</p>",
+            "reset": "<p>Le piège se termine quand il ne peut plus obliger une créature à émettre une plainte (généralement quand aucune créature n'a raté son jet de sauvegarde lors de son dernier tour ou quand toutes les créatures ont obtenu un succès critique à l'un de leurs jets de sauvegarde). Il se réinitialise ensuite au bout de 24 h, alors qu'un nouveau cri commence à monter dans le larynx de l'elfe momifié.</p>",
+            "routine": "<p>(1 action). Le piège utilise son action pour obliger une créature aléatoire, qui a raté son jet de sauvegarde contre la <em>Plainte des damnés</em> lors de son dernier tour, à émettre une <em>Plainte des damnés</em> avec les mêmes statistiques que la plainte initiale. La créature produit la plainte même si elle est morte ou incapable de parler, quelle que soit la distance qui la sépare du piège. Au contraire de l'incantation du sort, l'état Drainé infligé par la <em>Plainte des damnés</em> de ce piège augmente la valeur de l'état drainé des cibles. Une créature qui obtient un succès critique à l'un de ses jets de sauvegarde peut toujours être affectée par le piège lors des rounds suivants, mais le piège ne peut plus l'obliger à émettre une plainte.</p>",
+            "stealth": "<p>Légendaire</p>",
+            "items": {
+                "nqcgUfOiRWy6Kti7": {
+                    "name": "Cri",
+                    "description": "<p><strong>Déclencheur</strong> Trois créatures vivantes au moins restent à 30 mètres ou moins du piège pendant au moins 6 secondes.</p>\n<hr />\n<p><strong>Effet</strong> Le piège déclenche une plainte d'<em>outre-tombe arcanique</em> (DD 40) dans une émanation de 30 mètres au lieu de 12 mètres, en prenant pour cibles toutes les créatures vivantes dans la zone, et fait un jet d'initiative.</p>"
+                }
+            }
+        },
+        "Electric Latch Rune": {
+            "name": "Rune de loquet électrique",
+            "description": "<p>Une rune invisible tracée sur le loquet d'une porte produit une redoutable décharge électrique.</p>",
+            "desc (hazard)": "<p>Une rune invisible tracée sur le loquet d'une porte produit une redoutable décharge électrique.</p>",
+            "disable": "<p>@Check[thievery|dc:20|name:gratter la rune|traits:action:disable-a-device] (expert) pour gratter la rune sans déclencher la décharge électrique ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 2 ; DD 18) pour contrer la rune.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "FzfgLXTt6R8bYmTP": {
+                    "name": "Électrocution",
+                    "description": "<p><strong>Déclencheur</strong> Une créature agrippe directement le loquet de la porte ou utilise un outil pour le manipuler.</p>\n<hr />\n<p><strong>Effet</strong> Le piège inflige @Damage[3d12[electricity]]{3d12 dégâts d'électricité} à la créature qui déclenche le piège (@Check[reflex|dc:22|basic]).</p>"
+                }
+            }
+        },
+        "Steam Vents": {
+            "name": "Jets de vapeur",
+            "description": "<p>De gros tubes sous pression liés au fil déclencheur sont réglés pour libérer une explosion de vapeur sur les intrus.</p>",
+            "desc (hazard)": "<p>De gros tubes sous pression liés au fil déclencheur sont réglés pour libérer une explosion de vapeur sur les intrus.</p>",
+            "disable": "<p>@Check[thievery|dc:22|name:déconnecter le fil déclencheur|traits:mechanical,trap,hazard] (qualifié) pour déconnecter le fil déclencheur ou test d'@Check[crafting|dc:24|name:réduire la pression|traits:mechanical,trap,hazard] (expert) pour soigneusement réduire la pression et prévenir l'explosion</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "SvqJNCRH2eI1jZk1": {
+                    "name": "Explosion de vapeur",
+                    "description": "<p><strong>Déclencheur</strong> Le fil déclencheur est tiré ou coupé, typiquement parce qu'une créature s'est déplacée à travers la case où il est présent.</p>\n<hr />\n<p><strong>Effet</strong> De la vapeur émerge des tuyaux, infligeant @Damage[3d6[bludegeoning]]{3d6 dégâts contondants} et @Damage[3d6[fire]]{3d6 dégâts de feu} (@Check[reflex|dc:24|basic|name:Éviter le jet de vapeur|traits:mechanical,trap,hazard]) à toutes les créatures dans les 4,50 m. Les créatures qui subissent un échec critique à leur jet de sauvegarde sont @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}.</p>"
+                }
+            }
+        },
+        "Eternal Flame": {
+            "name": "Flamme éternelle",
+            "description": "<p>Un brasier infernal spectral enragé se lève dans l'air fin et renforce toutes les créatures mortes-vivantes se trouvant dans la zone. Cette hantise survient le plus souvent à partir des restes carbonisés d'un groupe de trois personnes brûlées vives, soit à l'occasion d'un accident terrible, soit lors d'une exécution délibérée et leurs âmes non vengées continuent de brûler avec rage.</p>",
+            "desc (hazard)": "<p>Un brasier infernal spectral enragé se lève en plein dans l'air et renforce toutes les créatures mortes-vivantes se trouvant dans la zone. Cette hantise survient le plus souvent à partir des restes carbonisés d'un groupe de trois personnes brûlées vives, soit à l'occasion d'un accident terrible, soit lors d'une exécution délibérée et leurs âmes non vengées continuent de brûler avec rage.</p>",
+            "disable": "<p>@Check[diplomacy|dc:27|name:calmer la rage|traits:haunt] (expert) pour calmer temporairement la rage de l'un des trois esprits ou @Check[religion|dc:30|name:exorciser les esprits] pour exorciser l'un des trois esprits. Trois succès au total sont requis pour désactiver la hantise</p>",
+            "reset": "<p>Les flammes cessent pendant 1 minute après que toutes les créatures vivantes ont quitté la zone mais après une heure, la colère et la douleur s'accumulent et la hantise est prête à se déclencher à nouveau.</p>",
+            "routine": "<p>(1 action) Des flammes ectoplasmiques se déchaînent sur la zone hantée, infligeant 4d6 dégâts de feu à chaque créature vivante dans la zone (@Check[will|dc:23|basic]). Les créatures mortes-vivantes dans la zone sont imprégnées de flammes pour le round suivant. Elles obtiennent le trait feu et l'immunité contre le feu et toutes leurs attaques infligent @Damage[1d6[fire]]{1d6 dégâts de feu} supplémentaires. Les objets de la zone ne sont pas affectés.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "E8X8ETVNwXuUF08C": {
+                    "name": "Agonie calcinante",
+                    "description": "<p><strong>Déclencheur</strong> Une créature vivante approche dans un rayon de 3 mètres des victimes immolées par le feu</p>\n<hr />\n<p><strong>Effet</strong> L'esprit de la créature est assailli par les souvenirs de l'agonie des victimes du brasier. La créature doit tenter un jet de @Check[will|dc:25] puis la hantise détermine son initiative.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1}.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2}.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3} et elle est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} tant qu'elle reste dans la zone affectée par la hantise et pendant 3 rounds après l'avoir quittée.</p>"
+                }
+            }
+        },
+        "Bloodthirsty Urge": {
+            "name": "Pulsion sanguinaire",
+            "description": "<p>Un objet hanté par les échos d'un esprit cruel tente de tuer la créature qui passe à proximité.</p>",
+            "desc (hazard)": "<p>Un objet hanté par les échos d'un esprit cruel tente de tuer la créature qui passe à proximité.</p>",
+            "disable": "<p>@Check[religion|dc:29|name:exorciser l'esprit|traits:haunt] (maître) pour exorciser l'esprit ou test de @Check[diplomacy|dc:31|name:apaiser l'esprit|traits:haunt] (expert) pour apaiser l'esprit</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "0FpzSygcs7G688GT": {
+                    "name": "Coup de grâce",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à 3 mètres ou moins de l'objet hanté.</p>\n<hr />\n<p><strong>Effet</strong> La hantise prend le contrôle de la créature qui déclenche le piège, l'obligeant à se mutiler. La créature doit faire un jet de @Check[will|dc:29].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible effectue une Frappe contre elle-même et touche automatiquement ; elle devient également @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La cible effectue une Frappe contre elle-même et obtient automatiquement un coup critique ; elle devient également @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La cible fait un jet de Vigueur. Si elle obtient un succès, elle est sujette aux effets d'un échec à la place. Si elle obtient un échec, elle est réduite à 0 Point de vie et meurt.</p>"
+                }
+            }
+        },
+        "Quicksand": {
+            "name": "Sables mouvants",
+            "description": "<p>Une étendue d'eau et de sable de 4,50 mètres de côté tente d'engloutir les créatures qui marchent dedans.</p>",
+            "desc (hazard)": "<p>Une étendue d'eau et de sable de 4,50 mètres de côté tente d'engloutir les créatures qui marchent dedans.</p>",
+            "disable": "<p>@Check[survival|dc:18|name:Troubler la surface en sécurité] (qualifié) pour troubler la surface.</p>",
+            "reset": "<p>Le danger continue d'engloutir quiconque marche dedans, mais la surface ne redevient cachée qu'au bout de 24 heures, le temps qu'elle se tasse.</p>",
+            "routine": "<p>(1 action) Quand vient le tour des sables mouvants, chaque créature dans la zone commence à s'enfoncer. Une créature engloutie jusqu'à la taille devient engloutie jusqu'au cou et une autre engloutie jusqu'au cou disparaît sous la surface et doit retenir son souffle pour éviter de Suffoquer. Une créature dans les sables mouvants peut faire un test d'@Check[athletics|dc:20|traits:action:swim] pour Nager, soit en tentant de s'extirper en améliorant sa situation d'un cran si elle est engloutie jusqu'au cou ou pire, soit en se déplaçant de 1,50 mètre si elle est engloutie jusqu'à la taille seulement. En cas d'échec critique, la créature s'enfonce d'un cran. Une créature qui Nage jusqu'en dehors de la zone des sables mouvants échappe au danger et se retrouve à terre dans un espace adjacent à l'étendue de sables mouvants. D'autres créatures peuvent Aider la victime, le plus souvent avec une corde ou un moyen similaire ou elles peuvent tenter de l'extirper en faisant leur propre test d'@Check[Athletism|dc:20|name:Aider à sortir] avec les mêmes conséquences que la créature engloutie lorsqu'elle fait son test.</p>",
+            "stealth": "<p>Qualifié (ou -10 et aucun degré de maîtrise minimum si la surface est troublée)</p>",
+            "items": {
+                "Ey8CknllSG5csxdG": {
+                    "name": "Engloutissement",
+                    "description": "<p><strong>Déclencheur</strong> Une créature de taille Très grande ou inférieure marche dans les sables mouvants</p>\n<hr />\n<p><strong>Effet</strong> La créature à l'origine du déclenchement s'enfonce jusqu'à la taille dans les sables mouvants. Ceux-ci font un jet d'initiative si ce n'est déjà fait.</p>"
+                }
+            }
+        },
+        "Treacherous Scree": {
+            "name": "Éboulis traître",
+            "description": "<p>Le sol de ce terrain incliné semble stable à première vue mais les petits cailloux qui le recouvrent sont instables et peuvent glisser.</p>",
+            "desc (hazard)": "<p>Le sol de ce terrain incliné semble stable à première vue mais les petits cailloux qui le recouvrent sont instables et peuvent glisser.</p>",
+            "disable": "<p>@Check[survival|dc:20|name:Trouver un chemin] (qualifié) pour trouver un chemin sûr.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "DE7tTstJaGz9oAi4": {
+                    "name": "Passage dans la terre",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur le sol instable.</p>\n<hr />\n<p><strong>Effet</strong> Les pierres se dérobent sous ses pieds. La créature ayant déclenché le danger doit tenter un jet de @Check[reflex|dc:21|traits:damaging-effect] lorsqu'elle doit éviter d'être entraînée par les rochers ce qui lui inflige @Damage[(2d10+13)[bludgeoning]]{2d10+13 dégâts contondants}.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature ne subit pas de dégât.</p>\n<p><strong>Succès</strong> La créature subit la moitié des dégâts et tombe à terre dans son espace.</p>\n<p><strong>Échec</strong> La créature subit la totalité des dégâts, tombe à terre dans son espace et dévale jusqu'en bas de la pente.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec mais les dégâts sont doublés.</p>"
+                }
+            }
+        },
+        "Fireball Rune": {
+            "name": "Rune de boule de feu",
+            "description": "<p>Une rune invisible crée un capteur magique sphérique et invisible dans un rayon de 6 mètres.</p>",
+            "desc (hazard)": "<p>Une rune invisible crée un capteur magique sphérique et invisible dans un rayon de 6 mètres.</p>",
+            "disable": "<p>@Check[thievery|dc:22|name:Effacement de la rune] (expert) pour effacer la rune sans déclencher le capteur ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 3 ; DD 20) pour contrer la rune</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "uJpg7vUJ1qag7R3t": {
+                    "name": "Boule de feu",
+                    "description": "<p><strong>Déclencheur</strong> Une créature vivante entre dans la zone du capteur.</p>\n<hr />\n<p><strong>Effet</strong> La rune déclenche une @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Boule de feu} de rang 3 centrée sur la case occupée par la créature qui déclenche le piège. Cette boule de feu  inflige @Damage[6d6[fire]]{6d6 dégâts de feu} (@Check[reflex|dc:22|basic]).</p>"
+                }
+            }
+        },
+        "Insistent Privacy Fence": {
+            "name": "Clôture de propriété privée insistante",
+            "description": "<p>Un tronçon de clôture est électrifié par une bobine stasienne cachée.</p>",
+            "desc (hazard)": "<p>Un tronçon de clôture est électrifié par une bobine stasienne cachée.</p>",
+            "disable": "<p>@Check[thievery|dc:28|name:Déconnecter la bobine|traits:electricity,hazard,trap,mechanical] (expert) pour soigneusement déconnecter la bobine de la clôture ou test d'@Check[crafting|dc:30|name:mise à la terre|traits:electricity,hazard,trap,mechanical] (maître) pour monter un dispositif de mise à la terre pour annuler le choc</p>",
+            "reset": "<p>Le piège se désactive et se remet à zéro après 1 minute.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "HhzDfHd26GkdqhME": {
+                    "name": "Choc",
+                    "description": "<p><strong>Déclencheur</strong> Une créature touche la clôture directement ou avec un outil ou une arme.</p>\n<hr />\n<p><strong>Effet</strong> La clôture inflige @Damage[7d12[electricity]]{7d12 dégâts d'électricité} à la créature déclencheuse (@Check[reflex|dc:26|basic|traits:electricity,mechanical,trap,hazard]).</p>"
+                }
+            }
+        },
+        "Planar Rift": {
+            "name": "Faille planaire",
+            "description": "<p>Une faille tente d'emporter les créatures vers un autre plan (choisi par le MJ).</p>",
+            "desc (hazard)": "<p>Une faille tente d'emporter les créatures vers un autre plan (choisi par le MJ).</p>",
+            "disable": "<p>@Check[thievery|dc:33|name:Sceller la faille|traits:action:disable-a-device] (maître) pour assembler un sceau à la faille en utilisant les objets solidement ancrés au sol ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 7 ; DD 31) pour contrer la faille</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "K7Ya0U5jerfvH0vw": {
+                    "name": "Vers le Grand Au-Delà",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à 3 mètres ou moins de la faille.</p>\n<hr />\n<p><strong>Effet</strong> La créature qui déclenche le piège et toutes les créatures à 9 mètres ou moins de la faille sont emportées vers un autre plan. Chaque créature peut faire un jet de @Check[reflex|dc:33] pour éviter ce sort.</p>"
+                }
+            }
+        },
+        "Armageddon Orb": {
+            "name": "Orbe de l'armageddon",
+            "description": "<p>Un orbe rouge tourbillonnant, créé à l'aide d'une goutte de sang du dieu Rovagug, fait pleuvoir le feu du ciel quand une condition précise est remplie.</p>",
+            "desc (hazard)": "<p>Un orbe rouge tourbillonnant, créé à l'aide d'une goutte de sang du dieu Rovagug, fait pleuvoir le feu du ciel quand une condition précise est remplie.</p>",
+            "disable": "<p>@Check[thievery|dc:48|name:imprégner le matériel de voleur|traits:action:disable-a-device] (légendaire) pour imprégner du matériel de voleur des aspects représentant Asmodéus et Sarenrae et l'utiliser afin de vider l'orbe de sa puissance en 10 minutes maximum ; le personnage qui effectue de test subit @Damage[5[fire]]{5 dégâts de feu} par round jusqu'à épuisement de l'orbe.</p>",
+            "stealth": "ou <em>Détection de la magie</em>",
+            "items": {
+                "KaYeYfefttO5X9OF": {
+                    "name": "Brûler tout",
+                    "description": "<p><strong>Déclencheur</strong> Une condition spéciale déterminée par le créateur du piège est remplie ; cette condition est le plus souvent « au cas où je meurs ».</p>\n<hr />\n<p><strong>Effet</strong> Du feu tombe du ciel dans un rayon de 150 km, infligeant @Damage[10d6[fire]]{10d6 dégâts de feu} aux créatures et aux objets dans la zone. Chaque créature et objet peut faire un jet de @Check[reflex|dc:46|basic]. Toute créature réduite à 0 Point de vie à cause de ces dégâts meurt instantanément. Même si les dégâts ne sont pas suffisants pour réduire entièrement en cendre une forêt ou raser une montagne ou une cité, ils le sont pour tuer la plupart des créatures dans la zone.</p>"
+                }
+            }
+        },
+        "Malevolent Mannequins": {
+            "name": "Mannequins malveillants",
+            "description": "<p>Une foule d'esprits violents a pris possession de trois mannequins mécaniques et chacun d'entre eux s'en prend à toute créature qui ose s'approcher.</p>",
+            "desc (hazard)": "<p>Une foule d'esprits violents a pris possession de trois mannequins mécaniques et chacun d'entre eux s'en prend à toute créature qui ose s'approcher.</p>",
+            "disable": "<p>@Check[thievery|dc:37|name:Gripper le mécanisme d'un mannequin|traits:clockwork,haunt,mechanical,hazard](maître) pour gripper les mécanismes d'un mannequin ou test de @Check[religion|dc:35|name:Exorciser un esprit d'un mannequin|traits:clockwork,haunt,mechanical,hazard] (expert) deux fois pour exorciser un esprit d'un mannequin.</p>",
+            "reset": "<p>L'apparitition se désactive lorsqu'il n'y a plus de créatures cibles et se remet en position, habituellement en 1 round, le temps que les mannequins reviennent à leurs positions originelles. Si un mannequin est à plus de 45 mètres de sa position originelle, il faut plus longtemps à l'apparitition pour se réinitialiser, le temps que le mannequin recule de 45 mètres à chaque round.</p>",
+            "routine": "<p>(9 actions) Chacun des mannequins utilise trois des actions de la hantise à chaque tour et la hantise perd trois actions à chaque tour pour chaque mannequin désamorcé ou détruit. Chaque mannequin utilise sa première action pour Marcher rapidement de 15 mètres et ses actions suivantes pour faire deux Frappes de poing macaniques. Chacun d'eux possède ses propres pénalités d'attaques multiples.</p>",
+            "items": {
+                "Q2074Gj6y8XUUgAk": {
+                    "name": "Éveil",
+                    "description": "<p><strong>Déclencheur</strong> Une créature s'approche à moins de 9 mètres d'un mannequin</p>\n<hr />\n<p><strong>Effet</strong> Les mannequins se jettent vers la créature déclencheuse, Marchent rapidement jusqu'à 15 mètres, puis roulent leur initiative.</p>"
+                },
+                "h1kUAmChVAo2xByF": {
+                    "name": "Poing mécanique"
+                }
+            }
+        },
+        "Jealous Abjurer": {
+            "name": "Abjurateur jaloux",
+            "description": "<p>Un esprit drapé d'une robe s'élève du sol, pointant un doigt accusateur.</p>",
+            "desc (hazard)": "<p>Un esprit drapé d'une robe s'élève du sol, pointant un doigt accusateur.</p>",
+            "disable": "<p>@Check[arcana|dc:36|name:convaincre l'esprit], @Check[nature|dc:36|name:convaincre l'esprit], @Check[occultism|dc:36|name:convaincre l'esprit] ou @Check[religion|dc:36|name:convaincre l'esprit] (maître) pour convaincre l'esprit que les connaissances magiques de la cible sont trop importantes pour être prises à la légère.</p>",
+            "reset": "<p>1 heure</p>",
+            "stealth": "<p>Maître</p>",
+            "items": {
+                "e90G0Brsf6uhlGp6": {
+                    "name": "Déchirure magique",
+                    "description": "<p><strong>Déclencheur</strong> Une créature actuellement affectée par un sort bénéfique approche dans un rayon de 9 mètres de l'abjurateur.</p>\n<hr />\n<p><strong>Effet</strong> Jalousant la célébrité et les prouesses magiques des autres, l'abjurateur tente de provoquer une défaillance catastrophique du sort bénéfique de plus haut niveau affectant actuellement sa cible. Il tente un test de contre avec un modificateur de +26. Si ce test réussit, le sort est dissipé et la créature qu'il affectait subit @Damage[(4d12+30)[force]]{4d12+30 dégâts de force} à cause de l'implosion violente du sort (@Check[reflex|dc:32|basic]).</p>"
+                }
+            }
+        },
+        "Second Chance": {
+            "name": "Deuxième chance",
+            "description": "<p>Une puissante magie protectrice liée à un objet ou un lieu tente de faire retomber une créature et ses alliés en enfance.</p>",
+            "desc (hazard)": "<p>Une puissante magie protectrice liée à un objet ou un lieu tente de faire retomber une créature et ses alliés en enfance.</p>",
+            "disable": "<p>@Check[thievery|dc:46|name:Démanteler le sort|traits:action:disable-a-device] (légendaire) pour démanteler le sort petit morceau par petit morceau, les yeux fermés, tout en se remémorant dans l'ordre chaque souvenir de sa vie, en commençant par le plus ancien.</p>",
+            "stealth": "<p>Légendaire</p>",
+            "items": {
+                "ddB24NYRgK5YbbcR": {
+                    "name": "Au commencement",
+                    "description": "<p><strong>Déclencheur</strong> Une créature tente de voler l'objet ou de s'infiltrer dans le lieu. Si quelqu'un utilise un intermédiaire ou un leurre pour commettre le vol ou pour s'infiltrer, le piège cible sans faillir le ou les véritable(s) commanditaire(s), où qu'ils soient — même s'ils sont sur un autre plan.</p>\n<hr />\n<p><strong>Effet</strong> La créature à l'origine du déclenchement et jusqu'à cinq conspirateurs associés retournent au stade de nourrissons, en perdant tous leurs souvenirs, capacités de classe et autres compétences acquises au cours de leur vie (@Check[fortitude|dc:44] pour annuler). Inverser cet effet est presque impossible et nécessite l'utilisation d'une puissante magie telle qu'un @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Souhait}.</p>"
+                }
+            }
+        },
+        "Dance Of Death": {
+            "name": "Danse de mort",
+            "description": "<p>Un orchestre inquiétant oblige tous ceux qui l'entendent à danser jusqu'à ce qu'ils tombent de fatigue.</p>",
+            "desc (hazard)": "<p>Un orchestre inquiétant oblige tous ceux qui l'entendent à danser jusqu'à ce qu'ils tombent de fatigue.</p>",
+            "disable": "<p>@Check[intimidation|dc:42|name:effrayer les danseurs|traits:haunt] (expert) trois fois pour effrayer les danseurs et les musiciens fantomatiques et les dissuader de participer à la représentation mortelle, @Check[performance|dc:40|name:émettre un son discordant|traits:haunt] (maître) deux fois pour produire une note suffisamment discordante pour empêcher la compulsion ou @Check[religion|dc:42|name:bannir les esprits|traits:haunt] (maître) trois fois pour bannir les esprits avec des prières</p>",
+            "reset": "<p>L'orchestre sinistre passe une heure à réaccorder ses instruments fantasmatiques, après quoi il est prêt à recommencer sa routine.</p>",
+            "routine": "<p>(1 action ; audible, mise hors de combat, mental, occulte) L'orchestre interprète un air rauque, obligeant toutes les créatures qui peuvent l'entendre à dépenser des actions à danser. Chaque round, la créature doit tenter un jet de @Check[will|dc:37]. Les résultats de ce jet modifient le nombre d'actions que la créature doit passer à danser chaque round. Si cela amène la créature à dépenser plus d'actions en dansant qu'elle ne peut en utiliser à son tour, elle subit 10d6 dégâts (ou le double en cas d'échec critique) en se déplaçant plus vite que son corps ne peut le supporter.</p>\n<p><strong>Succès critique</strong> La créature fait descendre le nombre d'actions qu'elle doit passer à danser de 1.</p>\n<p><strong>Succès</strong> Aucun effet</p>\n<p><strong>Échec</strong> La créature accroit le nombre d'actions qu'elle doit passer à danser de 1.</p>\n<p><strong>Échec critique</strong> La créature accroît le nombre d'actions qu'elle doit passer à danser de 2.</p>",
+            "stealth": "<p>Maître</p>",
+            "items": {
+                "Bov9feGVYpn5nmUl": {
+                    "name": "Prélude",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à une distance de 9 mètres de l'orchestre.</p>\n<hr />\n<p><strong>Effet</strong> L'orchestre oblige toutes les créatures qui peuvent l'entendre à danser. Chaque créature doit tenter un jet de @Check[will|dc:41] avec les conséquences suivantes.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} et ne peut pas utiliser de réaction. De plus, elle doit dépenser une de ses actions à chaque round pour danser. Danser est une action de déplacement qui permet à une créature de Marcher rapidement jusqu'à la moitié de sa Vitesse.</p>\n<p><strong>Échec</strong> Comme pour un Succès mais la créature doit dépenser deux actions à chaque round pour danser.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec mais la créature doit dépenser trois actions à chaque round pour danser.</p>"
+                }
+            }
+        },
+        "Lava Flume Tube": {
+            "name": "Déverseur de lave",
+            "description": "<p>Quatre canaux taillés dans la pierre et fermés par des obturateurs permettent le déversement de lave dans une pièce haute de 4,50 mètres. Le sol peut se dérober pour que la lave solidifiée tombe dans une pièce située en dessous.</p>",
+            "desc (hazard)": "<p>Quatre canaux taillés dans la pierre et fermés par des obturateurs permettent le déversement de lave dans une pièce haute de 4,50 mètres. Le sol peut se dérober pour que la lave solidifiée tombe dans une pièce située en dessous.</p>",
+            "disable": "<p>@Check[thievery|dc:29|name:Bloquer un canal|traits:action:disable-a-device] (expert) ou de @Check[thievery|dc:31|name:libérer le loquet|traits:action:disable-a-device] (maître) pour relâcher le loquet de la trappe du plancher pour s'enfuir par la chambre en dessous</p>",
+            "reset": "<p>Le piège se désactive et se réinitialise après 1 heure en retirant le sol, en se fissurant et en déversant la lave durcie (et toute créature piégée à l'intérieur) dans la chambre. Les créatures tombent de 12 mètres et subissent des dégâts de chute (généralement @Damage[17[bludgeoning]|options:fall-damage]{17 dégâts contondants}).</p>",
+            "routine": "<p>(4 actions) Le piège perd 1 action par canal désactivé à chaque tour. Sur chaque action, un canal différent déverse de la lave, infligeant @Damage[4d6[fire]]{4d6 dégâts de feu} à chaque créature dans les 3 mètres du canal (Réflexes basique DD 27) et augmente la profondeur de la lave dans la piège de 30 cm (1,20 mètres par round si tous les canaux sont actifs).</p>\n<p>Une créature qui débute son tour dans la lave subit @Damage[8d6[fire]]{8d6 dégâts de feu} et est immobilisée jusqu'à ce qu'elle s'Échappe de la lave qui durcit (DD 27). La créature pourrait suffoquer si elle est couverte de lave.</p>\n<p>La lave des précédents rounds se durcit complètement aux début du tour du piège, élevant progressivement le sol de la pièce. Une fois que la salle est pleine de lave, le piège cesse d'entreprendre des actions mais les créatures dans la pièce restent immobilisées jusqu'à ce que le plancher s'ouvre et que la trappe se réactive.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "slQb54KbvJ8vJpRb": {
+                    "name": "Activation du déverseur",
+                    "description": "<p><strong>Déclencheur</strong> Une créature tente de sortir de la pièce.</p>\n<hr />\n<p><strong>Effet</strong> Les sorties se ferment instantanément et le piège fait un jet d'initiative.</p>"
+                }
+            }
+        },
+        "Poisoned Lock": {
+            "name": "Serrure empoisonnée",
+            "description": "<p>Une pointe empoisonnée montée sur ressort est cachée près du trou d'une serrure. Désamorcer ou briser le piège ne déverrouille ni ne brise la serrure.</p>",
+            "desc (hazard)": "<p>Une pointe empoisonnée montée sur ressort est cachée près du trou d'une serrure. Désamorcer ou briser le piège ne déverrouille ni ne brise la serrure.</p>",
+            "disable": "<p>@Check[thievery|dc:17|name:Désamorcer le piège|traits:mechanical,trap] (qualifié) sur le mécanisme à ressort</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "1bvXbELRBoJTBqsR": {
+                    "name": "Ressort",
+                    "description": "<p><strong>Déclencheur</strong> Une créature tente de déverrouiller ou de Crocheter la serrure.</p>\n<hr />\n<p><strong>Effet</strong> Une pointe surgit pour attaquer la créature qui déclenche le piège.</p>"
+                },
+                "HoWRGPkBlJjsL9zl": {
+                    "name": "Poison cladis",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Durée maximale</strong> 4 heures</p>\n<p><strong>Stade 1</strong> @Damage[1d6[poison]]{1d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainé 1} (1 heure)</p>\n<p><strong>Stade 2</strong> @Damage[2d6[poison]]{2d6 dégâts de poison} et @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainé 2} (1 heure)</p>\n<p><strong>Stade 3</strong> @Damage[3d6[poison]]{3d6 dégâts de poison} et Drainé 2 (1 heure)</p>"
+                },
+                "vFBoAHwlrVTu9wKm": {
+                    "name": "Pointe"
+                }
+            }
+        },
+        "Pharaoh's Ward": {
+            "name": "Sceau du pharaon",
+            "description": "<p>L'entrée d'un passage porte une malédiction.</p>",
+            "desc (hazard)": "<p>L'entrée d'un passage porte une malédiction.</p>",
+            "disable": "<p>@Check[thievery|dc:27|name:Retirer le linteau] (maître) pour retirer péniblement le linteau sans déclencher la magie, ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 4 ; DD 25) pour contrer la rune</p>",
+            "reset": "<p>Le piège se réinitialise dès que la porte est fermée.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "Cc30YjKZ7qSxVjSC": {
+                    "name": "Maudits soient les intrus",
+                    "description": "<p><strong>Déclencheur</strong> Le sceau sur la tombe est brisé de l'extérieur.</p>\n<hr />\n<p><strong>Effet</strong> Chaque créature vivante à 18 mètres ou moins doit réussir un jet de @Check[will|dc:23] ou subir la malédiction du pharaon. Une créature maudite subit une pénalité de statut de -2 aux jets de Vigueur et les soins naturels ou magiques dont elle bénéficie sont réduits de moitié. La malédiction persiste jusqu'à ce qu'elle soit levée avec une @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Affliction purifiée} ou une magie similaire.</p>"
+                }
+            }
+        },
+        "Spinning Blade Pillar": {
+            "name": "Colonne de lames tournoyantes",
+            "description": "<p>Une barre métallique tournoyante, sur laquelle sont fixées trois lames aussi tranchantes qu'un rasoir, est cachée dans le sol, reliée à des plaques de pression dans un maximum de huit cases du sol et un panneau de contrôle caché à 9 mètres ou moins.</p>",
+            "desc (hazard)": "<p>Une barre métallique tournoyante, sur laquelle sont fixées trois lames aussi tranchantes qu'un rasoir, est cachée dans le sol, reliée à 8 plaques de pression maximum sur le sol et un panneau de contrôle caché à 9 mètres ou moins.</p>",
+            "disable": "<p>@Check[thievery|dc:21|name:Désactiver la colonne|traits:action:disable-a-device] (qualifié) deux fois sur la colonne ou @Check[thievery|dc:19|name:Désactiver le piège (panneau de contrôle)|traits:action:disable-a-device] (expert) une seule fois sur le panneau de contrôle qui désactive le piège dans son ensemble. Briser le panneau de contrôle empêche quiconque de désamorcer le piège en utilisant ce panneau et empêche la désactivation automatique du piège (voir Routine)</p>",
+            "reset": "<p>Ce piège se désactive et se réinitialise au bout de 1 minute.</p>",
+            "routine": "<p>(3 actions) Le piège utilise sa première action pour faire une Frappe de lame tournoyante contre chaque créature adjacente, sa deuxième action pour se déplacer en ligne droite dans une direction aléatoire (lancez [[/gmr 1d4 #Direction]] pour déterminer la direction) et sa troisième action pour faire une Frappe de lame tournoyante contre chaque créature adjacente. Ce piège ne subit aucune pénalité d'attaques multiples.</p>",
+            "stealth": "<p>Qualifié ou @Check[perception|dc:26|traits:action:seek] (expert) pour remarquer le panneau de contrôle</p>",
+            "items": {
+                "6wV9i41Jd4HThaAi": {
+                    "name": "Vitesse",
+                    "description": "<p>3 mètres</p>"
+                },
+                "F0I1pLJQm1AQtXPH": {
+                    "name": "Surgissement de la barre",
+                    "description": "<p><strong>Déclencheur</strong> Une créature marche sur l'une des plaques de pression au sol.</p>\n<hr />\n<p><strong>Effet</strong> Le piège surgit dans une intersection de cases et effectue une attaque de lame tournoyante contre une créature adjacente (le cas échéant), puis fait un jet d'initiative.</p>"
+                },
+                "vS5xxWVCLY1BNE4O": {
+                    "name": "Lame tournoyante"
+                }
+            }
+        },
+        "Polymorph Trap": {
+            "name": "Piège de métamorphose",
+            "description": "<p>Un glyphe druidique tente de transformer un intrus en animal.</p>",
+            "desc (hazard)": "<p>Un glyphe druidique essaie de transformer celui qui le franchit en animal.</p>",
+            "disable": "<p>@Check[thievery|dc:32|name:Saper la magie|traits:action:disable-a-device] (maître) pour saper la magie de chaque glyphe ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 6 ; DD 30) pour contrer le glyphe.</p>",
+            "stealth": "<p>Qualifié</p>",
+            "items": {
+                "TxhvkFafggYWv5D7": {
+                    "name": "Métamorphose maudite",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à 9 mètres ou moins du glyphe sans prononcer le mot de passe en chant sauvage.</p>\n<hr />\n<p><strong>Effet</strong> La créature est la cible d'une <em>Métamorphose maudite</em> (@Check[will|dc:32]).</p>"
+                }
+            }
+        },
+        "Ghostly Choir": {
+            "name": "Choeur spectral",
+            "description": "<p>Un chœur d'âmes perdues sort du plancher, en chantant une chanson terrible qui terrifie ses auditeurs et ballotte leurs corps avec des murs de sons.</p>",
+            "desc (hazard)": "<p>Un chœur d'âmes perdues sort du plancher, en chantant une chanson terrible qui terrifie ses auditeurs et ballotte leurs corps avec des murs de sons.</p>",
+            "disable": "<p>@Check[performance|dc:28|name:Chanter un autre air|traits:haunt] (qualifié) pour perturber l'harmonie du chant avec un autre air ou @Check[religion|dc:28|name:imposer le silence|traits:haunt] (qualifié) pour rituellement imposer le silence aux esprits</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "oZGdTS4jvoAj1myH": {
+                    "name": "Chant impie",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à 3 mètres de la partie du sol d'où peut jaillir le choeur.</p>\n<hr />\n<p><strong>Effet</strong> Le choeur s'élève et son chant inflige @Damage[(4d8+18)[mental]]{4d8+18 dégâts mentaux} à toutes les créatures vivantes situées dans un rayon de 9 mètres des formes spectrales. Les créatures affectées doivent tenter un jet de @Check[will|dc:24|traits:damaging-effect].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible subit la moitié des dégâts et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La cible subit la totalité des dégâts et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature subit le double des dégâts. Elle est également @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3} et @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{En fuite} pendant 1 round.</p>"
+                }
+            }
+        },
+        "Telekinetic Swarm Trap": {
+            "name": "Piège de nuée télékinésique",
+            "description": "<p>Trois éléments décoratifs quelconques imprégnés de magie télékinésique déplacent des objets et des éléments de la salle pour former des nuées de débris qui attaquent toutes les créatures dans la pièce.</p>",
+            "hpdetails": "par nuage télékinésique",
+            "desc (hazard)": "<p>Trois éléments décoratifs quelconques imprégnés de magie télékinésique déplacent des objets et des éléments de la salle pour former des nuées de débris qui attaquent toutes les créatures dans la pièce.</p>",
+            "disable": "<p>@Check[thievery|dc:27|name:démanteler une nuée télékinésique|traits:action:disable-a-device] (expert) pour démanteler une nuée télékinésique ; @Check[thievery|dc:32|name:désactiver chaque élément décoratif|traits:action:disable-a-device] (maître) ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} pour contrer chaque élément décoratif télékinésique. (Rang 6 ; DD 30 pour contrer)</p>",
+            "reset": "<p>Le piège se désactive et se réinitialise au bout de 10 minutes s'il n'a aucune créature à prendre pour cible (parce qu'elles se sont trop éloignées ou sont mortes).</p>",
+            "routine": "<p>(9 actions) Chaque élément décoratif utilise 3 des actions du piège chaque tour et celui-ci perd 3 actions chaque tour pour chaque élément décoratif désamorcé. Un élément décoratif utilise sa première action pour déplacer sa nuée d'objets de 60 mètres au maximum, sa deuxième action pour que les objets Frappent et sa troisième action pour ajouter plus d'objets à la nuée, ce qui augmente ses dégâts de 1d12 (jusqu'à un maximum de 4d12+10). Si les dégâts d'une nuée sont déjà au maximum, l'élément décoratif qui contrôle cette nuée ne fait rien avec sa troisième action.</p>\n<p>Si la nuée d'un élément décoratif est détruite, l'élément décoratif qui la contrôle utilise à la place sa première action pour créer une nouvelle nuée d'objets à l'intérieur de la pièce (en utilisant la valeur de dégâts de départ), puis sa deuxième et troisième actions pour déplacer la nuée et la faire attaquer.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "SvVSBExFgbjDrBvW": {
+                    "name": "Agitation",
+                    "description": "<p><strong>Déclencheur</strong> Une créature reste dans la pièce pendant au moins 6 sec.</p>\n<hr />\n<p><strong>Effet</strong> Chaque élément décoratif télékinésique rassemble une nuée d'objets dans la pièce (trois nuées au total) et le piège fait un jet d'initiative. Les créatures dans la pièce quand le piège se déclenche deviennent les cibles de celui- ci, qu'elles sortent de la pièce ou que d'autres y pénètrent ultérieurement. Chaque élément décoratif cible une créature différente, si possible. Une créature ciblée qui s'éloigne à au moins 1,5 km du piège n'est plus prise pour cible, et dans ce cas, l'élément décoratif prend une autre créature pour cible.</p>"
+                },
+                "aJouqXgwCGFTWYHD": {
+                    "name": "Objets"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.description",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

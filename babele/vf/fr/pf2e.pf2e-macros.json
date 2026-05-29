@@ -1,0 +1,38 @@
+{
+    "label": "Macros PF2e",
+    "entries": {
+        "Stealth for Selected Tokens": {
+            "name": "Discrétion pour les jetons choisis"
+        },
+        "Take a Breather": {
+            "name": "Reprendre son souffle"
+        },
+        "Generate Check Prompt": {
+            "name": "Générer une invite de test"
+        },
+        "Treat Wounds": {
+            "name": "Soigner les blessures"
+        },
+        "Earn Income": {
+            "name": "Gagner de l'argent"
+        },
+        "Travel Duration": {
+            "name": "Durée du voyage"
+        },
+        "Toggle Compendium Browser": {
+            "name": "Activer le navigateur de compendium"
+        },
+        "Perception for Selected Tokens": {
+            "name": "Perception pour les jetons sélectionnés"
+        },
+        "XP": {
+            "name": "PX"
+        },
+        "Rest for the Night": {
+            "name": "Se reposer pour la nuit"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value"
+    }
+}

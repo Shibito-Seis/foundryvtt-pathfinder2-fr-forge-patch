@@ -1,0 +1,230 @@
+{
+    "label": "Autres effets",
+    "entries": {
+        "Effect: Disarm (Success)": {
+            "name": "Effet : Désarmer (succès)",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}</p>\n<p>Vous subissez une pénalité de circonstances de -2 aux attaques en utilisant l'objet ciblé. D'autres tentatives pour vous Désarmer obtiennent un bonus de circonstances de +2.</p>"
+        },
+        "Effect: Follow The Expert": {
+            "name": "Effet : Suivre l'expert",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29]{Suivre l'expert}</p>\n<p>vous pouvez ajouter votre niveau au test de compétence associé même si vous êtes inexpérimenté. De plus, vous bénéficiez d'un bonus de circonstances à votre test de compétence en fonction du degré de maîtrise de votre allié.</p>"
+        },
+        "Effect: +2 status bonus to AC and all saving throws": {
+            "name": "Effet : Bonus de statut de +2 à la CA et aux jets de sauvegarde",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.iZYZTEtihsVkbRKR]{Carte de coup critique #8}</p>\n<p>bonus de statut de +2 à la CA et aux jets de sauvegarde</p>"
+        },
+        "Effect: Disarm (Bonus)": {
+            "name": "Effet : Désarmer (bonus)",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer} par l'effet éphémère.</p>\n<p>Vous obtenez un bonus de circonstances de +2 pour Désarmer.</p>"
+        },
+        "Effect: +2 status bonus to saving throws against spells for 1 min": {
+            "name": "Effet : Bonus de statut de +2 aux jets de sauvegarde contre les sorts",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.yBE9e9l5KW7SdHZH]{Carte d'échec critique #31}</p>\n<p>bonus de statut de +2 aux jets de sauvegarde contre les sorts</p>"
+        },
+        "Effect: -2 circumstance penalty to ranged attacks": {
+            "name": "Effet : Pénalité de circonstances de -2 aux attaques à distance",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.Wn47ZhXINo7jz8JZ]{Carte d'échec critique #2}</strong></p>\n<p>Pénalité de circonstances de -2 aux attaques à distance</p>"
+        },
+        "Effect: Press On": {
+            "name": "Effet : Poursuivre",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.zcBCxlvPCpmjt5IS]{Press On}</p>\n<p>Vous ignorez les pénalités aux jets et aux DD provoquées par des états.</p>"
+        },
+        "Effect: Desperate Swing": {
+            "name": "Effet : Balancement désespéré",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.d15Zjdqplmj7ZTKK]{Balancement désespéré}</p>\n<p>Vous ignorez la pénalité d'attaques multiples. Si vous obtenez un succès critique, vous obtenez un succès normal à la place.</p>"
+        },
+        "Effect: -1 circumstance penalty to attack rolls until you score a critical hit": {
+            "name": "Effet : Pénalité de circonstances de -1 aux jets d'attaque jusqu'à obtention d'un coup critique",
+            "description": "<p>Appliqué par les cartes d'échec critique @UUID[Compendium.pf2e.criticaldeck.JournalEntry.kjoBsS79JcjUUPnr]{#38}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.qD8KoshDJsayGbCB]{#40}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.mcniWnifXwXkZocv]{#41} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.8D8NPBNMxQftBmyd]{#46}</p>\n<p>Pénalité de circonstances de -1 aux jets d'attaque jusqu'à obtention d'un coup critique</p>"
+        },
+        "Effect: +2 status bonus to attack rolls": {
+            "name": "Effet : Bonus de statut de +2 aux jets d'attaque",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.wcqXFhggTcAutBk6]{Carte d'échec critique #29}</p>\n<p>bonus de statut de +2 aux jets d'attaque</p>"
+        },
+        "Effect: Impossible Shot": {
+            "name": "Effet : Tir impossible",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.k0ue81dFKH4OKxed]{Tir impossible}</p>\n<p>Vous doublez le facteur de portée de l'arme ou de l'attaque à mains nues.</p>"
+        },
+        "Effect: Dazzled until end of your next turn": {
+            "name": "Effet : Ébloui jusqu'à la fin de votre prochain tour",
+            "description": "<p><strong>Effet appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.mwz1Ukw9laGyRocF]{Carte des échecs critiques #51} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.dvL063pJYJpCMsA6]{#52}</strong></p>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ébloui} jusqu'à la fin de votre prochain tour.</p>"
+        },
+        "Effect: Deafened until end of your next turn": {
+            "name": "Effet : Sourd jusqu'à la fin de votre prochain tour",
+            "description": "<p><strong>Effet appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.mcniWnifXwXkZocv]{Carte d'échec critique #41}</strong></p>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Sourd} jusqu'à la fin de votre prochain tour.</p>"
+        },
+        "Effect: Strike True": {
+            "name": "Effet : Frappe ultime",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.pS87Zh4QJnu0p8ES]{Frappe ultime}</p>\n<p>Vous lancez les dés deux fois et conservez le méilleur résultat à votre Frappe. Cette Frappe inflige un dé de dégâts supplémentaires si elle touche et que l'attaquant possède moins de la moitié de son nombre maximum de Points de vie ou deux dés de dégâts supplémentaires s'il a moins du quart du nombre de ses Points de vie maximum.</p>"
+        },
+        "Effect: –10-foot status penalty to your land Speed": {
+            "name": "Effet : Pénalité de statut de -3 mètres à votre Vitesse",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.maXudTqcDiAj86Ym]{Carte de coup critique #6}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.A0gsgMjgDpkOXtYp]{#12}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.wHwwHq9RcOUvwFeB]{#22} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.wCsoyffDxSWQ2c8o]{#46}</strong></p>\n<p>Pénalité de statut de -3 mètres à votre Vitesse</p>"
+        },
+        "Effect: –15-foot status penalty to your land Speed": {
+            "name": "Effet : Pénalité de -4,50 mètres à votre Vitesse au sol",
+            "description": "<p>Appliqué par la @UUID[Compendium.pf2e.criticaldeck.JournalEntry.nI9pM4SeM39SRVaR]{Carte de coup critique #41}</p>\n<p>Pénalité de -4,50 mètres à votre Vitesse au sol</p>"
+        },
+        "Effect: Catch your Breath": {
+            "name": "Effet : Reprends ton souffle",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.LafJ1PXfnR4Ogyzh]{Reprends ton souffle}</p>\n<p>Vous obtenez un nombre de Point de vie temporaire égal à deux fois au niveau de la créature qui est à l'origine de l'effet.</p>"
+        },
+        "Effect: +2 circumstance bonus to attack rolls": {
+            "name": "Effet : Bonus de circonstances de +2 aux jets d'attaque",
+            "description": "<p>Appliqué par les cartes de coup critique @UUID[Compendium.pf2e.criticaldeck.JournalEntry.bzIzGjyNUc52lhCS]{#4}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.pjR0QGXE58oWS8uU]{#7} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.gdYlgrtfGK8mAoXK]{#9}</p>\n<p>bonus de circonstances de +2 aux jets d'attaque</p>"
+        },
+        "Effect: Resistance 5 to all damage": {
+            "name": "Effet : contreà tous les dégâts",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.TYTNFtVvFqFBM8oy]{Carte d'échec critique #43}</p>\n<p>Vous obtenez une résistance 5 contre tous les dégâts</p>"
+        },
+        "Effect: Remaining Air": {
+            "name": "Effet : Air restant",
+            "description": "<p>Voir @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.OiRwxbfLNUniLg15#drowning-and-suffocating]{Se noyer et suffoquer}</p>\n<p>Vous pouvez retenir votre respiration pendant un nombre de rounds égal à 5 + votre modificateur de Constitution. Réduisez l'air qu'il vous reste de 1 round à la fin de chacun de vos tours ou de 2 rounds si vous avez attaqué ou lancé un sort au cours de ce tour.</p>\n<p>Vous perdez également la valeur de 1 round d'air à chaque fois que vous recevez un coup critique ou que vous obtenez un échec critique contre un effet dommageable. Si vous parlez (y compris pour Lancer un sort), vous perdez tout l'air restant.</p>"
+        },
+        "Effect: Adverse Subsist Situation": {
+            "name": "Effet : Situation de survie défavorable",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsister}</p>\n<p>Vous subissez une pénalité de circonstances de -2 aux tests pour Subsister.</p>"
+        },
+        "Effect: –5-foot status penalty to your land Speed": {
+            "name": "Effet : Pénalité de statut de -1,50 mètre à votre Vitesse au sol",
+            "description": "<p>Appliqué par les cartes de coup critique @UUID[Compendium.pf2e.criticaldeck.JournalEntry.maXudTqcDiAj86Ym]{#6}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.2CCPMTk5DlZslpOp]{#18} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.QR3e1uCNURvxDzbV]{#50}</strong></p>\n<p>Pénalité de statut de -1,50 mètre à votre Vitesse au sol</p>"
+        },
+        "Effect: +4 circumstance bonus to AC against your ranged attacks": {
+            "name": "Effet : Bonus de circonstances de +4 à la CA contre vos attaques à distance",
+            "description": "<p>Appliqué par <strong>@UUID[Compendium.pf2e.criticaldeck.JournalEntry.4MkOtc3bBYsBGF97]{Carte d'échec critique #6}</strong></p>\n<p>L'abri procure un bonus de circonstances de +4 à la CA contre vos attaques à distance</p>",
+            "rules": {
+                "1": {
+                    "label": "a un abri d'une cible de l'effet de critique surcompensé"
+                }
+            }
+        },
+        "Effect: -2 circumstance penalty to spell attack rolls and spell DC's": {
+            "name": "Effet : Pénalité de circonstances de - 2 aux jets d'attaques des sorts et aux DD des sorts",
+            "description": "<p>Appliqué par la @UUID[Compendium.pf2e.criticaldeck.JournalEntry.NNfsKAHcKvTuyha4]{Carte d'échec critique #36}</p>\n<p>Pénalité de circonstances de - 2 aux jets d'attaques des sorts et aux DD des sorts</p>"
+        },
+        "Effect: Critical Moment": {
+            "name": "Effet : Instant critique",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.P3mSUWRvCCwEouB0]{Instant critique}</p>\n<p>Relancez le dé deux fois et prenez le meilleur résultat. Si vous échouez de nouveau à ce test, vous devenez Condamné 1.</p>"
+        },
+        "Effect: Class Might": {
+            "name": "Effet : Puissance de classe",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.a68Phr1qsqVRPMVp]{Puissance de classe}</p>\n<p>Vous bénéficiez d'un bonus de statut de +2 aux tests basés sur le score de l'attribut essentiel de votre classe.</p>"
+        },
+        "Effect: Treat Disease": {
+            "name": "Effet : Soigner une maladie",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{Soigner une maladie}</p>\n<p>Vous obtenez un bonus ou une pénalité de circonstances à votre prochain jet de sauvegarde contre la maladie.</p>"
+        },
+        "Effect: Mounted": {
+            "name": "Effet : Monté",
+            "description": "<p>Voir @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.OiRwxbfLNUniLg15#mounted-combat]{Combat monté}</p>\n<p>Vous subissez une pénalité de circonstances de -2 aux jets de Réflexes lorsque vous êtes monté.</p>"
+        },
+        "Effect: -2 circumstance penalty to checks and saving throws until healed": {
+            "name": "Effet : Pénalité de circonstances de -2 aux tests et aux jets de sauvegarde jusqu'aux soins",
+            "description": "<p>Appliqué par la @UUID[Compendium.pf2e.criticaldeck.JournalEntry.IvDJkDpe3JxMHaj1]{Carte d'échec critique #28}</p>\n<p>Pénalité de circonstances de -2 aux tests et aux jets de sauvegarde jusqu'aux soins</p>"
+        },
+        "Effect: Treat Poison": {
+            "name": "Effet : Soigner un empoisonnement",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Soigner un empoisonnement}</p>\n<p>Vous obtenez un bonus ou une pénalité de circonstances à votre prochain jet de sauvegarde contre le poison.</p>"
+        },
+        "Effect: Cover": {
+            "name": "Effet : Abri",
+            "description": "<p>Lorsque vous vous trouvez derrière un obstacle qui peut bloquer les armes, vous protéger contre les explosions et vous rendre plus difficile à détecter, vous êtes à l'abri. Un abri standard vous donne un bonus de circonstances de +2 à la CA, aux jets de Réflexes contre les effets de zone, et aux tests de Discrétion pour Se cacher, Être furtif ou éviter également d'être détecté. Vous pouvez augmenter cet abri en utilisant l'action de base Se mettre à l'abri, ce qui passe le bonus de circonstances à +4. Si l'abri est particulièrement léger, typiquement lorsqu'il est fourni par une créature, vous disposez d'un abri partiel, qui accorde un bonus de circonstances de +1 à la CA. Une créature avec un abri standard ou un abri important peut tenter d'utiliser la Discrétion pour Se cacher mais un abri partiel n'est pas suffisant.</p>"
+        },
+        "Effect: –10-foot circumstance penalty to your land Speed": {
+            "name": "Effet Pénalité de circonstances de -3m à votre Vitesse",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.qD4ybNUceFacSJGu]{Critical Fumble Deck #3}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.DpY6k60UrpvKgjx2]{Critical Fumble Deck #4}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.99BxUbTtFlyPWkq5]{Carte d'échec critique #7}</strong></p>\n<p>Pénalité de circonstances de -3m à votre Vitesse</p>"
+        },
+        "Effect: Endure the Onslaught": {
+            "name": "Effet : Endurer l'assaut",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.TU21DvdpQG7U2Q9Y]{Endurer l'assaut}</p>\n<p>Vous obtenez une résistance contre tous les dégâts.</p>"
+        },
+        "Effect: Fluid Motion": {
+            "name": "Effet : Mouvement fluide",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.D6hqfmZUksRvqNFR]{Mouvement fluide}</p>\n<p>Vous obtenez une Vitesse d'Escalade et une Vitesse de Nage égale à la moitié de votre Vitesse.</p>"
+        },
+        "Effect: -2 circumstance penalty to attack rolls made with this attack until healed": {
+            "name": "Effet : Pénalité de circonstances de -2 aux jets d'attaque avec cette attaque jusqu'aux soins",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.HERWPcFlzK2FTPLJ]{Carte d'échec critique #47}</p>\n<p>Pénalité de circonstances de -2 aux jets d'attaque avec cette attaque jusqu'aux soins</p>"
+        },
+        "Effect: +2 circumstance bonus to AC": {
+            "name": "Effet : Bonus de circonstances de +2 à la CA",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.Wn47ZhXINo7jz8JZ]{Carte d'échec critique #2} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.YcQEfWxkmpMWXUz4]{Carte de coupo critique #49}</strong></p>\n<p>bonus de circonstances de +2 à la CA</p>"
+        },
+        "Effect: Ancestral Might": {
+            "name": "Effet : Puissance ancestrale",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.quxPxuMub8k6abzN]{Puissance ancestrale}</p>\n<p>Vous bénéficiez d'un bonus de statut de +2 aux tests basés sur les scores d'attribut qui sont renforcés par votre ascendance (en ignorant les primes d'attributs libres). Si votre ascendance n'accorde que des primes d'attribut libres, choisissez le score d'attribut qui bénéficiera du bonus à la place.</p>"
+        },
+        "Effect: –5-foot circumstance penalty to your land Speed": {
+            "name": "Effet : Pénalité de circonstances de -1,50 mètre à votre Vitesse",
+            "description": "<p>Appliqué par carte de coup critique/d'échec critique</p>\n<p>Pénalité de circonstances de -1,50 mètre à votre Vitesse</p>"
+        },
+        "Effect: -2 circumstance penalty to attack rolls until healed": {
+            "name": "Effet : Pénalité de circonstances de -2 aux jets d'attaque jusqu'aux soins",
+            "description": "<p>Appliqué par la @UUID[Compendium.pf2e.criticaldeck.JournalEntry.LY6T2YgrSoI79BDR]{Carte d'échec critique #8}</p>\n<p>Pénalité de circonstances de -2 aux jets d'attaque jusqu'aux soins</p>"
+        },
+        "Effect: Daring Attempt": {
+            "name": "Effet : Tentative audacieuse",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.jHn1m1r95YgMQSvM]{Tentative audacieuse}</p>\n<p>Choisissez une compétence dans laquelle vous êtes inexpérimenté. Vous êtes qualifié dans cette compétence.</p>"
+        },
+        "Effect: -2 circumstance penalty to attack rolls": {
+            "name": "Effet : Pénalité de circonstances de -2 aux jets d'attaque",
+            "description": "<p>Appliqué par les cartes d'échec critique @UUID[Compendium.pf2e.criticaldeck.JournalEntry.wga13mR4vo73tbTY]{#10}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.xsBlA35rvfHSzJe4]{#15} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.1urnmEt4sn4ATDRL]{#29}</p>\n<p>Pénalité de circonstances de -2 aux jets d'attaque</p>"
+        },
+        "Effect: Spark of Courage": {
+            "name": "Effet : Étincelle de courage",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.EZZxz9jeEB0N3FPZ]{Étincelle de courage}</p>\n<p>Vous obtenez un bonus de statut de +2 aux jets d'attaque et aux tests de compétences.</p>"
+        },
+        "Effect: Scout": {
+            "name": "Effet : Éclaireur",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.kV3XM0YJeS2KCSOb]{Éclaireur}</p>\n<p>Vous obtenez un bonus de circonstances de +1 à votre jet d'initiative.</p>"
+        },
+        "Effect: Rage and Fury": {
+            "name": "Effet : Rage et furie",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.cQH9Syl1SQpbAi5A]{Rage et furie}</p>\n<p>Vous obtenez un bonus de +2 aux dégâts de vos frappes au corps-à-corps et une pénalité de -1 à la CA.</p>"
+        },
+        "Effect: Aquatic Combat": {
+            "name": "Effet : Combat aquatique",
+            "description": "<p>Voir @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.OiRwxbfLNUniLg15#aquatic-combat]{Combat aquatique}</p>\n<p>Utilisez ces règles pour les combats dans l'eau ou sous l'eau :</p>\n<ul>\n<li>Vous êtes Pris au dépourvu à moins d'avoir une Vitesse de nage.</li>\n<li>Vous obtenez une résistance 5 contre l'acide et le feu.</li>\n<li>Vous subissez une pénalité de circonstances aux jets d'attaques contondantes ou tranchantes qui franchissent l'eau.</li>\n<li>Les attaques à distance faites par une créature sous l'eau ou contre une créature sous l'eau voient leurs facteurs de portée divisés par deux.</li>\n<li>Vous ne pouvez lancer des sorts de feu ou utiliser des actions avec le trait feu sous l'eau. Comme à l'ordinaire avec de tels traits, toute partie du sort sans lien avec le feu fonctionne. Par exemple, une attaque avec une <em>hache de bataille enflammée</em> pourra toujours infliger ses dégâts physiques mais pas ses dégâts de feu.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.other-effects.Item.2u26bmArDPuoCljc]{Effet : Air restant}</p>"
+        },
+        "Effect: Off-Guard until end of your next turn": {
+            "name": "Effet : Pris au dépourvu jusqu'à la fin de votre prochain tour",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.IrUeMJoKEYUSJKs1]{Carte d'échec critique #19}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.gWa7wGUfUvYoIK8z]{#20}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.I5omhoK6rqfCZiUZ]{#21}, @UUID[Compendium.pf2e.criticaldeck.JournalEntry.Ps9VYxI2zJPG6PEV]{#22} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.qD8KoshDJsayGbCB]{#40}</strong></p>\n<p>Vous êtes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} jusqu'à la fin de votre prochain tour.</p>"
+        },
+        "Effect: Aura of Protection": {
+            "name": "Effet : Aura de Protection",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.7uERHpfJplGtYf8w]{Aura de Protection}</p>\n<p>Vous obtenez une résistance à tous les dégâts égale au rang du sort que vous venez de lancer.</p>"
+        },
+        "Effect: Aid": {
+            "name": "Effet : Aider",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aider}</p>\n<p>Vous obtenez un bonus de circonstances au test aidé en fonction du résultat du test pour Aider de votre allié.</p>"
+        },
+        "Effect: +1 circumstance bonus to attack rolls for 3 rounds": {
+            "name": "Effet : Bonus de circonstances de +1 aux jets d'attaque pendant 3 rounds",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.TbXmAqEzgW1nZV2r]{Carte d'échec critique #49}</p>\n<p>bonus de circonstances de +1 aux jets d'attaque pendant 3 rounds mais vous êtes Pris au dépourvu</p>"
+        },
+        "Effect: Avert Gaze": {
+            "name": "Effet : Détourner le regard",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.actionspf2e.Item.UWdRX1VelipCzrCg]{Détourner le regard}</p>\n<p>Vous obtenez un bonus de circonstances de +2 à vos jets de sauvegarde contre les capacités visuelles qui nécessitent que vous regardiez une créature ou un objet, comme le regard pétrifiant d'une méduse.</p>"
+        },
+        "Effect: Called Foe": {
+            "name": "Effet : Ennemi désigné",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.spzRl5CS4vnvcrm5]{Ennemi désigné}</p>\n<p>Désignez un ennemi. Vous bénéficiez d'un bonus de statut de +2 aux jets d'attaque effectués contre cet ennemi, mais vous subissez une pénalité de statut de -4 aux jets d'attaque effectués contre toute autre créature.</p>"
+        },
+        "Effect: –10-foot circumstance penalty to all Speeds": {
+            "name": "Effet : Pénalité de circonstances de -3 mètres à toutes les Vitesses",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.dP4Zy3ILcjWRx6ZO]{Carte de coup critique #45}</p>\n<p>Pénalité de circonstances de -3 mètres à toutes les Vitesses</p>"
+        },
+        "Effect: -2 circumstance penalty to attack rolls with this weapon": {
+            "name": "Effet : Pénalité de circonstances de -2 aux jets d'attaque avec cette arme",
+            "description": "<p>Appliqué par @UUID[Compendium.pf2e.criticaldeck.JournalEntry.EP333dUdoJ8xdkzq]{Carte d'échec critique #5} et @UUID[Compendium.pf2e.criticaldeck.JournalEntry.YRY6c3WdBEuKiOCv]{#42}</p>\n<p>Pénalité de circonstances de -2 aux jets d'attaque avec cette arme</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

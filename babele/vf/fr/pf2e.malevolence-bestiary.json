@@ -1,0 +1,604 @@
+{
+    "label": "Malveillance",
+    "entries": {
+        "Yianyin": {
+            "name": "Yianyin",
+            "languages": "Télépathie 36 mètres, xénoglossie",
+            "saves": "Bonus de statut de +1 aux jets de sauvegarde contre la magie",
+            "items": {
+                "45tIfcu3EgUSitRf": {
+                    "name": "Envoûter les condamnés",
+                    "description": "<p>Yianyin envoûte télépathiquement une créature à moins de 9 mètres pour la pousser à s'approcher de lui et le laisser l'embrasser avec son Baiser mortel. La cible doit faire un jet de @Check[will|dc:25].</p>\n<hr />\n<p><strong>Succès</strong> La créature n'est pas affectée et est temporairement immunisée à Envoûter les condamnés pendant 24 heures.</p>\n<p><strong>Échec</strong> La créature doit utiliser chacune de ses actions pour se rapprocher de Yianyin aussi rapidement que possible tout en évitant les dangers évidents. Si la créature envoûtée est adjacente à Yianyin, elle reste immobile et n'agit pas. Si la créature subit des dégâts, l'effet prend fin et la créature est temporairement immunisée à Envoûter les condamnés pendant 24 heures. L'effet dure 1 round, mais si Yianyin continue à utiliser ce pouvoir au cours des rounds suivants, la durée est prolongée à chaque fois de 1 round pour les créatures affectée.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais les dégâts ne mettent pas un terme à l'effet.</p>"
+                },
+                "6Q6jnCdIFmIuL5q5": {
+                    "name": "Lumière"
+                },
+                "BpKimI1gpvWTX7eW": {
+                    "name": "Xénoglossie (Constant)"
+                },
+                "CZrdGP9D1n0eOI8A": {
+                    "name": "Télépathie 36 mètres"
+                },
+                "CaUXX1KAzOzLwfmw": {
+                    "name": "Connaissance du Cimetière"
+                },
+                "Ls9yE1H6FkT1OJYn": {
+                    "name": "Présence perturbante",
+                    "description": "<p>9 mètres. Une créature qui débute son tour dans l'aura doit tenter un jet de @Check[will|dc:22|basic]</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée et devient temporairement immunisées à Présence perturbante pendant 24 heures.</p>\n<p><strong>Succès</strong> Le jet d'attaque de la créature subit une pénalité de statut de -1 pendant 1 round.</p>\n<p><strong>Échec</strong> La créature ressent le regard vide d'Yianyin sur elle et elle sait que quelque chose de bien plus dangereux et monstrueux regarde au travers de ces yeux vides. La présence écrasante de cette intelligence outre-monde provoque l'état @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} sur la créature alors qu'elle tremble de terreur.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais la créature est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stupéfiée 1} à la place, et connaît le nom de celui qui les regarde : Tchekuth.</p>"
+                },
+                "NampMSngFfuFfsYt": {
+                    "name": "Frappe corruptrice",
+                    "description": "<p>La Frappe de Yianyin inflige @Damage[2d6[void]]{1d6 dégâts de vide} à toutes les créatures vivantes. Une créature qui a été touchée par un coup critique sur une Frappe de Yianyin doit tenter un jet de @Check[fortitude|dc:18] ou être @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 2} sur un échec critique) alors que de la pourriture se répand dans ses chairs.</p>"
+                },
+                "Ya6FYtH9NcX7nL1K": {
+                    "name": "Invisibilité (À volonté) (soi uniquement)"
+                },
+                "Z1kI1lIR3yl4kS3A": {
+                    "name": "Perception de la vie 18 m"
+                },
+                "ir9prG2ljao7pdxi": {
+                    "name": "Poing"
+                },
+                "kATbmBX9Ub3C8BqX": {
+                    "name": "Baiser mortel",
+                    "description": "<p>Yianyin offre un long baiser passionné à une créature @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} ou consentante, lui infligeant ainsi @Damage[4d6[void]]{4d6 dégâts de vide}.</p>\n<p>Toute créature blessée par le Baiser mortel de Yianyin pendant 3 rounds consécutifs devient Inconsciente et @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Mourante 1}.</p>"
+                },
+                "tIxMu5g2VHNjODFz": {
+                    "name": "Sorts innés occultes"
+                }
+            }
+        },
+        "Xarwin Manor Phantasm": {
+            "name": "Le fantasme du manoir de Xarwin",
+            "desc (hazard)": "<p>La malévolence produit une illusion déroutante qui est faite pour perturber et saper les résistances des intrus face aux dangers du manoir. Lancez [[/r 1d12]]{1d12} sur les Fantasmes du manoir de Xarwin afin de déterminer quelle sorte d'illusions sera utilisée. Alternativement, vous pouvez choisir la plus appropriée sur la table ou en créer une utilisant les résultats en vous inspirant des exemples.</p>\n<h3><strong>Fantasmes du manoir de Xarwin</strong></h3>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>[[/r 1d12]]{1d12}</th>\n<th>Fantasme</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Une empreinte de main humide et ectoplasmique apparaît sur une fenêtre ou un mur et sort brièvement de la surface pour tenter d'étouffer un personnage. La main disparaît quelques instants plus tard, mais la main gauche du PJ reste étrangement humide jusqu'à ce qu'elle soit essuyée.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Une entaille indolore et non sanglante se manifeste sur le front d'un PJ, en faisant complètement le tour de son crâne en quelques secondes. Lorsque l'entaille a terminé son tour, le PJ ressent un mal de tête momentanément atroce avant que l'incision ne disparaisse.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Le PJ aperçoit une ombre dans une surface réfléchissante. La silhouette lève un bras comme pour le désigner, mais ce bras n'a pas de main. Lorsque le PJ se retourne pour faire face à l'image ou cligne des yeux, la silhouette a disparu.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Le PJ trébuche puis remarque que les objets non fixés dans la pièce tremblent, que les rideaux se balancent et que les lattes du plancher se déplacent. Si une fenêtre est visible, les arbres à l'extérieur se balancent même si c'est un jour sans vent. Lorsque tout s'immobilise, le PJ a l'impression que quelque chose d'immense vient de se déplacer quelque part en bas. Aucun autre PJ n'éprouve cette sensation.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Le PJ ressent une douleur soudaine au poignet gauche et est convaincu que sa main a été coupée. En regardant la blessure présumée, la douleur disparaît et la main semble en bon état.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Le ciel à travers une fenêtre semble être entièrement nocturne au cours de la journée ou le plafond au-dessus s'efface soudainement pour révéler le ciel nocturne. Le PJ sent que quelque chose le regarde depuis quelque part entre les étoiles, mais dès qu'il cligne des yeux, détourne le regard ou attire l'attention sur le ciel nocturne, l'image revient à la normale.</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Le PJ est soudain convaincu qu'il vit dans ce manoir depuis des décennies et que les autres PJ sont des intrus, mais ce sentiment disparaît quelques instants plus tard.</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Le PJ ressent soudain un sentiment écrasant de trahison de la part de l'un des autres PJ - de préférence celui avec lequel il a les liens émotionnels les plus étroits. Un battement de cœur plus tard, le sentiment s'estompe.</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Le PJ peut entendre ce qui ressemble à un petit oiseau piégé dans un mur, luttant pour s'échapper. Aucun autre PJ ne peut l'entendre. Quelques instants plus tard, le PJ a l'impression d'être l'oiseau piégé, puis le fantasme s'estompe.</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Le PJ perd soudain tous ses sens et se sent en apesanteur pendant une fraction de seconde. Dans l'obscurité, il a l'impression que quelque chose est sur le point de lui redonner la vue, mais il sait que ce qu'il verra sera horrible. Ensuite, tout revient à la normale.</td>\n</tr>\n<tr>\n<td>11</td>\n<td>Pendant quelques instants effrayants, le PJ est soudain convaincu que quelqu'un d'autre pense à sa place et qu'on l'a trompé en lui faisant croire qu'il est dans son propre corps alors que ce n'est pas le cas.</td>\n</tr>\n<tr>\n<td>12</td>\n<td>Le PJ se souvient soudain d'un affreux souvenir de son passé ou de son enfance, puis éprouve un sentiment de soulagement lorsque ce souvenir est retiré de son esprit. Il se souvient qu'il s'est passé quelque chose de grave, mais pas de quoi il s'agissait.</td>\n</tr>\n</tbody>\n</table>",
+            "disable": "<p>Test d'@Check[occultism|dc:15|name:Exorciser le fantasme] ou de @Check[religion|dc:15|name:Exorciser le fantasme] (pour exorciser le fantasme perturbant)</p>",
+            "items": {
+                "6fhR4Gojdgr4b2mu": {
+                    "name": "Vision hantées",
+                    "description": "<p><strong>Déclencheur</strong> Une créature approche à 1,50 mètre du fantasme</p>\n<hr />\n<p><strong>Effet</strong> Le fantasme inquiétant crée une vision obsédante. La créature déclencheuse doit tenter un jet de @Check[will|dc:19|name:Fantasme du manoir de Xarwin].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature n'est pas affectée.</p>\n<p><strong>Échec</strong> Si la créature n'a pas l'état de malévolence, la valeur de son état de malévolence augmente de 1.</p>\n<p><strong>Échec critique</strong> La créature augmente la valeur de son état de malévolence de 1.</p>"
+                }
+            }
+        },
+        "Anitoli Nostraema": {
+            "name": "Anitoli Nostraema",
+            "items": {
+                "C6cMjmVitcFqX2HU": {
+                    "name": "Désespoir susurré",
+                    "description": "<p><strong>Déclencheur</strong> Une créature avec un effet d'émotion actif entre dans l'aura de Anitoli Nostraema.</p>\n<hr />\n<p><strong>Effet</strong> Anitoli Nostraema tente de contrer l'effet d'émotion, avec un modificateur de contre de +13.</p>"
+                },
+                "F58s1zGhxWZhyyU7": {
+                    "name": "Vol de souffle",
+                    "description": "<p>Anitoli Nostraema absorbe le souffle d'une créature vivante, drainant sa force. Une créature vivante touchée par une Frappe Mâchoires doit faire un jet de @Check[fortitude|dc:24].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1} pendant 1 round.</p>\n<p><strong>Échec/strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1} pendant 24 heures et @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatiguée}.</p>\n<p><strong>Échec critique</strong> La cible est Affaiblie 1 pendant 24 heures, est Fatiguée, et tombe @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente}.</p>"
+                },
+                "FbJ6MpdH1KNP6DEP": {
+                    "name": "Vol de voix",
+                    "description": "<p>Quand Anatoli Nostreaema touche une créature vivante avec une Frappe de main décharnée, il tente d'attirer la voix de sa victime dans son aura. La cible doit faire un jet de @Check[will|dc:24].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La voix de la cible est affaiblie pendant 1 minute. Chaque fois qu'elle tente une action possédant le trait audible, elle doit réussir un @Check[flat|dc:5] sinon cette action est perdue.</p>\n<p><strong>Échec</strong> La cible perd sa capacité à parler pendant 1 heure, jusqu'à ce que la malédiction soit levée ou que Anatoli Nostraema soit détruit, suivant ce qui se produit en premier. Pendant ce temps, Anatoli Nostraema peut imiter à la perfection la voix de la cible, et celle-ci subit une pénalité de circonstances de -2 à ses jets de sauvegarde contre l'aura de pleurs d'Anatoli Nostraema.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais l'effet dure jusqu'à ce que Anatoli Nostraema soit détruit ou que la malédiction soit levée.</p>"
+                },
+                "NorEqWsgAqUEHrv0": {
+                    "name": "Aura de pleurs",
+                    "description": "<p>3 mètres.</p>\n<p>Anitoli Nostraema se drape dans un choeur de voix volées. Chaque créature vivante qui pénètre ou débute son tour dans l'aura doit réussir un jet de @Check[will|dc:21] sous peine d'être bouleversée par les sanglots amers et troublants. Elle devient @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1} aussi longtemps qu'elle demeure dans l'aura. Une créature qui réussit son jet de sauvegarde est temporairement immunisée pendant 1 heure.</p>\n<p>Anitoli Nostreaema peut activer ou désactiver l'aura en utilisant une unique action gratuite qui possède le trait concentration.</p>"
+                },
+                "cpGnoTqfKreSjXiE": {
+                    "name": "Main décharnée"
+                },
+                "mgipsToIbvBrXPfV": {
+                    "name": "Mâchoires"
+                }
+            }
+        },
+        "Haunted Nosoi": {
+            "name": "Nosoi hanté",
+            "languages": "Xénoglossie",
+            "items": {
+                "62EEApSPWilOAJGE": {
+                    "name": "Bec"
+                },
+                "IbqmLczDaT9GKEuW": {
+                    "name": "Explosion vengeresse",
+                    "description": "<p><strong>Déclencheur</strong> Le noisoi hanté est détruit ou il entre dans la case adjacente à un psychopompe corrompu dans la zone D5</p>\n<hr />\n<p><strong>Effet</strong> Le nosoi hanté explose en une déflagration d'énergie de vitalité. Cette déflagration guérit toutes les créatures vivantes dans un rayon de 3 mètres de @Damage[3d6[vitality]]{3d6 dégâts de vitalité}. Si elle est déclenchée dans la zone D5, l'explosion vengeresse inflige @Damage[2d12[void]]{2d12 dégâts de vide} à tous les psychopompes corrompus dans la zone (@Check[will|dc:18|basic]).</p>"
+                },
+                "WN5HCThXS1ilMtKI": {
+                    "name": "Xénoglossie",
+                    "description": "<p>Le nosoi hanté parle en réquien, le langage des psychopompes, mais toutes les créatures entendent ses mots dans leur langue natale.</p>"
+                },
+                "mj6SWij6O5cLmBul": {
+                    "name": "Perception de la vie 18 m"
+                }
+            }
+        },
+        "Algea": {
+            "name": "Algéa",
+            "description": "<p>Les algeas protègent (et parfois récupèrent) les âmes qui risquent d'être revendiquées par d'autres entités, en particulier celle des lanceurs de sorts qui se sont frottés à des forces d'un autre monde et qui n'ont jamais officiellement engagé leur âme à une divinité.</p>\n<p><em>Note du traducteur : ce sont des nuées composées d'engoulevents</em></p>",
+            "perception": "vision de la magie",
+            "saves": "Bonus de +1 aux jets de sauvegarde contre la magie",
+            "items": {
+                "Bu3EUUlbn17nZdKq": {
+                    "name": "Perception de la vie 18 m"
+                },
+                "MMUnQ4sqzntfVl13": {
+                    "name": "Téléportation interplanaire (Soi et phylactère de créature uniquement, vers le Cimetière seulement)"
+                },
+                "XEk3qVgQOYlGTNiG": {
+                    "name": "Sorts divins"
+                },
+                "dCra4dM2DaOP8GAK": {
+                    "name": "Phylactère",
+                    "description": "<p>Un mort-vivant intangible endommagé par Becs frénétiques doit tenter un jet de @Check[will|dc:30].</p>\n<hr />\n<p><strong>Succès critique</strong> Le mort-vivant n'est pas affecté est est temporairement immunisé pendant 24 heures.</p>\n<p><strong>Succès</strong> Le mort-vivant subit une pénalité de -3 mètres à toutes ses Vitesses pendant 1 round.</p>\n<p><strong>Échec</strong> Comme en cas de succès, mais le mort-vivant est également @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisé} pendant 1 round, mais il peut tenter de S'échapper (DD 30).</p>\n<p><strong>Échec critique</strong> Le mort-vivant est Entravé pendant 1 round. L'algéa peut tenter de faire une Téléportation interplanaire avec la créature @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} même si la créature morte-vivante n'est pas d'accord, mais cette dernière peut tenter un jet de Volonté pour résister à la @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Téléportation interplanaire}. Si elle obtient un succès, l'algéa effectue la téléportation mais sans la créature intangible qui n'est plus entravée.</p>"
+                },
+                "fmcgopzl3nvrBJkz": {
+                    "name": "Becs frénétiques",
+                    "description": "<p>Chaque ennemi dans l'espace de la nuée subit @Damage[5d6[piercing]|traits:item:rune:property:ghost-touch]{5d6 dégâts perforants} (@Check[reflex|dc:30|basic]) et est exposé au Drain de magie. Ces dégâts affectent les créatures intangibles avec les même effets que celles de la rune Spectrale.</p>"
+                },
+                "iAp1BgBeTFhgvNEP": {
+                    "name": "Aura de deuil",
+                    "description": "<p>9 mètres. Une créature qui débute son tour dans l'aura doit tenter un jet de @Check[will|dc:27]. Les morts-vivants subissent une pénalité de circonstances de -2 à ce jet de sauvegarde. Toutes les créatures sont ensuite temporairement immunisée à l'Aura de deuil pendant 1 heures.</p>\n<p><strong>Succès</strong> La créature n'est pas affectée.</p>\n<p><strong>Échec</strong> Pendant 1 round la crature ne peut pas utiliser ses réactions et est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pour un tour alors qu'elle sanglote de façon incontrôlée.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais les effets durent tant que la créature reste dans l'aura de deuil plus 1 minute.</p>"
+                },
+                "idd2T28Lmct79QDu": {
+                    "name": "Drain de magie",
+                    "description": "<p>À chaque fois qu'une créture rate son jet de sauvegarde contre Becs frénétiques, l'algéa tente de contrer un effet de sort actif sur cette créature (Rang 6, modificateur de contre de +22). L'algéa peut choisir quel effet elle veut tenter de contrer pour chaque créature.</p>"
+                },
+                "moosBrxtijnM7YuU": {
+                    "name": "Connaissance du Cimetière"
+                },
+                "zaePCGVy6RdZ31CZ": {
+                    "name": "Vision de la magie",
+                    "description": "<p>Une algéa peut voir la magie sur les créatures ou sur les objets qu'elle aperçoit. Elle peut voir les auras sur les créatures ou les objets qui sont caché de sa vue. Elle connaît les écoles de magie pour tous les effets de sorts qui affectent la créature.</p>"
+                }
+            }
+        },
+        "Ioseff Xarwin": {
+            "name": "Ioseff Xarwin",
+            "hpdetails": "Guérison du vide, Reconstruction",
+            "items": {
+                "66dtKIUqfelqC7kk": {
+                    "name": "Reculer",
+                    "description": "<p>Si un personnage présente l'anneau de Fulvia sous le nez de Ioseff en tant qu'action avec le trait de manipulation, Ioseff doit tenter un jet de @Check[will|dc:26]. Après ce jet de sauvegarde il est immunisé pendant 24 heures.</p>\n<hr />\n<p><strong>Succès critique</strong> Ioseff n'est pas affecté.</p>\n<p><strong>Succès</strong> Ioseff subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 1}.</p>\n<p><strong>Échec</strong> Ioseff subit @Damage[8d6[mental]]{8d6 dégâts mentaux} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 2}.</p>\n<p><strong>Échec critique</strong> Ioseff subit @Damage[8d6[mental]]{8d6 dégâts mentaux} est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 2}, et est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 3}.</p>"
+                },
+                "6mMJCH3VP87wzthp": {
+                    "name": "Amputation fantasmagorique",
+                    "description": "<p><strong>Fréquence</strong> Une fois par jour</p>\n<hr />\n<p><strong>Effet</strong> Ioseff lève son bras gauche mutilé et le sang qui en coule commence à se former en une main fantomatique qui utilise dès lors pour montrer du doigt une créature humanoïde dans les 9 mètres. Cette créature doit tenter un jet de @Check[fortitude|dc:28|traits:necromancy,occult].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} lors qu'il ressent soudainement une douleur atroce dans sa main gauche.</p>\n<p><strong>Succès</strong> Comme en cas de succès critique, mais la créature subit également @Damage[2d6[slashing]]{2d6 dégâts tranchants} et devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} pendant 1 round alors qu'elle a l'impression que sa main vient d'être coupée par une hachette.</p>\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2}, subit @Damage[5d6[slashing]]{5d6 dégâts tranchants} et devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 2} pendant 1 minute alors qu'elle a l'impression que sa main vient d'être coupée par une hachette.</p>\n<p><strong>Échec critique</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 3}, subit @Damage[8d6[slashing],2d6[bleed]]{8d6 dégâts tranchants et 2d6 dégâts de saignement} alors que sa main gauche semble être coupée et tombe à terre devant lui se transformant immédiatement en un os pourrissant. La créature est Maladroite 2 et @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Blessée 1}. Dès que sa condition de Blessé est As soon as this wounded condition is removed, the PC's hand miraculously returns and the clumsy condition ends.</p>"
+                },
+                "86FYT85gjLly1PDK": {
+                    "name": "Affaiblissement"
+                },
+                "AlPbxguovoxPTMet": {
+                    "name": "Reconstruction",
+                    "description": "<p>Quand un fantôme est détruit, il reprend forme au bout de [[/gmr 2d4 #jours]]{2d4 jours}, avec tous ses Points de vie, à l'intérieur du site auquel il est lié. Un fantôme peut être définitivement détruit uniquement si quelqu'un trouve la raison expliquant son existence et rétablit le tort qui empêche son esprit de trouver le repos.</p>\n<hr />\n<p>Pour offrir le repos éternel à Ioseff, les trois conditions suivantes doivent être remplies après avoir vaincu Ioseff mais avant qu'il ne se reconstruise.</p>\n<ul>\n<li>Le collecteur de cerveaux mort-visant dans la zone D6 a été détruit.</li>\n<li>Les cerveaux de son épouse et de ses enfants ont été libéré de la statue du collecteur de cerveaux, ce qui permet à leur âmes de rejoindre le Cimetière.</li>\n<li>Le miroir du Vide a été remplacé dans son cadre dans la Crypte cosmique.</li>\n</ul>"
+                },
+                "AwvX8r0Dpmhamr4F": {
+                    "name": "Filament sanguinolent d'ectoplasme"
+                },
+                "GCPgpwElCHLQVIOo": {
+                    "name": "Connaissance astronomie"
+                },
+                "M7sVspfHZSCGkPB3": {
+                    "name": "Honte",
+                    "description": "<p>Ioseff subit une pénalité d'objet de -1 aux Frappe et aux Jets de sauvegarde contre un personnage qui détient la bague de Fulvia. Cette pénalité double à -2 contre un personnage qui porte la bague de Fulvia. Au début de leur tour, un personnage qui possède la bague de Fulvia peut tenter un jet de @Check[perception|dc:20|traits:secret] ; s'il obtient un succès, il ressent une faible contrainte alimentée par le scandale de présenter la bague de Fulvia au fantôme </p>"
+                },
+                "OPfyi9ivt0InaEXb": {
+                    "name": "Lié au site",
+                    "description": "<p>Ioseff Xarwin est lié à son laboratoire.</p>"
+                },
+                "PNqYkMjgT8qLINIr": {
+                    "name": "Connaissance du Chéliax"
+                },
+                "dVDPfUT8kiPIvoRR": {
+                    "name": "Reposer en paix"
+                },
+                "gBE8Z8acvqFsiw0Z": {
+                    "name": "Sorts innés occultes"
+                },
+                "oaQPnXy17nhfdQcU": {
+                    "name": "Inciter à l'insurrection",
+                    "description": "<p><strong>Déclencheur</strong> Une créature dans les 9 mètres obtient un échec à son jet de sauvegarde contre l'un de ses sorts</p>\n<hr />\n<p><strong>Effet</strong> Ioseff imprègne la magie de ses sorts avec l'agonie de sa propre mort. En plus des effets causés par les sorts déclencheur, la cible doit également tenter un jet de @Check[fortitude|dc:28|traits:disease] ou attraper la maladie de l'insurrection internetau stade 1 (stade 2 s'il obtient un échec critique)</p>\n<p><strong>Insurrection interne</strong> (maladie)</span> Niveau 7.</p>\n<p>La cible ne peut pas se remettre de son état Maladroit contracté par la maladie de l'insurrection interne tant qu'elle n'est pas totalement guérie de la maladie.</p>\n<p><strong>Stade 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 1} (1 day)</p>\n<p><strong>Stade 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 2} (1 day)</p>\n<p><strong>Stade 3</strong> Maladroit 2 and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} (1 day)</p>\n<p><strong>Stade 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit 3} et Pris au déporvu (1 day)</p>\n<p><strong>Stade 5</strong> Mort, alors le corps de la cible se fend en deux libérant une masse de bouillie qui sort et rampe sur le sol en une émanation de 3 mètres, laissant un squelette entouré de quelques morceaux de chairs.</p>"
+                },
+                "pRTmfeSKQ4X7TjNd": {
+                    "name": "Manipulation télékinésique"
+                },
+                "tq4v9Tm2A5wAIhYF": {
+                    "name": "Possession malveillante",
+                    "description": "<p>Ioseff Xarwin tente de posséder une créature tangible adjacente. Ce pouvoir produit les même effets que le sort @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Possession}, mais comme Ioseff n'a pas de corps physique, il n'est pas affecté par cette restriction de ce sort.</p>\n<p>La cible doit tenter un jet de @Check[will|dc:28|traits:controlling].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> Ioseff posséde la cible mais ne peut pas la contrôler. Il reste dans le corps et l'accompagne tant que dure le sort.</p>\n<p><strong>Échec</strong> Ioseff posséde la cible et en prend partiellement le contrôle. Il n'a plus de tour séparé. Au lieu de cela, il peut contrôler la cible. Au début de chacun des tours de la cible, celle-ci tente un autre jet de Volonté. Si c'est un échec, elle est @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Contrôlée} par Ioseff lors de ce tour. Si c'est un succès, elle décide de ses propres actions. Si c'est un succès critique, elle vous expulse et le sort prend fin.</p>\n<p><strong>Échec critique</strong> Ioseff posséde complètement la cible et elle ne peut que vous observer la manipuler comme une marionnette, impuissante. La cible est Contrôlée.</p>\n<p>Un personnage qui porte la bague de Fulvia sur lui obtient un bonus d'objet de +4 à ses jets de sauvegarde et considère le résultat du jet de sauvegarde comme un degré de succès supérieur que le résultat obtenu. Si Ioseff tente d'utiliser ce pouvoir sur un personnage qui porte la bague de Fulvia il peut tenter un test de Perception contre le DD de Discrétion du personnage porteur afin d'éviter de tenter son action contre le porteur de bague. Si il obtient un succès, il perd les deux actions qu'il a dépensé pour tenter la possession sans effets supplémentaires. Si il ne remarque rien et tente de posséder le porteur de la bague, ce dernier gagne automatiquement un succès critique sur son jet de sauvegarde, Ioseff est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 3}, et il ne peut plus utiliser Possession malveillante pendant 24 heures.</p>"
+                }
+            }
+        },
+        "Wrathful Hatchet": {
+            "name": "Hachette furieuse",
+            "desc (hazard)": "<p>La hachette enfoncé sur le dessus du bureau bouge, vibre et puis vole dans les airs accompagné d'un cri rageur de femme.</p>",
+            "disable": "<p>Test de @Check[diplomacy|dc:27|name:Apaiser la colère de la hantise] pour apaiser la colère de l'aparition ou test de @Check[religion|dc:25|name:Exorciser L'apparition] pour exorciser la hantise.</p>",
+            "reset": "<p>24 heures ; donner le repos éternel au fantôme de Xarwin détruit L'apparition.</p>",
+            "routine": "<p>(3 actions; évocation, occulte) La hachette hantée utilise une action pour se déplacer sur une case adjacente à une créature située dans les 7,50 mètres, effectue une Frappe de Hachette furieuse sur cette créature, - ou essaye de S'échapper de son immobilisation ou ses entraves. Si il n'y a pas de créatures dans les 7,50 mètres, la hachette se déplace dans une direction aléatoire.</p>\n<p>Si c'est la fin de son tour et qu'il n'y a pas de créature dans les 7,50 mètres, la hachette tombe à terre, et la hantise se termine.</p>",
+            "items": {
+                "1dy3ttqcMMPzUzOo": {
+                    "name": "Cri de rage",
+                    "description": "<p><strong>Déclencheur</strong> A creature approaches within 5 feet of the hatchet or more than 3 creatures enter area C10</p>\n<hr />\n<p><strong>Effet</strong> The furious shriek of Asethanna's rage resonates throughout the room, and all creatures within 25 feet of the hatchet must attempt a @Check[will|dc:25] save. The haunt then rolls initiative.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature pense que la hantise furieuse est particulièment fâchée envers elle. La créature devient Effrayée 2 ; la valeur de son état Effrayé ne diminue pas automatiquement aussi longtemps que la hantise est active, et la Hachette obtient un bonus de circonstances de +2 à toutes ses Frappes de Hachette furieuse qu'elle effectue contre cette créature.</p>"
+                },
+                "J88670eDfpomkkvm": {
+                    "name": "Hachette furieuse"
+                }
+            }
+        },
+        "Xarwin Portraits": {
+            "name": "Les portraits de Xarwin",
+            "desc (hazard)": "<p>Les peintures commencent soudainement à saigner - Ioseff Xarwin au poignet gauche et les trois autres Xarwin sur une ligne qui coupe leur front alors que les spectateurs perçoivent des flashs de ce que la famille a enduré.</p>",
+            "disable": "<p>Test de @Check[religion|dc:25|name:Exorciser la peinture] pour exorciser une des peintures (un succès critique exorcise toutes les peintures en une fois) ou test de @Check[thievery|dc:21|name:Recouvrir la peinture|traits:action:disable-a-device] pour couvrir la peinture rapidement avec une cape ou la prendre et la retourner face contre le mur</p>",
+            "reset": "<p>1 heure ; donner le repos éternel au fantôme de Xarwin détruit L'apparition.</p>",
+            "routine": "<p>(4 actions) La hantise utilise jusqu'à 4 actions pour infliger des blessures de saignement au hasard sur différentes créatures qui se tiennent dans la zone B22. Ces blessures sanguinolentes se manifestent là où les cibles auraient ressentis la douleur de Infliger l'agonie, indépendamment du fait qu'ils aient résisté à l'effet ou pas. Une créature ne peut être ciblée plus d'une fois durant cette routine. Chaque créature affectée doit réussir un jet de @Check[fortitude|dc:24|traits:emotion,fear,mental,necromancy,occult].</p>\n<p>La hantise perd une action pour chaque peinture qui a été désactivée ou détruite.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature subit @Damage[(1d8+3)[slashing]]{1d8+3 dégâts tranchants} et devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1} par la conviction que ces blessures ont été infligées par quelqu'un qu'elle aime.</p>\n<p><strong>Échec</strong> Comme en cas de succès, mais la créature subit @Damage[(2d8+6)[slashing]]{2d8+6 dégâts tranchants}, @Damage[1d6[bleed]]{1d6 dégâts de saignement} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais la créature subit @Damage[(4d8+12)[slashing]]{4d8 dégâts tranchants}, @Damage[2d6[bleed]]{2d6 dégâts de saignement} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3}. Augmentez la valeur de malévolence du personnage de 1.</p>",
+            "stealth": "Expert",
+            "items": {
+                "b68UvpyZkS1b4VZG": {
+                    "name": "Infliger l'agonie",
+                    "description": "<p><strong>Déclencheur</strong> Au moins quatre personnages se tiennent dans la zone B22 ou quelqu'un touche ou essaye d'endommager la peinture</p>\n<hr />\n<p><strong>Effet</strong> Tous les personnages dans la zone B22 doivent tenter un jet de @Check[will|dc:27] pour résister à une soudaine forte douleur (le PJ qui a le plus haut modificateur d'intelligence le ressent dans son poignet gauche, alors que d'autres le ressentent sur le front). En cas d'échec, un PJ devient @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} à cause de la douleur intense (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2} sur un échec critique). Puis la hantise lance l'initiative.</p>"
+                }
+            }
+        },
+        "Tanglebones": {
+            "name": "Oschevêtré",
+            "description": "<p>Parfois, lorsqu'un meurtrier enterre beaucoup de ses victimes dans une même fosse commune, les esprits vengeurs des tombés peuvent s'enchevêtrer. Lorsque ces esprits ne peuvent plus de démêler, ils reviennent dans leur cadavres physiques et fusionnent en une masse terrifiante goudronneuse d'os noirs : un oschevêtré.</p>\n<p>Une abominable histoire parle d'une vieille douairière amère qui apprit que, grâce à une faille juridique, la propriété de son domaine reviendrait à sa fille, dont elle était séparée. Elle assassina ses treize domestiques, enterra leurs corps dans la cave de la maison, puis joua les mères bienveillantes en remettant les clés du manoir à la date prévue. Une nuit, les oschevêtrés issus des atrocités commises par la douairière ont assassiné la fille et sa famille. Lorsque les autorités ont appris ce qui s'était passé, la douairière avait fui le pays, changé d'identité et (selon l'histoire) n'avait pas perdu de temps pour reconstruire sa fortune, cette fois en devenant reine.</p>",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "7GZSmH33lacIjGRG": {
+                    "name": "Ronger",
+                    "description": "<p><strong>Conditions</strong> L'oschevêtré a Agrippé une créature</p>\n<hr />\n<p><strong>Effet</strong> L'oschevêtré mord er ronge violemment la créature à l'aide des ses multiples crânes, lui infligeant @Damage[2d8[piercing]]{2d6 dégâts perforants} (@Check[fortitude|dc:23|basic]). Si la créature obtient un échec critique à son jet de sauvegarde, elle est également @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Maladé/nauséeuse 1} de douleur.</p>"
+                },
+                "WarDVWwMegYTdbUM": {
+                    "name": "Souplesse surnaturelle",
+                    "description": "<p>Un oschevêtré peut se changer et ajuster sa masse pour s'accommoder dans des espaces étroits comme si elle était une créature de taille Moyenne. Quand elle @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Se faufile}, elle peut se déplacer à sa pleine Vitesse.</p>"
+                },
+                "WwHuWnYG7Z1eRfCv": {
+                    "name": "Projection d'os",
+                    "description": "<p>Portée 9 mètres</p>"
+                },
+                "dvswlRsKg8EGBzsU": {
+                    "name": "Étalement d'os",
+                    "description": "<p>Jusqu'au moment où il agit, l'oschevêtré apparaît comme une masse d'os étalée. Il bénéficie d'un résultat automatique de 35 sur ses tests de Duperie et ses DD pour se faire passer comme étant un fatras macabre mais inoffensif.</p>"
+                },
+                "iB4FIdMc9Bnj1cOR": {
+                    "name": "Griffe"
+                },
+                "qBfZKEJPVngf5Zs4": {
+                    "name": "Filament ectoplasmique",
+                    "description": "<p><strong>Déclencheur</strong> Une créature dans l'allonge de l'oschevêtré utilise une action avec le trait manipulation ou mouvement, ou quitte son espace lors de l'action de déplacement qu'elle utilise</p>\n<hr />\n<p><strong>Effet</strong> Un filament noir et huileux d'ectoplasme attaque la créature déclencheuse, infligeant @Damage[(2d8+8)[slashing]]{2d8+8 dégâts tranchants} (@Check[reflex|dc:25|basic]).</p>"
+                },
+                "uWMjBNMf2i8vkJza": {
+                    "name": "Tempête de squelettes",
+                    "description": "<p>L'oschevêtré effectue une seule Frappe de griffe sur chaque créature dans son allong. Ces attaque sont prise en compte pour le calcul de sa pénalité d'attaques multiples mais la pénalité d'attaques multiples ne s'applique qu'après avoir porté toutes ses attaques.</p>"
+                }
+            }
+        },
+        "Nils Kelveken": {
+            "name": "Nils Kelveken",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "5RVQgrRnkm4C0Y2q": {
+                    "name": "Forer plus profondément",
+                    "description": "<p><strong>Conditions</strong> Nils Kelveken a touché une créature avec sa Frappe de chignole à main lors de son action précédente</p>\n<hr />\n<p><strong>Effet</strong> Nils maintien la chignole et la tourne, forant plus profondément dans sa victime. Il inflige automatiquement @Damage[1d8[piercing]]{1d8 dégâts perforants} et la créature qui subit le forage doit réussir un jet de @Check[fortitude|dc:22] pour éviter de subir @Damage[1d6[bleed]]{1d6 dégâts de saignement} (@Damage[2d6[bleed]]{2d6 dégâts de saignement} sur un échec critique).</p>"
+                },
+                "8OlcuXSogVDa374Y": {
+                    "name": "Chignole"
+                },
+                "DTY8lCkw0ALXQYai": {
+                    "name": "Clés qui ouvrent toutes les portes non secrètes du rez-de-chaussée"
+                },
+                "JBPlK9wlt3BY2QhE": {
+                    "name": "Chignole"
+                },
+                "k5hfsPhHrFe43moo": {
+                    "name": "J'ai vu ce que t'as fait !",
+                    "description": "<p>Nils Marche rapidement jusqu'à sa Vitesse vers une cible dans les 9 mètres, hurlant \"J'ai vu ce que t'as fait\" alors qu'il s'approche. La cible doit tenter un jet de @Check[will|dc:22|name:J'ai vu ce que t'as fait !].</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée.</p>\n<p><strong>Succès</strong> La cible est perturbée par ce que Nils aurait pu voir et devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> Comme en cas de succès, mais la cible est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La cible part en délire cauchemardesque où le temps semble ralentir et elle ne pense à rien d'autre que de fuir à toute vitesse, pourtant même avec ce désir de courir vite, Nils peut la rattraper avec aisance. La cible est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 2} au début de son prochain tour et @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{En fuite} jusqu'à la fin de son prochain tour.</p>"
+                },
+                "uvkdzaUjo0rU2j1H": {
+                    "name": "Tablier en cuir de menuisier",
+                    "description": "<p>(Fonctionne comme une armure en cuir)</p>\n<p>Mélange de cuir bouilli souple et moulé, une telle armure confère une protection accompagnée d'une souplesse maximale.</p>"
+                }
+            }
+        },
+        "Corrupted Nosoi": {
+            "name": "Nosoi corrompu",
+            "hpdetails": "Guérison du vide",
+            "items": {
+                "62EEApSPWilOAJGE": {
+                    "name": "Bec"
+                },
+                "THAwoUoO7vQWUsob": {
+                    "name": "Mélodie envoûtante",
+                    "description": "<p>Le nosoi fredonne une chanson captivante : <em>le Seigneur dort en bas, vous n'êtes que ses rêves, et quand le Seigneur se réveillera, vous connaîtrez la fin des mondes !</em>. Chaque créature vivante ou morte-vivante dans une @Template[emanation|distance:60]{émanation de 18 mètres} doit tenter un jet de @Check[will|dc:18].</p>\n<p>L'effet dure 1 round mais si le nosoi utilise de nouveau ce pouvoir sans s'interrompre au cours des rounds suivants, la durée est prolongée à chaque fois de 1 round pour les créatures affectées. Une créature qui réussit un jet de sauvegarde est temporairement immunisée pendant 24 heures. Bien qu'il s'agisse d'un effet mental, ce pouvoir affecte les morts-vivants dénués d'intelligence. Les psychopompes sont immunisés contre cet effet.</p>\n<hr />\n<p><strong>Échec</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée}.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec et la créature doit utiliser chacune de ses actions pour se rapprocher du nosoi aussi rapidement que possible tout en évitant tout danger évident. Si une créature @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinée} est adjacente au nosoi, elle reste immobile et n'agit pas. La fascination se termine si la cible est attaquée.</p>"
+                },
+                "mj6SWij6O5cLmBul": {
+                    "name": "Perception de la vie 18 m"
+                },
+                "qarlOKy2gtbDmhfN": {
+                    "name": "Frappe corruptrice",
+                    "description": "<p>La Frappe d'un nosoi inflige @Damage[1d6[void]]{1d6 dégâts de vide} à toutes les créatures vivantes. Une créature qui a été touchée avec un coup critique par un nosoi corrompu doit tenter un jet de @Check[fortitude|dc:18] ou être @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 2} sur un échec critique) alors que de la pourriture s'incruste et s'étale dans les chairs.</p>"
+                }
+            }
+        },
+        "Undead Brain Collector": {
+            "name": "Collecteur de cerveaux mort-vivant",
+            "hpdetails": "Guérison du vide",
+            "languages": "télépathie 30 mètres",
+            "saves": "Bonus de statut de +1 aux jets de sauvegarde contre la magie",
+            "items": {
+                "2hOUtgCM9lj7z4TB": {
+                    "name": "Mâchoires"
+                },
+                "CDTtHeFOvz7H1Jqo": {
+                    "name": "Filament céphalique",
+                    "description": "<p>Le collecteur de cerveaux mort-vivant expulse un enchevêtrement d'ectoplasme de ses boursouflures cérébrales éclatées. Ces filaments ectoplasmiques s'attaquent à toutes les cibles vivantes dans un rayon de 9 mètres. Les cibles dans cette zone doivent tenter un jet de @Check[will|dc:25].</p>\n<p>Après que le collecteur de cerveaux mort-vivant ait utilisé cette capacité, sept cerveaux ectoplasmiques brillent et scintillent à l'endroit où se trouvaient ses boursouflures cérébrales. Il ne peut plus utiliser Filament céphalique tant que les sept cerveaux fantômes n'ont pas été Absorbés.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature subit @Damage[4d6[mental]]{4d6 dégâts mentaux}.</p>\n<p><strong>Échec</strong> La créature subit @Damage[8d6[mental]]{8d6 dégâts mentaux}.</p>\n<p><strong>Échec critique</strong> La créature subit @Damage[8d6[mental]]{8d6 dégâts mentaux} et devient @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuse}.</p>"
+                },
+                "MMSZxMrXIdeCFlFq": {
+                    "name": "Toxine pourrissante",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:25|basic]</p>\n<p><strong>Durée maximale</strong> 6 rounds</p>\n<hr />\n<p><strong>Stade 1</strong> @Damage[1d6[void]]{1d6 dégâts de vide} et @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 1} (1 round)</p>\n<p><strong>Stade 2</strong> @Damage[1d6[void]]{2d6 dégâts de vide}, Stupéfié 1, et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} (1 round)</p>\n<p><strong>Stade 3</strong> @Damage[2d6[void]]{2d6 dégâts de vide}, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié 2}, et Ralenti 1 (1 round)</p>"
+                },
+                "SqGN2C6WwW664mJx": {
+                    "name": "Absorber le cerveau ectoplasmique",
+                    "description": "<p><strong>Déclencheur</strong> Le collecteur de cerveaux mort-vivant possède au moins 1 cerveau ectoplasmique après avoir utilisé Filament céphalique.</p>\n<hr />\n<p><strong>Effet</strong> Le collecteur de cerveaux mort-vivant absorbe [[/r 1d4 #Cerveau ectoplasmique]]{1d4} de ses cerveaux ectoplasmiques, obtenant [[/r 1d8 #Points de vie temporaires]]{1d8 Points de vie temporaires} à chaque Cerveau ectoplasmique absorbé.</p>"
+                },
+                "wIfegH9lKXPcfiA2": {
+                    "name": "Griffes"
+                }
+            }
+        },
+        "Lured to Ashes": {
+            "name": "Attiré dans les cendres",
+            "desc (hazard)": "<p>La scène illusoire d'un bureau meublé recouvre l'apparence réelle de la pièce. Elle vacille et s'estompe, révélant une chambre brûlée et calcinée. Un instant plus tard, les cris des victimes brûlées emplissent la pièce, et des bras squelettiques enflammés sortent des cendres et des murs carbonisés pour gratter et griffer.</p>",
+            "disable": "<p>Test d'@Check[intimidation|dc:26|name:Faire taire les fantômes|traits:action:coerce] pour ordonner aux fantômes qui hantent cette chambre de se taire ou de @Check[religion|dc:23|name:Exorciser la hantise] pour exorciser la hantise</p>",
+            "reset": "<p>8 heures ; Détruire les oschevêtrés dans la zone E3 détruit cette hantise pour toujours.</p>",
+            "routine": "<p>1 Action : si il n'y a plus de cible dans la zone B18 lorsque la hantise prend son tour, elle ne peut utiliser sa réaction Attirer pour essayer de ramener ses victimes à proximité à l'intérieur. La hantise manifeste plusieurs bras squelettiques qui sortent du sol délabré ou du mur portant les stigmates de brulûres pour essayer de griffer les créatures dans la zone B8. Ces créatures doivent tenter un jet de @Check[reflex|dc:22|name:Attiré dans les cendres brûlantes|traits:damaging-effect,fire,necromancy,occult] (les créatures assises dans le sofa subissent une pénalité de circonstances de -2 au jet de sauvegarde).</p>\n<hr />\n<p><strong>Succès critique</strong> La créature ne subit aucun dégât.</p>\n<p><strong>Succès</strong> La créature subit @Damage[1d8[fire]]{1d8 dégâts de feu}.</p>\n<p><strong>Échec</strong> La créature subit @Damage[2d8[fire]]{2d8 dégâts de feu} et obtient une faiblesse 5 contre le feu. Cette faiblesse persiste jusqu'à ce que la créature soit totalement guérie.</p>\n<p><strong>Échec critique</strong> Comme en cas d'échec, mais la créature subit @Damage[4d8[fire]]{4d8 dégâts de feu} et une faiblesse 10 contre le feu.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "tcBafn7uVyBovL1F": {
+                    "name": "Attirer",
+                    "description": "<p><strong>Déclencheur</strong> Une créature se déplace de plus de 1,50 mètre dans la pièce.</p>\n<hr />\n<p><strong>Effet</strong> Toutes les créatures dans la zone B18 et toutes les créatures à 3 mètres d'une porte ouverte ou d'une fenêtre adjacente à la zone B18 entendent une voix captivante les invitant à entrer dans la pièce pour discuter d'un futur déménagement vers le centre du Chéliax.</p>\n<p>Chaque créature dans la zone d'effet doit tenter un jet de @Check[will|dc:22|name:Attirer dans les cendres] (les créatures en dehors de la zone B18 obtiennent un bonus de circonstances de +2 à ce jet). En cas d'échec, la créature est contrainte de se déplacer dans la zone B18 et de s'asseoir dans le sofa.</p>\n<p>Les créatures qui ont réussi leur jet de sauvegarde ne sont pas contraintes et voient la zone comme elle est réellement : une pièce en ruine. Puis la hantise lance l'initiative.</p>"
+                }
+            }
+        },
+        "Mouth of Tchekuth": {
+            "name": "Bouche de Tchekuth",
+            "desc (hazard)": "<p>Le gouffre en dessous se déplace et ondule, se transformant en une vaste bouche béante remplie d'innombrables crocs acérés. Une langue râpeuse et froncée jaillit des profondeurs goulues et nauséabondes pour fouetter et goûter. Deux mots jaillissent de l'immense gorge : \"Iö Tchekuth !\"</p>",
+            "disable": "<p>Test d'@Check[occultism|dc:28|name:Exorciser le fantasme] ou de @Check[religion|dc:28|name:Exorciser le fantasme] (pour exorciser ce fantasme)</p>",
+            "reset": "<p>La hantise se réinitialise après 24 heures et est détruite de façon permanente si le fantôme de Ioseff rejoint le repos éternel.</p>",
+            "items": {
+                "fQ7ZhBvjw23IrtUN": {
+                    "name": "Langue goûlue",
+                    "description": "<p><strong>Déclencheur</strong> Une créature traverse le pont au-dessus du gouffre</p>\n<hr />\n<p><strong>Effet</strong> Une grande mâchoire garnie de dents apparaît sous le gouffre, avec une langue râpeuse qui sort de la bouche et tente d'attraper la créature déclencheuse. Cette dernière doit tenter un jet de @Check[will|dc:24].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature se rend compte que la hantise est un fantasme et qu'il ne peut pas réellement faire du mal et est totalement sans armes.</p>\n<p><strong>Succès</strong> La créature évite de justesse la langue râpeuse mais tombe du pont et subit dès lors 10 dégâts de chute (la créature peut tenter de Se raccrocher in extremis avec un jet de @Check[reflex|dc:24|name:Se raccrocher in extremis|traits:damaging-effect]).</p>\n<p><strong>Échec</strong> Pendant un bref instant, la créature sent l'horrible langue râpeuse qui s'enroule autour d'elle, volant quelques souvenirs. La créature devient @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1} pendant 24 heures. Puis la créature tombe (comme en cas de succès ci-dessus).</p>\n<p><strong>Échec critique</strong> La créature sent la langue s'enrouler autour d'elle et fait l'expérience de la terrible sensation d'être tirée vers le bas dans une chute qui dure pendant ce qui semble être des jours, mais qui en fait ne dure qu'un instant. La créature devient @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 2} pendant 24 heures, pendant lesquelles elle ne même pas se souvenir de son propre nom. La créature augmente également ses points de malévolence de 1 et puis tombe (comme en cas de succès ci-dessous).</p>"
+                }
+            }
+        },
+        "Ixirizmid": {
+            "name": "Ixirizmid",
+            "DeceptionVariants": {
+                "0": {
+                    "label": "pour Se faire passer pour"
+                }
+            },
+            "items": {
+                "4a4AwC6MVxafM5dq": {
+                    "name": "Perception des vibrations 9 mètres (précis)"
+                },
+                "FeDt6jCafBdwS5tk": {
+                    "name": "Éviscération",
+                    "description": "<p>Ixirizmid pratique une opération rapide et douloureuse sur une créature qu'il a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} ou qui est autrement @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée}, en tentant un jet de @Check[medicine|defense:fortitude] contre le DD de Vigueur de la cible. Quel que soit le résultat, la cible est alors temporairement immunisée à Éviscération pendant 24 heures.</p>\n<hr />\n<p><strong>Succès critique</strong> La cible subit @Damage[8d6[slashing]]{8d6 dégâts tranchants}, est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round et devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1}, ou @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaiblie 1} ou @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1} (au choix d'Ixirizmid) pendant 24 heures.</p>\n<p><strong>Succès</strong> La cible subit @Damage[5d6[slashing]]{5d6 dégâts tranchants} et est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round à cause de la douleur.</p>\n<p><strong>Échec</strong> La cible subit @Damage[3d6[slashing]]{3d6 dégâts tranchants}.</p>\n<p><strong>Échec critique</strong> La cible ne subit aucun dégât.</p>"
+                },
+                "G0gVWOYLReMpFQrP": {
+                    "name": "Griffe"
+                },
+                "OpIusm2cr2cYc7x5": {
+                    "name": "Déguisements astucieux",
+                    "description": "<p>Ixirizmid peut utiliser la Duperie pour @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Se faire passer pour} n'importe quelle créature humanoïde de taille Moyenne, quoique créer ce genre de déguisement lui prendra 1 heure. Avec cette capacité, il peut Se faire passer pour un individu spécifique.</p>"
+                },
+                "m3a767DfQxokefnk": {
+                    "name": "Ne respire pas",
+                    "description": "<p>Ixirizmid ne respire pas et est immunisé contre les effets nécessitant de respirer (comme un poison inhalé).</p>"
+                },
+                "uffOMQdKncfhcXF7": {
+                    "description": "<p>Ixirizmid inflige 1d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                }
+            }
+        },
+        "Carrion Vortex": {
+            "name": "Vortex de charogne",
+            "desc (hazard)": "<p>Les innombrables os et plumes sur le sol se soulèvent pour former dans les airs une nuée de squelettes d'oiseaux partiellement reconstitués, dont le chant funeste remplit la zone aussi surement que le font leur bec et leurs serres.</p>",
+            "disable": "<p>Test de @Check[nature|dc:23|name:Convaincre le vortex de charogne qu'il n'y a pas de menace] pour convaincre le vortex de charogne que les PJ n'ont aucune intention belliqueuse ou test de @Check[religion|dc:20|name:Exorciser la hantise] pour exorciser la hantise.</p>",
+            "reset": "<p>24 heures ; vaincre les psychopompes pervertis dans les zones D5 et E4 détruit cette hantise.</p>",
+            "routine": "<p>(1 action ; évocation, occulte) Le vortex tourbillonnant de becs et d'os passe son action dans toute la zone D2, griffant et picorant toute créature dans la zone. Toutes les créatures dans la zone D2 subissent @Damage[(2d8+9)[slashing]]{2d8+9 dégâts tranchants} (@Check[reflex|dc:24|basic|traits:evocation,occult])</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "4adbMachVzb84sGG": {
+                    "name": "Chant funeste de psychopompes",
+                    "description": "<p><strong>Déclencheur</strong> Trois créatures ou plus pénètrent dans la zone D2 ou quelqu'un tente de rassembler ou de détruire les restes des oiseaux sur le sol</p>\n<hr />\n<p><strong>Effet</strong> Le vortex de charogne remplit la zone D2 avec des cris assourdissants tels des millier d'engoulevents, mais cette cacophonie ne peut pas être entendue au-delà de la zone D2. Les créatures dans la zone doivent tenter un jet de @Check[will|dc:21]. (Les fidèles de Pharasma ou ceux qui ont des liens étroits avec les psychopompes obtiennent un bonus de circonstances de +4 à ce jet de sauvegarde). Puis la hantise lance l'initiative.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature comprend que le chant funeste est également un avertissement et une requête désespérée d'absolution. La créature peut ressentir la présence des psychopompes pervertis dans les zones D5 et E4 comme un effet du sort <em>Localisation</em> pendant 24 heures. Pendant la durée de cet effet, le personnage obtient un bonus de statut de +1 à ses jets d'attaques, ses jets de sauvegarde et ses tests de compétences contre les psychopompes pervertis dans ces zones.</p>\n<p><strong>Succès</strong> Comme en cas de succès, mais l'effet de <em>localisation</em> ne dure que 10 minutes. La créature subit @Damage[2d8[mental]]{2d8 dégâts mentaux} à cause de sentiments de tristesse et de désespoir.</p>\n<p><strong>Échec</strong> La créature subit @Damage[4d8[mental]]{4d8 dégâts mentaux} à cause de sentiments de tristesse et de désespoir.</p>\n<p><strong>Échec critique</strong> La créature subit @Damage[6d8[mental]]{6d8 dégâts mentaux} à cause de sentiments de tristesse et de désespoir et, tant que la hantise reste active et qu'elle reste dans la zone D2, le personnage est @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralenti 1} alors qu'il passe une action à sangloter sans pouvoir se décider sur une action à chaque round.</p>"
+                }
+            }
+        },
+        "Xarwin Caul": {
+            "name": "Chrysalide de Xarwin",
+            "desc (hazard)": "<p>La chrysalide est composée d'une fine couche de toile transparente et humide qui s'accroche aux surfaces extérieures du manoir. La matière est glissante et anormalement froide au toucher et elle s'accroche et s'étire lorsqu'on retire un doigt ou un autre objet utilisé pour le toucher.</p>",
+            "disable": "<p>Test de @Check[occultism|dc:32|name:Exorciser la chrysalide] (maître) ou test de @Check[religion|dc:34|name:Exorciser la chrysalide] (expert) pour exorciser la chrysalide</p>",
+            "reset": "<p>1 semaine ; donner le repos éternel au fantôme de Xarwin détruit la hantise de façon permanente</p>",
+            "stealth": "Maître",
+            "items": {
+                "gC6DuEJGIr039QO0": {
+                    "name": "Explosion de haine",
+                    "description": "<p><strong>Déclencheur</strong> Une créature ouvre une porte ou une fenêtre dans le Manoir Xarwin ou une créature ou un objet passe à travers la chrysalide en venant de l'extérieur du manoir.</p>\n<hr />\n<p>La chrysalide éclate immédiatement comme une bulle huileuse, disparaissant en un instant dans une fumée nauséabonde. Une vague de murmures se répand dans la zone et toutes les créatures intelligentes éprouvent une soudaine sensation de haine envers les oiseaux, l'espace d'un battement de cœur. Toutes les créatures aviaires dans une @Template[emanation|distance:300]{émanation de 90 mètres} subissent @Damage[15d6[mental]]{15d6 dégâts mentaux} (@Check[fortitude|dc:33|basic|name:Chrysalide de Xarwin]).</p>"
+                }
+            }
+        },
+        "Architect and Hunter": {
+            "name": "L'architecte et le chasseur",
+            "desc (hazard)": "<p>Deux adolescents fantômes, les jumeaux Xarwin, poussent des cris de douleur lorsque leur cerveau est replacé dans leur tête. Comme si leur traumatisme s'inversait, la douleur initiale s'estompe et ils expriment le désir de jouer...</p>",
+            "disable": "<p>Test de @Check[performance|dc:21|name:Distraire la hantise] (qualifié) pour distraire la hantise et l'amuser jusqu'à ce qu'elle se calme ou test de @Check[religion|dc:25|name:Exorciser la hantise] (qualifié) pour exorciser la hantise.</p>",
+            "reset": "<p>La hantise se réinitialise automatiquement 1 heure après avoir été vaincue ou lorsqu'il ne reste plus de créatures vivantes dans la zone pour jouer avec. Retirer les cerveaux de Marney et Mira de la statue du collectionneur de cerveaux dans la zone E9 détruit la hantise.</p>",
+            "routine": "<p>(2 actions) L'architecte (Mira Xarwin) utilise Mémoires enchaînées pour faire surgir une étrange cage ectoplasmique solide, semblable à une maison, autour d'une cible déterminée au hasard. Cette maison ressemble étrangement à celle dans laquelle la cible a grandi. Le chasseur (Marney Xarwin) tente alors une Frappe de tir du chasseur sur cette cible.</p>",
+            "stealth": "<p>Expert</p>",
+            "items": {
+                "32fQ0dIndWnIstKW": {
+                    "name": "Mémoires enchaînées",
+                    "description": "<p>La cible est convaincue qu'une version miniature de sa maison d'enfance s'est construite autour d'elle, l'emprisonnant sur place. La cible doit tenter un jet de @Check[will|dc:24]</p>\n<hr />\n<p><strong>Succès critique</strong> La cible n'est pas affectée et est temporairement immunisée à Mémoires enchaînées pendant 24 heures.</p>\n<p><strong>Succès</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de son prochain tour.</p>\n<p><strong>Échec</strong> La cible est Prise au dépourvu et @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisée} jusqu'à la fin de son prochain tour.</p>\n<p><strong>Échec critique</strong> La cible est @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravée} pendant 1 minute ou jusqu'à ce qu'elle parvienne à S'échapper.</p>"
+                },
+                "oK4LvqyDL68kzmhe": {
+                    "name": "Céphalée",
+                    "description": "<p><strong>Déclencheur</strong> Un round s'écoule après qu'une créature vivante ait ouvert la porte de l'une des chambres des enfants.</p>\n<hr />\n<p><strong>Effet</strong> Les deux portes des chambres s'ouvrent violemment et les PJ ont des visions des jumeaux dont le sommet de la tête est tranché par des lames invisibles, suivies de la vision macabre de cerveaux placés dans les crânes vides à l'intérieur. Toutes les créatures dans les zones C14a, C14b ou dans le corridor qui conduit aux chambres doivent tenter un jet de @Check[will|dc:24]. Puis la hantise lance l'initiative.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1} de douleur.</p>\n<p><strong>Échec</strong> La créature subit @Damage[(2d8+9)[mental]]{2d8+9 dégâts mentaux} et augmente sa valeur de malévolence de 1.</p>\n<p><strong>Échec critique</strong> La créature subit @Damage[(4d8+9)[mental]]{4d8+9 dégâts mentaux}, est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdie 1} de douleur et augmente sa valeur de malévolence de 2.</p>"
+                },
+                "oxpej8ulU4Gn399c": {
+                    "name": "Tir du chasseur",
+                    "description": "<p>La cible s'imagine qu'elle est en train de saigner à mort</p>"
+                }
+            }
+        },
+        "Esobok Ghoul": {
+            "name": "Goule Ésobok",
+            "items": {
+                "FdSJMVwpVdTAipaD": {
+                    "name": "Mâchoires"
+                },
+                "GqSUGGDq0PMDoaK4": {
+                    "name": "Perception de la vie 18 m"
+                },
+                "IS7sAzIDvMgfptk8": {
+                    "name": "Dévorer la chair",
+                    "description": "<p><strong>Conditions</strong> La goule Ésobok est adjacente au cadavre d'une créature morte depuis moins d'une heure.</p>\n<hr />\n<p><strong>Effet</strong> La goule Ésobok dévore un morceau de chair du cadavre et récupère @Damage[3d6[healing]]{3d6 Points de vie}.</p>\n<p>Elle récupère des Points de vie une seule fois par cadavre.</p>"
+                },
+                "PVvyMGCape7oiInX": {
+                    "name": "Invisibilité (soi uniquement)"
+                },
+                "ewbuoRukTnN5HwAa": {
+                    "name": "Fièvre des goules",
+                    "description": "<p><strong>Jet de sauvegarde</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Stade 1</strong> Porteur sans symptômes (1 jour)</p>\n<p><strong>Stade 2</strong> @Damage[2d6[void]]{2d6 dégâts de vide} et le porteur récupère seulement la moitié des Points de vie conférés par les soins (1 jour)</p>\n<p><strong>Stade 3</strong> Comme au stade 2 (1 jour)</p>\n<p><strong>Stade 4</strong> @Damage[2d6[void]]{2d6 dégâts de vide} et les soins ne fonctionnent plus sur le porteur (1 jour) </p>\n<p><strong>Stade 5</strong> Comme au stade 4 (1 jour)</p>\n<p><strong>Stade 6</strong> La créature meurt et se relève sous forme de @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Goule} aux prochains coups de minuit.</p>"
+                },
+                "gNWihCAV5FquZrvT": {
+                    "name": "Sorts innés divins"
+                },
+                "h2Pe9lhvR2cmDEIG": {
+                    "name": "Griffe"
+                },
+                "i02LjkO2d05n1YxC": {
+                    "name": "Paralysie",
+                    "description": "<p>Toute créature vivante autre qu'un elfe touchée par l'attaque d'une goule doit réussir un jet de @Check[fortitude|dc:22] ou devenir @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysée}. Elle peut tenter un nouveau jet de sauvegarde à la fin de chacun de ses tours. Le DD diminue cumulativement de 1 à chaque tentative.</p>"
+                },
+                "iFqu2IfRpOfYJiI2": {
+                    "name": "Frappe corruptrice",
+                    "description": "<p>La Frappe d'une goule Ésobok inflige @Damage[1d6[void]]{1d6 dégâts de vide} aux créatures vivantes. Une créature qui a été touchée par un coup critique d'une goule ésobok doit tenter un jet de @Check[fortitude|dc:18] ou être @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drainée 2} sur un échec critique) alors que de la pourriture s'incruste et s'étale dans les chairs.</p>"
+                },
+                "iT8h3OAVXFRozXkw": {
+                    "name": "Bond",
+                    "description": "<p>La goule Ésobok Marche rapidement et effectue une Frappe à la fin de son déplacement. Si le revenant débute son action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Caché}, il reste dissimulé jusqu'à ce qu'il ait effectué la Frappe de ce pouvoir.</p>"
+                }
+            }
+        },
+        "Xarwin's Manifestation": {
+            "name": "Manifestation de Xarwin",
+            "saves": "Bonus de statut de +1 aux jets de sauvegarde contre la vitalité",
+            "items": {
+                "0AEJAJ3AgrV5j4kM": {
+                    "name": "Lié au manoir",
+                    "description": "<p>La manifestation ne peut pas quitter le manoir de Xarwin ou les caves situées dessous</p>"
+                },
+                "3f4ySQfrmtsGbvjo": {
+                    "name": "Reculer",
+                    "description": "<p>Si un personnage présente l'anneau de Fulvia sous le nez de Ioseff en tant qu'action avec le trait de manipulation, Ioseff doit tenter un jet de @Check[will|dc:26]. Après ce jet de sauvegarde il est immunisé pendant 24 heures.</p>\n<hr />\n<p><strong>Succès critique</strong> Ioseff n'est pas affecté.</p>\n<p><strong>Succès</strong> Ioseff subit @Damage[4d6[mental]]{4d6 dégâts mentaux} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 1}.</p>\n<p><strong>Échec</strong> Ioseff subit @Damage[8d6[mental]]{8d6 dégâts mentaux} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 2}.</p>\n<p><strong>Échec critique</strong> Ioseff subit @Damage[8d6[mental]]{8d6 dégâts mentaux} est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 2}, et est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 3}.</p>"
+                },
+                "AOPfqLyhf0Xvpueq": {
+                    "name": "Bonus de +1 à tous les contre la vitalité"
+                },
+                "CAI4Mth4W18hZyag": {
+                    "name": "Porteur fantomatique"
+                },
+                "cWM3q0yWZ3nV2UKw": {
+                    "name": "Drain de mémoire",
+                    "description": "<p>Dès que la manifestation inflige des dégâts à une créature vivante avec une Frappe de main spectralce, la manifestation obtient 5 Points de vie temporaires et la cible doit réussir un jet de @Check[fortitude|dc:23|basic] ou devenir @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1}. A chaque fois que la manifestation inflige des dégâts, l'état de Stupéfiée de celle-ci augmente de 1 lorsqu'elle obtient un échec sur son jet de sauvegarde, jusqu'à un maximum de Stupéfié 4.</p>"
+                },
+                "erB7z23ENjwroBai": {
+                    "name": "Perception de la vie 18 m"
+                },
+                "yB0f6FaPo2u5bqwy": {
+                    "name": "Toucher du fantôme",
+                    "description": "<p>Lorsque la manifestation obtient un coup critique avec sa Frappe de main spectrale, la valeur de malévolence de la créature augmente de 1.</p>"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

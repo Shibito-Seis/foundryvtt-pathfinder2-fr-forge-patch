@@ -1,0 +1,221 @@
+{
+    "label": "Macros des actions",
+    "entries": {
+        "Athletics: Arcane Slam": {
+            "name": "Athlétisme : Plaquage arcanique (Athletics: Arcane Slam)"
+        },
+        "Perform - Singing: Performance": {
+            "name": "Se produire - chanter : Représentation (Perform - Singing: Performance)"
+        },
+        "Bon Mot: Diplomacy": {
+            "name": "Bon mot : Diplomatie (Bon Mot: Diplomacy)"
+        },
+        "Sneak: Stealth": {
+            "name": "Être furtif : Discrétion (Sneak: Stealth)"
+        },
+        "Treat Poison: Medicine": {
+            "name": "Soigner un empoisonnement : Médecine (Treat Poison: Medicine)"
+        },
+        "Feint: Deception": {
+            "name": "Feinter : Duperie (Feint: Deception)"
+        },
+        "Force Open: Athletics": {
+            "name": "Ouvrir de force : Athlétisme (Force Open: Athletics)"
+        },
+        "Create a Diversion - Distracting Words: Deception": {
+            "name": "Faire diversion - Paroles de diversion : Duperie (Create a Diversion - Distracting Words: Deception)"
+        },
+        "Subsist: Survival": {
+            "name": "Subsister : Survie (Subsist: Survival)"
+        },
+        "Maneuver in Flight: Acrobatics": {
+            "name": "Manoeuvre en vol : Acrobaties (Maneuver in Flight: Acrobatics)"
+        },
+        "Pick a Lock: Thievery": {
+            "name": "Crocheter une serrure : Vol (Pick a Lock: Thievery)"
+        },
+        "Demoralize: Intimidation": {
+            "name": "Démoraliser : Intimidation (Demoralize: Intimidation)"
+        },
+        "Perform - Play percussion instrument: Performance": {
+            "name": "Se produire - jouer d'un instrument à percussions : Représentation (Perform - Play percussion instrument: Performance)"
+        },
+        "Tumble Through: Acrobatics": {
+            "name": "Déplacement acrobatique : Acrobaties (Tumble Through: Acrobatics)"
+        },
+        "High Jump: Athletics": {
+            "name": "Saut en hauteur : Athlétisme (High Jump: Athletics)"
+        },
+        "Make an Impression: Diplomacy": {
+            "name": "Faire bonne impression : Diplomatie (Make an Impression: Diplomacy)"
+        },
+        "Command an Animal: Nature": {
+            "name": "Diriger un animal : Nature (Command an Animal: Nature)"
+        },
+        "Create a Diversion - Gesture: Deception": {
+            "name": "Faire diversion - Geste : Duperie (Create a Diversion - Gesture: Deception)"
+        },
+        "Shove: Athletics": {
+            "name": "Pousser : Athlétisme (Shove: Athletics)"
+        },
+        "Escape: Athletics": {
+            "name": "S'échapper : Athlétisme (Escape: Athletics)"
+        },
+        "Perform - Play wind instrument: Performance": {
+            "name": "Se produire - jouer d'un instrument à vent : Représentation (Perform - Play wind instrument: Performance)"
+        },
+        "Seek: Perception": {
+            "name": "Chercher : Perception (Seek: Perception)"
+        },
+        "Raise a Shield": {
+            "name": "Lever un bouclier (Raise a Shield)"
+        },
+        "Escape": {
+            "name": "S'échapper (Escape)"
+        },
+        "Palm an Object: Thievery": {
+            "name": "Escamoter un objet : Vol (Palm an Object: Thievery)"
+        },
+        "Lie: Deception": {
+            "name": "Mentir : Duperie (Lie: Deception)"
+        },
+        "Track: Survival": {
+            "name": "Pister : Survie (Track: Survival)"
+        },
+        "Administer First Aid - Stabilize: Medicine": {
+            "name": "Prodiguer les premiers soins - Stabiliser : Médecine (Administer First Aid - Stabilize: Medicine)"
+        },
+        "Craft: Crafting": {
+            "name": "Fabriquer : Artisanat (Craft: Crafting)"
+        },
+        "Squeeze: Acrobatics": {
+            "name": "Se serrer : Acrobaties (Squeeze: Acrobatics)"
+        },
+        "Decipher Writing: Arcana": {
+            "name": "Déchiffrer un texte : Arcanes (Decipher Writing: Arcana)"
+        },
+        "Perform - Play string instrument: Performance": {
+            "name": "Se produire - jouer d'un instrument à cordes : Représentation (Perform - Play string instrument: Performance)"
+        },
+        "Conceal an Object: Stealth": {
+            "name": "Dissimuler un objet : Vol (Conceal an Object: Stealth)"
+        },
+        "Climb: Athletics": {
+            "name": "Escalader : Athlétisme (Climb: Athletics)"
+        },
+        "Hide: Stealth": {
+            "name": "Se cacher : Discrétion (Hide: Stealth)"
+        },
+        "Reposition: Athletics": {
+            "name": "Repositionner : Athlétisme (Reposition: Athletics)"
+        },
+        "Perform - Comedy: Performance": {
+            "name": "Se produire - jouer la comédie : Représentation (Perform - Comedy: Performance)"
+        },
+        "Decipher Writing: Occultism": {
+            "name": "Déchiffrer un texte : Occultisme (Decipher Writing: Occultism)"
+        },
+        "Sense Motive: Perception": {
+            "name": "Deviner les intentions : Perception (Sense Motive: Perception)"
+        },
+        "Steel Your Resolve": {
+            "name": "Puiser dans votre résolution (Steel Your Resolve)"
+        },
+        "Sense Direction: Survival": {
+            "name": "S'orienter : Survie (Sense Direction: Survival)"
+        },
+        "Coerce: Intimidation": {
+            "name": "Contraindre : Intimidation (Coerce: Intimidation)"
+        },
+        "Create a Diversion - Trick: Deception": {
+            "name": "Faire diversion - Astuce: Duperie (Create a Diversion - Trick: Deception)"
+        },
+        "Disable Device: Thievery": {
+            "name": "Désamorcer un dispositif : Vol (Disable Device: Thievery)"
+        },
+        "Perform - Dance: Performance": {
+            "name": "Se produire - danser : Représentation (Perform - Dance: Performance)"
+        },
+        "Perform - Oratory: Performance": {
+            "name": "Se produire - Art oratoire : Représentation (Perform - Oratory: Performance)"
+        },
+        "Grapple: Athletics": {
+            "name": "Saisir : Athlétisme (Grapple: Athletics)"
+        },
+        "Administer First Aid - Stop Bleeding: Medicine": {
+            "name": "Prodiguer les premiers soins - Arrêter le saignement : Médecine (Administer First Aid - Stop Bleeding: Medicine)"
+        },
+        "Perform - Play keyboard instrument: Performance": {
+            "name": "Se produire - jouer d'un instrument à clavier : Représentation (Perform - Play keyboard instrument: Performance)"
+        },
+        "Repair: Crafting": {
+            "name": "Réparer : Artisanat (Repair: Crafting)"
+        },
+        "Subsist: Society": {
+            "name": "Subsister : Société (Subsist: Society)"
+        },
+        "Create Forgery: Society": {
+            "name": "Contrefaire : Société (Create Forgery: Society)"
+        },
+        "Whirling Throw: Athletics": {
+            "name": "Projection en rotation : Athlétisme (Whirling Throw: Athletics)"
+        },
+        "Decipher Writing: Society": {
+            "name": "Déchiffrer un texte : Société (Decipher Writing: Society)"
+        },
+        "Swim: Athletics": {
+            "name": "Nager : Athlétisme (Swim: Athletics)"
+        },
+        "Steal: Thievery": {
+            "name": "Voler : Vol (Steal: Thievery)"
+        },
+        "Disarm: Athletics": {
+            "name": "Désarmer : Athlétisme (Disarm: Athletics)"
+        },
+        "Gather Information: Diplomacy": {
+            "name": "Recueillir des informations : Diplomatie (Gather Information: Diplomacy)"
+        },
+        "Impersonate: Deception": {
+            "name": "Se faire passer pour : Duperie (Impersonate: Deception)"
+        },
+        "Escape: Unarmed Attack": {
+            "name": "S'échapper : Attaque à mains nues (Escape: Unarmed Attack)"
+        },
+        "Long Jump: Athletics": {
+            "name": "Saut en longueur : Athlétisme (Long Jump: Athletics)"
+        },
+        "Trip: Athletics": {
+            "name": "Croc-en-jambe : Athlétisme (Trip: Athletics)"
+        },
+        "Perform - Acting: Performance": {
+            "name": "Se produire - Art dramatique : Représentation (Perform - Acting: Performance)"
+        },
+        "Encouraging Words": {
+            "name": "Paroles encourageantes (Encouraging Words)"
+        },
+        "Request: Diplomacy": {
+            "name": "Solliciter : Diplomatie (Request: Diplomacy)"
+        },
+        "Exploration: Avoid Notice": {
+            "name": "Exploration : Échapper aux regards (Exploration: Avoid Notice)"
+        },
+        "Tamper: Crafting": {
+            "name": "Trafiquer : Artisanat (Tamper: Crafting)"
+        },
+        "Decipher Writing: Religion": {
+            "name": "Déchiffrer un texte : Religion (Decipher Writing: Religion)"
+        },
+        "Escape: Acrobatics": {
+            "name": "S'échapper : Acrobaties (Escape: Acrobatics)"
+        },
+        "Treat Disease: Medicine": {
+            "name": "Soigner la maladie : Médecine (Treat Disease: Medicine)"
+        },
+        "Balance: Acrobatics": {
+            "name": "Garder l'équilibre : Acrobaties (Balance: Acrobatics)"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value"
+    }
+}

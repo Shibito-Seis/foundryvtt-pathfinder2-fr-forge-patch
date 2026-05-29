@@ -1,0 +1,189 @@
+{
+    "label": "Capacités des monstres",
+    "entries": {
+        "Poison": {
+            "name": "Poison"
+        },
+        "Telepathy": {
+            "name": "Télépathie (Telepathy)"
+        },
+        "Rend": {
+            "name": "Éventration (Rend)"
+        },
+        "Engulf": {
+            "name": "Engloutissement (Engulf)",
+            "description": "<p>Jet de @Check[reflex|dc:], @Damage[(0)[damageType]]{0 dégât}, [[/act escape dc=0]]{S'échapper}, Rupture [0]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
+        },
+        "Wavesense": {
+            "name": "Perception des ondes (Wavesense)"
+        },
+        "Catch Rock": {
+            "name": "Interception de rochers (Catch Rock)"
+        },
+        "Retributive Strike": {
+            "name": "Frappe punitive (Retributive Strike)"
+        },
+        "Greater Constrict": {
+            "name": "Constriction supérieure (Greater Constrict)",
+            "description": "<p>@Damage[(0)[bludgeoning]]{0 contondant}, @Check[fortitude|dc:|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+        },
+        "Form Up": {
+            "name": "Se reformer (Form Up)"
+        },
+        "+1 Status to All Saves vs. Magic": {
+            "name": "Bonus de statut de +1 aux jets de sauvegarde contre la magie (+1 Status to All Saves vs. Magic)"
+        },
+        "Aquatic Ambush": {
+            "name": "Embuscade aquatique (Aquatic Ambush)"
+        },
+        "Disease": {
+            "name": "Maladie (Disease)"
+        },
+        "Stench": {
+            "name": "Puanteur (Stench)",
+            "description": "<p>0 mètre. @Check[fortitude|dc:|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
+        },
+        "Trample": {
+            "name": "Piétinement (Trample)",
+            "description": "<p>[Taille], [Frappe indiquée], @Check[reflex|dc:|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "Reactive Strike": {
+            "name": "Frappe réactive (Reactive Strike)"
+        },
+        "Constant Spells": {
+            "name": "Sorts constants (Constant Spells)"
+        },
+        "Change Formation": {
+            "name": "Changer de formation (Change Formation)"
+        },
+        "Shield Block": {
+            "name": "Blocage au bouclier (Shield Block)"
+        },
+        "Attack of Opportunity": {
+            "name": "Frappe réactive (Attack of Opportunity)"
+        },
+        "Troop Defenses": {
+            "name": "Défenses des troupes (Troop Defenses)"
+        },
+        "Change Shape": {
+            "name": "Changement de forme (Change Shape)"
+        },
+        "Ferocity": {
+            "name": "Férocité (Ferocity)"
+        },
+        "Improved Grab": {
+            "name": "Agrippement améliorés (Improved Grab)"
+        },
+        "Pull": {
+            "name": "Attirer (Pull)"
+        },
+        "Scent": {
+            "name": "Odorat (Scent)"
+        },
+        "Improved Knockdown": {
+            "name": "Renversement amélioré (Improved Knockdown)"
+        },
+        "At-Will Spells": {
+            "name": "Sorts à volonté (At-Will Spells)"
+        },
+        "Greater Darkvision": {
+            "name": "Vision dans le noir supérieure (Greater Darkvision)"
+        },
+        "Fast Healing": {
+            "name": "Guérison accélérée (Fast Healing)"
+        },
+        "Troop Movement": {
+            "name": "Déplacement des troupes (Troop Movement)"
+        },
+        "Nimble Dodge": {
+            "name": "Esquive agile (Nimble Dodge)",
+            "description": "<p><strong>Déclencheur</strong> Une créature vous cible avec une attaque et vous pouvez voir l'attaquant.</p>\n<p><strong>Conditions</strong> Vous n'êtes pas Surchargé</p>\n<hr />\n<p>Vous esquivez habilement le coup et obtenez un bonus de circonstances de +2 à la CA contre l'attaque déclencheuse.</p>"
+        },
+        "Low-Light Vision": {
+            "name": "Vision nocturne (Low-Light Vision)"
+        },
+        "Improved Push": {
+            "name": "Bousculade améliorée (Improved Push)"
+        },
+        "Throw Rock": {
+            "name": "Projection de rochers (Throw Rock)"
+        },
+        "Thoughtsense": {
+            "name": "Perception des pensées (Thoughtsense)"
+        },
+        "Darkvision": {
+            "name": "Vision dans le noir (Darkvision)"
+        },
+        "Aura": {
+            "name": "Aura"
+        },
+        "All-Around Vision": {
+            "name": "Vision panoramique (All-Around Vision)"
+        },
+        "Sneak Attack": {
+            "name": "Attaque sournoise (Sneak Attack)",
+            "description": "<p>Les Frappes de la créature infligent 1d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+        },
+        "Tremorsense": {
+            "name": "Perception des vibrations (Tremorsense)"
+        },
+        "Knockdown": {
+            "name": "Renversement (Knockdown)"
+        },
+        "Swallow Whole": {
+            "name": "Gober (Swallow Whole)",
+            "description": "<p>[Taille indiquée], @Damage[0[bludgeoning]]{0 contondant}, Rupture [0]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "Lifesense": {
+            "name": "Perception de la vie (Lifesense)"
+        },
+        "Grab": {
+            "name": "Agrippement (Grab)"
+        },
+        "Coven": {
+            "name": "Cercle (Coven)"
+        },
+        "Regeneration": {
+            "name": "Régénération (Regeneration)"
+        },
+        "Constrict": {
+            "name": "Constriction (Constrict)",
+            "description": "<p>@Damage[(0)[bludgeoning]]{0 contondant}, @Check[fortitude|dc:|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "Void Healing": {
+            "name": "Guérison du vide (Void Healing)"
+        },
+        "Buck": {
+            "name": "Désarçonner (Buck)",
+            "description": "<p>@Check[reflex|dc:]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+        },
+        "Frightful Presence": {
+            "name": "Présence terrifiante (Frightful Presence)",
+            "description": "<p>0 mètres. @Check[will|dc:|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+        },
+        "Master's Eye": {
+            "name": "Yeux du maître (Master's Eye)",
+            "description": "<p>Le maître observe le monde à travers les yeux du raktavarna au lieu des siens, en utilisant la Perception et la vision dans le noir du raktavarna. Cela dure jusqu'à la fin du prochain tour du maître, mais le maître peut Maintenir l'activité.</p>\n<p>Cette capacité fonctionne quelle que soit la portée, même sur différents plans d'existence. Si le raktavarna meurt alors que son maître utilise cette capacité, le maître est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 5}.</p>"
+        },
+        "Swarm Mind": {
+            "name": "Esprit de la nuée (Swarm Mind)"
+        },
+        "Power Attack": {
+            "name": "Attaque en puissance (Power Attack)"
+        },
+        "Light Blindness": {
+            "name": "Aveuglé par la lumière (Light Blindness)"
+        },
+        "Push": {
+            "name": "Bousculade (Push)"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

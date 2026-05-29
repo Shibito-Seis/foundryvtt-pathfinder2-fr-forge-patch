@@ -1,0 +1,384 @@
+{
+    "label": "Bénéfices (Animal Companions)",
+    "entries": {
+        "Hermit Krait Support Benefit": {
+            "name": "Avantage de soutien du Serpent-pagure",
+            "description": "<p>Votre Serpent-pagure mord vos ennemis avec ses crocs venimeux. Jusqu'au début de votre prochain tour, vos Frappes qui infligent des dégâts à une créature située dans l'allonge de votre Serpent-pagure lui infligent également @Damage[1d6[persistent,poison]]{1d6 dégâts de poison persistants}. Si votre Serpent-pagure est agile ou sauvage, ces dégâts persistants augmentent à  @Damage[2d6[persistent,poison]]{2d6 dégâts de poison persistants}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.8Ij9WexQ731l2PMW]{Effet : Avantage de soutien du Serpent-pagure}</p>"
+        },
+        "Antelope Support Benefit": {
+            "name": "Avantage de soutien de l'antilope",
+            "description": "<p>L'antilope empale votre ennemi distrait. Jusqu'au début de votre prochain tour, quand vous montez votre antilope, vos Frappes qui touchent une créature qui se trouve dans l'allonge de votre antilope, infligent également @Damage[1d6[persistent,bleed]]{1d6 dégâts de saignement}. Si l'antilope est agile ou sauvage, les dégâts passent à @Damage[2d6[persistent,bleed]|shortLabel].</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.NzqqTKnlVxubDeRv]{Effet : Avantage de soutien de l'antilope}</p>"
+        },
+        "Earth Elemental Support Benefit": {
+            "name": "Avantage de soutien d'élémentaire de terre",
+            "description": "<p>Votre élémentaire de terre fissure la terre sous les pieds de votre ennemi, rendant son déplacement difficile. Jusqu'au début de votre prochain tour, si vous touchez avec une Frappe et infligez des dégâts à une créature dans l'allonge de votre élémentaire de terre, la première case dans laquelle la créature se déplace après avoir subi ces dégâts est un terrain difficile.</p>"
+        },
+        "Pangolin Support Benefit": {
+            "name": "Avantage de soutien du pangolin",
+            "description": "<p>Votre pangolin déchire vos ennemis avec ses plaques dentelées. Jusqu'au début de votre prochain tour, les Frappes qui blessent une créature dans l'allonge de votre pangolin infligent également @Damage[1d6[persistent,bleed]]{1d6 dégâts de saignement}. Si votre pangolin est agile ou sauvage, les dégâts de saignement passent à @Damage[2d6[persistent,bleed]|shortLabel]{2d6}.</p>\np>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.HWOSRHmd8RLeGyY5]{Effet : Avantage de soutien du pangolin}</p>"
+        },
+        "Kangaroo Support Benefit": {
+            "name": "Avantage de soutien du kangourou",
+            "description": "<p>Votre kangourou sautille d'avant en arrière. Jusqu'au début de votre prochain tour, il est considéré comme étant à l'endroit où il se trouve ou à un endroit inoccupé dans les 1,50 mètre que vous choisissez quand il s'agit de déterminer si vous ou votre compagnon prenez en tenaille. Vous pouvez choisir un espace différent pour chacune de vos attaques.</p>"
+        },
+        "Skeletal Mount Support Benefit": {
+            "name": "Avantage de soutien de monture squelettique",
+            "description": "<p>Votre monture squelettique fait peur lorsqu'elle charge. Jusqu'au début de votre prochain tour, si vous chevauchez votre monture squelettique et que vous vous déplacez d'au moins 3 mètres sur l'action précédant votre attaque, toute créature blessée par l'attaque devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1} ou @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2} si l'attaque est un coup critique. C'est un effet d'émotion, de terreur et mental.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.VVpMpJB3hdTNYdNV]{Effet : Avantage de soutien de monture squelettique}</p>"
+        },
+        "Combat Squox Support Benefit": {
+            "name": "Avantage de soutien de l'écurenard",
+            "description": "<p>Votre écurenard travaille avec vous pour fournir une ouverture au combat. Jusqu'au début de votre prochain tour, si votre Frappe blesse une créature dans l'allonge de votre écurenard, votre écurenard peut tenter de [[/act disarm]]{Désarmer} la cible en utilisant Acrobaties au lieu d'Athlétisme.</p>"
+        },
+        "Cragstone Bear Support Benefit": {
+            "name": "Avantage de soutien de l'ours calcifié",
+            "description": "<p>Votre ours calcifié vous défend avec conviction. Jusqu'au début de votre prochain tour, vous obtenez un bonus de circonstances de +1 à la CA si votre ours calcifié vous est adjacent. Si votre ours est agile ou sauvage, le bonus passe à +2.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.33LFnwNIIHChfZz8]{Effet : Avantage de soutien de l'ours calcifié}</p>"
+        },
+        "Zombie Mount Support Benefit": {
+            "name": "Avantage de soutien : Monture zombie",
+            "description": "<p>Votre monture zombie ronge vos ennemis. Jusqu'au début de votre prochain tour, chaque fois que vous portez un coup en chevauchant la monture zombie et que vous touchez une créature dans l'allonge de la monture zombie, celle-ci subit @Damage[1d4[bludgeoning]]{1d4 dégâts contondants} de la part de la monture zombie. Si votre monture zombie est agile ou sauvage, les dégâts contondants passent à @Damage[2d4[bludgeoning]|shortLabel]{2d4}. Cet avantage est basé sur un cheval ou un chameau zombie, mais pourrait infliger des dégâts perforants si votre monture avait des dents pointues.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.3sRHNnPMUY2f4SF3]{Effet : Avantage de soutien : Monture zombie}</p>"
+        },
+        "Yzobu Support Benefit": {
+            "name": "Avantage de soutien de l'Yzobu",
+            "description": "<p>La prochaine créature qui effectue une attaque au corps-à-corps contre l'yzobu ou son cavalier avant le début de votre prochain tour, est submergée par la puanteur de la créature et doit effectuer un jet de @Check[fortitude]. Le DD est égal à votre DD de classe ou de sort, le plus élevé étant retenu. En cas d'échec, l'attaquant subit une pénalité de circonstances de -2 à son jet d'attaque. Cette capacité possède le trait olfactif.</p>"
+        },
+        "Fire Elemental Support Benefit": {
+            "name": "Avantage de soutien de l'élémentaire de feu",
+            "description": "<p>Votre élémentaire de feu brûle vos ennemis et les met en feu. Jusqu'au début de votre prochain tour, vos Frappes qui blessent une créature dans l'allonge de votre élémentaire inflige aussi @Damage[1d6[persistent,fire]]{1d6 dégâts de feu persistants}. Si votre élémentaire de feu est agile ou sauvage, les dégâts de feu persistants passent à @Damage[2d6[persistent,fire]]{2d6 dégâts de feu persistants}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.KAAmj9fT7JPGPzKl]{Effet : Avantage de soutien de l'élémentaire de feu}</p>"
+        },
+        "Zombie Carrion Bird Support Benefit": {
+            "name": "Avantage de soutien : Oiseau charognard zombie",
+            "description": "<p>Le zombie émet une aura de pourriture, faisant suppurer les blessures. Jusqu'au début de votre prochain tour, chaque fois que vous touchez et infligez des dégâts à une créature qui se trouve dans un rayon de 3 mètres de l'oiseau charognard zombie, la créature subit @Damage[1d6[untyped]]{1d6 dégâts supplémentaires} tandis que la blessure s'infecte. Si votre charognard est agile ou sauvage, les dégâts passent à @Damage[2d6[untyped]]{2d6}. Il s'agit d'un effet de maladie et de nécromancie.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.FoDGPqWjs8QRR3qv]{Effet : Avantage de soutien : Oiseau charognard zombie}"
+        },
+        "Ulgrem-Lurann Support Benefit": {
+            "name": "Avantage de soutien de l'ulgrem-Lurann",
+            "description": "<p>L'Ulgrem-Lurann saisit votre ennemi et l'électrocute. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature dans l'allonge de l'Ulgrem-Lurann avec une Frappe, celle-ci subit @Damage[1d4[piercing],1d4[electricity]]{1d4 dégâts perforants et 1d4 dégâts d'électricité} supplémentaires de la part de l'Ulgrem-Lurann. Si l'Ulgrem-Lurann est agile ou sauvage, les dégâts perforants et d'électricité passent chacun à @Damage[2d4[piercing],2d4[electricity]]{2d4}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.axG8U0tIGTXhjA6x]{Effet : Avantage de soutien de l'ulgrem-Lurann}</p>"
+        },
+        "Ape Support Benefit": {
+            "name": "Avantage de soutien du singe",
+            "description": "<p>Votre singe menace vos ennemis avec des grognements menaçants. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à une créature dans l'allonge de votre singe, celle-ci devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.DXhqZ1oa1LxPH0fG]{Effet : Avantage de soutien du singe}</p>"
+        },
+        "Shotalashu Support Benefit": {
+            "name": "Avantage de soutien du shotalashu",
+            "description": "<p>Le shotalashu assaille télépathiquement vos ennemis quand vous en offrez l'opportunité. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature qui se trouve dans l'allonge du shotalashu avec une Frappe, celle-ci subit @Damage[1d6[mental]]{1d6 dégâts mentaux} de la part du shotalashu. Si le shotalashu est agile ou sauvage, les dégâts mentaux passent à@Damage[2d6[mental]|shortLabel]{2d6}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.TNnBontVMih3LYaC]{Effet : Avantage de soutien du shotalashu}</p>"
+        },
+        "Bat Support Benefit": {
+            "name": "Avantage de soutien de la chauve-souris",
+            "description": "<p>Votre chauve-souris vole autour des bras et des visages de vos ennemis, gênant leurs attaques. Jusqu'au début de votre prochain tour, les créatures dans l'allonge de votre chauve-souris que vous blessez avec des frappes subissent une pénalité de circonstances de -1 à leurs jets d'attaque.</p>\np>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.ksT2DrI2r1uZQhz6]{Effet : Avantage de soutien de la chauve-souris}</p>"
+        },
+        "Riding Drake Support Benefit": {
+            "name": "Avantage de soutien du drake de monte",
+            "description": "<p>Votre drake crache du feu au visage de vos adversaires. Jusqu'au début de votre prochain tour, chaque fois que vous faites une Frappe pendant que vous Montez le drake et que vous touchez une créature dans l'allonge du drake, celle-ci subit @Damage[1d4[fire]]{1d4 dégâts de feu} de la part du drake. Si votre drake est agile ou sauvage, les dégâts de feu augmentent à @Damage[2d4[fire]|shortLabel]{2d4}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.5VHKIMzKMw3r2BOa]{Effec:  Avantage de soutien du drake de monte}</p>"
+        },
+        "Griffon Support Benefit": {
+            "name": "Avantage de soutien du griffon",
+            "description": "<p>Votre griffon prend une pose majestueuse, vous inspirant le courage de défier les horreurs qui vous font face. Jusqu'au début de votre prochain tour, votre griffon et vous bénéficiez d'un bonus de circonstances de +2 aux jets de sauvegarde contre les effets d'émotion.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.ixEu5vNQCKPtUbBQ]{Effet : Avantage de soutien du griffon}</p>"
+        },
+        "Ghost Support Benefit": {
+            "name": "Avantage de soutien de fantôme",
+            "description": "<p>Votre fantôme effraie vos ennemis et leur fait peur lorsque vous les attaquez. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à une créature dans l'allonge de votre fantôme, cette dernière devient @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Effrayée 1}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.KfTDGMtgkg8QQd17]{Effet : Avantage de soutien de fantôme}</p>"
+        },
+        "Flying Squirrel Support Benefit": {
+            "name": "Avantage de soutien de l'écureuil volant",
+            "description": "<p>Votre écureuil volant enveloppe vos ennemis dans ses membranes de peau, gênant ainsi leur mouvements. Jusqu'à la fin de votre prochain tour, si votre Frappe touche une créature qui se trouve dans l'allonge de votre écureuil, la cible subit une pénalité de circonstances de 3 mètres à ses déplacement pour un tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.HssfGVFlUB80xBn7]{Effet : Avantage de soutien de l'écureuil volant}</p>"
+        },
+        "Crocodile Support Benefit": {
+            "name": "Avantage de soutien du crocodile",
+            "description": "<p>Votre crocodile serre ses mâchoires sur votre ennemi, refusant de le lâcher. Jusqu'au début de votre prochain tour, si votre Frappe blesse une créature dans l'allonge de votre crocodile, ce dernier peut s'accrocher à cette créature. Pendant qu'il est ainsi attaché, le crocodile peut se déplacer avec la cible à chaque fois que celle-ci se déplace jusqu'à la fin de votre prochain tour. Votre crocodile ne peut s'accrocher qu'à une seule créature de cette façon et il doit relâcher la créature pour faire une Frappe de mâchoire. Si la cible est plus petite que le crocodile, elle subit une pénalité de circonstances de -3 mètres à ses Vitesses et ne peuvent Voler tant que le crocodile est attaché.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.FnJH9CPDngavuhwc]{Effet : Avantage de soutien du crocodile}</p>"
+        },
+        "Giant Rock Tuatara Support Benefit": {
+            "name": "Avantage de soutien du tuatara des roches géant",
+            "description": "<p>Votre tuatara des roches géant déséquilibre vos ennemis lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, vos Frappes qui infligent des dégâts à une créature dans l'allonge de votre tuatara des roches géant rendent la cible @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.bNnxaqaQ1cR6SXnR]{Effet : Avantage de soutien du tuatara des roches géant}</p>"
+        },
+        "Beetle Support Benefit": {
+            "name": "Avantage de soutien du scarabée",
+            "description": "<p>Votre scarabée se déplace en trépignant et percute les ennemis, les déséquilibrant ou les repoussant sur le côté lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, lorsque vous Montez sur votre scarabée, vos Frappes qui infligent des dégâts rendent la cible @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de votre prochain tour ou éloignent la cible à 1,50 mètre du scarabée (c'est un déplacement forcé). La cible choisit l'effet qui se produit.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Jvh1ciiT9JWXILxo]{Effet : Avantage de soutien du scarabée}</p>"
+        },
+        "Oozeform Chair Support Benefit": {
+            "name": "Avantage de soutien du fauteuil de forme de vase",
+            "description": "<p>Un pseudopode s'étend de votre fauteuil, en récupérant un objet laissé non tenu dans un rayon de 4,50 mètres. Si vous n'avez pas une main libre pour recevoir l'objet, le fauteuil le dépose dans votre espace.</p>"
+        },
+        "Terror Bird Support Benefit": {
+            "name": "Avantage de soutien de l'oiseau de terreur",
+            "description": "<p>Votre oiseau de terreur hurle sur vos ennemis lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, vos Frappes qui infligent des dégâts à une créature dans l'allonge de votre oiseau de terreur rendent la cible @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'au début de votre prochain tour.</p>\np>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Vbi6XlP86bndpHs1]{Effet : Avantage de soutien de l'oiseau de terreur}</p>"
+        },
+        "Mole Support Benefit": {
+            "name": "Avantage de soutien de la taupe",
+            "description": "<p>Votre taupe bondit dans le sol et creuse sous vos ennemis, perturbant leur équilibre. Jusqu'à la fin de votre prochain tour, si vous touchez et infligez des dégâts à une créature adjacente à votre taupe, la cible devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à ce qu'elle se déplace hors de sa position actuelle.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.6X2STQsZYQ4pY6BA]{Effet : Avantage de soutien de la taupe}</p>"
+        },
+        "Arboreal Sapling Support Benefit": {
+            "name": "Avantage de soutien du jeune arboréen",
+            "description": "<p>Votre jeune arboréen plante des racines autour de votre ennemi, entravant son mouvement. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à une créature dans l'allonge du jeune arboréen, la première case dans laquelle la créature se déplace après avoir subi ces dégâts est un terrain difficile.</p>"
+        },
+        "Giraffe Support Benefit": {
+            "name": "Avantage de support de la girafe",
+            "description": "<p>Votre girafe pousse vos adversaires à l'aide de son long cou. Si vous montez votre girafe pendant ce tour, vous n'avez pas besoin de main libre pour @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser} et les ennemis que vous poussez ainsi sont déplacés de 3 mètres (4,50 mètres en cas de succès critique).</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.swq8Klr2ePG9rVJS]{Effet : Avantage de support de la girafe}</p>"
+        },
+        "Wood Elemental Support Benefit": {
+            "name": "Avantage de soutien d'élémentaire de bois",
+            "description": "<p>Votre élémentaire de bois enchevêtre vos ennemis avec des branches et des racines détachables. Jusqu'au début de votre prochain tour, si vous touchez avec une Frappe qui inflige des dégâts à une créature dans l'allonge de votre élémentaire de bois, la créature subit une pénalité de circonstances de -1,50 mètre à ses Vitesses pendant 1 minute (-10 sur un coup critique). La créature ou une créature qui lui est adjacente, peut utiliser une action Interagir pour démêler les branches et les racines et supprimer la sanction.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.yw1K63aPTWRj76Nn]{Effet : Avantage de soutien d'élémentaire de bois}</p>"
+        },
+        "Capybara Support Benefit": {
+            "name": "Avantage de soutien du capybara",
+            "description": "<p>Votre capybara vous assiste au combat. Vous obtenez un bonus de circonstances de +1 à votre prochain jet d'attaque pour Frapper un ennemi dans l'allonge de votre capybara. Ce bonus dure jusqu'à la première fois que vous l'utilisez ou jusqu'au début de votre prochain tour, selon ce qui vient en premier.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.vh7CqhkZY85PnvMm]{Effet : Avantage de soutien du capybara}</p>"
+        },
+        "Umbrella Mushroom Support Benefit": {
+            "name": "Avantage de soutien du champignon parapluie",
+            "description": "<p>Votre champignon parapluie secrète des spores qui émoussent les sens quand vous lui ménagez une ouverture. Jusqu'au début de votre prochain tour, si une de vos Frappes inflige des dégâts à une créature qui se trouve dans l'allonge de votre champignon, la cible est @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfiée 1} pendant un tour. Cet effet possède le trait poison.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.RjwPBh2CCTUJAa3e]{Effet : Avantage de soutien du champignon parapluie}</p>"
+        },
+        "Riding Tarantula Support Benefit": {
+            "name": "Avantage de soutien de la tarentule de selle",
+            "description": "<p>Votre tarentule de selle projette des poils urticants à votre adversaire, perturbant sa concentration. Jusqu'au début de votre prochain tour, si vous touchez une créature que votre tarentule menace, et lui infligez des dégâts, la cible doit réussir un @Check[flat|dc:5] au moment d'effectuer une action de concentration. Cette action est perdue en cas d'échec.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.faBOi3CkoeQtQ0Dc]{Effet : Avantage de soutien de la tarentule de selle}</p>"
+        },
+        "Tyrannosaurus Support Benefit": {
+            "name": "Avantage de soutien du tyrannosaure",
+            "description": "<p>Votre tyrannosaure rugit et fait une démonstration effrayante lorsque vous attaquez, faisant sursauter vos ennemis. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à une créature qui se trouve à dans l'allonge de votre tyrannosaure, cette dernière est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UJYz572LoOw3LH8u]{Effet : Avantage de soutien du tyrannosaure}</p>"
+        },
+        "Air Elemental Support Benefit": {
+            "name": "Avantage de soutien de l'élémentaire d'air",
+            "description": "<p>Votre élémentaire d'air s'enroule autour de vous avec des rafales dissimulatrices, rendant la tâche de vous toucher plus difficile pour vos adversaires et vous donnant possiblement un moment pour vous cacher. Jusqu'au début de votre prochain tour, si vous touchez avec une Frappe et infligez des dégâts à une créature dans l'allonge de votre élémentaire, vous êtes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} par rapport à cette créature jusqu'au début de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.UaUFJKZxEkN7yraC]{Effet : Avantage de soutien de l'élémentaire d'air}</p>"
+        },
+        "Isgeri Boarhound Support Benefit": {
+            "name": "Avantage de soutien de chien de chasse isgéri",
+            "description": "<p>Votre dogue isgéri est un compagnon de chasse fidèle. Vous obtenez un bonus de circonstances de +1 à votre prochain jet d'attaque pour Frapper un ennemi dans l'allonge de votre dogue isgéri. Ce bonus dure jusqu'à ce que vous l'utilisez ou jusqu'au début de votre prochain tour, selon ce qui se produit en premier. Si vous blessez une créature avec le trait correspondant à l'ennemi désigné du dogue isgéri avec cette Frappe, la créature subit 1d6 dégâts perforants supplémentaires du dogue isgéri. Si votre dogue isgéri est agile ou sauvage, les dégâts passent à 2d6.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.otgQvXBTGIEGbJJP]{Effet : Avantage de soutien du dogue isgéri}</p>"
+        },
+        "Giant Frog Support Benefit": {
+            "name": "Avantage de support de la grenouille géante",
+            "description": "<p>La langue de votre grenouille géante fuse dans les ouvertures que vous ménagez et englue vos adversaires pour perturber leurs déplacements. Jusqu'au début de votre prochain tour, quand vous Frappez avec succès une créature que votre grenouille menace, votre cible ne peut utiliser de réaction déclenchée par vos actions à moins que son niveau ne soit supérieur au vôtre.</p>"
+        },
+        "Monitor Lizard Support Benefit": {
+            "name": "Avantage de soutien du varan",
+            "description": "<p>Le varan distrait un adversaire adjacent avec ses mâchoires claquantes et des mouvements rapides. Jusqu'au début de votre prochain tour, si votre Frappe blesse un adversaire, chaque fois que celui-ci tente une action avec le trait manipulation jusqu'à la fin de votre prochain tour, il doit tenter un @Check[flat|dc:5]. En cas d'échec, l'action est interrompue.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.itbKX7GZbXsfRTf8]{Effet : Avantage de soutien du varan}</p>"
+        },
+        "Water Elemental Support Benefit": {
+            "name": "Avantage de soutien de l'élémentaire d'eau",
+            "description": "<p>Votre élémentaire d'eau détrempe un ennemi. La première fois avant le début de votre prochain tour que vous touchez avec une Frappe qui inflige des dégâts à une créature dans l'allonge de votre élémentaire d'eau, cette créature devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.DB0mJPinz35BgBS1]{Effet :Avantage de soutien de l'élémentaire d'eau}</p>"
+        },
+        "Moth Support Benefit": {
+            "name": "Avantage de soutien du papillon de nuit"
+        },
+        "Legchair Support Benefit": {
+            "name": "Avantage de soutien de la chaise sur pattes",
+            "description": "<p>Votre chaise sur pattes déplace ses membres dans le passage des attaques de l'ennemi. Vous obtenez un abri partiel de la part de votre chaise sur pattes contre toutes les attaques, pas juste celles pour lesquelles la chaise sur pattes serait dans le passage.</p>"
+        },
+        "Giant Eel Support Benefit": {
+            "name": "Avantage de soutien de l'anguille géante",
+            "description": "<p>Votre anguille géante nage par à-coups déconcertants. Jusqu'au début de votre prochain tour, elle est considérée comme étant à l'endroit où elle se trouve ou à un endroit inoccupé dans les 3 mètres quand il s'agit de déterminer si vous ou votre compagnon prenez en tenaille. Vous pouvez choisir un espace différent pour chacune de vos attaques.</p>"
+        },
+        "Shark Support Benefit": {
+            "name": "Avantage de soutien du squale",
+            "description": "<p>Lorsque votre squale perçoit le sang, il déchire vos ennemis. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature à la portée du requin avec une Frappe et que vous lui infligez des dégâts tranchants ou perforants, la créature subit @Damage[1d8[slashing]]{1d8 dégâts tranchants} de la part du requin. Si votre requin est agile ou sauvage, les dégâts tranchants passent à  @Damage[2d8[slashing]|shortLabel]{2d8}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Lgc3OAVIdK8uN9nM]{Effet : Avantage de soutien du squale}</p>"
+        },
+        "Wyvern Support Benefit": {
+            "name": "Avantage de soutien de la vouivre",
+            "description": "<p>Votre vouivre fouette vos ennemis avec son dard. Jusqu'au début de votre prochain tour, vos Frappes qui blessent une créature dans l'allonge de votre vouivre infligent également @Damage[1d6[persistent,poison]]{1d6 dégâts de poison persistants}. Si votre vouivre est agile ou sauvage, les dégâts persistants passent à @Damage[2d6[persistent,poison]|shortLabel]{2d6}.</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.7dCJv3nCv85lwFO7]{Effet : Avantage de soutien de la vouivre}</p>"
+        },
+        "Skeletal Bird of Prey Support Benefit": {
+            "name": "Avantage de soutien : Oiseau de proie squelettique",
+            "description": "<p>L'oiseau voltige en tous sens et déséquilibre votre adversaire. Jusqu'au début de votre prochain tour, lorsque vous blessez une créature dans l'allonge de l'oiseau avec une Frappe, cette créature devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.tyTTl3B8OWtWYhcX]{Effet : Avantage de soutien : Oiseau de proie squelettique}</p>"
+        },
+        "Riding Dragonet Support Benefit": {
+            "name": "Avantage de soutien du dragonnet de monte",
+            "description": "<p>Les ailes de votre dragonnet battent rapidement, pulsant l'air autour de vous deux. Jusqu'au début de votre prochain tour, chaque fois que vous frappez en chevauchant le dragonnet et touchez une créature à portée du dragonnet, celle-ci subit 1d4 dégâts contondants dus à la force des ailes du dragonnet. Si votre dragonnet est agile ou féroce, les dégâts contondants passent à 2d4.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.W0umjrZCgfSo0qh6]{Effet : Avantage de soutien du dragonnet de monte}</p>"
+        },
+        "Wolf Support Benefit": {
+            "name": "Avantage de soutien du loup",
+            "description": "<p>Votre loup déchire les tendons à chaque attaque. Jusqu'au début de votre prochain tour, vos Frappes qui blessent les créatures dans l'allonge de votre loup et qui sont menacées par celui-ci, infligent à la cible une pénalité de statut de -1,50 mètre à ses Vitesses pendant 1 minute (-3 mètres en cas de succès critique).</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zDFmtmfZfAvIVF93]{Effet : Avantage de soutien du loup}</p>"
+        },
+        "Skeletal Servant Support Benefit": {
+            "name": "Avantage de soutien de serviteur squelettique",
+            "description": "<p>Votre serviteur squelettique plante des os dans vos ennemis pour les distraire pendant que vous attaquez. Jusqu'au début de votre prochain tour, lorsqu'un coup que vous portez touche et inflige des dégâts à une créature qui se trouve dans l'allonge de votre serviteur squelettique, cette cible devient @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.GQFr15dRbQyfsiTF]{Effet : Avantage de soutien de serviteur squelettique}</p>"
+        },
+        "Keulia Support Benefit": {
+            "name": "Avantage de soutien du keulia",
+            "description": "<p>Avec sa carapace d'objets solides, votre keulia percute vos ennemis lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature dans l'allonge de votre keulia avec une Frappe et lui infligez des dégâts physiques, les créatures subissent 1d8 dégâts contondants du keulia. Si votre keulia est agile ou sauvage, les dégâts contondants passent à 2d8.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.rscC2NYGHUs3PQUV]{Effet : Avantage de soutien du keulia}</p>"
+        },
+        "Bear Support Benefit": {
+            "name": "Avantage de soutien de l'ours",
+            "description": "<p>Votre ours malmène vos ennemis lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature dans l'allonge de l'ours avec une Frappe, la créature subit @Damage[1d8[slashing]]{1d8 dégâts tranchants} de la part de l'ours. Si votre ours est agile ou sauvage, les dégâts tranchants passent à @Damage[2d8[slashing]|shortLabel]{2d8}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zAvLdUNaJrKOMfQY]{Effet : Avantage de soutien de l'ours}</p>"
+        },
+        "Hyena Support Benefit": {
+            "name": "Avantage de soutien de la hyène",
+            "description": "<p>La hyène se moque de vos ennemis en glapissant et les mord lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature dans l'allonge de la hyène avec une Frappe, la créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zrI6j7mFhkbSFdf0]{Effet : Avantage de soutien de la hyène}</p>"
+        },
+        "Cave Pterosaur Support Benefit": {
+            "name": "Avantage de soutien du ptérosaure des grottes",
+            "description": "<p>Votre ptérosaure étend ses ailes et crée de la distraction avec ses battements d'aile. Toute créature qui pourrait bénéficier d'un abri partiel de la part du ptérosaure obtient un abri standard à la place.</p>"
+        },
+        "Giant Wasp Support Benefit": {
+            "name": "Avantage de soutien de la guêpe géante",
+            "description": "<p>Votre guêpe fait bourdonner ses ailes, déstabilisant vos ennemis. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à une créature qui se trouve dans l'allonge de votre guêpe, votre cible devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.nftqFOord0y2cTTi]{Effet : Avantage de soutien de la guêpe géante}</p>"
+        },
+        "Dromaeosaur Support Benefit": {
+            "name": "Avantage de soutien du droméosaure",
+            "description": "<p>Votre raptor s'élance constamment pour se mettre en position de tenaille. Jusqu'au début de votre prochain tour, il compte comme étant dans sa case ou dans une case vide de votre choix dans un rayon de 3 mètres lorsqu'il s'agit de déterminer si vous et votre compagnon prenez en tenaille ; vous pouvez choisir une case différente pour chacune de vos attaques).</p>"
+        },
+        "Undead Hand Support Benefit": {
+            "name": "Avantage de soutien de la main morte-vivante",
+            "description": "<p>La main frappe vicieusement les ennemis que vous attaquez. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature dans l'allonge de la main avec une Frappe, la créature subit @Damage[1d6[bludgeoning]]{1d6 dégâts contondants} de la main. Si votre main est agile ou sauvage, les dégâts contondants passent à @Damage[2d6[bludgeoning]|shortLabel]{2d6}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.TbsMurFpA6ZkZIfF]{Effet : Avantage de soutien de la main morte-vivante}</p>"
+        },
+        "Chetamog Support Benefit": {
+            "name": "Avantage de soutien du chetamog",
+            "description": "<p>Un chetamog ignore le terrain difficile et le terrain très difficile provoqué par le feuillage non magique.</p>"
+        },
+        "Draft Lizard Support Benefit": {
+            "name": "Avantage de soutien du lézard de trait",
+            "description": "<p>Votre lézard de trait vous assiste dans la bataille. Vous obtenez un bonus de circonstances de +1 à votre prochain jet d'attaque pour Frapper un ennemi dans l'allonge de votre lézard de trait. Le bonus persiste jusqu'à la première fois que vous l'utilisez ou jusqu'au début de votre prochain tour, selon ce qui advient en premier.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.xrdIXhRDUHgC8wAe]{Effet : Avantage de soutien du lézard de trait}</p>"
+        },
+        "Roc Support Benefit": {
+            "name": "Avantage de soutien du roc",
+            "description": "<p>Votre roc bat des ailes, créant un puissant courant descendant. Jusqu'au début de votre prochain tour, vos Frappes qui touchent une créature que votre roc menace poussent la cible de 1,50 mètre par rapport à votre roc.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.5AeK9y6jDQrFMYv3]{Effet : Avantage de soutien du roc}</p>"
+        },
+        "Boar Support Benefit": {
+            "name": "Avantage de soutien du sanglier",
+            "description": "<p>Votre sanglier éventre vos ennemis. Jusqu'au début de votre prochain tour, vos Frappes qui blessent une créature dans l'allonge de votre sanglier infligent aussi @Damage[1d6[persistent,bleed]]]{1d6 dégâts de saignement}. Si votre sanglier est agile ou sauvage, les dégâts de saignement passent à @Damage[2d6[persistent,bleed]|shortLabel]{2d6}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.GZN0Vc8JHVZl1Io4]{Effet : Avantage de soutien du sanglier}</p>"
+        },
+        "Cat Support Benefit": {
+            "name": "Avantage de soutien du félin",
+            "description": "<p>Votre félin déséquilibre vos ennemis lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, vos Frappes qui infligent des dégâts à une créature que votre félin menace rendent la cible @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.aG27NngIvWo6gFBG]{Effet : Avantage de soutien du félin}</p>"
+        },
+        "Scorpion Support Benefit": {
+            "name": "Avantage de soutien du scorpion",
+            "description": "<p>Votre scorpion fait couler du poison de son dard lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, vos Frappes qui blessent une créature dans l'allonge de votre scorpion infligent également @Damage[1d6[persistent,poison]]{1d6}{1d6 dégâts persistants de poison}. Si votre scorpion est agile ou sauvage, les dégâts de poison persistants passent à @Damage[2d6[persistent,poison]|shortLabel]{2d6}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.YNclyD1YN0eGiOix]{Effet : Avantage de soutien du scorpion}</p>"
+        },
+        "Skeletal Constrictor Support Benefit": {
+            "name": "Avantage de soutien : Serpent constricteur squelettique",
+            "description": "<p>Votre serpent se balance, envoûtant un ennemi. Choisissez une créature dans un rayon de 6 mètres du serpent constricteur qui peut le voir. Jusqu'au début de votre prochain tour, vos Frappes qui lui infligent des dégâts la rendent @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.tBLkLrtoRFbYV1f4]{Effet : Avantage de soutien : Serpent constricteur squelettique}</p>"
+        },
+        "Mongoose Support Benefit": {
+            "name": "Avantage de soutien de la mangouste",
+            "description": "<p>La mangouste sautille à vos cotés, tous les sens en éveil. Jusqu'à la fin de votre prochain tour, les créatures adjacentes à votre mangouste ne peuvent pas vous prendre en tenaille.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.PL26HLGEitQSAsWV]{Effet : Avantage de soutien de la mangoustet}</p>"
+        },
+        "Snake Support Benefit": {
+            "name": "Avantage de soutien du serpent",
+            "description": "<p>Votre serpent retient vos ennemis avec ses anneaux, interférant avec les réactions. Jusqu'au début de votre prochain tour, toute créature que votre serpent menace ne peut utiliser les réactions déclenchées par vos actions, sauf si son niveau est supérieur au vôtre.</p>"
+        },
+        "Rootball Chair Support Benefit": {
+            "name": "Avantage de soutien du Fauteuil motte de racines",
+            "description": "<p>Votre Fauteuil motte de racines se déplace lentement sur la plupart des terrains, grâce à ses nombreuses lianes. Votre Fauteuil motte de racines ignore le terrain difficile.</p>"
+        },
+        "Orca Support Benefit": {
+            "name": "Avantage de soutien de l'orque",
+            "description": "<p>Votre orque tente de noyer les nageurs inattentifs. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature qui nage dans l'allonge de votre orque, la cible est tirée de 1,50 mètre sous l'eau. C'est un déplacement forcé.</p>"
+        },
+        "War Pig Support Benefit": {
+            "name": "Avantage de soutien du cochon de combat",
+            "description": "<p>Votre cochon de combat enfonce vos ennemis, les laissant engourdis par l'impact. Jusqu'au début de votre prochain tour, les Frappes que vous portez qui infligent des dégâts à une créature dans l'allonge de votre cochon de combat rendent la cible @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.EutUqr7s9d9bRy9b]{Effet : Avantage de soutien du cochon de combat}</p>"
+        },
+        "Gray Bladeling Support Benefit": {
+            "name": "Avantage de soutien du portelames gris",
+            "description": "<p>Le portelames gris entaille vicieusement votre ennemi lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature dans l'allonge du portelames avec une Frappe, la créature subit 1d4 dégâts de saignement ou est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 1} si elle subit déjà des dégâts de saignement. Si le portelames gris est spécialisé, Les dégâts de saignement passent à 1d8.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.jHISsCN6eVEYNtrw]{Effet : Avaantage de soutien du portelames gris}</p>"
+        },
+        "Rhinoceros Support Benefit": {
+            "name": "Avantage de soutien du rhinocéros",
+            "description": "<p>Votre rhinocéros balance sa lourde tête pour déséquilibrer votre ennemi. La première créature dans l'allonge de votre rhinocéros que vous touchez et à laquelle vous infligez des dégâts avant le début de votre prochain tour devient @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.LqhSjyZbMN1wKPss]{Effet : Avantage de soutien du rhinocéros}</p>"
+        },
+        "Augdunar Support Benefit": {
+            "name": "Avantage de soutien de l'augdunar",
+            "description": "<p>L'augdunar se déplace, vous offrant un objet. Vous Interagissez pour tirer une arme ou un objet qui est transporté par l'augdunar.</p>"
+        },
+        "Horse Support Benefit": {
+            "name": "Avantage de soutien du cheval",
+            "description": "<p>Votre cheval ajoute de l'élan à votre charge. Jusqu'au début de votre prochain tour, si vous vous déplacez d'au moins 3 mètres lors de l'action avant que vous ne portiez une Frappe, ajoutez un bonus de circonstances aux dégâts à cette Frappe égal à deux fois le nombre de dés de dégâts. Si votre arme a déjà le trait d'arme joute, augmentez le bonus aux dégâts de 2 par dé à la place.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.xe5pfyTYOWMYG1T8]{Effet : Avantage de soutien du cheval}</p>"
+        },
+        "Cave Gecko Support Benefit": {
+            "name": "Avantage de soutien du gecko des cavernes",
+            "description": "<p>Votre gecko des cavernes vous aide à rester sur pied, s'appuyant sur vous et vous soutenant lorsque vous manœuvrez votre adversaire. Jusqu'à la fin de votre prochain tour, tant que vous êtes adjacent à votre gecko des cavernes, si vous tentez de @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Désarmer}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser} ou faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe} à un adversaire et que vous obtenez un échec critique, il devient un échec.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.xVZXK6QIbO4ykGVj]{Effet : Avantage de soutien du gecko des cavernes}</p>"
+        },
+        "Triceratops Support Benefit": {
+            "name": "Avantage de soutien du tricératops",
+            "description": "<p>Votre tricératops éventre les cibles @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} dans votre sillage. Jusqu'au début de votre prochain tour, vos frappes qui blessent une créature À terre dans l'allonge de votre tricératops infligent également@Damage[1d8[persistent,bleed]]{1d8 dégâts de saignement}. Si votre tricératops est agile ou sauvage, les dégâts de saignement passent à @Damage[2d8[persistent,bleed]|shortLabel]{2d8}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.VK0u5yF0dO2YlGra]{Effet : Avantage de soutien du tricératops}</p>"
+        },
+        "Salamander Support Benefit": {
+            "name": "Avantage de soutien de la salamandre",
+            "description": "<p>Votre salamandre sécrète un liquide visqueux et empoisonné sur sa peau. Jusqu'au début de votre prochain tour, si vous ou votre salamandre êtes touchés par une créature adjacente à la salamandre, elle subit @Damage[1d6[poison]]{1d6 dégâts de poison}. Ces dégâts augmentent à @Damage[2d6[poison]|shortLabel] si la salamandre est agile ou sauvage.</p>"
+        },
+        "Hippocampus Support Benefit": {
+            "name": "Avantage de soutien de l'hippocampe",
+            "description": "<p>Jusqu'au début de votre prochain tour, si vous êtes monté sur votre hippocampe et que vous avez déplacé d'au moins 3 mètres lors de l'action précédant une Frappe au corps-à-corps, ajoutez un bonus de circonstances aux dégâts de cette Frappe égal à deux fois le nombre de dés de dégâts de l'arme. Si votre arme possède déjà le trait d'arme joute, augmentez le bonus de dégâts de ce trait de 2 par dé à la place.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.YWqoEHfSzoPH0RsW]{Effet : Avantage de soutien de l'hippocampe}</p>"
+        },
+        "Badger Support Benefit": {
+            "name": "Avantage de soutien du blaireau",
+            "description": "<p>Votre blaireau creuse autour de la position de votre ennemi, gênant son pied. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à une créature que votre blaireau menace, la cible ne peut pas utiliser une action de Pas (sauf si elle peut traverser un terrain difficile) jusqu'à ce qu'elle se déplace de sa position actuelle.</p>"
+        },
+        "Severed Head Support Benefit": {
+            "name": "Avantage de soutien de la tête tranchée",
+            "description": "<p>La tête s'accroche à votre ennemi avec ses mâchoires lorsque vous créez une ouverture, le distrayant et gênant ses mouvements. La prochaine créature à portée de votre tête tranchée que vous parvenez à Frapper avant le début de votre prochain tour subit une pénalité de statut de -1,50 mètre à ses Vitesses et doit réussir un @Check[flat|dc:5] pour utiliser des réactions déclenchées par vos actions jusqu'au début de votre prochain tour. En cas d'échec, la réaction est gâchée.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.IReZWo5PdAe4F9IH]{Effet : Avantage de soutien de la tête tranchée}</p>"
+        },
+        "Sundaflora Support Benefit": {
+            "name": "Avantage de soutient de Sundaflora",
+            "description": "<p>Votre Sundaflora inspire vos alliés par son calme et ses pas agiles. Choisissez un allié dans un rayon de 9 mètres autour de votre Sundaflora. Il obtient un bonus de circonstances de +1 à son prochain jet d'attaque pour Frapper un ennemi dans l'allonge de votre Sundaflora. Le bonus dure jusqu'à la première utilisation par votre allié ou jusqu'au début de votre prochain tour, selon ce qui se produit en premier.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.I89IDoLnz4RnfYtX]{Effet : Avantage de soutient de Sundaflora}</p>"
+        },
+        "Tikar Urchinpad Support Benefit": {
+            "name": "Avantage de soutien des radeaux-méduses",
+            "description": "<p>Votre radeau-méduse tente d'enrouler ses tentacules autour des membres de votre adversaire, le déséquilibrant. Jusqu'à la fin de votre prochain tour. Tant que vous êtes adjacent à votre radeau-méduse, si vous tentez de @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser} ou de faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc--en-jambes} sur un adversaire et que vous obtenez un échec critique, vous obtenez un échec à la place.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.ciyeCV7RsTtFcYKw]{Effet : Avantage de soutien des radeaux-méduses}</p>"
+        },
+        "Water Wraith Support Benefit": {
+            "name": "Avantage de soutien de l'âme-en-peine aquatique",
+            "description": "<p>Votre âme-en-peine aquatique siffle et change rapidement de couleur dans un fracas irisé, submergeant vos ennemis dans une avalanche de nuances et de teintes. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature dans l'allonge de votre âme-en-peine aquatique, celle-ci est @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} pendant 1 round.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.7WtmY88CPY7lxW3q]{Effet : Avantage de soutien de l'âme-en-peine aquatique}</p>"
+        },
+        "Vampiric Animal Support Benefit": {
+            "name": "Avantage de soutien de l'animal vampirique",
+            "description": "<p>Lorsque votre animal vampirique sent le sang, il déchire vos ennemis. Jusqu'au début de votre prochain tour, vos Frappes qui infligent des dégâts à une créature à portée de votre animal vampirique infligent également @Damage[1d6[persistent,bleed]]{1d6 dégâts de saignement}. Si votre animal vampirique est agile ou sauvage, les dégâts de saignement augmentent à @Damage[2d6[persistent,bleed]|shortLabel]{2d6}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.rtIhCBYVeEywrZOf]{Effet : Avantage du Soutien de l'animal vampirique}</p>"
+        },
+        "Zombie Support Benefit": {
+            "name": "Avantage de soutien du zombie",
+            "description": "<p>Le zombie émet une aura de pourriture, faisant suppurer les blessures. Jusqu'au début de votre prochain tour, chaque fois que vous touchez une créature qui se trouve dans un rayon de 3 mètres du zombie et que vous lui infligez des dégâts, la créature subit 1d6 dégâts supplémentaires car la blessure s'envenime. Si votre zombie est agile ou sauvage, les dégâts passent à @Damage[2d6[untyped]|shortLabel]. Il s'agit d'un effet de maladie et de nécromancie.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.vtArjXfpSGTKbmL9]{Effet : Avantage de soutien du zombie}</p>"
+        },
+        "Vulture Support Benefit": {
+            "name": "Avantage de soutien du vautour",
+            "description": "<p>Le vautour vomit sur un ennemi dans un rayon de 3 mètres. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à la cible, celle-ci doit réussir un jet de @Check[fortitude|against:vulture-support]. En cas d'échec, la cible est @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 1}. (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeuse 2} sur un échec critique). Le DD du jet de Vigueur est de 12 (ou 14 si le vautour est un compagnon animal spécialisé) + votre niveau + le modificateur de Constitution du vautour.</p>"
+        },
+        "Metal Elemental Support Benefit": {
+            "name": "Avantage de soutien d'élémentaire de métal",
+            "description": "<p>Votre élémentaire de métal perfore un ennemi avec des piques de métal qui provoquent un saignement. Jusqu'au début de votre prochain tour, vos Frappes qui blessent une créature dans l'allonge de votre élémentaire de métal infligent aussi @Damage[1d6[persistent,bleed]]{1d6 dégâts de saignement}. Si votre élémentaire de métal est agile ou sauvage, les dégâts de saignement passent à @Damage[2d6[persistent,bleed]]{2d6 dégâts de saignement}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.4QHjAGY39Q86gAEe]{Effet : Avantage de soutien d'élémentaire de métal}</p>"
+        },
+        "Shadow Hound Support Benefit": {
+            "name": "Avantage de soutien du molosse d'ombre",
+            "description": "<p>Votre molosse d'ombre enveloppe vos ennemis dans l'ombre lorsque vous laissez une ouverture. Jusqu'au début de votre prochain tour, lorsque vous infligez des dégâts à une créature avec une Frappe et que cette créature se trouve dans l'allonge de votre molosse d'ombre, vous et votre molosse d'ombre devenez tous les deux @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Masqué} pour la créature jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.Go7Tbyf3vpAW6rFs]{Effet : Avantage de soutien du molosse d'ombre}</p>"
+        },
+        "Hippogriff Support Benefit": {
+            "name": "Avantage de soutien de l'hippogriffe",
+            "description": "<p>Jusqu'au début de votre prochain tour, si vous montez votre hippogriffe et vous êtes déplacé de 3 mètres ou plus avant de faire une Frappe au corps-à-corps, ajoutez un bonus de circonstances aux dégâts de cette Frappe égal au double du nombre de dés de dégâts de votre arme. Si votre arme a déjà le trait d'arme de joute, augmentez le bonus aux dégâts de 2 par dé à la place.</p>\np>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.tnlYuQchWOeDKeau]{Effet : Avantage de soutien de l'hippogriffe}</p>"
+        },
+        "Elephant Support Benefit": {
+            "name": "Avantage de soutien de l'éléphant",
+            "description": "<p>Votre éléphant barit bruyamment et menace votre ennemi. La première créature dans l'allonge de votre éléphant que vous touchez et à qui vous infligez des dégâts avant le début de votre prochain tour a du mal à entendre car ses oreilles bourdonnent à cause du bruit. Elle subit une pénalité de statut de -4 aux tests de Perception purement auditive jusqu'à la fin de votre prochain tour.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.yTWDjFno6nKETfXY]{Effet : Avantage de soutien de l'éléphant}</p>"
+        },
+        "Camel Support benefit": {
+            "name": "Avantage de soutien du chameau",
+            "description": "<p>Le chameau porte une attaque à distance de crachat d'un long filet de salive sur un ennemi à 3 mètres. S'il touche, l'ennemi est @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ébloui} pendant 1 round.</p>"
+        },
+        "Elk Support Benefit": {
+            "name": "Avantage de soutien de l'élan",
+            "description": "<p>Votre élan adopte une posture menaçante en agitant sa ramure. Jusqu'au début de votre prochain tour, si vous touchez et infligez des dégâts à une créature qui se trouve dans l'allonge de votre élan, cette créature devient @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayé 1}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.uOzhPI4odakOi0uj]{Effet : Avantage de soutien de l'élan}</p>"
+        },
+        "Ravenous Drake Support Benefit": {
+            "name": "Avantage de soutien du drake vorace",
+            "description": "<p>Votre drake vorace tente constamment d'attirer un ennemi ou ses possessions dans ses mâchoires avides. Vous obtenez un bonus de circonstances de +1 à tout test d'Athlétisme pour faire un [[/act trip]]{Croc-en-jambe}, [[/act disarm]]{Désarmer}, [[/act shove]]{Pousser}, [[/act reposition]]{Repositionner} un adversaire adjacent à votre drake vorace.</p>"
+        },
+        "Durian Crab Support Benefit": {
+            "name": "Avantage de soutien du crabe durian",
+            "description": "<p>Votre crabe durian se lance dans le cadre de votre attaque à distance pour déséquilibrer vos ennemis. Jusqu'au début de votre prochain tour, tant que votre crabe est dans votre allonge, vos Frappes à distance qui infligent des dégâts à une créature dans un rayon de 9 mètres rendent la cible @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin de votre prochain tour. Votre crabe retourne immédiatement à l'endroit d'où vous l'avez lancé après avoir effectué une Frappe, vous permettant de le lancer plusieurs fois.</p>"
+        },
+        "Goat Support Benefit": {
+            "name": "Avantage de soutien de la chèvre",
+            "description": "<p>Votre chèvre vous propulse le long d'un mur, vous permettant d'atteindre de plus grandes hauteurs. Vous grimpez le long d'une surface comme si vous aviez obtenu un succès sur une action d'@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Escalader}.</p>"
+        },
+        "Bacallia Support Benefit": {
+            "name": "Avantage de soutien du bacallia",
+            "description": "<p>La fourrure brillante de votre bacallia réfléchit la lumière dans les yeux de ovotre ennemi. Jusqu'au début de votre prochain tour, les créatures au sein de l'allonge de votre bacallia que vous blessez avec vos Frappes sont @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouies}.</p>\n<p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.IcevV2CAx0WlQaLF]{Effet : Avantage de soutien du bacallia}</p>"
+        },
+        "Bird Support Benefit": {
+            "name": "Avantage de soutien de l'oiseau de proie",
+            "description": "<p>L'oiseau de proie picore les yeux de vos ennemis lorsque vous créez une ouverture. Jusqu'au début de votre prochain tour, vos Frappes qui blessent une créature que votre oiseau de proie menace inflige aussi @Damage[1d4[persistent,bleed]]{1d4 dégâts de saignement} et la cible est @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'à ce qu'elle mette un terme aux dégâts de saignement. Si votre oiseau est agile ou sauvage, les dégâts de saignement passent à @Damage[2d4[persistent,bleed]|shortLabel]{2d4}.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

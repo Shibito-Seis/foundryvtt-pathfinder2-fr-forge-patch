@@ -1,0 +1,504 @@
+{
+    "label": "Aptitudes (Animal Companions)",
+    "entries": {
+        "Primary (1d8, trip)": {
+            "name": "Primaire (1d8, croc-en-jambe)"
+        },
+        "Elemental Core": {
+            "name": "Noyau élémentaire",
+            "description": "<p>Votre eidolon élémentaire est un amalgame de matière élémentaire et de force vitale mortelle, ce qui le protège de certains effets plus néfastes pour les mortels que pour les élémentaires. Il obtient un bonus de circonstances de +2 aux jets de sauvegarde contre les effets de poison et de sommeil, ainsi que les effets provoquant l'état @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralysé}. De plus, son essence élémentaire saigne moins facilement que la chair, de sorte que le DD de tout test nu effectué pour retirer des dégâts de saignement est de 10 (ou de 5 après avoir reçu une aide particulièrement efficace). Choisissez pour votre eidolon soit le type air, bois, eau, feu, métal ou terre. Votre eidolon et toutes les attaques à mains nues obtiennent le trait de l'élément choisi et l'eidolon obtient des effets supplémentaires en fonction de votre choix.</p>\n<ul>\n<li><strong>Air</strong> Votre eidolon est formé d'air élémentaire et est aussi léger que la brise. Votre eidolon peut @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Bondir}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{Sauter en hauteur} et @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Sauter en longueur} deux fois plus loin et ne subit pas de dégâts de chute.</li>\n<li><strong>Bois</strong> Votre eidolon est formé de bois élémentaire et sa forme de bois vivant se tort et repousse lorsque vous concentrez vos énergies élémentaires. Vous pouvez choisir de donner à votre eidolon le trait plante. Lorsque vous Refocalisez, votre eidolon regagne un nombre de Points de vie égal au double de votre niveau.</li>\n<li><strong>Eau</strong> Votre eidolon est formé d'eau élémentaire et nage avec grâce. Votre eidolon obtient le trait amphibie, lui permettant de respirer de l'eau et de l'air et d'éviter la pénalité normale de -2 en faisant des Frappes à mains nues contondantes et tranchantes dans l'eau. La vitesse terrestre de votre eidolon est réduite à 4,50 mètres et il obtient une Vitesse de nage de 4,50 mètres. Vous pouvez prendre le don Forme amphibie pour passer sa vitesse terrestre à 7,50 mètres, comme indiqué dans le don.</li>\n<li><strong>Feu</strong> Votre eidolon est formé de feu élémentaire et brûle avec des flammes de braise. Votre eidolon obtient une résistance égale à la moitié de votre niveau (minimum 1) contre le feu et un montant égal de faiblesse contre le froid et contre l'eau. Ses attaques à mains nues infligent 1 dégât de feu supplémentaire.</li>\n<li><strong>Métal</strong> Votre eidolon est formé de métal élémentaire et peut adapter sa forme métallique à la bataille. Une des attaques au corps-à-corps de votre eidolon obtient le trait polyvalent contondant, perforant ou tranchant, car votre eidolon apprend comment changer le métal pour en faire des formes d'armes variées.</li>\n<li><strong>Terre</strong> Votre eidolon est formé de terre élémentaire et est incroyablement difficile à déplacer de force. Votre eidolon obtient un bonus de circonstances de +2 à ses jets de Vigueur ou de Réflexes contre les tentatives pour les @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Pousser} ou leur faire un @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Croc-en-jambe}. Ce bonus s'applique aussi aux jets de sauvegarde contre les sorts et les effets qui tentent de le mettre @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre}. De plus, si un effet quelconque devrait le forcer à se déplacer de 3 mètres ou plus, il n'est déplacé que sur la moitié de la distance.</li>\n</ul>",
+            "rules": {
+                "9": {
+                    "prompt": "Obtenir le trait plante ?"
+                }
+            }
+        },
+        "Tendril Strike": {
+            "name": "Frappe de liane",
+            "description": "<p>Votre eidolon peut étirer ses lianes et ses racines pour attaquer un ennemi qui serait normalement hors de sa portée. Il obtient l'action @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.iunzITJGz0QUudUk]{Frappe de liane}.</p>"
+        },
+        "Guardian Plant": {
+            "name": "Plante gardienne",
+            "description": "<p>For +4, Dex +2, Con +3, Int -1, Sag +1, Cha 0 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Construct Companion": {
+            "name": "Compagnon créature artificielle"
+        },
+        "Kit Armor": {
+            "name": "Panoplie d'armure",
+            "description": "<p>Votre suivant est qualifié avec cette armure.</p>"
+        },
+        "Devotion Aura": {
+            "name": "Aura de dévouement",
+            "description": "<p>Après avoir combattu à vos côtés pendant si longtemps, votre eidolon est devenu aussi dévoué à votre protection qu'à celle de vos alliés à sa cause initiale. Il obtient une aura de dévouement de 6 mètres, qui possède les traits aura et occulte. Chaque fois qu'un des alliés de votre eidolon se trouvant dans l'aura subit des dégâts, vous pouvez les réduire du montant du modificateur de Constitution de votre eidolon. Vous perdez un nombre de Points de vie égal à la moitié du montant par lequel l'eidolon a réduit les dégâts, arrondi à l'inférieur. Si les dégâts étaient inférieurs à son modificateur de Constitution, basez les dégâts que vous subissez sur le montant réel des dégâts évités.</p>"
+        },
+        "Eidolon Ability Boosts (20th)": {
+            "name": "Primes d'attributs de l'eidolon (20e)"
+        },
+        "Demonic Strikes": {
+            "name": "Frappes démoniaques",
+            "description": "<p>Les attaques de votre eidolon sont corrompues par les Failles extérieures et imprégnées de mal pur et de chaos mouvant. Toutes les frappes à mains nues de votre eidolon obtiennent le trait impie et infligent 1 dégât spirituel supplémentaire. Comme à l'ordinaire, ces dégâts supplémentaires ne blessent que les créatures saintes ou celles qui possèdent une faiblesse contre les dégâts impies. De plus, choisissez l'une des attaques à mains nues de votre eidolon qui inflige des dégâts physiques. Elle obtient le trait polyvalent pour un autre type de dégâts physiques que vous choisissez.</p>"
+        },
+        "Eidolon Ability Boosts (5th)": {
+            "name": "Primes d'attributs de l'eidolon (5e)"
+        },
+        "Primary (1d8, nonlethal)": {
+            "name": "Primaire (1d8, non-létale)"
+        },
+        "Negative Healing": {
+            "name": "Guérison du vide"
+        },
+        "Eidolon Weapon Specialization": {
+            "name": "Spécialisation martiale de l'eidolon",
+            "description": "<p>Votre eidolon a appris à infliger des blessures plus importantes avec ses attaques à mains nues. Il inflige 2 dégâts supplémentaires avec les attaques à mains nues dans lesquelles il est expert. Ces dégâts supplémentaires passent à 3 s'il est maître et à 4 s'il est légendaire.</p>"
+        },
+        "Greater Eidolon Specialization": {
+            "name": "Spécialisation de l'eidolon supérieure",
+            "description": "<p>Les dégâts supplémentaires infligés par la Spécialisation martiale de votre eidolon passent à 4 avec les attaques à mains nues avec lesquelles il est expert, 6 s'il est maître et 8 s'il est légendaire.</p>"
+        },
+        "Construct Heart": {
+            "name": "Coeur de créature artificielle",
+            "description": "<p>Votre eidolon créature artificielle est directement liée à votre force vitale, ce qui en fait une créature vivante et donc sensible à de nombreux maux qui ne touchent que les vivants, bien qu'il possède certaines résistances contre de tels effets. Il ne possède pas les immunités normales d'une créature artificielle, mais bénéficie d'un bonus de circonstances de +2 aux jets de sauvegarde contre les effets de mort, les maladies et le poison, ainsi que contre les effets provoquant les états @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigué} ou @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux}. De plus, son essence astrale s'écoule lentement et il n'a besoin que de réussir un @Check[flat|dc:10] pour mettre un terme à des dégâts de saignement (ou un @Check[flat|dc:5] s'il bénéficie d'une assistance particulièrement efficace).</p>"
+        },
+        "Sickening Swarm": {
+            "name": "Nuée nauséeuse",
+            "description": "<p>Votre eidolon est particulièrement bon pour distraire et handicaper ses ennemis en étant dispersé. En étant dispersé, les espaces que votre eidolon occupe sont un terrain difficile pour les autres créatures. En plus, votre eidolon obtient l'action @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.gGVaSvIhobXXsqTZ]{Assaut nauséeux}.</p>"
+        },
+        "Whirlwind Maul": {
+            "name": "Masse tourbillonnante",
+            "description": "<p>Votre eidolon s'élance dans toutes les directions. Il porte une Frappe à mains nues au corps-à-corps contre un maximum de quatre ennemis situés dans son allonge. Il peut choisir des attaques à mains nues différentes pour chaque ennemi. Chaque attaque est prise en compte pour le calcul de votre pénalité d'attaques multiples mais vous n'augmentez pas votre pénalité jusqu'à ce que l'eidolon ait résolu toutes ses attaques.</p>"
+        },
+        "Actions": {
+            "name": "Actions"
+        },
+        "Primary (1d8, shove)": {
+            "name": "Primaire (1d8, pousser)"
+        },
+        "Undead Brute": {
+            "name": "Brute morte-vivante",
+            "description": "<p>For +4, Dex +2, Con +3, Int -1, Sag 0, Cha +1 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Mindless Companion": {
+            "name": "Compagnon dénué d'intelligence",
+            "description": "<p>Certains compagnons morts-vivants sont dénués d'intelligence. Le trait dénué d'intelligence leur procure une immunité contre tous les effets mentaux, comme à l'ordinaire. Les seules compétences dans lesquelles un compagnon dénué d'intelligence est qualifié sont l'Acrobaties et l'Athlétisme et il ne peut pas être qualifié dans d'autres compétences. Même si un compagnon dénué d'intelligence acquiert une capacité limitée d'agir en combat sans être commandé, par exemple grâce au don Compagnon animal adulte, il ne peut répéter que le dernier ordre ; il ne peut pas entreprendre une nouvelle action de son propre chef. Un compagnon dénué d'intelligence ne peut pas prendre de spécialisation qui augmenterait son Intelligence ou lui accorderait des avantages dans des compétences autres qu'Acrobaties ou Athlétisme et il ne peut pas utiliser ou bénéficier des dons ou autres options pour les compagnons animaux qui exigent normalement qu'une créature ait un esprit, qu'elle pense ou prenne une décision. En cas de doute, le MJ détermine quelles capacités un compagnon dénué d'intelligence peut utiliser.</p>"
+        },
+        "Primary (1d6, forceful, sweep)": {
+            "name": "Primaire (1d6, percutant, balayage)"
+        },
+        "Adaptable Elemental": {
+            "name": "Élémentaire adaptable",
+            "description": "<p>For +1, Dex +4, Con +3, Int +0, Sag +1, Cha +0 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Hidden Watcher": {
+            "name": "Observateur caché",
+            "description": "<p>Votre eidolon peut vous rendre tous les deux invisibles. Une fois par heure, il peut lancer @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibilité} en vous ciblant, en se ciblant ou en vous ciblant tous les deux en même temps. Si le sort vous cible tous les deux, le sort prend fin pour vous deux si l'un d'entre vous utilise une action hostile.</p>"
+        },
+        "Take Aim": {
+            "name": "Viser",
+            "description": "<p>Le tireur d'élite vise son ennemi et lui fait une Frappe à distance en obtenant un bonus de circonstances de +2 au jet d'attaque.</p>"
+        },
+        "Marauding Dragon": {
+            "name": "Dragon maraudeur",
+            "description": "<p>For +4, Dex +2, Con +3, Int 0, Sag 0, Cha 0 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Fey Mischief": {
+            "name": "Méfait féerique",
+            "description": "<p>La magie féerique de votre eidolon devient plus puissante et plus espiègle. Votre eidolon gagne le don @UUID[Compendium.pf2e.feats-srd.Item.b1eGMNjBY3iqIt2S]{Adepte magique}, bien qu'il ne possède pas le niveau requis et peut choisir des sorts du Cadeau féerique en plus des sorts primordiaux.</p>"
+        },
+        "Visions of Sin": {
+            "name": "Visions du péché",
+            "description": "<p>Votre démon est né du péché et peut projeter le péché dont il est issu dans l'esprit des autres. Il obtient l'activité @Compendium[pf2e-animal-companions.AC-Features.srfAyOXpUYxEz0gx]{Visions du péché}.</p>"
+        },
+        "Ultimate Reconfiguration": {
+            "name": "Reconfiguration ultime",
+            "description": "<p>Votre eidolon créature artificielle devient encore plus personnalisable. Choisissez un don d'évolution de niveau 16 ou inférieur. Votre eidolon obtient ce don. Vous pouvez passer du temps lors des Intermèdes pour l'ajuster en utilisant Artisanat, tout comme le don d'évolution Évolution reconfigurée. De nombreux conjurateurs choisissent @Compendium[pf2e-animal-companions.AC-Evolution-Feats.eF3CKuQwqXJXIQPL]{Sens toujours en éveil} pour cette capacité.</p>"
+        },
+        "Intelligence Boost": {
+            "name": "Prime d'Intelligence"
+        },
+        "Animal Companion": {
+            "name": "Compagnon animal",
+            "description": "<p>Les statistiques suivantes sont les statistiques de base pour un jeune compagnon animal, le premier compagnon animal que la plupart des personnages obtiennent. Vous ajustez ces statistiques en fonction du type d'animal que vous choisissez. Les compagnons animaux calculent leurs modificateurs et leur DD de la même manière que vous, avec une différence : les seuls bonus d'objet dont ils peuvent bénéficier sont ceux qui s'appliquent à la Vitesse et à la CA (leur bonus d'objet maximum à la CA est de +3). À mesure que vous gagnez des niveaux, vous pourrez peut-être rendre votre compagnon plus fort en le faisant progresser.</p>\n<p>Les statistiques de départ d'un compagnon animal sont les suivantes :</p>\n<ul>\n  <li><strong>Niveau</strong> Le niveau de votre compagnon animal est égal au vôtre.</li>\n  <li><strong>Maîtrises</strong> Votre compagnon animal est qualifié avec ses attaques à mains nues, la défense sans armure, ses bardes (un type d'armure pour animaux), tous les jets de sauvegarde, en Perception, en Acrobaties et en Athlétisme. Les compagnons animaux ne peuvent pas utiliser les capacités nécessitant une intelligence supérieure, comme @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Contraindre} ou Déchiffrer l'écriture, même s'ils sont qualifiés dans la compétence appropriée, à moins qu'ils n'aient une spécialisation qui le permet.</li>\n  <li><strong>Modificateurs d'attributs</strong> Un compagnon animal commence avec les modificateurs d'attributs de base indiqués dans son bloc de statistiques.</li>\n  <li><strong>Points de vie</strong> Votre compagnon animal possède des Points de vie d'ascendance de son type, plus un nombre de Points de vie égal à 6 plus son modificateur de Constitution pour chaque niveau que vous avez.</li>\n</ul>"
+        },
+        "Negative Essence": {
+            "name": "Essence du vide",
+            "description": "<p>Votre eidolon mort-vivant possède un lien direct avec votre force vitale, ce qui lui confère un état à mi-chemin entre vivant et mort-vivant. Cela en fait une créature vivante et donc sensible à de nombreuses afflictions qui ne touchent que les vivants, bien qu'il possède certaines résistances contre leurs effets. L'eidolon possède guérison du vide, ce qui signifie qu'il se soigne avec l'énergie du vide qui guérit les morts-vivants et qu'il est blessé par les effets de vitalité qui blessent les morts-vivants. Il ne possède pas les immunités habituelles des morts-vivants mais il bénéficie d'un bonus de circonstances de +2 aux jets de sauvegarde contre les effets de mort, de maladie et de poison, ainsi que contre les effets qui ne blessent pas mais ne ciblent que les morts-vivants. De plus, son essence nécrotique étanche facilement ses blessures. Le test nu pour supprimer les dégâts de saignement de l'eidolon se fait contre un DD 10 (ou un DD 5 après avoir reçu une aide particulièrement efficace).</p>"
+        },
+        "Scribe of the Dead": {
+            "name": "Scribe de la mort",
+            "description": "<p>For +1, Dex +4, Con +1, Int +2, Sag +1, Cha +0 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Rejuvenation": {
+            "name": "Reconstruction",
+            "description": "<p>Le lien inhabituel que vous possédez avec votre eidolon vous permet de vous reconstruire tous deux chaque fois que vous êtes vaincu. Chaque jour, la première fois que votre tour commence alors que vous êtes Mourant, vous regagnez instantanément un nombre de Points de vie égal à trois fois votre niveau et vous vous réveillez (Augmentez votre état Blessé comme à l'ordinaire). Vous pouvez immédiatement Manifester votre eidolon par une action gratuite. Vous pouvez alors entreprendre votre tour comme à l'ordinaire.</p>"
+        },
+        "Draconic Frenzy": {
+            "name": "Frénésie draconique",
+            "description": "<p>Votre eidolon peut porter un assaut furieux, récupérant potentiellement l'usage de son Arme de souffle. Il obtient l'activité @UUID[Compendium.pf2e.actionspf2e.Item.uMFB3uw8WTWL0LZD]{Frénésie draconique}.</p>"
+        },
+        "Enraged Assassin": {
+            "name": "Assassin enragé",
+            "description": "<p>For +2, Dex +4, Con +3, Int 0, Sag -1, Cha +1 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Spirit Touch": {
+            "name": "Contact spirituel",
+            "description": "<p>Les attaques de votre eidolon possèdent la capacité d'un psychopompe de blesser les vivants et les morts. Les Frappes de votre eidolon affectent les créatures intangibles comme si elles étaient revêtues d'une rune de propriété <em>spectrale</em> et infligent 1 dégât de vide supplémentaire aux créatures vivantes et 1 dégât de vitalité supplémentaire aux morts-vivants.</p>"
+        },
+        "Slinking Swarm": {
+            "name": "Nuée fuyante",
+            "description": "<p><em>For</em> +2, <em>Dex</em> +4, <em>Con</em> +3, <em>Int</em> +0, <em>Sag</em> +1, <em>Cha</em> –1 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Reconfigured Evolution": {
+            "name": "Évolution reconfigurée",
+            "description": "<p>Votre eidolon créature artificielle est particulièrement facile à reconfigurer, obtenant une évolution supplémentaire qui convient à vos souhaits partagés. Choisissez un don d'évolution de niveau 6 ou inférieur. Votre eidolon obtient ce don. Vous pouvez utiliser le Réapprentissage de ce don pour n'importe quel autre don d'évolution de niveau 6 ou inférieur en passant un unique jour d'Intermède si vous réussissez un test d'Artisanat, avec un DD standard du niveau de votre eidolon. En cas d'échec, vous pouvez recommencer en passant de nouveau un autre jour. De nombreux conjurateurs choisissent @Compendium[pf2e-animal-companions.AC-Evolution-Feats.OGTIinVaETSz7kdW]{Courroux de l'eidolon} pour cette capacité.</p>"
+        },
+        "Spirit Taker": {
+            "name": "Délivreur d'esprit",
+            "description": "<p>Votre eidolon est particulièrement compétent lorsqu'il s'agit de manipuler des esprits sans corps et de conduire les morts-vivants à leur dernier repos. Votre eidolon peut voir les créatures intangibles à l'intérieur d'objets solides et peut les attaquer avec des Frappes sans pénalité. Une créature intangible dans un objet solide qui subit des dégâts suite à une Frappe de votre eidolon est expulsée de l'objet vers l'espace disponible le plus proche, en se rapprochant de votre eidolon si possible.</p>\n<p>En outre, votre eidolon peut cibler ou affecter une créature projetant sa conscience (par exemple via @UUID[Compendium.pf2e.spells-srd.Item.0873MWM0qKDDv81O]{Projection d'image}) ou possédant une autre créature, même si son corps est ailleurs, bien que votre eidolon doive être informé de la possession ou de la projection et choisir de le faire.</p>\n<p>Enfin, l'esprit d'un mort-vivant détruit par les Frappes de votre eidolon est envoyé directement au Cimetière pour y être jugé. Un mort-vivant doté d'une capacité lui permettant d'éviter automatiquement un tel sort, comme la reconstruction d'un fantôme, peut tenter un test de contre contre votre DD de sort pour se reconstruire par le biais de cette capacité comme à l'ordinaire. Dans ce cas, il utilise son modificateur de Volonté comme modificateur de contre.</p>"
+        },
+        "Dutiful Retaliation": {
+            "name": "Représailles consciencieuses",
+            "description": "<p><strong>Déclencheur</strong> Un ennemi dans les 4,50 mètres de vous vous touche avec une Frappe et vous inflige des dégâts.</p>\n<p><strong>Conditions</strong> Votre eidolon est à 4,50 mètres de vous.</p>\n<hr />\n<p>Votre eidolon se charge instinctivement d'énergie ectoplasmique, ce qui lui permet de riposter contre un ennemi qui ose vous faire du mal. Votre eidolon effectue une Frappe à mains nues au corps-à-corps contre l'ennemi déclencheur, même si celui-ci n'est pas dans l'allonge de votre eidolon.</p>"
+        },
+        "Anchored Incorporeality": {
+            "name": "Intagibilité ancrée",
+            "description": "<p>Alors que la plupart des fantômes sont liés au site où ils sont morts ou ont été enterrés, certains se retrouvent plutôt liés à des objets spécifiques, comme un bijou particulier, un vêtement, le collier d'un animal domestique ou une pierre issu d'un bâtiment dans lequel ils ont vécu. Ces objets, connus sous le nom d'ancres, étaient importants pour le fantôme dans sa vie, ou essentiels aux évènements de sa mort et du fait qu'il le hante.</p>\n<p>Une créature disposant d'intangibilité ancrée possède le trait intangible, ce qui signifie qu'elle peut se déplacer à travers les créatures physiques et que ces dernières peuvent se déplacer à travers elle. Elle ne peut pas tenter des tests basés sur la Force (tel que @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir}) contre des créatures tangibles et les créatures tangibles ne peuvent pas tenter de tels tests contre elle. Bien qu'intangible, une créature ayant intagibilité ancrée ne peut pas se déplacer à plus de 18 mètres de son point d'ancrage et doit maintenir une ligne d'effet vers cet ancre. Cela l'empêche généralement de se déplacer à travers les murs. Contrairement à de nombreuses autres créatures intangibles, une créature dotée d'intangibilité ancrée ne bénéficie pas d'une résistance à tous les dégâts ni d'immunité contre les dégâts de précision.</p>\n<p>Un personnage ayant un compagnon animal ou un familier qui possède intangibilité ancrée peut transférer l'ancre sur un nouvel objet à l'aide d'un rituel spécial. Cela nécessite de passer 1 semaine de concert avec le compagnon pour créer une nouvelle ancre. Un personnage qui connaît cette technique pourrait être en mesure de l'adapter pour transférer la capacité Site lié d'un fantôme (ou une restriction similaire) afin de l'attacher à une ancre plutôt qu'à un lieu.</p>"
+        },
+        "Following Shot": {
+            "name": "Tir de suivi",
+            "description": "<p><strong>Fréquence</strong> Une fois par tour</p>\n<p><strong>Déclencheur</strong> Le tireur d'élite obtient un succès critique sur une Frappe à distance</p>\n<p><strong>Conditions</strong> Le tireur d'élite manie une arme avec un Rechargement 0</p>\n<hr />\n<p><strong>Effet</strong> Encouragé par son succès, le tireur d'élite tire rapidement une autre fois. Il porte une autre Frappe à distance avec la même arme et la même pénalité d'attaques multiples. Cette attaque est prise en compte dans le calcul de la pénalité d'attaques multiples du tireur d'élite.</p>"
+        },
+        "Warrior Construct": {
+            "name": "Créature artificielle combattante",
+            "description": "<p>For +4, Dex +2, Con +3, Int +1, Sag 0, Cha -1 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Exploit Injury": {
+            "name": "Exploiter la blessure",
+            "description": "<p><strong>Conditions</strong> La dernière action de l'éclaireur a été un Frappe au corps-à-corps réussie contre une cible @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu}</p>\n<hr />\n<p><strong>Effet</strong> La cible de la Frappe est Prise au dépourvu jusqu'à la fin de votre prochain tour.</p>"
+        },
+        "Swift Protector": {
+            "name": "Protecteur rapide",
+            "description": "<p>For +2, Dex +4, Con +3, Int +0, Sag +0, Cha +0 ; CA +1 (Dex max +4)</p>"
+        },
+        "Swarming Assault": {
+            "name": "Assaut de la nuée",
+            "description": "<p><strong>Conditions</strong> Votre eidolon est dispersé.</p>\n<hr />\n<p>Votre eidolon se jette sur chaque créature occupant son espace, la mordant, la picorant, la griffant ou lui infligeant des attaques similaires avec les parties de son corps. Il inflige @Damage[(1 + floor((@actor.level - 1)/2))d6[untyped]] dégâts à chaque créature dans la zone, avec un jet de Réflexes basique contre votre DD de sort. Chaque fois que votre eidolon utilise Assaut de la nuée, vous choisissez si il inflige des dégâts perforants ou tranchants. Puis votre eidolon ne peut utliser Assaut de la nuée de nouveau pendant les [[/gmr 1d4 #rounds]]{1d4 rounds} suivants.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, Les dégâts augmentent de 1d6.</p>"
+        },
+        "Trickster Fey": {
+            "name": "Fée mystificatrice",
+            "description": "<p>For 12, Dex 18, Con 12, Int 12, Sag 8, Cha 16 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Angelic Emissary": {
+            "name": "Émissaire angélique",
+            "description": "<p>For +1, Dex +4, Con +1, Int 0, Sag +1, Cha +2 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Skirmisher Fey": {
+            "name": "Fée escarmoucheuse",
+            "description": "<p>For 14, Dex 18, Con 14, Int 10, Sag 10, Cha 12 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Soul Guardian": {
+            "name": "Gardien de l'âme",
+            "description": "<p>For +4, Dex +2, Con +3, Int +0, Sag +1, Cha -1 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Swarm Eidolon": {
+            "name": "Eidolon nuée"
+        },
+        "Wyrm's Breath": {
+            "name": "Souffle du Ver",
+            "description": "<p><strong>Fréquence</strong> Une fois par minute</p>\n<hr />\n<p>Votre eidolon rassemble la puissance des plus puissants dracosires pour rendre son souffle magique encore plus spectaculaire. Si la prochaine action de votre eidolon est d'utiliser son Arme de souffle, le nombre de dés de dégâts et la zone de l'arme du souffle sont doublés.</p>"
+        },
+        "Steadfast Devotion": {
+            "name": "Dévouement sans faille",
+            "description": "<p>Grâce au dévouement de votre eidolon, il est extrêmement difficile pour vos ennemis de faire plier son esprit. Votre eidolon bénéficie d'un bonus de circonstances de +2 aux jets de sauvegarde contre les effets mentaux et s'il obtient un succès contre un tel effet, il devient un succès critique. Si vous possédez la capacité de classe @UUID[Compendium.pf2e.classfeatures.Item.eZPfHVz14j42jCnS]{Résolution partagée} et que votre eidolon obtient un échec critique contre un effet mental, il devient un simple échec à la place.</p>"
+        },
+        "Haunting Visage": {
+            "name": "Visage hantant",
+            "description": "<p><strong>Conditions</strong> Votre eidolon est condensé.</p>\n<hr />\n<p>Votre eidolon change se change soudainement en une forme terrifiante de son choix au lieu d'un simple tas, en contrôlant de près la position des composantes de son corps. L'eidolon tente de @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} une créature dans les 4,50 mètres. Cette tentative de Démoralisation perd le trait audible, obtient le trait visuel et l'eidolon ne subit pas la pénalité de circonstances de -4 sur le test s'il ne partage aucune langue avec sa cible. En cas de succès ou de succès critique, la cible est également @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} pendant 1 round.</p>"
+        },
+        "Eidolon Ability Boosts (15th)": {
+            "name": "Primes d'attributs de l'eidolon (15e)"
+        },
+        "Wrecker Demon": {
+            "name": "Démon démolisseur",
+            "description": "<p>For +4, Dex +2, Con +3, Int 0, Sag -1, Cha +1 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Strength Boost": {
+            "name": "Prime de Force"
+        },
+        "Fleet Beast": {
+            "name": "Bête véloce",
+            "description": "<p>For 14, Dex 18, Con 16, Int 8, Sag 12, Cha 10 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Eidolon": {
+            "name": "Eidolon",
+            "rules": {
+                "0": {
+                    "prompt": "Sélectionnez les détails de la Frappe primaire. Cela peut être édité sur l'onglet inventaire par la suite."
+                }
+            }
+        },
+        "Undead Stalker": {
+            "name": "Traqueur mort-vivant",
+            "description": "<p>For +2, Dex +4, Con +3, Int -1, Sag +1, Cha +0, CA +1 (Max Dex +4)</p>"
+        },
+        "Creeping Plant": {
+            "name": "Plante rampante",
+            "description": "<p>For +1, Dex +4, Con +3, Int -1, Sag +2, Cha 0 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Effect: Seething Frenzy": {
+            "name": "Effet : Frénésie effrénée",
+            "description": "<p>La créature subit une pénalité de -2 à la CA.</p>"
+        },
+        "Drain Life": {
+            "name": "Drain de vie",
+            "description": "<p>Le lien vital de votre eidolon avec vous le maintient mais il reste affamé de l'essence vitale des vivants, que ce soit à travers du sang ou de l'essence pure. Il obtient l'activité @Compendium[pf2e-animal-companions.AC-Features.3Ns5BmFpAcoGQIY5]{Drain de vie}.</p>"
+        },
+        "Advanced Maneuver": {
+            "name": "Manoeuvre avancée"
+        },
+        "Follower": {
+            "name": "Suivant",
+            "description": "<p>Un suivant est un PNJ qui vous accompagne et vous assiste pendant une période de temps étendue, peut-être même le temps d'une campagne entière. Vous pouvez obtenir un suivant en prenant l'archétype de capitaine. Les suivants sont des compagnons qui comptent sur vous pour les diriger au combat. Ils ont le trait sbire. Vous pouvez avoir un suivant et un familier ou un animal de compagnie, mais vous ne pouvez avoir de suivant si vous possédez déjà un compagnon animal ou un autre compagnon qui vous empêche d'avoir un compagnon animal.</p>\n<p><strong>Ascendance :</strong> La plupart des suivants sont humains et possèdent ainsi les traits humain et humanoïde. Ils sont de taille Moyenne, ont une Vitesse de 7,50 mètres et parlent le commun plus des langues supplémentaires égales à 1 + son modificateur d'Intelligence. Bien que les suivants possèdent un héritage qui constitue une partie de leur histoire personnelle et un historique, les suivants ne possèdent pas les avantages mécaniques de leur héritage. Pour des informations sur les suivants d'autres ascendances, voir le don @UUID[Compendium.pf2e.feats-srd.Item.mW9uqRmI0Wi2qYSm]{Leader of All}.</p>\n<p><strong>Type de suivant :</strong> Les suivants peuvent peuvent provenir de tous les horizons et avoir des expériences et des compétences très variées. Pour faciliter le jeu, les disciples sont regroupés en grandes catégories appelées types de suivants, telles que berserker ou médecin.</p>\n<p><strong>Kits :</strong> Chaque disciple dispose d'un équipement personnel appelé un kit, qui s'améliore automatiquement à mesure que les PJ gagnent des niveaux et dont le niveau est égal à celui des PJ. Le kit inclut les armes, l'armure et les autres objets du suivant qui sont nécessaires pour accomplir les actions indiquées dans leurs statistiques. Les suivants ne peuvent manier ou utiliser des objets autres que ceux qui se trouvent dans leur kit ni ne peuvent partager leur équipement avec les PJ. Les dégâts d'un suivant avec des Frappes au corps-à-corps et à distance dépendant du type de suivant. Chaque type de suivant possède une arme par défaut indiquée. Si vous souhaitez que votre suivant utiliser une arme différente qui inflige les mêmes dégâts ou des dégâts inférieurs de la même catégorie (par exemple, une arme au corps-à-corps simple ou une arme de guerre à distance) qui nécessite le même nombre de mains pour être maniées, parlez-en à votre MJ. Les suivants sont présumés maintenir leur kit. Ceci inclut de se procurer des munitions adéquates pour les armes à distance, ainsi que de réparer l'équipement endommagé. Un suivant peut dépenser 10 minutes pour réparer tous son équipement brisé et endommagé et ils peuvent remplacer leur équipement au cours de leurs préparatifs quotidiens.</p>\n<p><strong>Paiement :</strong> Les mécaniques du suivant font abstraction de la rémunération que les suivants reçoivent pour leur travail, afin de ne pas avoir d'incidence sur la richesse attendue de la partie. Les suivants sont présumés gagner assez pour leur fournir leur propre nourriture, leurs vêtements et un abri, pour maintenir et améliorer leurs kits (voir ci-dessus) et pour posséder un niveau de vie confortable. La source de ce revenu est laissée au MJ et au joueur pour décider des circonstances en fonction de leur suivant. Peut-être qu'ils ont été loués par le protecteur du PJ ou une organisation extérieure pour travailler avec les PJ ou peut-être que les PJ gagnent une fortune supplémentaire au cours de leurs aventures qui est destinée au suivant.</p>\n<p><strong>Remplacer un suivant :</strong> Les suivants peuvent se séparer des PJ pour diverses raisons, que ce soit à cause de leur mort ou d'autres événements survenus au cours de la campagne. Si un PJ perd un suivant, il peut passer une semaine d'intermède pour le remplacer. Pour remplacer un suivant, le PJ doit généralement se trouver dans une communauté ou un autre endroit où il est possible de recruter, mais le MJ peut également introduire des suivants de manière organique au cours de l'aventure.</p>"
+        },
+        "Fey Gift Spells": {
+            "name": "Sorts du cadeau féerique",
+            "description": "<p>Votre eidolon ajoute à votre magie primordiale la magie d'enchantement et d'illusion, vous permettant à tous les deux d'utiliser le pouvoir du charme et de l'attrait des fées. Lorsque vous ajoutez des sorts à votre répertoire, vous pouvez choisir parmi la liste des sorts primordiaux ainsi que parmi les sorts d'illusion ou mentaux qui figurent sur la liste des sorts arcaniques. Comme à l'ordinaire, lorsque vous ajoutez des sorts d'une autre tradition à votre liste de sorts, vous êtes toujours un lanceur de sorts primordiaux de sorte que tous vos sorts sont des sorts primordimaux.</p>\n<p>Votre eidolon obtient le don de conjurateur @UUID[Compendium.pf2e.feats-srd.Item.WfbmFsRxbVyzMmCz]{Doublure magique} bien qu'il n'ait pas le niveau requis et il peut choisir des tours de magie du Cadeau féerique en plus des tours de magie primordiaux. Comme à l'ordinaire pour un don que l'on vous accorde par le nom, vous ne pouvez pas réapprendre Doublure magique pour le remplacer par un autre don.</p>"
+        },
+        "Tempter Demon": {
+            "name": "Démon tentateur",
+            "description": "<p>For +1, Dex +4, Con +1, Int 0, Sag 0, Cha +3 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Eidolon Ability Boosts (10th)": {
+            "name": "Primes d'attributs de l'eidolon (10e)"
+        },
+        "Beast's Charge": {
+            "name": "Charge de la bête",
+            "description": "<p>Votre eidolon peut faire une charge furieuse ou bondir sur des ennemis, lui permettant de les engager promptement. Il obtient l'activité @Compendium[pf2e-animal-companions.AC-Features.ITQghUQFhbYpD2QM]{Charge de la bête}.</p>"
+        },
+        "Breath Weapon (Piercing)": {
+            "name": "Arme de Souffle (Perforant)",
+            "description": "<p>Votre eidolon souffle une explosion d'énergie destructrice. Votre eidolon inflige @Damage[1d6[piercing]]{1d6 dégâts perforants} à toutes les créatures dans la zone, avec un jet de Réflexes basique contre votre DD de sort. La zone et le type de dégâts de l'arme de souffle sont choisis lorsque l'eidolon obtient cette capacité. Votre eidolon ne peut plus alors utiliser son arme de souffle de nouveau pendant [[/gmr 1d4 #Recharger Souffle]]{1d4 rounds}.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>\n<p>@Template[cone|distance:30]{cône de 9 mètres}</p>\n<p>@Template[line|distance:60]{ligne de 18 mètres}</p>"
+        },
+        "Swarm Form": {
+            "name": "Forme de nuée",
+            "description": "<p>Votre eidolon est une nuée intelligente composée de centaines de créatures Très petites et il est immunisé aux états @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippé}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{À terre} et @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Entravé}. Il peut se faufiler à travers des espaces étroits comme s'il s'agissait d'une créature Très petite. Il possède une faiblesse contre les dégâts de zone égal à son niveau. Votre eidolon possède deux formes : une condensée et une dispersée. Lorsque vous Manifestez votre eidolon, il se manifeste sous sa forme condensée. Il peut passer d'une forme à l'autre par une unique action qui possède le trait concentration.</p>\n<ul>\n<li><strong>Forme condensée</strong> Lorsqu'il est condensé, votre eidolon rassemble tous ses composants en un seul monticule condensé qui fonctionne comme une créature de taille moyenne. Il possède une allonge de 1,50 mètre, peut porter des Frappes et ne peut occuper le même espace que d'autres créatures. Tant qu'il est condensé, il peut utiliser l'action @UUID[Compendium.pf2e.actionspf2e.Item.4oHjLO6qMfxIchRB]{Visage hantant}.</li>\n<li><strong>Forme dispersée</strong> Lorsqu'il est dispersé, votre eidolon répand les parties qui composent sont corps dans une plus large zone, augmentant sa taille d'une catégorie (vers Très grande pour la plupart des eidolons nuées). Il possède une allonge de 0 mètre, ne peut porter de Frappe et peut occuper le même espace que d'autres créatures. Ainsi dispersé, il peut utiliser l'activité @UUID[Compendium.pf2e.actionspf2e.Item.Wukpm200zHDuS85V]{Assaut de la nuée}.</li>\n</ul>",
+            "rules": {
+                "0": {
+                    "label": "Forme de nuée"
+                }
+            }
+        },
+        "Breath Weapon (Electricity)": {
+            "name": "Arme de souffle (Électricité)",
+            "description": "<p>Votre eidolon souffle une explosion d'énergie destructrice. Votre eidolon inflige [[/r 1d6[fire]]]{1d6 dégâts de feu} à toutes les créatures dans la zone, avec un jet de Réflexes basique contre votre DD de sort. La zone et le type de dégâts de l'arme de souffle sont choisis lorsque l'eidolon obtient cette capacité. Votre eidolon ne peut plus alors utiliser son arme de souffle de nouveau pendant [[/gmr 1d4 #Recharger Souffle]]{1d4 rounds}.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>\n<p>@Template[cone|distance:30]{cône de 9 mètres}</p>\n<p>@Template[line|distance:60]{ligne de 18 mètres}</p>"
+        },
+        "Charisma Boost": {
+            "name": "Prime de Charisme"
+        },
+        "Eidolon Defensive Mastery": {
+            "name": "Maîtrise défensive de l'eidolon",
+            "description": "<p>La forme de votre eidolon devient particulièrement difficile à attaquer. Il devient maître en défense sans armure.</p>"
+        },
+        "Hallowed Strikes": {
+            "name": "Frappes sanctifiées",
+            "description": "<p>Les attaques de votre eidolon sont sanctifiées par les royaumes célestes. Les Frappes à mains nues de votre eidolon obtiennent le trait saint et infligent 1 dégât spirituel supplémentaire. Comme à l'ordinaire, ces dégâts supplémentaires ne blessent que les créatures impies ou celles qui ont une faiblesse contre les dégâts saints. De plus, votre eidolon peut effectuer des attaques non-létales avec ses attaques à mains nues sans subir la pénalité de circonstances habituelle de -2.</p>"
+        },
+        "Breath Weapon (Fire)": {
+            "name": "Arme de souffle (Feu)",
+            "description": "<p>Votre eidolon souffle une explosion d'énergie destructrice. Votre eidolon inflige [[/r 1d6[fire]]]{1d6 dégâts de feu} à toutes les créatures dans la zone, avec un jet de Réflexes basique contre votre DD de sort. La zone et le type de dégâts de l'arme de souffle sont choisis lorsque l'eidolon obtient cette capacité. Votre eidolon ne peut plus alors utiliser son arme de souffle de nouveau pendant [[/gmr 1d4 #Recharger Souffle]]{1d4 rounds}.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>\n<p>@Template[cone|distance:30]{cône de 9 mètres}</p>\n<p>@Template[line|distance:60]{ligne de 18 mètres}</p>"
+        },
+        "Redistribute": {
+            "name": "Redistribuer",
+            "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<p><strong>Déclencheur</strong> Une Frappe d'un ennemi contre votre eidolon est un coup critique.</p>\n<hr />\n<p>Votre eidolon réarrange les composantes de son corps en réponse à un coup puissant, atténuant le pire des dégâts qu'il aurait subi. Le coup critique déclencheur devient un coup. Votre eidolon change immédiatement de forme, de condensé à dispersé ou de dispersé à condensé.</p>"
+        },
+        "Field of Roots": {
+            "name": "Champ de racines",
+            "description": "<p>Votre eidolon étend ses racines sous terre pour enchevêtrer et éventuellement blesser tous les ennemis à proximité. Tous les ennemis qui se trouvent dans l'allonge de votre eidolon subissent des dégâts du même type et du même montant que la Frappe la plus dangereuse de votre eidolon, en fonction de leur jet de Réflexes. Tous les effets du jet de sauvegarde durent jusqu'à ce que l'ennemi s'Échappe ou quitte l'allonge de votre eidolon. Après avoir utilisé Champ de racines, votre eidolon est @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisé} jusqu'à ce qu'il entreprenne une unique action, ayant le trait manipulation, pour se détacher du sol ; ceci met également fin à tout effet résiduel de Champ de racines sur vos ennemis.</p>\n<hr />\n<p><strong>Succès critique</strong> L'ennemi n'est pas affecté.</p>\n<p><strong>Succès</strong> L'ennemi ne subit pas de dégâts mais subit une pénalité de circonstances de -3 mètres à ses Vitesses.</p>\n<p><strong>Échec</strong> L'ennemi subit la moitié des dégâts, subit une pénalité de circonstances de -3 mètres à ses Vitesses et, à la fin de chacun de ses tours, subit la moitié des dégâts de nouveau.</p>\n<p><strong>Échec critique</strong> L'ennemi est @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilisé}, subit la totalité des dégâts et, à la fin de chacun de ses tours, subit de nouveau la totalité des dégâts.</p>"
+        },
+        "Followers": {
+            "name": "Suivants"
+        },
+        "Secondary Attack": {
+            "name": "Attaque secondaire"
+        },
+        "Cunning Dragon": {
+            "name": "Dragon rusé",
+            "description": "<p>For +1, Dex +4, Con +1, Int +2, Sag 0, Cha +1 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Blasphemous Decree": {
+            "name": "Décret blasphématoire",
+            "description": "<p>Votre démon murmure des mots indescriptibles qui se complaisent avec le péché associé. Il peut Lancer la version impie de @UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C]{Décret divin} une fois par jour comme un sort de rang 9. Vous n'êtes pas affectée par ce décret, même si vous n'êtes pas impie. Au niveau 19, cela devient un <em>Décret divin</em> au rang 10.</p>"
+        },
+        "Seething Frenzy": {
+            "name": "Frénésie effrénée",
+            "description": "<p>Votre eidolon peut s'enflammer jusqu'à la frénésie. Il obtient l'action @Compendium[pf2e-animal-companions.AC-Features.7K6UJ3D3owmOQS03]{Frénésie effrénée}.</p>"
+        },
+        "Breath Weapon (Negative)": {
+            "name": "Arme de souffle (vide)",
+            "description": "<p>Votre eidolon souffle une explosion d'énergie destructrice. Votre eidolon inflige [[/r 1d6[void]]]{1d6 dégâts de vide} à toutes les créatures dans la zone, avec un jet de Réflexes basique contre votre DD de sort. La zone et le type de dégâts de l'arme de souffle sont choisis lorsque l'eidolon obtient cette capacité. Votre eidolon ne peut plus alors utiliser son arme de souffle de nouveau pendant [[/gmr 1d4 #Recharge du souffle]]{1d4 rounds}.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>\n<p>@Template[cone|distance:30]{cône de 9 mètres}</p>\n<p>@Template[line|distance:60]{ligne de 18 mètres}</p>"
+        },
+        "Effect: Badger Rage": {
+            "name": "Effet : Rage du blaireau",
+            "description": "<p>Accordé par @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.HLD4JW6SUn5Oy8C9]{Rage du blaireau}</p>\n<p>Vous infligez 4 dégâts supplémentaires avec votre attaque de morsure et 2 dégâts supplémentaires avec vos attaques de griffe et vous subisser une pénalité de -1 à la CA.</p>"
+        },
+        "Primary (1d6, deadly d8, finesse)": {
+            "name": "Primaire (1d6, finesse, mortel d8)"
+        },
+        "Brutal Beast": {
+            "name": "Bête brutale",
+            "description": "<p>For +4, Dex +2, Con +3, Int -1, Sag +1, Cha 0 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Furious Strike": {
+            "name": "Frappe furieuse",
+            "description": "<p>Votre eidolon canalise sa colère dans une attaque furieuse. Il effectue une attaque au corps-à-corps. Cela compte comme deux attaques lorsque vous calculez votre pénalité d'attaques multiples. Si cette Frappe touche, votre eidolon inflige un dé de dégâts d'arme supplémentaire et bénéficie d'un bonus de circonstances de +1 au jet de dégâts.</p>\n<p>Si vous êtes au moins de niveau 10, augmentez ce nombre à deux dés supplémentaires avec un bonus de circonstances de +2 aux dégâts et si vous êtes au moins de niveau 18, augmentez-le à trois dés supplémentaires avec un bonus de circonstances de +3 aux dégâts.</p>"
+        },
+        "Breath Weapon (Poison)": {
+            "name": "Arme de souffle (Poison)",
+            "description": "<p>Votre eidolon souffle une explosion d'énergie destructrice. Votre eidolon inflige [[/r 1d6[poison]]]{1d6 dégâts de poison} à toutes les créatures dans la zone, avec un jet de Réflexes basique contre votre DD de sort. La zone et le type de dégâts de l'arme de souffle sont choisis lorsque l'eidolon obtient cette capacité. Votre eidolon ne peut plus alors utiliser son arme de souffle de nouveau pendant [[/gmr 1d4 #Recharger Souffle]]{1d4 rounds}.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>\n<p>@Template[cone|distance:30]{cône de 9 mètres}</p>\n<p>@Template[line|distance:60]{ligne de 18 mètres}</p>"
+        },
+        "Elemental Maelstrom": {
+            "name": "Maelström élémentaire",
+            "description": "<p>Votre eidolon se transforme temporairement en un vortex tournoyant de matière élémentaire et sème la destruction parmis ses ennemis. Votre eidolon Marche rapidement. Au cours de ce déplacement, il peut tenter une Frappe contre chaque ennemi qui est dans son allonge. Si un ennemi se retrouve dans l'allonge de votre eidolon plus d'une fois, votre eidolon ne porte qu'une seule Frappe contre cet ennemi donné. Ces attaques comptent toutes dans la pénalité d'attaques multiples de votre eidolon, mais la pénalité n'augmente pas avant qu'il ait terminé toutes ses attaques. Si votre eidolon possède la Vitesse appropriée, il peut Escalader, Nager ou Voler au lieu de Marcher rapidement.</p>"
+        },
+        "Eidolon Unarmed Expertise": {
+            "name": "Expertise à mains nues de l'eidolon",
+            "description": "<p>Votre eidolon devient davantage capable d'utiliser ses attaques à mains nues. Il devient expert en attaques à mains nues.</p>"
+        },
+        "Eidolon Defensive Expertise": {
+            "name": "Expertise défensive de l'eidolon",
+            "description": "<p>Votre eidolon augmente sa capacité à éviter les attaques. Sa maîtrise avec la défense sans armures passe à expert.</p>"
+        },
+        "Primary (1d6, fatal d10)": {
+            "name": "Primaire (1d6, fatal d10)"
+        },
+        "Fey Chicanery": {
+            "name": "Chicanerie féerique",
+            "description": "<p>Toujours plein d'astuces, votre eidolon fée tisse des protections magiques dans votre force vitale commune, ce qui lui permet d'avoir un atout dans sa manche pour les situations désespérées. Au cours de vos préparatifs quotidiens, votre eidolon peut lancer un sort de @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{Contingence}. Le sort de rang 4 qu'il choisit doit provenir de la liste des dons primordiaux ou de la liste des sorts du Cadeau féerique et doit être soit courant soit issu d'un sort auquel vous avez accès.</p>"
+        },
+        "Breath Weapon": {
+            "name": "Arme de souffle",
+            "description": "<p>Votre eidolon possède une arme de souffle puissante, qu'il est capable d'utiliser régulièrement pour provoquer des ravages sur vos ennemis. Il obtient l'activité @UUID[Compendium.pf2e.actionspf2e.Item.Vr3w3t028ZKDg0mO]{Arme de souffle}. Choisissez un type de dégâts parmi ceux produits par les différents dragons et choisissez si la zone est un cône de 9 mètres ou une ligne de 18 mètres. L'Arme de souffle et votre eidolon obtiennent le trait correspondant au type de dégâts s'il est applicable.</p>"
+        },
+        "Brazen Swarm": {
+            "name": "Nuée effrontée",
+            "description": "<p><em>For</em> +4, <em>Dex</em> +2, <em>Con</em> +3, <em>Int</em> +0, <em>Sag</em> +0, <em>Cha</em> +0 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Primary (1d8, disarm)": {
+            "name": "Primaire (1d8, désarmer)"
+        },
+        "Eidolon Ability": {
+            "name": "Capacité d'eidolon",
+            "description": "<p>L'eidolon débute avec une capacité initiale déterminée par le type d'eidolon.</p>"
+        },
+        "Breath Weapon (Cold)": {
+            "name": "Arme de souffle (froid)",
+            "description": "<p>Votre eidolon souffle une explosion d'énergie destructrice. Votre eidolon inflige [[/r 1d6[cold]]]{1d6 dégâts de froid} à toutes les créatures dans la zone, avec un jet de Réflexes basique contre votre DD de sort. La zone et le type de dégâts de l'arme de souffle sont choisis lorsque l'eidolon obtient cette capacité. Votre eidolon ne peut plus alors utiliser son arme de souffle de nouveau pendant [[/gmr 1d4 #Recharger Souffle]]{1d4 rounds}.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>\n<p>@Template[cone|distance:30]{cône de 9 mètres}</p>\n<p>@Template[line|distance:60]{ligne de 18 mètres}</p>"
+        },
+        "Quick Treatment": {
+            "name": "Traitement rapide",
+            "description": "<p><strong>Fréquence</strong> Une fois par round</p>\n<hr />\n<p><strong>Effet</strong> Le médecin Marche rapidement et puis utilise @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Prodiguer les premiers soins}, @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Médecine militaire}, @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.ma45EqTK72KQLca3]{Traitement du médecin} ou @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Soigner un empoisonnement}.</p>"
+        },
+        "Eidolon Transcendence": {
+            "name": "Transcendance de l'eidolon",
+            "description": "<p>Le lien forgé avec votre eidolon approche son paroxysme, accordant à votre eidolon la possibilité d'accéder à une nouvelle capacité puissante qui dépend de son type, comme indiqué dans les capacités de l'eidolon dans chaque description des différents types d'eidolon. Cette capacité accroit aussi l'un des scores d'attribut de l'eidolon de +1.</p>",
+            "rules": {
+                "0": {
+                    "prompt": "Sélectionnez un score d'attribut à augmenter"
+                }
+            }
+        },
+        "Stalwart Guardian": {
+            "name": "Vaillant gardien",
+            "description": "<p>For +4, Dex +2, Con +3, Int 0, Sag 0, Cha 0 ; CA +2 (Dex max +3)</p>"
+        },
+        "Sickening Assault": {
+            "name": "Assaut nauséeux",
+            "description": "<p><strong>Fréquence</strong> Une fois par minute</p>\n<p><strong>Conditions</strong> Votre eidolon est dispersé. </p>\n<hr />\n<p>Votre eidolon se concentre pour infliger le plus de dégâts possibles à ses ennemis. Si la prochaine action de votre eidolon consiste à utiliser Assaut de la nuée, le nombre de dés de dégâts d'Assaut de la nuée sont doublés. De plus, les créatures qui obtiennent un échec sur leur jet de Réflexes contre cet Assaut de la nuée sont @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 2} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux 4} en cas d'échec critique).</p>"
+        },
+        "Angelic Avenger": {
+            "name": "Vengeur angélique",
+            "description": "<p>For +4, Dex +2, Con +3, Int -1, Sag +1, Cha 0 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Breath Weapon (Acid)": {
+            "name": "Arme de souffle (Acide)",
+            "description": "<p>Votre eidolon souffle une explosion d'énergie destructrice. Votre eidolon inflige [[/r 1d6[acid]]]{1d6 dégâts d'acide} à toutes les créatures dans la zone, avec un jet de Réflexes basique contre votre DD de sort. La zone et le type de dégâts de l'arme de souffle sont choisis lorsque l'eidolon obtient cette capacité. Votre eidolon ne peut plus alors utiliser son arme de souffle de nouveau pendant [[/gmr 1d4 #Recharger Souffle]]{1d4 rounds}.</p>\n<p>Au niveau 3 et tous les 2 niveaux par la suite, les dégâts augmentent de 1d6.</p>\n<p>@Template[cone|distance:30]{cône de 9 mètres}</p>\n<p>@Template[line|distance:60]{ligne de 18 mètres}</p>"
+        },
+        "Sudden Shift": {
+            "name": "Changement soudain",
+            "description": "<p>Une fois par round, votre eidolon peut passer de l'une de ses formes condensée ou dispersée à l'autre par une action gratuite, au lieu d'une action unique. De plus, votre eidolon obtient la réaction @UUID[Compendium.pf2e-animal-companions.AC-Features.Item.8NK5Z7vLxkTB6pIV]{Redistribuer}.</p>"
+        },
+        "Primordial Elemental": {
+            "name": "Élémentaire primordial",
+            "description": "<p>For +4, Dex +2, Con +3, Int –1, Sag +1, Cha +0 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Medic's Treatment": {
+            "name": "Traitement du médecin",
+            "description": "<p><strong>Conditions</strong> Le médecin maine ou porte un Matériel de guérisseur</p>\n<hr />\n<p><strong>Effet</strong> Le médecin traite une créature adjacente dans une tentative de réduire l'état @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Affaibli}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Maladroit}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Nauséeux} ou @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupéfié}. Si une créature possède plusieurs états de cette liste, le médecin choisit celle qu'il soigne. Le médecin tente un test de contre contre l'état, en utilisant son modificateur de @Check[medicine] comme modificateur de contre et la moitié de son niveau en tant que rang de contre. La source de l'état détermine le DD.</p>\n<p>Le médecin ne peut pas soigner un état qui provient d'un artefact ou d'un effet au-dessus du niveau 20. Utiliser Traitement du médecin sur un état qui est continuellement appliqué (par exemple, l'état Affaibli qu'une créature sainte obtient de transporter une arme impie) n'a pas d'efet tant que les circonstances se poursuivent.</p>\n<hr />\n<p><strong>Succès critique</strong> Réduisez la valeur de l'état choisi de 2.</p>\n<p><strong>Succès</strong> Réduisez la valeur de l'état choisi de 1.</p>\n<p><strong>Échec critique</strong> Augmentez la valeur de l'état choisi de 1.</p>"
+        },
+        "Primal Roar": {
+            "name": "Rugissement primordial",
+            "description": "<p>Votre eidolon relâche un rugissement primal ou un autre bruit terrifiant qui correspond à la forme de votre eidolon. Votre eidolon fait un test d'Intimidation pour @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Démoraliser} tout ennemi qui peut entendre le rugissement. Ces tentatives pour Démoraliser ne subissent pas les pénalités provoquées par le fait de ne pas partager un même langage.</p>"
+        },
+        "Wrathful Berserker": {
+            "name": "Berserker courroucé",
+            "description": "<p>For +4, Dex +2, Con +3, Int -1, Sag 0, Cha +1 ; CA +2 (Max Dex +3)</p>"
+        },
+        "Traveler's Aura": {
+            "name": "Aura du voyageur",
+            "description": "<p>Votre eidolon émet une puissante aura - ressemblant à celle d'un tabellia - qui protège les créatures lors de leurs déplacements. L'aura possède les traits aura et divin. Votre eidolon et ses alliés dans une @Template[emanation|distance:20]{émanation de 6 mètres} sont protégés de la chaleur et du froid intense et votre eidolon n'est jamais @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} contre les créatures à l'intérieur de l'aura qui sont d'un niveau inférieur à celui de l'eidolon.</p>\n<p>Lorsque vous obtenez la capacité de classe Transcendance, cela évolue vers les avantages complets d'un tabellia. Votre eidolon et vos alliés dans l'aura sont protégés des dégâts environnementaux de n'importe quel plan, y compris la chaleur et le froid importants et extrêmes ainsi que des dangers plus inhabituels.</p>"
+        },
+        "Constitution Boost": {
+            "name": "Prime de Constitution"
+        },
+        "Eidolon Unarmed Mastery": {
+            "name": "Maîtrise à mains nues de l'eidolon",
+            "description": "<p>Votre eidolon maîtrise réellement ses attaques à mains nues, atteignant de plus hauts sommets. Sa maîtrise pour les attaques à mains nues passe à maître.</p>"
+        },
+        "Elemental Burst": {
+            "name": "Explosion élémentaire",
+            "description": "<p><strong>Fréquence</strong> Une fois toutes les 10 minutes</p>\n<hr />\n<p>Votre eidolon arrache un morceau de matière élémentaire à sa propre forme et le projette sur un groupe d'ennemis. Votre eidolon perd un nombre de Points de vie égal à votre niveau. Toutes les créatures dans une @Template[burst|distance:20]{explosion de 6 mètres} dans les 18 mètres subissent @Damage[(@actor.level - 1)d6] dégâts avec un jet de Réflexes basique contre votre DD de sort. Les dégâts augmentent de 1d6 pour chaque niveau que vous possédez au delà du niveau 7. Le type de dégât est soit de feu si votre eidolon est un élémentaire de feu, soit du même type de dégât physique que ceux de l'attaque à mains nues primaire de l'eidolon si votre eidolon n'est pas un élémentaire de feu. Les explosions élémentaires obtient tous les traits que les attaques à mains nues de l'eidolon obtiennent de Noyau élémentaire.</p>"
+        },
+        "Wisdom Boost": {
+            "name": "Prime de Sagesse"
+        },
+        "Growing Vines": {
+            "name": "Lianes extensibles",
+            "description": "<p>Les lianes et les branches de votre eidolon s'étirent encore plus. Toutes les Frappes à mains nues au corps-à-corps de votre eidolon obtiennent le trait allonge.</p>"
+        },
+        "Eidolon Symbiosis": {
+            "name": "Symbiose de l'eidolon",
+            "description": "<p>Le lien que vous avez noué avec votre eidolon se renforce, accordant à votre eidolon l'accès à une nouvelle capacité qui dépend de son type, comme indiqué dans les capacités de l'eidolon dans chaque description des différents types d'eidolon.</p>"
+        },
+        "Anger Aura": {
+            "name": "Aura colérique",
+            "description": "<p>Votre eidolon dégage une aura de colère autour de lui, suscitant l'ire des créatures proches et faisant craquer leurs défenses alors qu'elles bouillonnent de rage. Votre eidolon gagne une aura de colère de 6 mètres qui possède les traits aura, émotion, mental et occulte. Les résistances de toute créature dans l'aura, y compris vous, vos alliés, vos ennemis et votre eidolon sont réduites d'un montant égal à 3 + le modificateur de Constitution de votre eidolon. Votre eidolon peut contenir sa rage en dépensant une unique action, qui possède le trait concentration. L'effet de l'aura est alors réduit pour n'affecter que votre eidolon. Il peut refaire cette action pour rétablir le plein effet de son aura. Les créatures en proie à la @UUID[Compendium.pf2e.classfeatures.Item.WZUCvxqbigXos1L9]{Rage de barbare}, Frénésie effrénée ou toute autre capacité similaire qui leur permet de canaliser leur colère ne sont pas affectées par l'aura de colère.</p>"
+        },
+        "Share the Pain": {
+            "name": "Partager la douleur",
+            "description": "<p><strong>Déclencheur</strong> Le berserker est touché de manière critique par une créature qui est dans son allonge</p>\n<hr />\n<p><strong>Effet</strong> Le berserker porte une Frappe au corps-à-corps contre cette créature.</p>"
+        },
+        "Dexterity Boost": {
+            "name": "Prime de Dextérité"
+        },
+        "Reckless Attack": {
+            "name": "Attaque téméraire",
+            "description": "<p><strong>Fréquence</strong> Une fois par tour</p>\n<p><strong>Déclencheur</strong> Vous Dirigez le berserker</p>\n<hr />\n<p><strong>Effet</strong> Le berserker obtient un bonus de circonstances de +1 à son prochain jet d'attaque lors de ce tour. Il est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} jusqu'au début de votre prochain tour.</p>"
+        },
+        "Scout Construct": {
+            "name": "Créature artificielle éclaireuse",
+            "description": "<p>For +2, Dex +4, Con +3, Int +1, Sag 0, Cha -1 ; CA +1 (Max Dex +4)</p>"
+        },
+        "Angelic Mercy": {
+            "name": "Grâce angélique",
+            "description": "<p>Le pouvoir angélique de votre eidolon lui permet de soulager une variété de maux, comme la plupart des autres anges puissants. Votre eidolon peut lancer @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Affliction purifiée} deux fois par jour, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Clarté d'esprit} une fois par jour et @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Remise sur pied} une fois par jour, chacun comme un sort inné divin au rang 9.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

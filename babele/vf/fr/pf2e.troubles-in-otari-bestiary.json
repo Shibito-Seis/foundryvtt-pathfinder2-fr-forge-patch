@@ -1,0 +1,516 @@
+{
+    "label": "Otira en difficulté",
+    "entries": {
+        "Web Lurker Noose": {
+            "name": "Noeud coulant du Rôdeur des toiles",
+            "desc (hazard)": "<p>Des fils d'araignée discrets placés à hauteur de gorge s'enroulent autour de la créature qui les traverse.</p>",
+            "disable": "<p>@Check[survival|dc:18] (qualifié) ou test de @Check[thievery|dc:18|traits:action:disable-a-device] (expert) pour réarranger le fil.</p>",
+            "items": {
+                "NoYQle3HJatFQcgH": {
+                    "name": "Noeud coulant",
+                    "description": "<p>La cible est @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippée} et soulevée de terre ([[/act escape dc=22]]{S'Échapper}).</p>"
+                },
+                "l8f0B8czvLKLsc06": {
+                    "name": "Noeud coulant de toile",
+                    "description": "<p>Si une créature entre sur la case comportant le fil déclencheur du piège, le noeud coulant du rôdeur des toiles fait une Frappe de noeud coulant contre la créature.</p>"
+                }
+            }
+        },
+        "Stinkweed Shambler": {
+            "name": "Grand tertre putréfeuille",
+            "description": "<p>Les grands tertres putréfeuilles sont des amas animés de plantes pourries qui poussent sur le sol nécrotique où des blêmes, des zombies infestés de maladies ou d'autres créatures mortes-vivantes putrides sont tombées. Sur un site où de nombreuses créatures mortes-vivantes ont été détruites, une infestation d'une douzaine de grands tertres putréfeuilles au maximum peut apparaître. Ces « compagnons de pourriture » travaillent bien ensemble et sont coordonnés de façon surnaturelle. Les grands tertres putréfeuilles se développent rapidement. Ils ressemblent tout d'abord à des jeunes pousses aux feuilles vert clair et à la croissance rapide mais, rapidement, ils prennent une forme humanoïde qui leur permet de sortir du sol et de se déplacer. Une odeur désagréable émane des feuilles des grands tertres putréfeuilles et s'amplifie si ces dernières sont écrasées ou pressées. Ces créatures sont recouvertes de petites fleurs blanches, chacune prenant la forme d'un crâne minuscule.</p>\n<p>Les grands tertres putréfeuilles sont particulièrement mauvais, mais leurs méthodes ne sont pas très complexes. Ils adorent capturer et tourmenter des créatures plus grosses qu'eux, comme du bétail ou des humanoïdes. Conscients de ne pas être particulièrement forts et du fait que leur odeur peut les trahir, ils aiment poser des pièges simples tels que des assommoirs ou des fosses. Leur jeu pervers ne prend fin que lorsque leur proie meurt suite à de nombreuses blessures. Ils ne mangent pas leurs victimes. En réalité, ils n'ont même pas de bouche et se nourrissent de la lumière du soleil, mais ils semblent tirer une satisfaction nutritionnelle de la souffrance qu'ils infligent.</p>\n<p>La plupart des grands tertres putréfeuilles ne dépassent pas 90 cm de haut et pèsent seulement 13 kg.</p>",
+            "languages": "(ne peut parler aucune langue)",
+            "items": {
+                "0gQuuCA2OyaQRNwR": {
+                    "name": "Puanteur",
+                    "description": "<p>3 mètres. Une créature qui pénètre dans l'aura ou y débute son tour doit réussir un jet de @Check[fortitude|dc:14|options:area-effect,inflicts:off-guard,inflicts:slowed] pour éviter de devenir @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} pendant 1 round (et @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Ralentie 1} pendant 1 round sur un échec critique). Une créature qui réussit son jet de sauvegarde est immunisée pendant 1 minute.</p>"
+                },
+                "56wLde8SVEfys89N": {
+                    "name": "Liane"
+                },
+                "742oUZV30i6otpgL": {
+                    "name": "Feuilles puantes",
+                    "description": "<p>L'odeur infâme émise par un grand tertre putréfeuille est amplifiée lorsque ses feuilles sont écrasées ou brûlées. Lorsqu'un grand tertre putréfeuille subit des dégâts contondants ou de feu, le DD de son pouvoir de puanteur passe à 18 et son bonus à la Discrétion à +4. Ces deux effets durent 1 minute.</p>"
+                },
+                "H8wipabcGbcu7thF": {
+                    "name": "Mauvaise herbe",
+                    "description": "<p>Le grand tertre putréfeuille Marche rapidement jusqu'à la moitié de sa Vitesse. Ce déplacement ne déclenche pas de réactions.</p>"
+                },
+                "Wigs6zeZoSmogj8P": {
+                    "name": "Gousse"
+                },
+                "zNOKH6cGU4FaspAX": {
+                    "name": "Déplacement facilité en forêt",
+                    "description": "<p>Le grand tertre putréfeuille ignore le terrain difficile et le terrain très difficile lié à une végétation non magique.</p>"
+                }
+            }
+        },
+        "Kotgar Leadbuster": {
+            "name": "Kotgar Brise-négoce",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Pousser"
+                }
+            },
+            "items": {
+                "I0AZeY12ooiFLuuW": {
+                    "name": "Poussée en puissance",
+                    "description": "<p>Lorsqu'une créature que Kotgar a Poussée doit arrêter son déplacement parce qu'elle devrait percuter un objet, elle subit @Damage[4[bludgeoning]]{4 dégâts contondants}.</p>"
+                },
+                "QsDscs637yu2ccyr": {
+                    "description": "<p>L'armure de plates est constituée pour l'essentiel de la partie des plaques qui composent le haut du harnois, avec une protection de plaques en acier plus légère ou plus clairsemée au niveau des bras et des jambes. Cela procure une partie de la protection du harnois avec davantage de souplesse et de rapidité. Une telle armure comporte également une armure matelassée portée en dessous et une paire de gantelets.</p>"
+                },
+                "aADQJA0W9vAaOmXT": {
+                    "name": "Maillet"
+                },
+                "di2qBg3DVoOSKzDk": {
+                    "name": "Fer allégé",
+                    "description": "<p>Kotgar ignore la réduction à sa Vitesse due à son armure et déduit 1,50 mètre de toute pénalité à sa Vitesse (résultant d'un sort par exemple).</p>"
+                },
+                "gqjrPshyFW4Y4vrS": {
+                    "name": "Javeline"
+                },
+                "ll1kYssjNZ4S5vnd": {
+                    "name": "Poussée brutale",
+                    "description": "<p>Si Kotgar a déjà attaqué à ce tour et tient une arme de corps-à-corps à deux mains, il peut effectuer une Frappe avec cette dernière. S'il touche une cible de taille Moyenne ou inférieure, il la repousse de 1,50 mètre, ou de 3 mètres si sa Frappe est un coup critique. Kotgar peut se déplacer pour suivre la cible. Qu'il touche ou non la cible, celle-ci est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'à la fin du tour actuel de Kotgar, sauf s'il a obtenu un échec critique.</p>"
+                }
+            }
+        },
+        "Scalliwing": {
+            "name": "Ailécaille",
+            "description": "<p>Les couatls sont de gros serpents aux couleurs vives dotés d'ailes recouvertes de plumes. Bienveillantes, ces créatures aident les mortels et confrontent les scélérats. En apercevoir un est un événement mémorable car ces spécimens magnifiques (et reclus) ne se montrent que rarement.</p>\n<p>Le plus petit membre de la famille des couatls, l'ailécaille, ressemble à son cousin plus gros mais ne dépasse pas la taille d'un chat domestique et ses tendances irascibles et malicieuses s'opposent à sa gentillesse naturelle. Si la plupart des couatls cherchent à faire le bien dans le monde ou à guider les civilisations mortelles vers le progrès, les ailécailles agissent à une échelle plus personnelle. Ils affirment que leur rôle est d'enseigner aux incantateurs profondément bons l'art de la magie et il est vrai qu'ils servent ou « assistent » (terme qu'ils préfèrent) parfois ces derniers en tant que familiers.</p>\n<p>Avec leurs écailles iridescentes et leurs plumes vives, les ailécailles sont des créatures incroyablement belles. Ils semblent tout à fait conscients de ce fait et usent de leur apparence pour s'attirer les faveurs des autres. Si leur beauté rend certains d'entre eux légèrement prétentieux, nombre d'ailécailles pensent que leur petite taille et leurs moyens de défenses relativement faibles les laissent à la merci des créatures plus grandes et cruelles cherchant à faire d'eux de beaux animaux de compagnie... ou des trophées. Ils peuvent vivre de leur plein gré dans une seule résidence indéfiniment, mais certains ailécailles captifs ont élaboré des évasions sournoises en s'alliant à d'autres créatures pour causer le plus de dégât matériel possible au passage.</p>\n<p>Les ailécailles font environ 60 cm de longueur du museau à la queue et leur envergure est à peu près similaire. Leur espérance de vie est presque aussi longue que celle des humains. Même si les ailécailles semblent un peu plus courants que leurs cousins plus gros et reclus, bien des mortels finissent leur vie sans jamais en avoir rencontré un seul.</p>",
+            "items": {
+                "1uUxlDMn7nj3yjAy": {
+                    "name": "Sorts innés divins"
+                },
+                "Ihvi8o6Gm4pwbhph": {
+                    "name": "Crocs"
+                },
+                "RCEaWshja45Dxwyq": {
+                    "name": "Manipulation télékinésique"
+                },
+                "qunm5Cfit6Q1T4dI": {
+                    "name": "Battement d'aile",
+                    "description": "<p>L'ailécaille ouvre grand ses ailes iridescentes et les bat de façon hypnotisante. Toutes les créatures situées dans un rayon de 3 mètres et qui peuvent voir l'ailécaille doivent tenter un jet de @Check[will|dc:20].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu'au début de son prochain tour.</p>\n<p><strong>Échec</strong> La créature est Prise au dépourvu jusqu'au début de son prochain tour et elle doit utiliser la première action de son prochain tour pour admirer l'ailécaille.</p>\n<p><strong>Échec critique</strong> La créature est Prise au dépourvu jusqu'au début de son prochain tour. Pendant 1 minute, la créature doit dépenser la première action de chacun de ses tours pour admirer l'ailécaille. Cet effet prend fin si l'ailécaille attaque ou utilise une autre action hostile contre la créature affectée.</p>"
+                },
+                "wlSTHbfmM751AGNy": {
+                    "name": "Invisibilité (soi uniquement)"
+                }
+            }
+        },
+        "Morgrym Leadbuster": {
+            "name": "Morgrym Brise-négoce",
+            "DiplomacyVariants": {
+                "0": {
+                    "label": "contre les démons"
+                }
+            },
+            "items": {
+                "5519SZd2Gx7R0pso": {
+                    "name": "Grimoire (Arcanumnémonique avancée)"
+                },
+                "7TD5aX6vNauxTw5T": {
+                    "name": "Lien arcanique",
+                    "description": "<p>Une fois par jour, Morgrym peut drainer la puissance de son objet lié pour choisir un sort qu'il a déjà lancé ce jour et le lancer à nouveau. Le rappel du sort est instantané, mais il doit toujours dépenser les actions nécessaires à son incantation.</p>"
+                },
+                "LmiiYNAOwkxPs3WZ": {
+                    "name": "Salve de force"
+                },
+                "OOCu4hNQg4NvyXLU": {
+                    "name": "Sorts arcaniques préparés"
+                },
+                "QZb6NNceGC3aMTMO": {
+                    "name": "Bâton"
+                },
+                "W6XkoyVR7QH9Z8lg": {
+                    "name": "Défense nécromantique",
+                    "description": "<p>Si Morgrym est ciblé par une attaque et qu'une créature morte-vivante d'un niveau inférieur lui est adjacente, Morgrym et cette dernière échangent leur place et le mort-vivant devient la cible de l'attaque.</p>"
+                },
+                "ahXVih7AtAIrRV01": {
+                    "name": "Connaissance des démons"
+                },
+                "gTjE5Ad9b6jVEcWf": {
+                    "name": "Bourse de composants matériels",
+                    "description": "<p>Cette bourse contient des composants matériels pour les sorts qui les requièrent. Ces composants s'épuisent au fil du temps, mais vous pouvez en recharger le stock au cours de vos préparatifs quotidiens.</p>"
+                },
+                "rRhnUYuOOEYUCJIm": {
+                    "name": "Manipulation télékinésique"
+                },
+                "rdn13vwGUehKyhha": {
+                    "name": "Brume"
+                },
+                "vlVKxFijTHI7cMPh": {
+                    "name": "Nécromancien",
+                    "description": "<p>Morgrym manipule les forces sombres de la vie et de la mort et utilise sa magie pour réaliser ses objectifs. Il peut lancer @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{terreur} comme un sort d'école.</p>"
+                },
+                "xQTqtFFkEcJJWCDW": {
+                    "name": "Baguette de Terreur (Niveau 1)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Terreur}</p>\n<hr />\n<p>Cette baguette fait 30 cm de long environ et contient un unique sort. Son aspect physique est généralement en rapport avec le sort qu'elle contient.</p>\n<p><strong>Activation</strong> Lancer un sort</p>\n<p><strong>Fréquence</strong> Une fois par jour, plus surcharger</p>\n<hr />\n<p><strong>Effet</strong> Vous lancez le sort au rang indiqué.</p>\n<p><strong>Conditions de fabrication</strong> Fournir une incantation du sort du rang indiqué.</p>\n<hr />\n<p><em>Note : Pour créer un parchemin ou une baguette d'un sort spécifique, faites glisser le sort du compendium ou du navigateur de compendium dans l'inventaire d'un PJ, PNJ ou d'un acteur de butin.</em></p>"
+                },
+                "zhR9Ys8AyYNjAz29": {
+                    "name": "Sorts arcaniques focalisés"
+                }
+            }
+        },
+        "Orc Scrapper": {
+            "name": "Baroudeur orc",
+            "items": {
+                "MKiOmYkknzLyP0Am": {
+                    "name": "Javeline"
+                },
+                "b200ENWSAzXNlSMf": {
+                    "name": "Hache d'armes"
+                },
+                "symt5PZrNoJWeIqe": {
+                    "name": "Poing"
+                },
+                "yO0des1hsDGi98Ov": {
+                    "description": "<p>Bien qu'il soit appelé cuirasse, ce type d'armure est constitué de plusieurs éléments de harnois ou d'armure de plates qui protègent le torse, la poitrine, le cou et parfois les hanches et le bas des jambes. Elle accorde une partie de la protection du harnois stratégiquement tout en permettant plus de souplesse et de rapidité.</p>"
+                }
+            }
+        },
+        "Kobold Trapmaster": {
+            "name": "Kobold maître-des-pièges",
+            "description": "<p>Les kobolds maître-des-pièges sont les maîtres d'œuvre de la fabrication et de la mise en place de pièges astucieux dans les repaires kobolds, et sont donc grandement respectés au sein des leurs.</p>",
+            "items": {
+                "BH97LqHtuqNlighQ": {
+                    "name": "Retraite précipitée",
+                    "description": "<p>Si le kobold est adjacent à au moins un ennemi, il Marche rapidement jusqu'à un maximum de 9 mètres et obtient un bonus de circonstances de +2 à sa CA contre les réactions à ce déplacement. Il doit terminer son déplacement dans un espace qui n'est pas adjacent à celui d'un ennemi.</p>"
+                },
+                "Fges35T0kVykR3rl": {
+                    "description": "<p>Le kobold maître-des-pièges inflige 1d6 dégâts supplémentaires aux créatures qui sont @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "QfWg8mYxqbJly84b": {
+                    "name": "Épée courte"
+                },
+                "QfnsBk0XQ6x9wJSe": {
+                    "name": "Piège éclair",
+                    "description": "<p>Le kobold maître-des-pièges déploie un piège à pics dans une case adjacente.</p>"
+                },
+                "ccosYJxMalM6rfN8": {
+                    "name": "Piège à pointes",
+                    "description": "<p>Une fois ce piège déployé, toute personne qui marche sur la case où il se trouve reçoit @Damage[2d8[piercing]]{2d8 dégâts perforants} et doit faire un jet de @Check[reflex|dc:17|basic].</p>"
+                },
+                "nDnP6GpXjTbXqbXB": {
+                    "name": "Piège à pointes",
+                    "description": "<p>Ce piège artisanal basique consiste en des pointes cachées qui dépendent de l'élan d'une créature pour la lacérer et potentiellement l'empaler lorsqu'elle pénètre dans la case du piège, lui infligeant 2d8 dégâts perforants. La créature doit tenter un jet de [reflex|dc:17|basic].</p>"
+                },
+                "u4infcHTr2ku9Uxi": {
+                    "name": "Lance"
+                }
+            }
+        },
+        "Hargrit Leadbuster": {
+            "name": "Hargrit Brise-négoce",
+            "DiplomacyVariants": {
+                "0": {
+                    "label": "contre les diables"
+                }
+            },
+            "items": {
+                "2uDTTLnPGGNUafjb": {
+                    "name": "Connaissance des fiélons"
+                },
+                "8hva3s7KDSqeUTKh": {
+                    "name": "Dague"
+                },
+                "9Nve1oYElRWcJhIh": {
+                    "name": "Fer allégé",
+                    "description": "<p>Hargrit ignore la réduction à sa Vitesse due à son armure et déduit 1,50 mètre de toute pénalité à sa Vitesse (due à un sort par exemple).</p>"
+                },
+                "HWwf9OfDEQH53F11": {
+                    "name": "Symbole religieux en bois d'Asmodéus",
+                    "description": "<p>Ce morceau en bois ou en argent est décoré d'une représentation de divinité. Certains lanceurs de sorts divins tels les prêtres, peuvent utiliser le symbole religieux de leur divinité pour lancer des sorts divins et disposer des capacités divines. Un symbole religieux peut être porté sur le corps, au bout d'une chaîne, épinglé en une broche ou être tenu en main.</p>"
+                },
+                "UkurqY6wQGrS67eI": {
+                    "name": "Sorts divins préparés"
+                },
+                "fq5jsjB5HkWo1JYN": {
+                    "name": "Parchemin d'Arme Runique (Niveau 1)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Arme runique}</p>\n<hr />\n<p>Pour lancer un sort à partir d'un parchemin, vous devez le tenir d'une main et l'activer avec l'activité @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Lancer un sort} en effectuant le nombre normal d'actions pour le sort.</p>\n<p>Ce sort doit figurer dans votre liste de sorts. Étant donné que vous êtes celui qui Lance le sort, utilisez votre jet d'attaque de sort et votre DD des sorts. Le sort obtient le trait approprié à votre tradition (arcanique, divin, occulte ou primordial).</p>\n<p>Tous les coûts physiques sont fournis lors de la création du parchemin, vous n'avez donc pas à les fournir lorsque vous Lancez un sort à l'aide du parchemin. Si le sort exige un locus, vous devez en disposer pour Lancer le sort avec le parchemin.</p>\n<hr />\n<p><em>Note : Pour créer un parchemin ou une baguette d'un sort spécifique, faites glisser le sort du compendium ou du navigateur de compendium dans l'inventaire d'un PJ, PNJ ou d'un acteur de butin.</em></p>"
+                },
+                "im2oO2yyYG0V2Ola": {
+                    "name": "Cracher du feu"
+                },
+                "jgcCZHnrNbS5iREn": {
+                    "name": "Carte de la région",
+                    "description": "<p>Cette carte indique le château de la Divagation, le camp de bûcherons, les déplacements de ces derniers et des plans d'attaque.</p>\n<hr />\n<p>Les cartes sont peu courantes. La plupart des cartes que vous pouvez trouver sont simples et fonctionnelles. Une carte topographique détaille un seul endroit avec une grande précision.</p>\n<p>L'une de ces cartes vous confère un bonus d'objet de +1 aux tests de Survie et à tous les tests de se Souvenir, à condition que les tests soient liés à l'endroit détaillé sur la carte.</p>"
+                },
+                "kTxHlTVAuyTkaLZP": {
+                    "description": "<p>L'armure de plates est constituée pour l'essentiel de la partie des plaques qui composent le haut du harnois, avec une protection de plaques en acier plus légère ou plus clairsemée au niveau des bras et des jambes. Cela procure une partie de la protection du harnois avec davantage de souplesse et de rapidité. Une telle armure comporte également une armure matelassée portée en dessous et une paire de gantelets.</p>"
+                },
+                "oLyTtWtLiYftOoqy": {
+                    "name": "Discerner l'invisible"
+                },
+                "qEbFimPOeE5aFvE7": {
+                    "name": "Dague"
+                }
+            }
+        },
+        "Kurnugian Jackal": {
+            "name": "Chacal kurnugien",
+            "description": "<p>Lors d'alignements planétaires particuliers, Lamashtu offre un présent impie à une femelle chacal de l'Univers. Lorsque cette dernière a une portée, l'un des bébés naît avec un troisième oeil placé au centre de son front. S'il survit jusqu'à sa maturité, ce chacal gagne une intelligence supérieure et des pouvoirs psychiques, ce qui fait de lui un chacal Kurnugian, en référence au royaume des Failles extérieures de la Mère des Monstres. Son intelligence va de pair avec une envie irrépressible de semer le chaos au nom de Lamashtu. Lorsqu'un chacal Kurnugian atteint l'apogée de son pouvoir, il devient deux fois plus gros qu'un chacal normal et bien plus astucieux.</p>\n<p>Un chacal kurnugien aime rôder en périphérie de communautés, à la recherche d'individus solitaires qu'il pourrait prendre en embuscade. Lorsqu'il a trouvé une proie, il ouvre son troisième oeil pour l'hypnotiser et l'attirer à lui. Souvent, un chacal kurnugien fait venir ses victimes jusque dans la nature sauvage puis relâche son emprise. Elles se retrouvent alors perdues et sans aucun souvenir de la façon dont elles sont arrivées là. La plupart meurent de froid ou succombent face aux dangers de la nature sauvage sous les yeux du chacal qui se délecte du spectacle. Ce dernier semble se nourrir des souffrances de ses victimes comme de leur chair une fois qu'elles ont péri. Si sa proie parvient à se mettre en sûreté, le chacal kurnugien réitère le processus les nuits suivantes.</p>\n<p>Certaines de ces créatures sont vénérées par des cultes lamashtiens et d'autres rassemblent leurs propres partisans. Leur ressemblance avec le symbole religieux de Lamashtu leur confère une grande révérence et ils prétendent parfois parler au nom de la Mère des Monstres. Un culte accompagné d'un chacal Kurnugien agit souvent plus audacieusement que ceux qui en sont dépourvus.</p>",
+            "items": {
+                "73fsCGNUERkE3I1S": {
+                    "name": "Regard hypnotisant",
+                    "description": "<p>Le chacal kurnugien ouvre son troisième oeil pour fixer une cible à moins de 9 mètres qui peut voir le chacal. La cible subit une pénalité de -2 à ses jets de Volonté jusqu'à la fin du prochain tour du chacal kurnugien. Le chacal kurnugien peut maintenir ce regard sur un seul adversaire à la fois. S'il l'utilise sur une deuxième cible, la première est libérée de son effet. Le chacal peut le révoquer pour une action gratuite et utiliser son pouvoir Effacer la mémoire s'il le désire.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.qFDiWpzk8cuwQGyH]{Effet : Regard hypnotisant}</p>"
+                },
+                "Nc23oEL8srJURx0P": {
+                    "name": "Effacer la mémoire",
+                    "description": "<p>Le chacal kurnugien met fin à son pouvoir regard hypnotisant avant la fin de ce dernier et, juste avant cela, la cible doit réussir un jet de @Check[will|dc:24] ou oublier toute action hostile que le chacal a effectuée contre elle.</p>"
+                },
+                "Pp6TdDyWY8mxGAY8": {
+                    "name": "Accès de rigolade"
+                },
+                "YB4lJDTFGnMJZxPX": {
+                    "name": "Mâchoires"
+                },
+                "YhlP3I6uuAc1wEik": {
+                    "name": "Sorts innés divins"
+                },
+                "c6BnmJR85HoUuFbA": {
+                    "name": "Infliger la souffrance",
+                    "description": "<p>Lorsqu'une cible affectée par le regard hypnotisant du chacal kurnugien subit des dégâts, le chacal peut concentrer la puissance de son troisième oeil pour intensifier la souffrance infligée par ces dégâts et augmenter ces derniers par [[/r 1d6]]{1d6}.</p>"
+                },
+                "zIVdYYeI6vxTGwrc": {
+                    "name": "Discerner l'invisible"
+                }
+            }
+        },
+        "Omblin Leadbuster": {
+            "name": "Omblin Brise-négoce",
+            "items": {
+                "088hXYj7GIHJtlm7": {
+                    "name": "Arbalète de poing"
+                },
+                "1on1nKLods5yCirm": {
+                    "description": "<p>Omblin inflige 1d6 dégâts supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+                },
+                "I6Vb3uZRlv6pkiNj": {
+                    "name": "Coup déséquilibrant",
+                    "description": "<p>Lorsqu'Omblin obtient un coup critique sur une cible et lui inflige des dégâts, cette dernière est @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} contre ses attaques jusqu'à la fin du prochain tour d'Omblin.</p>"
+                },
+                "QVjozo4fqxCzzccc": {
+                    "name": "Rapière"
+                },
+                "wyzsbdPo28UWUYTD": {
+                    "name": "Fer allégé",
+                    "description": "<p>Omblin ignore la réduction à sa Vitesse due à son armure et déduit 1,50 mètre de toute pénalité à sa Vitesse (infligé par un sort).</p>"
+                }
+            }
+        },
+        "Tongues of Flame": {
+            "name": "Langues de feu",
+            "hpdetails": "<p>Pour détruire un seul bec; <strong>Porte</strong> Solidité 6, <strong>PV</strong> 22 (SR 11) pour défoncer une porte et fuir le piège</p>",
+            "desc (hazard)": "<p>Des becs cachés dans le plafond des quatres couloirs menant à l'intersection crachent des jets de flammes lorsque le piège est déclenché.</p>",
+            "disable": "<p>@Check[thievery|dc:22|traits:action:disable-a-device] pour désamorcer un seul bec, deux tests de @Check[thievery|dc:21|traits:action:pick-a-lock] pour déverrouiller une porte ou test de @Check[thievery|dc:25|traits:action:disable-a-device] pour désactiver le piège depuis le panneau de contrôle. Un héros qui n'est pas qualifié en Vol rate automatiquement ces tests.</p>",
+            "reset": "<p>Le piège se désactive et se réinitialise au bout de 10 minutes. Lorsque le piège s'est activé quatre fois, il tombe à court de combustible et doit être réinitialisé manuellement.</p>",
+            "routine": "<p>(4 actions). Le piège perd 1 action chaque tour pour chaque bec désamorcé. À chaque action, un bec différent crache un jet de flamme dans un couloir, infligeant @Damage[3d6[fire]]{3d6 dégâts de feu} à chaque créature dans les 3 premiers mètres du couloir après l'intersection (@Check[reflex|dc:22|basic]).</p>\n<p>Une créature qui se tient dans l'intersection des couloirs peut être touchée par un seul jet de flammes par round même si elle se trouve dans la zone de plusieurs jets de flammes. La créature n'a le droit qu'à un jet de sauvegarde par round mais subit une pénalité de circonstances de -2 à ce jet.</p>",
+            "items": {
+                "Fk4R8F6Vr2Lr7mZZ": {
+                    "name": "Sceller les portes",
+                    "description": "<p>Si une créature pénètre dans l'intersection du couloir, les quatre portes permettant de sortir de cette intersection de ferment et se verrouillent et le piège utilise sa Discrétion (+13) pour déterminer son jet d'initiative.</p>"
+                }
+            }
+        },
+        "Viper Urn": {
+            "name": "Urne de la vipère",
+            "desc (hazard)": "<p>Une urne en céramique contenant une vipère enroulée sur elle-même bascule et se brise lorsque le fil déclencheur est tiré.</p>",
+            "disable": "<p>@Check[thievery|dc:15|traits:action:disable-a-device] (qualifié) pour stabiliser l'urne ou @Check[athletics|dc:15] pour la déposer délicatement au sol.</p>",
+            "items": {
+                "0SzWuQBdiVOEj4WC": {
+                    "name": "Urne brisée"
+                },
+                "dwvQyKJ9gUWC4S3f": {
+                    "name": "Basculer",
+                    "description": "<p>Lorsque quelqu'un déclenche le fil du piège, l'urne se brise contre une créature dans l'embrasure de la porte, faisant une Frappe d'urne brisée contre celle-ci, puis libère la @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.1uVwkGlqYzyWaDMy]{vipère} dans la case qui contient le piège. La vipère attaque toute créature non-végétale qu'elle détecte.</p>"
+                }
+            }
+        },
+        "Collapsing Porch": {
+            "name": "Effondrement du porche",
+            "desc (hazard)": "<p>Plusieurs planches pourries et branlantes s'effondrent et font tomber une créature de près de 2 mètres sur des rochers et des éclats de bois.</p>",
+            "disable": "<p>@Check[crafting|dc:15] (qualifié) pour remplacer ou recouvrir les parties fragilisées du sol ou test de @Check[survival|dc:15] (qualifié) pour faire tomber les planches depuis une distance de sécurité suffisante.</p>",
+            "reset": "<p>Une fois que cette section du porche s'est effondrée, les créatures peuvent tout de même tomber dans le trou jusqu'à ce que le porche soit Réparé.</p>",
+            "stealth": "<p>(ou 0 une fois qu'il a été déclenché)</p>",
+            "items": {
+                "71j8rIykcKntxLJQ": {
+                    "name": "Effondrement",
+                    "description": "<p>Si une créature marche sur la zone indiquée sur la carte, elle passe à travers les planches fragilisées et atterrit sur des rochers et des éclats de bois, ce qui lui inflige @Damage[1d4[piercing],1d6[bludgeoning]]{1d4 dégâts perforants et 1d6 dégâts contondants}. La créature peut tenter de @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Se raccrocher in extremis} pour éviter la chute et les dégâts.</p>"
+                }
+            }
+        },
+        "Magic Starknives Trap": {
+            "name": "Piège de lamétoiles magiques",
+            "desc (hazard)": "<p>Les gravures de lamétoiles sur les six piliers luisent et sont projetées à travers la pièce.</p>",
+            "disable": "<p>@Check[thievery|dc:21|traits:action:disable-a-device] (expert) ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} sur quatre piliers pour désamorcer le piège entier (le piège est un sort de rang 2 et le DD pour le dissiper est de 21). Détruire quatre des piliers désamorce également le piège.</p>",
+            "reset": "<p>Le piège se désactive 1 round après qu'il n'a plus de créatures à cibler et se réinitialise chaque jour au coucher du soleil.</p>",
+            "routine": "<p>(3 actions). Pour chacune de ses actions pendant son tour, une gravure d'un pilier différent brille et fait une Frappe à distance de lamétoile magique contre une créature à portée choisie aléatoirement. Les créatures peuvent bénéficier d'un abri contre cette Frappe, en se cachant derrière un pilier par exemple.</p>",
+            "stealth": "<p>Pour remarquer les énergies magiques présentes dans les piliers</p>",
+            "items": {
+                "O9himtaJvrfCALhE": {
+                    "name": "Lamétoile magique"
+                },
+                "dwvQyKJ9gUWC4S3f": {
+                    "name": "Attaque de lamétoile",
+                    "description": "<p>Si une créature passe entre les deux piliers du centre, les deux portes se ferment et se verrouillent ; tant que le piège est actif, les portes doivent être ouvertes de force grâce à un test d'@Check[athletics|dc:23|name:Défoncer la porte|traits:action:force-open] ou suffisamment de dégâts (Solidité 12, PV 48 [SR 24]). L'une des gravures de lamétoile brille, se détache du pilier puis vole en effectuant une Frappe à distance de lamétoile magique contre une créature à portée choisie aléatoirement. Le piège fait ensuite un jet d'initiative avec son modificateur de Discrétion de +12.</p>"
+                }
+            }
+        },
+        "Orc Commander": {
+            "name": "Commandant orc",
+            "items": {
+                "ZhDg0uKQhEzdCReZ": {
+                    "name": "Poing"
+                },
+                "d5T3nJCRgqqqQvzD": {
+                    "name": "Cri de guerre",
+                    "description": "<p>En beuglant puissamment, le commandant se confère, ainsi qu'à tous les orcs alliés pouvant l'entendre dans une @Template[emanation|distance:60]{émanation de 18 mètres}, un bonus de statut de +1 aux jets d'attaque et de dégâts jusqu'au début du prochain tour du commandant orc.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Yqq4AkZ9lrm4CcID]{Effet : Cri de guerre}</p>"
+                },
+                "lLR6EoZxZTWifZUj": {
+                    "name": "Maillet"
+                },
+                "uGR730eqkGcdJEfo": {
+                    "name": "Javeline"
+                }
+            }
+        },
+        "Brimstone Rat": {
+            "name": "Rat sulfureux",
+            "AthleticsVariants": {
+                "0": {
+                    "label": "pour Escalader ou Nager"
+                }
+            },
+            "items": {
+                "WqgfgkwqUVMJK44b": {
+                    "name": "Mâchoires"
+                }
+            }
+        },
+        "Nightmare Terrain": {
+            "name": "Terrain cauchemardesque",
+            "desc (hazard)": "<p>Ce qui semble être un terrain sans danger attaque les intrus avec de terribles illusions.</p>",
+            "disable": "<p>@Check[arcana|dc:22], @Check[nature|dc:22], @Check[occultism|dc:22] ou @Check[religion|dc:22] (par un héros expert dans cette compétence) trois fois pour interrompre temporairement la magie ou @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dissipation de la magie} (contrer : Rang 3 ; DD 25).</p>",
+            "reset": "<p>Ces visions terribles cessent lorsque toutes les créatures ont quitté la zone affectée mais le danger se tient immédiatement prêt à infliger ses illusions à la prochaine créature qui entre.</p>",
+            "routine": "<p>(1 action). De terribles visions assaillent les esprits de toutes les créatures qui peuvent voir et se trouvent dans la zone affectée. Chaque créature doit effectuer un jet de @Check[will|dc:24].</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée.</p>\n<p><strong>Succès</strong> La créature est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec</strong> La créature subit @Damage[(2d8+9)[mental]]{2d8+9 dégâts mentaux} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 3}.</p>\n<p><strong>Échec critique</strong> La créature subit @Damage[(4d8+18)[mental]]{4d8+18 dégâts mentaux} et est @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Effrayée 4}.</p>",
+            "stealth": "<p>@Check[perception|dc:22|traits:action:seek] pour détecter l'aura magique subtile dans la zone</p>",
+            "items": {
+                "Fk4R8F6Vr2Lr7mZZ": {
+                    "name": "Entrer dans le champ des cauchemars",
+                    "description": "<p>Si une créature qui peut voir se déplace sur 3 mètres dans la zone affectée, le danger utilise sa Discrétion (+16) pour son jet d'initiative.</p>"
+                }
+            }
+        },
+        "Bugbear Marauder": {
+            "name": "Gobelours maraudeur",
+            "items": {
+                "UMd6rwUlzKFS3lvJ": {
+                    "name": "Javeline"
+                },
+                "cKYaNE7yKhd6hlHL": {
+                    "description": "<p>Les épées longues, également appelées épées d'armement, peuvent avoir un ou deux tranchants. Leurs lames sont lourdes et mesurent entre 1 et 1,20 mètre de long.</p>"
+                },
+                "i74S7XGGuuWnr88J": {
+                    "name": "Écharpeur",
+                    "description": "<p>Le maraudeur gobelours obtient un bonus de circonstances de +3 à ses jets de dégâts contre les créatures qu'il a @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agrippées}.</p>"
+                },
+                "iIaK3retIHJkXgrh": {
+                    "name": "Embûche",
+                    "description": "<p>Le maraudeur gobelours Marche rapidement sur une distance maximale de 3 mètres et tente de @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} une créature qui ne l'a pas détecté. Si le gobelours réussit, il inflige également des dégâts de poing à la créature.</p>"
+                },
+                "wBuoAb6EXYtmwPmo": {
+                    "name": "Épée longue"
+                },
+                "z7UOnDRw58SSvHLY": {
+                    "name": "Poing"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "gm": "system.details.privateNotes",
+        "blurb": "system.details.blurb",
+        "cadetails": "system.attributes.ac.details",
+        "hpdetails": "system.attributes.hp.details",
+        "languages": "system.details.languages.details",
+        "perception": "system.perception.details",
+        "saves": "system.attributes.allSaves.value",
+        "speeds": "system.attributes.speed.details",
+        "desc (hazard)": "system.details.description",
+        "disable": "system.details.disable",
+        "reset": "system.details.reset",
+        "routine": "system.details.routine",
+        "stealth": "system.attributes.stealth.details",
+        "target": "system.target.value",
+        "items": {
+            "path": "items",
+            "converter": "translateActorItems"
+        },
+        "AcrobaticsVariants": {
+            "path": "system.skills.acrobatics.special",
+            "converter": "translateSkillVariants"
+        },
+        "ArcanaVariants": {
+            "path": "system.skills.arcana.special",
+            "converter": "translateSkillVariants"
+        },
+        "AthleticsVariants": {
+            "path": "system.skills.athletics.special",
+            "converter": "translateSkillVariants"
+        },
+        "CraftingVariants": {
+            "path": "system.skills.crafting.special",
+            "converter": "translateSkillVariants"
+        },
+        "DeceptionVariants": {
+            "path": "system.skills.deception.special",
+            "converter": "translateSkillVariants"
+        },
+        "DiplomacyVariants": {
+            "path": "system.skills.diplomacy.special",
+            "converter": "translateSkillVariants"
+        },
+        "IntimidationVariants": {
+            "path": "system.skills.intimidation.special",
+            "converter": "translateSkillVariants"
+        },
+        "MedicineVariants": {
+            "path": "system.skills.medicine.special",
+            "converter": "translateSkillVariants"
+        },
+        "NatureVariants": {
+            "path": "system.skills.nature.special",
+            "converter": "translateSkillVariants"
+        },
+        "OccultismVariants": {
+            "path": "system.skills.occultism.special",
+            "converter": "translateSkillVariants"
+        },
+        "PerformanceVariants": {
+            "path": "system.skills.performance.special",
+            "converter": "translateSkillVariants"
+        },
+        "ReligionVariants": {
+            "path": "system.skills.religion.special",
+            "converter": "translateSkillVariants"
+        },
+        "SocietyVariants": {
+            "path": "system.skills.society.special",
+            "converter": "translateSkillVariants"
+        },
+        "StealthVariants": {
+            "path": "system.skills.stealth.special",
+            "converter": "translateSkillVariants"
+        },
+        "SurvivalVariants": {
+            "path": "system.skills.survival.special",
+            "converter": "translateSkillVariants"
+        },
+        "ThieveryVariants": {
+            "path": "system.skills.thievery.special",
+            "converter": "translateSkillVariants"
+        }
+    }
+}

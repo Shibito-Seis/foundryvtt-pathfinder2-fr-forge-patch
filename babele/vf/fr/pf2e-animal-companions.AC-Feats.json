@@ -1,0 +1,158 @@
+{
+    "label": "Dons (Animal Companions)",
+    "entries": {
+        "Wrecker": {
+            "name": "Démolisseur",
+            "description": "<p>Votre compagnon casse des tas de choses. Ses attaques à mains nues ignorent la moitié de la Solidité d'un objet. Il devient maître en Athlétisme et son modidificateur de Force augmente de +1.</p>"
+        },
+        "Bully": {
+            "name": "Brute",
+            "description": "<p>Votre compagnon terrorise les ennemis avec des démonstrations de son caractère dominant et les malmènent sur le champ de bataille. Il devient expert en Athlétisme et en Intimidation (ou maître s'il est déjà expert du fait de son type), son modificateur de Force augmente de +1 et son modificateur de Charisme augmente de +3.</p>"
+        },
+        "Auspicious Mount": {
+            "name": "Monture de bon augure",
+            "description": "<p>Grâce à vos soins permanents, votre destrier a développé des compétences et une intelligence incroyables. La monture que vous avez obtenue grâce à Fidèle destrier est à présent un compagnon animal spécialisé. Vous pouvez choisir l'une des spécialisations habituelles ou la spécialisation de bon augure. Les fidèles destriers avec une spécialisation de bon augure bénéficient des avantages suivants :</p>\n<li>Il obtient le trait céleste, fiélon ou veilleur le plus approprié pour les serviteurs de votre divinité et son apparence change pour mieux ressembler à de tels serviteurs. Il obtient également le trait saint si c'est un céleste ou le trait impie si c'est un fiélon.</li>\n<li>Son modificateur d'Intelligence augmente de 2 et son modificateur d'Intelligence augmente de 1.</li>\n<li>Il devient expert en Religion.</li>\n<li>Il peut parler la langue associée aux serviteurs de votre divinité (empyréen pour les célestes, chthonien pour les démons ou réquien pour les psychopompes).</li>\n<li>Ses Points de vie maximum augmentent de 20, passant à 25 au niveau 18 et à 30 au niveau 20. Si la monture possède le trait céleste, les PV supplémentaires augmentent de 5 et la monture obtient une faiblesse 5 contre les dégâts impies. Si elle a le trait fiélon, les PV supplémentaires augmentent de 5 et la monture obtient une faiblesse 5 contre les dégâts saints.</li>\n<li>Il obtient des ailes qui lui accordent une Vitesse de vol égale à sa vitesse au sol.</li>\n</ul>",
+            "rules": {
+                "4": {
+                    "prompt": "COMP.Prompt.Specialized"
+                }
+            }
+        },
+        "Genie-Touched Companion": {
+            "name": "Compagnon touché par un génie",
+            "description": "<p>Si vous prenez un don qui vous permettrait normalement de choisir d'avoir un compagnon animal sauvage ou agile, vous pouvez choisir à la place qu'il devienne un compagnon touché par un génie. Lorsque vous choisissez ce don, sélectionnez le type de génie dont le pouvoir imprègne votre compagnon. Les génies et leurs traits élémentaires sont les suivants : djinn (air), éfrit (feu), marid (eau) ou shaitan (terre). Un compagnon touché par un génie augmente son modificateur de Sagesse de +2 et ses modificateurs de Force, de Dextérité et de Constitution de +1. Il inflige 3 dégâts supplémentaires avec ses attaques à mains nues. Ces dégâts sont des dégâts de feu pour un compagnon touché par un éfrit ou du même type que son attaque à mains nues pour les autres. Il obtient une résistance 5 contre les dégâts d'un type dépendant du génie : acide pour un djinn, feu pour un éfrit ou un marid et électricité pour un shaitan. Si le compagnon est touché par un djinn ou un éfrit, il devient expert en Acrobaties ; s'il est touché par un marid ou un shaitan, il devient expert en Athlétisme. Il apprend également la manœuvre avancée correspondant à son type. Ses attaques sont considérées comme magiques lorsqu'il s'agit d'ignorer les résistances et elles obtiennent le trait élémentaire du génie.</p>\n<p>Les compagnons touchés par un génie peuvent choisir parmi les options suivantes lorsqu'ils deviennent des compagnons animaux spécialisés.</p>"
+        },
+        "Specialized Animal Companion": {
+            "name": "Compagnon animal spécialisé",
+            "description": "<p>Les compagnons animaux spécialisés sont plus intelligents et adoptent des comportements plus complexes. La plupart des compagnons animaux ne peuvent avoir qu'une seule spécialisation. La première fois qu'un animal obtient une spécialisation, il obtient également les avantages suivants :</p>\n<ul>\n  <li>Il devient expert en attaques à mains nues.</li>\n  <li>Il devient maître en jets de sauvegarde et en Perception.</li>\n  <li>Son modificateur de Dextérité augmente de +1 et son modificateur d'Intelligence de +2.</li>\n  <li>Les dégâts de ses attaques à mains nues passent de deux dés à trois dés et les dégâts supplémentaires de ses attaques à mains nues passent de 2 à 4 ou de 3 à 6.</li>\n</ul>",
+            "rules": {
+                "4": {
+                    "prompt": "COMP.Prompt.Specialized"
+                }
+            }
+        },
+        "Mature Animal Companion": {
+            "name": "Compagnon animal adulte",
+            "description": "<p>Lorsque vous passez un compagnon animal de jeune à adulte :</p>\n<ul>\n    <li>Si votre compagnon est de taille Moyenne ou inférieure, il grandit d'une taille</li>\n    <li>Augmentez ses modificateurs de Force, de Dextérité, de Constitution et de Sagesse de +1.</li>\n    <li>Il devient expert en Perception et avec tous les jets de sauvegarde. Il devient qualifié en Intimidation, en Discrétion et en Survie et s'il était déjà qualifié dans l'une de ces compétences du fait de son type, il devient expert dans cette compétence.</li>\n    <li>Ses dégâts d'attaque à mains nues passent de un à deux dés (par exemple de 1d8 à 2d8)</li>\n</ul>"
+        },
+        "Peerless Mascot": {
+            "name": "Mascotte sans pareille",
+            "description": "<p>Un compagnon du commandant avec la spécialisation Mascotte sans pareille obtient les avantages suivants.</p>\n<ul>\n<li>Il obtient une aura de 9 mètres qui accorde les mêmes avantages que votre bannière, agissant effectivement comme une seconde bannière. Si votre bannière est fixée à votre compagnon pour le moment, il s'agit d'une unique aura de 18 mètres (ceci inclut l'avantage de l'aura augmentée par Compagnon éprouvé au combat). Si vous obtenez ensuite le don Bannière glorieuse, votre bannière confère une aura de 30 mètres lorsqu'elle est fixée à votre compagnon mascotte sans pareille.</li>\n<li>Il obtient le trait bête.</li>\n<li>Son modificateur d'Intelligence augmente de 2 et son modificateur de Sagesse augmente de 1.</li>\n<li>Il est expert en Connaissance de la guerre.</li>\n<li>Il peut parler une langue que vous parlez également (choisie au moment où vous obtenez ce don).</li>\n<li>Son maximum de Points de vie augmente de 20, passant à 25 au niveau 18 et 30 au niveau 20.</li>\n<li>Sa maîtrise de toutes sortes de champs de bataille lui accorde une vitesse d'escalade et de nage égale à sa vitesse au sol. S'il possède déjà une Vitesse supérieure à sa vitesse au sol, il bénéficie alors d'une Vitesse d'escalade, d'une Vitesse de nage et d'une Vitesse au sol égales à sa Vitesse la plus élevée.</li>\n</ul>"
+        },
+        "Steadfast Strider": {
+            "name": "Monture inébranlable",
+            "description": "<p>Votre compagnon ignore le terrain difficile et le terrain très difficile fait de sédiments ou de pierre et peut se déplacer à travers les sables mouvants, la boue et des surfaces similaires, comme s'il s'agissait d'une surface solide. Il obtient un bonus de statut de +2 à ses jets de sauvegarde et à son DD pour éviter d'être Poussé ou de subir un Croc-en-jambe. Son modificateur de Force augmente de +1 et il devient expert en défense avec une barde. Cette spécialisation ne peut être séléctionnée que par les compagnons touchés par un shaitan.</p>"
+        },
+        "Ferocious Charge": {
+            "name": "Charge féroce",
+            "description": "<p>Le compagnon Marche rapidement à deux fois sa Vitesse en ligne droite et porte une Frappe de bois, de corne ou de tête. S'il s'est déplacé d'au moins 6 mètres, il inflige 1d8 dégâts supplémentaires. Ces dégâts passent à 2d8 si votre compagnon est spécialisé. Le compagnon peut utiliser Charge féroce en Creusant, Escaladant, Nageant ou Volant au lieu de Marcher rapidement s'il dispose du type de déplacement correspondant.</p>"
+        },
+        "Billowing Wings": {
+            "name": "Ailes déployées",
+            "description": "<p>Vous avez entraîné vos compagnons ailés à accumuler de l'air dans leurs ailes, ce qui leur permet d'envoyer une rafale de vent concentrée sur leurs adversaires, pour tenter de les faire tituber. Vos compagnons avec des ailes obtiennent une attaque à mains nues à distance de bourrasque, qui inflige 1d4 dégâts contondants avec une portée de 9 mètres et possède les traits air et propulsif. Sur un coup critique, la cible est repoussée de 1,50 mètre. C'est un déplacement forcé.</p>",
+            "rules": {
+                "1": {
+                    "text": "En cas de coup critique, la cible est repoussée de 1,50 mètre. C'est un déplacement forcé."
+                }
+            }
+        },
+        "Nature's Precision": {
+            "name": "Précision de la nature",
+            "description": "<p>Vos compagnons s'attaquent aux points faibles d'un ennemi. Lorsque votre compagnon frappe une créature @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prise au dépourvu} avec une attaque à mains nues agile ou de finesse, il inflige 1d4 dégâts de précision supplémentaires (2d4 si le compagnon animal est spécialisé). Si le compagnon inflige déjà des dégâts de précision, combinez les dégâts de précision.</p>"
+        },
+        "Tracker": {
+            "name": "Pisteur",
+            "description": "<p>Votre compagnon est un pisteur sans pareil. Il peut se mouvoir à pleine Vitesse lorsqu'il suit une piste. Il devient expert en Survie (ou maître s'il est déjà expert dans cette compétence du fait de son type) et son modificateur de Sagesse augmente de +1.</p>"
+        },
+        "Sinking Jaws": {
+            "name": "Mâchoires plongeantes",
+            "description": "<p><strong>Conditions</strong> Ce compagnon a Agrippé ou Entravé une créature avec ses mâchoires ou ses crocs</p>\n<hr />\n<p><strong>Effet</strong> Cet adversaire agrippé ou entravé par votre compagnon subit des dégâts perforants égaux au niveau du compagnon plus son modificateur de Force (@Damage[(@actor.level + @actor.abilities.str.mod)[piercing]]).</p>"
+        },
+        "Daredevil": {
+            "name": "Casse-cou",
+            "description": "<p>Votre compagnon animal rejoint la mêlée en effectuant des bonds et des plongeons gracieux. Il obtient la capacité @UUID[Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC]{Refuser l'avantage} de sorte qu'il n'est pas @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Pris au dépourvu} à l'encontre des créatures qui sont @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Cachées}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Non détectées} ou qui le prennent en tenaille à moins que la créature ne soit d'un niveau supérieur au vôtre. Il devient maître en Acrobaties et son modificateur de Dextérité augmente de +1. Il devient expert en défense sans armure.</p>"
+        },
+        "Faithful Steed": {
+            "name": "Fidèle destrier",
+            "description": "<p>Votre monture obtient le trait saint ou impie, comme les Frappes de la monture.</p>"
+        },
+        "Ambusher": {
+            "name": "Piègeur",
+            "description": "<p>Dans son environnement naturel, votre compagnon peut utiliser l'action @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Être furtif} même s'il est Observé. Il devient expert en Discrétion (ou maître s'il est déjà expert dans cette compétence du fait de son type) et son modificateur de Dextérité augmente de +1. Il devient expert en défense sans armure.</p>"
+        },
+        "Nimble Animal Companion": {
+            "name": "Compagnon animal agile",
+            "description": "<p>Pour faire passer un compagnon animal d'adulte à un compagnon animal agile :</p>\n<ul>\n    <li>Augmentez son modificateur de Dextérité de +2 et ses modificateurs de Force, de Constitution et de Sagesse de +1. </li>\n    <li>Il devient expert en Acrobaties.</li>\n    <li>Il inflige 2 dégâts supplémentaires avec ses attaques à mains nues. Ses attaques deviennent magiques lorsqu'il s'agit de franchir des résistances.</li>\n    <li>Il apprend également la manœuvre avancée de son type</li>\n</ul>"
+        },
+        "Deep Diver": {
+            "name": "Plongeur profond",
+            "description": "<p>Votre compagnon spécialisé obtient une Vitesse de nage de 9 mètres ou un bonus de statut de +3 mètres s'il possède déjà une Vitesse de nage et peut respirer sous l'eau si ce n'était pas déjà le cas. Son modificateur en Constitution augmente de +1. Il devient maître en Athlétisme et expert en barde. Cette spécialisation ne peut être sélectionnée que par les compagnons animaux touchés par une maride.</p>"
+        },
+        "Wind Chaser": {
+            "name": "Chasse-vent",
+            "description": "<p>Votre compagnon obtient un bonus de statut de +6 mètres à sa Vitesse ou à sa Vitesse de vol (selon votre choix s'il a les deux). Il devient maître en Acrobaties et son modificateur de Dextérité augmente de +1. Il devient légendaire en Réflexes et expert en défense sans armure. Cette spécialisation ne peut être sélectionnée que par les compagnons animaux touchés par un djinn.</p>",
+            "rules": {
+                "0": {
+                    "prompt": "Quelle vitesse devrait obtenir un bonus?"
+                }
+            }
+        },
+        "Heightened Instincts": {
+            "name": "Instincts exacerbés",
+            "description": "<p>Vous avez travaillé à aiguiser les instincts de vos compagnons à des niveaux surnaturels. Lorsque l'un de vos compagnons animaux obtient un succès sur un jet de sauvegarde, il devient un succès critique.</p>"
+        },
+        "Auspice": {
+            "name": "de bon augure",
+            "description": "<p>Un fidèle destrier avec la spécialisation de bon augure obtient les avantages suivants.</p>\n<ul>\n<li>Il obtient le trait céleste, fiélon ou veilleur le plus approprié pour les serviteurs de votre divinité et son apparence change pour mieux ressembler à de tels serviteurs. Il obtient également le trait saint si c'est un céleste ou le trait impie si c'est un fiélon.</li>\n<li>Son modificateur d'Intelligence augmente de 2 et son modificateur d'Intelligence augmente de 1.</li>\n<li>Il devient expert en Religion.</li>\n<li>Il peut parler la langue associée aux serviteurs de votre divinité (empyréen pour les célestes, chthonien pour les démons ou réquien pour les psychopompes).</li>\n<li>Ses Points de vie maximum augmentent de 20, passant à 25 au niveau 18 et à 30 au niveau 20. Si la monture possède le trait céleste, les PV supplémentaires augmentent de 5 et la monture obtient une faiblesse 5 contre les dégâts impies. Si elle a le trait fiélon, les PV supplémentaires augmentent de 5 et la monture obtient une faiblesse 5 contre les dégâts saints.</li>\n<li>Il obtient des ailes qui lui accordent une Vitesse de vol égale à sa vitesse au sol.</li></ul>",
+            "rules": {
+                "0": {
+                    "prompt": "Choisissez un compagnon spécialisé auquel vous avez accès"
+                }
+            }
+        },
+        "Running Kick": {
+            "name": "Ruade au passage",
+            "description": "<p>Ce compagnon Marche rapidement de deux fois sa Vitesse au maximum et porte une Frappe de sabot, de pied ou de serre à n'importe quel moment au cours de ce déplacement. Ce déplacement ne provoque pas de réaction d'une créature blessée par la Frappe.</p>"
+        },
+        "Vicious Rend": {
+            "name": "Éventration vicieuse",
+            "description": "<p>Portez deux Frappes de griffe, de pince, de poing ou de serre contre la même cible, appliquant la pénalité d'attaques multiples ordinaire. Si les deux Frappes touchent, la cible inflige @Damage[1d6[bleed]]{1d6 dégâts de saignement}. Ces dégâts passent à 2d6 si votre compagnon est spécialisé.</p>"
+        },
+        "Savage Animal Companion": {
+            "name": "Compagnon animal sauvage",
+            "description": "<p>Pour faire passer un compagnon animal d'adulte à sauvage, augmentez son modificateur de Force de +2 et ses modificateurs de Dextérité, de Constitution et de Sagesse de +1. Il inflige 3 dégâts supplémentaires à ses attaques à mains nues. Il devient expert en Athlétisme. Il apprend également la manœuvre avancée de son type. Si votre compagnon est de taille Moyenne ou inférieure, il grandit d'une taille. Ses attaques deviennent magiques lorsqu'il s'agit de franchir les résistances.</p>"
+        },
+        "Sweeping Tail": {
+            "name": "Queue fouettante",
+            "description": "<p>Ce compagnon porte deux Frappes de queue contre des créatures différentes dans son allonge, en augmentant sa pénalité d'attaques multiples comme à l'ordinaire. S'il touche, il repousse une cible de 1,50 mètre ou de 3 mètres en cas de coup critique. C'est un déplacement forcé.</p>"
+        },
+        "Wildfire Scorcher": {
+            "name": "Brûleur de feu sauvage",
+            "description": "<p>Votre compagnon obtient une résistance au feu égale à votre niveau. Toute créature qui tente de le @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Saisir} ou de l'Agripper, de l'attaquer à mains nues ou de le Frapper avec une arme de corps-à-corps alors qu'elle est sur une case adjacente à votre compagnon subit @Damage[2d6[fire]]{2d6 dégâts de feu}. Son modificateur de Dextérité augmente de 1. Il devient légendaire en Réflexes et expert en défense sans armure. Cette spécialisation ne peut être sélectionnée que par les compagnons touchés par un ifrit.</p>"
+        },
+        "Racer": {
+            "name": "Coureur",
+            "description": "<p>Votre compagnon court vite. Il obtient un bonus de statut de +3 mètres à sa Vitesse, sa Vitesse de nage ou sa Vitesse de vol (selon votre choix). Il devient légendaire en jets de Vigueur et son modificateur de Constitution augmente de +1.</p>"
+        },
+        "Shade": {
+            "name": "Ombreux",
+            "description": "<p><strong>Accès</strong> Incantateur de l'ombre</p>\n<hr />\n<p>La forme physique de votre compagnon animal est faite en partie ou en totalité d'ombres. Il obtient vision dans le noir, une résistance 5 contre tous les dégâts sauf ceux de force et, dans les zones de lumière faible ou de ténèbres, il peut Faire un pas de 3 mètres au lieu d'un pas de 1,50 mètre. Il devient expert en défense sans armure ou maître si il est agile.</p>"
+        },
+        "Indomitable Animal Companion": {
+            "name": "Compagnon animal indomptable",
+            "description": "<p>Un compagnon animal indomptable augmente son modificateur de Constitution de +2 et ses modificateurs de Force, de Dextérité et de Sagesse de +1. Il inflige 3 dégâts supplémentaires avec ses attaques à mains nues. Il devient expert en Athlétisme et expert en barde. Il apprend également la manœuvre avancée de son type. Si votre compagnon est de taille Moyenne ou inférieure, il grandit d'une taille. Ses attaques sont considérées comme magiques lorsqu'il s'agit de franchir les résistances.</p>"
+        },
+        "Unseen Animal Companion": {
+            "name": "Compagnon animal jamais vu",
+            "description": "<p>Les compagnons animaux cryptides ont une apparence un peu particulière avec souvent des caractéristiques étranges ou qui semblent provenir d'un animal différent. Si vous prenez un don qui vous permettrait normalement de choisir de faire de votre compagnon un compagnon animal sauvage ou agile, vous pouvez choisir d'en faire à la place un compagnon animal jamais vu. Un compagnon animal jamais vu augmente son modificateur de Sagesse de +2 et ses modificateurs de Force, de Dextérité et de Constitution de +1. Il inflige 3 dégâts supplémentaires avec ses attaques à mains nues et inflige 1d4 dégâts de précision supplémentaires contre des cibles Prises au dépourvu (si le compagnon animal inflige déjà des dégâts de précision, comme un félin, combinez les dégâts de précision). Il devient expert en Discrétion. Il apprend également la manœuvre avancée de son type.</p>"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}

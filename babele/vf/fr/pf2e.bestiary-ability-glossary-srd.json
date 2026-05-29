@@ -1,0 +1,189 @@
+{
+    "label": "Capacités des monstres",
+    "entries": {
+        "Poison": {
+            "name": "Poison"
+        },
+        "Telepathy": {
+            "name": "Télépathie"
+        },
+        "Rend": {
+            "name": "Éventration"
+        },
+        "Engulf": {
+            "name": "Engloutissement",
+            "description": "<p>Jet de @Check[reflex|dc:], @Damage[(0)[damageType]]{0 dégât}, [[/act escape dc=0]]{S'échapper}, Rupture [0]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
+        },
+        "Wavesense": {
+            "name": "Perception des ondes"
+        },
+        "Catch Rock": {
+            "name": "Interception de rochers"
+        },
+        "Retributive Strike": {
+            "name": "Frappe punitive"
+        },
+        "Greater Constrict": {
+            "name": "Constriction supérieure",
+            "description": "<p>@Damage[(0)[bludgeoning]]{0 contondant}, @Check[fortitude|dc:|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+        },
+        "Form Up": {
+            "name": "Se reformer"
+        },
+        "+1 Status to All Saves vs. Magic": {
+            "name": "Bonus de statut de +1 aux jets de sauvegarde contre la magie"
+        },
+        "Aquatic Ambush": {
+            "name": "Embuscade aquatique"
+        },
+        "Disease": {
+            "name": "Maladie"
+        },
+        "Stench": {
+            "name": "Puanteur",
+            "description": "<p>0 mètre. @Check[fortitude|dc:|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
+        },
+        "Trample": {
+            "name": "Piétinement",
+            "description": "<p>[Taille], [Frappe indiquée], @Check[reflex|dc:|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "Reactive Strike": {
+            "name": "Frappe réactive"
+        },
+        "Constant Spells": {
+            "name": "Sorts constants"
+        },
+        "Change Formation": {
+            "name": "Changer de formation"
+        },
+        "Shield Block": {
+            "name": "Blocage au bouclier"
+        },
+        "Attack of Opportunity": {
+            "name": "Frappe réactive"
+        },
+        "Troop Defenses": {
+            "name": "Défenses des troupes"
+        },
+        "Change Shape": {
+            "name": "Changement de forme"
+        },
+        "Ferocity": {
+            "name": "Férocité"
+        },
+        "Improved Grab": {
+            "name": "Agrippement améliorés"
+        },
+        "Pull": {
+            "name": "Attirer"
+        },
+        "Scent": {
+            "name": "Odorat"
+        },
+        "Improved Knockdown": {
+            "name": "Renversement amélioré"
+        },
+        "At-Will Spells": {
+            "name": "Sorts à volonté"
+        },
+        "Greater Darkvision": {
+            "name": "Vision dans le noir supérieure"
+        },
+        "Fast Healing": {
+            "name": "Guérison accélérée"
+        },
+        "Troop Movement": {
+            "name": "Déplacement des troupes"
+        },
+        "Nimble Dodge": {
+            "name": "Esquive agile",
+            "description": "<p><strong>Déclencheur</strong> Une créature vous cible avec une attaque et vous pouvez voir l'attaquant.</p>\n<p><strong>Conditions</strong> Vous n'êtes pas Surchargé</p>\n<hr />\n<p>Vous esquivez habilement le coup et obtenez un bonus de circonstances de +2 à la CA contre l'attaque déclencheuse.</p>"
+        },
+        "Low-Light Vision": {
+            "name": "Vision nocturne"
+        },
+        "Improved Push": {
+            "name": "Bousculade améliorée"
+        },
+        "Throw Rock": {
+            "name": "Projection de rochers"
+        },
+        "Thoughtsense": {
+            "name": "Perception des pensées"
+        },
+        "Darkvision": {
+            "name": "Vision dans le noir"
+        },
+        "Aura": {
+            "name": "Aura"
+        },
+        "All-Around Vision": {
+            "name": "Vision panoramique"
+        },
+        "Sneak Attack": {
+            "name": "Attaque sournoise",
+            "description": "<p>Les Frappes de la créature infligent 1d6 dégâts de précision supplémentaires aux créatures @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Prises au dépourvu}.</p>"
+        },
+        "Tremorsense": {
+            "name": "Perception des vibrations"
+        },
+        "Knockdown": {
+            "name": "Renversement"
+        },
+        "Swallow Whole": {
+            "name": "Gober",
+            "description": "<p>[Taille indiquée], @Damage[0[bludgeoning]]{0 contondant}, Rupture [0]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "Lifesense": {
+            "name": "Perception de la vie"
+        },
+        "Grab": {
+            "name": "Agrippement"
+        },
+        "Coven": {
+            "name": "Cercle"
+        },
+        "Regeneration": {
+            "name": "Régénération"
+        },
+        "Constrict": {
+            "name": "Constriction",
+            "description": "<p>@Damage[(0)[bludgeoning]]{0 contondant}, @Check[fortitude|dc:|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "Void Healing": {
+            "name": "Guérison du vide"
+        },
+        "Buck": {
+            "name": "Désarçonner",
+            "description": "<p>@Check[reflex|dc:]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+        },
+        "Frightful Presence": {
+            "name": "Présence terrifiante",
+            "description": "<p>0 mètres. @Check[will|dc:|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+        },
+        "Master's Eye": {
+            "name": "Yeux du maître",
+            "description": "<p>Le maître observe le monde à travers les yeux du raktavarna au lieu des siens, en utilisant la Perception et la vision dans le noir du raktavarna. Cela dure jusqu'à la fin du prochain tour du maître, mais le maître peut Maintenir l'activité.</p>\n<p>Cette capacité fonctionne quelle que soit la portée, même sur différents plans d'existence. Si le raktavarna meurt alors que son maître utilise cette capacité, le maître est @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Étourdi 5}.</p>"
+        },
+        "Swarm Mind": {
+            "name": "Esprit de la nuée"
+        },
+        "Power Attack": {
+            "name": "Attaque en puissance"
+        },
+        "Light Blindness": {
+            "name": "Aveuglé par la lumière"
+        },
+        "Push": {
+            "name": "Bousculade"
+        }
+    },
+    "mapping": {
+        "description": "system.description.value",
+        "gm": "system.description.gm",
+        "rules": {
+            "path": "system.rules",
+            "converter": "translateRules"
+        }
+    }
+}
